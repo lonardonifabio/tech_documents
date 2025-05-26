@@ -1,6 +1,6 @@
 const { useState, useEffect } = React;
 
-// Componente per singolo documento
+// Single document component
 const DocumentCard = ({ doc }) => (
     <div className="border rounded-lg p-4 hover:shadow-lg transition-shadow bg-white">
         <h3 className="font-semibold text-lg mb-2 text-gray-800">{doc.filename}</h3>
@@ -28,21 +28,21 @@ const DocumentCard = ({ doc }) => (
 
         <div className="flex justify-between items-center">
             <span className="text-xs text-gray-500">
-                {new Date(doc.upload_date).toLocaleDateString('it-IT')}
+                {new Date(doc.upload_date).toLocaleDateString('en-US')}
             </span>
             <a
-                href={`https://github.com/lonardonifabio/tech_documents/blob/main/$*7Bdoc.filepath*7D `}
+                href={`https://github.com/lonardonifabio/tech_documents/blob/main/${doc.filepath}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline text-sm font-medium"
             >
-                Visualizza →
+                View →
             </a>
         </div>
     </div>
 );
 
-// Componente filtri di ricerca
+// Search filters component
 const SearchFilters = ({
     searchTerm, setSearchTerm,
     selectedCategory, setSelectedCategory,
@@ -52,7 +52,7 @@ const SearchFilters = ({
     <div className="mb-8 space-y-4 bg-gray-50 p-6 rounded-lg">
         <input
             type="text"
-            placeholder="🔍 Cerca documenti, keywords, argomenti..."
+            placeholder="🔍 Search documents, keywords, topics..."
             className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
@@ -64,7 +64,7 @@ const SearchFilters = ({
                 value={selectedCategory}
                 onChange={(e) => setSelectedCategory(e.target.value)}
             >
-                <option value="">📂 Tutte le categorie</option>
+                <option value="">📂 All categories</option>
                 {categories.map(cat => (
                     <option key={cat} value={cat}>{cat}</option>
                 ))}
@@ -75,7 +75,7 @@ const SearchFilters = ({
                 value={selectedDifficulty}
                 onChange={(e) => setSelectedDifficulty(e.target.value)}
             >
-                <option value="">🎯 Tutti i livelli</option>
+                <option value="">🎯 All levels</option>
                 {difficulties.map(diff => (
                     <option key={diff} value={diff}>{diff}</option>
                 ))}
@@ -84,7 +84,7 @@ const SearchFilters = ({
     </div>
 );
 
-// Componente principale
+// Main component
 const DocumentLibrary = () => {
     const [documents, setDocuments] = useState([]);
     const [filteredDocs, setFilteredDocs] = useState([]);
@@ -94,7 +94,7 @@ const DocumentLibrary = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('./dist/data/documents.json')
+        fetch('./data/documents.json')
             .then(response => response.json())
             .then(data => {
                 setDocuments(data);
@@ -140,7 +140,7 @@ const DocumentLibrary = () => {
             <div className="min-h-screen bg-gray-100 flex items-center justify-center">
                 <div className="text-center">
                     <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
-                    <p className="text-gray-600">Caricamento documenti...</p>
+                    <p className="text-gray-600">Loading documents...</p>
                 </div>
             </div>
         );
@@ -154,10 +154,10 @@ const DocumentLibrary = () => {
                         🤖 AI & Data Science Library
                     </h1>
                     <p className="text-xl text-gray-600 mb-2">
-                        Raccolta automatizzata di documenti su Intelligenza Artificiale e Data Science
+                        Automated collection of Artificial Intelligence and Data Science documents
                     </p>
                     <p className="text-sm text-gray-500">
-                        {documents.length} documenti • Aggiornato automaticamente
+                        {documents.length} documents • Automatically updated
                     </p>
                 </header>
 
@@ -175,7 +175,7 @@ const DocumentLibrary = () => {
                 {filteredDocs.length > 0 ? (
                     <>
                         <div className="mb-4 text-sm text-gray-600">
-                            Mostrando {filteredDocs.length} di {documents.length} documenti
+                            Showing {filteredDocs.length} of {documents.length} documents
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                             {filteredDocs.map(doc => (
@@ -187,10 +187,10 @@ const DocumentLibrary = () => {
                     <div className="text-center py-16">
                         <div className="text-6xl mb-4">📭</div>
                         <h3 className="text-xl font-semibold text-gray-700 mb-2">
-                            Nessun documento trovato
+                            No documents found
                         </h3>
                         <p className="text-gray-500">
-                            Prova a modificare i criteri di ricerca
+                            Try modifying your search criteria
                         </p>
                     </div>
                 )}
@@ -199,5 +199,5 @@ const DocumentLibrary = () => {
     );
 };
 
-// Render dell'app
+// Render the app
 ReactDOM.render(<DocumentLibrary />, document.getElementById('root'));
