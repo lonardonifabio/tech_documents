@@ -137,15 +137,6 @@ Each document in `documents.json` contains:
   "content_preview": "First 500 characters of content..."
 }
 ```
-
-## 🌍 Multilingual Support
-
-The interface supports:
-- **English** (default)
-- **Italian**
-
-Language preference is automatically saved in browser localStorage.
-
 ## 🚀 Deployment
 
 ### GitHub Pages
