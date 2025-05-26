@@ -24,8 +24,21 @@ jobs:
     - name: Install Ollama
       run: |
         curl -fsSL https://ollama.ai/install.sh  | sh
-        ollama serve &
+        
+        # Kill any process using port 11434
+        PID=$(lsof -ti:11434) || true
+        if [ ! -z "$PID" ]; then
+          echo "Killing process on port 11434 (PID: $PID)"
+          kill -9 $PID
+        fi
+    
+        # Start Ollama
+        nohup ollama serve > /tmp/ollama.log 2>&1 &
+    
+        # Wait a bit for Ollama to be ready
         sleep 10
+    
+        # Pull model
         ollama pull llama2:7b
 
     - name: Install Python dependencies
