@@ -1,18 +1,20 @@
-# .github/workflows/process-documents.yml
-name: Process New Documents
+name: Process Documents and Deploy
 
 on:
   push:
     paths:
       - 'documents/**'
+      - 'src/**'
   workflow_dispatch:
 
 jobs:
-  process-documents:
+  process-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  # Assicurati di avere la cronologia completa
 
     - name: Setup Python
       uses: actions/setup-python@v4
@@ -26,15 +28,23 @@ jobs:
         sleep 10
         ollama pull llama2:7b
 
-    - name: Install dependencies
+    - name: Install Python dependencies
       run: |
-        pip install langchain ollama pypdf2 python-docx
+        pip install -r scripts/requirements.txt
 
     - name: Process documents
-      run: python scripts/process_documents.py
+      run: |
+        python scripts/process_documents.py
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.REP }}
-        publish_dir: ./dist
+    - name: Build site
+      run: |
+        python scripts/build.py
+
+    - name: Deploy to main branch
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git checkout main
+        git add ./dist  # Aggiungi i file generati
+        git commit -m "Deploy: Update site content" || echo "No changes to commit"
+        git push https://lonardonifabio:${{ secrets.REP }}@github.com/lonardonifabio/tech_documents.git main
