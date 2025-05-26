@@ -62,21 +62,34 @@ class DocumentProcessor:
         ```
         """
 
-        response = ollama.generate(model='llama2:7b', prompt=prompt)
+        # Default values in case of any error
+        default_metadata = {
+            "summary": "Documento di intelligenza artificiale e data science",
+            "keywords": ["AI", "Data Science"],
+            "category": "General",
+            "difficulty": "Intermediate"
+        }
 
         try:
+            response = ollama.generate(model='llama2:7b', prompt=prompt)
+            
             # Estrai JSON dalla risposta
             json_start = response['response'].find('{')
             json_end = response['response'].rfind('}') + 1
             json_str = response['response'][json_start:json_end]
-            return json.loads(json_str)
-        except:
-            return {
-                "summary": "Documento di intelligenza artificiale e data science",
-                "keywords": ["AI", "Data Science"],
-                "category": "General",
-                "difficulty": "Intermediate"
-            }
+            parsed_metadata = json.loads(json_str)
+            
+            # Ensure all required keys exist, use defaults for missing ones
+            result = {}
+            result["summary"] = parsed_metadata.get("summary", default_metadata["summary"])
+            result["keywords"] = parsed_metadata.get("keywords", default_metadata["keywords"])
+            result["category"] = parsed_metadata.get("category", default_metadata["category"])
+            result["difficulty"] = parsed_metadata.get("difficulty", default_metadata["difficulty"])
+            
+            return result
+        except Exception as e:
+            print(f"Error processing with Llama: {e}. Using default metadata.")
+            return default_metadata
 
     def process_documents(self):
         documents_dir = Path('documents')
