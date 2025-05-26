@@ -9,7 +9,7 @@ const DocumentLibrary = () => {
 
   useEffect(() => {
     // Carica documenti da GitHub Pages
-    fetch('/data/documents.json')
+    fetch('/dist/data/documents.json')
       .then(response => response.json())
       .then(data => {
         setDocuments(data);
@@ -110,7 +110,7 @@ const DocumentLibrary = () => {
 
             <div className="mt-3">
               <a
-                href={`https://urldefense.com/v3/__https://github.com/lonardonifabio/Artificial-Intelligence-and-Data-Science/blob/main/$*7Bdoc.filepath*7D__;JSU!!O7V3aRRsHkZJLA!F3Syx2lToBoXOMj33uvK2bhvZxr1LZGxdR9M9aREW5PeS6J1-Z2VdgOw1GeQO578ohCEIAd1RLCkErxg8HhseCUUyjnv$ `}
+                href={`https://github.com/lonardonifabio/tech_documents/blob/main/$*7Bdoc.filepath*7D `}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline text-sm"
