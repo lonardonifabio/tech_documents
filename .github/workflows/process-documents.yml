@@ -47,4 +47,5 @@ jobs:
         git checkout main
         git add ./dist  # Aggiungi i file generati
         git commit -m "Deploy: Update site content" || echo "No changes to commit"
-        git push origin main
+        git push https://<YOUR_USERNAME>:${{ secrets.REP }}@github.com/lonardonifabio/tech_documents.git main
+
