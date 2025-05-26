@@ -94,7 +94,7 @@ const DocumentLibrary = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('./data/documents.json')
+        fetch('./dist/data/documents.json')
             .then(response => response.json())
             .then(data => {
                 setDocuments(data);
