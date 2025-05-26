@@ -4,7 +4,9 @@ import hashlib
 from datetime import datetime
 from pathlib import Path
 import ollama
-from langchain.document_loaders import PyPDFLoader, Docx2txtLoader from langchain.text_splitter import RecursiveCharacterTextSplitter from langchain.schema import Document
+from langchain.document_loaders import PyPDFLoader, Docx2txtLoader 
+from langchain.text_splitter import RecursiveCharacterTextSplitter 
+from langchain.schema import Document
 
 class DocumentProcessor:
     def __init__(self):
