@@ -30,14 +30,14 @@ class DocumentProcessor:
 
     def load_document(self, filepath):
         file_ext = Path(filepath).suffix.lower()
-
+    
         if file_ext == '.pdf':
-            loader = PyPDFLoader(filepath)
+            loader = PyPDFLoader(str(filepath))  # Converti in stringa
         elif file_ext in ['.docx', '.doc']:
-            loader = Docx2txtLoader(filepath)
+            loader = Docx2txtLoader(str(filepath))  # Converti in stringa
         else:
             return None
-
+    
         return loader.load()
 
     def summarize_with_llama(self, text):
