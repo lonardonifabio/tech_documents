@@ -14,7 +14,7 @@ class DocumentProcessor:
         self.documents_db = []
 
     def load_processed_files(self):
-        if os.path.exists('dist/data/processed_files.json'):
+        if os.path.exists('data/processed_files.json'):
             with open('data/processed_files.json', 'r') as f:
                 return json.load(f)
         return {}
