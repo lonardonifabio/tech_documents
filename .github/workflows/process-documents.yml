@@ -1,14 +1,14 @@
-# .github/workflows/process-documents.yml
-name: Process New Documents
+name: Process Documents and Deploy
 
 on:
   push:
     paths:
       - 'documents/**'
+      - 'src/**'
   workflow_dispatch:
 
 jobs:
-  process-documents:
+  process-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,12 +26,17 @@ jobs:
         sleep 10
         ollama pull llama2:7b
 
-    - name: Install dependencies
+    - name: Install Python dependencies
       run: |
-        pip install langchain ollama pypdf2 python-docx
+        pip install -r scripts/requirements.txt
 
     - name: Process documents
-      run: python scripts/process_documents.py
+      run: |
+        python scripts/process_documents.py
+
+    - name: Build site
+      run: |
+        python scripts/build.py
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
