@@ -8,7 +8,7 @@ const DocumentLibrary = () => {
   const [selectedDifficulty, setSelectedDifficulty] = useState('');
 
   useEffect(() => {
-    // Carica documenti da GitHub Pages
+    // Load documents from GitHub Pages
     fetch('/dist/data/documents.json')
       .then(response => response.json())
       .then(data => {
@@ -49,11 +49,11 @@ const DocumentLibrary = () => {
     <div className="max-w-6xl mx-auto p-6">
       <h1 className="text-3xl font-bold mb-8">AI & Data Science Document Library</h1>
 
-      {/* Filtri di ricerca */}
+      {/* Search filters */}
       <div className="mb-8 space-y-4">
         <input
           type="text"
-          placeholder="Cerca documenti, keywords..."
+          placeholder="Search documents, keywords..."
           className="w-full p-3 border rounded-lg"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
@@ -65,7 +65,7 @@ const DocumentLibrary = () => {
             value={selectedCategory}
             onChange={(e) => setSelectedCategory(e.target.value)}
           >
-            <option value="">Tutte le categorie</option>
+            <option value="">All categories</option>
             {categories.map(cat => (
               <option key={cat} value={cat}>{cat}</option>
             ))}
@@ -76,7 +76,7 @@ const DocumentLibrary = () => {
             value={selectedDifficulty}
             onChange={(e) => setSelectedDifficulty(e.target.value)}
           >
-            <option value="">Tutti i livelli</option>
+            <option value="">All levels</option>
             {difficulties.map(diff => (
               <option key={diff} value={diff}>{diff}</option>
             ))}
@@ -84,7 +84,7 @@ const DocumentLibrary = () => {
         </div>
       </div>
 
-      {/* Griglia documenti */}
+      {/* Document grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredDocs.map(doc => (
           <div key={doc.id} className="border rounded-lg p-4 hover:shadow-lg transition-shadow">
@@ -110,12 +110,12 @@ const DocumentLibrary = () => {
 
             <div className="mt-3">
               <a
-                href={`https://github.com/lonardonifabio/tech_documents/blob/main/$*7Bdoc.filepath*7D `}
+                href={`https://github.com/lonardonifabio/tech_documents/blob/main/${doc.filepath}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline text-sm"
               >
-                Visualizza documento →
+                View document →
               </a>
             </div>
           </div>
@@ -124,7 +124,7 @@ const DocumentLibrary = () => {
 
       {filteredDocs.length === 0 && (
         <div className="text-center py-8 text-gray-500">
-          Nessun documento trovato con i criteri di ricerca attuali.
+          No documents found with the current search criteria.
         </div>
       )}
     </div>
