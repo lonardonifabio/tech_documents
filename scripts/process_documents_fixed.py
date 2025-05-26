@@ -3,48 +3,30 @@ import json
 import hashlib
 from datetime import datetime
 from pathlib import Path
-import ollama
 import re
 
-# Try to import langchain components with fallback
+# Use pypdf directly instead of langchain
 try:
-    from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader
-    print("✓ Imported from langchain_community")
+    import pypdf
+    print("✓ Using pypdf directly")
+    PYPDF_AVAILABLE = True
 except ImportError:
     try:
-        from langchain.document_loaders import PyPDFLoader, Docx2txtLoader
-        print("✓ Imported from langchain.document_loaders")
+        import PyPDF2 as pypdf
+        print("✓ Using PyPDF2")
+        PYPDF_AVAILABLE = True
     except ImportError:
-        try:
-            # Try alternative imports
-            from langchain_community.document_loaders.pdf import PyPDFLoader
-            from langchain_community.document_loaders.word_document import Docx2txtLoader
-            print("✓ Imported from langchain_community specific modules")
-        except ImportError:
-            # Fallback to basic PDF processing
-            PyPDFLoader = None
-            Docx2txtLoader = None
-            print("⚠ PyPDFLoader and Docx2txtLoader not available")
+        print("✗ No PDF library available")
+        PYPDF_AVAILABLE = False
 
+# Try to import ollama
 try:
-    from langchain.text_splitter import RecursiveCharacterTextSplitter
+    import ollama
+    print("✓ Ollama available")
+    OLLAMA_AVAILABLE = True
 except ImportError:
-    try:
-        from langchain_text_splitters import RecursiveCharacterTextSplitter
-    except ImportError:
-        RecursiveCharacterTextSplitter = None
-
-try:
-    from langchain.schema import Document
-except ImportError:
-    try:
-        from langchain_core.documents import Document
-    except ImportError:
-        # Create a simple Document class if langchain is not available
-        class Document:
-            def __init__(self, page_content, metadata=None):
-                self.page_content = page_content
-                self.metadata = metadata or {}
+    print("✗ Ollama not available")
+    OLLAMA_AVAILABLE = False
 
 class DocumentProcessor:
     def __init__(self):
@@ -69,31 +51,39 @@ class DocumentProcessor:
         with open(filepath, 'rb') as f:
             return hashlib.md5(f.read()).hexdigest()
 
+    def load_pdf_with_pypdf(self, filepath):
+        """Load PDF using pypdf directly"""
+        if not PYPDF_AVAILABLE:
+            return None
+            
+        try:
+            with open(filepath, 'rb') as file:
+                pdf_reader = pypdf.PdfReader(file)
+                text = ""
+                for page in pdf_reader.pages:
+                    text += page.extract_text() + "\n"
+                return text
+        except Exception as e:
+            print(f"Error loading PDF {filepath}: {e}")
+            return None
+
     def load_document(self, filepath):
         """Load document based on file extension"""
         file_ext = Path(filepath).suffix.lower()
     
         if file_ext == '.pdf':
-            if PyPDFLoader is None:
-                print(f"Warning: PyPDFLoader not available, skipping {filepath}")
+            text = self.load_pdf_with_pypdf(filepath)
+            if text:
+                return [{"page_content": text, "metadata": {"source": str(filepath)}}]
+            else:
+                print(f"Warning: Could not load PDF {filepath}")
                 return None
-            loader = PyPDFLoader(str(filepath))  # Convert to string
-        elif file_ext in ['.docx', '.doc']:
-            if Docx2txtLoader is None:
-                print(f"Warning: Docx2txtLoader not available, skipping {filepath}")
-                return None
-            loader = Docx2txtLoader(str(filepath))  # Convert to string
         else:
-            return None
-    
-        try:
-            return loader.load()
-        except Exception as e:
-            print(f"Error loading document {filepath}: {e}")
+            print(f"Unsupported file type: {file_ext}")
             return None
 
     def extract_title_and_authors(self, text):
-        """Extract title and authors from document text using regex and AI"""
+        """Extract title and authors from document text using regex"""
         # Take only the first 2000 characters for title/author analysis
         text_start = text[:2000]
         
@@ -135,6 +125,9 @@ class DocumentProcessor:
 
     def check_ollama_availability(self):
         """Check if Ollama is available and the model exists"""
+        if not OLLAMA_AVAILABLE:
+            return False
+            
         try:
             # Try to list available models
             models = ollama.list()
@@ -258,9 +251,6 @@ class DocumentProcessor:
                 print(f"Error: Empty JSON string extracted")
                 raise ValueError("Empty JSON string")
             
-            # Add debug output
-            print(f"Debug: Attempting to parse JSON: {json_str[:100]}...")
-            
             result = json.loads(json_str)
             
             # Use manually extracted values if available
@@ -309,7 +299,7 @@ class DocumentProcessor:
             if not filepath.is_file():
                 continue
 
-            if filepath.suffix.lower() not in ['.pdf', '.docx', '.doc']:
+            if filepath.suffix.lower() not in ['.pdf']:
                 continue
 
             # Check if file has already been processed
@@ -324,7 +314,7 @@ class DocumentProcessor:
                 continue
 
             # Combine all text
-            full_text = " ".join([doc.page_content for doc in docs])
+            full_text = " ".join([doc["page_content"] for doc in docs])
 
             # Extract title and authors
             title, authors = self.extract_title_and_authors(full_text)

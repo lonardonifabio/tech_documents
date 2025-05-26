@@ -4,30 +4,30 @@ import json
 from pathlib import Path
 
 def build_site():
-    """Build del sito statico per GitHub Pages"""
+    """Build static site for GitHub Pages"""
 
-    # Crea directory dist
+    # Create dist directory
     dist_dir = Path('dist')
     if dist_dir.exists():
         shutil.rmtree(dist_dir)
     dist_dir.mkdir()
 
-    # Copia file HTML e JS
+    # Copy HTML and JS files
     shutil.copytree('src', dist_dir / 'src')
 
-    # Copia index.html nella root
+    # Copy index.html to root
     shutil.copy('src/index.html', dist_dir / 'index.html')
 
-    # Copia database documenti
+    # Copy documents database
     if Path('data').exists():
         shutil.copytree('data', dist_dir / 'data')
     else:
-        # Crea database vuoto se non esiste
+        # Create empty database if it doesn't exist
         (dist_dir / 'data').mkdir()
         with open(dist_dir / 'data' / 'documents.json', 'w') as f:
             json.dump([], f)
 
-    print("Build completato in /dist")
+    print("Build completed in /dist")
 
 if __name__ == "__main__":
     build_site()
