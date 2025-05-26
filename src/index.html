@@ -1,1 +1,392 @@
-<!DOCTYPE html><html lang="it"><head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>AI & Data Science Document Library</title>    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>    <script src="https://cdn.tailwindcss.com"></script> </head> <body>    <div id="root"></div>    <script type="text/babel" src="./js/app.js"></script> </body> </html>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI & Data Science Document Library</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .line-clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .document-preview {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2rem;
+        }
+        .document-card {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .document-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .document-footer {
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel">
+        const { useState, useEffect } = React;
+
+        // Componente per singolo documento con layout migliorato
+        const DocumentCard = ({ doc }) => {
+            const [showFullSummary, setShowFullSummary] = useState(false);
+            const [imageError, setImageError] = useState(false);
+            
+            // Genera URL per l'anteprima del documento (GitHub può generare anteprime per alcuni PDF)
+            const getPreviewUrl = (filepath) => {
+                // Prova prima con GitHub's raw content per vedere se esiste un'anteprima
+                return `https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${filepath}`;
+            };
+
+            // Genera icona basata sul tipo di file
+            const getFileIcon = (filename) => {
+                const ext = filename.split('.').pop().toLowerCase();
+                switch(ext) {
+                    case 'pdf': return '📄';
+                    case 'doc':
+                    case 'docx': return '📝';
+                    case 'ppt':
+                    case 'pptx': return '📊';
+                    case 'xls':
+                    case 'xlsx': return '📈';
+                    default: return '📋';
+                }
+            };
+
+            // Tronca il nome del file se troppo lungo
+            const truncateFilename = (filename, maxLength = 40) => {
+                if (filename.length <= maxLength) return filename;
+                const ext = filename.split('.').pop();
+                const name = filename.substring(0, filename.lastIndexOf('.'));
+                const truncatedName = name.substring(0, maxLength - ext.length - 4) + '...';
+                return `${truncatedName}.${ext}`;
+            };
+
+            // Tronca il summary se troppo lungo
+            const truncateSummary = (text, maxLength = 150) => {
+                if (text.length <= maxLength) return text;
+                return text.substring(0, maxLength) + '...';
+            };
+
+            const displaySummary = showFullSummary ? doc.summary : truncateSummary(doc.summary);
+
+            return (
+                <div className="border rounded-lg hover:shadow-xl transition-all duration-300 bg-white document-card overflow-hidden">
+                    {/* Anteprima documento */}
+                    <div className="h-32 w-full document-preview relative overflow-hidden">
+                        {!imageError ? (
+                            <img 
+                                src={`https://via.placeholder.com/300x128/667eea/ffffff?text=${getFileIcon(doc.filename)}`}
+                                alt={`Preview of ${doc.filename}`}
+                                className="w-full h-full object-cover"
+                                onError={() => setImageError(true)}
+                            />
+                        ) : (
+                            <div className="w-full h-full flex items-center justify-center text-4xl">
+                                {getFileIcon(doc.filename)}
+                            </div>
+                        )}
+                        
+                        {/* Badge categoria in overlay */}
+                        <div className="absolute top-2 right-2">
+                            <span className="bg-white bg-opacity-90 text-gray-800 px-2 py-1 rounded text-xs font-medium">
+                                {doc.category}
+                            </span>
+                        </div>
+                    </div>
+
+                    {/* Contenuto documento */}
+                    <div className="p-4 document-content">
+                        {/* Titolo con gestione overflow */}
+                        <h3 className="font-semibold text-base mb-3 text-gray-800 line-clamp-2 leading-tight" title={doc.filename}>
+                            {truncateFilename(doc.filename)}
+                        </h3>
+
+                        {/* Summary con opzione espandi/comprimi */}
+                        <div className="mb-4">
+                            <p className="text-gray-600 text-sm leading-relaxed">
+                                {displaySummary}
+                            </p>
+                            {doc.summary.length > 150 && (
+                                <button 
+                                    onClick={() => setShowFullSummary(!showFullSummary)}
+                                    className="text-blue-600 text-xs mt-1 hover:underline focus:outline-none"
+                                >
+                                    {showFullSummary ? 'Mostra meno' : 'Mostra tutto'}
+                                </button>
+                            )}
+                        </div>
+
+                        {/* Keywords */}
+                        <div className="flex flex-wrap gap-1 mb-4">
+                            {doc.keywords.slice(0, 4).map(keyword => (
+                                <span key={keyword} className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                                    {keyword}
+                                </span>
+                            ))}
+                            {doc.keywords.length > 4 && (
+                                <span className="text-gray-500 text-xs self-center">
+                                    +{doc.keywords.length - 4} altri
+                                </span>
+                            )}
+                        </div>
+
+                        {/* Footer con info e azioni */}
+                        <div className="document-footer space-y-3">
+                            {/* Difficoltà e data */}
+                            <div className="flex justify-between items-center text-sm">
+                                <span className="bg-orange-100 text-orange-800 px-2 py-1 rounded-full text-xs font-medium">
+                                    {doc.difficulty}
+                                </span>
+                                <span className="text-xs text-gray-500">
+                                    {new Date(doc.upload_date).toLocaleDateString('it-IT')}
+                                </span>
+                            </div>
+
+                            {/* Dimensione file e link */}
+                            <div className="flex justify-between items-center">
+                                <span className="text-xs text-gray-500">
+                                    {(doc.file_size / (1024 * 1024)).toFixed(1)} MB
+                                </span>
+                                <a
+                                    href={`https://github.com/lonardonifabio/tech_documents/blob/main/${doc.filepath}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors duration-200"
+                                >
+                                    Visualizza →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        };
+
+        // Componente filtri di ricerca
+        const SearchFilters = ({
+            searchTerm, setSearchTerm,
+            selectedCategory, setSelectedCategory,
+            selectedDifficulty, setSelectedDifficulty,
+            categories, difficulties
+        }) => (
+            <div className="mb-8 space-y-4 bg-white p-6 rounded-lg shadow-sm border">
+                <input
+                    type="text"
+                    placeholder="🔍 Cerca documenti, keywords, argomenti..."
+                    className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                />
+
+                <div className="flex flex-wrap gap-4">
+                    <select
+                        className="p-2 border rounded-lg focus:ring-2 focus:ring-blue-500 bg-white"
+                        value={selectedCategory}
+                        onChange={(e) => setSelectedCategory(e.target.value)}
+                    >
+                        <option value="">📂 Tutte le categorie</option>
+                        {categories.map(cat => (
+                            <option key={cat} value={cat}>{cat}</option>
+                        ))}
+                    </select>
+
+                    <select
+                        className="p-2 border rounded-lg focus:ring-2 focus:ring-blue-500 bg-white"
+                        value={selectedDifficulty}
+                        onChange={(e) => setSelectedDifficulty(e.target.value)}
+                    >
+                        <option value="">🎯 Tutti i livelli</option>
+                        {difficulties.map(diff => (
+                            <option key={diff} value={diff}>{diff}</option>
+                        ))}
+                    </select>
+                </div>
+            </div>
+        );
+
+        // Componente principale
+        const DocumentLibrary = () => {
+            const [documents, setDocuments] = useState([]);
+            const [filteredDocs, setFilteredDocs] = useState([]);
+            const [searchTerm, setSearchTerm] = useState('');
+            const [selectedCategory, setSelectedCategory] = useState('');
+            const [selectedDifficulty, setSelectedDifficulty] = useState('');
+            const [loading, setLoading] = useState(true);
+            const [error, setError] = useState(null);
+
+            useEffect(() => {
+                // Try multiple possible paths for the documents.json file
+                const possiblePaths = [
+                    '../data/documents.json',
+                    './data/documents.json',
+                    'data/documents.json',
+                    '/data/documents.json'
+                ];
+
+                const tryFetch = async (paths) => {
+                    for (const path of paths) {
+                        try {
+                            console.log(`Trying to fetch from: ${path}`);
+                            const response = await fetch(path);
+                            if (response.ok) {
+                                const data = await response.json();
+                                console.log('Successfully loaded documents:', data);
+                                setDocuments(data);
+                                setFilteredDocs(data);
+                                setLoading(false);
+                                return;
+                            }
+                        } catch (err) {
+                            console.log(`Failed to fetch from ${path}:`, err);
+                        }
+                    }
+                    
+                    // If all paths fail, set error
+                    setError('Unable to load documents from any path');
+                    setLoading(false);
+                };
+
+                tryFetch(possiblePaths);
+            }, []);
+
+            useEffect(() => {
+                let filtered = documents;
+
+                if (searchTerm) {
+                    const term = searchTerm.toLowerCase();
+                    filtered = filtered.filter(doc =>
+                        doc.filename.toLowerCase().includes(term) ||
+                        doc.summary.toLowerCase().includes(term) ||
+                        doc.keywords.some(keyword =>
+                            keyword.toLowerCase().includes(term)
+                        )
+                    );
+                }
+
+                if (selectedCategory) {
+                    filtered = filtered.filter(doc => doc.category === selectedCategory);
+                }
+
+                if (selectedDifficulty) {
+                    filtered = filtered.filter(doc => doc.difficulty === selectedDifficulty);
+                }
+
+                setFilteredDocs(filtered);
+            }, [searchTerm, selectedCategory, selectedDifficulty, documents]);
+
+            const categories = [...new Set(documents.map(doc => doc.category))];
+            const difficulties = [...new Set(documents.map(doc => doc.difficulty))];
+
+            if (loading) {
+                return (
+                    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+                        <div className="text-center">
+                            <div className="animate-spin rounded-full h-16 w-16 border-b-4 border-blue-600 mx-auto mb-4"></div>
+                            <p className="text-gray-600 text-lg">Caricamento documenti...</p>
+                        </div>
+                    </div>
+                );
+            }
+
+            if (error) {
+                return (
+                    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+                        <div className="text-center max-w-md mx-auto p-6">
+                            <div className="text-6xl mb-4">⚠️</div>
+                            <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                                Errore nel caricamento
+                            </h3>
+                            <p className="text-gray-500 mb-4">{error}</p>
+                            <button 
+                                onClick={() => window.location.reload()} 
+                                className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200"
+                            >
+                                Riprova
+                            </button>
+                        </div>
+                    </div>
+                );
+            }
+
+            return (
+                <div className="min-h-screen bg-gray-50">
+                    <div className="max-w-7xl mx-auto px-4 py-8">
+                        <header className="text-center mb-12">
+                            <h1 className="text-4xl font-bold text-gray-800 mb-4">
+                                🤖 AI & Data Science Library
+                            </h1>
+                            <p className="text-xl text-gray-600 mb-2">
+                                Raccolta automatizzata di documenti su Intelligenza Artificiale e Data Science
+                            </p>
+                            <p className="text-sm text-gray-500">
+                                {documents.length} documenti • Aggiornato automaticamente
+                            </p>
+                        </header>
+
+                        <SearchFilters
+                            searchTerm={searchTerm}
+                            setSearchTerm={setSearchTerm}
+                            selectedCategory={selectedCategory}
+                            setSelectedCategory={setSelectedCategory}
+                            selectedDifficulty={selectedDifficulty}
+                            setSelectedDifficulty={setSelectedDifficulty}
+                            categories={categories}
+                            difficulties={difficulties}
+                        />
+
+                        {filteredDocs.length > 0 ? (
+                            <>
+                                <div className="mb-6 text-sm text-gray-600 bg-white px-4 py-2 rounded-lg inline-block">
+                                    📊 Mostrando {filteredDocs.length} di {documents.length} documenti
+                                </div>
+                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                                    {filteredDocs.map(doc => (
+                                        <DocumentCard key={doc.id} doc={doc} />
+                                    ))}
+                                </div>
+                            </>
+                        ) : (
+                            <div className="text-center py-16 bg-white rounded-lg">
+                                <div className="text-6xl mb-4">📭</div>
+                                <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                                    Nessun documento trovato
+                                </h3>
+                                <p className="text-gray-500">
+                                    Prova a modificare i criteri di ricerca
+                                </p>
+                            </div>
+                        )}
+                    </div>
+                </div>
+            );
+        };
+
+        // Render dell'app
+        ReactDOM.render(<DocumentLibrary />, document.getElementById('root'));
+    </script>
+</body>
+</html>
