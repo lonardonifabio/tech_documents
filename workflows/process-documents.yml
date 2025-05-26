@@ -1,0 +1,40 @@
+# .github/workflows/process-documents.yml
+name: Process New Documents
+
+on:
+  push:
+    paths:
+      - 'documents/**'
+  workflow_dispatch:
+
+jobs:
+  process-documents:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install Ollama
+      run: |
+        curl -fsSL https://ollama.ai/install.sh  | sh
+        ollama serve &
+        sleep 10
+        ollama pull llama2:7b
+
+    - name: Install dependencies
+      run: |
+        pip install langchain ollama pypdf2 python-docx
+
+    - name: Process documents
+      run: python scripts/process_documents.py
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
