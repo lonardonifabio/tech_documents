@@ -24,7 +24,7 @@ def build_site():
     else:
         # Crea database vuoto se non esiste
         (dist_dir / 'data').mkdir()
-        with open(dist_dir / 'dist' / 'data' / 'documents.json', 'w') as f:
+        with open(dist_dir / 'data' / 'documents.json', 'w') as f:
             json.dump([], f)
 
     print("Build completato in /dist")
