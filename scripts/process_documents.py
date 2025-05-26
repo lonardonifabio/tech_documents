@@ -15,13 +15,13 @@ class DocumentProcessor:
 
     def load_processed_files(self):
         if os.path.exists('dist/data/processed_files.json'):
-            with open('dist/data/processed_files.json', 'r') as f:
+            with open('data/processed_files.json', 'r') as f:
                 return json.load(f)
         return {}
 
     def save_processed_files(self):
         os.makedirs('data', exist_ok=True)
-        with open('dist/data/processed_files.json', 'w') as f:
+        with open('data/processed_files.json', 'w') as f:
             json.dump(self.processed_files, f)
 
     def get_file_hash(self, filepath):
@@ -132,7 +132,7 @@ class DocumentProcessor:
 
     def update_database(self, new_documents):
         # Carica database esistente
-        db_path = 'dist/data/documents.json'
+        db_path = 'data/documents.json'
         if os.path.exists(db_path):
             with open(db_path, 'r') as f:
                 existing_docs = json.load(f)
