@@ -2,7 +2,7 @@
 
 An automated document processing system that creates summaries of uploaded documents and displays them in a searchable web interface.
 
-Type in the browser this url: https://lonardonifabio.github.io/tech_documents/src/index.html
+Click this link: https://lonardonifabio.github.io/tech_documents/src/index.html
 
 ## 🚀 Quick Start
 
