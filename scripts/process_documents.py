@@ -146,7 +146,7 @@ class DocumentProcessor:
             print(f"Available Ollama models: {available_models}")
             
             # Check if llama2:7b is available, or try alternative models
-            preferred_models = ['llama2:7b', 'llama2', 'llama3', 'llama3:8b', 'mistral', 'codellama']
+            preferred_models = ['deepseek-r1:7b','llama2:7b', 'llama2', 'llama3', 'llama3:8b', 'mistral', 'codellama']
             
             for model in preferred_models:
                 if model in available_models:
