@@ -39,7 +39,8 @@ jobs:
         sleep 10
     
         # Pull model
-        ollama pull llama2:7b
+        #ollama pull llama2:7b
+        ollama pull deepseek-r1:7b
 
     - name: Install Python dependencies
       run: |
