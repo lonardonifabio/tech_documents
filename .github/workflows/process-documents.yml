@@ -24,7 +24,7 @@ jobs:
     - name: Install Ollama
       run: |
         curl -fsSL https://ollama.ai/install.sh | sh
-        
+
         # Uccidi qualsiasi processo sulla porta 11434
         PID=$(lsof -ti:11434) || true
         if [ ! -z "$PID" ]; then
@@ -35,7 +35,7 @@ jobs:
         # Avvia Ollama in background
         nohup ollama serve > /tmp/ollama.log 2>&1 &
 
-        # Aspetta che Ollama sia pronto
+        # Attendi che Ollama sia pronto
         sleep 10
 
         # Scarica il modello
@@ -60,12 +60,23 @@ jobs:
 
         git checkout main
 
-        # Aggiungi e committa modifiche prima di pullare
-        git add ./dist
-        git diff --cached --quiet || git commit -m "Deploy: Update site content"
+        echo "📄 Git status prima del deploy:"
+        git status
 
-        # Pull con rebase per evitare errori di non-fast-forward
+        # Aggiungi tutte le modifiche nella cartella dist/
+        git add ./dist
+
+        # Esegui commit solo se ci sono modifiche reali
+        if ! git diff --cached --quiet; then
+          git commit -m "Deploy: Update site content"
+        else
+          echo "✅ Nessuna modifica da committare."
+        fi
+
+        # Pull con rebase (ora che lo stato è pulito)
         git pull --rebase https://lonardonifabio:${{ secrets.REP }}@github.com/lonardonifabio/tech_documents.git main
 
         # Push finale
         git push https://lonardonifabio:${{ secrets.REP }}@github.com/lonardonifabio/tech_documents.git main
+
+        echo "🚀 Deploy completato con successo."
