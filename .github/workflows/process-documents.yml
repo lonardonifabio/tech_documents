@@ -1,72 +1,64 @@
 name: Process Documents and Deploy
-
 on:
   push:
     paths:
       - 'documents/**'
       - 'src/**'
   workflow_dispatch:
-
 jobs:
   process-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
       with:
-        fetch-depth: 0  # Assicura accesso all'intera cronologia per pull/rebase
-
+        fetch-depth: 0
+        token: ${{ secrets.REP }}  # Usa il token personalizzato
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.9'
-
     - name: Install Ollama
       run: |
         curl -fsSL https://ollama.ai/install.sh | sh
-
         # Uccidi qualsiasi processo sulla porta 11434
         PID=$(lsof -ti:11434) || true
         if [ ! -z "$PID" ]; then
           echo "Killing process on port 11434 (PID: $PID)"
           kill -9 $PID
         fi
-
         # Avvia Ollama in background
         nohup ollama serve > /tmp/ollama.log 2>&1 &
-
         # Attendi che Ollama sia pronto
         sleep 10
-
         # Scarica il modello
         ollama pull deepseek-r1:7b
-
     - name: Install Python dependencies
       run: |
         pip install -r scripts/requirements.txt
-
     - name: Process documents
       run: |
         python scripts/process_documents.py
-
     - name: Build site
       run: |
         python scripts/build.py
-
-    - name: Deploy to main branch (force push)
+    - name: Deploy to main branch
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-
+        
+        # Assicurati di essere sul branch main e che sia aggiornato
         git checkout main
-
+        git fetch origin main
+        git reset --hard origin/main
+        
         echo "🧼 Aggiungo file modificati..."
         git add ./dist
-
+        
         echo "📋 Commit se ci sono modifiche..."
-        git diff --cached --quiet || git commit -m "Deploy: Update site content"
-
-        echo "🚀 Push forzato in sicurezza..."
-        git push --force-with-lease https://lonardonifabio:${{ secrets.REP }}@github.com/lonardonifabio/tech_documents.git main
-
-
+        if git diff --cached --quiet; then
+          echo "Nessuna modifica da committare"
+        else
+          git commit -m "Deploy: Update site content"
+          echo "🚀 Push delle modifiche..."
+          git push origin main
+        fi
