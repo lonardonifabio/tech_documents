@@ -53,15 +53,15 @@ class DocumentProcessor:
 
     def load_processed_files(self):
         """Load the list of already processed files"""
-        if os.path.exists('data/processed_files.json'):
-            with open('data/processed_files.json', 'r') as f:
+        if os.path.exists('dist/data/processed_files.json'):
+            with open('dist/data/processed_files.json', 'r') as f:
                 return json.load(f)
         return {}
 
     def save_processed_files(self):
         """Save the list of processed files"""
-        os.makedirs('data', exist_ok=True)
-        with open('data/processed_files.json', 'w') as f:
+        os.makedirs('dist/data', exist_ok=True)
+        with open('dist/data/processed_files.json', 'w') as f:
             json.dump(self.processed_files, f)
 
     def get_file_hash(self, filepath):
@@ -282,18 +282,21 @@ class DocumentProcessor:
     def is_already_processed(self, filepath):
         """Check if file has already been processed and hasn't changed"""
         file_hash = self.get_file_hash(filepath)
-        filepath_str = str(filepath)
+        filepath_str = str(filepath).replace('\\', '/')  # Normalize path separators
         
-        if filepath_str in self.processed_files:
-            if self.processed_files[filepath_str] == file_hash:
-                print(f"Skipping already processed file: {filepath}")
-                return True
+        # Check both the normalized path and any stored paths
+        for stored_path in self.processed_files.keys():
+            normalized_stored_path = stored_path.replace('\\', '/')
+            if filepath_str == normalized_stored_path:
+                if self.processed_files[stored_path] == file_hash:
+                    print(f"Skipping already processed file: {filepath}")
+                    return True
         
         return False
 
     def load_existing_documents(self):
         """Load existing documents from database"""
-        db_path = 'data/documents.json'
+        db_path = 'dist/data/documents.json'
         if os.path.exists(db_path):
             with open(db_path, 'r', encoding='utf-8') as f:
                 return json.load(f)
@@ -365,8 +368,8 @@ class DocumentProcessor:
 
     def update_database(self, documents):
         """Save updated database"""
-        os.makedirs('data', exist_ok=True)
-        with open('data/documents.json', 'w', encoding='utf-8') as f:
+        os.makedirs('dist/data', exist_ok=True)
+        with open('dist/data/documents.json', 'w', encoding='utf-8') as f:
             json.dump(documents, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
