@@ -60,18 +60,12 @@ jobs:
 
         git checkout main
 
-        # Aggiungi e committa prima del pull per evitare errori di rebase
+        # Aggiungi e committa modifiche prima di pullare
         git add ./dist
-
-        # Fai commit solo se ci sono modifiche
         git diff --cached --quiet || git commit -m "Deploy: Update site content"
 
-        # Ora puoi fare pull con rebase
+        # Pull con rebase per evitare errori di non-fast-forward
         git pull --rebase https://lonardonifabio:${{ secrets.REP }}@github.com/lonardonifabio/tech_documents.git main
 
         # Push finale
-        git push https://lonardonifabio:${{ secrets.REP }}@github.com/lonardonifabio/tech_documents.git main
-
-
-        # Push
         git push https://lonardonifabio:${{ secrets.REP }}@github.com/lonardonifabio/tech_documents.git main
