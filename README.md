@@ -27,7 +27,7 @@ Then open your browser to: `http://localhost:8000/src/index.html`
 tech_documents/
 ├── documents/                    # PDF documents to be processed
 │   └── *.pdf                    # AI and Data Science documents
-├── data/
+├── dist/data/
 │   ├── documents.json           # Processed document metadata and summaries
 │   └── processed_files.json    # Track processed files to avoid reprocessing
 ├── src/
@@ -57,7 +57,9 @@ tech_documents/
    - Category classification
    - Difficulty level assessment
    - Author and title extraction
-3. **Storage**: Processed data is stored in `data/documents.json`
+- Intelligent duplicate prevention system
+
+3. **Storage**: Processed data is stored in `dist/data/documents.json`
 4. **Display**: The web interface loads and displays all documents with search/filter capabilities
 
 ## 🌐 Web Interface Features
@@ -117,6 +119,37 @@ The system uses **Llama2** AI model to automatically:
 3. Refresh the web interface to see new documents
 
 The system automatically tracks processed files and only processes new or changed documents.
+
+## 🔒 Duplicate Prevention System
+
+The document processing system includes an intelligent duplicate prevention mechanism that ensures documents are not reprocessed unnecessarily:
+
+### How It Works
+- **File Tracking**: Each processed document's MD5 hash is stored in `dist/data/processed_files.json`
+- **Change Detection**: Before processing, the system calculates the current file hash and compares it with stored hashes
+- **Smart Skipping**: Documents with matching hashes are automatically skipped
+- **Cross-Platform Compatibility**: Path normalization handles Windows (\) and Unix (/) path separators
+
+### Benefits
+- ⚡ **Faster Processing**: Skip already processed documents
+- 💾 **Resource Efficiency**: Save computational resources and time
+- 🔄 **Incremental Updates**: Only process new or modified documents
+- 🛡️ **Data Integrity**: Prevent duplicate entries in the database
+
+### File Structure
+```json
+{
+  "documents/document1.pdf": "abc123def456...",
+  "documents/document2.pdf": "789xyz012..."
+}
+```
+
+### Testing
+You can test the duplicate prevention system by running:
+```bash
+python scripts/test_results.py
+```
+This will show which documents are being skipped and which would be processed.
 
 ## 📊 Document Data Format
 
@@ -207,7 +240,7 @@ The search functionality includes:
 
 ### Common Issues:
 
-1. **Documents not loading**: Check that `data/documents.json` exists and is valid JSON
+1. **Documents not loading**: Check that `dist/data/documents.json` exists and is valid JSON
 2. **Processing fails**: Ensure Ollama is running and Llama2 model is available
 3. **Server won't start**: Check if port 8000 is already in use
 4. **Search not working**: Verify document data structure matches expected format
