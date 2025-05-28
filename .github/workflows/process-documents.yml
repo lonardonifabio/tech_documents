@@ -57,18 +57,21 @@ jobs:
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        
-        # Assicurati di essere su main
+
         git checkout main
 
-        # Fai pull con rebase per evitare conflitti di fast-forward
-        git pull --rebase https://lonardonifabio:${{ secrets.REP }}@github.com/lonardonifabio/tech_documents.git main
-
-        # Aggiungi file generati
+        # Aggiungi e committa prima del pull per evitare errori di rebase
         git add ./dist
 
-        # Fai il commit solo se ci sono modifiche
+        # Fai commit solo se ci sono modifiche
         git diff --cached --quiet || git commit -m "Deploy: Update site content"
+
+        # Ora puoi fare pull con rebase
+        git pull --rebase https://lonardonifabio:${{ secrets.REP }}@github.com/lonardonifabio/tech_documents.git main
+
+        # Push finale
+        git push https://lonardonifabio:${{ secrets.REP }}@github.com/lonardonifabio/tech_documents.git main
+
 
         # Push
         git push https://lonardonifabio:${{ secrets.REP }}@github.com/lonardonifabio/tech_documents.git main
