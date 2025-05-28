@@ -46,10 +46,8 @@ jobs:
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         
-        # Assicurati di essere sul branch main e che sia aggiornato
+        # Assicurati di essere sul branch main
         git checkout main
-        git fetch origin main
-        git reset --hard origin/main
         
         echo "🧼 Aggiungo file modificati..."
         git add ./dist
@@ -60,5 +58,13 @@ jobs:
         else
           git commit -m "Deploy: Update site content"
           echo "🚀 Push delle modifiche..."
-          git push origin main
+          # Fetch e prova push normale
+          git fetch origin main
+          if git push origin main; then
+            echo "Push riuscito!"
+          else
+            echo "Push fallito, provo con rebase..."
+            git pull --rebase origin main
+            git push origin main
+          fi
         fi
