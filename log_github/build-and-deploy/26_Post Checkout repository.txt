@@ -1,0 +1,58 @@
+﻿2025-05-30T14:31:16.9705689Z ##[debug]Evaluating condition for step: 'Post Checkout repository'
+2025-05-30T14:31:16.9707250Z ##[debug]Evaluating: always()
+2025-05-30T14:31:16.9707580Z ##[debug]Evaluating always:
+2025-05-30T14:31:16.9708263Z ##[debug]=> true
+2025-05-30T14:31:16.9708645Z ##[debug]Result: true
+2025-05-30T14:31:16.9709111Z ##[debug]Starting: Post Checkout repository
+2025-05-30T14:31:16.9732462Z ##[debug]Loading inputs
+2025-05-30T14:31:16.9733340Z ##[debug]Evaluating: secrets.REP
+2025-05-30T14:31:16.9733622Z ##[debug]Evaluating Index:
+2025-05-30T14:31:16.9734186Z ##[debug]..Evaluating secrets:
+2025-05-30T14:31:16.9734444Z ##[debug]..=> Object
+2025-05-30T14:31:16.9734664Z ##[debug]..Evaluating String:
+2025-05-30T14:31:16.9734890Z ##[debug]..=> 'REP'
+2025-05-30T14:31:16.9735354Z ##[debug]=> '***'
+2025-05-30T14:31:16.9735672Z ##[debug]Result: '***'
+2025-05-30T14:31:16.9736266Z ##[debug]Evaluating: github.repository
+2025-05-30T14:31:16.9736531Z ##[debug]Evaluating Index:
+2025-05-30T14:31:16.9736745Z ##[debug]..Evaluating github:
+2025-05-30T14:31:16.9736998Z ##[debug]..=> Object
+2025-05-30T14:31:16.9737201Z ##[debug]..Evaluating String:
+2025-05-30T14:31:16.9737429Z ##[debug]..=> 'repository'
+2025-05-30T14:31:16.9737679Z ##[debug]=> 'lonardonifabio/tech_documents'
+2025-05-30T14:31:16.9737974Z ##[debug]Result: 'lonardonifabio/tech_documents'
+2025-05-30T14:31:16.9744990Z ##[debug]Loading env
+2025-05-30T14:31:16.9748337Z Post job cleanup.
+2025-05-30T14:31:17.0662271Z ##[debug]Getting git version
+2025-05-30T14:31:17.0677298Z [command]/usr/bin/git version
+2025-05-30T14:31:17.0714247Z git version 2.49.0
+2025-05-30T14:31:17.0736619Z ##[debug]0
+2025-05-30T14:31:17.0737060Z ##[debug]git version 2.49.0
+2025-05-30T14:31:17.0737296Z ##[debug]
+2025-05-30T14:31:17.0738413Z ##[debug]Set git useragent to: git/2.49.0 (github-actions-checkout)
+2025-05-30T14:31:17.0741720Z ::add-mask::***
+2025-05-30T14:31:17.0756438Z Temporarily overriding HOME='/home/runner/work/_temp/c1040cef-a13e-40f7-8ead-aab6ad33e514' before making global git config changes
+2025-05-30T14:31:17.0757546Z Adding repository directory to the temporary git global config as a safe directory
+2025-05-30T14:31:17.0762252Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tech_documents/tech_documents
+2025-05-30T14:31:17.0795782Z ##[debug]0
+2025-05-30T14:31:17.0796187Z ##[debug]
+2025-05-30T14:31:17.0803261Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-05-30T14:31:17.0829117Z ##[debug]1
+2025-05-30T14:31:17.0829535Z ##[debug]
+2025-05-30T14:31:17.0835487Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-05-30T14:31:17.1061808Z ##[debug]0
+2025-05-30T14:31:17.1062323Z ##[debug]
+2025-05-30T14:31:17.1069118Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-05-30T14:31:17.1090609Z http.https://github.com/.extraheader
+2025-05-30T14:31:17.1097453Z ##[debug]0
+2025-05-30T14:31:17.1098153Z ##[debug]http.https://github.com/.extraheader
+2025-05-30T14:31:17.1098627Z ##[debug]
+2025-05-30T14:31:17.1104351Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2025-05-30T14:31:17.1129639Z ##[debug]0
+2025-05-30T14:31:17.1130206Z ##[debug]
+2025-05-30T14:31:17.1136496Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2025-05-30T14:31:17.1364182Z ##[debug]0
+2025-05-30T14:31:17.1364687Z ##[debug]
+2025-05-30T14:31:17.1365246Z ##[debug]Unsetting HOME override
+2025-05-30T14:31:17.1431248Z ##[debug]Node Action run completed with exit code 0
+2025-05-30T14:31:17.1433453Z ##[debug]Finishing: Post Checkout repository

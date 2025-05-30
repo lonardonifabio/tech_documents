@@ -1,0 +1,8 @@
+﻿2025-05-30T14:31:16.9674375Z ##[debug]Evaluating condition for step: 'Upload artifact'
+2025-05-30T14:31:16.9675796Z ##[debug]Evaluating: (success() && ((github.ref == 'refs/heads/main') || (github.ref == 'refs/heads/master')))
+2025-05-30T14:31:16.9676301Z ##[debug]Evaluating And:
+2025-05-30T14:31:16.9676607Z ##[debug]..Evaluating success:
+2025-05-30T14:31:16.9676933Z ##[debug]..=> false
+2025-05-30T14:31:16.9677208Z ##[debug]=> false
+2025-05-30T14:31:16.9677899Z ##[debug]Expanded: (false && ((github['ref'] == 'refs/heads/main') || (github['ref'] == 'refs/heads/master')))
+2025-05-30T14:31:16.9678401Z ##[debug]Result: false

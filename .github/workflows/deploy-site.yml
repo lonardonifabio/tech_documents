@@ -51,6 +51,9 @@ jobs:
     
     - name: Process documents
       run: |
+        echo "Ensuring data files exist..."
+        python scripts/ensure_data.py
+        
         echo "Processing documents..."
         python scripts/fallback_processor.py
         echo "Documents processed successfully"
@@ -76,8 +79,11 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         
+        # Pull latest changes to avoid conflicts
+        git pull origin main --rebase
+        
         # Add generated files
-        git add data/documents.json data/processed_files.json dist/data/documents.json
+        git add data/documents.json data/processed_files.json
         
         # Check if there are changes to commit
         if git diff --staged --quiet; then
@@ -85,7 +91,7 @@ jobs:
         else
           echo "Committing updated document database..."
           git commit -m "Auto-update documents database [skip ci]"
-          git push
+          git push origin main
         fi
     
     - name: Setup Pages

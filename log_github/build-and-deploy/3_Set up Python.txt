@@ -1,0 +1,78 @@
+﻿2025-05-30T14:30:58.4927548Z ##[debug]Evaluating condition for step: 'Set up Python'
+2025-05-30T14:30:58.4931107Z ##[debug]Evaluating: success()
+2025-05-30T14:30:58.4931476Z ##[debug]Evaluating success:
+2025-05-30T14:30:58.4932008Z ##[debug]=> true
+2025-05-30T14:30:58.4932388Z ##[debug]Result: true
+2025-05-30T14:30:58.4933158Z ##[debug]Starting: Set up Python
+2025-05-30T14:30:58.4965142Z ##[debug]Register post job cleanup for action: actions/setup-python@v5
+2025-05-30T14:30:58.4978164Z ##[debug]Loading inputs
+2025-05-30T14:30:58.4987398Z ##[debug]Evaluating: (((github.server_url == 'https://github.com') && github.token) || '')
+2025-05-30T14:30:58.4987885Z ##[debug]Evaluating Or:
+2025-05-30T14:30:58.4990089Z ##[debug]..Evaluating And:
+2025-05-30T14:30:58.4991839Z ##[debug]....Evaluating Equal:
+2025-05-30T14:30:58.4992847Z ##[debug]......Evaluating Index:
+2025-05-30T14:30:58.4993108Z ##[debug]........Evaluating github:
+2025-05-30T14:30:58.4993386Z ##[debug]........=> Object
+2025-05-30T14:30:58.4993635Z ##[debug]........Evaluating String:
+2025-05-30T14:30:58.4994134Z ##[debug]........=> 'server_url'
+2025-05-30T14:30:58.4994528Z ##[debug]......=> 'https://github.com'
+2025-05-30T14:30:58.4994817Z ##[debug]......Evaluating String:
+2025-05-30T14:30:58.4995068Z ##[debug]......=> 'https://github.com'
+2025-05-30T14:30:58.4998058Z ##[debug]....=> true
+2025-05-30T14:30:58.4998471Z ##[debug]....Evaluating Index:
+2025-05-30T14:30:58.4998741Z ##[debug]......Evaluating github:
+2025-05-30T14:30:58.4998995Z ##[debug]......=> Object
+2025-05-30T14:30:58.4999233Z ##[debug]......Evaluating String:
+2025-05-30T14:30:58.4999463Z ##[debug]......=> 'token'
+2025-05-30T14:30:58.4999952Z ##[debug]....=> '***'
+2025-05-30T14:30:58.5000291Z ##[debug]..=> '***'
+2025-05-30T14:30:58.5000801Z ##[debug]=> '***'
+2025-05-30T14:30:58.5005970Z ##[debug]Expanded: ((('https://github.com' == 'https://github.com') && '***') || '')
+2025-05-30T14:30:58.5006474Z ##[debug]Result: '***'
+2025-05-30T14:30:58.5009962Z ##[debug]Loading env
+2025-05-30T14:30:58.5014265Z ##[group]Run actions/setup-python@v5
+2025-05-30T14:30:58.5014521Z with:
+2025-05-30T14:30:58.5014703Z   python-version: 3.9
+2025-05-30T14:30:58.5014903Z   check-latest: false
+2025-05-30T14:30:58.5015204Z   token: ***
+2025-05-30T14:30:58.5015389Z   update-environment: true
+2025-05-30T14:30:58.5015613Z   allow-prereleases: false
+2025-05-30T14:30:58.5015819Z   freethreaded: false
+2025-05-30T14:30:58.5016007Z ##[endgroup]
+2025-05-30T14:30:58.6697492Z ##[debug]Python is expected to be installed into /opt/hostedtoolcache
+2025-05-30T14:30:58.6700434Z ::group::Installed versions
+2025-05-30T14:30:58.6700909Z ##[group]Installed versions
+2025-05-30T14:30:58.6707474Z ##[debug]Semantic version spec of 3.9 is 3.9
+2025-05-30T14:30:58.6709465Z ##[debug]isExplicit: 
+2025-05-30T14:30:58.6710227Z ##[debug]explicit? false
+2025-05-30T14:30:58.6715716Z ##[debug]isExplicit: 3.10.17
+2025-05-30T14:30:58.6716456Z ##[debug]explicit? true
+2025-05-30T14:30:58.6717147Z ##[debug]isExplicit: 3.11.12
+2025-05-30T14:30:58.6717719Z ##[debug]explicit? true
+2025-05-30T14:30:58.6718585Z ##[debug]isExplicit: 3.12.10
+2025-05-30T14:30:58.6719307Z ##[debug]explicit? true
+2025-05-30T14:30:58.6719993Z ##[debug]isExplicit: 3.13.3
+2025-05-30T14:30:58.6720700Z ##[debug]explicit? true
+2025-05-30T14:30:58.6721382Z ##[debug]isExplicit: 3.9.22
+2025-05-30T14:30:58.6722325Z ##[debug]explicit? true
+2025-05-30T14:30:58.6723694Z ##[debug]evaluating 5 versions
+2025-05-30T14:30:58.6748846Z ##[debug]matched: 3.9.22
+2025-05-30T14:30:58.6750099Z ##[debug]checking cache: /opt/hostedtoolcache/Python/3.9.22/x64
+2025-05-30T14:30:58.6751092Z ##[debug]Found tool in cache Python 3.9.22 x64
+2025-05-30T14:30:58.6765913Z Successfully set up CPython (3.9.22)
+2025-05-30T14:30:58.6766579Z ::endgroup::
+2025-05-30T14:30:58.6766938Z ##[endgroup]
+2025-05-30T14:30:58.6776904Z ##[add-matcher]/home/runner/work/_actions/actions/setup-python/v5/.github/python.json
+2025-05-30T14:30:58.6790163Z ##[debug]Added matchers: 'python'. Problem matchers scan action output for known warning or error strings and report these inline.
+2025-05-30T14:30:58.6831720Z ##[debug]Node Action run completed with exit code 0
+2025-05-30T14:30:58.6839845Z ##[debug]pythonLocation='/opt/hostedtoolcache/Python/3.9.22/x64'
+2025-05-30T14:30:58.6840489Z ##[debug]PKG_CONFIG_PATH='/opt/hostedtoolcache/Python/3.9.22/x64/lib/pkgconfig'
+2025-05-30T14:30:58.6840991Z ##[debug]pythonLocation='/opt/hostedtoolcache/Python/3.9.22/x64'
+2025-05-30T14:30:58.6841425Z ##[debug]Python_ROOT_DIR='/opt/hostedtoolcache/Python/3.9.22/x64'
+2025-05-30T14:30:58.6841849Z ##[debug]Python2_ROOT_DIR='/opt/hostedtoolcache/Python/3.9.22/x64'
+2025-05-30T14:30:58.6842248Z ##[debug]Python3_ROOT_DIR='/opt/hostedtoolcache/Python/3.9.22/x64'
+2025-05-30T14:30:58.6842678Z ##[debug]PKG_CONFIG_PATH='/opt/hostedtoolcache/Python/3.9.22/x64/lib/pkgconfig'
+2025-05-30T14:30:58.6843145Z ##[debug]LD_LIBRARY_PATH='/opt/hostedtoolcache/Python/3.9.22/x64/lib'
+2025-05-30T14:30:58.6846823Z ##[debug]Set output python-version = 3.9.22
+2025-05-30T14:30:58.6847260Z ##[debug]Set output python-path = /opt/hostedtoolcache/Python/3.9.22/x64/bin/python
+2025-05-30T14:30:58.6848114Z ##[debug]Finishing: Set up Python

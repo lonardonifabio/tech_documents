@@ -4,7 +4,7 @@
   "description": "Automated AI/Data Science Document Library",
   "scripts": {
     "dev": "vite",
-    "build": "python scripts/fallback_processor.py && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "update-docs": "python scripts/fallback_processor.py",
     "process-docs": "python scripts/fallback_processor.py"
