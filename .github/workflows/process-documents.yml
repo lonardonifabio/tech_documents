@@ -36,6 +36,7 @@ jobs:
       with:
         node-version: '18'
         cache: 'npm'
+        cache-dependency-path: 'package-lock.json'
     
     - name: Install Node.js dependencies
       run: npm ci
@@ -93,6 +94,6 @@ jobs:
       if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.REP }}
         publish_dir: ./dist
         force_orphan: true

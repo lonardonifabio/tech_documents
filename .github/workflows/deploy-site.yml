@@ -21,7 +21,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.REP }}
     
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -31,13 +31,14 @@ jobs:
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pypdf
+        pip install -r scripts/requirements.txt
     
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '18'
         cache: 'npm'
+        cache-dependency-path: 'package-lock.json'
     
     - name: Install Node.js dependencies
       run: npm ci
@@ -51,7 +52,7 @@ jobs:
     - name: Process documents
       run: |
         echo "Processing documents..."
-        python scripts/auto_update.py
+        python scripts/ollama_processor.py
         echo "Documents processed successfully"
         
         # Show results
