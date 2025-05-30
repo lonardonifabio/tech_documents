@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 class OllamaDocumentProcessor:
-    def __init__(self, model_name: str = "deepseek-r1:1.8b"):
+    def __init__(self, model_name: str = "deepseek-r1:1.5b"):
         """Initialize the processor with Ollama and DeepSeek model"""
         self.model_name = model_name
         self.base_dir = Path.cwd()
