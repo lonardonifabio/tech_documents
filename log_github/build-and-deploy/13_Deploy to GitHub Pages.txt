@@ -1,8 +1,0 @@
-﻿2025-05-30T14:31:16.9682352Z ##[debug]Evaluating condition for step: 'Deploy to GitHub Pages'
-2025-05-30T14:31:16.9684042Z ##[debug]Evaluating: (success() && ((github.ref == 'refs/heads/main') || (github.ref == 'refs/heads/master')))
-2025-05-30T14:31:16.9684553Z ##[debug]Evaluating And:
-2025-05-30T14:31:16.9684860Z ##[debug]..Evaluating success:
-2025-05-30T14:31:16.9685197Z ##[debug]..=> false
-2025-05-30T14:31:16.9685461Z ##[debug]=> false
-2025-05-30T14:31:16.9686150Z ##[debug]Expanded: (false && ((github['ref'] == 'refs/heads/main') || (github['ref'] == 'refs/heads/master')))
-2025-05-30T14:31:16.9686638Z ##[debug]Result: false

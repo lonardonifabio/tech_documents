@@ -1,8 +1,0 @@
-﻿2025-05-30T14:31:16.9664154Z ##[debug]Evaluating condition for step: 'Setup Pages'
-2025-05-30T14:31:16.9666335Z ##[debug]Evaluating: (success() && ((github.ref == 'refs/heads/main') || (github.ref == 'refs/heads/master')))
-2025-05-30T14:31:16.9666929Z ##[debug]Evaluating And:
-2025-05-30T14:31:16.9667267Z ##[debug]..Evaluating success:
-2025-05-30T14:31:16.9667632Z ##[debug]..=> false
-2025-05-30T14:31:16.9667910Z ##[debug]=> false
-2025-05-30T14:31:16.9669201Z ##[debug]Expanded: (false && ((github['ref'] == 'refs/heads/main') || (github['ref'] == 'refs/heads/master')))
-2025-05-30T14:31:16.9669714Z ##[debug]Result: false
