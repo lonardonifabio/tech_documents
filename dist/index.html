@@ -249,10 +249,9 @@
             useEffect(() => {
                 // Try multiple possible paths for the documents.json file
                 const possiblePaths = [
-                    '../data/documents.json',
                     './data/documents.json',
                     'data/documents.json',
-                    '/data/documents.json'
+                    '/tech_documents/data/documents.json'
                 ];
 
                 const tryFetch = async (paths) => {

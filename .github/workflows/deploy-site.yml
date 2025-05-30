@@ -52,7 +52,7 @@ jobs:
     - name: Process documents
       run: |
         echo "Processing documents..."
-        python scripts/ollama_processor.py
+        python scripts/fallback_processor.py
         echo "Documents processed successfully"
         
         # Show results
