@@ -1,4 +1,4 @@
-name: Process Documents and Deploy
+name: Process Documents with Ollama
 
 on:
   push:
@@ -24,12 +24,12 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
+        python-version: '3.11'
     
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pypdf hashlib-compat
+        pip install -r scripts/requirements.txt
     
     - name: Set up Node.js
       uses: actions/setup-node@v4
@@ -40,10 +40,29 @@ jobs:
     - name: Install Node.js dependencies
       run: npm ci
     
-    - name: Process documents
+    - name: Install and start Ollama
       run: |
-        echo "Processing documents..."
-        python scripts/auto_update.py
+        # Install Ollama
+        curl -fsSL https://ollama.ai/install.sh | sh
+        
+        # Start Ollama in background
+        ollama serve &
+        
+        # Wait for Ollama to be ready
+        sleep 10
+        
+        # Pull DeepSeek model
+        ollama pull deepseek-r1:1.5b
+        
+        # Verify model is available
+        ollama list
+    
+    - name: Process documents with Ollama
+      env:
+        OLLAMA_MODEL: deepseek-r1:1.5b
+      run: |
+        echo "Processing documents with Ollama and DeepSeek..."
+        python scripts/ollama_processor.py
         echo "Documents processed successfully"
     
     - name: Build website
@@ -60,8 +79,11 @@ jobs:
         # Check if there are changes to commit
         if [[ -n $(git status --porcelain) ]]; then
           echo "Changes detected, committing..."
-          git add data/documents.json dist/data/documents.json data/processed_files.json
-          git commit -m "Auto-update documents database [skip ci]" || echo "No changes to commit"
+          git add data/documents.json data/processed_files.json
+          if [ -d "dist/data" ]; then
+            git add dist/data/documents.json
+          fi
+          git commit -m "Auto-update documents database with Ollama analysis [skip ci]" || echo "No changes to commit"
           git push || echo "Nothing to push"
         else
           echo "No changes to commit"

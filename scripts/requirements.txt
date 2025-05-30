@@ -1,6 +1,2 @@
-langchain==0.0.354
-ollama==0.1.7
-pypdf2==3.0.1
-python-docx==0.8.11
-requests==2.31.0
-pypdf
+ollama==0.4.1
+PyPDF2==3.0.1

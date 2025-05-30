@@ -1,257 +1,162 @@
-# AI & Data Science Document Library
+# AI Document Library with Ollama Integration
 
-An automated document processing system that creates summaries of uploaded documents and displays them in a searchable web interface.
+An automated document processing system that uses Ollama with DeepSeek model to analyze PDF documents and generate metadata for a web-based document library.
 
-Click this link: https://lonardonifabio.github.io/tech_documents/dist/src/index.html 
+## Features
 
-## 🚀 Quick Start
+- **Automated Document Processing**: Automatically processes PDF documents when added to the `documents/` folder
+- **AI-Powered Analysis**: Uses Ollama with DeepSeek model for intelligent document analysis
+- **GitHub Actions Integration**: Fully automated workflow triggered by document changes
+- **Web Interface**: Clean, responsive web interface for browsing documents
+- **Incremental Processing**: Only processes new or changed documents for efficiency
 
-### Option 1: Using the Python Server Script (Recommended)
-```bash
-python start_server.py
-```
-This will automatically:
-- Start a local HTTP server on port 8000
-- Open your browser to the document library
-- Display all processed documents
+## How It Works
 
-### Option 2: Manual Server Start
-```bash
-python -m http.server 8000
-```
-Then open your browser to: `http://localhost:8000/src/index.html`
+1. **Document Upload**: Add PDF documents to the `documents/` folder
+2. **Automatic Trigger**: GitHub Actions detects changes and starts processing
+3. **AI Analysis**: Ollama with DeepSeek model analyzes document content
+4. **Metadata Generation**: Extracts title, summary, keywords, category, and difficulty
+5. **Database Update**: Updates `data/documents.json` with new metadata
+6. **Website Deployment**: Automatically builds and deploys the updated website
 
-## 📁 Project Structure
-
-```
-tech_documents/
-├── documents/                    # PDF documents to be processed
-│   └── *.pdf                    # AI and Data Science documents
-├── dist/data/
-│   ├── documents.json           # Processed document metadata and summaries
-│   └── processed_files.json    # Track processed files to avoid reprocessing
-├── src/
-│   ├── index.html              # Main web interface
-│   └── js/
-│       ├── app.js              # Standalone React app
-│       └── translations.js     # Multilingual support
-├── scripts/
-│   ├── process_documents.py    # Document processing script
-│   ├── build.py               # Build script for deployment
-│   └── requirements.txt       # Python dependencies
-├── components/
-│   └── DocumentLibrary.jsx    # React component (alternative implementation)
-├── start_server.py            # Easy server startup script
-├── package.json               # Node.js dependencies
-├── vite.config.js            # Vite configuration
-└── README.md                  # This file
-```
-
-## 🔧 How It Works
-
-1. **Document Upload**: Add PDF files to the `documents/` folder
-2. **Processing**: The Python scripts process documents and extract:
-   - Filename and metadata
-   - AI-generated summary using Llama2
-   - Keywords extraction
-   - Category classification
-   - Difficulty level assessment
-   - Author and title extraction
-- Intelligent duplicate prevention system
-
-3. **Storage**: Processed data is stored in `dist/data/documents.json`
-4. **Display**: The web interface loads and displays all documents with search/filter capabilities
-
-## 🌐 Web Interface Features
-
-- **Multilingual Support**: Switch between English and Italian
-- **Advanced Search**: Search by filename, title, summary content, authors, or keywords
-- **Smart Filtering**: Filter by category and difficulty level
-- **Responsive Design**: Works perfectly on desktop and mobile devices
-- **Direct Links**: Click "View →" to access documents on GitHub
-- **Real-time Updates**: Automatically shows document count and status
-- **Document Previews**: Visual file type indicators and category badges
-- **Expandable Summaries**: Show more/less functionality for long summaries
-
-## 🤖 AI-Powered Processing
-
-The system uses **Llama2** AI model to automatically:
-- Generate intelligent summaries
-- Extract relevant keywords
-- Classify documents by category
-- Assess difficulty levels
-- Extract titles and authors from document content
-
-## 🛠️ Setup and Installation
+## Setup
 
 ### Prerequisites
-- Python 3.8+
-- Ollama with Llama2 model (for document processing)
-- Node.js (optional, for Vite development)
 
-### Installation Steps
-1. Clone the repository
-2. Install Python dependencies:
+- Node.js 18+
+- Python 3.11+
+- Ollama (for local development)
+
+### Local Development
+
+1. **Clone the repository**
    ```bash
+   git clone <your-repo-url>
+   cd tech_documents
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
    pip install -r scripts/requirements.txt
    ```
-3. Install Ollama and pull Llama2:
+
+3. **Install and setup Ollama** (for local testing)
    ```bash
-   ollama pull llama2:7b
+   # Install Ollama
+   curl -fsSL https://ollama.ai/install.sh | sh
+   
+   # Start Ollama
+   ollama serve
+   
+   # Pull DeepSeek model
+   ollama pull deepseek-r1:1.5b
    ```
-4. Add PDF documents to the `documents/` folder
-5. Process documents:
+
+4. **Process documents locally**
    ```bash
-   python scripts/process_documents.py
+   npm run process-docs
    ```
-6. Start the server:
+
+5. **Start development server**
    ```bash
-   python start_server.py
+   npm run dev
    ```
 
-## 🔄 Adding New Documents
+### GitHub Actions Setup
 
-1. Add PDF files to the `documents/` folder
-2. Run the processing script:
-   ```bash
-   python scripts/process_documents.py
-   ```
-3. Refresh the web interface to see new documents
+The repository is configured with GitHub Actions that automatically:
 
-The system automatically tracks processed files and only processes new or changed documents.
+1. **Triggers on document changes** in the `documents/` folder
+2. **Installs Ollama** and the DeepSeek model
+3. **Processes documents** using AI analysis
+4. **Updates the database** with new metadata
+5. **Builds and deploys** the website to GitHub Pages
 
-## 🔒 Duplicate Prevention System
+No additional setup required - just push documents to the `documents/` folder!
 
-The document processing system includes an intelligent duplicate prevention mechanism that ensures documents are not reprocessed unnecessarily:
+## Project Structure
 
-### How It Works
-- **File Tracking**: Each processed document's MD5 hash is stored in `dist/data/processed_files.json`
-- **Change Detection**: Before processing, the system calculates the current file hash and compares it with stored hashes
-- **Smart Skipping**: Documents with matching hashes are automatically skipped
-- **Cross-Platform Compatibility**: Path normalization handles Windows (\) and Unix (/) path separators
-
-### Benefits
-- ⚡ **Faster Processing**: Skip already processed documents
-- 💾 **Resource Efficiency**: Save computational resources and time
-- 🔄 **Incremental Updates**: Only process new or modified documents
-- 🛡️ **Data Integrity**: Prevent duplicate entries in the database
-
-### File Structure
-```json
-{
-  "documents/document1.pdf": "abc123def456...",
-  "documents/document2.pdf": "789xyz012..."
-}
+```
+├── .github/workflows/
+│   └── process-documents.yml    # GitHub Actions workflow
+├── documents/                   # PDF documents to process
+├── data/
+│   ├── documents.json          # Generated document metadata
+│   └── processed_files.json    # Processing state tracking
+├── scripts/
+│   ├── ollama_processor.py     # Main document processor
+│   ├── test_ollama.py         # Ollama connectivity test
+│   └── requirements.txt       # Python dependencies
+├── src/                        # Website source code
+├── components/                 # React components
+└── dist/                      # Built website (auto-generated)
 ```
 
-### Testing
-You can test the duplicate prevention system by running:
-```bash
-python scripts/test_results.py
-```
-This will show which documents are being skipped and which would be processed.
+## Document Processing
 
-## 📊 Document Data Format
+The AI processor extracts and analyzes:
 
-Each document in `documents.json` contains:
-```json
-{
-  "id": "unique_hash",
-  "filename": "document.pdf",
-  "title": "Extracted or AI-generated title",
-  "authors": ["Author 1", "Author 2"],
-  "filepath": "documents/document.pdf",
-  "upload_date": "2025-05-26T15:11:48.897460",
-  "file_size": 22812101,
-  "summary": "AI-generated summary",
-  "keywords": ["AI", "Machine Learning", "Data Science"],
-  "category": "Machine Learning",
-  "difficulty": "Intermediate",
-  "content_preview": "First 500 characters of content..."
-}
-```
-## 🚀 Deployment
+- **Title**: Clean, readable document title
+- **Summary**: 2-3 sentence content summary
+- **Keywords**: Relevant topic keywords
+- **Category**: AI, Machine Learning, Data Science, etc.
+- **Difficulty**: Beginner, Intermediate, or Advanced
+- **Authors**: Document authors (if found)
+- **Content Preview**: First portion of meaningful content
 
-### GitHub Pages
-1. Run the build script:
+## Configuration
+
+### Environment Variables
+
+- `OLLAMA_MODEL`: Specify different Ollama model (default: `deepseek-r1:1.5b`)
+
+### Model Options
+
+The system is optimized for DeepSeek but can work with other Ollama models:
+- `deepseek-r1:1.5b` (default, lightweight)
+- `deepseek-r1:7b` (more capable, requires more resources)
+- `llama2` (alternative option)
+
+## Performance Optimization
+
+- **Incremental Processing**: Only processes new/changed documents
+- **Text Extraction Limits**: Analyzes first 3 pages for efficiency
+- **Token Limits**: Truncates content to avoid model limits
+- **Fallback Analysis**: Provides basic metadata if AI analysis fails
+- **Lightweight Model**: Uses DeepSeek 1.5B for fast processing
+
+## Troubleshooting
+
+### Local Development
+
+1. **Test Ollama connectivity**:
    ```bash
-   python scripts/build.py
+   python scripts/test_ollama.py
    ```
-2. Deploy the `dist/` folder to GitHub Pages
 
-### Local Development with Vite
-```bash
-npm install
-npm run dev
-```
+2. **Check available models**:
+   ```bash
+   ollama list
+   ```
 
-## 🛠️ Technical Details
+3. **Manual document processing**:
+   ```bash
+   python scripts/ollama_processor.py
+   ```
 
-- **Frontend**: React 18 with Tailwind CSS
-- **Backend**: Python HTTP server
-- **AI Processing**: Ollama with Llama2
-- **Data Format**: JSON
-- **Document Processing**: LangChain with PDF extraction
-- **Deployment**: GitHub Pages compatible
-- **Build Tool**: Vite (optional)
+### GitHub Actions
 
-## 🔍 Search Capabilities
+- Check the Actions tab for workflow logs
+- Ensure the repository has GitHub Pages enabled
+- Verify documents are in the correct `documents/` folder
 
-The search functionality includes:
-- **Full-text search** across titles, summaries, and content
-- **Author search** by name
-- **Keyword matching** with intelligent filtering
-- **Category filtering** with dynamic options
-- **Difficulty level filtering**
-- **Case-insensitive search** for better user experience
+## Contributing
 
-## 📝 Development Notes
+1. Add PDF documents to the `documents/` folder
+2. The system will automatically process and deploy changes
+3. Monitor the GitHub Actions workflow for processing status
 
-- All external dependencies are loaded via CDN for simplicity
-- The interface is fully responsive and mobile-friendly
-- Search is optimized for performance with large document collections
-- The system handles file changes automatically (reprocessing only when needed)
-- Error handling includes graceful fallbacks for missing data
-
-## 🎯 Current Status
-
-✅ **Working Features:**
-- Document display and rendering
-- AI-powered document processing
-- Advanced search functionality
-- Category and difficulty filtering
-- Multilingual interface (EN/IT)
-- Responsive design
-- GitHub integration
-- Local server setup
-- Automatic file change detection
-- Author and title extraction
-
-🔄 **Future Enhancements:**
-- Support for more document formats (DOCX, TXT)
-- Advanced AI models for better categorization
-- Document preview functionality
-- Batch upload support
-- User authentication and personal libraries
-- Document tagging system
-- Export functionality
-
-## 🐛 Troubleshooting
-
-### Common Issues:
-
-1. **Documents not loading**: Check that `dist/data/documents.json` exists and is valid JSON
-2. **Processing fails**: Ensure Ollama is running and Llama2 model is available
-3. **Server won't start**: Check if port 8000 is already in use
-4. **Search not working**: Verify document data structure matches expected format
-
-### Debug Mode:
-Open browser developer tools to see console logs for detailed error information.
-
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.

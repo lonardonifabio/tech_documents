@@ -4,11 +4,10 @@
   "description": "Automated AI/Data Science Document Library",
   "scripts": {
     "dev": "vite",
-    "build": "python scripts/auto_update.py && vite build",
+    "build": "python scripts/ollama_processor.py && vite build",
     "preview": "vite preview",
-    "update-docs": "python scripts/auto_update.py",
-    "watch-docs": "python scripts/auto_update.py --watch",
-    "process-docs": "python scripts/simple_processor.py"
+    "update-docs": "python scripts/ollama_processor.py",
+    "process-docs": "python scripts/ollama_processor.py"
   },
   "dependencies": {
     "react": "^18.2.0",
