@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 class OllamaDocumentProcessor:
-    def __init__(self, model_name: str = "deepseek-r1:1.5b"):
+    def __init__(self, model_name: str = "deepseek-r1:1.8b"):
         """Initialize the processor with Ollama and DeepSeek model"""
         self.model_name = model_name
         self.base_dir = Path.cwd()
@@ -79,10 +79,10 @@ class OllamaDocumentProcessor:
         prompt = f"""Analyze this document and provide a JSON response with the following structure:
 {{
     "title": "Clean, readable title",
-    "summary": "2-3 sentence summary of the document content",
+    "summary": "summary of the document content with max 400 characters",
     "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5"],
-    "category": "one of: AI, Machine Learning, Data Science, Analytics, Business, Technology, Research",
-    "difficulty": "one of: Beginner, Intermediate, Advanced",
+    "category": "just one of: AI, Machine Learning, Data Science, Analytics, Business, Technology, Research",
+    "difficulty": "just one of: Beginner, Intermediate, Advanced",
     "authors": ["author1", "author2"] or [] if not found,
     "content_preview": "First 100 characters of meaningful content"
 }}
