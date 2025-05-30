@@ -1,70 +1,76 @@
 name: Process Documents and Deploy
+
 on:
   push:
+    branches: [ main, master ]
     paths:
       - 'documents/**'
-      - 'src/**'
-  workflow_dispatch:
+  pull_request:
+    branches: [ main, master ]
+    paths:
+      - 'documents/**'
+  workflow_dispatch: # Allow manual triggering
+
 jobs:
   process-and-deploy:
     runs-on: ubuntu-latest
+    
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v4
       with:
-        fetch-depth: 0
-        token: ${{ secrets.REP }}  # Usa il token personalizzato
-    - name: Setup Python
+        fetch-depth: 0 # Fetch all history for proper file tracking
+    
+    - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.9'
-    - name: Install Ollama
-      run: |
-        curl -fsSL https://ollama.ai/install.sh | sh
-        # Uccidi qualsiasi processo sulla porta 11434
-        PID=$(lsof -ti:11434) || true
-        if [ ! -z "$PID" ]; then
-          echo "Killing process on port 11434 (PID: $PID)"
-          kill -9 $PID
-        fi
-        # Avvia Ollama in background
-        nohup ollama serve > /tmp/ollama.log 2>&1 &
-        # Attendi che Ollama sia pronto
-        sleep 10
-        # Scarica il modello
-        ollama pull deepseek-r1:7b
+    
     - name: Install Python dependencies
       run: |
-        pip install -r scripts/requirements.txt
+        python -m pip install --upgrade pip
+        pip install pypdf hashlib-compat
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install Node.js dependencies
+      run: npm ci
+    
     - name: Process documents
       run: |
-        python scripts/process_documents.py
-    - name: Build site
+        echo "Processing documents..."
+        python scripts/auto_update.py
+        echo "Documents processed successfully"
+    
+    - name: Build website
       run: |
-        python scripts/build.py
-    - name: Deploy to main branch
+        echo "Building website..."
+        npm run build
+        echo "Website built successfully"
+    
+    - name: Commit updated documents.json if changed
       run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
         
-        # Assicurati di essere sul branch main
-        git checkout main
-        
-        echo "🧼 Aggiungo file modificati..."
-        git add ./dist
-        
-        echo "📋 Commit se ci sono modifiche..."
-        if git diff --cached --quiet; then
-          echo "Nessuna modifica da committare"
+        # Check if there are changes to commit
+        if [[ -n $(git status --porcelain) ]]; then
+          echo "Changes detected, committing..."
+          git add data/documents.json dist/data/documents.json data/processed_files.json
+          git commit -m "Auto-update documents database [skip ci]" || echo "No changes to commit"
+          git push || echo "Nothing to push"
         else
-          git commit -m "Deploy: Update site content"
-          echo "🚀 Push delle modifiche..."
-          # Fetch e prova push normale
-          git fetch origin main
-          if git push origin main; then
-            echo "Push riuscito!"
-          else
-            echo "Push fallito, provo con rebase..."
-            git pull --rebase origin main
-            git push origin main
-          fi
+          echo "No changes to commit"
         fi
+    
+    - name: Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
+        force_orphan: true
