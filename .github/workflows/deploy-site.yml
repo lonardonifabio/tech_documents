@@ -55,7 +55,7 @@ jobs:
         python scripts/ensure_data.py
         
         echo "Processing documents..."
-        python scripts/updated_ollama_processor.py || python scripts/ollama_processor_fixed.py
+        python scripts/fixed_ollama_processor.py
         echo "Documents processed successfully"
         
         # Show results
