@@ -133,7 +133,7 @@ jobs:
         OLLAMA_MODEL: mistral:7b
       run: |
         echo "Processing documents with Ollama and Mistral..."
-        python scripts/fixed_ollama_processor.py --force
+        python scripts/fixed_ollama_processor.py
         echo "Documents processed successfully"
     
     - name: Build website
