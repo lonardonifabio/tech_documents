@@ -7,6 +7,7 @@ const DocumentLibrary = () => {
   const [selectedCategory, setSelectedCategory] = useState('');
   const [selectedDifficulty, setSelectedDifficulty] = useState('');
   const [expandedDocs, setExpandedDocs] = useState(new Set());
+  const [expandedAuthors, setExpandedAuthors] = useState(new Set());
 
   useEffect(() => {
     // Load documents from GitHub Pages
@@ -28,6 +29,9 @@ const DocumentLibrary = () => {
         doc.summary.toLowerCase().includes(searchTerm.toLowerCase()) ||
         doc.keywords.some(keyword =>
           keyword.toLowerCase().includes(searchTerm.toLowerCase())
+        ) ||
+        doc.authors.some(author =>
+          author.toLowerCase().includes(searchTerm.toLowerCase())
         )
       );
     }
@@ -56,9 +60,68 @@ const DocumentLibrary = () => {
     setExpandedDocs(newExpanded);
   };
 
-  const truncateText = (text, maxLength = 100) => {
+  const toggleExpandedAuthors = (docId) => {
+    const newExpanded = new Set(expandedAuthors);
+    if (newExpanded.has(docId)) {
+      newExpanded.delete(docId);
+    } else {
+      newExpanded.add(docId);
+    }
+    setExpandedAuthors(newExpanded);
+  };
+
+  const truncateText = (text, maxLength = 150) => {
     if (text.length <= maxLength) return text;
     return text.substring(0, maxLength) + '...';
+  };
+
+  const renderAuthors = (doc) => {
+    if (!doc.authors || doc.authors.length === 0) {
+      return <span className="text-gray-400 text-xs">No author information</span>;
+    }
+
+    const isExpanded = expandedAuthors.has(doc.id);
+    const maxAuthorsToShow = 2;
+    const shouldTruncate = doc.authors.length > maxAuthorsToShow;
+
+    const authorsToShow = isExpanded ? doc.authors : doc.authors.slice(0, maxAuthorsToShow);
+    const authorsText = authorsToShow.join(', ');
+
+    return (
+      <div className="text-xs text-gray-600">
+        <span className="font-medium">Authors: </span>
+        <span>{authorsText}</span>
+        {shouldTruncate && (
+          <>
+            {!isExpanded && <span> and {doc.authors.length - maxAuthorsToShow} more</span>}
+            <button
+              onClick={() => toggleExpandedAuthors(doc.id)}
+              className="text-blue-600 hover:text-blue-800 ml-1 font-medium"
+            >
+              {isExpanded ? 'Show less' : 'Show more'}
+            </button>
+          </>
+        )}
+      </div>
+    );
+  };
+
+  const getDocumentPreviewUrl = (filepath) => {
+    // Convert PDF to preview URL using PDF.js or similar service
+    // For GitHub hosted files, we can use a PDF preview service
+    const githubRawUrl = `https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${filepath}`;
+    
+    // Using PDF.js viewer for preview
+    return `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(githubRawUrl)}`;
+  };
+
+  const getDocumentThumbnail = (filepath) => {
+    // For now, we'll use a placeholder that shows the first page
+    // In a real implementation, you might generate thumbnails server-side
+    const githubRawUrl = `https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${filepath}`;
+    
+    // Using a PDF thumbnail service (you might want to implement your own)
+    return `https://api.thumbnail.ws/api/1/thumbnail/get?url=${encodeURIComponent(githubRawUrl)}&width=200&height=280`;
   };
 
   return (
@@ -69,7 +132,7 @@ const DocumentLibrary = () => {
       <div className="mb-8 space-y-4">
         <input
           type="text"
-          placeholder="Search documents, keywords..."
+          placeholder="Search documents, keywords, authors..."
           className="w-full p-3 border rounded-lg"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
@@ -104,52 +167,108 @@ const DocumentLibrary = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredDocs.map(doc => {
           const isExpanded = expandedDocs.has(doc.id);
-          const shouldTruncate = doc.summary.length > 100;
+          const shouldTruncate = doc.summary.length > 150;
           
           return (
-            <div key={doc.id} className="border rounded-lg p-4 hover:shadow-lg transition-shadow">
-              <h3 className="font-semibold text-lg mb-2">{doc.filename}</h3>
-              
-              <div className="text-gray-600 text-sm mb-3">
-                <p>
-                  {isExpanded ? doc.summary : truncateText(doc.summary)}
-                </p>
-                {shouldTruncate && (
-                  <button
-                    onClick={() => toggleExpanded(doc.id)}
-                    className="text-blue-600 hover:text-blue-800 text-xs mt-1 font-medium"
+            <div key={doc.id} className="border rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+              {/* Document Preview */}
+              <div className="relative h-48 bg-gray-100 flex items-center justify-center">
+                <img
+                  src={getDocumentThumbnail(doc.filepath)}
+                  alt={`Preview of ${doc.filename}`}
+                  className="max-h-full max-w-full object-contain"
+                  onError={(e) => {
+                    // Fallback to a document icon if thumbnail fails
+                    e.target.style.display = 'none';
+                    e.target.nextSibling.style.display = 'flex';
+                  }}
+                />
+                <div className="hidden flex-col items-center justify-center text-gray-400">
+                  <svg className="w-16 h-16 mb-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
+                  </svg>
+                  <span className="text-sm">PDF Preview</span>
+                </div>
+                
+                {/* Preview overlay */}
+                <div className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-20 transition-all duration-200 flex items-center justify-center">
+                  <a
+                    href={getDocumentPreviewUrl(doc.filepath)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="opacity-0 hover:opacity-100 bg-white text-gray-800 px-3 py-1 rounded text-sm font-medium transition-opacity"
                   >
-                    {isExpanded ? 'Show less' : 'Show more'}
-                  </button>
-                )}
+                    Preview PDF
+                  </a>
+                </div>
               </div>
 
-              <div className="flex flex-wrap gap-1 mb-3">
-                {doc.keywords.map(keyword => (
-                  <span key={keyword} className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">
-                    {keyword}
+              <div className="p-4">
+                <h3 className="font-semibold text-lg mb-2 line-clamp-2">{doc.title || doc.filename}</h3>
+                
+                {/* Authors */}
+                <div className="mb-2">
+                  {renderAuthors(doc)}
+                </div>
+                
+                {/* Summary */}
+                <div className="text-gray-600 text-sm mb-3">
+                  <p>
+                    {isExpanded ? doc.summary : truncateText(doc.summary)}
+                  </p>
+                  {shouldTruncate && (
+                    <button
+                      onClick={() => toggleExpanded(doc.id)}
+                      className="text-blue-600 hover:text-blue-800 text-xs mt-1 font-medium"
+                    >
+                      {isExpanded ? 'Show less' : 'Show more'}
+                    </button>
+                  )}
+                </div>
+
+                {/* Keywords */}
+                <div className="flex flex-wrap gap-1 mb-3">
+                  {doc.keywords.slice(0, 3).map(keyword => (
+                    <span key={keyword} className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">
+                      {keyword}
+                    </span>
+                  ))}
+                  {doc.keywords.length > 3 && (
+                    <span className="text-gray-500 text-xs px-2 py-1">
+                      +{doc.keywords.length - 3} more
+                    </span>
+                  )}
+                </div>
+
+                {/* Category and Difficulty */}
+                <div className="flex justify-between items-center text-sm text-gray-500 mb-3">
+                  <span className="bg-green-100 text-green-800 px-2 py-1 rounded">
+                    {doc.category}
                   </span>
-                ))}
-              </div>
+                  <span className="bg-orange-100 text-orange-800 px-2 py-1 rounded">
+                    {doc.difficulty}
+                  </span>
+                </div>
 
-              <div className="flex justify-between items-center text-sm text-gray-500">
-                <span className="bg-green-100 text-green-800 px-2 py-1 rounded">
-                  {doc.category}
-                </span>
-                <span className="bg-orange-100 text-orange-800 px-2 py-1 rounded">
-                  {doc.difficulty}
-                </span>
-              </div>
-
-              <div className="mt-3">
-                <a
-                  href={`https://github.com/lonardonifabio/tech_documents/blob/main/${doc.filepath}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline text-sm"
-                >
-                  View document →
-                </a>
+                {/* Actions */}
+                <div className="flex space-x-2">
+                  <a
+                    href={getDocumentPreviewUrl(doc.filepath)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 text-center bg-blue-600 text-white px-3 py-2 rounded text-sm hover:bg-blue-700 transition-colors"
+                  >
+                    View PDF
+                  </a>
+                  <a
+                    href={`https://github.com/lonardonifabio/tech_documents/blob/main/${doc.filepath}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 text-center border border-gray-300 text-gray-700 px-3 py-2 rounded text-sm hover:bg-gray-50 transition-colors"
+                  >
+                    GitHub
+                  </a>
+                </div>
               </div>
             </div>
           );
