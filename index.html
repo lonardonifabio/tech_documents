@@ -28,6 +28,32 @@
             justify-content: center;
             color: white;
             font-size: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .document-preview::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .document-preview::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            height: 2px;
+            background: rgba(255, 255, 255, 0.3);
+            box-shadow: 
+                0 8px 0 rgba(255, 255, 255, 0.2),
+                0 16px 0 rgba(255, 255, 255, 0.2),
+                0 24px 0 rgba(255, 255, 255, 0.2);
         }
         .document-card {
             height: 100%;
@@ -42,6 +68,12 @@
         .document-footer {
             margin-top: auto;
         }
+        .pdf-preview-frame {
+            width: 100%;
+            height: 100%;
+            border: none;
+            background: #f8f9fa;
+        }
     </style>
 </head>
 <body>
@@ -53,7 +85,8 @@
         // Single document component with improved layout
         const DocumentCard = ({ doc }) => {
             const [showFullSummary, setShowFullSummary] = useState(false);
-            const [imageError, setImageError] = useState(false);
+            const [showPDFPreview, setShowPDFPreview] = useState(false);
+            const [previewError, setPreviewError] = useState(false);
             
             // Generate icon based on file type
             const getFileIcon = (filename) => {
@@ -70,22 +103,47 @@
                 }
             };
 
-            // Generate document cover image URL
-            const getDocumentCover = (doc) => {
-                // Create a more sophisticated cover based on document content
-                const colors = {
-                    'AI': ['4f46e5', 'ffffff'],
-                    'Data Science': ['dc2626', 'ffffff'],
-                    'Business': ['059669', 'ffffff'],
-                    'Technology': ['7c3aed', 'ffffff']
+            // Generate GitHub-compatible PDF preview URL
+            const getPDFPreviewUrl = (doc) => {
+                const githubRawUrl = `https://github.com/lonardonifabio/tech_documents/raw/main/${doc.filepath}`;
+                // Use PDF.js viewer for GitHub compatibility
+                return `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(githubRawUrl)}`;
+            };
+
+            // Generate document preview with category-based styling
+            const getDocumentPreview = (doc) => {
+                const categoryStyles = {
+                    'AI': {
+                        gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                        icon: '🤖'
+                    },
+                    'Machine Learning': {
+                        gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+                        icon: '🧠'
+                    },
+                    'Data Science': {
+                        gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
+                        icon: '📊'
+                    },
+                    'Business': {
+                        gradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
+                        icon: '💼'
+                    },
+                    'Technology': {
+                        gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
+                        icon: '⚙️'
+                    },
+                    'Research': {
+                        gradient: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)',
+                        icon: '🔬'
+                    }
                 };
-                
-                const categoryColors = colors[doc.category] || ['4f46e5', 'ffffff'];
-                const title = (doc.title || doc.filename).replace(/[^a-zA-Z0-9\s]/g, '').substring(0, 30);
-                const encodedTitle = encodeURIComponent(title);
-                
-                // Use a service that generates document-like covers with better styling
-                return `https://via.placeholder.com/300x200/${categoryColors[0]}/${categoryColors[1]}?text=${encodedTitle}`;
+
+                const style = categoryStyles[doc.category] || categoryStyles['Technology'];
+                return {
+                    background: style.gradient,
+                    icon: style.icon
+                };
             };
 
             // Truncate text if too long
@@ -114,30 +172,58 @@
 
             const displaySummary = showFullSummary ? doc.summary : truncateSummary(doc.summary);
             const displayTitle = doc.title || doc.filename;
+            const previewStyle = getDocumentPreview(doc);
 
             return (
                 <div className="border rounded-lg hover:shadow-xl transition-all duration-300 bg-white document-card overflow-hidden">
                     {/* Document preview */}
-                    <div className="h-32 w-full document-preview relative overflow-hidden">
-                        {!imageError ? (
-                            <img 
-                                src={getDocumentCover(doc)}
-                                alt={`Preview of ${displayTitle}`}
-                                className="w-full h-full object-cover"
-                                onError={() => setImageError(true)}
+                    <div className="h-32 w-full relative overflow-hidden">
+                        {showPDFPreview && !previewError ? (
+                            <iframe
+                                src={getPDFPreviewUrl(doc)}
+                                className="pdf-preview-frame"
+                                onError={() => setPreviewError(true)}
+                                title={`Preview of ${displayTitle}`}
                             />
                         ) : (
-                            <div className="w-full h-full flex items-center justify-center text-4xl">
-                                {getFileIcon(doc.filename)}
+                            <div 
+                                className="document-preview cursor-pointer"
+                                style={{ background: previewStyle.background }}
+                                onClick={() => setShowPDFPreview(true)}
+                                title="Click to preview PDF"
+                            >
+                                <div className="relative z-10 text-center">
+                                    <div className="text-3xl mb-1">{previewStyle.icon}</div>
+                                    <div className="text-xs font-medium opacity-90">
+                                        {truncateText(displayTitle, 20)}
+                                    </div>
+                                    <div className="text-xs opacity-70 mt-1">
+                                        Click to preview
+                                    </div>
+                                </div>
                             </div>
                         )}
                         
                         {/* Category badge overlay */}
-                        <div className="absolute top-2 right-2">
+                        <div className="absolute top-2 right-2 z-20">
                             <span className="bg-white bg-opacity-90 text-gray-800 px-2 py-1 rounded text-xs font-medium">
                                 {doc.category}
                             </span>
                         </div>
+
+                        {/* Close preview button */}
+                        {showPDFPreview && (
+                            <button
+                                onClick={() => {
+                                    setShowPDFPreview(false);
+                                    setPreviewError(false);
+                                }}
+                                className="absolute top-2 left-2 z-20 bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs hover:bg-red-600"
+                                title="Close preview"
+                            >
+                                ×
+                            </button>
+                        )}
                     </div>
 
                     {/* Document content */}
@@ -192,19 +278,27 @@
                                 </span>
                             </div>
 
-                            {/* File size and link */}
+                            {/* File size and actions */}
                             <div className="flex justify-between items-center">
                                 <span className="text-xs text-gray-500">
                                     {formatFileSize(doc.file_size)}
                                 </span>
-                                <a
-                                    href={`https://github.com/lonardonifabio/tech_documents/blob/main/${doc.filepath}`}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors duration-200"
-                                >
-                                    View →
-                                </a>
+                                <div className="flex gap-2">
+                                    <button
+                                        onClick={() => setShowPDFPreview(!showPDFPreview)}
+                                        className="bg-green-600 text-white px-3 py-1 rounded-full text-xs font-medium hover:bg-green-700 transition-colors duration-200"
+                                    >
+                                        {showPDFPreview ? 'Hide' : 'Preview'}
+                                    </button>
+                                    <a
+                                        href={`https://github.com/lonardonifabio/tech_documents/raw/main/${doc.filepath}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors duration-200"
+                                    >
+                                        Download
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -372,7 +466,7 @@
                                 Automated collection of Artificial Intelligence and Data Science documents
                             </p>
                             <p className="text-sm text-gray-500">
-                                {documents.length} documents • Automatically updated
+                                {documents.length} documents • Click any document to preview
                             </p>
                         </header>
 

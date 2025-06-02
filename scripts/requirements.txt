@@ -4,3 +4,5 @@ ollama==0.1.7
 python-docx==0.8.11
 requests==2.31.0
 pypdf
+PyMuPDF==1.23.14
+Pillow==10.1.0
