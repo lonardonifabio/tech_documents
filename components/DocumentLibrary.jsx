@@ -56,7 +56,7 @@ const DocumentLibrary = () => {
     setExpandedDocs(newExpanded);
   };
 
-  const truncateText = (text, maxLength = 150) => {
+  const truncateText = (text, maxLength = 100) => {
     if (text.length <= maxLength) return text;
     return text.substring(0, maxLength) + '...';
   };
@@ -104,7 +104,7 @@ const DocumentLibrary = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredDocs.map(doc => {
           const isExpanded = expandedDocs.has(doc.id);
-          const shouldTruncate = doc.summary.length > 150;
+          const shouldTruncate = doc.summary.length > 100;
           
           return (
             <div key={doc.id} className="border rounded-lg p-4 hover:shadow-lg transition-shadow">
