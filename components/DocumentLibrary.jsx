@@ -118,6 +118,10 @@ const DocumentLibrary = () => {
     return `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(githubRawUrl)}`;
   };
 
+  const getGitHubPreviewUrl = (filepath) => {
+    return `https://github.com/lonardonifabio/tech_documents/blob/main/${filepath}`;
+  };
+
   return (
     <div className="max-w-6xl mx-auto p-6">
       <h1 className="text-3xl font-bold mb-8">AI & Data Science Document Library</h1>
@@ -165,35 +169,37 @@ const DocumentLibrary = () => {
           
           return (
             <div key={doc.id} className="border rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
-              {/* Document Preview */}
+              {/* Document Preview - GitHub Compatible */}
               <div className="relative h-48 bg-gray-100 flex items-center justify-center">
-                <iframe
-                  src={`https://docs.google.com/gview?url=https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${doc.filepath}&embedded=true`}
-                  className="w-full h-full border-0"
-                  title={`Preview of ${doc.filename}`}
-                  onError={() => {
-                    // Fallback will be handled by the next div
-                  }}
-                />
-                
-                {/* Fallback document icon */}
-                <div className="absolute inset-0 bg-gray-100 flex flex-col items-center justify-center text-gray-400" style={{display: 'none'}}>
-                  <svg className="w-16 h-16 mb-2" fill="currentColor" viewBox="0 0 20 20">
+                {/* Document icon and info */}
+                <div className="flex flex-col items-center justify-center text-gray-600 p-4">
+                  <svg className="w-16 h-16 mb-3 text-red-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm">PDF Document</span>
+                  <span className="text-sm font-medium text-center px-2 line-clamp-2">{doc.title || doc.filename}</span>
+                  <span className="text-xs text-gray-500 mt-1">{(doc.file_size / 1024 / 1024).toFixed(1)} MB</span>
                 </div>
                 
-                {/* Preview overlay */}
+                {/* Preview overlay with GitHub-compatible actions */}
                 <div className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-20 transition-all duration-200 flex items-center justify-center">
-                  <a
-                    href={getDocumentPreviewUrl(doc.filepath)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="opacity-0 hover:opacity-100 bg-white text-gray-800 px-3 py-1 rounded text-sm font-medium transition-opacity"
-                  >
-                    Open Full PDF
-                  </a>
+                  <div className="opacity-0 hover:opacity-100 flex space-x-2 transition-opacity">
+                    <a
+                      href={getDocumentPreviewUrl(doc.filepath)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 text-white px-3 py-1 rounded text-sm font-medium hover:bg-blue-700"
+                    >
+                      View PDF
+                    </a>
+                    <a
+                      href={getGitHubPreviewUrl(doc.filepath)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-gray-800 text-white px-3 py-1 rounded text-sm font-medium hover:bg-gray-900"
+                    >
+                      GitHub
+                    </a>
+                  </div>
                 </div>
               </div>
 
@@ -255,7 +261,7 @@ const DocumentLibrary = () => {
                     View PDF
                   </a>
                   <a
-                    href={`https://github.com/lonardonifabio/tech_documents/blob/main/${doc.filepath}`}
+                    href={getGitHubPreviewUrl(doc.filepath)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 text-center border border-gray-300 text-gray-700 px-3 py-2 rounded text-sm hover:bg-gray-50 transition-colors"
