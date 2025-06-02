@@ -46,47 +46,93 @@ jobs:
         # Install Ollama
         curl -fsSL https://ollama.ai/install.sh | sh
         
-        # Kill any existing Ollama processes
-        pkill -f ollama || true
+        # Aggressive cleanup of any existing Ollama processes and port usage
+        echo "Cleaning up any existing Ollama processes..."
+        sudo pkill -f ollama || true
+        sudo pkill -9 ollama || true
+        sudo killall ollama || true
+        sudo killall -9 ollama || true
         
-        # Wait a moment for cleanup
-        sleep 2
+        # Wait for cleanup
+        sleep 5
         
-        # Start Ollama in background
+        # Check and kill anything using port 11434
+        if sudo lsof -ti:11434 2>/dev/null; then
+          echo "Port 11434 is in use, force killing processes..."
+          sudo kill -9 $(sudo lsof -ti:11434) || true
+          sleep 3
+        fi
+        
+        # Double check port is free
+        if sudo netstat -tlnp | grep :11434; then
+          echo "Port still in use, attempting to free it..."
+          sudo fuser -k 11434/tcp || true
+          sleep 2
+        fi
+        
+        # Start Ollama with explicit configuration
+        export OLLAMA_HOST=127.0.0.1:11434
+        export OLLAMA_ORIGINS="*"
+        
+        echo "Starting Ollama..."
         ollama serve &
         OLLAMA_PID=$!
+        echo "Started Ollama with PID: $OLLAMA_PID"
         
-        # Wait for Ollama to be ready with timeout
+        # Wait for Ollama to be ready with extended timeout
         echo "Waiting for Ollama to start..."
-        for i in {1..30}; do
+        for i in {1..60}; do
           if curl -s http://127.0.0.1:11434/api/tags >/dev/null 2>&1; then
             echo "Ollama is ready!"
             break
           fi
-          echo "Waiting... ($i/30)"
-          sleep 2
+          echo "Waiting... ($i/60)"
+          sleep 3
         done
         
-        # Pull model with retry logic
-        echo "Pulling DeepSeek model..."
+        # Verify Ollama is responding
+        if ! curl -s http://127.0.0.1:11434/api/tags >/dev/null 2>&1; then
+          echo "ERROR: Ollama failed to start properly"
+          echo "Checking processes:"
+          ps aux | grep ollama || true
+          echo "Checking port usage:"
+          sudo netstat -tlnp | grep 11434 || true
+          echo "Checking if service is running:"
+          sudo systemctl status ollama || true
+          exit 1
+        fi
+        
+        # Pull Mistral model with retry logic
+        echo "Pulling Mistral model..."
         for attempt in {1..3}; do
-          if ollama pull deepseek-r1:1.5b; then
-            echo "Model pulled successfully!"
+          echo "Attempt $attempt to pull mistral:7b..."
+          if timeout 300 ollama pull mistral:7b; then
+            echo "Mistral model pulled successfully!"
             break
           else
-            echo "Attempt $attempt failed, retrying..."
-            sleep 5
+            echo "Attempt $attempt failed, retrying in 10 seconds..."
+            sleep 10
+          fi
+          
+          if [ $attempt -eq 3 ]; then
+            echo "ERROR: Failed to pull model after 3 attempts"
+            exit 1
           fi
         done
         
         # Verify model is available
+        echo "Available models:"
         ollama list
+        
+        # Test model with a simple query
+        echo "Testing Mistral model..."
+        echo '{"model": "mistral:7b", "prompt": "Hello", "stream": false}' | curl -s -X POST http://127.0.0.1:11434/api/generate -d @- || echo "Model test failed but continuing..."
     
     - name: Process documents with Ollama
       env:
-        OLLAMA_MODEL: deepseek-r1:1.5b
+        OLLAMA_MODEL: mistral:7b
       run: |
-        echo "Processing documents with Ollama and DeepSeek..."
+        echo "Processing documents with Ollama and Mistral..."
         python scripts/fixed_ollama_processor.py --force
         echo "Documents processed successfully"
     

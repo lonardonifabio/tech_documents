@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Fixed Ollama document processor that handles DeepSeek thinking format
-Uses DeepSeek AI model for document analysis with proper response parsing
+Fixed Ollama document processor optimized for Mistral model
+Handles JSON parsing issues and provides robust document analysis
 """
 
 import os
@@ -20,8 +20,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 class FixedOllamaDocumentProcessor:
-    def __init__(self, model_name: str = "deepseek-r1:1.5b"):
-        """Initialize the processor with Ollama and DeepSeek model"""
+    def __init__(self, model_name: str = "mistral:7b"):
+        """Initialize the processor with Ollama and Mistral model"""
         self.model_name = model_name
         self.base_dir = Path.cwd()
         self.documents_dir = self.base_dir / 'documents'
@@ -34,7 +34,7 @@ class FixedOllamaDocumentProcessor:
         logger.info(f"Data directory: {self.data_dir}")
     
     def ensure_model_available(self) -> bool:
-        """Ensure the DeepSeek model is available in Ollama"""
+        """Ensure the Mistral model is available in Ollama"""
         try:
             models = ollama.list()
             available_models = [model['name'] for model in models.get('models', [])]
@@ -67,85 +67,31 @@ class FixedOllamaDocumentProcessor:
             logger.warning(f"Failed to extract text from {filepath}: {e}")
             return ""
     
-    def clean_json_response(self, response_text: str) -> str:
-        """Clean and extract JSON from Ollama response, handling DeepSeek thinking tags"""
+    def parse_ollama_response(self, response_text: str) -> Optional[Dict]:
+        """Parse Ollama response with robust error handling"""
         if not response_text:
-            return ""
+            return None
         
-        # Remove leading/trailing whitespace
-        response_text = response_text.strip()
+        logger.info(f"Raw response: {response_text[:200]}...")
         
-        # Handle DeepSeek thinking format - remove <think> tags and content
-        if response_text.startswith('<think>'):
-            # Find the end of thinking section
-            think_end = response_text.find('</think>')
-            if think_end != -1:
-                # Extract content after </think>
-                response_text = response_text[think_end + 8:].strip()
-            else:
-                # If no closing tag, try to find JSON after the thinking content
-                # Look for the first { that might start JSON
-                first_brace = response_text.find('{')
-                if first_brace != -1:
-                    response_text = response_text[first_brace:]
+        # Method 1: Direct JSON parsing
+        try:
+            return json.loads(response_text.strip())
+        except json.JSONDecodeError:
+            pass
         
-        # Remove any remaining XML-like tags
-        response_text = re.sub(r'<[^>]+>', '', response_text).strip()
-        
-        # Try to find JSON block using regex
-        json_patterns = [
-            r'\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}',  # Simple nested JSON
-            r'\{.*?\}',  # Basic JSON block
-        ]
-        
-        for pattern in json_patterns:
-            matches = re.findall(pattern, response_text, re.DOTALL)
-            for match in matches:
-                try:
-                    # Test if this is valid JSON
-                    json.loads(match)
-                    return match
-                except json.JSONDecodeError:
-                    continue
-        
-        # If no valid JSON found, try to extract between first { and last }
+        # Method 2: Extract JSON between braces
         first_brace = response_text.find('{')
         last_brace = response_text.rfind('}')
         
         if first_brace != -1 and last_brace != -1 and last_brace > first_brace:
             potential_json = response_text[first_brace:last_brace + 1]
             try:
-                json.loads(potential_json)
-                return potential_json
+                return json.loads(potential_json)
             except json.JSONDecodeError:
                 pass
         
-        return ""
-    
-    def parse_ollama_response(self, response_text: str) -> Optional[Dict]:
-        """Parse Ollama response with robust error handling for DeepSeek format"""
-        if not response_text:
-            return None
-        
-        logger.debug(f"Raw response: {response_text[:200]}...")
-        
-        # First, try direct parsing
-        try:
-            return json.loads(response_text.strip())
-        except json.JSONDecodeError:
-            pass
-        
-        # Try to clean and extract JSON
-        cleaned_json = self.clean_json_response(response_text)
-        if cleaned_json:
-            try:
-                parsed = json.loads(cleaned_json)
-                logger.info("Successfully parsed JSON after cleaning")
-                return parsed
-            except json.JSONDecodeError as e:
-                logger.debug(f"Failed to parse cleaned JSON: {e}")
-        
-        # Try to extract individual fields using regex if JSON parsing fails
+        # Method 3: Regex field extraction
         logger.info("Attempting to extract fields using regex patterns")
         
         extracted_data = {}
@@ -153,8 +99,8 @@ class FixedOllamaDocumentProcessor:
         # Extract title
         title_patterns = [
             r'"title"\s*:\s*"([^"]*)"',
-            r'title:\s*"([^"]*)"',
-            r'Title:\s*([^\n]*)'
+            r'title\s*:\s*"([^"]*)"',
+            r'Title\s*:\s*([^\n,}]*)'
         ]
         for pattern in title_patterns:
             title_match = re.search(pattern, response_text, re.IGNORECASE)
@@ -165,8 +111,8 @@ class FixedOllamaDocumentProcessor:
         # Extract summary
         summary_patterns = [
             r'"summary"\s*:\s*"([^"]*)"',
-            r'summary:\s*"([^"]*)"',
-            r'Summary:\s*([^\n]*)'
+            r'summary\s*:\s*"([^"]*)"',
+            r'Summary\s*:\s*([^\n,}]*)'
         ]
         for pattern in summary_patterns:
             summary_match = re.search(pattern, response_text, re.IGNORECASE)
@@ -177,8 +123,8 @@ class FixedOllamaDocumentProcessor:
         # Extract category
         category_patterns = [
             r'"category"\s*:\s*"([^"]*)"',
-            r'category:\s*"([^"]*)"',
-            r'Category:\s*([^\n]*)'
+            r'category\s*:\s*"([^"]*)"',
+            r'Category\s*:\s*([^\n,}]*)'
         ]
         for pattern in category_patterns:
             category_match = re.search(pattern, response_text, re.IGNORECASE)
@@ -189,8 +135,8 @@ class FixedOllamaDocumentProcessor:
         # Extract difficulty
         difficulty_patterns = [
             r'"difficulty"\s*:\s*"([^"]*)"',
-            r'difficulty:\s*"([^"]*)"',
-            r'Difficulty:\s*([^\n]*)'
+            r'difficulty\s*:\s*"([^"]*)"',
+            r'Difficulty\s*:\s*([^\n,}]*)'
         ]
         for pattern in difficulty_patterns:
             difficulty_match = re.search(pattern, response_text, re.IGNORECASE)
@@ -201,8 +147,7 @@ class FixedOllamaDocumentProcessor:
         # Extract keywords array
         keywords_patterns = [
             r'"keywords"\s*:\s*\[(.*?)\]',
-            r'keywords:\s*\[(.*?)\]',
-            r'Keywords:\s*\[(.*?)\]'
+            r'keywords\s*:\s*\[(.*?)\]'
         ]
         for pattern in keywords_patterns:
             keywords_match = re.search(pattern, response_text, re.DOTALL | re.IGNORECASE)
@@ -217,8 +162,7 @@ class FixedOllamaDocumentProcessor:
         # Extract authors array
         authors_patterns = [
             r'"authors"\s*:\s*\[(.*?)\]',
-            r'authors:\s*\[(.*?)\]',
-            r'Authors:\s*\[(.*?)\]'
+            r'authors\s*:\s*\[(.*?)\]'
         ]
         for pattern in authors_patterns:
             authors_match = re.search(pattern, response_text, re.DOTALL | re.IGNORECASE)
@@ -233,8 +177,7 @@ class FixedOllamaDocumentProcessor:
         # Extract content_preview
         preview_patterns = [
             r'"content_preview"\s*:\s*"([^"]*)"',
-            r'content_preview:\s*"([^"]*)"',
-            r'Content Preview:\s*([^\n]*)'
+            r'content_preview\s*:\s*"([^"]*)"'
         ]
         for pattern in preview_patterns:
             preview_match = re.search(pattern, response_text, re.IGNORECASE)
@@ -249,55 +192,43 @@ class FixedOllamaDocumentProcessor:
         return None
     
     def analyze_document_with_ollama(self, text: str, filename: str) -> Dict:
-        """Use Ollama with DeepSeek to analyze document content with improved prompt"""
+        """Use Ollama with Mistral to analyze document content"""
         if not text.strip():
             return self._get_fallback_analysis(filename)
         
         # Truncate text if too long to avoid token limits
-        max_chars = 2000
+        max_chars = 1500
         if len(text) > max_chars:
             text = text[:max_chars] + "..."
         
-        # Improved prompt that explicitly asks for JSON without thinking tags
-        prompt = f"""You must respond with ONLY valid JSON, no other text or tags.
+        # Simple, clear prompt for Mistral
+        prompt = f"""Analyze this document and respond with ONLY a JSON object in this exact format:
 
-Analyze this document and provide a JSON response with exactly this structure:
-{{
-    "title": "Clean, readable title",
-    "summary": "summary of the document content with max 400 characters",
-    "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5"],
-    "category": "just one of: AI, Machine Learning, Data Science, Analytics, Business, Technology, Research",
-    "difficulty": "just one of: Beginner, Intermediate, Advanced",
-    "authors": ["author1", "author2"] or [] if not found,
-    "content_preview": "First 100 characters of meaningful content"
-}}
+{{"title": "document title", "summary": "brief summary under 300 characters", "keywords": ["keyword1", "keyword2", "keyword3"], "category": "one of: AI, Machine Learning, Data Science, Analytics, Business, Technology, Research", "difficulty": "one of: Beginner, Intermediate, Advanced", "authors": [], "content_preview": "first 80 characters of content"}}
 
-Document filename: {filename}
-Document content:
-{text}
+Document: {filename}
+Content: {text}
 
-IMPORTANT: Respond ONLY with the JSON object, no thinking process, no explanations, no additional text."""
+JSON response:"""
 
         try:
             response = ollama.generate(
                 model=self.model_name,
                 prompt=prompt,
                 options={
-                    "temperature": 0.1,  # Low temperature for consistent results
+                    "temperature": 0.1,
                     "top_p": 0.9,
-                    "num_predict": 800,   # Increased limit for complete JSON with 400-char summary
-                    "stop": ["\n\n", "```", "<think>"]  # Stop at problematic patterns
+                    "num_predict": 500
                 }
             )
             
             response_text = response.get('response', '').strip()
-            logger.info(f"Raw Ollama response for {filename}: {response_text[:200]}...")
+            logger.info(f"Ollama response for {filename}: {response_text[:150]}...")
             
             # Parse response with robust error handling
             analysis = self.parse_ollama_response(response_text)
             
             if analysis:
-                # Validate and clean the analysis
                 analysis = self._validate_analysis(analysis, filename)
                 logger.info(f"Successfully analyzed {filename} with Ollama")
                 return analysis
@@ -324,7 +255,18 @@ IMPORTANT: Respond ONLY with the JSON object, no thinking process, no explanatio
         # Validate category
         valid_categories = ["AI", "Machine Learning", "Data Science", "Analytics", "Business", "Technology", "Research"]
         if analysis["category"] not in valid_categories:
-            analysis["category"] = "Technology"
+            # Try to infer from filename
+            filename_lower = filename.lower()
+            if any(word in filename_lower for word in ['ai', 'artificial']):
+                analysis["category"] = "AI"
+            elif any(word in filename_lower for word in ['machine', 'learning', 'ml']):
+                analysis["category"] = "Machine Learning"
+            elif any(word in filename_lower for word in ['data', 'analytics']):
+                analysis["category"] = "Data Science"
+            elif any(word in filename_lower for word in ['business']):
+                analysis["category"] = "Business"
+            else:
+                analysis["category"] = "Technology"
         
         # Validate difficulty
         valid_difficulties = ["Beginner", "Intermediate", "Advanced"]
@@ -342,12 +284,11 @@ IMPORTANT: Respond ONLY with the JSON object, no thinking process, no explanatio
         if not isinstance(analysis["authors"], list):
             analysis["authors"] = []
         
-        # Ensure summary is around 400 characters (allow some flexibility)
-        if len(analysis["summary"]) > 450:
-            analysis["summary"] = analysis["summary"][:397] + "..."
+        # Ensure summary is reasonable length
+        if len(analysis["summary"]) > 350:
+            analysis["summary"] = analysis["summary"][:347] + "..."
         elif len(analysis["summary"]) < 50:
-            # If summary is too short, expand it
-            analysis["summary"] = f"This document covers {analysis['title'].lower()} with detailed information on the subject matter, providing comprehensive insights and practical knowledge for readers interested in this topic."
+            analysis["summary"] = f"This document covers {analysis['title'].lower()} providing comprehensive information and insights on the subject matter."
         
         # Ensure content_preview exists
         if not analysis["content_preview"]:
@@ -378,7 +319,7 @@ IMPORTANT: Respond ONLY with the JSON object, no thinking process, no explanatio
         
         return {
             "title": clean_title,
-            "summary": f"This comprehensive document provides detailed coverage of {clean_title.lower()} concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations, implementation strategies, and real-world applications relevant to the field, serving as an essential resource for professionals and researchers seeking in-depth knowledge.",
+            "summary": f"This comprehensive document provides detailed coverage of {clean_title.lower()} concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations and real-world applications relevant to the field.",
             "keywords": keywords[:5],
             "category": "Technology",
             "difficulty": "Intermediate",
@@ -435,7 +376,7 @@ IMPORTANT: Respond ONLY with the JSON object, no thinking process, no explanatio
         # Extract text content
         text_content = self.extract_pdf_text(filepath)
         
-        # Analyze with Ollama using the improved prompt
+        # Analyze with Ollama
         analysis = self.analyze_document_with_ollama(text_content, filepath.name)
         
         # Get file stats
@@ -520,7 +461,7 @@ def main():
     import sys
     
     # Allow custom model name via environment variable or argument
-    model_name = os.getenv('OLLAMA_MODEL', 'deepseek-r1:1.5b')
+    model_name = os.getenv('OLLAMA_MODEL', 'mistral:7b')
     if len(sys.argv) > 1 and not sys.argv[1].startswith('--'):
         model_name = sys.argv[1]
     
