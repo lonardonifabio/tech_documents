@@ -30,9 +30,9 @@ const DocumentLibrary = () => {
         doc.keywords.some(keyword =>
           keyword.toLowerCase().includes(searchTerm.toLowerCase())
         ) ||
-        doc.authors.some(author =>
+        (doc.authors && doc.authors.some(author =>
           author.toLowerCase().includes(searchTerm.toLowerCase())
-        )
+        ))
       );
     }
 
@@ -84,6 +84,17 @@ const DocumentLibrary = () => {
     const maxAuthorsToShow = 2;
     const shouldTruncate = doc.authors.length > maxAuthorsToShow;
 
+    if (!shouldTruncate) {
+      // If 2 or fewer authors, show all without truncation
+      return (
+        <div className="text-xs text-gray-600">
+          <span className="font-medium">Authors: </span>
+          <span>{doc.authors.join(', ')}</span>
+        </div>
+      );
+    }
+
+    // More than 2 authors - implement truncation
     const authorsToShow = isExpanded ? doc.authors : doc.authors.slice(0, maxAuthorsToShow);
     const authorsText = authorsToShow.join(', ');
 
@@ -91,37 +102,20 @@ const DocumentLibrary = () => {
       <div className="text-xs text-gray-600">
         <span className="font-medium">Authors: </span>
         <span>{authorsText}</span>
-        {shouldTruncate && (
-          <>
-            {!isExpanded && <span> and {doc.authors.length - maxAuthorsToShow} more</span>}
-            <button
-              onClick={() => toggleExpandedAuthors(doc.id)}
-              className="text-blue-600 hover:text-blue-800 ml-1 font-medium"
-            >
-              {isExpanded ? 'Show less' : 'Show more'}
-            </button>
-          </>
-        )}
+        {!isExpanded && <span> and {doc.authors.length - maxAuthorsToShow} more</span>}
+        <button
+          onClick={() => toggleExpandedAuthors(doc.id)}
+          className="text-blue-600 hover:text-blue-800 ml-1 font-medium"
+        >
+          {isExpanded ? 'Show less' : 'Show more'}
+        </button>
       </div>
     );
   };
 
   const getDocumentPreviewUrl = (filepath) => {
-    // Convert PDF to preview URL using PDF.js or similar service
-    // For GitHub hosted files, we can use a PDF preview service
     const githubRawUrl = `https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${filepath}`;
-    
-    // Using PDF.js viewer for preview
     return `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(githubRawUrl)}`;
-  };
-
-  const getDocumentThumbnail = (filepath) => {
-    // For now, we'll use a placeholder that shows the first page
-    // In a real implementation, you might generate thumbnails server-side
-    const githubRawUrl = `https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${filepath}`;
-    
-    // Using a PDF thumbnail service (you might want to implement your own)
-    return `https://api.thumbnail.ws/api/1/thumbnail/get?url=${encodeURIComponent(githubRawUrl)}&width=200&height=280`;
   };
 
   return (
@@ -173,21 +167,21 @@ const DocumentLibrary = () => {
             <div key={doc.id} className="border rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
               {/* Document Preview */}
               <div className="relative h-48 bg-gray-100 flex items-center justify-center">
-                <img
-                  src={getDocumentThumbnail(doc.filepath)}
-                  alt={`Preview of ${doc.filename}`}
-                  className="max-h-full max-w-full object-contain"
-                  onError={(e) => {
-                    // Fallback to a document icon if thumbnail fails
-                    e.target.style.display = 'none';
-                    e.target.nextSibling.style.display = 'flex';
+                <iframe
+                  src={`https://docs.google.com/gview?url=https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${doc.filepath}&embedded=true`}
+                  className="w-full h-full border-0"
+                  title={`Preview of ${doc.filename}`}
+                  onError={() => {
+                    // Fallback will be handled by the next div
                   }}
                 />
-                <div className="hidden flex-col items-center justify-center text-gray-400">
+                
+                {/* Fallback document icon */}
+                <div className="absolute inset-0 bg-gray-100 flex flex-col items-center justify-center text-gray-400" style={{display: 'none'}}>
                   <svg className="w-16 h-16 mb-2" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm">PDF Preview</span>
+                  <span className="text-sm">PDF Document</span>
                 </div>
                 
                 {/* Preview overlay */}
@@ -198,7 +192,7 @@ const DocumentLibrary = () => {
                     rel="noopener noreferrer"
                     className="opacity-0 hover:opacity-100 bg-white text-gray-800 px-3 py-1 rounded text-sm font-medium transition-opacity"
                   >
-                    Preview PDF
+                    Open Full PDF
                   </a>
                 </div>
               </div>
