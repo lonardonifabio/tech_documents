@@ -1,19 +1,426 @@
 [
   {
-    "id": "4ea7b14126bb8e36b28552d57fd8f7bb",
+    "id": "dc20fa1bf3e5917ffbd4688d8e36397a",
     "filename": "100_Days_of_Machine_Learning_1570648747.pdf",
-    "title": "100 Days of Machine Learning 1570648747",
+    "title": "100_Days_of_Machine_Learning",
     "authors": [],
     "filepath": "documents/100_Days_of_Machine_Learning_1570648747.pdf",
-    "upload_date": "2025-05-30T18:32:07.331557",
+    "upload_date": "2025-06-02T16:32:59.486080",
     "file_size": 11610635,
-    "summary": "Simple Linear Regression | Day 2 Check out the code from here Multiple Linear R egression | Day 3 Check out the code from here Logistic R egression | Day 4.",
+    "summary": "This document covers the first few days of a 100-day machine learning journey, focusing on Simple Linear Regression, Multiple Linear Regression, and Logistic Regression. Each day includes code examples.",
     "keywords": [
       "Machine Learning",
-      "Regression"
+      "Regression",
+      "Code Examples"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Simple Linear  Regression |  Day 2\nCheck out the code from  here.\nMultiple Linear R egression |  Day"
+    "content_preview": "Simple Linear  Regression |  Day 2"
+  },
+  {
+    "id": "1b1fd9de07ae8419609661f8bb595879",
+    "filename": "101_Ways_To_Motivate_Employees_1642610204.pdf",
+    "title": "101 Ways To Motivate Employees",
+    "authors": [
+      "Jamy Bechler"
+    ],
+    "filepath": "documents/101_Ways_To_Motivate_Employees_1642610204.pdf",
+    "upload_date": "2025-06-02T16:32:59.495080",
+    "file_size": 963349,
+    "summary": "This document provides 101 ideas for motivating employees in a work environment. It emphasizes the importance of leadership, self-improvement, and understanding one's environment to effectively motivate team members.",
+    "keywords": [
+      "Employee Motivation",
+      "Leadership",
+      "Work Environment"
+    ],
+    "category": "Business",
+    "difficulty": "Intermediate",
+    "content_preview": "101 WAYS TO MOTIVATE EMPLOYEES Ideas to increase employee satisfaction and inspire the people you work with"
+  },
+  {
+    "id": "6bbdf560f7d380e2548a155c83b0b798",
+    "filename": "10_Minutes_to_Pandas_1642524382.pdf",
+    "title": "10 Minutes to Pandas - pandas 0.17.1 documentation",
+    "authors": [],
+    "filepath": "documents/10_Minutes_to_Pandas_1642524382.pdf",
+    "upload_date": "2025-06-02T16:32:59.500081",
+    "file_size": 561924,
+    "summary": "This document provides a short introduction to the pandas library, focusing on new users. It covers creating Series and DataFrames, as well as importing necessary libraries.",
+    "keywords": [
+      "pandas",
+      "DataFrame",
+      "Series",
+      "documentation",
+      "Python"
+    ],
+    "category": "Data Science",
+    "difficulty": "Beginner",
+    "content_preview": "Creating a DataFrame by passing a dict of objects that can be converted to series-like."
+  },
+  {
+    "id": "f8f0876600ce63f24e72cc1592cb6e9e",
+    "filename": "11_different_Outlier_Detection_techniques_in_Python_1636885711.pdf",
+    "title": "11 Different Outlier Detection Techniques in Python",
+    "authors": [],
+    "filepath": "documents/11_different_Outlier_Detection_techniques_in_Python_1636885711.pdf",
+    "upload_date": "2025-06-02T16:32:59.502081",
+    "file_size": 477646,
+    "summary": "This document discusses various methods for outlier detection in Python, their use-cases, and provides a brief overview of simple methods and machine learning algorithms for outlier detection. It also explains what outliers are and how they occur.",
+    "keywords": [
+      "Outlier Detection",
+      "Python",
+      "Machine Learning",
+      "Anomaly Detection",
+      "Fraud Detection"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "1 / 1 111 different ways for Outlier Detection in Python"
+  },
+  {
+    "id": "8378f71f48f86e500ec93798bd62bd19",
+    "filename": "14_Step_Goal_Setting_Guide__1643976398.pdf",
+    "title": "14_Step_Goal_Setting_Guide__1643976398.pdf",
+    "authors": [
+      "Brian Tracy"
+    ],
+    "filepath": "documents/14_Step_Goal_Setting_Guide__1643976398.pdf",
+    "upload_date": "2025-06-02T16:32:59.509081",
+    "file_size": 927152,
+    "summary": "This document provides a guide for effective goal setting, emphasizing the importance of clearly identifying goals and working towards them daily. It also highlights the role of personal responsibility in achieving success.",
+    "keywords": [
+      "Goal Setting",
+      "Success",
+      "Personal Responsibility"
+    ],
+    "category": "Business",
+    "difficulty": "Intermediate",
+    "content_preview": "Success is goals and all else is commentary. This life is not a rehearsal for something else. In every study of successful people, the acceptance of personal responsibility seems to be the starting point."
+  },
+  {
+    "id": "375fd049b3a3dfdfb7383500f37923ca",
+    "filename": "2004_Book_AllOfStatistics.pdf",
+    "title": "2004_Book_AllOfStatistics.pdf",
+    "authors": [
+      "George Casella",
+      "Stephen Fienberg",
+      "Ingram Olkin",
+      "AJfred",
+      "Berger",
+      "Bilodeau and Brenner",
+      "BIom",
+      "Brockwell and Davis",
+      "Chow and Teicher",
+      "Christensen",
+      "Creighton",
+      "Davis",
+      "Dean and Voss",
+      "du Toit, Steyn, and Stumpf",
+      "Durrett",
+      "Edwards",
+      "Finkelstein and Levin",
+      "Flury",
+      "Jobson"
+    ],
+    "filepath": "documents/2004_Book_AllOfStatistics.pdf",
+    "upload_date": "2025-06-02T16:32:59.644083",
+    "file_size": 24441936,
+    "summary": "This document is a compilation of various books on statistics, including 'Elements of Statistics for the Life and Social Sciences', 'An Introduction to Probability and Stochastic Processes', 'Theory of Multivariate Statistics', and more. It covers topics such as probability theory, time series analysis, graphical modeling, and experimental design.",
+    "keywords": [
+      "Statistics",
+      "Probability Theory",
+      "Time Series Analysis",
+      "Graphical Modeling",
+      "Experimental Design"
+    ],
+    "category": "Data Science",
+    "difficulty": "Advanced",
+    "content_preview": "This document is a compilation of various books on statistics..."
+  },
+  {
+    "id": "389dc0567c1532a8c682f782e8125efd",
+    "filename": "2021-ML-AI-Data-Landscape-V2.pdf",
+    "title": "2021-ML-AI-Data-Landscape-V2.pdf",
+    "authors": [
+      "Matt Turck (@mattturck)",
+      "John Wu (@john_d_wu)",
+      "FirstMark (@firstmarkcap)"
+    ],
+    "filepath": "documents/2021-ML-AI-Data-Landscape-V2.pdf",
+    "upload_date": "2025-06-02T16:32:59.665083",
+    "file_size": 5877420,
+    "summary": "This document provides an overview of the Machine Learning, Artificial Intelligence, and Data (MAD) landscape in 2021, covering various aspects such as research incubators, data services, open source projects, ML ops tools, databases, privacy & security, and more.",
+    "keywords": [
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Data Landscape",
+      "2021",
+      "Research"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "MACHINE LEARNING, ARTIFICIAL INTELLIGENCE, AND DATA (MAD) LANDSCAPE 2021"
+  },
+  {
+    "id": "aecb0f1e68b261e8381807bf03d60844",
+    "filename": "2021_Executive_Guide_to_Data_Science_and_AI_1639380230.pdf",
+    "title": "2021 Executive Guide to Data Science and AI",
+    "authors": [
+      "David Foster",
+      "Applied Data Science Partners (ADSP)"
+    ],
+    "filepath": "documents/2021_Executive_Guide_to_Data_Science_and_AI_1639380230.pdf",
+    "upload_date": "2025-06-02T16:32:59.682084",
+    "file_size": 4463515,
+    "summary": "Practical guide for businesses to stay competitive in a data-driven world, covering team growth, machine learning trends, data visualization, essential tools, automation, deployment, proving value, and future 'big ideas' in AI. Organized around 8 focus areas.",
+    "keywords": [
+      "Data Science",
+      "AI",
+      "Business Strategy",
+      "Machine Learning",
+      "Data Visualization"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "This series of white papers lays out the essential steps you need to take..."
+  },
+  {
+    "id": "88773172cce7817a0c4ca546f7888ad8",
+    "filename": "2021_Executive_Guide_to_Data_Science_and_AI_1640376794.pdf",
+    "title": "2021 Executive Guide to Data Science and AI",
+    "authors": [
+      "David Foster",
+      "Applied Data Science Partners (ADSP)"
+    ],
+    "filepath": "documents/2021_Executive_Guide_to_Data_Science_and_AI_1640376794.pdf",
+    "upload_date": "2025-06-02T16:32:59.699084",
+    "file_size": 4463515,
+    "summary": "Practical guide for businesses to stay ahead in the data-driven, automated world. Covers growing a data science team, trends in machine learning, data visualization, essential tools, automation, deployment, proving value, and future 'big ideas' in AI.",
+    "keywords": [
+      "Data Science",
+      "AI",
+      "Business Strategy",
+      "Machine Learning",
+      "Data Visualization"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "This series of white papers lays out the essential steps you need to take..."
+  },
+  {
+    "id": "268737b33d00d75a528e57353fc587e3",
+    "filename": "2021_Strategic_Foresight_Report_1631122408.pdf",
+    "title": "2021 Strategic Foresight Report",
+    "authors": [],
+    "filepath": "documents/2021_Strategic_Foresight_Report_1631122408.pdf",
+    "upload_date": "2025-06-02T16:32:59.730085",
+    "file_size": 10955009,
+    "summary": "This document presents the EU's capacity and freedom to act in 2021, discussing key global trends, challenges, opportunities, and setting the stage for tomorrow's policies. It is a strategic report published by the European Commission.",
+    "keywords": [
+      "EU",
+      "Strategic Foresight Report",
+      "Global Trends",
+      "Challenges",
+      "Opportunities"
+    ],
+    "category": "Business",
+    "difficulty": "Intermediate",
+    "content_preview": "This document presents the EU's capacity and freedom to act in 2021,"
+  },
+  {
+    "id": "58e74c3bf0aacc38a91704ae83af82ac",
+    "filename": "239_Excel_Shortcuts_1641753896.pdf",
+    "title": "Excel Shortcuts",
+    "authors": [],
+    "filepath": "documents/239_Excel_Shortcuts_1641753896.pdf",
+    "upload_date": "2025-06-02T16:32:59.730085",
+    "file_size": 198398,
+    "summary": "Learn to work faster and more efficiently with these illustrated Excel shortcuts. This document provides a comprehensive list of keyboard shortcuts for various Excel functions.",
+    "keywords": [
+      "Excel",
+      "Keyboard Shortcuts",
+      "Work Faster",
+      "Efficiently"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Learn to work faster and more efficiently with these illustrated Excel shortcuts."
+  },
+  {
+    "id": "cd0bd953795a0bbe737530e0df7ed15a",
+    "filename": "50_Lessons_From_Today_s_Revenue_Leaders_1644154717.pdf",
+    "title": "50_Lessons_From_Today_s_Revenue_Leaders_1644154717.pdf",
+    "authors": [],
+    "filepath": "documents/50_Lessons_From_Today_s_Revenue_Leaders_1644154717.pdf",
+    "upload_date": "2025-06-02T16:32:59.743085",
+    "file_size": 4245303,
+    "summary": "A compilation of 50+ lessons from top revenue leaders, discussing the transformative power of Revenue Operations in the B2B sector and its impact on business growth, particularly in the wake of COVID-19.",
+    "keywords": [
+      "Revenue Leaders",
+      "Revenue Operations",
+      "Business Growth",
+      "COVID-19",
+      "B2B"
+    ],
+    "category": "Business",
+    "difficulty": "Intermediate",
+    "content_preview": "A compilation of 50+ lessons from top revenue leaders, discussing the transformative power of Revenue Operations in the B2B sector and its impact on business growth,"
+  },
+  {
+    "id": "56868df24fba211a58040667a5985069",
+    "filename": "50_Years_of_Data_Science_1629784379.pdf",
+    "title": "50 Years of Data Science",
+    "authors": [
+      "David Donoho"
+    ],
+    "filepath": "documents/50_Years_of_Data_Science_1629784379.pdf",
+    "upload_date": "2025-06-02T16:32:59.745085",
+    "file_size": 459090,
+    "summary": "This document discusses the evolution of Data Science over 50 years, starting with John Tukey's call for a reformation in academic statistics. It also highlights recent developments such as the emergence of Data Science programs at major universities and the ongoing debate about whether Data Science is truly different from Statistics.",
+    "keywords": [
+      "Data Science",
+      "Statistics",
+      "Academic Reform",
+      "Universities",
+      "John Tukey"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "This document discusses the evolution of Data Science over 50 years, starting with John Tukey's call for a reformation in academic statistics."
+  },
+  {
+    "id": "044f4d8f3fae25611a3a5d32e952abb1",
+    "filename": "5_Activation_functions_1601018507.pdf",
+    "title": "5 Activation functions 1601018507",
+    "authors": [],
+    "filepath": "documents/5_Activation_functions_1601018507.pdf",
+    "upload_date": "2025-06-02T16:32:59.756085",
+    "file_size": 4099851,
+    "summary": "This comprehensive document provides detailed coverage of 5 activation functions 1601018507 concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations and real-world applications relevant to the field.",
+    "keywords": [
+      "Technology",
+      "Research",
+      "Documentation"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: 5 Activation functions 1601018507"
+  },
+  {
+    "id": "69d98858e5ace08288771af09bf990b8",
+    "filename": "7_Steps_Machine_Learning_Problem_Formulation_1567264103.pdf",
+    "title": "7 Steps Machine Learning Problem Formulation",
+    "authors": [],
+    "filepath": "documents/7_Steps_Machine_Learning_Problem_Formulation_1567264103.pdf",
+    "upload_date": "2025-06-02T16:32:59.756085",
+    "file_size": 157824,
+    "summary": "This document outlines a 7-step process for formulating machine learning problems, including defining the business problem statement, unit analysis, variables, label, action, success criteria, and threshold component. The first step is to create a clear business problem statement.",
+    "keywords": [
+      "Machine Learning",
+      "Problem Formulation",
+      "Steps",
+      "Business Problem Statement"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "7 Steps Machine Learning Problem Formulation 1.Business Problem Statement"
+  },
+  {
+    "id": "477e78893e4a9e812c154781163986f9",
+    "filename": "_Implementing_Analytics_in_Your_Small_Business_� _1638720838.pdf",
+    "title": "_Implementing_Analytics_in_Your_Small_Business_",
+    "authors": [],
+    "filepath": "documents/_Implementing_Analytics_in_Your_Small_Business_� _1638720838.pdf",
+    "upload_date": "2025-06-02T16:32:59.785086",
+    "file_size": 6750629,
+    "summary": "Explores how limited resources in a small business can prevent full potential and discusses the importance of analytics as an investment.",
+    "keywords": [
+      "Small Business",
+      "Analytics",
+      "Investment",
+      "Limited Resources"
+    ],
+    "category": "Business",
+    "difficulty": "Intermediate",
+    "content_preview": "W hen you run a small business, you understand how limitations can prevent you from reaching your full potential."
+  },
+  {
+    "id": "d0c92df0ccc53062d06f70395f1a43ef",
+    "filename": "_India_National_Strategy_of_Blockchain👈_1638609142.pdf",
+    "title": "India's National Strategy on Blockchain",
+    "authors": [],
+    "filepath": "documents/_India_National_Strategy_of_Blockchain👈_1638609142.pdf",
+    "upload_date": "2025-06-02T16:32:59.792086",
+    "file_size": 1802008,
+    "summary": "This document outlines the Indian government's strategy for implementing blockchain technology to create trusted digital platforms. The strategy was updated in December 2021.",
+    "keywords": [
+      "Blockchain",
+      "Government of India",
+      "Digital Platforms",
+      "Strategy"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Ministry of Electronics and Information Technology       iii"
+  },
+  {
+    "id": "a93891c140df9eaead9dd28f746f81b8",
+    "filename": "_Resources_for_Data_Scientists_1635850775.pdf",
+    "title": "_Resources_for_Data_Scientists_1635850775.pdf",
+    "authors": [],
+    "filepath": "documents/_Resources_for_Data_Scientists_1635850775.pdf",
+    "upload_date": "2025-06-02T16:32:59.793086",
+    "file_size": 237274,
+    "summary": "This document provides resources on various Machine Learning (ML) topics, including Data Quality, Data Engineering, Data Discovery, Classification, Regression, Forecasting, Recommendation, Search & Ranking, Embeddings, Natural Language Processing, Sequence Modelling, Computer Vision, Reinforcement Learning, Anomaly Detection, Graph, Optimization...",
+    "keywords": [
+      "Machine Learning",
+      "Data Quality",
+      "Data Engineering",
+      "Data Discovery",
+      "Classification"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "P.S., W ant a summary of ML advancements? 👉ml-surveys"
+  },
+  {
+    "id": "a36ddad3eaf97a37fd1c7fe9d63625b3",
+    "filename": "_Simply_Logical_Intelligent_Reasoning_by_Example_1634472303.pdf",
+    "title": "Simply Logical Intelligent Reasoning by Example",
+    "authors": [
+      "Peter Flach"
+    ],
+    "filepath": "documents/_Simply_Logical_Intelligent_Reasoning_by_Example_1634472303.pdf",
+    "upload_date": "2025-06-02T16:32:59.809086",
+    "file_size": 4009632,
+    "summary": "This is a PDF copy of the book published between 1994 and 2007, focusing on logic and logic programming. The content includes an introduction to clausal logic, query answering, recursion, and more.",
+    "keywords": [
+      "Logic",
+      "Reasoning",
+      "Book",
+      "Peter Flach",
+      "University of Bristol"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "This is a PDF copy of the book..."
+  },
+  {
+    "id": "a95e9503fc4d313facd9ca4846eb754f",
+    "filename": "_What_Is_Accessibility_1643813920.pdf",
+    "title": " What Is Accessibility 1643813920",
+    "authors": [],
+    "filepath": "documents/_What_Is_Accessibility_1643813920.pdf",
+    "upload_date": "2025-06-02T16:32:59.811086",
+    "file_size": 635350,
+    "summary": "This comprehensive document provides detailed coverage of  what is accessibility 1643813920 concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations and real-world applications relevant to the field.",
+    "keywords": [
+      "Technology",
+      "Research",
+      "Documentation"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document:  What Is Accessibility 1643813920"
   }
 ]
