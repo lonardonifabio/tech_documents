@@ -5,17 +5,18 @@
     "title": "100_Days_of_Machine_Learning",
     "authors": [],
     "filepath": "documents/100_Days_of_Machine_Learning_1570648747.pdf",
-    "upload_date": "2025-06-02T16:32:59.486080",
+    "upload_date": "2025-06-02T17:58:11.427180",
     "file_size": 11610635,
-    "summary": "This document covers the first few days of a 100-day machine learning journey, focusing on Simple Linear Regression, Multiple Linear Regression, and Logistic Regression. Each day includes code examples.",
+    "summary": "This document covers three types of regression models - Simple Linear Regression, Multiple Linear Regression, and Logistic Regression, over the course of days 2 to 4. Each day includes code snippets.",
     "keywords": [
       "Machine Learning",
       "Regression",
-      "Code Examples"
+      "Code",
+      "100 Days"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Simple Linear  Regression |  Day 2"
+    "content_preview": "Simple Linear Regression |  Day 2"
   },
   {
     "id": "1b1fd9de07ae8419609661f8bb595879",
@@ -25,9 +26,9 @@
       "Jamy Bechler"
     ],
     "filepath": "documents/101_Ways_To_Motivate_Employees_1642610204.pdf",
-    "upload_date": "2025-06-02T16:32:59.495080",
+    "upload_date": "2025-06-02T17:58:11.431180",
     "file_size": 963349,
-    "summary": "This document provides 101 ideas for motivating employees in a work environment. It emphasizes the importance of leadership, self-improvement, and understanding one's environment to effectively motivate team members.",
+    "summary": "This document provides 101 ideas for motivating employees in a work environment. It emphasizes the importance of leadership, self-improvement, and being aware of one's environment.",
     "keywords": [
       "Employee Motivation",
       "Leadership",
@@ -40,22 +41,22 @@
   {
     "id": "6bbdf560f7d380e2548a155c83b0b798",
     "filename": "10_Minutes_to_Pandas_1642524382.pdf",
-    "title": "10 Minutes to Pandas - pandas 0.17.1 documentation",
+    "title": "10 Minutes to Pandas - pandas 0.17.1 Documentation",
     "authors": [],
     "filepath": "documents/10_Minutes_to_Pandas_1642524382.pdf",
-    "upload_date": "2025-06-02T16:32:59.500081",
+    "upload_date": "2025-06-02T17:58:11.434180",
     "file_size": 561924,
-    "summary": "This document provides a short introduction to the pandas library, focusing on new users. It covers creating Series and DataFrames, as well as importing necessary libraries.",
+    "summary": "This document provides a short introduction to the pandas library, focusing on new users. It covers creating Series and DataFrames, using examples and code snippets.",
     "keywords": [
       "pandas",
       "DataFrame",
       "Series",
-      "documentation",
-      "Python"
+      "Python",
+      "tutorial"
     ],
     "category": "Data Science",
     "difficulty": "Beginner",
-    "content_preview": "Creating a DataFrame by passing a dict of objects that can be converted to series-like."
+    "content_preview": "In [1]: import pandas as pd"
   },
   {
     "id": "f8f0876600ce63f24e72cc1592cb6e9e",
@@ -63,9 +64,9 @@
     "title": "11 Different Outlier Detection Techniques in Python",
     "authors": [],
     "filepath": "documents/11_different_Outlier_Detection_techniques_in_Python_1636885711.pdf",
-    "upload_date": "2025-06-02T16:32:59.502081",
+    "upload_date": "2025-06-02T17:58:11.435180",
     "file_size": 477646,
-    "summary": "This document discusses various methods for outlier detection in Python, their use-cases, and provides a brief overview of simple methods and machine learning algorithms for outlier detection. It also explains what outliers are and how they occur.",
+    "summary": "This document discusses various methods for outlier detection in Python, their use-cases, and provides examples of machine learning algorithms used for this purpose. It also explains what outliers are, how they occur, and the impact they have on analysis.",
     "keywords": [
       "Outlier Detection",
       "Python",
@@ -85,9 +86,9 @@
       "Brian Tracy"
     ],
     "filepath": "documents/14_Step_Goal_Setting_Guide__1643976398.pdf",
-    "upload_date": "2025-06-02T16:32:59.509081",
+    "upload_date": "2025-06-02T17:58:11.439180",
     "file_size": 927152,
-    "summary": "This document provides a guide for effective goal setting, emphasizing the importance of clearly identifying goals and working towards them daily. It also highlights the role of personal responsibility in achieving success.",
+    "summary": "This document provides a guide on goal setting to achieve success faster, emphasizing the importance of personal responsibility and goal planning. It is authored by Brian Tracy.",
     "keywords": [
       "Goal Setting",
       "Success",
@@ -95,7 +96,7 @@
     ],
     "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "Success is goals and all else is commentary. This life is not a rehearsal for something else. In every study of successful people, the acceptance of personal responsibility seems to be the starting point."
+    "content_preview": "This life is not a rehearsal for something else. In every study of successful people, the acceptance of personal responsibility seems to be the starting point."
   },
   {
     "id": "375fd049b3a3dfdfb7383500f37923ca",
@@ -105,61 +106,38 @@
       "George Casella",
       "Stephen Fienberg",
       "Ingram Olkin",
-      "AJfred",
-      "Berger",
-      "Bilodeau and Brenner",
-      "BIom",
-      "Brockwell and Davis",
-      "Chow and Teicher",
-      "Christensen",
-      "Creighton",
-      "Davis",
-      "Dean and Voss",
-      "du Toit, Steyn, and Stumpf",
-      "Durrett",
-      "Edwards",
-      "Finkelstein and Levin",
-      "Flury",
-      "Jobson"
+      "Other contributors as listed"
     ],
     "filepath": "documents/2004_Book_AllOfStatistics.pdf",
-    "upload_date": "2025-06-02T16:32:59.644083",
+    "upload_date": "2025-06-02T17:58:11.570181",
     "file_size": 24441936,
-    "summary": "This document is a compilation of various books on statistics, including 'Elements of Statistics for the Life and Social Sciences', 'An Introduction to Probability and Stochastic Processes', 'Theory of Multivariate Statistics', and more. It covers topics such as probability theory, time series analysis, graphical modeling, and experimental design.",
+    "summary": "Collection of texts in statistics, covering topics such as probability theory, time series analysis, graphical modeling, and multivariate statistics.",
     "keywords": [
       "Statistics",
       "Probability Theory",
       "Time Series Analysis",
-      "Graphical Modeling",
-      "Experimental Design"
+      "Multivariate Statistics",
+      "Graphical Modeling"
     ],
     "category": "Data Science",
-    "difficulty": "Advanced",
-    "content_preview": "This document is a compilation of various books on statistics..."
+    "difficulty": "Intermediate",
+    "content_preview": "Collection of texts in statistics, covering topics such as probability theory..."
   },
   {
     "id": "389dc0567c1532a8c682f782e8125efd",
     "filename": "2021-ML-AI-Data-Landscape-V2.pdf",
     "title": "2021-ML-AI-Data-Landscape-V2.pdf",
-    "authors": [
-      "Matt Turck (@mattturck)",
-      "John Wu (@john_d_wu)",
-      "FirstMark (@firstmarkcap)"
-    ],
+    "authors": [],
     "filepath": "documents/2021-ML-AI-Data-Landscape-V2.pdf",
-    "upload_date": "2025-06-02T16:32:59.665083",
+    "upload_date": "2025-06-02T17:58:11.590181",
     "file_size": 5877420,
-    "summary": "This document provides an overview of the Machine Learning, Artificial Intelligence, and Data (MAD) landscape in 2021, covering various aspects such as research incubators, data services, open source projects, ML ops tools, databases, privacy & security, and more.",
+    "summary": "This document provides an overview of the Machine Learning, Artificial Intelligence, and Data (MAD) landscape in 2021, covering various aspects such as research incubators, data services, open source projects, ML ops & infrastructure tools, databases, privacy & security, and more.",
     "keywords": [
-      "Machine Learning",
-      "Artificial Intelligence",
-      "Data Landscape",
-      "2021",
-      "Research"
+      "Technology"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "MACHINE LEARNING, ARTIFICIAL INTELLIGENCE, AND DATA (MAD) LANDSCAPE 2021"
+    "content_preview": "Document: 2021-ML-AI-Data-Landscape-V2.pdf"
   },
   {
     "id": "aecb0f1e68b261e8381807bf03d60844",
@@ -170,9 +148,9 @@
       "Applied Data Science Partners (ADSP)"
     ],
     "filepath": "documents/2021_Executive_Guide_to_Data_Science_and_AI_1639380230.pdf",
-    "upload_date": "2025-06-02T16:32:59.682084",
+    "upload_date": "2025-06-02T17:58:11.606181",
     "file_size": 4463515,
-    "summary": "Practical guide for businesses to stay competitive in a data-driven world, covering team growth, machine learning trends, data visualization, essential tools, automation, deployment, proving value, and future 'big ideas' in AI. Organized around 8 focus areas.",
+    "summary": "Practical guide for businesses to stay ahead in the data-driven, automated world. Covers growing a data science team, trends in machine learning, data visualization, essential tools, automation, deployment, proving value, and future 'big ideas' in AI.",
     "keywords": [
       "Data Science",
       "AI",
@@ -193,7 +171,7 @@
       "Applied Data Science Partners (ADSP)"
     ],
     "filepath": "documents/2021_Executive_Guide_to_Data_Science_and_AI_1640376794.pdf",
-    "upload_date": "2025-06-02T16:32:59.699084",
+    "upload_date": "2025-06-02T17:58:11.623181",
     "file_size": 4463515,
     "summary": "Practical guide for businesses to stay ahead in the data-driven, automated world. Covers growing a data science team, trends in machine learning, data visualization, essential tools, automation, deployment, proving value, and future 'big ideas' in AI.",
     "keywords": [
@@ -213,9 +191,9 @@
     "title": "2021 Strategic Foresight Report",
     "authors": [],
     "filepath": "documents/2021_Strategic_Foresight_Report_1631122408.pdf",
-    "upload_date": "2025-06-02T16:32:59.730085",
+    "upload_date": "2025-06-02T17:58:11.653181",
     "file_size": 10955009,
-    "summary": "This document presents the EU's capacity and freedom to act in 2021, discussing key global trends, challenges, opportunities, and setting the stage for tomorrow's policies. It is a strategic report published by the European Commission.",
+    "summary": "This document presents the EU's capacity and freedom to act in 2021, discussing key global trends, challenges, opportunities for global leadership, and setting the stage for tomorrow's policies. It is a strategic foresight report published by the European Commission.",
     "keywords": [
       "EU",
       "Strategic Foresight Report",
@@ -223,9 +201,9 @@
       "Challenges",
       "Opportunities"
     ],
-    "category": "Business",
+    "category": "Research",
     "difficulty": "Intermediate",
-    "content_preview": "This document presents the EU's capacity and freedom to act in 2021,"
+    "content_preview": "The EU’s capacity and freedom to act 2021 STRATEGIC FORESIGHT REPORT"
   },
   {
     "id": "58e74c3bf0aacc38a91704ae83af82ac",
@@ -233,12 +211,13 @@
     "title": "Excel Shortcuts",
     "authors": [],
     "filepath": "documents/239_Excel_Shortcuts_1641753896.pdf",
-    "upload_date": "2025-06-02T16:32:59.730085",
+    "upload_date": "2025-06-02T17:58:11.654181",
     "file_size": 198398,
-    "summary": "Learn to work faster and more efficiently with these illustrated Excel shortcuts. This document provides a comprehensive list of keyboard shortcuts for various Excel functions.",
+    "summary": "Learn to work faster and more efficiently with these illustrated Excel shortcuts. This document provides a comprehensive list of keyboard shortcuts for various Excel functions, including navigation, cell edit, formatting, formulas, and more.",
     "keywords": [
       "Excel",
-      "Keyboard Shortcuts",
+      "Shortcuts",
+      "Keyboard",
       "Work Faster",
       "Efficiently"
     ],
@@ -252,41 +231,41 @@
     "title": "50_Lessons_From_Today_s_Revenue_Leaders_1644154717.pdf",
     "authors": [],
     "filepath": "documents/50_Lessons_From_Today_s_Revenue_Leaders_1644154717.pdf",
-    "upload_date": "2025-06-02T16:32:59.743085",
+    "upload_date": "2025-06-02T17:58:11.667181",
     "file_size": 4245303,
-    "summary": "A compilation of 50+ lessons from top revenue leaders, discussing the transformative power of Revenue Operations in the B2B sector and its impact on business growth, particularly in the wake of COVID-19.",
+    "summary": "A collection of 50+ lessons from top revenue leaders, exploring their experiences, insights, and future visions for Go To Market strategies in the wake of COVID-19 pandemic. The ebook covers topics like The Goal of Revenue Operations, Challenges for Revenue Operations Teams, GTM Strategy, Revenue Operations Leaders' Knowledge, Being a Revenue Op...",
     "keywords": [
       "Revenue Leaders",
-      "Revenue Operations",
-      "Business Growth",
+      "Go To Market Strategy",
       "COVID-19",
-      "B2B"
+      "B2B Buyers",
+      "Revenue Operations"
     ],
     "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "A compilation of 50+ lessons from top revenue leaders, discussing the transformative power of Revenue Operations in the B2B sector and its impact on business growth,"
+    "content_preview": "A collection of 50+ lessons from top revenue leaders, exploring their experiences, insights, and future visions for Go To Market strategies in the wake of COVID-19 pandemic."
   },
   {
     "id": "56868df24fba211a58040667a5985069",
     "filename": "50_Years_of_Data_Science_1629784379.pdf",
-    "title": "50 Years of Data Science",
+    "title": "50_Years_of_Data_Science_1629784379.pdf",
     "authors": [
       "David Donoho"
     ],
     "filepath": "documents/50_Years_of_Data_Science_1629784379.pdf",
-    "upload_date": "2025-06-02T16:32:59.745085",
+    "upload_date": "2025-06-02T17:58:11.669182",
     "file_size": 459090,
-    "summary": "This document discusses the evolution of Data Science over 50 years, starting with John Tukey's call for a reformation in academic statistics. It also highlights recent developments such as the emergence of Data Science programs at major universities and the ongoing debate about whether Data Science is truly different from Statistics.",
+    "summary": "Explores the evolution of Data Science over 50 years, starting from John Tukey's call for reformation in academic statistics. Discusses the emergence of Data Science programs at major universities and their curriculum overlap with traditional statistics courses.",
     "keywords": [
       "Data Science",
       "Statistics",
-      "Academic Reform",
+      "Academia",
       "Universities",
-      "John Tukey"
+      "Curriculum"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses the evolution of Data Science over 50 years, starting with John Tukey's call for a reformation in academic statistics."
+    "content_preview": "Explores the evolution of Data Science over 50 years, starting from John Tukey's call for reformation in academic statistics."
   },
   {
     "id": "044f4d8f3fae25611a3a5d32e952abb1",
@@ -294,7 +273,7 @@
     "title": "5 Activation functions 1601018507",
     "authors": [],
     "filepath": "documents/5_Activation_functions_1601018507.pdf",
-    "upload_date": "2025-06-02T16:32:59.756085",
+    "upload_date": "2025-06-02T17:58:11.680182",
     "file_size": 4099851,
     "summary": "This comprehensive document provides detailed coverage of 5 activation functions 1601018507 concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations and real-world applications relevant to the field.",
     "keywords": [
@@ -312,9 +291,9 @@
     "title": "7 Steps Machine Learning Problem Formulation",
     "authors": [],
     "filepath": "documents/7_Steps_Machine_Learning_Problem_Formulation_1567264103.pdf",
-    "upload_date": "2025-06-02T16:32:59.756085",
+    "upload_date": "2025-06-02T17:58:11.680182",
     "file_size": 157824,
-    "summary": "This document outlines a 7-step process for formulating machine learning problems, including defining the business problem statement, unit analysis, variables, label, action, success criteria, and threshold component. The first step is to create a clear business problem statement.",
+    "summary": "This document outlines a 7-step process for formulating machine learning problems, including defining business problem statements, units of analysis, variables, labels, actions, success criteria, and threshold components. The first step is to create a clear business problem statement.",
     "keywords": [
       "Machine Learning",
       "Problem Formulation",
@@ -326,12 +305,417 @@
     "content_preview": "7 Steps Machine Learning Problem Formulation 1.Business Problem Statement"
   },
   {
+    "id": "ed52687de3f7dfa4379d54164c5dfe74",
+    "filename": "AI_1610701369.pdf",
+    "title": "Everything You Need to Know About Artificial Intelligence (Part 1)",
+    "authors": [],
+    "filepath": "documents/AI_1610701369.pdf",
+    "upload_date": "2025-06-02T17:58:11.681181",
+    "file_size": 154723,
+    "summary": "This document provides an overview of artificial intelligence, its types, and the components of human intelligence. It discusses narrow AI, general AI, and super AI, based on their capabilities and functionality.",
+    "keywords": [
+      "Artificial Intelligence",
+      "AI",
+      "Machine Learning",
+      "Computer Science"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Artificial intelligence is machines or computer programs that learn to perform tasks..."
+  },
+  {
+    "id": "7081725d0e8abc487b094d06d57bf9df",
+    "filename": "AI_HowToCreate_Center_of_Excellence_Best_Practice_1574710747.pdf",
+    "title": "AI_HowToCreate_Center_of_Excellence_Best_Practice",
+    "authors": [],
+    "filepath": "documents/AI_HowToCreate_Center_of_Excellence_Best_Practice_1574710747.pdf",
+    "upload_date": "2025-06-02T17:58:11.683182",
+    "file_size": 664649,
+    "summary": "Learn how to create an AI Center of Excellence for enterprise success, leveraging high-quality training data and business expertise. Discusses the importance of patience in realizing AI's potential impact and strategies for attracting internal stakeholders.",
+    "keywords": [
+      "AI",
+      "Center of Excellence",
+      "Enterprise",
+      "Artificial Intelligence Strategy",
+      "Business Impact"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "How to Create an AI Center of Excellence for enterprise success, powered by high-quality training data."
+  },
+  {
+    "id": "2c02d881c07864b798d0cd6530532e47",
+    "filename": "AI_Industry_Dossier_Life_Sciences_Health_Care_1637329641.pdf",
+    "title": "The Life Sciences & Health Care AI Dossier",
+    "authors": [
+      "Deloitte AI Institute"
+    ],
+    "filepath": "documents/AI_Industry_Dossier_Life_Sciences_Health_Care_1637329641.pdf",
+    "upload_date": "2025-06-02T17:58:11.690181",
+    "file_size": 2355726,
+    "summary": "This document explores the practical application of AI in Life Sciences and Health Care, highlighting top use cases and emerging trends. It is published by Deloitte AI Institute, aiming to promote dialogue and development in AI.",
+    "keywords": [
+      "AI",
+      "Life Sciences",
+      "Health Care",
+      "Deloitte",
+      "Dossier"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "The Life Sciences & Health Care AI Dossier | By Deloitte AI Institute. What’s inside..."
+  },
+  {
+    "id": "c4b47839ddca839b30fc799f3a187a2f",
+    "filename": "AI_and_Cyber__1638654960.pdf",
+    "title": "Artificial Intelligence & Cybersecurity For Dummies®, IBM Limited Edition",
+    "authors": [
+      "Ted Coombs"
+    ],
+    "filepath": "documents/AI_and_Cyber__1638654960.pdf",
+    "upload_date": "2025-06-02T17:58:11.696182",
+    "file_size": 1581279,
+    "summary": "This document is a limited edition guide on Artificial Intelligence (AI) and Cybersecurity by Ted Coombs. It's published by John Wiley & Sons, Inc., and covers the basics of AI and cybersecurity in an easy-to-understand manner.",
+    "keywords": [
+      "Artificial Intelligence",
+      "Cybersecurity",
+      "IBM",
+      "For Dummies",
+      "Ted Coombs"
+    ],
+    "category": "AI",
+    "difficulty": "Beginner",
+    "content_preview": "These materials are © 2018 John Wiley & Sons, Inc. Any dissemination..."
+  },
+  {
+    "id": "faef05afa6ee8fbe8caf78c589e4efc2",
+    "filename": "AI_and_Jobs_1582532357.pdf",
+    "title": "AI and Jobs 1582532357",
+    "authors": [],
+    "filepath": "documents/AI_and_Jobs_1582532357.pdf",
+    "upload_date": "2025-06-02T17:58:11.737182",
+    "file_size": 11187427,
+    "summary": "This comprehensive document provides detailed coverage of ai and jobs 1582532357 concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations and real-world applications relevant to the field.",
+    "keywords": [
+      "AI"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: AI and Jobs 1582532357"
+  },
+  {
+    "id": "cc255f28260479b6a6da8fb532f54481",
+    "filename": "AI_applications_usecases.pdf",
+    "title": "AI applications usecases",
+    "authors": [],
+    "filepath": "documents/AI_applications_usecases.pdf",
+    "upload_date": "2025-06-02T17:58:11.741182",
+    "file_size": 973779,
+    "summary": "This comprehensive document provides detailed coverage of ai applications usecases concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations and real-world applications relevant to the field.",
+    "keywords": [
+      "AI"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: AI applications usecases"
+  },
+  {
+    "id": "97135726dd603b520a4c045727d6f924",
+    "filename": "AI_for_Good_1633688461.pdf",
+    "title": "AI for a Better Future: An Ecosystem Perspective on the Ethics of AI and Emerging Digital Technologies",
+    "authors": [
+      "Bernd Carsten Stahl"
+    ],
+    "filepath": "documents/AI_for_Good_1633688461.pdf",
+    "upload_date": "2025-06-02T17:58:11.750182",
+    "file_size": 2880092,
+    "summary": "This document is a brief from SpringerBriefs in Research and Innovation Governance, focusing on the ethics of Artificial Intelligence (AI) and emerging digital technologies. It provides concise summaries of cutting-edge research and practical applications across various governance activities. The book covers a range of topics including state-of-...",
+    "keywords": [
+      "Artificial Intelligence",
+      "Ethics",
+      "Digital Technologies",
+      "Governance",
+      "Research"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "SpringerBriefs in Research and Innovation Governance present concise summaries of cutting-edge research..."
+  },
+  {
+    "id": "9b231adf5e02577b620c7ab3ba8fdb96",
+    "filename": "AI_for_Health_Book_1643969940.pdf",
+    "title": "AI for Health Book 2021",
+    "authors": [],
+    "filepath": "documents/AI_for_Health_Book_1643969940.pdf",
+    "upload_date": "2025-06-02T17:58:11.762182",
+    "file_size": 4089788,
+    "summary": "The second edition of the AI for Health Digital Book highlights how health organizations perceive and apply data & AI within their value chain. It features insights from over 80 respondents to an online survey and 20+ deep-dive interviews with industry leaders.",
+    "keywords": [
+      "AI",
+      "Healthcare",
+      "Data",
+      "Survey",
+      "Interviews"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "The AI for Health Book 2021 comes back this year to highlight..."
+  },
+  {
+    "id": "1525eb3446a19adf4f9e14c60f239c94",
+    "filename": "AI_in_Education_1635790108.pdf",
+    "title": "AI in Education",
+    "authors": [],
+    "filepath": "documents/AI_in_Education_1635790108.pdf",
+    "upload_date": "2025-06-02T17:58:11.840182",
+    "file_size": 19759867,
+    "summary": "Practical guide for teachers and young people on AI integration in education.",
+    "keywords": [
+      "AI",
+      "Education",
+      "Teachers",
+      "Young People"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "AI in Educati on  A Practical Guide for Teachers and Young People"
+  },
+  {
+    "id": "7fd2563a1fffe62f88ef9a2c091d6f58",
+    "filename": "AI_in_the_public_sectpr_1640537892.pdf",
+    "title": "A guide to using AI in the public sector",
+    "authors": [],
+    "filepath": "documents/AI_in_the_public_sectpr_1640537892.pdf",
+    "upload_date": "2025-06-02T17:58:11.851182",
+    "file_size": 3907553,
+    "summary": "This document provides guidance for organization leads on understanding the best ways to use AI and evaluating if it can meet user needs. It covers assessing AI suitability, planning and preparing for implementation, managing projects, and understanding ethics and safety.",
+    "keywords": [
+      "AI",
+      "Public Sector",
+      "Guide",
+      "Technology Projects",
+      "User Needs"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "A guide to using AI in the public sector. This guidance is for organisation leads..."
+  },
+  {
+    "id": "10ede5da50eee646d79a9dd6f1a3ba3e",
+    "filename": "A_Beginner_s_Guide_to_Getting_Your_First_Data_Science_Job__1630525428.pdf",
+    "title": "A Beginner's Guide to Getting Your First Data Science Job (2019 Edition)",
+    "authors": [],
+    "filepath": "documents/A_Beginner_s_Guide_to_Getting_Your_First_Data_Science_Job__1630525428.pdf",
+    "upload_date": "2025-06-02T17:58:11.857183",
+    "file_size": 2497590,
+    "summary": "This guide provides a comprehensive overview for beginners on how to become a data scientist, including the skills needed, job search strategies, and interview tips. It also discusses the growing demand for data scientists in various business sectors.",
+    "keywords": [
+      "Data Science",
+      "Job Guide",
+      "Beginner's Guide",
+      "Data Scientist",
+      "Business"
+    ],
+    "category": "Data Science",
+    "difficulty": "Beginner",
+    "content_preview": "A Beginner’s Guide to Getting Your First Data Science Job (2019 Edition)"
+  },
+  {
+    "id": "4716cf8c3ec25996d01716b70112c4f6",
+    "filename": "A_Brief_Introduction_to_Neural_Networks_by_David_Kriesel_1639038946.pdf",
+    "title": "A Brief Introduction to Neural Networks by David Kriesel",
+    "authors": [
+      "David Kriesel"
+    ],
+    "filepath": "documents/A_Brief_Introduction_to_Neural_Networks_by_David_Kriesel_1639038946.pdf",
+    "upload_date": "2025-06-02T17:58:11.875183",
+    "file_size": 6347523,
+    "summary": "This document provides a brief introduction to neural networks, written by David Kriesel. It includes a new scalable and efficient NN framework written in Java, available for download at dkriesel.com/en/tech/snipe.",
+    "keywords": [
+      "Neural Networks",
+      "Introduction",
+      "David Kriesel",
+      "Java",
+      "NN Framework"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "A Brief Introduction to Neural Networks ..."
+  },
+  {
+    "id": "35b3e72a3e0cfdf18c6ea7a62b3ce228",
+    "filename": "A_Comprehensive_Guide_to_Machine_Learning__1578986100.pdf",
+    "title": "A Comprehensive Guide to Machine Learning",
+    "authors": [
+      "Soroush Nasiriany",
+      "Garrett Thomas",
+      "William Wang",
+      "Alex Yang"
+    ],
+    "filepath": "documents/A_Comprehensive_Guide_to_Machine_Learning__1578986100.pdf",
+    "upload_date": "2025-06-02T17:58:11.946183",
+    "file_size": 20923692,
+    "summary": "This is a comprehensive guide to the Machine Learning course at UC Berkeley, created by CS 189 TAs and inspired by lectures from professors. The latest version can be found at http://www.eecs189.org/ or http://snasiriany.me/cs189/.",
+    "keywords": [
+      "Machine Learning",
+      "UC Berkeley",
+      "CS 189",
+      "Guide"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "This guide was started by CS 189 TAs Soroush Nasiriany and Garrett Thomas in Fall 2017, with the assistance of William Wang and Alex Yang."
+  },
+  {
+    "id": "b311146e7f2564349ab8f5111d2b4cba",
+    "filename": "A_Guide_for_Ethical_Data_Science_1640082762.pdf",
+    "title": "A Guide for Ethical Data Science",
+    "authors": [],
+    "filepath": "documents/A_Guide_for_Ethical_Data_Science_1640082762.pdf",
+    "upload_date": "2025-06-02T17:58:11.948183",
+    "file_size": 1265255,
+    "summary": "August 2019 guide by the Royal Statistical Society (RSS) and Institute and Faculty of Actuaries (IFoA), covering ethical considerations in data science, including enhancing societal value, avoiding harm, maintaining competence, preserving trustworthiness, accountability, and an implementation checklist.",
+    "keywords": [
+      "Ethical Data Science",
+      "Royal Statistical Society",
+      "Institute and Faculty of Actuaries",
+      "Data Science Ethics"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "August 2019A Guide for   Ethical Data Science"
+  },
+  {
+    "id": "3646155f79bb5bb8d29d813f7090ee2a",
+    "filename": "A_Practical_Introduction_to_Python_Programming_1626852683 (1).pdf",
+    "title": "A Practical Introduction to Python Programming",
+    "authors": [
+      "Brian Heinold"
+    ],
+    "filepath": "documents/A_Practical_Introduction_to_Python_Programming_1626852683 (1).pdf",
+    "upload_date": "2025-06-02T17:58:11.955183",
+    "file_size": 2029548,
+    "summary": "This document provides a comprehensive guide on Python programming basics, including installation, IDLE usage, first program creation, variables, and for loops. It is written by Brian Heinold from Mount St. Mary’s University.",
+    "keywords": [
+      "Python",
+      "Programming",
+      "Basics",
+      "IDLE",
+      "Variables"
+    ],
+    "category": "Technology",
+    "difficulty": "Beginner",
+    "content_preview": "A Practical Introduction to Python Programming"
+  },
+  {
+    "id": "c74f4c17d66ebb9bfeef5a1463649633",
+    "filename": "A_Practical_Introduction_to_Python_Programming_1626852683.pdf",
+    "title": "A Practical Introduction to Python Programming",
+    "authors": [
+      "Brian Heinold"
+    ],
+    "filepath": "documents/A_Practical_Introduction_to_Python_Programming_1626852683.pdf",
+    "upload_date": "2025-06-02T17:58:11.961183",
+    "file_size": 2029548,
+    "summary": "This document provides a practical introduction to Python programming, covering basics such as installing Python, IDLE, writing first programs, variables, and for loops.",
+    "keywords": [
+      "Python",
+      "Programming",
+      "Introduction",
+      "Basics",
+      "For Loops"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "A Practical Introduction to Python Programming"
+  },
+  {
+    "id": "e66e50dbac5ddcc081e1f8eecf2e260f",
+    "filename": "A_Quick_Dive_into_Deep_Learning_fundamental_walkthrough__1638869506.pdf",
+    "title": "A Quick Dive into Deep Learning - Fundamental Walkthrough",
+    "authors": [],
+    "filepath": "documents/A_Quick_Dive_into_Deep_Learning_fundamental_walkthrough__1638869506.pdf",
+    "upload_date": "2025-06-02T17:58:11.962183",
+    "file_size": 701942,
+    "summary": "This document provides a quick introduction to deep learning, explaining what it is, its use of multi-layer artificial neural networks, and the structure of an artificial neural network. It also includes a hands-on exercise.",
+    "keywords": [
+      "Deep Learning",
+      "Artificial Neural Networks",
+      "Machine Learning"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "A Quick Dive into Deep Learning medium.com /morphware/a-quick-dive-into-deep-learning-41bba4cb6d69"
+  },
+  {
+    "id": "61be08d28f0a4b1e2c4e99addd044294",
+    "filename": "A_Useful_Guide_to_SWOT_Analysis_1643964008.pdf",
+    "title": "A Useful Guide to SWOT Analysis",
+    "authors": [
+      "Alan Sarsby"
+    ],
+    "filepath": "documents/A_Useful_Guide_to_SWOT_Analysis_1643964008.pdf",
+    "upload_date": "2025-06-02T17:58:11.969183",
+    "file_size": 1792268,
+    "summary": "This document provides a guide on SWOT analysis, published by Pansophix Online in 2012. It emphasizes confidence through development and includes notices of rights, liability, and trademarks.",
+    "keywords": [
+      "SWOT Analysis",
+      "Guide",
+      "Pansophix",
+      "Alan Sarsby"
+    ],
+    "category": "Business",
+    "difficulty": "Intermediate",
+    "content_preview": "A Useful Guide to SWOT analysis"
+  },
+  {
+    "id": "e1233603832699850e5e81ea02d5bb6c",
+    "filename": "Advantages_and_Disadvantages_of_Decision_Trees_1640625849.pdf",
+    "title": "Advantages and Disadvantages of Decision Trees",
+    "authors": [],
+    "filepath": "documents/Advantages_and_Disadvantages_of_Decision_Trees_1640625849.pdf",
+    "upload_date": "2025-06-02T17:58:11.982183",
+    "file_size": 3061429,
+    "summary": "This document discusses the advantages and disadvantages of using Decision Trees in machine learning, including their simplicity, visualization capabilities, and ability to handle both numerical and categorical data. However, it also highlights that they require little data preparation and have a logarithmic cost for prediction.",
+    "keywords": [
+      "Decision Trees",
+      "Machine Learning",
+      "Classification",
+      "Regression",
+      "Data Preparation"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "Decision Trees are a non-parametric supervised learning method..."
+  },
+  {
+    "id": "38723aacede0726c78fb4b2d5921a21c",
+    "filename": "Agile_Project_Management_with_Kanban__1647327245.pdf",
+    "title": "Agile Project Management with Kanban",
+    "authors": [
+      "Eric Brechner"
+    ],
+    "filepath": "documents/Agile_Project_Management_with_Kanban__1647327245.pdf",
+    "upload_date": "2025-06-02T17:58:11.998183",
+    "file_size": 4204713,
+    "summary": "This document provides an overview of Agile Project Management using the Kanban method. It is a book published by Microsoft Press in 2015.",
+    "keywords": [
+      "Agile",
+      "Project Management",
+      "Kanban",
+      "Microsoft Press"
+    ],
+    "category": "Business",
+    "difficulty": "Intermediate",
+    "content_preview": "Agile Project Management with Kanban, Eric Brechner"
+  },
+  {
     "id": "477e78893e4a9e812c154781163986f9",
     "filename": "_Implementing_Analytics_in_Your_Small_Business_� _1638720838.pdf",
     "title": "_Implementing_Analytics_in_Your_Small_Business_",
     "authors": [],
     "filepath": "documents/_Implementing_Analytics_in_Your_Small_Business_� _1638720838.pdf",
-    "upload_date": "2025-06-02T16:32:59.785086",
+    "upload_date": "2025-06-02T17:58:12.025183",
     "file_size": 6750629,
     "summary": "Explores how limited resources in a small business can prevent full potential and discusses the importance of analytics as an investment.",
     "keywords": [
@@ -350,14 +734,13 @@
     "title": "India's National Strategy on Blockchain",
     "authors": [],
     "filepath": "documents/_India_National_Strategy_of_Blockchain👈_1638609142.pdf",
-    "upload_date": "2025-06-02T16:32:59.792086",
+    "upload_date": "2025-06-02T17:58:12.032183",
     "file_size": 1802008,
     "summary": "This document outlines the Indian government's strategy for implementing blockchain technology to create trusted digital platforms. The strategy was updated in December 2021.",
     "keywords": [
       "Blockchain",
       "Government of India",
-      "Digital Platforms",
-      "Strategy"
+      "Digital Platforms"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
@@ -369,7 +752,7 @@
     "title": "_Resources_for_Data_Scientists_1635850775.pdf",
     "authors": [],
     "filepath": "documents/_Resources_for_Data_Scientists_1635850775.pdf",
-    "upload_date": "2025-06-02T16:32:59.793086",
+    "upload_date": "2025-06-02T17:58:12.033184",
     "file_size": 237274,
     "summary": "This document provides resources on various Machine Learning (ML) topics, including Data Quality, Data Engineering, Data Discovery, Classification, Regression, Forecasting, Recommendation, Search & Ranking, Embeddings, Natural Language Processing, Sequence Modelling, Computer Vision, Reinforcement Learning, Anomaly Detection, Graph, Optimization...",
     "keywords": [
@@ -391,19 +774,19 @@
       "Peter Flach"
     ],
     "filepath": "documents/_Simply_Logical_Intelligent_Reasoning_by_Example_1634472303.pdf",
-    "upload_date": "2025-06-02T16:32:59.809086",
+    "upload_date": "2025-06-02T17:58:12.048184",
     "file_size": 4009632,
-    "summary": "This is a PDF copy of the book published between 1994 and 2007, focusing on logic and logic programming. The content includes an introduction to clausal logic, query answering, recursion, and more.",
+    "summary": "This is a PDF copy of the book 'Simply Logical Intelligent Reasoning by Example' published between 1994 and 2007. The book covers logic, logic programming, and provides examples for understanding these concepts. However, it contains some discrepancies with the print version.",
     "keywords": [
       "Logic",
       "Reasoning",
+      "Example",
       "Book",
-      "Peter Flach",
-      "University of Bristol"
+      "Peter Flach"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This is a PDF copy of the book..."
+    "content_preview": "Simply Logical Intelligent Reasoning by Example Peter Flach University of Bristol, United Kingdom"
   },
   {
     "id": "a95e9503fc4d313facd9ca4846eb754f",
@@ -411,7 +794,7 @@
     "title": " What Is Accessibility 1643813920",
     "authors": [],
     "filepath": "documents/_What_Is_Accessibility_1643813920.pdf",
-    "upload_date": "2025-06-02T16:32:59.811086",
+    "upload_date": "2025-06-02T17:58:12.050184",
     "file_size": 635350,
     "summary": "This comprehensive document provides detailed coverage of  what is accessibility 1643813920 concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations and real-world applications relevant to the field.",
     "keywords": [
