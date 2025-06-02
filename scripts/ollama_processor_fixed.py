@@ -20,7 +20,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 class FixedOllamaDocumentProcessor:
-    def __init__(self, model_name: str = "mistral"):
+    def __init__(self, model_name: str = "deepseek-r1:1.5b"):
         """Initialize the processor with Ollama and DeepSeek model"""
         self.model_name = model_name
         self.base_dir = Path.cwd()
@@ -481,7 +481,7 @@ def main():
     import sys
     
     # Allow custom model name via environment variable or argument
-    model_name = os.getenv('OLLAMA_MODEL', 'mistral')
+    model_name = os.getenv('OLLAMA_MODEL', 'deepseek-r1:1.5b')
     if len(sys.argv) > 1:
         model_name = sys.argv[1]
     
