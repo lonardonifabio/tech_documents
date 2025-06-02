@@ -63,7 +63,7 @@ jobs:
         OLLAMA_MODEL: deepseek-r1:1.5b
       run: |
         echo "Processing documents with Ollama and DeepSeek..."
-        python scripts/ollama_processor.py
+        python scripts/updated_ollama_processor.py --force
         echo "Documents processed successfully"
     
     - name: Build website
