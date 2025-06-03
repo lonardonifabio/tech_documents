@@ -6536,5 +6536,25 @@
     "category": "Data Science",
     "difficulty": "Intermediate",
     "content_preview": "Getting started with pandas 2"
+  },
+  {
+    "id": "d9303648be800c78fc0b038329cdb1f0",
+    "filename": "spotify_1626959420.pdf",
+    "title": "Spotify's Use of Machine Learning",
+    "authors": [],
+    "filepath": "documents/spotify_1626959420.pdf",
+    "upload_date": "2025-06-03T17:53:44.934160",
+    "file_size": 949286,
+    "summary": "This document discusses how Spotify uses machine learning, particularly in their 'Discover Weekly' feature, which generates personalized playlists based on user's search and listening history. It also explains the combination of three models used: Collaborative Filtering, Natural Language Processing, and Audio Models.",
+    "keywords": [
+      "Spotify",
+      "Machine Learning",
+      "Discover Weekly",
+      "Collaborative Filtering",
+      "Natural Language Processing"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "This document discusses how Spotify uses machine learning, particularly in their 'Discover Weekly' feature..."
   }
 ]
