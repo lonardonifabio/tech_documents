@@ -1756,18 +1756,18 @@
     "title": "Convolutional Neural Networks Explained",
     "authors": [],
     "filepath": "documents/Convolutional_Neural_Networks_Explained_1630508291.pdf",
-    "upload_date": "2025-06-02T20:26:01.618454",
+    "upload_date": "2025-06-03T17:21:42.230977",
     "file_size": 541889,
-    "summary": "This document explains Convolutional Neural Networks (CNNs), a class of neural networks that specializes in processing data with grid-like topology, such as images. The architecture includes convolutional, pooling, and fully connected layers.",
+    "summary": "This document explains Convolutional Neural Networks (CNNs), a class of neural networks that specializes in processing data with grid-like topology, such as images. The architecture consists of three layers: convolutional layer, pooling layer, and fully connected layer.",
     "keywords": [
       "Convolutional Neural Networks",
-      "CNN",
+      "CNNs",
       "Neural Networks",
       "Image Processing"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Convolutional Neural Networks explained..."
+    "content_preview": "Convolutional Neural Networks explained... image processing"
   },
   {
     "id": "62d4e98266172bdd2f29604ab0196526",
@@ -2169,19 +2169,19 @@
     "title": "Data Science In Practice",
     "authors": [],
     "filepath": "documents/Data_Science_In_Practice_1567264183.pdf",
-    "upload_date": "2025-06-02T20:26:01.902455",
+    "upload_date": "2025-06-03T17:21:42.514977",
     "file_size": 2161058,
-    "summary": "This document summarizes the Datanest Analytics Catalog, discussing the underutilization of data in companies and suggesting a solution to break down data silos for better proactive analysis. For more details or a complete catalog, contact datanest.io.",
+    "summary": "This document summarizes the Datanest Analytics Catalog, discussing the underutilization of data in companies and suggesting a proactive approach to data management. For more information or a complete catalog, contact datanest.io.",
     "keywords": [
       "Data Science",
       "Analytics",
-      "Data Utilization",
-      "Data Silos",
-      "Proactive Analysis"
+      "Data Management",
+      "Underutilized Data",
+      "Proactive Approach"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document summarizes the Datanest Analytics Catalog, discussing the underutilization of data in companies"
+    "content_preview": "Discusses underutilization of data in companies and suggests a proactive approach to data management."
   },
   {
     "id": "f8897f9b05e8284fc391e89cc3bca5d4",
@@ -4947,14 +4947,15 @@
     "title": "Machine Learning for Everyone",
     "authors": [],
     "filepath": "documents/Machine_Learning_for_Everyone_1633287567.pdf",
-    "upload_date": "2025-06-02T20:26:03.634458",
+    "upload_date": "2025-06-03T17:21:44.238981",
     "file_size": 5570917,
-    "summary": "A simple introduction to Machine Learning, focusing on practical solutions and real-world problems, written in accessible language. Covers classical machine learning methods.",
+    "summary": "A simple introduction to Machine Learning, focusing on real-world problems and practical solutions, written in accessible language. Covers classical machine learning methods from the 50s.",
     "keywords": [
       "Machine Learning",
       "Introduction",
+      "Real-World Problems",
       "Practical Solutions",
-      "Real-World Problems"
+      "Classical Machine Learning"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
@@ -5402,18 +5403,17 @@
       "Stu Bailey"
     ],
     "filepath": "documents/ModelOps_For_Dummies_9781119850489_dymmy.pdf",
-    "upload_date": "2025-06-02T20:26:03.858458",
+    "upload_date": "2025-06-03T17:21:44.462982",
     "file_size": 4293673,
-    "summary": "A comprehensive guide to ModelOps, a practice that bridges the gap between data science and operations for efficient machine learning model deployment.",
+    "summary": "A comprehensive guide to ModelOps, a practice that helps organizations manage and deploy machine learning models effectively.",
     "keywords": [
       "ModelOps",
       "Machine Learning",
-      "Data Science",
-      "Operations"
+      "Data Science"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "A comprensive guide to ModelOps, bridging data science and operations for efficient model deployment."
+    "content_preview": "A comprehensive guide to ModelOps, a practice that helps organizations manage and deploy machine learning models effectively."
   },
   {
     "id": "63f28fafcd2b3e1c0dd0787c307b36c7",
@@ -5779,6 +5779,26 @@
     "content_preview": "A Creative Commons licensed book on Python Machine Learning Projects"
   },
   {
+    "id": "c1fdf7cf79a4900ce06cadf689a73d17",
+    "filename": "Python_Tricks_1637310662.pdf",
+    "title": "Python Tricks",
+    "authors": [
+      "Dan Bader"
+    ],
+    "filepath": "documents/Python_Tricks_1637310662.pdf",
+    "upload_date": "2025-06-03T17:21:45.015983",
+    "file_size": 1328645,
+    "summary": "A book titled 'PythonTricks' by Dan Bader, providing information about the book and its ordering details. The book is licensed for personal enjoyment only.",
+    "keywords": [
+      "Python",
+      "Book",
+      "Dan Bader"
+    ],
+    "category": "Technology",
+    "difficulty": "Beginner",
+    "content_preview": "PythonTricks:TheBook by Dan Bader"
+  },
+  {
     "id": "a5a498b11fb49789a8f652e92aa91a0b",
     "filename": "Python_for_Everybody_1633415756.pdf",
     "title": "Python for Everybody",
@@ -5800,6 +5820,28 @@
     "category": "Data Science",
     "difficulty": "Intermediate",
     "content_preview": "Exploration of data using Python 3, a remix of the book 'Think Python'."
+  },
+  {
+    "id": "134452390b75ab413de5d70dc2d55341",
+    "filename": "The_Elements_of_Statistical_Learning__1640293631.pdf",
+    "title": "The Elements of Statistical Learning",
+    "authors": [
+      "Trevor Hastie",
+      "Robert Tibshirani",
+      "Jerome Friedman"
+    ],
+    "filepath": "documents/The_Elements_of_Statistical_Learning__1640293631.pdf",
+    "upload_date": "2025-06-03T17:21:45.600984",
+    "file_size": 6146666,
+    "summary": "Explores the development of new statistical tools for understanding vast amounts of data in various fields. Emphasizes concepts rather than mathematics, with many examples and color graphics. Covers supervised learning to unsupervised learning, including neural networks, support vector machines, classification trees, boosting, graphical models, ...",
+    "keywords": [
+      "Data Mining",
+      "Statistics",
+      "Machine Learning"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Explores the development of new statistical tools for understanding vast amounts of data in various fields."
   },
   {
     "id": "477e78893e4a9e812c154781163986f9",
@@ -6185,7 +6227,7 @@
     "title": "Linear Regression Introduction",
     "authors": [],
     "filepath": "documents/lr1_1622445218.pdf",
-    "upload_date": "2025-06-02T20:26:04.402459",
+    "upload_date": "2025-06-03T17:21:46.050985",
     "file_size": 794617,
     "summary": "This document introduces Linear Regression, a linear model used to find the relationship between two continuous variables. It explains the equation Y = W1*X + b for one input variable.",
     "keywords": [
