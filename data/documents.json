@@ -4441,18 +4441,18 @@
   {
     "id": "a7b7ca43b590fc3e931da0de593c7e44",
     "filename": "Linear_Regression_1567266618.pdf",
-    "title": "Linear Regression: A Machine Learning Approach",
+    "title": "Linear Regression: Predicting House Prices",
     "authors": [],
     "filepath": "documents/Linear_Regression_1567266618.pdf",
-    "upload_date": "2025-06-02T20:26:03.227457",
+    "upload_date": "2025-06-03T17:53:41.230090",
     "file_size": 2628008,
-    "summary": "This document discusses Linear Regression as a machine learning technique applied to a dataset of living area and house prices in a city. It serves as a training set for predicting the prices of houses based on their living areas, showcasing an example of supervised learning problem with continuous target variables.",
+    "summary": "This document discusses Linear Regression using a dataset of living area and house prices in a city. It serves as a training set to predict the prices of houses of other sizes, demonstrating a supervised learning problem and regression analysis.",
     "keywords": [
       "Linear Regression",
       "Machine Learning",
+      "House Prices",
       "Supervised Learning",
-      "Regression Problem",
-      "Housing Prices"
+      "Regression Analysis"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
