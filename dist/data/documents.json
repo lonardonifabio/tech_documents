@@ -6552,6 +6552,26 @@
     "content_preview": "BITE-SIZE Python® April Speightan Introduction to Python Programming"
   },
   {
+    "id": "0a2749b02ce77530d29c819458035181",
+    "filename": "Python_for_Data_Science_1592378029.pdf",
+    "title": "Python For Data Science Cheat Sheet",
+    "authors": [],
+    "filepath": "documents/Python_for_Data_Science_1592378029.pdf",
+    "upload_date": "2025-06-03T17:53:43.216127",
+    "file_size": 1497850,
+    "summary": "This document provides a cheat sheet for Python basics, variables, data types, lists, and some operations on them. It also mentions NumPy arrays.",
+    "keywords": [
+      "Python",
+      "Data Science",
+      "Cheat Sheet",
+      "Variables",
+      "Lists"
+    ],
+    "category": "Data Science",
+    "difficulty": "Beginner",
+    "content_preview": "Import libraries\n>>> import numpy\n>>> import numpy as np"
+  },
+  {
     "id": "a5a498b11fb49789a8f652e92aa91a0b",
     "filename": "Python_for_Everybody_1633415756.pdf",
     "title": "Python for Everybody",
