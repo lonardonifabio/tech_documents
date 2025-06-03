@@ -4562,6 +4562,28 @@
     "content_preview": "import pandas as pd\nimport numpy as np\n..."
   },
   {
+    "id": "06ed2b832a15536240c02374a44f9018",
+    "filename": "LSTM_with_Batch_Normalization_from_Scratch_in_Python_1716746753.pdf",
+    "title": "LSTM with Batch Normalization from Scratch in Python",
+    "authors": [
+      "Cristian Leo"
+    ],
+    "filepath": "documents/LSTM_with_Batch_Normalization_from_Scratch_in_Python_1716746753.pdf",
+    "upload_date": "2025-06-03T22:07:05.512536",
+    "file_size": 2248915,
+    "summary": "This document provides a step-by-step guide on implementing Batch Normalization from scratch for an LSTM model in Python. The code includes custom classes for WeightInitializer, Trainer, and TimeSeriesDataset.",
+    "keywords": [
+      "LSTM",
+      "Batch Normalization",
+      "Python",
+      "Deep Learning",
+      "Custom Classes"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "import numpy as np\nimport matplotlib .pyplot as plt\n# Custom classes (built from scratch)"
+  },
+  {
     "id": "ba5114131b909e132e7e259da62a07e2",
     "filename": "Langchain_Application_1709835148.pdf",
     "title": "Langchain Application 1709835148",
