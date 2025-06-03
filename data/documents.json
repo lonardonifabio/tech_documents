@@ -7232,6 +7232,25 @@
     "content_preview": "Top Google Questions – Part 1   Top Google Questions"
   },
   {
+    "id": "b846d8417b0693434d30715ed001ba37",
+    "filename": "Transfer_Learning_1709665051.pdf",
+    "title": "Transfer Learning",
+    "authors": [],
+    "filepath": "documents/Transfer_Learning_1709665051.pdf",
+    "upload_date": "2025-06-03T22:07:08.730562",
+    "file_size": 609597,
+    "summary": "Transfer learning is a machine learning technique that utilizes knowledge from one task to improve performance on another related task, particularly beneficial for tasks with limited data. It involves fine-tuning pre-trained models and has applications in computer vision and natural language processing.",
+    "keywords": [
+      "Machine Learning",
+      "Transfer Learning",
+      "Computer Vision",
+      "Natural Language Processing"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Transfer learning involves fine-tuning the weights of a pre-trained upstream model to adapt it to the downstream task."
+  },
+  {
     "id": "df23ce136756250189b726fce9f42ad3",
     "filename": "Types_of_Machine_Learning_Algorithms_1627454712 (1).pdf",
     "title": "Types of Machine Learning Algorithms",
