@@ -3882,6 +3882,26 @@
     "content_preview": "The Innovator’s Handbook offers a comprehensive overview of the best and latest in corporate innovation..."
   },
   {
+    "id": "f4621198e2d4a839ee7cf190126e80b7",
+    "filename": "Image_Processing_1705757667.pdf",
+    "title": "Image Processing",
+    "authors": [],
+    "filepath": "documents/Image_Processing_1705757667.pdf",
+    "upload_date": "2025-06-03T22:07:05.078532",
+    "file_size": 2391253,
+    "summary": "This document provides a Python script for creating and manipulating gray scale images using NumPy and Matplotlib. It demonstrates how to create an 8x8 pixel image, alter its values, and visualize the results.",
+    "keywords": [
+      "Image Processing",
+      "Python",
+      "NumPy",
+      "Matplotlib",
+      "Gray Scale Images"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "import numpy as np\nimport matplotlib .pyplot as plt\n0.1 Gray scale images"
+  },
+  {
     "id": "195540dda6bd0ade86bbe769aaf00ef1",
     "filename": "Implementation_of_Blockchain_in_SCM_Logistics_Management_1636931175.pdf",
     "title": "Implementation of Blockchain in SCM Logistics Management",
