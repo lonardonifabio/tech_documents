@@ -6610,6 +6610,26 @@
     "content_preview": "Learns uniquely...This Doc will help y..."
   },
   {
+    "id": "4d43492c747614a816c26ef9a4e34877",
+    "filename": "VGG_1711438846.pdf",
+    "title": "VGG_1711438846.pdf",
+    "authors": [],
+    "filepath": "documents/VGG_1711438846.pdf",
+    "upload_date": "2025-06-03T17:53:44.288147",
+    "file_size": 555732,
+    "summary": "This document appears to be a Python script for training a model to classify x-ray images as either 'PNEUMONIA' or 'NORMAL'. The script uses libraries such as TensorFlow, Keras, and scikit-learn, and performs data preprocessing and model evaluation.",
+    "keywords": [
+      "Python",
+      "Script",
+      "X-Ray Images",
+      "Pneumonia",
+      "Machine Learning"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Importing libraries\nimport numpy as np\nimport pandas as pd\n..."
+  },
+  {
     "id": "ea35afdf73aadd74603e534accbdaa29",
     "filename": "Web_Scraping_1705191820.pdf",
     "title": "Web Scraping Tutorial",
