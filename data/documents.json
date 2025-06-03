@@ -4400,6 +4400,26 @@
     "content_preview": "High performing HRdepartments are turning to technology to solve these issues. By allowing RPA..."
   },
   {
+    "id": "3ef2ba74d7e0d9b40bbe9884ae12c524",
+    "filename": "LSTM_1711023252.pdf",
+    "title": "LSTM Analysis on Spam Email Dataset",
+    "authors": [],
+    "filepath": "documents/LSTM_1711023252.pdf",
+    "upload_date": "2025-06-03T22:07:05.509536",
+    "file_size": 191282,
+    "summary": "This document is a Python script using Keras and Scikit-learn libraries to perform LSTM (Long Short Term Memory) analysis on a spam email dataset. The goal is to classify emails as either 'spam' or 'ham'.",
+    "keywords": [
+      "LSTM",
+      "Keras",
+      "Scikit-learn",
+      "Spam Email Dataset",
+      "Machine Learning"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "import pandas as pd\nimport numpy as np\n..."
+  },
+  {
     "id": "ba5114131b909e132e7e259da62a07e2",
     "filename": "Langchain_Application_1709835148.pdf",
     "title": "Langchain Application 1709835148",
