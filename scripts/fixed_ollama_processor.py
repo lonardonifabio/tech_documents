@@ -29,19 +29,27 @@ class FixedOllamaDocumentProcessor:
         self.dist_data_dir = self.base_dir / 'dist' / 'data'
         self.processed_files_path = self.data_dir / 'processed_files.json'
         
+        # Configure Ollama host from environment variable
+        self.ollama_host = os.getenv('OLLAMA_HOST', '127.0.0.1:11434')
+        if not self.ollama_host.startswith('http'):
+            self.ollama_host = f"http://{self.ollama_host}"
+        
         logger.info(f"Initialized processor with model: {model_name}")
+        logger.info(f"Ollama host: {self.ollama_host}")
         logger.info(f"Documents directory: {self.documents_dir}")
         logger.info(f"Data directory: {self.data_dir}")
     
     def ensure_model_available(self) -> bool:
         """Ensure the Mistral model is available in Ollama"""
         try:
-            models = ollama.list()
+            # Configure Ollama client with custom host
+            client = ollama.Client(host=self.ollama_host)
+            models = client.list()
             available_models = [model['name'] for model in models.get('models', [])]
             
             if self.model_name not in available_models:
                 logger.info(f"Model {self.model_name} not found. Attempting to pull...")
-                ollama.pull(self.model_name)
+                client.pull(self.model_name)
                 logger.info(f"Successfully pulled {self.model_name}")
             
             return True
@@ -212,7 +220,9 @@ Content: {text}
 JSON response:"""
 
         try:
-            response = ollama.generate(
+            # Configure Ollama client with custom host
+            client = ollama.Client(host=self.ollama_host)
+            response = client.generate(
                 model=self.model_name,
                 prompt=prompt,
                 options={

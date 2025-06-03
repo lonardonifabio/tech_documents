@@ -46,7 +46,11 @@ jobs:
         # Install Ollama
         curl -fsSL https://ollama.ai/install.sh | sh
         
-        # Aggressive cleanup of any existing Ollama processes and port usage
+        # Generate a random port to avoid conflicts with other workflows
+        OLLAMA_PORT=$((11434 + $RANDOM % 1000))
+        echo "Using Ollama port: $OLLAMA_PORT"
+        
+        # Aggressive cleanup of any existing Ollama processes
         echo "Cleaning up any existing Ollama processes..."
         sudo pkill -f ollama || true
         sudo pkill -9 ollama || true
@@ -56,34 +60,38 @@ jobs:
         # Wait for cleanup
         sleep 5
         
-        # Check and kill anything using port 11434
+        # Check and kill anything using the default port 11434
         if sudo lsof -ti:11434 2>/dev/null; then
           echo "Port 11434 is in use, force killing processes..."
           sudo kill -9 $(sudo lsof -ti:11434) || true
           sleep 3
         fi
         
-        # Double check port is free
-        if sudo netstat -tlnp | grep :11434; then
-          echo "Port still in use, attempting to free it..."
-          sudo fuser -k 11434/tcp || true
-          sleep 2
+        # Check our random port too
+        if sudo lsof -ti:$OLLAMA_PORT 2>/dev/null; then
+          echo "Port $OLLAMA_PORT is in use, force killing processes..."
+          sudo kill -9 $(sudo lsof -ti:$OLLAMA_PORT) || true
+          sleep 3
         fi
         
-        # Start Ollama with explicit configuration
-        export OLLAMA_HOST=127.0.0.1:11434
+        # Start Ollama with custom port
+        export OLLAMA_HOST=127.0.0.1:$OLLAMA_PORT
         export OLLAMA_ORIGINS="*"
         
-        echo "Starting Ollama..."
+        echo "Starting Ollama on port $OLLAMA_PORT..."
         ollama serve &
         OLLAMA_PID=$!
-        echo "Started Ollama with PID: $OLLAMA_PID"
+        echo "Started Ollama with PID: $OLLAMA_PID on port $OLLAMA_PORT"
+        
+        # Save the port for later steps
+        echo "OLLAMA_PORT=$OLLAMA_PORT" >> $GITHUB_ENV
+        echo "OLLAMA_HOST=127.0.0.1:$OLLAMA_PORT" >> $GITHUB_ENV
         
         # Wait for Ollama to be ready with extended timeout
         echo "Waiting for Ollama to start..."
         for i in {1..60}; do
-          if curl -s http://127.0.0.1:11434/api/tags >/dev/null 2>&1; then
-            echo "Ollama is ready!"
+          if curl -s http://127.0.0.1:$OLLAMA_PORT/api/tags >/dev/null 2>&1; then
+            echo "Ollama is ready on port $OLLAMA_PORT!"
             break
           fi
           echo "Waiting... ($i/60)"
@@ -91,12 +99,12 @@ jobs:
         done
         
         # Verify Ollama is responding
-        if ! curl -s http://127.0.0.1:11434/api/tags >/dev/null 2>&1; then
-          echo "ERROR: Ollama failed to start properly"
+        if ! curl -s http://127.0.0.1:$OLLAMA_PORT/api/tags >/dev/null 2>&1; then
+          echo "ERROR: Ollama failed to start properly on port $OLLAMA_PORT"
           echo "Checking processes:"
           ps aux | grep ollama || true
           echo "Checking port usage:"
-          sudo netstat -tlnp | grep 11434 || true
+          sudo netstat -tlnp | grep $OLLAMA_PORT || true
           echo "Checking if service is running:"
           sudo systemctl status ollama || true
           exit 1
@@ -126,7 +134,7 @@ jobs:
         
         # Test model with a simple query
         echo "Testing Mistral model..."
-        echo '{"model": "mistral:7b", "prompt": "Hello", "stream": false}' | curl -s -X POST http://127.0.0.1:11434/api/generate -d @- || echo "Model test failed but continuing..."
+        echo '{"model": "mistral:7b", "prompt": "Hello", "stream": false}' | curl -s -X POST http://127.0.0.1:$OLLAMA_PORT/api/generate -d @- || echo "Model test failed but continuing..."
     
     - name: Process documents with Ollama
       env:

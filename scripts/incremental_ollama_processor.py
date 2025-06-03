@@ -24,6 +24,9 @@ class IncrementalOllamaProcessor(FixedOllamaDocumentProcessor):
     def __init__(self, model_name: str = "mistral:7b"):
         super().__init__(model_name)
         self.processed_count = 0
+        
+        # Inherit the Ollama host configuration from parent class
+        logger.info(f"Incremental processor using Ollama host: {self.ollama_host}")
     
     def git_commit_and_push(self, message: str) -> bool:
         """Commit and push changes to GitHub"""
