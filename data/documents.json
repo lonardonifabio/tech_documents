@@ -932,6 +932,25 @@
     "content_preview": "Agile Project Management with Kanban, Eric Brechner"
   },
   {
+    "id": "b44f3f61b436c13cf30ae13f9e52e3dc",
+    "filename": "AlexNet_1711185522.pdf",
+    "title": "AlexNet Implementation in Keras",
+    "authors": [],
+    "filepath": "documents/AlexNet_1711185522.pdf",
+    "upload_date": "2025-06-03T22:07:02.620513",
+    "file_size": 228203,
+    "summary": "This document details the implementation of AlexNet using Keras library. The code initializes a Convolutional Neural Network (CNN) for image classification.",
+    "keywords": [
+      "AlexNet",
+      "Keras",
+      "Convolutional Neural Network",
+      "Image Classification"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Initializing the CNN: classifier =Sequential()"
+  },
+  {
     "id": "5999ffb9abc21230ef305e85d26d1b9b",
     "filename": "Algorithms_1621791410.pdf",
     "title": "Algorithms_1621791410.pdf",
