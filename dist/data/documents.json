@@ -6284,6 +6284,25 @@
     "content_preview": "Felix Zumstein Python for Excel A Modern Environment for Automation and Data Analysis Table of Contents"
   },
   {
+    "id": "50f459170bb06e4aa0ad213f2c055598",
+    "filename": "Road_Lane_Detection_1706087199.pdf",
+    "title": "Road Lane Detection",
+    "authors": [],
+    "filepath": "documents/Road_Lane_Detection_1706087199.pdf",
+    "upload_date": "2025-06-03T17:53:43.513132",
+    "file_size": 955178,
+    "summary": "This document demonstrates a road lane detection algorithm using computer vision techniques such as grayscale conversion, Gaussian blur, and Canny edge detection.",
+    "keywords": [
+      "Computer Vision",
+      "Lane Detection",
+      "Image Processing",
+      "OpenCV"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Imports necessary libraries, loads an image, and converts it to grayscale."
+  },
+  {
     "id": "c3339ce0446ae1c0873c3c19b2cc8a7d",
     "filename": "SQL_Tutorial_1635790346.pdf",
     "title": "SQL Tutorial",
