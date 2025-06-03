@@ -3863,13 +3863,14 @@
     "title": "How to Use Learning Rate Annealing with Neural Networks",
     "authors": [],
     "filepath": "documents/How_to_Use_Learning_Rate_Annealing_with_Neural_Networks_1638348595.pdf",
-    "upload_date": "2025-06-02T20:26:02.618456",
+    "upload_date": "2025-06-03T22:07:05.031532",
     "file_size": 637161,
     "summary": "This document discusses learning rate annealing, a method used to optimize the cost function in neural networks. It explains what learning rate annealing is, its methods, and provides a practical demonstration of its implementation in Python.",
     "keywords": [
       "Learning Rate Annealing",
       "Neural Networks",
-      "Optimization"
+      "Optimization",
+      "Gradient Descent"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
