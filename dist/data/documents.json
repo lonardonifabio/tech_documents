@@ -7370,6 +7370,29 @@
     "content_preview": "Python Data Science Handbook Essential Tools for Working with Data"
   },
   {
+    "id": "184863c289fb0762aa3073157640e8da",
+    "filename": "recurrent neural network.pdf",
+    "title": "Recurrent Neural Networks Cheatsheet",
+    "authors": [
+      "Afshine Amidi",
+      "Shervine Amidi"
+    ],
+    "filepath": "documents/recurrent neural network.pdf",
+    "upload_date": "2025-06-03T17:53:44.921160",
+    "file_size": 841285,
+    "summary": "This document is a cheatsheet for Recurrent Neural Networks (RNNs), discussing their architecture, advantages, disadvantages, applications, and loss function. It's primarily focused on natural language processing and speech recognition.",
+    "keywords": [
+      "Recurrent Neural Network",
+      "Deep Learning",
+      "CS 230",
+      "Activation Function",
+      "Coefﬁcients"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "CS 230 – Deep Learning ... Recurrent neural networks, also known as RNNs, are a class of neural networks..."
+  },
+  {
     "id": "d9303648be800c78fc0b038329cdb1f0",
     "filename": "spotify_1626959420.pdf",
     "title": "Spotify's Use of Machine Learning",
