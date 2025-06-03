@@ -1,0 +1,78 @@
+name: Process Documents with Ollama
+
+on:
+  workflow_dispatch:
+    inputs:
+      force_reprocess:
+        description: 'Force reprocess all documents'
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    # Run daily at 2 AM UTC
+    - cron: '0 2 * * *'
+  push:
+    paths:
+      - 'documents/**'
+      - 'scripts/fixed_ollama_processor.py'
+      - 'scripts/incremental_ollama_processor.py'
+
+jobs:
+  process-documents:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350  # Set to 5 hours 50 minutes (under the 6-hour limit)
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r scripts/requirements.txt
+
+    - name: Install and start Ollama
+      run: |
+        # Install Ollama
+        curl -fsSL https://ollama.ai/install.sh | sh
+        
+        # Start Ollama service in background
+        ollama serve &
+        
+        # Wait for Ollama to be ready
+        sleep 10
+        
+        # Pull the Mistral model
+        ollama pull mistral:7b
+
+    - name: Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+    - name: Process documents incrementally
+      env:
+        OLLAMA_MODEL: mistral:7b
+        FORCE_REPROCESS: ${{ github.event.inputs.force_reprocess }}
+      run: |
+        cd ${{ github.workspace }}
+        python3 scripts/incremental_ollama_processor.py
+
+    - name: Final status check
+      run: |
+        echo "Workflow completed. Checking final state..."
+        ls -la data/
+        if [ -f "data/documents.json" ]; then
+          echo "documents.json exists with $(jq length data/documents.json) documents"
+        fi
+        if [ -f "data/processed_files.json" ]; then
+          echo "processed_files.json exists with $(jq length data/processed_files.json) files tracked"
+        fi
