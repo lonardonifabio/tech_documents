@@ -6254,18 +6254,18 @@
     "title": "Top 50 Machine Learning Interview Questions & Answers",
     "authors": [],
     "filepath": "documents/Machine_Learning_Interviews_1567264043.pdf",
-    "upload_date": "2025-06-02T20:26:03.536458",
+    "upload_date": "2025-06-04T19:59:42.093601",
     "file_size": 267515,
-    "summary": "This document provides explanations for 50 common interview questions related to machine learning, including definitions, differences, and practical applications. Key topics include overfitting, data mining, and the distinction between machine learning and other related fields.",
+    "summary": "This document provides explanations for 50 common machine learning interview questions, including definitions, differences, and solutions to issues like overfitting.",
     "keywords": [
       "Machine Learning",
       "Interview Questions",
-      "Data Mining",
-      "Overfitting"
+      "AI",
+      "Data Mining"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides explanations for 50 common interview questions related to machine learning..."
+    "content_preview": "This document provides explanations for 50 common machine learning interview questions, including definitions, differences, and solutions to issues like overfitting."
   },
   {
     "id": "2303d2c3234389dfbef0c055456ed1a0",
@@ -6512,7 +6512,7 @@
       "Oliver Theobald"
     ],
     "filepath": "documents/Machine_Learning_for_Absolute_Beginners__1643179193.pdf",
-    "upload_date": "2025-06-02T20:26:03.578458",
+    "upload_date": "2025-06-04T19:59:42.151601",
     "file_size": 2755655,
     "summary": "A comprehensive guide to understanding and applying machine learning concepts for beginners, written by Oliver Theobald.",
     "keywords": [
@@ -9240,6 +9240,28 @@
     ],
     "filepath": "documents/The_Elements_of_Statistical_Learning_1638602291.pdf",
     "upload_date": "2025-06-03T22:07:08.564561",
+    "file_size": 2850927,
+    "summary": "Explores the development of new statistical tools for understanding vast amounts of data in various fields. Emphasizes concepts rather than mathematics, with many examples and color graphics. Covers supervised learning to unsupervised learning, including neural networks, support vector machines, classification trees, boosting, graphical models, ...",
+    "keywords": [
+      "Data Mining",
+      "Statistics",
+      "Machine Learning"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Explores the development of new statistical tools for understanding vast amounts of data in various fields. Emphasizes concepts rather than mathematics,"
+  },
+  {
+    "id": "a3867a203e0fe7204db071918451cc91",
+    "filename": "The_Elements_of_Statistical_Learning_1639946799.pdf",
+    "title": "The Elements of Statistical Learning",
+    "authors": [
+      "Trevor Hastie",
+      "Robert Tibshirani",
+      "Jerome Friedman"
+    ],
+    "filepath": "documents/The_Elements_of_Statistical_Learning_1639946799.pdf",
+    "upload_date": "2025-06-04T19:59:44.479606",
     "file_size": 2850927,
     "summary": "Explores the development of new statistical tools for understanding vast amounts of data in various fields. Emphasizes concepts rather than mathematics, with many examples and color graphics. Covers supervised learning to unsupervised learning, including neural networks, support vector machines, classification trees, boosting, graphical models, ...",
     "keywords": [
