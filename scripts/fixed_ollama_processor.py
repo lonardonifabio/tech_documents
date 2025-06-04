@@ -212,7 +212,7 @@ class FixedOllamaDocumentProcessor:
         # Simple, clear prompt for Mistral
         prompt = f"""Analyze this document and respond with ONLY a JSON object in this exact format:
 
-{{"title": "document title", "summary": "brief summary with around 500 characters", "keywords": ["keyword1", "keyword2", "keyword3"], "category": "one of: AI, Machine Learning, Data Science, Analytics, Business, Technology, Research", "difficulty": "one of: Beginner, Intermediate, Advanced", "authors": [], "content_preview": "first 80 characters of content"}}
+{{"title": "document title", "summary": "brief summary with around 800 characters", "keywords": ["keyword1", "keyword2", "keyword3"], "category": "one of: AI, Machine Learning, Data Science, Analytics, Business, Technology, Research", "difficulty": "one of: Beginner, Intermediate, Advanced", "authors": [], "content_preview": "first 80 characters of content"}}
 
 Document: {filename}
 Content: {text}
