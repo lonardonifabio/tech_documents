@@ -7219,15 +7219,15 @@
       "Jakob Uszkoreit"
     ],
     "filepath": "documents/One_Model_To_Learn_Them_All_1627196795.pdf",
-    "upload_date": "2025-06-02T20:26:03.966458",
+    "upload_date": "2025-06-03T22:07:07.144549",
     "file_size": 1200245,
-    "summary": "This document presents a single model that yields good results across various problems spanning multiple domains, including image classification, translation, and speech recognition. The model architecture incorporates building blocks from multiple domains such as convolutional layers, an attention mechanism, and sparsely-gated layers.",
+    "summary": "A single model that yields good results across various problems in multiple domains, including image classification, translation, and speech recognition. The model architecture incorporates building blocks from multiple domains such as convolutional layers, an attention mechanism, and sparsely-gated layers.",
     "keywords": [
       "Deep Learning",
-      "Model Architecture",
-      "Multi-domain",
+      "Multi-task Learning",
       "Convolutional Layers",
-      "Attention Mechanism"
+      "Attention Mechanism",
+      "Sparse Gating"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
