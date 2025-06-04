@@ -9482,6 +9482,26 @@
     "content_preview": "Importing libraries\nimport numpy as np\nimport pandas as pd\n..."
   },
   {
+    "id": "0645592bc50baa71f526c56296df90f2",
+    "filename": "VGG_1711726956.pdf",
+    "title": "VGG_1711726956.pdf",
+    "authors": [],
+    "filepath": "documents/VGG_1711726956.pdf",
+    "upload_date": "2025-06-03T22:07:08.787563",
+    "file_size": 555732,
+    "summary": "This document appears to be a Python script for training a deep learning model to classify x-ray images as either 'PNEUMONIA' or 'NORMAL'. The script uses libraries such as TensorFlow, Keras, and scikit-learn, and it seems to encounter some errors related to cuDNN, cuFFT, and cuBLAS registration.",
+    "keywords": [
+      "Python",
+      "Deep Learning",
+      "X-ray Images",
+      "Pneumonia",
+      "TensorFlow"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Importing libraries\nimport numpy as np\nimport pandas as pd\nimport matplotlib .pyplot as plt\nimport matplotlib .image as mpimg\nimport seaborn as sns\n\n"
+  },
+  {
     "id": "b9e4eae249eb54439dc86beee6c19d75",
     "filename": "Visual_Introduction_to_Deep_Learning_1640336794.pdf",
     "title": "Visual Introduction to Deep Learning",
