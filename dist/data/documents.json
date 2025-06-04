@@ -5278,6 +5278,26 @@
     "content_preview": "Document: Langchain Application 1709835148"
   },
   {
+    "id": "79997babf0363b031a371e0e3ad91237",
+    "filename": "LeNet__1711185582.pdf",
+    "title": "LeNet - Digit Recognizer",
+    "authors": [],
+    "filepath": "documents/LeNet__1711185582.pdf",
+    "upload_date": "2025-06-04T21:18:52.453024",
+    "file_size": 89978,
+    "summary": "This document is a Python script for building and training a Convolutional Neural Network (CNN) using Keras to recognize handwritten digits from the MNIST dataset. The script reads the data, preprocesses it, builds the model using layers such as Conv2D, MaxPool2D, Dense, Dropout, and Flatten, trains the model, and visualizes some of the digits.",
+    "keywords": [
+      "LeNet",
+      "Digit Recognizer",
+      "MNIST dataset",
+      "Convolutional Neural Network",
+      "Keras"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "import numpy as np\nimport pandas as pd\nimport keras"
+  },
+  {
     "id": "ff49e7fcf8e53a0e0faab71098100b45",
     "filename": "Learn_Apache_Spark_with_Python_1639723938.pdf",
     "title": "Learn Apache Spark with Python",
