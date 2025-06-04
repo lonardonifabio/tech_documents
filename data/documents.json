@@ -9941,6 +9941,26 @@
     "content_preview": "D4267theaiconf.comEarly adopters of applied AI have a unique opportunity to invent new business models, reshape industries,"
   },
   {
+    "id": "68c994ce98f79eb8276c0b0689aefe58",
+    "filename": "Zara_Dataset_Analysis__1695102143.pdf",
+    "title": "Zara Dataset Analysis",
+    "authors": [],
+    "filepath": "documents/Zara_Dataset_Analysis__1695102143.pdf",
+    "upload_date": "2025-06-04T21:18:55.766043",
+    "file_size": 516473,
+    "summary": "This document performs a data analysis on the Zara dataset for men's and women's clothing. It uses Python libraries such as pandas, seaborn, textblob, wordcloud, and nltk to load, concatenate, and perform basic information display, as well as sentiment analysis on product descriptions.",
+    "keywords": [
+      "Zara",
+      "Dataset",
+      "Data Analysis",
+      "Python",
+      "Pandas"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "import nltk\nimport glob\nimport os\nimport pandas as pd\nimport seaborn as sns"
+  },
+  {
     "id": "6bed8f211506113ac276999d8a08fd29",
     "filename": "_AutoML_Book_1655047477.pdf",
     "title": "The Springer Series on Challenges in Machine Learning",
