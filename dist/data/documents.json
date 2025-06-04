@@ -4663,17 +4663,17 @@
     "title": "Jupyter Notebook Tips & Tricks",
     "authors": [],
     "filepath": "documents/Jupyter_Notebook_Tips_Tricks_1638099843.pdf",
-    "upload_date": "2025-06-02T20:26:03.037457",
+    "upload_date": "2025-06-03T22:07:05.475536",
     "file_size": 346277,
-    "summary": "This document provides a cheat sheet for Jupyter Notebook, including magic functions, keyboard shortcuts, and examples of Python code. It is useful for data cleaning, transformation, machine learning, and more.",
+    "summary": "This document provides a cheat sheet for using various magic functions in Jupyter Notebook, including %magic, %automaagic, %quickref, %pastebin, %debug, %hist, %pdb, %cpaste, %reset, %run, %who, %who_ls, %whos, %xdel, and %time. It also includes keyboard shortcuts for using Jupyter Notebook.",
     "keywords": [
       "Jupyter Notebook",
+      "Magic Functions",
       "Python",
-      "Data Science",
-      "Machine Learning"
+      "Cheat Sheet"
     ],
     "category": "Data Science",
-    "difficulty": "Intermediate",
+    "difficulty": "Beginner",
     "content_preview": "Jupyter Notebook is an open-source web application that allows you to create and share documents..."
   },
   {
