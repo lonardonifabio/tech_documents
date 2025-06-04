@@ -5333,15 +5333,15 @@
     "title": "Learning Docker",
     "authors": [],
     "filepath": "documents/Learning_Docker__1640512227.pdf",
-    "upload_date": "2025-06-02T20:26:03.173457",
+    "upload_date": "2025-06-03T22:07:05.664537",
     "file_size": 1323036,
-    "summary": "This document provides a comprehensive guide on getting started with Docker, including installation on various operating systems, building images, using volumes, connecting containers, and more. It also covers topics like checkpoint and restore, Docker network, Docker-compose, and creating services.",
+    "summary": "This document provides a comprehensive guide on getting started with Docker, building images, using volumes, connecting containers, and more. It covers installation on various operating systems, creating and managing containers, and understanding concepts like checkpoints and restore.",
     "keywords": [
       "Docker",
-      "Installation",
-      "Guide",
-      "Containers",
-      "Images"
+      "Containerization",
+      "Linux",
+      "Windows",
+      "Mac OS X"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
