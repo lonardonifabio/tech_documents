@@ -7668,6 +7668,26 @@
     "content_preview": "The cover design is based on the trajectories of a simulated bicycle controlled by a reinforcement learning system developed by Jette Randløv."
   },
   {
+    "id": "765cc67c4b102b320899ee2b5ceee844",
+    "filename": "Resnet_1711024975.pdf",
+    "title": "Resnet_1711024975.pdf",
+    "authors": [],
+    "filepath": "documents/Resnet_1711024975.pdf",
+    "upload_date": "2025-06-03T22:07:07.979556",
+    "file_size": 369456,
+    "summary": "This document is a Python script for image classification using ResNet model on an animal image dataset consisting of dogs, cats, and pandas. It demonstrates loading libraries, preparing the dataset, visualizing some images, and defining the ResNet architecture.",
+    "keywords": [
+      "ResNet",
+      "image-classification",
+      "Python",
+      "TensorFlow",
+      "Keras"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "0.0.1 Import Libraries\n[1]: import numpy as np\nimport pandas as pd\nfrom tensorflow .keras .preprocessing .image import ImageDataGenerator"
+  },
+  {
     "id": "b558599b8a8be70f46e9009898e150db",
     "filename": "Resources_for_Data_Scientists_1635584288.pdf",
     "title": "Resources for Data Scientists",
