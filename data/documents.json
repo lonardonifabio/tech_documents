@@ -11170,15 +11170,16 @@
     "title": "Data Leakage in Machine Learning Models",
     "authors": [],
     "filepath": "documents/data_leakage_1639989680.pdf",
-    "upload_date": "2025-06-02T20:26:04.170459",
+    "upload_date": "2025-06-04T21:18:55.875044",
     "file_size": 626823,
-    "summary": "This document discusses the issue of data leakage in machine learning models and its impact on model performance. It explains what data leakage is, how it occurs, and its consequences.",
+    "summary": "This document discusses the issue of data leakage in machine learning models, explaining what it is and its impact on model performance. It provides examples and simple explanations to help understand the concept.",
     "keywords": [
-      "Machine Learning",
       "Data Leakage",
-      "Model Performance"
+      "Machine Learning",
+      "Model Training",
+      "Real-World Performance"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
     "content_preview": "Learn about Data Leakage in Machine Learning..."
   },
