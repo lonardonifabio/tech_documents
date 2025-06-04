@@ -2221,18 +2221,18 @@
   {
     "id": "8f2a585e3d2cb7f208fea5c59c4184c5",
     "filename": "DS_1613979660.pdf",
-    "title": "DS_1613979660.pdf - Data Pre-processing and Transformation Techniques",
+    "title": "DS_1613979660.pdf - Data Pre-processing and Transformation in Machine Learning",
     "authors": [],
     "filepath": "documents/DS_1613979660.pdf",
-    "upload_date": "2025-06-02T20:26:01.668455",
+    "upload_date": "2025-06-03T22:07:03.341519",
     "file_size": 120665,
-    "summary": "This document discusses various data pre-processing and transformation techniques such as handling missing values, removing noisy data, binning, regression, clustering, outliers detection, feature aggregation, encoding, train/validation/test split, normalization, attribute selection, discretization, concept hierarchy generation, data reduction, ...",
+    "summary": "This document discusses various data pre-processing and transformation techniques for machine learning problems, including handling missing values, removing noisy data, feature encoding, normalization, attribute selection, discretization, dimensionality reduction, and more.",
     "keywords": [
       "Data Pre-processing",
+      "Machine Learning",
       "Data Transformation",
-      "Missing Values",
-      "Noisy Data",
-      "Binning Method"
+      "Feature Engineering",
+      "Missing Values"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
