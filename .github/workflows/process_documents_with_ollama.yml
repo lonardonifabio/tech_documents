@@ -1,4 +1,4 @@
-name: Process Documents with Ollama
+name: Process Documents with Ollama 2
 
 on:
   workflow_dispatch:
@@ -26,7 +26,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.REP }}
         fetch-depth: 0
 
     - name: Set up Python
