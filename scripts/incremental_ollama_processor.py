@@ -31,7 +31,25 @@ class IncrementalOllamaProcessor(FixedOllamaDocumentProcessor):
     def git_commit_and_push(self, message: str) -> bool:
         """Commit and push changes to GitHub"""
         try:
-            # Add all changes in data and dist directories
+            # Ensure both JSON files exist before committing
+            if not self.data_dir.exists():
+                self.data_dir.mkdir(exist_ok=True)
+            if not self.dist_data_dir.exists():
+                self.dist_data_dir.mkdir(parents=True, exist_ok=True)
+            
+            # Add specific files to ensure they're tracked
+            files_to_add = [
+                'data/documents.json',
+                'data/processed_files.json',
+                'dist/data/documents.json'
+            ]
+            
+            for file_path in files_to_add:
+                if Path(file_path).exists():
+                    subprocess.run(['git', 'add', file_path], check=True, capture_output=True)
+                    logger.info(f"Added {file_path} to git")
+            
+            # Also add any other changes in data and dist directories
             subprocess.run(['git', 'add', 'data/', 'dist/'], check=True, capture_output=True)
             
             # Check if there are changes to commit
@@ -39,6 +57,11 @@ class IncrementalOllamaProcessor(FixedOllamaDocumentProcessor):
             if result.returncode == 0:
                 logger.info("No changes to commit")
                 return True
+            
+            # Show what will be committed
+            status_result = subprocess.run(['git', 'status', '--porcelain', '--cached'], 
+                                         capture_output=True, text=True)
+            logger.info(f"Files to commit: {status_result.stdout.strip()}")
             
             # Commit changes
             subprocess.run(['git', 'commit', '-m', message], check=True, capture_output=True)
@@ -49,6 +72,11 @@ class IncrementalOllamaProcessor(FixedOllamaDocumentProcessor):
             return True
         except subprocess.CalledProcessError as e:
             logger.error(f"Git operation failed: {e}")
+            # Log more details about the error
+            if e.stdout:
+                logger.error(f"Git stdout: {e.stdout.decode()}")
+            if e.stderr:
+                logger.error(f"Git stderr: {e.stderr.decode()}")
             return False
     
     def process_single_document_with_commit(self, filepath: Path, processed_files: Dict, existing_documents: List[Dict]) -> bool:
