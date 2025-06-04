@@ -158,25 +158,10 @@
             const [previewError, setPreviewError] = useState(false);
             const [currentMethod, setCurrentMethod] = useState(0);
             
-            const getPDFPreviewMethods = (doc) => {
-                const githubRawUrl = `https://github.com/lonardonifabio/tech_documents/raw/main/${doc.filepath}`;
-                const githubBlobUrl = `https://github.com/lonardonifabio/tech_documents/blob/main/${doc.filepath}`;
-                
-                return [
-                    // Method 1: Direct GitHub raw URL
-                    githubRawUrl,
-                    // Method 2: PDF.js with GitHub raw URL
-                    `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(githubRawUrl)}`,
-                    // Method 3: Google Docs viewer
-                    `https://docs.google.com/viewer?url=${encodeURIComponent(githubRawUrl)}&embedded=true`,
-                    // Method 4: GitHub blob view (fallback)
-                    githubBlobUrl
-                ];
-            };
-            
-            const getCurrentPDFUrl = () => {
-                const methods = getPDFPreviewMethods(doc);
-                return methods[currentMethod] || methods[0];
+            const getPDFPreviewUrl = (doc) => {
+                // Use raw.githubusercontent.com for better CORS compatibility
+                const rawGithubUrl = `https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${doc.filepath}`;
+                return `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(rawGithubUrl)}`;
             };
             
             const handleOverlayClick = (e) => {
@@ -217,29 +202,9 @@
                         </button>
                         
                         <div className="modal-header">
-                            <h3 className="text-lg font-semibold text-gray-800 truncate pr-32">
+                            <h3 className="text-lg font-semibold text-gray-800 truncate pr-12">
                                 {doc.title || doc.filename}
                             </h3>
-                            <div className="flex gap-2 ml-auto">
-                                <button
-                                    onClick={() => {
-                                        setCurrentMethod((prev) => (prev + 1) % 4);
-                                        setPreviewError(false);
-                                    }}
-                                    className="bg-blue-500 text-white px-3 py-1 rounded text-xs hover:bg-blue-600"
-                                    title="Try different viewer"
-                                >
-                                    Switch Viewer
-                                </button>
-                                <a
-                                    href={`https://github.com/lonardonifabio/tech_documents/raw/main/${doc.filepath}`}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="bg-green-500 text-white px-3 py-1 rounded text-xs hover:bg-green-600"
-                                >
-                                    Download
-                                </a>
-                            </div>
                         </div>
                         
                         <div className="modal-body">
@@ -248,36 +213,24 @@
                                     <div className="text-center">
                                         <div className="text-6xl mb-4">⚠️</div>
                                         <h3 className="text-xl font-semibold text-gray-700 mb-2">
-                                            Unable to load PDF with current viewer
+                                            Unable to load PDF
                                         </h3>
                                         <p className="text-gray-500 mb-4">
-                                            Try switching to a different viewer or download the PDF directly.
+                                            The PDF could not be displayed in the viewer.
                                         </p>
-                                        <div className="flex gap-2 justify-center">
-                                            <button
-                                                onClick={() => {
-                                                    setCurrentMethod((prev) => (prev + 1) % 4);
-                                                    setPreviewError(false);
-                                                }}
-                                                className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200"
-                                            >
-                                                Try Different Viewer
-                                            </button>
-                                            <a
-                                                href={`https://github.com/lonardonifabio/tech_documents/raw/main/${doc.filepath}`}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors duration-200"
-                                            >
-                                                Download PDF
-                                            </a>
-                                        </div>
+                                        <a
+                                            href={`https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${doc.filepath}`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200"
+                                        >
+                                            Download PDF
+                                        </a>
                                     </div>
                                 </div>
                             ) : (
                                 <iframe
-                                    key={currentMethod}
-                                    src={getCurrentPDFUrl()}
+                                    src={getPDFPreviewUrl(doc)}
                                     className="modal-iframe"
                                     onError={() => setPreviewError(true)}
                                     title={`Preview of ${doc.title || doc.filename}`}
@@ -475,7 +428,7 @@
                                             Preview
                                         </button>
                                         <a
-                                            href={`https://github.com/lonardonifabio/tech_documents/raw/main/${doc.filepath}`}
+                                            href={`https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${doc.filepath}`}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors duration-200"
