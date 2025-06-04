@@ -7206,6 +7206,26 @@
     "content_preview": "An algorithm explores input data without being given an explicit output variable (eg, explores customer demographic data to identify patterns)"
   },
   {
+    "id": "866d15be2d95df346c5a79c565275567",
+    "filename": "Malware_Detection_1706860527.pdf",
+    "title": "Malware Detection Using MLP",
+    "authors": [],
+    "filepath": "documents/Malware_Detection_1706860527.pdf",
+    "upload_date": "2025-06-04T21:18:53.375030",
+    "file_size": 157483,
+    "summary": "This document discusses the detection of malware using Multi-Layer Perceptron (MLP) in Python, utilizing libraries such as NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn. The dataset used is a dynamic API call sequence per malware from Kaggle.",
+    "keywords": [
+      "Malware Detection",
+      "Machine Learning",
+      "Python",
+      "NumPy",
+      "Pandas"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "import numpy as np\nimport pandas as pd\nimport matplotlib .pyplot as plt\nimport seaborn as sns\nfrom sklearn .metrics import confusion_matrix,classification_report"
+  },
+  {
     "id": "887a5d8dd3391191ef8c1339455e18d5",
     "filename": "Mass_Adoption_Of_AI_1582463070.pdf",
     "title": "Transforming Paradigms: A Global AI in Financial Services Survey",
