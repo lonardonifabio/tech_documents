@@ -9876,6 +9876,25 @@
     "content_preview": "These tools will help you generate content ideas on LinkedIn, including Quora and AnswerThePublic."
   },
   {
+    "id": "2e1519dd2934db7b2b72d8c542292b5e",
+    "filename": "Texture_Features_Extraction_1705945233.pdf",
+    "title": "Texture Features Extraction",
+    "authors": [],
+    "filepath": "documents/Texture_Features_Extraction_1705945233.pdf",
+    "upload_date": "2025-06-04T21:18:55.370041",
+    "file_size": 236810,
+    "summary": "This document discusses the extraction of texture features from an image using HOG (Histogram of Oriented Gradients) descriptor in Python. The code provided reads an image, resizes it, normalizes the pixel values, applies data augmentation by flipping the image horizontally, scales the HOG features, and visualizes the HOG features.",
+    "keywords": [
+      "Texture Features",
+      "HOG Descriptor",
+      "Image Processing",
+      "Python"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "This document discusses the extraction of texture features from an image using HOG (Histogram of Oriented Gradients) descriptor in Python."
+  },
+  {
     "id": "54f97b8a44e1ca1835762fb8c1135502",
     "filename": "The_Art_of_Machine_Learning_1640883229.pdf",
     "title": "The Art of Machine Learning",
