@@ -7274,6 +7274,28 @@
     "content_preview": "Natural Language Processing (NLP) CheatSheet TextPreprocessing"
   },
   {
+    "id": "a714eed1344881e2bf16f46558131e5b",
+    "filename": "NMT_1710661662.pdf",
+    "title": "Neural Machine Translation (English-Portuguese)",
+    "authors": [
+      "Houssem Zelmat"
+    ],
+    "filepath": "documents/NMT_1710661662.pdf",
+    "upload_date": "2025-06-03T22:07:06.992548",
+    "file_size": 605302,
+    "summary": "This document describes the process of building an English-to-Portuguese Neural Machine Translation model using Long Short-Term Memory networks with attention. The approach includes data preparation, implementing an encoder-decoder system with attention, and generating translations using greedy and Minimum Bayes Risk decoding.",
+    "keywords": [
+      "Neural Machine Translation",
+      "Long Short-Term Memory",
+      "Attention Mechanism",
+      "Natural Language Processing",
+      "Recurrent Neural Network"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "We will build an English-to-Portuguese neural machine translation (NMT) model using Long Short-Term Memory networks with attention."
+  },
+  {
     "id": "4c37ef8cc78d04662a9dbbdf1832c3cf",
     "filename": "Natural_Language_Processing_NLP_with_Python_1610184574.pdf",
     "title": "Natural Language Processing with Python",
