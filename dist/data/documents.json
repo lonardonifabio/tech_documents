@@ -8847,6 +8847,24 @@
     "content_preview": "Comprehensive guide to understanding and implementing deep learning concepts."
   },
   {
+    "id": "f7c2bd204eb762d31b54c7de7a3f76a6",
+    "filename": "learneverythingai__1713162208.pdf",
+    "title": "Transfer Learning Techniques",
+    "authors": [],
+    "filepath": "documents/learneverythingai__1713162208.pdf",
+    "upload_date": "2025-06-03T22:07:09.244566",
+    "file_size": 609597,
+    "summary": "This document discusses transfer learning, a machine learning technique that leverages knowledge from one task to improve performance on another related task. It's particularly useful for tasks with limited data and involves fine-tuning pre-trained models. Applications include computer vision and natural language processing tasks.",
+    "keywords": [
+      "Transfer Learning",
+      "Machine Learning",
+      "Artificial Intelligence"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Transfer learning involves fine-tuning the weights of a pre-trained upstream model to adapt it to the downstream task."
+  },
+  {
     "id": "e07ff30f685ace9c20c23de8bc277b64",
     "filename": "linear_algebra_1622139154.pdf",
     "title": "linear algebra 1622139154",
