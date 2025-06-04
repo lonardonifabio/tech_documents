@@ -2175,6 +2175,25 @@
     "content_preview": "This is a single HTML element, but the HTML code behind a website has hundreds of them. The HTML code is structured with “nodes”. Each rectangle below represents a node (element, attribute and text nodes)"
   },
   {
+    "id": "b9b6c1dcdeb99d8788e7bba6925c288b",
+    "filename": "Churn_Prediction_1706860615.pdf",
+    "title": "Churn Prediction Using ANN",
+    "authors": [],
+    "filepath": "documents/Churn_Prediction_1706860615.pdf",
+    "upload_date": "2025-06-03T22:07:03.150517",
+    "file_size": 365147,
+    "summary": "This document discusses a churn prediction model using Artificial Neural Networks (ANN) on a dataset containing customer information. The data is preprocessed, split into training and testing sets, and an ANN model is trained to predict customer churn.",
+    "keywords": [
+      "Churn Prediction",
+      "Artificial Neural Networks",
+      "Data Preprocessing",
+      "Machine Learning"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "churn-prediction-using-ann, Data columns (total 14 columns):"
+  },
+  {
     "id": "23b7c67fd5882a543aeba913e2df0c72",
     "filename": "Cloud-Data-Science-for-Dummies.pdf",
     "title": "Cloud-Data-Science-for-Dummies",
