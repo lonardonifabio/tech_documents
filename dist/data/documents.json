@@ -12070,15 +12070,15 @@
     "title": "Getting Started with pandas",
     "authors": [],
     "filepath": "documents/pandas_1621791580.pdf",
-    "upload_date": "2025-06-02T20:26:04.421459",
+    "upload_date": "2025-06-04T21:18:56.180046",
     "file_size": 1965997,
-    "summary": "This document provides an in-depth guide on using the pandas library for data manipulation, analysis, and visualization. Topics covered include installation, basic operations like appending to DataFrames, boolean indexing, handling categorical data, and computational tools.",
+    "summary": "This document provides an in-depth guide on using the pandas library for data manipulation, analysis, and visualization. Topics covered include installation, basic usage, dataframe operations, boolean indexing, categorical data handling, and computational tools.",
     "keywords": [
       "pandas",
-      "DataFrame",
-      "Data Manipulation",
-      "Analysis",
-      "Visualization"
+      "data manipulation",
+      "data analysis",
+      "data visualization",
+      "python"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
