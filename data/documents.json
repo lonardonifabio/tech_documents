@@ -4189,6 +4189,25 @@
     "content_preview": "Learn about feature selection techniques for improving model performance and reducing overfitting in machine learning with Python."
   },
   {
+    "id": "a905c46fe9669e0ad7e7ae77bbe45338",
+    "filename": "Financial_AI_Agent_from_LlamaIndex_1725223753.pdf",
+    "title": "Financial AI Agent from LlamaIndex",
+    "authors": [],
+    "filepath": "documents/Financial_AI_Agent_from_LlamaIndex_1725223753.pdf",
+    "upload_date": "2025-06-05T14:25:27.589270",
+    "file_size": 69446,
+    "summary": "This document provides instructions on how to install and use a Financial AI Agent package from LlamaIndex, which includes various tools for financial analysis such as finding similar companies, getting earnings history, and more. The API keys for Polygon, Finnhub, Alpha Vantage, News, OpenAI are required.",
+    "keywords": [
+      "Financial AI",
+      "LlamaIndex",
+      "API Keys",
+      "Finance Agent ToolSpec"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Install Libs: !pip install llama -index -tools -finance -q"
+  },
+  {
     "id": "38a2d0b01faaf5bcef6d4ff774ccd2a4",
     "filename": "Flower_Classification_Analysis_1695102243.pdf",
     "title": "Flower Classification Analysis 1695102243",
