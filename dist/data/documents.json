@@ -9797,6 +9797,32 @@
     "content_preview": "A Leanpub book on R programming for data science, published in 2015 by Roger D. Peng."
   },
   {
+    "id": "630402a4919cb6bc79922113ed56916d",
+    "filename": "Rag_1748125553.pdf",
+    "title": "SubGCache: Accelerating Graph-based RAG with Subgraph-level KV Cache",
+    "authors": [
+      "Qiuyu Zhu",
+      "Liang Zhang",
+      "Qianxiong Xu",
+      "Cheng Long",
+      "Jie Zhang"
+    ],
+    "filepath": "documents/Rag_1748125553.pdf",
+    "upload_date": "2025-06-05T14:25:33.435243",
+    "file_size": 2418731,
+    "summary": "This document proposes SubGCache, a method to reduce inference latency for graph-based Retrieval-augmented Generation (RAG) by reusing computation across queries with similar structural prompts. The approach clusters queries based on subgraph embeddings and pre-computes key-value caches for each cluster, achieving up to 6.68x reduction in time-t...",
+    "keywords": [
+      "Graph-based RAG",
+      "SubGCache",
+      "Inference Latency",
+      "Retrieval-augmented Generation",
+      "Key-Value Cache"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "arXiv:2505.10951v1  [cs.LG]  16 May 2025SubGCache: Accelerating Graph-based RAG with Subgraph-level KV Cache"
+  },
+  {
     "id": "18bbcbfda4368a4dad98ee3fdf6c8633",
     "filename": "Reading_and_Writing_Data_with_Pandas_1634107076.pdf",
     "title": "Reading and Writing Data with Pandas",
