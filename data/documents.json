@@ -2415,6 +2415,26 @@
     "content_preview": "Brain Tumor Classification using DenseNet with Attention Mechanism and visual-explanations-"
   },
   {
+    "id": "4f706ca2143e3e8b81f152a44fb0ab03",
+    "filename": "BT_1748176476.pdf",
+    "title": "Brain Tumor Segmentation BraTS 2020 Dataset",
+    "authors": [],
+    "filepath": "documents/BT_1748176476.pdf",
+    "upload_date": "2025-06-05T20:14:17.539637",
+    "file_size": 1680650,
+    "summary": "This document discusses the segmentation of gliomas in pre-operative MRI scans using the BraTS 2020 dataset. The goal is to label each pixel on the image as either part of a tumor area or not. The sub-regions of the tumor considered for evaluation are: enhancing tumor, tumor core, and whole tumor.",
+    "keywords": [
+      "Brain Tumor",
+      "Segmentation",
+      "BraTS 2020 Dataset",
+      "MRI Scans",
+      "Pixel Labeling"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Brain Tumor Segmentation BraTS 2020 Dataset   Problem definiton"
+  },
+  {
     "id": "4e5b411403f63051e9c7d78b69622dfd",
     "filename": "Basic_Data_Science_Termonology_1655018780.pdf",
     "title": "Basic Data Science Termonology 1655018780",
