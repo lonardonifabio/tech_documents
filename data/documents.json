@@ -12798,6 +12798,27 @@
     "content_preview": "SQL API using Python We will use Flask for this API"
   },
   {
+    "id": "1ac42963fa057cddc7dd2448846802ed",
+    "filename": "SQL_CheatSheet.pdf",
+    "title": "SQL Cheat Sheet",
+    "authors": [
+      "Steve Stedman"
+    ],
+    "filepath": "documents/SQL_CheatSheet.pdf",
+    "upload_date": "2025-06-05T20:14:26.762816",
+    "file_size": 489885,
+    "summary": "This document provides a cheat sheet for various SQL join types, including LEFT OUTER JOIN, INNER JOIN, FULL OUTER JOIN, SEMI JOIN, ANTI SEMI JOIN, RIGHT OUTER JOIN, and NON-EQUI INNER JOIN.",
+    "keywords": [
+      "SQL",
+      "Join Types",
+      "Database",
+      "Cheat Sheet"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "SELECT * FROM Table1 t1 LEFT OUTER JOIN Table2 t2 ON t1.fk = t2.id;"
+  },
+  {
     "id": "771db36b568a863df817eb65b1e95d54",
     "filename": "SQL_Guide__1641285345.pdf",
     "title": "SQL Guide",
