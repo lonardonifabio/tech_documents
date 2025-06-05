@@ -15964,6 +15964,29 @@
     "content_preview": "import numpy as np\nimport pandas as pd\nimport os\nbase_path = '/kaggle/input/medical -imaging-fetal-colorized -new-dataset-"
   },
   {
+    "id": "c6f7b1efa627cfab5fd2c12177bb435d",
+    "filename": "unsupervised learning cheat sheet.pdf",
+    "title": "unsupervised learning cheat sheet.pdf",
+    "authors": [
+      "Afshine Amidi",
+      "Shervine Amidi"
+    ],
+    "filepath": "documents/unsupervised learning cheat sheet.pdf",
+    "upload_date": "2025-06-05T20:14:30.019867",
+    "file_size": 456557,
+    "summary": "This document is a cheatsheet for unsupervised learning, covering topics such as Jensen's inequality, Expectation-Maximization algorithm, latent variables, and k-means clustering. It was created by Afshine Amidi and Shervine Amidi on September 9, 2018.",
+    "keywords": [
+      "Unsupervised Learning",
+      "Cheatsheet",
+      "Expectation-Maximization",
+      "Latent Variables",
+      "k-means Clustering"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "CS 229 – Machine Learning https://stanford.edu/~shervine VIP Cheatsheet: Unsupervised Learning"
+  },
+  {
     "id": "49d9e63c54837103385bfd5ba7395dbd",
     "filename": "what_is_ANN__1616397428.pdf",
     "title": "what is ANN  1616397428",
