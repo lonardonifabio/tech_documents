@@ -13686,6 +13686,26 @@
     "content_preview": "An Artificial Neural Network (ANN) is an inform information processing paradigm..."
   },
   {
+    "id": "660b965d7ad8929f2501be56f10827b2",
+    "filename": "kidney_1741265371.pdf",
+    "title": "CT KIDNEY DATASET: Normal -Cyst -Tumor and Stone Prediction using Vision Transformer and Swin Transformer",
+    "authors": [],
+    "filepath": "documents/kidney_1741265371.pdf",
+    "upload_date": "2025-06-05T14:25:36.446230",
+    "file_size": 895790,
+    "summary": "This document provides a Python script for loading and preprocessing a kidney dataset, which includes images labeled as 'Normal', 'Cyst', 'Stone', and 'Tumor'. The goal is to predict these categories using Vision Transformer and Swin Transformer.",
+    "keywords": [
+      "Python",
+      "Kidney Dataset",
+      "Image Classification",
+      "Vision Transformer",
+      "Swin Transformer"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "import numpy as np\nimport pandas as pd\nimport os\nbase_path = '/kaggle/input/ct -kidney-dataset-normal-cyst-tumor-and-stone/"
+  },
+  {
     "id": "af6a11fc2674db0518666262f99b76a3",
     "filename": "learneverythingai__1699782194.pdf",
     "title": "Machine Learning with Python",
