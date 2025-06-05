@@ -12472,6 +12472,26 @@
     "content_preview": "A Complete and Phased Guide to Learning Machine Learning"
   },
   {
+    "id": "e4c2c678c2d052136eb3b85dc3469ca7",
+    "filename": "breast_cancer_1738538343.pdf",
+    "title": "Breast Cancer Segmentation using HCMA - Unet Novel Architecture",
+    "authors": [],
+    "filepath": "documents/breast_cancer_1738538343.pdf",
+    "upload_date": "2025-06-05T14:25:36.097231",
+    "file_size": 983338,
+    "summary": "This document provides a Python script for loading and organizing breast ultrasound images and their corresponding masks from a dataset, with the aim of using them for Breast Cancer Segmentation using a novel Unet architecture.",
+    "keywords": [
+      "Breast Cancer",
+      "Segmentation",
+      "Unet Architecture",
+      "Python",
+      "Pandas"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "import numpy as np\nimport pandas as pd\nbase_path = \"/kaggle/input/breast -ultrasound -images-"
+  },
+  {
     "id": "00c466ad4a315f48835c6a615016cd97",
     "filename": "choosing-a-good-chart-09.pdf",
     "title": "Choosing a Good Chart",
