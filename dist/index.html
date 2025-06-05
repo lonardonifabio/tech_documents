@@ -28,6 +28,32 @@
             justify-content: center;
             color: white;
             font-size: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .document-preview::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .document-preview::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            height: 2px;
+            background: rgba(255, 255, 255, 0.3);
+            box-shadow: 
+                0 8px 0 rgba(255, 255, 255, 0.2),
+                0 16px 0 rgba(255, 255, 255, 0.2),
+                0 24px 0 rgba(255, 255, 255, 0.2);
         }
         .document-card {
             height: 100%;
@@ -42,6 +68,83 @@
         .document-footer {
             margin-top: auto;
         }
+        .pdf-preview-frame {
+            width: 100%;
+            height: 100%;
+            border: none;
+            background: #f8f9fa;
+        }
+        
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            padding: 20px;
+        }
+        
+        .modal-content {
+            background: white;
+            border-radius: 8px;
+            width: 90vw;
+            height: 90vh;
+            max-width: 1200px;
+            max-height: 800px;
+            position: relative;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        
+        .modal-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid #e5e7eb;
+            display: flex;
+            justify-content: between;
+            align-items: center;
+            background: #f9fafb;
+            border-radius: 8px 8px 0 0;
+        }
+        
+        .modal-body {
+            height: calc(100% - 60px);
+            padding: 0;
+        }
+        
+        .modal-iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 0 0 8px 8px;
+        }
+        
+        .close-button {
+            position: absolute;
+            top: 12px;
+            right: 16px;
+            background: #ef4444;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            z-index: 10;
+            transition: background-color 0.2s;
+        }
+        
+        .close-button:hover {
+            background: #dc2626;
+        }
     </style>
 </head>
 <body>
@@ -50,10 +153,99 @@
     <script type="text/babel">
         const { useState, useEffect } = React;
 
+        // PDF Modal Component
+        const PDFModal = ({ doc, isOpen, onClose }) => {
+            const [previewError, setPreviewError] = useState(false);
+            const [currentMethod, setCurrentMethod] = useState(0);
+            
+            const getPDFPreviewUrl = (doc) => {
+                // Use raw.githubusercontent.com for better CORS compatibility
+                const rawGithubUrl = `https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${doc.filepath}`;
+                return `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(rawGithubUrl)}`;
+            };
+            
+            const handleOverlayClick = (e) => {
+                if (e.target === e.currentTarget) {
+                    onClose();
+                }
+            };
+            
+            const handleKeyDown = (e) => {
+                if (e.key === 'Escape') {
+                    onClose();
+                }
+            };
+            
+            useEffect(() => {
+                if (isOpen) {
+                    document.addEventListener('keydown', handleKeyDown);
+                    document.body.style.overflow = 'hidden';
+                    
+                    return () => {
+                        document.removeEventListener('keydown', handleKeyDown);
+                        document.body.style.overflow = 'unset';
+                    };
+                }
+            }, [isOpen]);
+            
+            if (!isOpen) return null;
+            
+            return (
+                <div className="modal-overlay" onClick={handleOverlayClick}>
+                    <div className="modal-content">
+                        <button
+                            onClick={onClose}
+                            className="close-button"
+                            title="Close preview (ESC)"
+                        >
+                            ×
+                        </button>
+                        
+                        <div className="modal-header">
+                            <h3 className="text-lg font-semibold text-gray-800 truncate pr-12">
+                                {doc.title || doc.filename}
+                            </h3>
+                        </div>
+                        
+                        <div className="modal-body">
+                            {previewError ? (
+                                <div className="flex items-center justify-center h-full bg-gray-50">
+                                    <div className="text-center">
+                                        <div className="text-6xl mb-4">⚠️</div>
+                                        <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                                            Unable to load PDF
+                                        </h3>
+                                        <p className="text-gray-500 mb-4">
+                                            The PDF could not be displayed in the viewer.
+                                        </p>
+                                        <a
+                                            href={`https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${doc.filepath}`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200"
+                                        >
+                                            Download PDF
+                                        </a>
+                                    </div>
+                                </div>
+                            ) : (
+                                <iframe
+                                    src={getPDFPreviewUrl(doc)}
+                                    className="modal-iframe"
+                                    onError={() => setPreviewError(true)}
+                                    title={`Preview of ${doc.title || doc.filename}`}
+                                />
+                            )}
+                        </div>
+                    </div>
+                </div>
+            );
+        };
+
         // Single document component with improved layout
         const DocumentCard = ({ doc }) => {
             const [showFullSummary, setShowFullSummary] = useState(false);
-            const [imageError, setImageError] = useState(false);
+            const [showPDFModal, setShowPDFModal] = useState(false);
             
             // Generate icon based on file type
             const getFileIcon = (filename) => {
@@ -70,6 +262,49 @@
                 }
             };
 
+            // Generate GitHub-compatible PDF preview URL
+            const getPDFPreviewUrl = (doc) => {
+                const githubRawUrl = `https://github.com/lonardonifabio/tech_documents/raw/main/${doc.filepath}`;
+                // Use PDF.js viewer for GitHub compatibility
+                return `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(githubRawUrl)}`;
+            };
+
+            // Generate document preview with category-based styling
+            const getDocumentPreview = (doc) => {
+                const categoryStyles = {
+                    'AI': {
+                        gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                        icon: '🤖'
+                    },
+                    'Machine Learning': {
+                        gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+                        icon: '🧠'
+                    },
+                    'Data Science': {
+                        gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
+                        icon: '📊'
+                    },
+                    'Business': {
+                        gradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
+                        icon: '💼'
+                    },
+                    'Technology': {
+                        gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
+                        icon: '⚙️'
+                    },
+                    'Research': {
+                        gradient: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)',
+                        icon: '🔬'
+                    }
+                };
+
+                const style = categoryStyles[doc.category] || categoryStyles['Technology'];
+                return {
+                    background: style.gradient,
+                    icon: style.icon
+                };
+            };
+
             // Truncate text if too long
             const truncateText = (text, maxLength = 40) => {
                 if (text.length <= maxLength) return text;
@@ -77,7 +312,7 @@
             };
 
             // Truncate summary if too long
-            const truncateSummary = (text, maxLength = 150) => {
+            const truncateSummary = (text, maxLength = 400) => {
                 if (text.length <= maxLength) return text;
                 return text.substring(0, maxLength) + '...';
             };
@@ -96,101 +331,123 @@
 
             const displaySummary = showFullSummary ? doc.summary : truncateSummary(doc.summary);
             const displayTitle = doc.title || doc.filename;
+            const previewStyle = getDocumentPreview(doc);
 
             return (
-                <div className="border rounded-lg hover:shadow-xl transition-all duration-300 bg-white document-card overflow-hidden">
-                    {/* Document preview */}
-                    <div className="h-32 w-full document-preview relative overflow-hidden">
-                        {!imageError ? (
-                            <img 
-                                src={`https://via.placeholder.com/300x128/667eea/ffffff?text=${getFileIcon(doc.filename)}`}
-                                alt={`Preview of ${displayTitle}`}
-                                className="w-full h-full object-cover"
-                                onError={() => setImageError(true)}
-                            />
-                        ) : (
-                            <div className="w-full h-full flex items-center justify-center text-4xl">
-                                {getFileIcon(doc.filename)}
+                <>
+                    <div className="border rounded-lg hover:shadow-xl transition-all duration-300 bg-white document-card overflow-hidden">
+                        {/* Document preview */}
+                        <div className="h-32 w-full relative overflow-hidden">
+                            <div 
+                                className="document-preview cursor-pointer"
+                                style={{ background: previewStyle.background }}
+                                onClick={() => setShowPDFModal(true)}
+                                title="Click to preview PDF"
+                            >
+                                <div className="relative z-10 text-center">
+                                    <div className="text-3xl mb-1">{previewStyle.icon}</div>
+                                    <div className="text-xs font-medium opacity-90">
+                                        {truncateText(displayTitle, 20)}
+                                    </div>
+                                    <div className="text-xs opacity-70 mt-1">
+                                        Click to preview
+                                    </div>
+                                </div>
                             </div>
-                        )}
-                        
-                        {/* Category badge overlay */}
-                        <div className="absolute top-2 right-2">
-                            <span className="bg-white bg-opacity-90 text-gray-800 px-2 py-1 rounded text-xs font-medium">
-                                {doc.category}
-                            </span>
+                            
+                            {/* Category badge overlay */}
+                            <div className="absolute top-2 right-2 z-20">
+                                <span className="bg-white bg-opacity-90 text-gray-800 px-2 py-1 rounded text-xs font-medium">
+                                    {doc.category}
+                                </span>
+                            </div>
                         </div>
-                    </div>
 
-                    {/* Document content */}
-                    <div className="p-4 document-content">
-                        {/* Title with overflow handling */}
-                        <h3 className="font-semibold text-base mb-2 text-gray-800 line-clamp-2 leading-tight" title={displayTitle}>
-                            {truncateText(displayTitle, 60)}
-                        </h3>
+                        {/* Document content */}
+                        <div className="p-4 document-content">
+                            {/* Title with overflow handling */}
+                            <h3 className="font-semibold text-base mb-2 text-gray-800 line-clamp-2 leading-tight" title={displayTitle}>
+                                {truncateText(displayTitle, 60)}
+                            </h3>
 
-                        {/* Authors */}
-                        {doc.authors && doc.authors.length > 0 && (
-                            <div className="mb-2">
-                                <p className="text-sm text-gray-500">
-                                    <span className="font-medium">Authors:</span> {doc.authors.join(', ')}
-                                </p>
-                            </div>
-                        )}
-
-                        {/* Summary with expand/collapse option */}
-                        <div className="mb-4">
-                            <p className="text-gray-600 text-sm leading-relaxed">
-                                {displaySummary}
-                            </p>
-                            {doc.summary.length > 150 && (
-                                <button 
-                                    onClick={() => setShowFullSummary(!showFullSummary)}
-                                    className="text-blue-600 text-xs mt-1 hover:underline focus:outline-none"
-                                >
-                                    {showFullSummary ? 'Show less' : 'Show more'}
-                                </button>
+                            {/* Authors */}
+                            {doc.authors && doc.authors.length > 0 && (
+                                <div className="mb-2">
+                                    <p className="text-sm text-gray-500">
+                                        <span className="font-medium">Authors:</span> {doc.authors.join(', ')}
+                                    </p>
+                                </div>
                             )}
-                        </div>
 
-                        {/* Keywords - Show ALL keywords */}
-                        <div className="flex flex-wrap gap-1 mb-4">
-                            {doc.keywords.map(keyword => (
-                                <span key={keyword} className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
-                                    {keyword}
-                                </span>
-                            ))}
-                        </div>
-
-                        {/* Footer with info and actions */}
-                        <div className="document-footer space-y-3">
-                            {/* Difficulty and date */}
-                            <div className="flex justify-between items-center text-sm">
-                                <span className="bg-orange-100 text-orange-800 px-2 py-1 rounded-full text-xs font-medium">
-                                    {doc.difficulty}
-                                </span>
-                                <span className="text-xs text-gray-500">
-                                    {formatDate(doc.upload_date)}
-                                </span>
+                            {/* Summary with expand/collapse option */}
+                            <div className="mb-4">
+                                <p className="text-gray-600 text-sm leading-relaxed">
+                                    {displaySummary}
+                                </p>
+                                {doc.summary.length > 400 && (
+                                    <button 
+                                        onClick={() => setShowFullSummary(!showFullSummary)}
+                                        className="text-blue-600 text-xs mt-1 hover:underline focus:outline-none"
+                                    >
+                                        {showFullSummary ? 'Show less' : 'Show more'}
+                                    </button>
+                                )}
                             </div>
 
-                            {/* File size and link */}
-                            <div className="flex justify-between items-center">
-                                <span className="text-xs text-gray-500">
-                                    {formatFileSize(doc.file_size)}
-                                </span>
-                                <a
-                                    href={`https://github.com/lonardonifabio/tech_documents/blob/main/${doc.filepath}`}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors duration-200"
-                                >
-                                    View →
-                                </a>
+                            {/* Keywords - Show ALL keywords */}
+                            <div className="flex flex-wrap gap-1 mb-4">
+                                {doc.keywords.map(keyword => (
+                                    <span key={keyword} className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium">
+                                        {keyword}
+                                    </span>
+                                ))}
+                            </div>
+
+                            {/* Footer with info and actions */}
+                            <div className="document-footer space-y-3">
+                                {/* Difficulty and date */}
+                                <div className="flex justify-between items-center text-sm">
+                                    <span className="bg-orange-100 text-orange-800 px-2 py-1 rounded-full text-xs font-medium">
+                                        {doc.difficulty}
+                                    </span>
+                                    <span className="text-xs text-gray-500">
+                                        {formatDate(doc.upload_date)}
+                                    </span>
+                                </div>
+
+                                {/* File size and actions */}
+                                <div className="flex justify-between items-center">
+                                    <span className="text-xs text-gray-500">
+                                        {formatFileSize(doc.file_size)}
+                                    </span>
+                                    <div className="flex gap-2">
+                                        <button
+                                            onClick={() => setShowPDFModal(true)}
+                                            className="bg-green-600 text-white px-3 py-1 rounded-full text-xs font-medium hover:bg-green-700 transition-colors duration-200"
+                                        >
+                                            Preview
+                                        </button>
+                                        <a
+                                            href={`https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${doc.filepath}`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-medium hover:bg-blue-700 transition-colors duration-200"
+                                        >
+                                            Download
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    
+                    {/* PDF Modal */}
+                    <PDFModal 
+                        doc={doc} 
+                        isOpen={showPDFModal} 
+                        onClose={() => setShowPDFModal(false)} 
+                    />
+                </>
             );
         };
 
@@ -200,41 +457,67 @@
             selectedCategory, setSelectedCategory,
             selectedDifficulty, setSelectedDifficulty,
             categories, difficulties
-        }) => (
-            <div className="mb-8 space-y-4 bg-white p-6 rounded-lg shadow-sm border">
-                <input
-                    type="text"
-                    placeholder="🔍 Search documents, keywords, topics..."
-                    className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                />
+        }) => {
+            const [showSearchHelp, setShowSearchHelp] = useState(false);
 
-                <div className="flex flex-wrap gap-4">
-                    <select
-                        className="p-2 border rounded-lg focus:ring-2 focus:ring-blue-500 bg-white"
-                        value={selectedCategory}
-                        onChange={(e) => setSelectedCategory(e.target.value)}
-                    >
-                        <option value="">📂 All categories</option>
-                        {categories.map(cat => (
-                            <option key={cat} value={cat}>{cat}</option>
-                        ))}
-                    </select>
+            return (
+                <div className="mb-8 space-y-4 bg-white p-6 rounded-lg shadow-sm border">
+                    <div className="relative">
+                        <input
+                            type="text"
+                            placeholder="🔍 Search with boolean operators: machine learning AND python OR 'data science' NOT statistics"
+                            className="w-full p-3 pr-12 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)}
+                        />
+                        <button
+                            onClick={() => setShowSearchHelp(!showSearchHelp)}
+                            className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-blue-500 transition-colors"
+                            title="Search help"
+                        >
+                            ❓
+                        </button>
+                    </div>
 
-                    <select
-                        className="p-2 border rounded-lg focus:ring-2 focus:ring-blue-500 bg-white"
-                        value={selectedDifficulty}
-                        onChange={(e) => setSelectedDifficulty(e.target.value)}
-                    >
-                        <option value="">🎯 All levels</option>
-                        {difficulties.map(diff => (
-                            <option key={diff} value={diff}>{diff}</option>
-                        ))}
-                    </select>
+                    {showSearchHelp && (
+                        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 text-sm">
+                            <h4 className="font-semibold text-blue-800 mb-2">🔍 Advanced Search Guide</h4>
+                            <div className="space-y-2 text-blue-700">
+                                <div><strong>AND:</strong> <span className="bg-gray-200 px-1 rounded">machine learning AND python</span> - Both terms must be present</div>
+                                <div><strong>OR:</strong> <span className="bg-gray-200 px-1 rounded">python OR javascript</span> - Either term can be present</div>
+                                <div><strong>NOT:</strong> <span className="bg-gray-200 px-1 rounded">data science NOT statistics</span> - Exclude documents with "statistics"</div>
+                                <div><strong>Quotes:</strong> <span className="bg-gray-200 px-1 rounded">"machine learning"</span> - Exact phrase search</div>
+                                <div><strong>Combine:</strong> <span className="bg-gray-200 px-1 rounded">python AND "data science" OR visualization NOT excel</span></div>
+                            </div>
+                        </div>
+                    )}
+
+                    <div className="flex flex-wrap gap-4">
+                        <select
+                            className="p-2 border rounded-lg focus:ring-2 focus:ring-blue-500 bg-white"
+                            value={selectedCategory}
+                            onChange={(e) => setSelectedCategory(e.target.value)}
+                        >
+                            <option value="">📂 All categories</option>
+                            {categories.map(cat => (
+                                <option key={cat} value={cat}>{cat}</option>
+                            ))}
+                        </select>
+
+                        <select
+                            className="p-2 border rounded-lg focus:ring-2 focus:ring-blue-500 bg-white"
+                            value={selectedDifficulty}
+                            onChange={(e) => setSelectedDifficulty(e.target.value)}
+                        >
+                            <option value="">🎯 All levels</option>
+                            {difficulties.map(diff => (
+                                <option key={diff} value={diff}>{diff}</option>
+                            ))}
+                        </select>
+                    </div>
                 </div>
-            </div>
-        );
+            );
+        };
 
         // Main component
         const DocumentLibrary = () => {
@@ -280,28 +563,109 @@
                 tryFetch(possiblePaths);
             }, []);
 
+            // Enhanced Boolean Search Function
+            const performBooleanSearch = (documents, searchTerm) => {
+                if (!searchTerm.trim()) return documents;
+
+                // Parse search term for boolean operators
+                const parseSearchTerm = (term) => {
+                    // Split by AND, OR, NOT (case insensitive)
+                    const tokens = term.split(/\s+(AND|OR|NOT)\s+/i);
+                    const parsed = [];
+                    
+                    for (let i = 0; i < tokens.length; i++) {
+                        const token = tokens[i].trim();
+                        if (token && !['AND', 'OR', 'NOT'].includes(token.toUpperCase())) {
+                            // Handle quoted phrases
+                            const isQuoted = token.startsWith('"') && token.endsWith('"');
+                            const cleanToken = isQuoted ? token.slice(1, -1) : token;
+                            
+                            parsed.push({
+                                term: cleanToken.toLowerCase(),
+                                operator: i > 0 ? tokens[i-1].toUpperCase() : 'AND',
+                                isQuoted: isQuoted,
+                                isNegated: i > 0 && tokens[i-1].toUpperCase() === 'NOT'
+                            });
+                        }
+                    }
+                    
+                    return parsed.length > 0 ? parsed : [{ term: term.toLowerCase(), operator: 'AND', isQuoted: false, isNegated: false }];
+                };
+
+                // Check if document matches a search term
+                const documentMatches = (doc, searchToken) => {
+                    const { term, isQuoted } = searchToken;
+                    
+                    const searchFields = [
+                        doc.filename || '',
+                        doc.title || '',
+                        doc.summary || '',
+                        (doc.authors || []).join(' '),
+                        (doc.keywords || []).join(' ')
+                    ].map(field => field.toLowerCase());
+
+                    if (isQuoted) {
+                        // Exact phrase search
+                        return searchFields.some(field => field.includes(term));
+                    } else {
+                        // Individual word search
+                        const words = term.split(/\s+/);
+                        return words.every(word => 
+                            searchFields.some(field => field.includes(word))
+                        );
+                    }
+                };
+
+                // Apply boolean logic
+                const searchTokens = parseSearchTerm(searchTerm);
+                
+                return documents.filter(doc => {
+                    let result = true;
+                    let hasPositiveMatch = false;
+
+                    for (const token of searchTokens) {
+                        const matches = documentMatches(doc, token);
+                        
+                        if (token.isNegated) {
+                            if (matches) {
+                                result = false;
+                                break;
+                            }
+                        } else {
+                            hasPositiveMatch = hasPositiveMatch || matches;
+                            
+                            if (token.operator === 'AND') {
+                                result = result && matches;
+                            } else if (token.operator === 'OR') {
+                                result = result || matches;
+                            }
+                        }
+                    }
+
+                    // If we only have negative terms, we need at least one positive match
+                    const hasOnlyNegativeTerms = searchTokens.every(token => token.isNegated);
+                    if (hasOnlyNegativeTerms) {
+                        return result;
+                    }
+
+                    return result && hasPositiveMatch;
+                });
+            };
+
             useEffect(() => {
                 let filtered = documents;
 
+                // Apply boolean search
                 if (searchTerm) {
-                    const term = searchTerm.toLowerCase();
-                    filtered = filtered.filter(doc =>
-                        (doc.filename && doc.filename.toLowerCase().includes(term)) ||
-                        (doc.title && doc.title.toLowerCase().includes(term)) ||
-                        (doc.summary && doc.summary.toLowerCase().includes(term)) ||
-                        (doc.authors && doc.authors.some(author => 
-                            author.toLowerCase().includes(term)
-                        )) ||
-                        (doc.keywords && doc.keywords.some(keyword =>
-                            keyword.toLowerCase().includes(term)
-                        ))
-                    );
+                    filtered = performBooleanSearch(filtered, searchTerm);
                 }
 
+                // Apply category filter
                 if (selectedCategory) {
                     filtered = filtered.filter(doc => doc.category === selectedCategory);
                 }
 
+                // Apply difficulty filter
                 if (selectedDifficulty) {
                     filtered = filtered.filter(doc => doc.difficulty === selectedDifficulty);
                 }
@@ -354,7 +718,7 @@
                                 Automated collection of Artificial Intelligence and Data Science documents
                             </p>
                             <p className="text-sm text-gray-500">
-                                {documents.length} documents • Automatically updated
+                                {documents.length} documents • Click any document to preview
                             </p>
                         </header>
 
