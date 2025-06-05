@@ -12473,6 +12473,26 @@
     "content_preview": "The Ultimate Guide to Managing Ethical and Security Risks in AI 2Introduction"
   },
   {
+    "id": "fde802f513f26b009fcae8227cbced5c",
+    "filename": "umrict_1742720676.pdf",
+    "title": "Medical Image Classification Using Multi -Head Attention and LSTM",
+    "authors": [],
+    "filepath": "documents/umrict_1742720676.pdf",
+    "upload_date": "2025-06-05T14:25:36.752228",
+    "file_size": 1378912,
+    "summary": "This document discusses a project on medical image classification using multi-head attention and LSTM. It involves loading data from Kaggle, preprocessing the images, and categorizing them based on various techniques such as 3D Rendering, Edge Detection, and Heatmap Visualization.",
+    "keywords": [
+      "Medical Image Classification",
+      "Multi-Head Attention",
+      "LSTM",
+      "Data Preprocessing",
+      "Kaggle"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "import numpy as np\nimport pandas as pd\nimport os\nbase_path = '/kaggle/input/medical -imaging-fetal-colorized -new-dataset-"
+  },
+  {
     "id": "49d9e63c54837103385bfd5ba7395dbd",
     "filename": "what_is_ANN__1616397428.pdf",
     "title": "what is ANN  1616397428",
