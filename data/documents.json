@@ -2495,6 +2495,26 @@
     "content_preview": "The volume of data..."
   },
   {
+    "id": "dabe6dd739ac8416d016059148014d50",
+    "filename": "BT_1741096106.pdf",
+    "title": "Early Detection and Prediction of Brain Stroke Severity using Unet with Multihead Attention Mechanism",
+    "authors": [],
+    "filepath": "documents/BT_1741096106.pdf",
+    "upload_date": "2025-06-05T20:14:17.516636",
+    "file_size": 710034,
+    "summary": "This document discusses a study that uses the U-Net model with a multihead attention mechanism for early detection and prediction of brain stroke severity. It involves data preprocessing, visualization, and implementation of the U-Net model on a dataset. The code provided is in Python using libraries such as TensorFlow, NumPy, Pandas, Matplotlib...",
+    "keywords": [
+      "Brain Stroke",
+      "U-Net",
+      "Multihead Attention Mechanism",
+      "TensorFlow",
+      "Data Preprocessing"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "import numpy as np   import pandas as pd   import os  import matplotlib.pyplot as plt   from PIL import Image   from sklearn.model..."
+  },
+  {
     "id": "7fddaea68fb115da7b546a0a5a6d7bea",
     "filename": "BT_1745563456.pdf",
     "title": "Brain Tumor Classification using DenseNet with Attention Mechanism",
