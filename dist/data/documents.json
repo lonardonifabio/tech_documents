@@ -7223,6 +7223,26 @@
     "content_preview": "This document provides a checklist for implementing secure and responsible practices in the use of Large Language Models (LLMs). It includes threat categories, AI security and privacy training, incorporating LLM security with existing practices,"
   },
   {
+    "id": "bf5cac97c8890480117db35ec7f46e04",
+    "filename": "LLM_Exploit_Generation_1743591605.pdf",
+    "title": "LLM Exploit Generation: An Analysis of GPT-4o on Cybench Included Tasks",
+    "authors": [],
+    "filepath": "documents/LLM_Exploit_Generation_1743591605.pdf",
+    "upload_date": "2025-06-05T20:14:22.435724",
+    "file_size": 814524,
+    "summary": "This document discusses the experimental design, results, and key observations of using GPT-4o on Cybench for various tasks in LLM exploit generation. It also covers infrastructure setup, new tasks, installation loops, fallback behavior, economics, implications, domain knowledge requirements, tool-specific performance variations, operational cha...",
+    "keywords": [
+      "LLM",
+      "exploit generation",
+      "GPT-4o",
+      "Cybench",
+      "tasks"
+    ],
+    "category": "AI",
+    "difficulty": "Advanced",
+    "content_preview": "This document discusses the experimental design, results, and key observations of using GPT-4o on Cybench for various tasks in LLM exploit generation."
+  },
+  {
     "id": "853c02b0ed100522a8c1b18e30302b27",
     "filename": "LLM_Interview_Q_A_1746864405.pdf",
     "title": "Tokenization and LoRa in LLM",
