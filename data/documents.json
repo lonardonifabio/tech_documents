@@ -5346,15 +5346,15 @@
     "title": "Jupyter Notebook Cheat Sheet",
     "authors": [],
     "filepath": "documents/Jupyter_Notebook_quick_tips_1646660015.pdf",
-    "upload_date": "2025-06-02T20:26:03.038457",
+    "upload_date": "2025-06-04T21:18:52.395023",
     "file_size": 346277,
-    "summary": "A comprehensive guide to magic functions in Jupyter Notebook, including %magic, %automaagic, %quickref, %pastebin, %debug, %hist, %pdb, %cpaste, %reset, %run, %who, %who_ls, %whos, %xdel, and %time. Also includes keyboard shortcuts for Jupyter Notebook.",
+    "summary": "This document provides a quick reference guide for various magic functions and keyboard shortcuts in Jupyter Notebook, an open-source web application used for data cleaning, transformation, visualization, machine learning, and more.",
     "keywords": [
       "Jupyter Notebook",
-      "Magic Functions",
       "Python",
       "Data Science",
-      "Cheat Sheet"
+      "Magic Functions",
+      "Keyboard Shortcuts"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
