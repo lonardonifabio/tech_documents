@@ -2701,6 +2701,26 @@
     "content_preview": "This document provides a comprehensive cheatsheet for C programming format specifiers, arithmetic operators, and character escapes."
   },
   {
+    "id": "3f4a5e2178d2745340e423919e4b8da5",
+    "filename": "Card_Classification_with_Keras_Transfer_Learning_1741676361.pdf",
+    "title": "Card Classification with Keras Transfer Learning",
+    "authors": [],
+    "filepath": "documents/Card_Classification_with_Keras_Transfer_Learning_1741676361.pdf",
+    "upload_date": "2025-06-05T14:25:24.722284",
+    "file_size": 1378613,
+    "summary": "This document provides a tutorial on using transfer learning to classify card images using Keras in Python. It includes data preprocessing, model building, and evaluation metrics.",
+    "keywords": [
+      "Keras",
+      "Transfer Learning",
+      "Image Classification",
+      "Python",
+      "TensorFlow"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "import tensorflow as tf\nfrom tensorflow import keras"
+  },
+  {
     "id": "1bcfd3af3edb6f0f49bcd7045018975a",
     "filename": "Change_Management_for_Leaders_and_Managers_1642568662.pdf",
     "title": "Change Management for Leaders and Managers",
