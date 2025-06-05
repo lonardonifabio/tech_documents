@@ -2239,6 +2239,26 @@
     "content_preview": "An Awesome Tutorial to Learn Outlier Detection in Python using the PyOD Library"
   },
   {
+    "id": "ce5c655a7196c95136b1ce511bb668aa",
+    "filename": "BC_1746561151.pdf",
+    "title": "Breast Cancer Detection using Thermography",
+    "authors": [],
+    "filepath": "documents/BC_1746561151.pdf",
+    "upload_date": "2025-06-05T20:14:17.509636",
+    "file_size": 754591,
+    "summary": "This document provides a Python script for loading and preparing a dataset for breast cancer detection using thermography. The script reads images from three categories (Sick, Unknown_class, normal) and stores them in a pandas DataFrame.",
+    "keywords": [
+      "Breast Cancer",
+      "Thermography",
+      "Python",
+      "Pandas",
+      "Data Preparation"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "import numpy as np   import pandas as pd   import os  base_path = \\"
+  },
+  {
     "id": "43efecd29c88fa14f1376a8f322029ed",
     "filename": "BIG_DATA_ANALYTICS_1567266033.pdf",
     "title": "Big Data Analytics",
