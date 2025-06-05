@@ -10389,6 +10389,26 @@
     "content_preview": "Simplifying Machine Learning with PyCaret, a Low-code Approach for Beginners and Experts!"
   },
   {
+    "id": "4d381c377db6691eb7c8cefeced17083",
+    "filename": "Python Bokeh Cheat Sheet.pdf",
+    "title": "Python Bokeh Cheat Sheet",
+    "authors": [],
+    "filepath": "documents/Python Bokeh Cheat Sheet.pdf",
+    "upload_date": "2025-06-05T20:14:25.967772",
+    "file_size": 249767,
+    "summary": "This document provides a cheat sheet for using Python's Bokeh library for data visualization, including examples on plotting, layouts, and hover glyphs. It also suggests learning Bokeh interactively at DataCamp.",
+    "keywords": [
+      "Python",
+      "Bokeh",
+      "Data Visualization",
+      "Cheat Sheet",
+      "DataCamp"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Plotting With Bokeh\n>>> from bokeh.plotting import figure"
+  },
+  {
     "id": "fa336fc62b9a4532dcaa84496514e2be",
     "filename": "Python Seaborn Statistical Data Visualization.pdf",
     "title": "Python Seaborn Statistical Data Visualization",
