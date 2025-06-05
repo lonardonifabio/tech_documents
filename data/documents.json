@@ -10733,6 +10733,29 @@
     "content_preview": "P and as D ata Structure... I/O Selec..."
   },
   {
+    "id": "4e3e4b474d44d33a386095a3d6eb4d5a",
+    "filename": "Python_Pandas_Cheat_Sheet_1638652093.pdf",
+    "title": "Python_Pandas_Cheat_Sheet_1638652093.pdf",
+    "authors": [
+      "arianne Colton",
+      "Sean Chen"
+    ],
+    "filepath": "documents/Python_Pandas_Cheat_Sheet_1638652093.pdf",
+    "upload_date": "2025-06-05T20:14:26.108780",
+    "file_size": 611052,
+    "summary": "This document provides a cheat sheet for Data Analysis using PANDAS, including creation, manipulation, and operations on Series (1D) and DataFrame (2D) structures.",
+    "keywords": [
+      "Pandas",
+      "Data Analysis",
+      "Series",
+      "DataFrame",
+      "Python"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Create Series series1 = pd.Series ([1, 2], index = ['a', 'b'])"
+  },
+  {
     "id": "4f7dfccdbf6d9b100d497a6580c2a137",
     "filename": "Python_Programming_1634289950.pdf",
     "title": "Python Programming",
