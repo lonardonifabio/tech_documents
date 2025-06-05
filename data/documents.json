@@ -13821,5 +13821,25 @@
     "category": "Technology",
     "difficulty": "Intermediate",
     "content_preview": "Document: what is ANN  1616397428"
+  },
+  {
+    "id": "5e2bec023786d6f4cd00c21db5e0de29",
+    "filename": "xts Cheat Sheet Time Series in R.pdf",
+    "title": "xts Cheat Sheet Time Series in R",
+    "authors": [],
+    "filepath": "documents/xts Cheat Sheet Time Series in R.pdf",
+    "upload_date": "2025-06-05T14:25:36.759228",
+    "file_size": 1805248,
+    "summary": "This document provides a cheatsheet for working with the xts object in R, which is used for time series analysis. It covers topics such as creating and manipulating xts objects, handling missing values, applying functions, and calculating differences and aggregations.",
+    "keywords": [
+      "R",
+      "Time Series",
+      "xts",
+      "Data Analysis",
+      "Cheatsheet"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "This document provides a cheatsheet for working with the xts object in R, which is used for time series analysis."
   }
 ]
