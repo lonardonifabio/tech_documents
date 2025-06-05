@@ -8156,6 +8156,26 @@
     "content_preview": "This document discusses Optimizers in Deep Learning..."
   },
   {
+    "id": "ed875273a0d96ace675b903bc26d52a8",
+    "filename": "Optimizers_Comparison_1709383473.pdf",
+    "title": "Optimizers Comparison",
+    "authors": [],
+    "filepath": "documents/Optimizers_Comparison_1709383473.pdf",
+    "upload_date": "2025-06-04T21:18:54.141034",
+    "file_size": 103522,
+    "summary": "This document compares various optimizers in TensorFlow Keras, specifically focusing on the MNIST dataset. It discusses issues with cuDNN, cuFFT, and cuBLAS registrations, data loading, reshaping, normalization, and label encoding.",
+    "keywords": [
+      "TensorFlow",
+      "Keras",
+      "Optimizers",
+      "MNIST",
+      "cuDNN"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "optimizers-comparison-in-dl, discusses issues with cuDNN, cuFFT, and cuBLAS registrations"
+  },
+  {
     "id": "aff5347bb883c797453b909cc3388867",
     "filename": "Part_1_Eisenstein_NLP_Notes_1632903722.pdf",
     "title": "Part_1_Eisenstein_NLP_Notes_1632903722.pdf",
