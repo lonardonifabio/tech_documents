@@ -8224,18 +8224,19 @@
     "title": "Part_2_Pattern_Recognition_and_Machine_Learning",
     "authors": [],
     "filepath": "documents/Part_2_Pattern_Recognition_and_Machine_Learning_1630696123.pdf",
-    "upload_date": "2025-06-02T20:26:04.105458",
+    "upload_date": "2025-06-04T21:18:54.183034",
     "file_size": 6168899,
-    "summary": "This document discusses Neural Networks and their role in addressing the curse of dimensionality in large-scale problems. It introduces Support Vector Machines (SVMs) and Relevance Vector Machine, two methods that adapt basis functions to data. The text also mentions the optimization involved in these methods and the sparsity of resulting models.",
+    "summary": "This document discusses Neural Networks and their role in addressing the curse of dimensionality in large-scale problems. It introduces Support Vector Machines (SVMs) and Relevance Vector Machine, two methods that adapt basis functions to data. The text also mentions the optimization involved in these methods and the difference between SVM and R...",
     "keywords": [
       "Neural Networks",
       "Support Vector Machines",
       "Relevance Vector Machine",
+      "Basis Functions",
       "Curse of Dimensionality"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses Neural Networks and their role in addressing the curse of dimensionality..."
+    "content_preview": "Neural Networks In Chapters 3 and 4 we considered models for regression and classiﬁcation that com-"
   },
   {
     "id": "7e504add618abe73e8cd44ab0302bddb",
