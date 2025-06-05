@@ -2655,6 +2655,26 @@
     "content_preview": "Blockchain For Dummies"
   },
   {
+    "id": "eb1d052963da8f2cce1518b3d0ecd220",
+    "filename": "Bone_1725747702.pdf",
+    "title": "Bone Fracture Dataset Analysis Script",
+    "authors": [],
+    "filepath": "documents/Bone_1725747702.pdf",
+    "upload_date": "2025-06-05T20:14:17.659639",
+    "file_size": 322208,
+    "summary": "This document contains a Python script for visualizing the Bone Fracture Dataset, which is part of a Kaggle competition. The script uses libraries such as matplotlib, seaborn, and TensorFlow to display images from the test, train, and validation sets.",
+    "keywords": [
+      "Python",
+      "Script",
+      "Bone Fracture Dataset",
+      "Kaggle",
+      "Machine Learning"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "import tensorflow as tf\nprint(\"Num GPUs Available: \",  "
+  },
+  {
     "id": "f7b2b7fffd849dba1c67b0053cc9a45a",
     "filename": "Brain_Tumor_1710062790.pdf",
     "title": "Brain Tumor MRI Classification",
