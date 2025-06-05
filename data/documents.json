@@ -15898,6 +15898,26 @@
     "content_preview": "This document is a chapter from 'A History of Ideas and Achievements' by Nils J. Nilsson, discussing the growth and development of conferences, books, and funding in the field of artificial intelligence."
   },
   {
+    "id": "370d5ef6250c1b616acf730412648fe5",
+    "filename": "pcos_1741962006.pdf",
+    "title": "PCOS Detection Using Multi-Scale Retinex Enhanced Ultrasound Images: A Deep Learning Approach with ImpalaCNN Algorithm",
+    "authors": [],
+    "filepath": "documents/pcos_1741962006.pdf",
+    "upload_date": "2025-06-05T20:14:29.817865",
+    "file_size": 718124,
+    "summary": "This document describes a deep learning approach for PCOS (Polycystic Ovary Syndrome) detection using enhanced ultrasound images. The ImpalaCNN algorithm is employed, and the data is organized into two categories: 'infected' and 'not infected'. The code provided reads and organizes the image paths and their corresponding labels for further analy...",
+    "keywords": [
+      "PCOS",
+      "Ultrasound Images",
+      "Deep Learning",
+      "ImpalaCNN",
+      "Data Organization"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "import numpy as np\nimport pandas as pd\nimport os\nbase_path = \"/kaggle/input/augmented -enhanced-pcos/content/data/enhanced_data/\"\ncategories = [\"infected\", \"notinfected\" ]\nimage_paths = []\nl"
+  },
+  {
     "id": "6c13b74de61db5281f2062988b804fb8",
     "filename": "perceptron_1619546550.pdf",
     "title": "perceptron 1619546550",
