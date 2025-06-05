@@ -15519,6 +15519,26 @@
     "content_preview": "Document: sota ML 1598442256"
   },
   {
+    "id": "90e933469deaaafe97435cdc51b65bbf",
+    "filename": "spaCy_Advanced_NLP_in_Python_1627300147 (1).pdf",
+    "title": "Advanced NLP in Python with spaCy",
+    "authors": [],
+    "filepath": "documents/spaCy_Advanced_NLP_in_Python_1627300147 (1).pdf",
+    "upload_date": "2025-06-05T20:14:29.981867",
+    "file_size": 2519193,
+    "summary": "This document provides a tutorial on using the spaCy library for Natural Language Processing (NLP) in Python, including loading and validating the model, creating Doc and Span objects, and utilizing part-of-speech tags.",
+    "keywords": [
+      "spaCy",
+      "Python",
+      "Natural Language Processing",
+      "NLP",
+      "part-of-speech"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Learn spaCy online at www .D at aCamp.com\n$>>> python -m spacy download en_core_web_sm"
+  },
+  {
     "id": "8180e9bac611ba3365e342d9b7ac0722",
     "filename": "spaCy_Advanced_NLP_in_Python_1627300147.pdf",
     "title": "spaCy Advanced NLP in Python",
