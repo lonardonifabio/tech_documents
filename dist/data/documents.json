@@ -11859,6 +11859,26 @@
     "content_preview": "P.S., W ant a summary of ML advancements? 👉ml-surveys"
   },
   {
+    "id": "2fbcaf0e70997d86f1631a884b8b199c",
+    "filename": "alzheimer_1748645981.pdf",
+    "title": "Alzheimer Disease Detection using Novel Continuous Neural Network",
+    "authors": [],
+    "filepath": "documents/alzheimer_1748645981.pdf",
+    "upload_date": "2025-06-05T14:25:36.071232",
+    "file_size": 567338,
+    "summary": "This document describes a method for detecting Alzheimer's disease using a novel continuous neural network. The code provided reads and organizes image data from two categories (AD and CN) for further analysis.",
+    "keywords": [
+      "Alzheimer's Disease",
+      "Neural Network",
+      "Image Data",
+      "Pandas",
+      "Kaggle"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "import numpy as np\nimport pandas as pd\nimport os"
+  },
+  {
     "id": "68748d2e72acedfbc73a216ddc3f31ef",
     "filename": "bafykbzacecgx2heptjk3q75kdju6wyuphldnfxcat2fcljlganstlchbosfdk.pdf",
     "title": "Machine Learning for Financial Risk Management with Python",
