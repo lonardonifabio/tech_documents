@@ -12068,6 +12068,26 @@
     "content_preview": "PySpark - RDD Basics\nLearn Python for data science Interactively  at  www.DataCamp.com"
   },
   {
+    "id": "1508e1d88f59d1fdb50589a7c584f0a5",
+    "filename": "PySpark Cheat Sheet Spark DataFrames in Python.pdf",
+    "title": "PySpark Cheat Sheet Spark DataFrames in Python",
+    "authors": [],
+    "filepath": "documents/PySpark Cheat Sheet Spark DataFrames in Python.pdf",
+    "upload_date": "2025-06-05T20:14:25.954772",
+    "file_size": 1749790,
+    "summary": "This document provides a cheat sheet for using PySpark SQL, focusing on creating, manipulating, and querying DataFrames in Python. It also includes examples of reading data from files and configuring options.",
+    "keywords": [
+      "PySpark",
+      "SQL",
+      "DataFrame",
+      "Python",
+      "Apache Spark"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Initalizing SparkSession\nDuplicate Values\nQueries\nCreating DataFrames\nAdd, Update & Remove Columns\nOutput\nStopping SparkSession"
+  },
+  {
     "id": "7a92bfe9949855ecefca7f11438eea8b",
     "filename": "Pycaret_1646985258.pdf",
     "title": "Pycaret_1646985258.pdf",
