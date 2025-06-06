@@ -20399,6 +20399,25 @@
     "content_preview": "Document: perceptron 1619546550"
   },
   {
+    "id": "5b084107b51774dae564d4e54196449d",
+    "filename": "plotly_cheat_sheet.pdf",
+    "title": "Plotly Cheat Sheet",
+    "authors": [],
+    "filepath": "documents/plotly_cheat_sheet.pdf",
+    "upload_date": "2025-06-06T03:10:16.649917",
+    "file_size": 2964120,
+    "summary": "This document provides a cheat sheet for using Plotly, a popular open-source plotting library in Python. It includes examples of creating scatter plots and geographical plots.",
+    "keywords": [
+      "Plotly",
+      "Python",
+      "Scatter Plots",
+      "Geographical Plots"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "plot_url = py.plot ( ﬁg )In the terminal:py.iplot ( ﬁg )"
+  },
+  {
     "id": "855b43ad44b127e8a2a1d36168899a05",
     "filename": "probablity and statistics.pdf",
     "title": "Probability and Statistics",
