@@ -17781,6 +17781,26 @@
     "content_preview": "This document introduces Linear Regression, a linear model used to find the relationship between two continuous variables."
   },
   {
+    "id": "17b6589ec0a35e1991b66bfbaa72add5",
+    "filename": "lung_1738689795.pdf",
+    "title": "MRANet with SE Block for Lung Colon Cancer Classification",
+    "authors": [],
+    "filepath": "documents/lung_1738689795.pdf",
+    "upload_date": "2025-06-05T20:14:29.726865",
+    "file_size": 931726,
+    "summary": "This document discusses the implementation of MRANet with SE Block for classifying lung and colon cancer using histopathological images. The code provided reads image paths and labels from specified directories, organizes them into a DataFrame, and displays the first and last few rows.",
+    "keywords": [
+      "MRANet",
+      "SE Block",
+      "Lung Cancer",
+      "Colon Cancer",
+      "Histopathological Images"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "import numpy as np\nimport pandas as pd\nbase_path = \"/kaggle/input/lung -and-colon-cancer-histopathological -"
+  },
+  {
     "id": "f9a9997c112012923fce2ccf3563b1e4",
     "filename": "ma-kyc-navigating-the-ai-landscape-report.pdf",
     "title": "Navigating the AI Landscape Report",
