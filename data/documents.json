@@ -15536,6 +15536,26 @@
     "content_preview": "Advanced indexing, data wrangling techniques using Pandas cheat sheet for data science learners."
   },
   {
+    "id": "a6ad25e859290029515f1e2fc04f8c63",
+    "filename": "Pandas_Cheat_Sheet.pdf",
+    "title": "Pandas Cheat Sheet",
+    "authors": [],
+    "filepath": "documents/Pandas_Cheat_Sheet.pdf",
+    "upload_date": "2025-06-06T15:45:47.526681",
+    "file_size": 396529,
+    "summary": "This document provides a guide on various operations and functions in the Pandas library, focusing on creating, reshaping, sorting, reindexing, renaming, and manipulating DataFrames.",
+    "keywords": [
+      "Pandas",
+      "DataFrame",
+      "Reshaping",
+      "Sorting",
+      "Reindexing"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Creating DataFrames Reshaping Data –Change layout, sorting , reindexing , renaming pd.melt(df)"
+  },
+  {
     "id": "aff5347bb883c797453b909cc3388867",
     "filename": "Part_1_Eisenstein_NLP_Notes_1632903722.pdf",
     "title": "Part_1_Eisenstein_NLP_Notes_1632903722.pdf",
