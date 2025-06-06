@@ -18123,6 +18123,27 @@
     "content_preview": "Safety cases for frontier AI systems become more important as they become more capable. One way to ensure safety is via safety cases: reports that make a structured argument, supported by evidence, that a system is safe enough in a given operational context."
   },
   {
+    "id": "ceacec8541e12314265f27434bb6b62e",
+    "filename": "Scalable_AI_Incident_Classification_1746604484.pdf",
+    "title": "Scalable AI Incident Classification",
+    "authors": [
+      "Simon Mylius"
+    ],
+    "filepath": "documents/Scalable_AI_Incident_Classification_1746604484.pdf",
+    "upload_date": "2025-06-06T15:45:48.892683",
+    "file_size": 1435862,
+    "summary": "Simon Mylius developed a tool that uses an LLM to classify reported incidents according to risk taxonomies and visualizes the analysis through interactive dashboards. The work is based on the MIT AI Risk Taxonomies and CSET Taxonomy of AI Harm.",
+    "keywords": [
+      "AI Incident Database",
+      "LLM",
+      "Risk Taxonomies",
+      "Interactive Dashboards"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Scalable AI Incident Classification... This work is a collaboration..."
+  },
+  {
     "id": "6d44d62055c5a4f2838879ca3bf85f99",
     "filename": "SciPy Cheat Sheet Linear Algebra in Python.pdf",
     "title": "SciPy Cheat Sheet Linear Algebra in Python",
