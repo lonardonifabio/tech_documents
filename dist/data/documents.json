@@ -12676,6 +12676,26 @@
     "content_preview": "Plotting With Bokeh\n>>> from bokeh.plotting import figure"
   },
   {
+    "id": "0e64e26654c2b421a8ee773b6212b811",
+    "filename": "Python Cheatsheet.pdf",
+    "title": "Python Cheatsheet",
+    "authors": [],
+    "filepath": "documents/Python Cheatsheet.pdf",
+    "upload_date": "2025-06-05T20:14:25.973773",
+    "file_size": 1785862,
+    "summary": "This document provides a quick reference guide for Python variables, lists, tuples, and if statements. It covers topics such as string manipulation, list access and modification, list comprehensions, slicing, copying, and conditional tests.",
+    "keywords": [
+      "Python",
+      "Cheatsheet",
+      "Variables",
+      "Lists",
+      "Tuples"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Variables are used to store values. A string is a series of characters, surrounded by single or double quotes."
+  },
+  {
     "id": "fa336fc62b9a4532dcaa84496514e2be",
     "filename": "Python Seaborn Statistical Data Visualization.pdf",
     "title": "Python Seaborn Statistical Data Visualization",
