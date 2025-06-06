@@ -16431,6 +16431,41 @@
     "content_preview": "Learn how to read and write data using the Pandas library. This document covers methods for reading various file types, parsing tables from the web, writing data structures to disk, and more."
   },
   {
+    "id": "cb530d14e293aa7cbd2de9d5a03b8372",
+    "filename": "Reasoning_Language_Models_1738710907.pdf",
+    "title": "Reasoning Language Models: A Blueprint",
+    "authors": [
+      "Maciej Besta1†",
+      "Julia Barth1",
+      "Eric Schreiber1",
+      "Ales Kubicek1",
+      "Afonso Catarino1",
+      "Robert Gerstenberger1",
+      "Piotr Nyczyk2",
+      "Patrick Iff1",
+      "Yueling Li3",
+      "Sam Houliston1",
+      "Tomasz Sternal1",
+      "Marcin Copik1",
+      "Grzegorz Kwa´sniewski1",
+      "J¨urge..."
+    ],
+    "filepath": "documents/Reasoning_Language_Models_1738710907.pdf",
+    "upload_date": "2025-06-06T03:10:13.530915",
+    "file_size": 7964667,
+    "summary": "This document provides a blueprint for building Reasoning Language Models (RLMs), discussing their history, main pillars, categories, architecture, and implementation details. It also includes comparisons with existing schemes, insights on efficient scaling, and the x1 framework for easy experimentation.",
+    "keywords": [
+      "Reasoning Language Models",
+      "Blueprint",
+      "Architecture",
+      "Implementation Details",
+      "x1 Framework"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Reasoning Language Model (RLM):  What is it and how to build one?"
+  },
+  {
     "id": "12b86c24d54c9bda18ac4e8c0a5359d4",
     "filename": "Recurrent_Neural_Networks_1630746725.pdf",
     "title": "Recurrent Neural Networks",
