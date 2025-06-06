@@ -13891,6 +13891,26 @@
     "content_preview": "We will build an English-to-Portuguese neural machine translation (NMT) model using Long Short-Term Memory networks with attention."
   },
   {
+    "id": "5b7330a49193861c91cd4af45c03be54",
+    "filename": "Nail_1725987884.pdf",
+    "title": "Nail Disease Detection using Deep Learning",
+    "authors": [],
+    "filepath": "documents/Nail_1725987884.pdf",
+    "upload_date": "2025-06-06T15:45:46.952680",
+    "file_size": 855672,
+    "summary": "This document discusses a deep learning approach for detecting nail diseases by utilizing a dataset containing various nail conditions such as Acral_Lentiginous_Melanoma, pitting, Onychogryphosis, clubbing, and Healthy_Nail. The code provided lists the folders in both the training and validation datasets, and includes a function to display image...",
+    "keywords": [
+      "Deep Learning",
+      "Nail Disease Detection",
+      "Python",
+      "Pandas",
+      "Matplotlib"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "Folders in the training dataset path: ['blue_finger', 'Acral_Lentiginous_Melanoma', 'pitting', 'Onychogryphosis', 'clubbing', 'Healthy_Nail']"
+  },
+  {
     "id": "4c37ef8cc78d04662a9dbbdf1832c3cf",
     "filename": "Natural_Language_Processing_NLP_with_Python_1610184574.pdf",
     "title": "Natural Language Processing with Python",
