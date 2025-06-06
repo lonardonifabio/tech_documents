@@ -17582,6 +17582,26 @@
     "content_preview": "P.S., W ant a summary of ML advancements? 👉ml-surveys"
   },
   {
+    "id": "7a09dedcebb3436c2d10b5177b3f2efc",
+    "filename": "alz_1747912873.pdf",
+    "title": "Alzheimer’s Disease Classification Using a Novel Bidirectional CNN",
+    "authors": [],
+    "filepath": "documents/alz_1747912873.pdf",
+    "upload_date": "2025-06-05T20:14:29.261861",
+    "file_size": 704951,
+    "summary": "This document provides Python code for loading and preprocessing data from an Alzheimer's MRI dataset, with the aim of classifying Alzheimer's disease severity using a novel bidirectional Convolutional Neural Network (CNN).",
+    "keywords": [
+      "Alzheimer's Disease",
+      "Machine Learning",
+      "Convolutional Neural Network",
+      "Python",
+      "Data Preprocessing"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "import numpy as np \nimport pandas as pd \nimport os"
+  },
+  {
     "id": "2fbcaf0e70997d86f1631a884b8b199c",
     "filename": "alzheimer_1748645981.pdf",
     "title": "Alzheimer Disease Detection using Novel Continuous Neural Network",
