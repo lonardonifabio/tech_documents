@@ -22493,6 +22493,26 @@
     "content_preview": "This document discusses how Spotify uses machine learning, particularly in their 'Discover Weekly' feature..."
   },
   {
+    "id": "2740b833c82e84d6b2723caf56861dbe",
+    "filename": "sql cheat sheet.pdf",
+    "title": "SQL Cheat Sheet",
+    "authors": [],
+    "filepath": "documents/sql cheat sheet.pdf",
+    "upload_date": "2025-06-06T15:45:51.835689",
+    "file_size": 230259,
+    "summary": "This document provides a comprehensive guide to SQL queries, including SELECT statements with various join types (INNER JOIN, LEFT JOIN, FULL OUTER JOIN, CROSS JOIN), aggregate functions, filtering, sorting, and more.",
+    "keywords": [
+      "SQL",
+      "Cheat Sheet",
+      "Join",
+      "Aggregate Function",
+      "Filter"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "SELECT c1, c2 FROM t; Query data in columns c1 , c2 from a table"
+  },
+  {
     "id": "3c59cf02594f4575b7d25542d47e9b13",
     "filename": "tensorflow_2_cheatsheet_1644221191.pdf",
     "title": "TensorFlow v2.0 Cheat Sheet",
