@@ -17982,6 +17982,25 @@
     "content_preview": "AWS Services by nire0510 via cheatography.com/23531/cs/7421/\nVPC\nAmazon Virtual Private Cloud (VPC) lets you launch AWS resources in a private, isolated cloud."
   },
   {
+    "id": "46c9e8954f6fd97158dc61183e3e53b2",
+    "filename": "opencv_cheatsheet_1634555161.pdf",
+    "title": "OpenCV C++ Cheat Sheet",
+    "authors": [],
+    "filepath": "documents/opencv_cheatsheet_1634555161.pdf",
+    "upload_date": "2025-06-05T20:14:29.777865",
+    "file_size": 114213,
+    "summary": "This document provides a quick reference for using the OpenCV library in C++, including creating and manipulating matrices, initializing matrices with constants or specified values, and converting matrices to/from other structures.",
+    "keywords": [
+      "OpenCV",
+      "C++",
+      "Matrix",
+      "Initialization"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "Create a matrix: Mat image(240, 320, CV 8UC3);"
+  },
+  {
     "id": "eac5233ed929a48da013844372986a01",
     "filename": "pandas_1621791580.pdf",
     "title": "Getting Started with pandas",
