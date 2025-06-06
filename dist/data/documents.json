@@ -15886,6 +15886,31 @@
     "content_preview": "A comprehensive guide to the Python ecosystem for data-science, including an introduction to Machine Learning"
   },
   {
+    "id": "bad1915d3cc4053e14061d42e516f76f",
+    "filename": "Safety_cases_for_frontier_AI_1730322878.pdf",
+    "title": "Safety cases for frontier AI",
+    "authors": [
+      "Marie Davidsen Buhl",
+      "Gaurav Sett",
+      "Leonie Koessler",
+      "Jonas Schuett",
+      "Markus Anderljung"
+    ],
+    "filepath": "documents/Safety_cases_for_frontier_AI_1730322878.pdf",
+    "upload_date": "2025-06-06T03:10:13.882915",
+    "file_size": 756800,
+    "summary": "This document discusses the concept of safety cases as a tool for ensuring the safety of advanced artificial intelligence systems, drawing parallels with other safety-critical industries. It outlines the process for creating and using safety cases to inform decisions about deploying AI models.",
+    "keywords": [
+      "Safety case",
+      "Frontier AI",
+      "Artificial Intelligence",
+      "Governance"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Safety cases for frontier AI systems become more important as they become more capable. One way to ensure safety is via safety cases: reports that make a structured argument, supported by evidence, that a system is safe enough in a given operational context."
+  },
+  {
     "id": "6d44d62055c5a4f2838879ca3bf85f99",
     "filename": "SciPy Cheat Sheet Linear Algebra in Python.pdf",
     "title": "SciPy Cheat Sheet Linear Algebra in Python",
