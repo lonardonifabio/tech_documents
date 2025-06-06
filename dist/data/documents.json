@@ -21962,6 +21962,28 @@
     "content_preview": "Jupyter VSCode Pycharm RStudio Import TidyTransform Data Science with Python Workflow"
   },
   {
+    "id": "1beee84b1b4e5b5af4a8cf09d596cbeb",
+    "filename": "cheatsheet_murenei_nlp_nltk.pdf",
+    "title": "Natural Language Processing with Python & nltk Cheat Sheet",
+    "authors": [
+      "RJ Murray (murenei)"
+    ],
+    "filepath": "documents/cheatsheet_murenei_nlp_nltk.pdf",
+    "upload_date": "2025-06-06T15:45:51.208688",
+    "file_size": 55454,
+    "summary": "This document provides a cheat sheet for Natural Language Processing (NLP) using Python and the NLTK library, covering topics such as text handling, tokenization, lemmatization, stemming, POS tagging, and sentence parsing.",
+    "keywords": [
+      "NLP",
+      "Python",
+      "NLTK",
+      "Text Handling",
+      "Tokenization"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Handling Text\ntext=\n'Some words'\nassign string\nlist(text)"
+  },
+  {
     "id": "00c466ad4a315f48835c6a615016cd97",
     "filename": "choosing-a-good-chart-09.pdf",
     "title": "Choosing a Good Chart",
