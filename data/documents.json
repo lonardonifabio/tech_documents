@@ -8952,6 +8952,26 @@
     "content_preview": "This document provides practical examples of graph algorithms using Apache Spark and Neo4j."
   },
   {
+    "id": "895f81c6479f8545c8b09e31d6e79d87",
+    "filename": "Graph_Convolutional_Networks__1748375983.pdf",
+    "title": "Graph Convolutional Networks",
+    "authors": [],
+    "filepath": "documents/Graph_Convolutional_Networks__1748375983.pdf",
+    "upload_date": "2025-06-06T15:45:43.350673",
+    "file_size": 5574863,
+    "summary": "This document provides a Python function for loading the Cora dataset, which is used in Graph Convolutional Networks (GCN). It also sets up the device for GPU or CPU usage. The main class for the GCN model is defined but not fully shown.",
+    "keywords": [
+      "Graph Convolutional Networks",
+      "Python",
+      "Dataset Loading",
+      "Cora",
+      "GNN"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "def load_dataset ():\nprint('..Loading Dataset../n' )"
+  },
+  {
     "id": "e4919e56a68a2cbbdd4213ec060b37e7",
     "filename": "Graphics_Principles_Cheatsheet_1569391935.pdf",
     "title": "Graphics Principles Cheatsheet v1.1",
