@@ -11205,6 +11205,26 @@
     "content_preview": "Transforming Paradigms A Global AI in Financial Services Survey"
   },
   {
+    "id": "7b66670dc6cc7a4992475f2a4950bad5",
+    "filename": "Mastering_Object_Detection_with_YOLOv8_KerasCV_1740508442.pdf",
+    "title": "Mastering Object Detection with YOLOv8 KerasCV",
+    "authors": [],
+    "filepath": "documents/Mastering_Object_Detection_with_YOLOv8_KerasCV_1740508442.pdf",
+    "upload_date": "2025-06-06T03:10:11.193911",
+    "file_size": 1276367,
+    "summary": "This document provides a guide on mastering object detection using YOLOv8 and KerasCV. It includes code snippets for installation, hyperparameter tuning, data preparation, and visualization. The project uses TensorFlow and various libraries such as tqdm, seaborn, matplotlib, pandas, keras_cv, and its submodules.",
+    "keywords": [
+      "YOLOv8",
+      "KerasCV",
+      "TensorFlow",
+      "Object Detection",
+      "Python"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "! pip install --upgrade git+https://github.com/keras-team/keras-cv -q"
+  },
+  {
     "id": "100b5018eaadaac84e4da27b39d18d1d",
     "filename": "Mastering_Python_�_1711273873.pdf",
     "title": "Mastering Python: 100+ Solved and Commented Exercises",
