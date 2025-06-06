@@ -18104,6 +18104,25 @@
     "content_preview": "Document: sota ML 1598442256"
   },
   {
+    "id": "2a50460c04270029ebc618d88f7657a3",
+    "filename": "spaCy Cheat Sheet Advanced NLP in Python.pdf",
+    "title": "spaCy Cheat Sheet Advanced NLP in Python",
+    "authors": [],
+    "filepath": "documents/spaCy Cheat Sheet Advanced NLP in Python.pdf",
+    "upload_date": "2025-06-05T20:14:29.976866",
+    "file_size": 2455343,
+    "summary": "This document provides a guide to learning spaCy, an advanced Natural Language Processing (NLP) library in Python. It covers topics such as loading the model, working with Spans and Dependency Trees, and using word vectors.",
+    "keywords": [
+      "spaCy",
+      "NLP",
+      "Python",
+      "Data Science"
+    ],
+    "category": "Technology",
+    "difficulty": "Advanced",
+    "content_preview": "Learn spaCy online at www .D at aCamp.com\n$>>> python -m spacy download en_core_web_sm"
+  },
+  {
     "id": "90e933469deaaafe97435cdc51b65bbf",
     "filename": "spaCy_Advanced_NLP_in_Python_1627300147 (1).pdf",
     "title": "Advanced NLP in Python with spaCy",
