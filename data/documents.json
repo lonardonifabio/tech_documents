@@ -5291,6 +5291,26 @@
     "content_preview": "This document provides a guide on how to create and customize data visualizations using the ggplot2 package in R. It covers topics such as changing plot titles, axis labels, geoms, and more."
   },
   {
+    "id": "a3eb178bea3d8181602c95959bdc0bf6",
+    "filename": "Data_Visualization_1625053714.pdf",
+    "title": "Data Visualization with ggplot2 Cheat Sheet",
+    "authors": [],
+    "filepath": "documents/Data_Visualization_1625053714.pdf",
+    "upload_date": "2025-06-06T03:10:06.553906",
+    "file_size": 264734,
+    "summary": "This document provides a cheat sheet for using ggplot2, a popular R package for data visualization. It explains the grammar of graphics concept and introduces various graphical primitives such as geom_curve, geom_path, geom_polygon, geom_rect, and geom_ribbon. The document also demonstrates how to create a plot using ggplot2 with an example usin...",
+    "keywords": [
+      "Data Visualization",
+      "ggplot2",
+      "R",
+      "Cheat Sheet",
+      "Graphical Primitives"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "ggplot(data = mpg, aes(x = cty, y = hwy)) Begins a plot that you finish by adding layers to."
+  },
+  {
     "id": "b514de2e35dab9305ae14f8a1e0dadcf",
     "filename": "Data_Visualization_Storytelling_1630081209.pdf",
     "title": "Data Visualization: A New Language for Storytelling",
