@@ -8161,6 +8161,28 @@
     "content_preview": "Learn Python the Hard Way, Third Edition"
   },
   {
+    "id": "bdb9fbf4df799f13a99c6a1fd1369e80",
+    "filename": "Light_RAG_Neo4j_1740137060.pdf",
+    "title": "LightRAG with Neo4j",
+    "authors": [
+      "Giorgi Kurtanidze"
+    ],
+    "filepath": "documents/Light_RAG_Neo4j_1740137060.pdf",
+    "upload_date": "2025-06-05T20:14:22.738726",
+    "file_size": 802079,
+    "summary": "LightRAG is an optimized version of Graph RAG that utilizes both Graph Databases (Neo4j) and Embeddings for efficient, scalable, and real-world application performance. It combines structured (graph) and unstructured (text) knowledge to find answers quickly while reducing cost and latency.",
+    "keywords": [
+      "LightRAG",
+      "Neo4j",
+      "Graph Databases",
+      "Embeddings",
+      "AI"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "LightRAG is an optimized version of Graph RAG that utilizes both Graph Databases (Neo4j) and Embeddings for efficient, scalable, and real-world application performance."
+  },
+  {
     "id": "a7b7ca43b590fc3e931da0de593c7e44",
     "filename": "Linear_Regression_1567266618.pdf",
     "title": "Linear Regression: Predicting House Prices",
