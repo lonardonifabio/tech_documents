@@ -13643,6 +13643,26 @@
     "content_preview": "SELECT * FROM Table1 t1 LEFT OUTER JOIN Table2 t2 ON t1.fk = t2.id;"
   },
   {
+    "id": "df00ce3c9cee39242adb5891b7ec5bbb",
+    "filename": "SQL_Cheat_Sheet_Follow_Dr_AngShu_drangshu_for_more_1625344114.pdf",
+    "title": "SQL Cheat Sheet",
+    "authors": [],
+    "filepath": "documents/SQL_Cheat_Sheet_Follow_Dr_AngShu_drangshu_for_more_1625344114.pdf",
+    "upload_date": "2025-06-05T20:14:26.763816",
+    "file_size": 260182,
+    "summary": "This document provides a comprehensive guide on SQL queries, including SELECT, INNER JOIN, LEFT JOIN, FULL OUTER JOIN, CROSS JOIN, and various other clauses such as WHERE, GROUP BY, HAVING, UNION, INTERSECT, MINUS, and LIKE. It also covers pattern matching using % and _.",
+    "keywords": [
+      "SQL",
+      "Cheat Sheet",
+      "Join",
+      "SELECT",
+      "WHERE"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "SELECT c1, c2 FROM t WHERE condition;"
+  },
+  {
     "id": "771db36b568a863df817eb65b1e95d54",
     "filename": "SQL_Guide__1641285345.pdf",
     "title": "SQL Guide",
