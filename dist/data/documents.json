@@ -19688,6 +19688,26 @@
     "content_preview": "import numpy as np\nimport pandas as pd\nbase_path = \"/kaggle/input/breast -ultrasound -images-"
   },
   {
+    "id": "d7b5197351cd006a6b4cab533f0452a7",
+    "filename": "cheatsheet_datasciencepythonworkflow.pdf",
+    "title": "cheatsheet_datasciencepythonworkflow.pdf",
+    "authors": [],
+    "filepath": "documents/cheatsheet_datasciencepythonworkflow.pdf",
+    "upload_date": "2025-06-06T03:10:16.173916",
+    "file_size": 2034811,
+    "summary": "This document provides a cheat sheet for data science workflow using Python, including Jupyter Notebook, VSCode, PyCharm, RStudio, and more. It covers topics like Pandas, Numpy, Matplotlib, seaborn, TensorFlow, Keras, Dash, Streamlit, Flask, FastAPI, Time Series Forecasting, and web scraping with beautifulsoup, requests-html, and Scrappy.",
+    "keywords": [
+      "Python",
+      "Data Science",
+      "Cheat Sheet",
+      "Jupyter Notebook",
+      "Pandas"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Jupyter VSCode Pycharm RStudio Import TidyTransform Data Science with Python Workflow"
+  },
+  {
     "id": "00c466ad4a315f48835c6a615016cd97",
     "filename": "choosing-a-good-chart-09.pdf",
     "title": "Choosing a Good Chart",
