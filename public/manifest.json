@@ -1,0 +1,105 @@
+{
+  "name": "AI & Data Science Document Library",
+  "short_name": "AI Doc Library",
+  "description": "Automated collection of Artificial Intelligence and Data Science documents",
+  "start_url": "/tech_documents/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#667eea",
+  "orientation": "portrait-primary",
+  "categories": ["education", "productivity", "reference"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/tech_documents/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/tech_documents/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/tech_documents/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/tech_documents/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/tech_documents/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/tech_documents/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "AI Document Library - Desktop View"
+    },
+    {
+      "src": "/tech_documents/screenshot-narrow.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "AI Document Library - Mobile View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search Documents",
+      "short_name": "Search",
+      "description": "Search through AI and Data Science documents",
+      "url": "/tech_documents/?action=search",
+      "icons": [
+        {
+          "src": "/tech_documents/favicon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Browse Categories",
+      "short_name": "Categories",
+      "description": "Browse documents by category",
+      "url": "/tech_documents/?action=categories",
+      "icons": [
+        {
+          "src": "/tech_documents/favicon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "scope": "/tech_documents/",
+  "id": "/tech_documents/",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+aidocs",
+      "url": "/tech_documents/?doc=%s"
+    }
+  ]
+}
