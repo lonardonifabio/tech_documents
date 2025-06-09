@@ -52,6 +52,9 @@ jobs:
           npm run build
         working-directory: ${{ env.BUILD_PATH }}
         
+      - name: Add .nojekyll file
+        run: touch ${{ env.BUILD_PATH }}/dist/.nojekyll
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
