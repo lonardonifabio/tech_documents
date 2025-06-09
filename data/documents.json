@@ -3861,6 +3861,26 @@
     "content_preview": "The Springer Series on Challenges in Machine Learning offers a complete teaching toolkit and a valuable resource for engineers and scientists."
   },
   {
+    "id": "0e0b6f9f8980030815fdef09c945df4f",
+    "filename": "Autoencoder_1749191959.pdf",
+    "title": "Autoencoder_1749191959.pdf",
+    "authors": [],
+    "filepath": "documents/Autoencoder_1749191959.pdf",
+    "upload_date": "2025-06-09T20:06:45.611279",
+    "file_size": 694395,
+    "summary": "This document discusses the implementation of an autoencoder using Python and popular libraries such as NumPy, Pandas, and Matplotlib. The data used is MNIST dataset for image recognition. The code includes functions for data preprocessing, Leaky ReLU activation function, softmax function, cross-entropy loss, mean squared error loss, binary cros...",
+    "keywords": [
+      "Autoencoder",
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Matplotlib"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "Autoencoder •Input Shape: 28, 28, 1"
+  },
+  {
     "id": "d4bb66c5f99492770c08484afdf7728d",
     "filename": "Automated_Machine_Learning_1638516001.pdf",
     "title": "Automated Machine Learning",
