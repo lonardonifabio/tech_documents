@@ -9,8 +9,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "update-docs": "python scripts/fallback_processor.py",
-    "process-docs": "python scripts/fallback_processor.py"
+    "update-docs": "python scripts/ensure_data.py",
+    "process-docs": "python scripts/ensure_data.py"
   },
   "dependencies": {
     "@astrojs/react": "^3.0.9",
