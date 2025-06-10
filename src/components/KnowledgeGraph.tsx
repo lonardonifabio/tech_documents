@@ -60,11 +60,11 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({
         );
       }
 
-      // Limit to top 20 documents by file size for performance
-      if (filtered.length > 20) {
+      // Limit to top 50 documents by file size for performance
+      if (filtered.length > 50) {
         filtered = filtered
           .sort((a, b) => b.file_size - a.file_size)
-          .slice(0, 20);
+          .slice(0, 50);
       }
     }
 
@@ -78,9 +78,8 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({
     acc[tag] = (acc[tag] || 0) + 1;
     return acc;
   }, {} as Record<string, number>);
-  const topTags = Object.entries(tagCounts)
+  const allAvailableTags = Object.entries(tagCounts)
     .sort(([,a], [,b]) => b - a)
-    .slice(0, 10)
     .map(([tag]) => tag);
 
   // Load cached embeddings or generate new ones
@@ -360,7 +359,7 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({
   };
 
   return (
-    <div className="knowledge-graph-container">
+    <div className="knowledge-graph-container w-full">
       {/* Performance Warning for Large Datasets */}
       {documents.length > 100 && (
         <div className="mb-4 p-3 bg-orange-50 border border-orange-200 rounded-lg">
@@ -414,7 +413,7 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({
 
           {/* Top Tags Filter */}
           <div>
-            <label className="text-xs font-medium text-gray-700 mb-1 block">Filter by Top Tags (max 10):</label>
+            <label className="text-xs font-medium text-gray-700 mb-1 block">Filter by Tags:</label>
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={() => setSelectedTags([])}
@@ -426,7 +425,7 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({
               >
                 Clear Tags
               </button>
-              {topTags.map(tag => (
+              {allAvailableTags.map((tag: string) => (
                 <button
                   key={tag}
                   onClick={() => {

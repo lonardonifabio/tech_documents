@@ -107,37 +107,39 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
       {/* Header */}
       <header className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <div>
-              <h1 className="text-2xl font-bold text-gray-900">
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center py-4 gap-4">
+            <div className="flex-1">
+              <h1 className="text-xl sm:text-2xl font-bold text-gray-900">
                 AI & Data Science Document Library
               </h1>
-              <p className="text-sm text-gray-600 mt-1">
+              <p className="text-xs sm:text-sm text-gray-600 mt-1">
                 {documents.length} documents • Interactive knowledge graph powered by AI
               </p>
             </div>
             
             {/* View Toggle */}
-            <div className="flex items-center space-x-1 bg-gray-100 rounded-lg p-1">
+            <div className="flex items-center space-x-1 bg-gray-100 rounded-lg p-1 w-full sm:w-auto">
               <button
                 onClick={() => setCurrentView('library')}
-                className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+                className={`flex-1 sm:flex-none px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-md transition-colors ${
                   currentView === 'library'
                     ? 'bg-white text-gray-900 shadow-sm'
                     : 'text-gray-600 hover:text-gray-900'
                 }`}
               >
-                📚 Library View
+                <span className="hidden sm:inline">📚 Library View</span>
+                <span className="sm:hidden">📚 Library</span>
               </button>
               <button
                 onClick={() => setCurrentView('graph')}
-                className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+                className={`flex-1 sm:flex-none px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-md transition-colors ${
                   currentView === 'graph'
                     ? 'bg-white text-gray-900 shadow-sm'
                     : 'text-gray-600 hover:text-gray-900'
                 }`}
               >
-                🕸️ Knowledge Graph
+                <span className="hidden sm:inline">🕸️ Knowledge Graph</span>
+                <span className="sm:hidden">🕸️ Graph</span>
               </button>
             </div>
           </div>
@@ -210,11 +212,11 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
             </div>
 
             {/* Knowledge Graph */}
-            <div className="bg-white rounded-lg shadow-sm p-6">
+            <div className="bg-white rounded-lg shadow-sm p-3 sm:p-6">
               <KnowledgeGraph
                 documents={documents}
-                width={1000}
-                height={700}
+                width={typeof window !== 'undefined' ? Math.min(window.innerWidth - 100, 1000) : 1000}
+                height={typeof window !== 'undefined' ? Math.min(window.innerHeight - 300, 700) : 700}
                 onNodeClick={handleNodeClick}
                 onNodeHover={handleNodeHover}
               />
