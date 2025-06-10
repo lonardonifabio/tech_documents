@@ -22,8 +22,11 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({
   const [embeddings, setEmbeddings] = useState<EmbeddingData | null>(null);
   const [topicClusters, setTopicClusters] = useState<TopicCluster[]>([]);
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [hoveredNode, setHoveredNode] = useState<DocumentNode | null>(null);
   const [ollamaConnected, setOllamaConnected] = useState(false);
+  const [filteredDocuments, setFilteredDocuments] = useState<DocumentNode[]>([]);
   const embeddingService = EmbeddingService.getInstance();
 
   // Check Ollama connection on mount
@@ -33,7 +36,52 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({
       setOllamaConnected(connected);
     };
     checkConnection();
-  }, []);
+  }, [embeddingService]);
+
+  // Filter documents for performance with large datasets
+  useEffect(() => {
+    let filtered = documents;
+
+    // Performance optimization: limit documents for large datasets
+    if (documents.length > 100) {
+      // Filter by category first if selected
+      if (selectedCategory) {
+        filtered = filtered.filter(doc => doc.category === selectedCategory);
+      }
+
+      // Filter by tags if selected (max 10 tags)
+      if (selectedTags.length > 0) {
+        filtered = filtered.filter(doc => 
+          selectedTags.some(tag => 
+            doc.keywords.some(keyword => 
+              keyword.toLowerCase().includes(tag.toLowerCase())
+            )
+          )
+        );
+      }
+
+      // Limit to top 50 documents by file size for performance
+      if (filtered.length > 50) {
+        filtered = filtered
+          .sort((a, b) => b.file_size - a.file_size)
+          .slice(0, 50);
+      }
+    }
+
+    setFilteredDocuments(filtered);
+  }, [documents, selectedCategory, selectedTags]);
+
+  // Get available categories and top tags
+  const availableCategories = [...new Set(documents.map(doc => doc.category))];
+  const allTags = documents.flatMap(doc => doc.keywords);
+  const tagCounts = allTags.reduce((acc, tag) => {
+    acc[tag] = (acc[tag] || 0) + 1;
+    return acc;
+  }, {} as Record<string, number>);
+  const topTags = Object.entries(tagCounts)
+    .sort(([,a], [,b]) => b - a)
+    .slice(0, 10)
+    .map(([tag]) => tag);
 
   // Load cached embeddings or generate new ones
   useEffect(() => {
@@ -76,7 +124,10 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({
   const generateGraphData = useCallback((): GraphData => {
     if (!embeddings) return { nodes: [], links: [] };
 
-    const nodes: DocumentNode[] = documents.map(doc => {
+    // Use filtered documents for performance
+    const docsToProcess = filteredDocuments.length > 0 ? filteredDocuments : documents;
+    
+    const nodes: DocumentNode[] = docsToProcess.map(doc => {
       const embeddingData = embeddings[doc.id];
       
       return {
@@ -114,7 +165,7 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({
     }
 
     return { nodes, links };
-  }, [documents, embeddings, topicClusters]);
+  }, [documents, embeddings, topicClusters, filteredDocuments, embeddingService]);
 
   // D3 visualization
   useEffect(() => {
@@ -308,6 +359,95 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({
 
   return (
     <div className="knowledge-graph-container">
+      {/* Performance Warning for Large Datasets */}
+      {documents.length > 100 && (
+        <div className="mb-4 p-3 bg-orange-50 border border-orange-200 rounded-lg">
+          <div className="flex items-center gap-2 text-orange-800">
+            <span className="text-sm font-medium">⚡ Performance Mode:</span>
+            <span className="text-sm">
+              Large dataset detected ({documents.length} documents). 
+              {filteredDocuments.length > 0 ? 
+                ` Showing ${filteredDocuments.length} filtered documents for optimal performance.` :
+                ' Use filters below to improve performance.'
+              }
+            </span>
+          </div>
+        </div>
+      )}
+
+      {/* Category and Tag Filters */}
+      {documents.length > 100 && (
+        <div className="mb-4 p-4 bg-white rounded-lg border">
+          <div className="text-sm font-medium mb-3">📊 Performance Filters (Required for large datasets):</div>
+          
+          {/* Category Filter */}
+          <div className="mb-3">
+            <label className="text-xs font-medium text-gray-700 mb-1 block">Filter by Category:</label>
+            <div className="flex flex-wrap gap-2">
+              <button
+                onClick={() => setSelectedCategory(null)}
+                className={`px-3 py-1 text-xs rounded border ${
+                  selectedCategory === null 
+                    ? 'bg-blue-600 text-white' 
+                    : 'bg-white text-gray-700 hover:bg-gray-50'
+                }`}
+              >
+                All Categories
+              </button>
+              {availableCategories.map(category => (
+                <button
+                  key={category}
+                  onClick={() => setSelectedCategory(category)}
+                  className={`px-3 py-1 text-xs rounded border ${
+                    selectedCategory === category
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-white text-gray-700 hover:bg-gray-50'
+                  }`}
+                >
+                  {category}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Top Tags Filter */}
+          <div>
+            <label className="text-xs font-medium text-gray-700 mb-1 block">Filter by Top Tags (max 10):</label>
+            <div className="flex flex-wrap gap-2">
+              <button
+                onClick={() => setSelectedTags([])}
+                className={`px-3 py-1 text-xs rounded border ${
+                  selectedTags.length === 0 
+                    ? 'bg-green-600 text-white' 
+                    : 'bg-white text-gray-700 hover:bg-gray-50'
+                }`}
+              >
+                Clear Tags
+              </button>
+              {topTags.map(tag => (
+                <button
+                  key={tag}
+                  onClick={() => {
+                    if (selectedTags.includes(tag)) {
+                      setSelectedTags(selectedTags.filter(t => t !== tag));
+                    } else {
+                      setSelectedTags([...selectedTags, tag]);
+                    }
+                  }}
+                  className={`px-3 py-1 text-xs rounded border ${
+                    selectedTags.includes(tag)
+                      ? 'bg-green-600 text-white'
+                      : 'bg-white text-gray-700 hover:bg-gray-50'
+                  }`}
+                >
+                  {tag} ({tagCounts[tag]})
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Controls */}
       <div className="mb-4 flex flex-wrap items-center gap-2">
         <div className="flex items-center gap-2">
@@ -316,6 +456,12 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({
             ollamaConnected ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'
           }`}>
             {ollamaConnected ? 'Connected' : 'Offline (using fallback)'}
+          </span>
+          <span className="text-xs text-gray-500">
+            {ollamaConnected ? 
+              'Using Mistral AI for high-quality embeddings' : 
+              'Using keyword-based fallback embeddings'
+            }
           </span>
         </div>
         

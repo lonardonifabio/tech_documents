@@ -15,9 +15,27 @@ export class EmbeddingService {
 
   async checkOllamaConnection(): Promise<boolean> {
     try {
-      const response = await fetch(`${this.ollamaUrl}/api/tags`);
-      return response.ok;
-    } catch {
+      const response = await fetch(`${this.ollamaUrl}/api/tags`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        signal: AbortSignal.timeout(5000) // 5 second timeout
+      });
+      
+      if (response.ok) {
+        const data = await response.json();
+        // Check if Mistral model is available
+        const models = data.models || [];
+        const hasMistral = models.some((model: any) => 
+          model.name && model.name.toLowerCase().includes('mistral')
+        );
+        console.log('Ollama models available:', models.map((m: any) => m.name));
+        return hasMistral;
+      }
+      return false;
+    } catch (error) {
+      console.log('Ollama connection failed:', error);
       return false;
     }
   }
