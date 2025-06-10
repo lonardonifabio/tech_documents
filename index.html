@@ -531,11 +531,15 @@
         const DocumentLibrary = () => {
             const [documents, setDocuments] = useState([]);
             const [filteredDocs, setFilteredDocs] = useState([]);
+            const [displayedDocs, setDisplayedDocs] = useState([]);
             const [searchTerm, setSearchTerm] = useState('');
             const [selectedCategory, setSelectedCategory] = useState('');
             const [selectedDifficulty, setSelectedDifficulty] = useState('');
             const [loading, setLoading] = useState(true);
             const [error, setError] = useState(null);
+            const [currentPage, setCurrentPage] = useState(1);
+            const [isLoadingMore, setIsLoadingMore] = useState(false);
+            const ITEMS_PER_PAGE = 20;
 
             useEffect(() => {
                 // Try multiple possible paths for the documents.json file
@@ -679,7 +683,28 @@
                 }
 
                 setFilteredDocs(filtered);
+                setCurrentPage(1); // Reset to first page when filters change
             }, [searchTerm, selectedCategory, selectedDifficulty, documents]);
+
+            // Update displayed documents based on current page
+            useEffect(() => {
+                const startIndex = 0;
+                const endIndex = currentPage * ITEMS_PER_PAGE;
+                setDisplayedDocs(filteredDocs.slice(startIndex, endIndex));
+            }, [filteredDocs, currentPage]);
+
+            // Load more function
+            const handleLoadMore = () => {
+                setIsLoadingMore(true);
+                // Simulate loading delay for better UX
+                setTimeout(() => {
+                    setCurrentPage(prev => prev + 1);
+                    setIsLoadingMore(false);
+                }, 500);
+            };
+
+            // Check if there are more documents to load
+            const hasMoreDocuments = displayedDocs.length < filteredDocs.length;
 
             const categories = [...new Set(documents.map(doc => doc.category))];
             const difficulties = [...new Set(documents.map(doc => doc.difficulty))];
@@ -747,13 +772,54 @@
                         {filteredDocs.length > 0 ? (
                             <>
                                 <div className="mb-6 text-sm text-gray-600 bg-white px-4 py-2 rounded-lg inline-block">
-                                    📊 Showing {filteredDocs.length} of {documents.length} documents
+                                    📊 Showing {displayedDocs.length} of {filteredDocs.length} documents
+                                    {filteredDocs.length !== documents.length && (
+                                        <span className="text-gray-400"> (filtered from {documents.length} total)</span>
+                                    )}
                                 </div>
-                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                                    {filteredDocs.map(doc => (
+                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-8">
+                                    {displayedDocs.map(doc => (
                                         <DocumentCard key={doc.id} doc={doc} />
                                     ))}
                                 </div>
+                                
+                                {/* Load More Button */}
+                                {hasMoreDocuments && (
+                                    <div className="text-center">
+                                        <button
+                                            onClick={handleLoadMore}
+                                            disabled={isLoadingMore}
+                                            className="bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 disabled:scale-100 shadow-lg"
+                                        >
+                                            {isLoadingMore ? (
+                                                <div className="flex items-center space-x-2">
+                                                    <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>
+                                                    <span>Loading...</span>
+                                                </div>
+                                            ) : (
+                                                <div className="flex items-center space-x-2">
+                                                    <span>Load More Documents</span>
+                                                    <span className="bg-blue-500 text-white px-2 py-1 rounded-full text-xs">
+                                                        +{Math.min(ITEMS_PER_PAGE, filteredDocs.length - displayedDocs.length)}
+                                                    </span>
+                                                </div>
+                                            )}
+                                        </button>
+                                        <p className="text-sm text-gray-500 mt-2">
+                                            {filteredDocs.length - displayedDocs.length} more documents available
+                                        </p>
+                                    </div>
+                                )}
+                                
+                                {/* Show all loaded message when all documents are displayed */}
+                                {!hasMoreDocuments && displayedDocs.length > ITEMS_PER_PAGE && (
+                                    <div className="text-center py-8">
+                                        <div className="inline-flex items-center space-x-2 bg-green-50 text-green-700 px-4 py-2 rounded-lg border border-green-200">
+                                            <span>✅</span>
+                                            <span>All {filteredDocs.length} documents loaded</span>
+                                        </div>
+                                    </div>
+                                )}
                             </>
                         ) : (
                             <div className="text-center py-16 bg-white rounded-lg">
