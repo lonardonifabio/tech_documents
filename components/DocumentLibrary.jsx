@@ -143,9 +143,74 @@ const DocumentLibrary = () => {
     return `https://github.com/lonardonifabio/tech_documents/blob/main/${filepath}`;
   };
 
+  const handleKnowledgeGraph = () => {
+    if (filteredDocs.length <= 50) {
+      // The filtered documents serve as INPUT for the knowledge graph
+      // All applied filters (search term, category, difficulty) are preserved
+      const knowledgeGraphInput = {
+        documents: filteredDocs,
+        filters: {
+          searchTerm,
+          selectedCategory,
+          selectedDifficulty
+        },
+        totalDocuments: filteredDocs.length
+      };
+      
+      console.log('Knowledge Graph INPUT:', knowledgeGraphInput);
+      
+      // Here you would navigate to the knowledge graph page or component
+      // passing the filtered documents as input
+      // Example: navigate('/knowledge-graph', { state: knowledgeGraphInput });
+      
+      alert(`Knowledge Graph will be generated using ${filteredDocs.length} filtered documents as INPUT`);
+    }
+  };
+
   return (
     <div className="max-w-6xl mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-8">AI & Data Science Document Library</h1>
+      {/* Header with Knowledge Graph button */}
+      <div className="flex justify-between items-center mb-8">
+        <h1 className="text-3xl font-bold">AI & Data Science Document Library</h1>
+        
+        {/* Knowledge Graph Button */}
+        <button
+          onClick={handleKnowledgeGraph}
+          disabled={filteredDocs.length > 50}
+          className={`px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-200 ${
+            filteredDocs.length <= 50
+              ? 'bg-purple-600 text-white hover:bg-purple-700 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5'
+              : 'bg-gray-300 text-gray-500 cursor-not-allowed opacity-60'
+          }`}
+          title={
+            filteredDocs.length <= 50
+              ? `Generate Knowledge Graph with ${filteredDocs.length} documents`
+              : `Knowledge Graph unavailable - too many documents (${filteredDocs.length}/50 max)`
+          }
+        >
+          <div className="flex items-center space-x-2">
+            <svg 
+              className="w-5 h-5" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+            >
+              <path 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                strokeWidth={2} 
+                d="M13 10V3L4 14h7v7l9-11h-7z" 
+              />
+            </svg>
+            <span>KNOWLEDGE GRAPH</span>
+            {filteredDocs.length <= 50 && (
+              <span className="bg-white bg-opacity-20 px-2 py-1 rounded text-xs">
+                {filteredDocs.length}
+              </span>
+            )}
+          </div>
+        </button>
+      </div>
 
       {/* Search filters */}
       <div className="mb-8 space-y-4">
