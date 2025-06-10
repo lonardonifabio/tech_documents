@@ -16,6 +16,9 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
   const [selectedDocument, setSelectedDocument] = useState<DocumentNode | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
+  // Determine if Knowledge Graph button should be active
+  const isKnowledgeGraphActive = filteredDocuments.length > 0 ? filteredDocuments.length <= 50 : documents.length <= 50;
+
   // Load documents
   useEffect(() => {
     const loadDocuments = async () => {
@@ -137,14 +140,36 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
               </button>
               <button
                 onClick={() => setCurrentView('graph')}
+                disabled={!isKnowledgeGraphActive}
                 className={`flex-1 sm:flex-none px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-md transition-colors ${
                   currentView === 'graph'
                     ? 'bg-white text-gray-900 shadow-sm'
-                    : 'text-gray-600 hover:text-gray-900'
+                    : isKnowledgeGraphActive
+                    ? 'text-gray-600 hover:text-gray-900'
+                    : 'text-gray-400 cursor-not-allowed'
                 }`}
+                title={
+                  isKnowledgeGraphActive
+                    ? 'Open Knowledge Graph'
+                    : `Knowledge Graph unavailable (${filteredDocuments.length > 0 ? filteredDocuments.length : documents.length} results > 50 limit)`
+                }
               >
-                <span className="hidden sm:inline">🕸️ Knowledge Graph</span>
-                <span className="sm:hidden">🕸️ Graph</span>
+                <span className="hidden sm:inline">
+                  🕸️ Knowledge Graph
+                  {!isKnowledgeGraphActive && (
+                    <span className="ml-1 text-xs">
+                      ({filteredDocuments.length > 0 ? filteredDocuments.length : documents.length}/50)
+                    </span>
+                  )}
+                </span>
+                <span className="sm:hidden">
+                  🕸️ Graph
+                  {!isKnowledgeGraphActive && (
+                    <span className="ml-1 text-xs">
+                      ({filteredDocuments.length > 0 ? filteredDocuments.length : documents.length}/50)
+                    </span>
+                  )}
+                </span>
               </button>
             </div>
           </div>

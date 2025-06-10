@@ -250,28 +250,6 @@ const DocumentLibrary: React.FC<DocumentLibraryProps> = ({
             Developed by <a href="https://www.fabiolonardoni.it" className="text-blue-500 hover:underline">Fabio Lonardoni</a>
           </p>
           
-          {/* Knowledge Graph Button - Top Right */}
-          <div className="absolute top-0 right-0">
-            <button
-              onClick={onKnowledgeGraphClick}
-              disabled={!isKnowledgeGraphActive}
-              className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
-                isKnowledgeGraphActive
-                  ? 'bg-blue-600 text-white hover:bg-blue-700 shadow-md'
-                  : 'bg-gray-300 text-gray-500 cursor-not-allowed'
-              }`}
-              title={
-                isKnowledgeGraphActive
-                  ? 'Open Knowledge Graph'
-                  : `Knowledge Graph unavailable (${filteredDocs.length} results > 50 limit)`
-              }
-            >
-              🕸️ Knowledge Graph
-              {!isKnowledgeGraphActive && (
-                <span className="ml-2 text-xs">({filteredDocs.length}/50)</span>
-              )}
-            </button>
-          </div>
         </header>
 
         <SearchFilters
