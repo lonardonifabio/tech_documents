@@ -1,0 +1,289 @@
+import React, { useState, useEffect } from 'react';
+import DocumentLibrary from './DocumentLibrary';
+import KnowledgeGraph from './KnowledgeGraph';
+import type { DocumentNode } from '../types/knowledge-graph';
+
+interface DocumentLibraryWithGraphProps {
+  initialView?: 'library' | 'graph';
+}
+
+const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({ 
+  initialView = 'library' 
+}) => {
+  const [documents, setDocuments] = useState<DocumentNode[]>([]);
+  const [currentView, setCurrentView] = useState<'library' | 'graph'>(initialView);
+  const [selectedDocument, setSelectedDocument] = useState<DocumentNode | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Load documents
+  useEffect(() => {
+    const loadDocuments = async () => {
+      try {
+        // Try different paths for documents.json based on environment
+        const possiblePaths = [
+          '/tech_documents/data/documents.json',
+          '/dist/data/documents.json',
+          '/data/documents.json',
+          './data/documents.json'
+        ];
+
+        let data = null;
+        for (const path of possiblePaths) {
+          try {
+            const response = await fetch(path);
+            if (response.ok) {
+              data = await response.json();
+              break;
+            }
+          } catch (error) {
+            console.warn(`Failed to load from ${path}:`, error);
+          }
+        }
+
+        if (data) {
+          setDocuments(data);
+        } else {
+          console.error('Could not load documents from any path');
+          setDocuments([]);
+        }
+      } catch (error) {
+        console.error('Error loading documents:', error);
+        setDocuments([]);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    loadDocuments();
+  }, []);
+
+  // Register service worker
+  useEffect(() => {
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/tech_documents/sw.js')
+        .then((registration) => {
+          console.log('Service Worker registered:', registration);
+        })
+        .catch((error) => {
+          console.warn('Service Worker registration failed:', error);
+        });
+    }
+  }, []);
+
+  const handleNodeClick = (node: DocumentNode) => {
+    setSelectedDocument(node);
+    // Open document in new tab
+    const githubRawUrl = `https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${node.filepath}`;
+    const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(githubRawUrl)}`;
+    window.open(pdfViewerUrl, '_blank');
+  };
+
+  const handleNodeHover = (_node: DocumentNode | null) => {
+    // Could be used for additional hover effects
+  };
+
+  const getDocumentPreviewUrl = (filepath: string) => {
+    const githubRawUrl = `https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${filepath}`;
+    return `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(githubRawUrl)}`;
+  };
+
+  const getGitHubPreviewUrl = (filepath: string) => {
+    return `https://github.com/lonardonifabio/tech_documents/blob/main/${filepath}`;
+  };
+
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <div className="text-lg text-gray-600">Loading document library...</div>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* Header */}
+      <header className="bg-white shadow-sm border-b">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center py-4">
+            <div>
+              <h1 className="text-2xl font-bold text-gray-900">
+                AI & Data Science Document Library
+              </h1>
+              <p className="text-sm text-gray-600 mt-1">
+                {documents.length} documents • Interactive knowledge graph powered by AI
+              </p>
+            </div>
+            
+            {/* View Toggle */}
+            <div className="flex items-center space-x-1 bg-gray-100 rounded-lg p-1">
+              <button
+                onClick={() => setCurrentView('library')}
+                className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+                  currentView === 'library'
+                    ? 'bg-white text-gray-900 shadow-sm'
+                    : 'text-gray-600 hover:text-gray-900'
+                }`}
+              >
+                📚 Library View
+              </button>
+              <button
+                onClick={() => setCurrentView('graph')}
+                className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
+                  currentView === 'graph'
+                    ? 'bg-white text-gray-900 shadow-sm'
+                    : 'text-gray-600 hover:text-gray-900'
+                }`}
+              >
+                🕸️ Knowledge Graph
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {currentView === 'library' ? (
+          <div className="bg-white rounded-lg shadow-sm">
+            <DocumentLibrary />
+          </div>
+        ) : (
+          <div className="space-y-6">
+            {/* Knowledge Graph Info */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <div className="flex items-start justify-between">
+                <div>
+                  <h2 className="text-xl font-semibold text-gray-900 mb-2">
+                    Interactive Knowledge Graph
+                  </h2>
+                  <p className="text-gray-600 text-sm mb-4">
+                    Explore document relationships based on AI-generated embeddings. 
+                    Documents are clustered by topic and connected by semantic similarity.
+                  </p>
+                  <div className="flex flex-wrap gap-4 text-xs text-gray-500">
+                    <div className="flex items-center gap-1">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                      <span>Node size = File size</span>
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                      <span>Colors = AI-detected topics</span>
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <div className="w-8 h-0.5 bg-gray-400"></div>
+                      <span>Links = Semantic similarity</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {selectedDocument && (
+                  <div className="ml-6 p-4 bg-gray-50 rounded-lg max-w-sm">
+                    <h3 className="font-medium text-sm mb-2">Selected Document:</h3>
+                    <p className="text-sm font-semibold mb-1">{selectedDocument.title}</p>
+                    <p className="text-xs text-gray-600 mb-3">
+                      {selectedDocument.summary.substring(0, 100)}...
+                    </p>
+                    <div className="flex gap-2">
+                      <a
+                        href={getDocumentPreviewUrl(selectedDocument.filepath)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs bg-blue-600 text-white px-2 py-1 rounded hover:bg-blue-700"
+                      >
+                        View PDF
+                      </a>
+                      <a
+                        href={getGitHubPreviewUrl(selectedDocument.filepath)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs border border-gray-300 text-gray-700 px-2 py-1 rounded hover:bg-gray-50"
+                      >
+                        GitHub
+                      </a>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Knowledge Graph */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <KnowledgeGraph
+                documents={documents}
+                width={1000}
+                height={700}
+                onNodeClick={handleNodeClick}
+                onNodeHover={handleNodeHover}
+              />
+            </div>
+
+            {/* Instructions */}
+            <div className="bg-blue-50 rounded-lg p-6">
+              <h3 className="text-lg font-semibold text-blue-900 mb-3">
+                How to Use the Knowledge Graph
+              </h3>
+              <div className="grid md:grid-cols-2 gap-4 text-sm text-blue-800">
+                <div>
+                  <h4 className="font-medium mb-2">🖱️ Interactions:</h4>
+                  <ul className="space-y-1 text-blue-700">
+                    <li>• <strong>Click</strong> nodes to open documents</li>
+                    <li>• <strong>Hover</strong> to see document previews</li>
+                    <li>• <strong>Drag</strong> nodes to reposition them</li>
+                    <li>• <strong>Scroll</strong> to zoom in/out</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-medium mb-2">🎯 Features:</h4>
+                  <ul className="space-y-1 text-blue-700">
+                    <li>• <strong>Topic filtering</strong> to focus on specific areas</li>
+                    <li>• <strong>Semantic connections</strong> show related documents</li>
+                    <li>• <strong>Offline support</strong> via service worker caching</li>
+                    <li>• <strong>AI-powered</strong> topic detection and clustering</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+      </main>
+
+      {/* Footer */}
+      <footer className="bg-white border-t mt-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
+            <div>
+              <p>
+                Powered by{' '}
+                <a href="https://d3js.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                  D3.js
+                </a>
+                {' '}and{' '}
+                <a href="https://ollama.ai/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                  Ollama
+                </a>
+                {' '}• Built with{' '}
+                <a href="https://astro.build/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                  Astro
+                </a>
+                {' '}and{' '}
+                <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                  React
+                </a>
+              </p>
+            </div>
+            <div className="mt-2 md:mt-0">
+              <p>
+                Interactive Knowledge Graph • Bundle size optimized • Works offline
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default DocumentLibraryWithGraph;

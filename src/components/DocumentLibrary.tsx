@@ -109,7 +109,7 @@ const DocumentLibrary: React.FC = () => {
       } else {
         // Individual word search
         const words = term.split(/\s+/);
-        return words.every(word => 
+        return words.every((word: string) => 
           searchFields.some(field => field.includes(word))
         );
       }

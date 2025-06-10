@@ -53,7 +53,7 @@ const { title, description = "Automated AI/Data Science Document Library" } = As
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js')
+          navigator.serviceWorker.register('/tech_documents/sw.js')
             .then((registration) => {
               console.log('SW registered: ', registration);
             })

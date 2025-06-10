@@ -1,0 +1,426 @@
+import React, { useEffect, useRef, useState, useCallback } from 'react';
+import * as d3 from 'd3';
+import type { 
+  DocumentNode, 
+  DocumentLink, 
+  GraphData, 
+  EmbeddingData, 
+  TopicCluster, 
+  KnowledgeGraphProps 
+} from '../types/knowledge-graph';
+import { EmbeddingService } from '../services/embedding-service';
+
+const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({
+  documents,
+  width = 800,
+  height = 600,
+  onNodeClick,
+  onNodeHover
+}) => {
+  const svgRef = useRef<SVGSVGElement>(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [embeddings, setEmbeddings] = useState<EmbeddingData | null>(null);
+  const [topicClusters, setTopicClusters] = useState<TopicCluster[]>([]);
+  const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
+  const [hoveredNode, setHoveredNode] = useState<DocumentNode | null>(null);
+  const [ollamaConnected, setOllamaConnected] = useState(false);
+  const embeddingService = EmbeddingService.getInstance();
+
+  // Check Ollama connection on mount
+  useEffect(() => {
+    const checkConnection = async () => {
+      const connected = await embeddingService.checkOllamaConnection();
+      setOllamaConnected(connected);
+    };
+    checkConnection();
+  }, []);
+
+  // Load cached embeddings or generate new ones
+  useEffect(() => {
+    const loadEmbeddings = async () => {
+      if (documents.length === 0) return;
+
+      setIsLoading(true);
+      
+      // Try to load cached embeddings first
+      const cached = embeddingService.loadCachedEmbeddings();
+      if (cached && Object.keys(cached).length > 0) {
+        setEmbeddings(cached);
+        const clusters = embeddingService.generateTopicClusters(cached);
+        setTopicClusters(clusters);
+        setIsLoading(false);
+        return;
+      }
+
+      // Generate new embeddings
+      try {
+        const newEmbeddings = await embeddingService.processDocuments(documents);
+        setEmbeddings(newEmbeddings);
+        
+        const clusters = embeddingService.generateTopicClusters(newEmbeddings);
+        setTopicClusters(clusters);
+        
+        // Save embeddings for future use
+        await embeddingService.saveEmbeddings(newEmbeddings);
+      } catch (error) {
+        console.error('Failed to generate embeddings:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    loadEmbeddings();
+  }, [documents]);
+
+  // Generate graph data from embeddings
+  const generateGraphData = useCallback((): GraphData => {
+    if (!embeddings) return { nodes: [], links: [] };
+
+    const nodes: DocumentNode[] = documents.map(doc => {
+      const embeddingData = embeddings[doc.id];
+      
+      return {
+        ...doc,
+        embedding: embeddingData?.embedding,
+        topic: embeddingData?.topic || 'Other'
+      };
+    });
+
+    const links: DocumentLink[] = [];
+    const similarityThreshold = 0.3;
+
+    // Generate links based on similarity
+    for (let i = 0; i < nodes.length; i++) {
+      for (let j = i + 1; j < nodes.length; j++) {
+        const node1 = nodes[i];
+        const node2 = nodes[j];
+        
+        if (node1.embedding && node2.embedding) {
+          const similarity = embeddingService.calculateSimilarity(
+            node1.embedding,
+            node2.embedding
+          );
+          
+          if (similarity > similarityThreshold) {
+            links.push({
+              source: node1.id,
+              target: node2.id,
+              similarity,
+              weight: similarity
+            });
+          }
+        }
+      }
+    }
+
+    return { nodes, links };
+  }, [documents, embeddings, topicClusters]);
+
+  // D3 visualization
+  useEffect(() => {
+    if (!svgRef.current || !embeddings) return;
+
+    const svg = d3.select(svgRef.current);
+    svg.selectAll('*').remove();
+
+    const graphData = generateGraphData();
+    if (graphData.nodes.length === 0) return;
+
+    // Set up dimensions and margins
+    const margin = { top: 20, right: 20, bottom: 20, left: 20 };
+    const innerWidth = width - margin.left - margin.right;
+    const innerHeight = height - margin.top - margin.bottom;
+
+    // Create main group
+    const g = svg
+      .attr('width', width)
+      .attr('height', height)
+      .append('g')
+      .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    // Set up zoom behavior
+    const zoom = d3.zoom<SVGSVGElement, unknown>()
+      .scaleExtent([0.1, 4])
+      .on('zoom', (event) => {
+        g.attr('transform', event.transform);
+      });
+
+    svg.call(zoom);
+
+    // Create force simulation
+    const simulation = d3.forceSimulation<DocumentNode>(graphData.nodes)
+      .force('link', d3.forceLink<DocumentNode, DocumentLink>(graphData.links)
+        .id(d => d.id)
+        .distance(d => 100 / (d.weight + 0.1))
+        .strength(d => d.weight)
+      )
+      .force('charge', d3.forceManyBody().strength(-300))
+      .force('center', d3.forceCenter(innerWidth / 2, innerHeight / 2))
+      .force('collision', d3.forceCollide().radius(25));
+
+    // Color scale for topics
+    const colorScale = d3.scaleOrdinal<string>()
+      .domain(topicClusters.map(c => c.topic))
+      .range(topicClusters.map(c => c.color));
+
+    // Create links
+    const link = g.append('g')
+      .attr('class', 'links')
+      .selectAll('line')
+      .data(graphData.links)
+      .enter()
+      .append('line')
+      .attr('stroke', '#999')
+      .attr('stroke-opacity', 0.6)
+      .attr('stroke-width', d => Math.sqrt(d.weight * 5));
+
+    // Create nodes
+    const node = g.append('g')
+      .attr('class', 'nodes')
+      .selectAll('circle')
+      .data(graphData.nodes)
+      .enter()
+      .append('circle')
+      .attr('r', d => Math.sqrt(d.file_size / 100000) + 8)
+      .attr('fill', d => colorScale(d.topic || 'Other'))
+      .attr('stroke', '#fff')
+      .attr('stroke-width', 2)
+      .style('cursor', 'pointer')
+      .style('opacity', d => selectedTopic ? (d.topic === selectedTopic ? 1 : 0.3) : 1);
+
+    // Add labels
+    const labels = g.append('g')
+      .attr('class', 'labels')
+      .selectAll('text')
+      .data(graphData.nodes)
+      .enter()
+      .append('text')
+      .text(d => d.title.length > 20 ? d.title.substring(0, 20) + '...' : d.title)
+      .attr('font-size', '10px')
+      .attr('font-family', 'Arial, sans-serif')
+      .attr('text-anchor', 'middle')
+      .attr('dy', '0.35em')
+      .attr('pointer-events', 'none')
+      .style('opacity', d => selectedTopic ? (d.topic === selectedTopic ? 1 : 0.3) : 0.8);
+
+    // Add drag behavior
+    const drag = d3.drag<SVGCircleElement, DocumentNode>()
+      .on('start', (event, d) => {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+      })
+      .on('drag', (event, d) => {
+        d.fx = event.x;
+        d.fy = event.y;
+      })
+      .on('end', (event, d) => {
+        if (!event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+      });
+
+    node.call(drag);
+
+    // Add event handlers
+    node
+      .on('mouseover', (_event, d) => {
+        setHoveredNode(d);
+        onNodeHover?.(d);
+        
+        // Highlight connected nodes
+        const connectedNodeIds = new Set<string>();
+        graphData.links.forEach(link => {
+          if (link.source === d.id || (typeof link.source === 'object' && link.source.id === d.id)) {
+            connectedNodeIds.add(typeof link.target === 'string' ? link.target : link.target.id);
+          }
+          if (link.target === d.id || (typeof link.target === 'object' && link.target.id === d.id)) {
+            connectedNodeIds.add(typeof link.source === 'string' ? link.source : link.source.id);
+          }
+        });
+
+        node.style('opacity', n => n.id === d.id || connectedNodeIds.has(n.id) ? 1 : 0.3);
+        link.style('opacity', l => {
+          const sourceId = typeof l.source === 'string' ? l.source : l.source.id;
+          const targetId = typeof l.target === 'string' ? l.target : l.target.id;
+          return sourceId === d.id || targetId === d.id ? 1 : 0.1;
+        });
+      })
+      .on('mouseout', () => {
+        setHoveredNode(null);
+        onNodeHover?.(null);
+        
+        node.style('opacity', d => selectedTopic ? (d.topic === selectedTopic ? 1 : 0.3) : 1);
+        link.style('opacity', 0.6);
+      })
+      .on('click', (event, d) => {
+        event.stopPropagation();
+        onNodeClick?.(d);
+      });
+
+    // Update positions on simulation tick
+    simulation.on('tick', () => {
+      link
+        .attr('x1', d => (d.source as DocumentNode).x!)
+        .attr('y1', d => (d.source as DocumentNode).y!)
+        .attr('x2', d => (d.target as DocumentNode).x!)
+        .attr('y2', d => (d.target as DocumentNode).y!);
+
+      node
+        .attr('cx', d => d.x!)
+        .attr('cy', d => d.y!);
+
+      labels
+        .attr('x', d => d.x!)
+        .attr('y', d => d.y! + 30);
+    });
+
+    // Cleanup
+    return () => {
+      simulation.stop();
+    };
+  }, [embeddings, generateGraphData, width, height, selectedTopic, onNodeClick, onNodeHover, topicClusters]);
+
+  const handleTopicFilter = (topic: string | null) => {
+    setSelectedTopic(selectedTopic === topic ? null : topic);
+  };
+
+  const handleRegenerateEmbeddings = async () => {
+    setIsLoading(true);
+    try {
+      // Clear cache
+      localStorage.removeItem('document-embeddings');
+      
+      // Generate new embeddings
+      const newEmbeddings = await embeddingService.processDocuments(documents);
+      setEmbeddings(newEmbeddings);
+      
+      const clusters = embeddingService.generateTopicClusters(newEmbeddings);
+      setTopicClusters(clusters);
+      
+      await embeddingService.saveEmbeddings(newEmbeddings);
+    } catch (error) {
+      console.error('Failed to regenerate embeddings:', error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  return (
+    <div className="knowledge-graph-container">
+      {/* Controls */}
+      <div className="mb-4 flex flex-wrap items-center gap-2">
+        <div className="flex items-center gap-2">
+          <span className="text-sm font-medium">Ollama Status:</span>
+          <span className={`text-sm px-2 py-1 rounded ${
+            ollamaConnected ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'
+          }`}>
+            {ollamaConnected ? 'Connected' : 'Offline (using fallback)'}
+          </span>
+        </div>
+        
+        <button
+          onClick={handleRegenerateEmbeddings}
+          disabled={isLoading}
+          className="px-3 py-1 text-sm bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50"
+        >
+          {isLoading ? 'Processing...' : 'Regenerate Embeddings'}
+        </button>
+      </div>
+
+      {/* Topic filters */}
+      {topicClusters.length > 0 && (
+        <div className="mb-4">
+          <div className="text-sm font-medium mb-2">Filter by Topic:</div>
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => handleTopicFilter(null)}
+              className={`px-3 py-1 text-sm rounded border ${
+                selectedTopic === null 
+                  ? 'bg-gray-800 text-white' 
+                  : 'bg-white text-gray-700 hover:bg-gray-50'
+              }`}
+            >
+              All Topics
+            </button>
+            {topicClusters.map(cluster => (
+              <button
+                key={cluster.topic}
+                onClick={() => handleTopicFilter(cluster.topic)}
+                className={`px-3 py-1 text-sm rounded border ${
+                  selectedTopic === cluster.topic
+                    ? 'text-white'
+                    : 'bg-white text-gray-700 hover:bg-gray-50'
+                }`}
+                style={{
+                  backgroundColor: selectedTopic === cluster.topic ? cluster.color : undefined,
+                  borderColor: cluster.color
+                }}
+              >
+                {cluster.topic} ({cluster.documents.length})
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Loading state */}
+      {isLoading && (
+        <div className="flex items-center justify-center h-64">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-2"></div>
+            <div className="text-sm text-gray-600">
+              {ollamaConnected ? 'Generating AI embeddings...' : 'Processing documents...'}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Graph */}
+      {!isLoading && embeddings && (
+        <div className="relative">
+          <svg ref={svgRef} className="border rounded-lg bg-white"></svg>
+          
+          {/* Hover tooltip */}
+          {hoveredNode && (
+            <div className="absolute top-4 left-4 bg-white p-3 rounded-lg shadow-lg border max-w-xs z-10">
+              <h4 className="font-semibold text-sm mb-1">{hoveredNode.title}</h4>
+              <p className="text-xs text-gray-600 mb-2">{hoveredNode.summary.substring(0, 100)}...</p>
+              <div className="flex items-center gap-2 text-xs">
+                <span className="px-2 py-1 rounded" style={{ 
+                  backgroundColor: topicClusters.find(c => c.topic === hoveredNode.topic)?.color + '20',
+                  color: topicClusters.find(c => c.topic === hoveredNode.topic)?.color
+                }}>
+                  {hoveredNode.topic}
+                </span>
+                <span className="text-gray-500">
+                  {(hoveredNode.file_size / 1024 / 1024).toFixed(1)} MB
+                </span>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Legend */}
+      {topicClusters.length > 0 && !isLoading && (
+        <div className="mt-4 p-3 bg-gray-50 rounded-lg">
+          <div className="text-sm font-medium mb-2">Topic Legend:</div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 text-xs">
+            {topicClusters.map(cluster => (
+              <div key={cluster.topic} className="flex items-center gap-2">
+                <div 
+                  className="w-3 h-3 rounded-full"
+                  style={{ backgroundColor: cluster.color }}
+                ></div>
+                <span>{cluster.topic}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default KnowledgeGraph;
