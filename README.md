@@ -52,31 +52,47 @@ react OR vue OR angular
 
 ```
 ├── .github/workflows/
-│   └── deploy.yml              # Astro deployment workflow
+│   └── deploy.yml              # Automated deployment workflow
+├── .gitignore                  # Git ignore rules for build artifacts
+├── astro.config.mjs           # Astro configuration
+├── package.json               # Node.js dependencies and scripts
+├── package-lock.json          # Locked dependency versions
+├── tailwind.config.mjs        # Tailwind CSS configuration
+├── tsconfig.json              # TypeScript configuration
+├── README.md                  # Project documentation
 ├── src/
 │   ├── layouts/
 │   │   └── Layout.astro        # Main layout with PWA meta tags
 │   ├── pages/
 │   │   └── index.astro         # Homepage with DocumentLibrary island
 │   └── components/
-│       ├── DocumentLibrary.tsx # Main app component (React Island)
-│       ├── DocumentCard.tsx    # Document display component
-│       ├── PDFModal.tsx        # PDF preview modal
-│       ├── SearchFilters.tsx   # Advanced search interface
-│       ├── LoadingSpinner.tsx  # Loading state
-│       └── ErrorMessage.tsx    # Error handling
+│       └── (React components will be here)
+├── components/
+│   └── DocumentLibrary.jsx     # Main React component (legacy location)
 ├── public/
 │   ├── sw.js                   # Service Worker for PWA
 │   ├── manifest.json           # Web App Manifest
 │   └── .nojekyll              # Disables Jekyll processing
-├── documents/                  # PDF documents to process
+├── documents/                  # PDF documents collection (200+ files)
+│   ├── AI and ML papers
+│   ├── Data Science guides
+│   ├── Business documents
+│   └── Technology reports
 ├── data/
 │   ├── documents.json         # Generated document metadata
 │   └── processed_files.json   # Processing state tracking
 └── scripts/
-    ├── ensure_data.py         # Data file initialization
+    ├── ensure_data.py         # Data file initialization script
     └── requirements.txt       # Python dependencies
 ```
+
+### Document Collection
+The `documents/` folder contains **200+ PDF files** covering:
+- **Artificial Intelligence**: Research papers, tutorials, and guides
+- **Machine Learning**: Algorithms, frameworks, and best practices
+- **Data Science**: Analytics, visualization, and statistical methods
+- **Business Intelligence**: Executive guides and strategic reports
+- **Technology**: Programming languages, tools, and frameworks
 
 ## 🚀 Quick Start
 
@@ -88,7 +104,7 @@ react OR vue OR angular
 
 1. **Clone and install**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/lonardonifabio/tech_documents.git
    cd tech_documents
    npm install
    ```
@@ -101,6 +117,7 @@ react OR vue OR angular
 3. **Start development server**
    ```bash
    npm run dev
+   # Opens at http://localhost:4321
    ```
 
 4. **Build for production**
@@ -108,6 +125,14 @@ react OR vue OR angular
    npm run build
    npm run preview
    ```
+
+### Repository Cleanup
+This repository has been cleaned of unnecessary files including:
+- Migration documentation files
+- Legacy React SPA files (index.html, vite.config.js)
+- Build artifacts and cache directories
+- Temporary and placeholder files
+- Added comprehensive .gitignore for future development
 
 ### GitHub Pages Deployment
 
@@ -214,17 +239,61 @@ npm run astro        # Astro CLI access
 - **SEO**: Improved with static HTML generation
 - **PWA**: Enhanced with service worker and manifest
 
+## 📊 Repository Statistics
+
+- **Total Documents**: 200+ PDF files
+- **Categories**: AI, Machine Learning, Data Science, Business, Technology
+- **File Size**: ~2GB of curated technical content
+- **Languages**: English technical documents
+- **Update Frequency**: Automated processing on new commits
+
+## 🔄 Recent Updates
+
+### Repository Cleanup (Latest)
+- ✅ Removed 9 migration documentation files
+- ✅ Removed legacy React SPA files (index.html, vite.config.js)
+- ✅ Removed unused Astro template directory
+- ✅ Removed build artifacts (.astro/, dist/, node_modules/)
+- ✅ Added comprehensive .gitignore file
+- ✅ Cleaned temporary and placeholder files
+
+### Architecture Migration
+- ✅ Migrated from React SPA to Astro SSG
+- ✅ Implemented React Islands architecture
+- ✅ Added PWA capabilities with service worker
+- ✅ Optimized for GitHub Pages deployment
+- ✅ Enhanced search with boolean operators
+
 ## 🤝 Contributing
 
-1. **Add Documents**: Place PDFs in `documents/` folder
-2. **Automatic Processing**: GitHub Actions handles the rest
-3. **Monitor Progress**: Check Actions tab for workflow status
+### Adding Documents
+1. **Add PDFs**: Place new PDF files in `documents/` folder
+2. **Commit Changes**: Push to main branch
+3. **Automatic Processing**: GitHub Actions will process new documents
+4. **Monitor Progress**: Check Actions tab for workflow status
+
+### Development Contributions
+1. **Fork the repository**
+2. **Create feature branch**: `git checkout -b feature/new-feature`
+3. **Make changes and test locally**
+4. **Submit pull request** with detailed description
+
+### File Organization
+- Place PDFs in appropriate subdirectories within `documents/`
+- Use descriptive filenames
+- Ensure files are under 25MB (GitHub limit)
 
 ## 📄 License
 
 This project is open source and available under the MIT License.
 
+## 🔗 Links
+
+- **Live Demo**: [AI Document Library](https://lonardonifabio.github.io/tech_documents/)
+- **Repository**: [GitHub](https://github.com/lonardonifabio/tech_documents)
+- **Developer**: [Fabio Lonardoni](https://www.fabiolonardoni.it)
+- **Issues**: [Report bugs or request features](https://github.com/lonardonifabio/tech_documents/issues)
+
 ---
 
-**Live Demo**: [AI Document Library](https://lonardonifabio.github.io/tech_documents/)
-**Developer**: [Fabio Lonardoni](https://www.fabiolonardoni.it)
+*Last updated: January 2025 - Repository cleaned and optimized for production*
