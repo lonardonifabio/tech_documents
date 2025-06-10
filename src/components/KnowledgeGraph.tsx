@@ -60,11 +60,11 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({
         );
       }
 
-      // Limit to top 50 documents by file size for performance
-      if (filtered.length > 50) {
+      // Limit to top 20 documents by file size for performance
+      if (filtered.length > 20) {
         filtered = filtered
           .sort((a, b) => b.file_size - a.file_size)
-          .slice(0, 50);
+          .slice(0, 20);
       }
     }
 
@@ -198,16 +198,18 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({
 
     svg.call(zoom);
 
-    // Create force simulation
+    // Create force simulation with optimized parameters for performance
     const simulation = d3.forceSimulation<DocumentNode>(graphData.nodes)
       .force('link', d3.forceLink<DocumentNode, DocumentLink>(graphData.links)
         .id(d => d.id)
-        .distance(d => 100 / (d.weight + 0.1))
-        .strength(d => d.weight)
+        .distance(d => 80 / (d.weight + 0.1))
+        .strength(d => d.weight * 0.5)
       )
-      .force('charge', d3.forceManyBody().strength(-300))
+      .force('charge', d3.forceManyBody().strength(-200))
       .force('center', d3.forceCenter(innerWidth / 2, innerHeight / 2))
-      .force('collision', d3.forceCollide().radius(25));
+      .force('collision', d3.forceCollide().radius(20))
+      .alphaDecay(0.05) // Faster convergence
+      .velocityDecay(0.8); // More damping for stability
 
     // Color scale for topics
     const colorScale = d3.scaleOrdinal<string>()
