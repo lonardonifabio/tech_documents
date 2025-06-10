@@ -11,6 +11,7 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
   initialView = 'library' 
 }) => {
   const [documents, setDocuments] = useState<DocumentNode[]>([]);
+  const [filteredDocuments, setFilteredDocuments] = useState<DocumentNode[]>([]);
   const [currentView, setCurrentView] = useState<'library' | 'graph'>(initialView);
   const [selectedDocument, setSelectedDocument] = useState<DocumentNode | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -82,6 +83,10 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
     // Could be used for additional hover effects
   };
 
+  const handleKnowledgeGraphClick = () => {
+    setCurrentView('graph');
+  };
+
   const getDocumentPreviewUrl = (filepath: string) => {
     const githubRawUrl = `https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${filepath}`;
     return `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(githubRawUrl)}`;
@@ -150,10 +155,29 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {currentView === 'library' ? (
           <div className="bg-white rounded-lg shadow-sm">
-            <DocumentLibrary />
+            <DocumentLibrary 
+              onKnowledgeGraphClick={handleKnowledgeGraphClick}
+              onFilteredDocumentsChange={setFilteredDocuments}
+            />
           </div>
         ) : (
           <div className="space-y-6">
+            {/* Back to Library Button */}
+            <div className="flex items-center justify-between">
+              <button
+                onClick={() => setCurrentView('library')}
+                className="flex items-center gap-2 px-4 py-2 text-blue-600 hover:text-blue-800 transition-colors"
+              >
+                ← Back to Library
+              </button>
+              <div className="text-sm text-gray-600">
+                Showing knowledge graph for {filteredDocuments.length > 0 ? filteredDocuments.length : documents.length} documents
+                {filteredDocuments.length > 0 && filteredDocuments.length !== documents.length && (
+                  <span className="text-gray-400"> (filtered from {documents.length} total)</span>
+                )}
+              </div>
+            </div>
+
             {/* Knowledge Graph Info */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <div className="flex items-start justify-between">
@@ -164,6 +188,9 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
                   <p className="text-gray-600 text-sm mb-4">
                     Explore document relationships based on AI-generated embeddings. 
                     Documents are clustered by topic and connected by semantic similarity.
+                    <span className="block mt-2 text-blue-600 font-medium">
+                      📊 Input: {documents.length} documents from search results
+                    </span>
                   </p>
                   <div className="flex flex-wrap gap-4 text-xs text-gray-500">
                     <div className="flex items-center gap-1">
@@ -214,7 +241,7 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
             {/* Knowledge Graph */}
             <div className="bg-white rounded-lg shadow-sm p-3 sm:p-6">
               <KnowledgeGraph
-                documents={documents}
+                documents={filteredDocuments.length > 0 ? filteredDocuments : documents}
                 width={typeof window !== 'undefined' ? Math.min(window.innerWidth - 100, 1000) : 1000}
                 height={typeof window !== 'undefined' ? Math.min(window.innerHeight - 300, 700) : 700}
                 onNodeClick={handleNodeClick}
@@ -240,7 +267,9 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
                 <div>
                   <h4 className="font-medium mb-2">🎯 Features:</h4>
                   <ul className="space-y-1 text-blue-700">
-                    <li>• <strong>Topic filtering</strong> to focus on specific areas</li>
+                    <li>• <strong>Category filtering</strong> to focus on specific areas</li>
+                    <li>• <strong>Tag filtering</strong> based on available keywords</li>
+                    <li>• <strong>Topic filtering</strong> by AI-detected themes</li>
                     <li>• <strong>Semantic connections</strong> show related documents</li>
                     <li>• <strong>Offline support</strong> via service worker caching</li>
                     <li>• <strong>AI-powered</strong> topic detection and clustering</li>

@@ -18,14 +18,27 @@ interface Document {
   upload_date: string;
 }
 
-const DocumentLibrary: React.FC = () => {
+interface DocumentLibraryProps {
+  onKnowledgeGraphClick?: () => void;
+  onFilteredDocumentsChange?: (documents: Document[]) => void;
+}
+
+const DocumentLibrary: React.FC<DocumentLibraryProps> = ({ 
+  onKnowledgeGraphClick, 
+  onFilteredDocumentsChange 
+}) => {
   const [documents, setDocuments] = useState<Document[]>([]);
   const [filteredDocs, setFilteredDocs] = useState<Document[]>([]);
+  const [displayedDocs, setDisplayedDocs] = useState<Document[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
   const [selectedDifficulty, setSelectedDifficulty] = useState('');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
+  
+  const ITEMS_PER_PAGE = 20;
 
   useEffect(() => {
     const loadDocuments = async () => {
@@ -44,8 +57,14 @@ const DocumentLibrary: React.FC = () => {
           if (response.ok) {
             const data = await response.json();
             console.log('Successfully loaded documents:', data);
-            setDocuments(data);
-            setFilteredDocs(data);
+            
+            // Sort documents by upload_date (most recent first) for pagination
+            const sortedData = data.sort((a: Document, b: Document) => 
+              new Date(b.upload_date).getTime() - new Date(a.upload_date).getTime()
+            );
+            
+            setDocuments(sortedData);
+            setFilteredDocs(sortedData);
             setLoading(false);
             return;
           }
@@ -151,6 +170,7 @@ const DocumentLibrary: React.FC = () => {
     });
   };
 
+  // Filter documents and reset pagination when filters change
   useEffect(() => {
     let filtered = documents;
 
@@ -170,7 +190,37 @@ const DocumentLibrary: React.FC = () => {
     }
 
     setFilteredDocs(filtered);
-  }, [searchTerm, selectedCategory, selectedDifficulty, documents]);
+    setCurrentPage(1); // Reset to first page when filters change
+    
+    // Notify parent component of filtered documents change
+    if (onFilteredDocumentsChange) {
+      onFilteredDocumentsChange(filtered);
+    }
+  }, [searchTerm, selectedCategory, selectedDifficulty, documents, onFilteredDocumentsChange]);
+
+  // Update displayed documents based on pagination
+  useEffect(() => {
+    const startIndex = 0;
+    const endIndex = currentPage * ITEMS_PER_PAGE;
+    setDisplayedDocs(filteredDocs.slice(startIndex, endIndex));
+  }, [filteredDocs, currentPage]);
+
+  // Load more documents
+  const handleLoadMore = async () => {
+    setIsLoadingMore(true);
+    
+    // Simulate loading delay for better UX
+    await new Promise(resolve => setTimeout(resolve, 500));
+    
+    setCurrentPage(prev => prev + 1);
+    setIsLoadingMore(false);
+  };
+
+  // Check if there are more documents to load
+  const hasMoreDocuments = displayedDocs.length < filteredDocs.length;
+
+  // Determine if Knowledge Graph button should be active
+  const isKnowledgeGraphActive = filteredDocs.length <= 50;
 
   const categories = [...new Set(documents.map(doc => doc.category))];
   const difficulties = [...new Set(documents.map(doc => doc.difficulty))];
@@ -186,7 +236,7 @@ const DocumentLibrary: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <header className="text-center mb-12">
+        <header className="text-center mb-12 relative">
           <h1 className="text-4xl font-bold text-gray-800 mb-4">
             🤖 AI & Data Science Library
           </h1>
@@ -199,6 +249,29 @@ const DocumentLibrary: React.FC = () => {
           <p className="text-sm text-gray-500">
             Developed by <a href="https://www.fabiolonardoni.it" className="text-blue-500 hover:underline">Fabio Lonardoni</a>
           </p>
+          
+          {/* Knowledge Graph Button - Top Right */}
+          <div className="absolute top-0 right-0">
+            <button
+              onClick={onKnowledgeGraphClick}
+              disabled={!isKnowledgeGraphActive}
+              className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
+                isKnowledgeGraphActive
+                  ? 'bg-blue-600 text-white hover:bg-blue-700 shadow-md'
+                  : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+              }`}
+              title={
+                isKnowledgeGraphActive
+                  ? 'Open Knowledge Graph'
+                  : `Knowledge Graph unavailable (${filteredDocs.length} results > 50 limit)`
+              }
+            >
+              🕸️ Knowledge Graph
+              {!isKnowledgeGraphActive && (
+                <span className="ml-2 text-xs">({filteredDocs.length}/50)</span>
+              )}
+            </button>
+          </div>
         </header>
 
         <SearchFilters
@@ -214,14 +287,49 @@ const DocumentLibrary: React.FC = () => {
 
         {filteredDocs.length > 0 ? (
           <>
-            <div className="mb-6 text-sm text-gray-600 bg-white px-4 py-2 rounded-lg inline-block">
-              📊 Showing {filteredDocs.length} of {documents.length} documents
+            <div className="mb-6 flex items-center justify-between">
+              <div className="text-sm text-gray-600 bg-white px-4 py-2 rounded-lg">
+                📊 Showing {displayedDocs.length} of {filteredDocs.length} documents
+                {filteredDocs.length !== documents.length && (
+                  <span className="text-gray-400"> (filtered from {documents.length} total)</span>
+                )}
+              </div>
+              
+              {/* Knowledge Graph Status Indicator */}
+              <div className={`text-xs px-3 py-1 rounded-full ${
+                isKnowledgeGraphActive 
+                  ? 'bg-green-100 text-green-800' 
+                  : 'bg-orange-100 text-orange-800'
+              }`}>
+                Knowledge Graph: {isKnowledgeGraphActive ? 'Available' : 'Unavailable'}
+              </div>
             </div>
+            
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {filteredDocs.map(doc => (
+              {displayedDocs.map(doc => (
                 <DocumentCard key={doc.id} doc={doc} />
               ))}
             </div>
+            
+            {/* Load More Button */}
+            {hasMoreDocuments && (
+              <div className="mt-8 text-center">
+                <button
+                  onClick={handleLoadMore}
+                  disabled={isLoadingMore}
+                  className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 font-medium"
+                >
+                  {isLoadingMore ? (
+                    <span className="flex items-center gap-2">
+                      <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>
+                      Loading...
+                    </span>
+                  ) : (
+                    `Load More (${filteredDocs.length - displayedDocs.length} remaining)`
+                  )}
+                </button>
+              </div>
+            )}
           </>
         ) : (
           <div className="text-center py-16 bg-white rounded-lg">
