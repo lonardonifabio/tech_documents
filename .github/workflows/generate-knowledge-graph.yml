@@ -55,13 +55,25 @@ jobs:
       if: steps.check_changes.outputs.documents_changed == 'true' || steps.check_changes.outputs.force_regenerate == 'true'
       run: |
         echo "🕸️ Generating knowledge graph data..."
-        cd scripts
-        python generate_knowledge_graph.py
+        echo "🕸️ Knowledge Graph Generator Starting..."
+        
+        # Check if documents.json exists
+        if [ ! -f "data/documents.json" ]; then
+          echo "Documents file not found: data/documents.json"
+          echo "Available files in data directory:"
+          ls -la data/ || echo "data directory not found"
+          echo "Current directory contents:"
+          ls -la
+          exit 1
+        fi
+        
+        # Run the script from the project root
+        python scripts/generate_knowledge_graph.py
         
         # Check if knowledge graph file was created
-        if [ -f "../data/knowledge_graph_embeddings.json" ]; then
+        if [ -f "data/knowledge_graph_embeddings.json" ]; then
           echo "✅ Knowledge graph data generated successfully"
-          ls -la ../data/knowledge_graph_embeddings.json
+          ls -la data/knowledge_graph_embeddings.json
         else
           echo "❌ Failed to generate knowledge graph data"
           exit 1

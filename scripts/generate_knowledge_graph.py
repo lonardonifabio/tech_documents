@@ -17,7 +17,10 @@ class KnowledgeGraphGenerator:
     def __init__(self, ollama_url: str = "http://localhost:11434"):
         self.ollama_url = ollama_url
         self.model = "mistral"
-        self.data_dir = Path("data")
+        # Handle both local and GitHub Actions environments
+        script_dir = Path(__file__).parent
+        project_root = script_dir.parent
+        self.data_dir = project_root / "data"
         self.documents_file = self.data_dir / "documents.json"
         self.embeddings_file = self.data_dir / "knowledge_graph_embeddings.json"
         

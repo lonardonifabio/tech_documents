@@ -3,15 +3,18 @@ import React, { useState, useEffect } from 'react';
 const DocumentLibrary = () => {
   const [documents, setDocuments] = useState([]);
   const [filteredDocs, setFilteredDocs] = useState([]);
+  const [displayedDocs, setDisplayedDocs] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
   const [selectedDifficulty, setSelectedDifficulty] = useState('');
   const [expandedDocs, setExpandedDocs] = useState(new Set());
   const [expandedAuthors, setExpandedAuthors] = useState(new Set());
+  const [itemsToShow, setItemsToShow] = useState(20);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     // Load documents from GitHub Pages
-    fetch('/dist/data/documents.json')
+    fetch('/tech_documents/data/documents.json')
       .then(response => response.json())
       .then(data => {
         setDocuments(data);
@@ -45,7 +48,25 @@ const DocumentLibrary = () => {
     }
 
     setFilteredDocs(filtered);
+    // Reset pagination when filters change
+    setItemsToShow(20);
   }, [searchTerm, selectedCategory, selectedDifficulty, documents]);
+
+  // Update displayed documents based on pagination
+  useEffect(() => {
+    setDisplayedDocs(filteredDocs.slice(0, itemsToShow));
+  }, [filteredDocs, itemsToShow]);
+
+  const loadMoreDocuments = () => {
+    setIsLoading(true);
+    // Simulate loading delay for better UX
+    setTimeout(() => {
+      setItemsToShow(prev => prev + 20);
+      setIsLoading(false);
+    }, 500);
+  };
+
+  const hasMoreDocuments = itemsToShow < filteredDocs.length;
 
   const categories = [...new Set(documents.map(doc => doc.category))];
   const difficulties = [...new Set(documents.map(doc => doc.difficulty))];
@@ -161,9 +182,16 @@ const DocumentLibrary = () => {
         </div>
       </div>
 
+      {/* Results summary */}
+      {filteredDocs.length > 0 && (
+        <div className="mb-4 text-sm text-gray-600">
+          Showing {displayedDocs.length} of {filteredDocs.length} documents
+        </div>
+      )}
+
       {/* Document grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredDocs.map(doc => {
+        {displayedDocs.map(doc => {
           const isExpanded = expandedDocs.has(doc.id);
           const shouldTruncate = doc.summary.length > 150;
           
@@ -274,6 +302,26 @@ const DocumentLibrary = () => {
           );
         })}
       </div>
+
+      {/* Load More Button */}
+      {hasMoreDocuments && (
+        <div className="text-center mt-8">
+          <button
+            onClick={loadMoreDocuments}
+            disabled={isLoading}
+            className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 disabled:bg-blue-400 disabled:cursor-not-allowed transition-colors"
+          >
+            {isLoading ? (
+              <div className="flex items-center space-x-2">
+                <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>
+                <span>Loading...</span>
+              </div>
+            ) : (
+              `Load More (${filteredDocs.length - itemsToShow} remaining)`
+            )}
+          </button>
+        </div>
+      )}
 
       {filteredDocs.length === 0 && (
         <div className="text-center py-8 text-gray-500">
