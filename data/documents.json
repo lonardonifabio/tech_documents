@@ -5712,18 +5712,24 @@
     "title": "Convolutional Neural Networks Explained",
     "authors": [],
     "filepath": "documents/Convolutional_Neural_Networks_Explained_1630508291.pdf",
-    "upload_date": "2025-06-03T17:21:42.230977",
+    "upload_date": "2025-06-12T20:29:12.867257",
     "file_size": 541889,
-    "summary": "This document explains Convolutional Neural Networks (CNNs), a class of neural networks that specializes in processing data with grid-like topology, such as images. The architecture consists of three layers: convolutional layer, pooling layer, and fully connected layer.",
+    "summary": "This document provides an introduction to Convolutional Neural Networks (CNNs), explaining their purpose, architecture, and significance in enabling computers to 'see'. The document covers the basic structure of a CNN, which consists of three layers: convolutional, pooling, and fully connected. It is suitable for Intermediate level readers interested in Machine Learning or Data Science.",
     "keywords": [
       "Convolutional Neural Networks",
-      "CNNs",
+      "CNN",
       "Neural Networks",
       "Image Processing"
     ],
+    "key_concepts": [
+      "Convolutional Neural Networks are a class of neural networks that specialize in processing data with a grid-like topology, such as images.",
+      "The layers in a CNN are arranged to detect simpler patterns first and more complex patterns further along.",
+      "A CNN consists of three main layers: convolutional, pooling, and fully connected.",
+      "By using a CNN, one can enable sight to computers."
+    ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Convolutional Neural Networks explained... image processing"
+    "content_preview": "Convolutional Neural Networks explained... #LearnWithDDS @datadrivenscience"
   },
   {
     "id": "832463d0096d63a77a941f9210761b47",
