@@ -66,7 +66,7 @@ const DocumentCard: React.FC<DocumentCardProps> = ({ doc }) => {
   };
 
   // Truncate summary if too long
-  const truncateSummary = (text: string, maxLength = 400): string => {
+  const truncateSummary = (text: string, maxLength = 150): string => {
     if (text.length <= maxLength) return text;
     return text.substring(0, maxLength) + '...';
   };
@@ -138,12 +138,12 @@ const DocumentCard: React.FC<DocumentCardProps> = ({ doc }) => {
             <p className="text-gray-600 text-sm leading-relaxed">
               {displaySummary}
             </p>
-            {doc.summary.length > 400 && (
+            {doc.summary.length > 150 && (
               <button 
                 onClick={() => setShowFullSummary(!showFullSummary)}
-                className="text-blue-600 text-xs mt-1 hover:underline focus:outline-none"
+                className="text-blue-600 text-xs mt-1 hover:underline focus:outline-none font-medium"
               >
-                {showFullSummary ? 'Show less' : 'Show more'}
+                {showFullSummary ? 'Show less' : 'Read more'}
               </button>
             )}
           </div>
