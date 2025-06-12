@@ -167,6 +167,21 @@ class FixedOllamaDocumentProcessor:
                 extracted_data["keywords"] = keywords[:5]  # Limit to 5
                 break
         
+        # Extract key_concepts array
+        key_concepts_patterns = [
+            r'"key_concepts"\s*:\s*\[(.*?)\]',
+            r'key_concepts\s*:\s*\[(.*?)\]'
+        ]
+        for pattern in key_concepts_patterns:
+            concepts_match = re.search(pattern, response_text, re.DOTALL | re.IGNORECASE)
+            if concepts_match:
+                concepts_str = concepts_match.group(1)
+                concepts = []
+                for concept_match in re.finditer(r'"([^"]*)"', concepts_str):
+                    concepts.append(concept_match.group(1))
+                extracted_data["key_concepts"] = concepts[:5]  # Limit to 5
+                break
+        
         # Extract authors array
         authors_patterns = [
             r'"authors"\s*:\s*\[(.*?)\]',
@@ -209,10 +224,10 @@ class FixedOllamaDocumentProcessor:
         if len(text) > max_chars:
             text = text[:max_chars] + "..."
         
-        # Simple, clear prompt for Mistral
+        # Enhanced prompt for Mistral with key concepts and longer summary
         prompt = f"""Analyze this document and respond with ONLY a JSON object in this exact format:
 
-{{"title": "document title", "summary": "brief summary with around 800 characters", "keywords": ["keyword1", "keyword2", "keyword3"], "category": "one of: AI, Machine Learning, Data Science, Analytics, Business, Technology, Research", "difficulty": "one of: Beginner, Intermediate, Advanced", "authors": [], "content_preview": "first 80 characters of content"}}
+{{"title": "document title", "summary": "comprehensive summary with around 1600 characters covering main topics, methodologies, key findings, and practical applications", "keywords": ["keyword1", "keyword2", "keyword3"], "key_concepts": ["Important concept sentence around 200 characters explaining a core idea from the document", "Another key concept sentence around 200 characters describing main methodology or approach", "Third concept sentence around 200 characters about findings or applications", "Fourth concept sentence around 200 characters covering theoretical framework or principles", "Fifth concept sentence around 200 characters about practical implications or use cases"], "category": "one of: AI, Machine Learning, Data Science, Analytics, Business, Technology, Research", "difficulty": "one of: Beginner, Intermediate, Advanced", "authors": [], "content_preview": "first 80 characters of content"}}
 
 Document: {filename}
 Content: {text}
@@ -253,10 +268,10 @@ JSON response:"""
     def _validate_analysis(self, analysis: Dict, filename: str) -> Dict:
         """Validate and clean analysis data"""
         # Ensure required fields exist
-        required_fields = ["title", "summary", "keywords", "category", "difficulty", "authors", "content_preview"]
+        required_fields = ["title", "summary", "keywords", "key_concepts", "category", "difficulty", "authors", "content_preview"]
         for field in required_fields:
             if field not in analysis:
-                analysis[field] = ""
+                analysis[field] = "" if field not in ["keywords", "key_concepts", "authors"] else []
         
         # Clean and validate title
         if not analysis["title"] or len(analysis["title"].strip()) < 3:
@@ -290,15 +305,29 @@ JSON response:"""
         if not analysis["keywords"]:
             analysis["keywords"] = ["Technology"]
         
+        # Ensure key_concepts is a list with max 5 items
+        if not isinstance(analysis["key_concepts"], list):
+            analysis["key_concepts"] = []
+        analysis["key_concepts"] = analysis["key_concepts"][:5]
+        if not analysis["key_concepts"]:
+            # Generate fallback key concepts
+            analysis["key_concepts"] = [
+                f"This document explores fundamental concepts related to {analysis['title'].lower()} providing theoretical foundations and practical insights for understanding the subject matter.",
+                f"The methodology presented in this work demonstrates systematic approaches to {analysis['category'].lower()} with emphasis on evidence-based practices and proven techniques.",
+                f"Key findings and applications discussed include real-world implementations and case studies that illustrate the practical value of the concepts presented in this document.",
+                f"The theoretical framework underlying this work builds upon established principles in {analysis['category'].lower()} while introducing innovative perspectives and methodologies.",
+                f"Practical implications of this research extend to various domains where {analysis['category'].lower()} principles can be applied to solve complex problems and improve outcomes."
+            ]
+        
         # Ensure authors is a list
         if not isinstance(analysis["authors"], list):
             analysis["authors"] = []
         
-        # Ensure summary is reasonable length
-        if len(analysis["summary"]) > 350:
-            analysis["summary"] = analysis["summary"][:347] + "..."
-        elif len(analysis["summary"]) < 50:
-            analysis["summary"] = f"This document covers {analysis['title'].lower()} providing comprehensive information and insights on the subject matter."
+        # Ensure summary is reasonable length (doubled from 350 to 700)
+        if len(analysis["summary"]) > 700:
+            analysis["summary"] = analysis["summary"][:697] + "..."
+        elif len(analysis["summary"]) < 100:
+            analysis["summary"] = f"This comprehensive document provides detailed coverage of {analysis['title'].lower()} concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations and real-world applications relevant to the field of {analysis['category'].lower()}. The document explores key principles, presents systematic approaches, and demonstrates practical implementations that can be applied across various domains. Through detailed analysis and evidence-based practices, it contributes to the understanding of complex topics while providing actionable insights for practitioners and researchers in the field."
         
         # Ensure content_preview exists
         if not analysis["content_preview"]:
@@ -327,11 +356,27 @@ JSON response:"""
         if not keywords:
             keywords = ['Technology', 'Research', 'Documentation']
         
+        # Determine category from keywords
+        category = "Technology"
+        if any(kw in ['AI', 'Machine Learning', 'Neural Networks', 'Deep Learning'] for kw in keywords):
+            category = "AI" if 'AI' in keywords else "Machine Learning"
+        elif 'Data Science' in keywords:
+            category = "Data Science"
+        elif 'Business' in keywords:
+            category = "Business"
+        
         return {
             "title": clean_title,
-            "summary": f"This comprehensive document provides detailed coverage of {clean_title.lower()} concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations and real-world applications relevant to the field.",
+            "summary": f"This comprehensive document provides detailed coverage of {clean_title.lower()} concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations and real-world applications relevant to the field of {category.lower()}. The document explores key principles, presents systematic approaches, and demonstrates practical implementations that can be applied across various domains. Through detailed analysis and evidence-based practices, it contributes to the understanding of complex topics while providing actionable insights for practitioners and researchers in the field.",
             "keywords": keywords[:5],
-            "category": "Technology",
+            "key_concepts": [
+                f"This document explores fundamental concepts related to {clean_title.lower()} providing theoretical foundations and practical insights for understanding the subject matter.",
+                f"The methodology presented in this work demonstrates systematic approaches to {category.lower()} with emphasis on evidence-based practices and proven techniques.",
+                f"Key findings and applications discussed include real-world implementations and case studies that illustrate the practical value of the concepts presented in this document.",
+                f"The theoretical framework underlying this work builds upon established principles in {category.lower()} while introducing innovative perspectives and methodologies.",
+                f"Practical implications of this research extend to various domains where {category.lower()} principles can be applied to solve complex problems and improve outcomes."
+            ],
+            "category": category,
             "difficulty": "Intermediate",
             "authors": [],
             "content_preview": f"Document: {clean_title}"
@@ -403,6 +448,7 @@ JSON response:"""
             "file_size": stat.st_size,
             "summary": analysis.get("summary", f"Document: {filepath.stem}"),
             "keywords": analysis.get("keywords", ["Technology"]),
+            "key_concepts": analysis.get("key_concepts", []),
             "category": analysis.get("category", "Technology"),
             "difficulty": analysis.get("difficulty", "Intermediate"),
             "content_preview": analysis.get("content_preview", f"PDF document: {filepath.name}")
