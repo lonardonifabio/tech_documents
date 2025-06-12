@@ -1120,21 +1120,31 @@
     "filename": "AI_Deep_Learning_e_Machine_Learning_�_1685989836.pdf",
     "title": "Probability Theory in Machine Learning, Deep Learning, and Artificial Intelligence",
     "authors": [
-      "Nikhil Yadav"
+      "STANFORD UNIVERSITY",
+      "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+      "NIKHIL YADAV"
     ],
     "filepath": "documents/AI_Deep_Learning_e_Machine_Learning_�_1685989836.pdf",
-    "upload_date": "2025-06-04T21:18:49.060000",
+    "upload_date": "2025-06-12T20:29:10.175225",
     "file_size": 7822644,
-    "summary": "This document provides definitions for key concepts in probability theory, including sample space, event, probability axioms, conditioning, and Bayes' rule. It is relevant to machine learning, deep learning, and artificial intelligence.",
+    "summary": "This document provides definitions, axioms, and corollaries of probability theory, which forms the foundation for machine learning, deep learning, and artificial intelligence. It covers key concepts such as sample space, event, probability axioms, conditioning, and Bayes' rule. The document also includes examples like the discrete uniform law.",
     "keywords": [
-      "Probability Theory",
+      "Probability",
       "Machine Learning",
       "Deep Learning",
-      "Artificial Intelligence"
+      "Artificial Intelligence",
+      "Sample Space"
+    ],
+    "key_concepts": [
+      "A sample space is the set of all possible outcomes, where its elements must be mutually exclusive, collectively exhaustive and at the right granularity.",
+      "An event is a subset of the sample space. Probability is assigned to events.",
+      "Probability models and axioms define how probabilities are assigned to events and satisfy certain rules.",
+      "The discrete uniform law assumes a finite set with equally likely elements, and provides an example for calculating probability of a specific event.",
+      "Conditioning and Bayes' rule help in understanding the relationship between events and their probabilities given some conditions."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Probability is assigned to events and satisfies the following axioms:"
+    "content_preview": "BY STANFORD UNIVERSITY AND MASSACHUSETTS INSTITUTE OF TECHNOLOGY All Cheat Sheets Machine Learning, Deep Learning, Artificial Intelligence COMPILED BY - NIKHIL YADAV Probability{the Science of Uncertainty and Data by Fabi\u0013 an Kozynski"
   },
   {
     "id": "2a0b5b78eff0a4559fc7faffb6b83179",
