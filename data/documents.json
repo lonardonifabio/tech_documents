@@ -18157,18 +18157,25 @@
   {
     "id": "0ccd8773cea193be91a28b2b30236beb",
     "filename": "Python_HandBook_1630510953.pdf",
-    "title": "Python HandBook_1630510953",
+    "title": "Python HandBook_1630510953.pdf",
     "authors": [],
     "filepath": "documents/Python_HandBook_1630510953.pdf",
-    "upload_date": "2025-06-03T17:53:43.105124",
+    "upload_date": "2025-06-12T20:29:20.751337",
     "file_size": 7700958,
-    "summary": "Comprehensive guide on Python, covering installation, basics, data types, operators, control statements, lists, tuples, dictionaries, sets, functions, objects, loops, classes, modules, the Python Standard Library, debugging, variables scope, command line arguments, lambda functions, recursion, nested functions, closures, decorators, docstrings, ...",
+    "summary": "This document provides a comprehensive guide to Python programming, covering installation, basic syntax, data types, operators, control statements, collections, functions, classes, modules, the Python Standard Library, debugging, and advanced topics such as decorators, closures, and exceptions. It also includes sections on using pip for installing third-party packages, list comprehensions, polymorphism, operator overloading, virtual environments, and the PEP8 style guide.",
     "keywords": [
       "Python",
       "Programming Guide",
       "Data Types",
       "Operators",
       "Control Statements"
+    ],
+    "key_concepts": [
+      "This book serves as a comprehensive introduction to Python programming, covering installation, basic syntax, and advanced topics.",
+      "The document explains the differences between Python 2 and Python 3, providing guidance on which version to use.",
+      "It provides an in-depth look at various data types, operators, control statements, collections, and functions in Python.",
+      "The book covers important concepts such as decorators, closures, and exceptions, helping readers understand advanced programming techniques in Python.",
+      "The document includes a section on the PEP8 style guide, providing guidelines for writing clean and consistent code in Python."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
