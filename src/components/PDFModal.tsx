@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import DocumentChat from './DocumentChat';
+import ErrorBoundary from './ErrorBoundary';
 
 interface Document {
   id: string;
@@ -259,7 +260,32 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
 
           {/* Right Sidebar - Chat Interface */}
           <div className="w-80 border-l">
-            <DocumentChat document={doc} />
+            <ErrorBoundary
+              fallback={
+                <div className="p-4 bg-red-50 border border-red-200 rounded-lg m-4">
+                  <div className="flex items-center gap-2 text-red-800 mb-2">
+                    <span className="text-lg">⚠️</span>
+                    <h3 className="font-semibold">Chat Error</h3>
+                  </div>
+                  <p className="text-red-700 text-sm mb-3">
+                    The document chat feature encountered an error. This might be due to:
+                  </p>
+                  <ul className="text-red-700 text-xs mb-3 list-disc list-inside">
+                    <li>Ollama not running locally</li>
+                    <li>CORS configuration issues</li>
+                    <li>Network connectivity problems</li>
+                  </ul>
+                  <button
+                    onClick={() => window.location.reload()}
+                    className="px-3 py-1 bg-red-600 text-white text-sm rounded hover:bg-red-700 transition-colors"
+                  >
+                    Reload Page
+                  </button>
+                </div>
+              }
+            >
+              <DocumentChat document={doc} />
+            </ErrorBoundary>
           </div>
         </div>
       </div>

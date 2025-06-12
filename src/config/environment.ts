@@ -14,19 +14,23 @@ export interface EnvironmentConfig {
     welcomeMessage: string;
   };
   performance: {
-    isGitHubSpaces: boolean;
+    isGitHubPages: boolean;
     memoryLimit: string;
     responseTimeout: number;
   };
 }
 
 const getEnvironmentConfig = (): EnvironmentConfig => {
-  // Detect if running on GitHub Spaces or similar constrained environment
-  const isGitHubSpaces = 
+  // Detect if running on GitHub Pages or similar static hosting
+  const isGitHubPages = 
     typeof window !== 'undefined' && 
     (window.location.hostname.includes('github.io') || 
-     window.location.hostname.includes('githubspaces') ||
-     process.env.GITHUB_SPACES === 'true');
+     window.location.hostname.includes('githubpages.dev') ||
+     window.location.hostname.includes('netlify.app') ||
+     window.location.hostname.includes('vercel.app') ||
+     window.location.hostname.includes('pages.dev') ||
+     window.location.protocol === 'https:' && window.location.hostname !== 'localhost' ||
+     process.env.GITHUB_PAGES === 'true');
 
   // Detect available memory (rough estimation)
   const getMemoryTier = (): 'low' | 'medium' | 'high' => {
@@ -37,7 +41,7 @@ const getEnvironmentConfig = (): EnvironmentConfig => {
       return 'high';
     }
     // Default to medium for unknown environments
-    return isGitHubSpaces ? 'low' : 'medium';
+    return isGitHubPages ? 'low' : 'medium';
   };
 
   const memoryTier = getMemoryTier();
@@ -96,7 +100,7 @@ const getEnvironmentConfig = (): EnvironmentConfig => {
     ollama: {
       baseUrl: process.env.OLLAMA_BASE_URL || 'http://localhost:11434',
       defaultModel: process.env.OLLAMA_DEFAULT_MODEL || getOptimalModel(),
-      maxRetries: isGitHubSpaces ? 2 : 3,
+      maxRetries: isGitHubPages ? 2 : 3,
       retryDelay: perfSettings.retryDelay,
       maxTokens: perfSettings.maxTokens,
       temperature: 0.7,
@@ -114,7 +118,7 @@ const getEnvironmentConfig = (): EnvironmentConfig => {
       welcomeMessage: "Hello! I'm here to help you understand and discuss this document. You can ask me questions about its content, key concepts, or request explanations of specific topics mentioned in the document.",
     },
     performance: {
-      isGitHubSpaces,
+      isGitHubSpaces: isGitHubPages,
       memoryLimit: memoryTier,
       responseTimeout: perfSettings.responseTimeout,
     },
@@ -146,6 +150,10 @@ export const getRecommendedModels = (): string[] => {
 
 export const shouldShowPerformanceWarning = (): boolean => {
   return environmentConfig.performance.isGitHubSpaces || isLowMemoryEnvironment();
+};
+
+export const isGitHubPages = (): boolean => {
+  return environmentConfig.performance.isGitHubSpaces;
 };
 
 // Debug information

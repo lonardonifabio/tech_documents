@@ -49,12 +49,26 @@ class OllamaService {
           'Content-Type': 'application/json',
         },
         signal: controller.signal,
+        mode: 'cors', // Explicitly set CORS mode
       });
 
       clearTimeout(timeoutId);
       return response.ok;
     } catch (error) {
-      console.warn('Ollama connection failed:', error);
+      // More detailed error logging for debugging
+      if (error instanceof Error) {
+        if (error.name === 'AbortError') {
+          console.warn('Ollama connection timeout after 5 seconds');
+        } else if (error.message.includes('CORS')) {
+          console.warn('CORS error - make sure Ollama is running with OLLAMA_ORIGINS="*" environment variable');
+        } else if (error.message.includes('NetworkError') || error.message.includes('Failed to fetch')) {
+          console.warn('Network error - make sure Ollama is running on localhost:11434');
+        } else {
+          console.warn('Ollama connection failed:', error.message);
+        }
+      } else {
+        console.warn('Ollama connection failed:', error);
+      }
       return false;
     }
   }

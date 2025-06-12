@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { OllamaService, type ChatMessage } from '../services/ollama-service';
-import { environmentConfig, shouldShowPerformanceWarning, getEnvironmentInfo } from '../config/environment';
+import { environmentConfig, shouldShowPerformanceWarning, getEnvironmentInfo, isGitHubPages } from '../config/environment';
 
 interface Document {
   id: string;
@@ -215,28 +215,71 @@ const DocumentChat: React.FC<DocumentChatProps> = ({ document }) => {
         {!isConnected && (
           <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-sm">
             <p className="text-yellow-800 font-medium">⚠️ Ollama Not Connected</p>
-            <p className="text-yellow-700 text-xs mt-1">
-              Make sure Ollama is running locally on port 11434. 
-              <br />
-              <strong>Setup Steps:</strong>
-              <br />1. <code className="bg-yellow-100 px-1 rounded">ollama serve</code>
-              <br />2. <code className="bg-yellow-100 px-1 rounded">ollama pull {environmentConfig.ollama.defaultModel}</code>
-              <br />3. Test: <code className="bg-yellow-100 px-1 rounded">curl http://localhost:11434/api/tags</code>
-              {shouldShowPerformanceWarning() && (
+            <div className="text-yellow-700 text-xs mt-1">
+              {isGitHubPages() ? (
                 <>
+                  <p className="mb-2">
+                    <strong>🌐 GitHub Pages Setup:</strong> This app is running on GitHub Pages. 
+                    To use AI chat, you need to run Ollama locally on your computer.
+                  </p>
+                  <p className="mb-2"><strong>Quick Setup:</strong></p>
+                  <div className="bg-yellow-100 p-2 rounded mb-2">
+                    <p><strong>1. Install Ollama:</strong></p>
+                    <p>• Windows/Mac: Download from <a href="https://ollama.ai/download" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">ollama.ai/download</a></p>
+                    <p>• Linux: <code className="bg-white px-1 rounded">curl -fsSL https://ollama.ai/install.sh | sh</code></p>
+                  </div>
+                  <div className="bg-yellow-100 p-2 rounded mb-2">
+                    <p><strong>2. Start Ollama & Install Model:</strong></p>
+                    <p>• <code className="bg-white px-1 rounded">ollama serve</code></p>
+                    <p>• <code className="bg-white px-1 rounded">ollama pull {environmentConfig.ollama.defaultModel}</code></p>
+                  </div>
+                  <div className="bg-yellow-100 p-2 rounded mb-2">
+                    <p><strong>3. Enable CORS (Important!):</strong></p>
+                    <p>• Stop Ollama (Ctrl+C)</p>
+                    <p>• Set environment: <code className="bg-white px-1 rounded">OLLAMA_ORIGINS="*"</code></p>
+                    <p>• Restart: <code className="bg-white px-1 rounded">ollama serve</code></p>
+                  </div>
+                  <p className="text-xs text-yellow-600 mt-2">
+                    💡 Once Ollama is running locally, click "Retry Connection" below.
+                  </p>
+                </>
+              ) : (
+                <>
+                  Make sure Ollama is running locally on port 11434. 
                   <br />
-                  <span className="text-yellow-600">
-                    💡 Optimized for {environmentConfig.performance.memoryLimit} memory environments
-                  </span>
+                  <strong>Setup Steps:</strong>
+                  <br />1. <code className="bg-yellow-100 px-1 rounded">ollama serve</code>
+                  <br />2. <code className="bg-yellow-100 px-1 rounded">ollama pull {environmentConfig.ollama.defaultModel}</code>
+                  <br />3. Test: <code className="bg-yellow-100 px-1 rounded">curl http://localhost:11434/api/tags</code>
+                  {shouldShowPerformanceWarning() && (
+                    <>
+                      <br />
+                      <span className="text-yellow-600">
+                        💡 Optimized for {environmentConfig.performance.memoryLimit} memory environments
+                      </span>
+                    </>
+                  )}
                 </>
               )}
-            </p>
-            <button
-              onClick={checkConnection}
-              className="mt-2 text-xs bg-yellow-200 hover:bg-yellow-300 px-2 py-1 rounded"
-            >
-              🔄 Retry Connection
-            </button>
+            </div>
+            <div className="flex gap-2 mt-3">
+              <button
+                onClick={checkConnection}
+                className="text-xs bg-yellow-200 hover:bg-yellow-300 px-2 py-1 rounded"
+              >
+                🔄 Retry Connection
+              </button>
+              {isGitHubPages() && (
+                <a
+                  href="https://ollama.ai/download"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs bg-blue-200 hover:bg-blue-300 px-2 py-1 rounded text-blue-800"
+                >
+                  📥 Download Ollama
+                </a>
+              )}
+            </div>
           </div>
         )}
 

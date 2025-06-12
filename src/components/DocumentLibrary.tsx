@@ -43,11 +43,12 @@ const DocumentLibrary: React.FC<DocumentLibraryProps> = ({
   useEffect(() => {
     const loadDocuments = async () => {
       // Try multiple possible paths for the documents.json file
+      const isDev = import.meta.env.DEV;
+      const basePath = isDev ? '' : '/tech_documents';
       const possiblePaths = [
-        '/tech_documents/data/documents.json',
-        './data/documents.json',
-        'data/documents.json',
-        '/data/documents.json'
+        `${basePath}/data/documents.json`,
+        '/data/documents.json',
+        './data/documents.json'
       ];
 
       for (const path of possiblePaths) {

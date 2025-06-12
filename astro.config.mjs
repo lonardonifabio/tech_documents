@@ -9,7 +9,7 @@ export default defineConfig({
     tailwind()
   ],
   output: 'static',
-  base: '/tech_documents/',
+  base: process.env.NODE_ENV === 'production' ? '/tech_documents/' : '/',
   build: {
     assets: 'assets'
   },

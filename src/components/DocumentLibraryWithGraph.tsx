@@ -1,7 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import DocumentLibrary from './DocumentLibrary';
 import KnowledgeGraph from './KnowledgeGraph';
+import ErrorBoundary from './ErrorBoundary';
 import type { DocumentNode } from '../types/knowledge-graph';
+
+interface Document {
+  id: string;
+  filename: string;
+  title?: string;
+  summary: string;
+  authors?: string[];
+  keywords: string[];
+  category: string;
+  difficulty: string;
+  filepath: string;
+  file_size: number;
+  upload_date: string;
+}
 
 interface DocumentLibraryWithGraphProps {
   initialView?: 'library' | 'graph';
@@ -10,8 +25,8 @@ interface DocumentLibraryWithGraphProps {
 const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({ 
   initialView = 'library' 
 }) => {
-  const [documents, setDocuments] = useState<DocumentNode[]>([]);
-  const [filteredDocuments, setFilteredDocuments] = useState<DocumentNode[]>([]);
+  const [documents, setDocuments] = useState<Document[]>([]);
+  const [filteredDocuments, setFilteredDocuments] = useState<Document[]>([]);
   const [currentView, setCurrentView] = useState<'library' | 'graph'>(initialView);
   const [selectedDocument, setSelectedDocument] = useState<DocumentNode | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -24,9 +39,10 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
     const loadDocuments = async () => {
       try {
         // Try different paths for documents.json based on environment
+        const isDev = import.meta.env.DEV;
+        const basePath = isDev ? '' : '/tech_documents';
         const possiblePaths = [
-          '/tech_documents/data/documents.json',
-          '/dist/data/documents.json',
+          `${basePath}/data/documents.json`,
           '/data/documents.json',
           './data/documents.json'
         ];
@@ -64,7 +80,9 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
   // Register service worker
   useEffect(() => {
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/tech_documents/sw.js')
+      const isDev = import.meta.env.DEV;
+      const swPath = isDev ? '/sw.js' : '/tech_documents/sw.js';
+      navigator.serviceWorker.register(swPath)
         .then((registration) => {
           console.log('Service Worker registered:', registration);
         })
@@ -73,6 +91,16 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
         });
     }
   }, []);
+
+  // Convert Document to DocumentNode for knowledge graph
+  const convertToDocumentNodes = (docs: Document[]): DocumentNode[] => {
+    return docs.map(doc => ({
+      ...doc,
+      title: doc.title || doc.filename,
+      authors: doc.authors || [],
+      content_preview: doc.summary.substring(0, 200) + '...'
+    }));
+  };
 
   const handleNodeClick = (node: DocumentNode) => {
     setSelectedDocument(node);
@@ -265,13 +293,47 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
 
             {/* Knowledge Graph */}
             <div className="bg-white rounded-lg shadow-sm p-3 sm:p-6">
-              <KnowledgeGraph
-                documents={filteredDocuments.length > 0 ? filteredDocuments : documents}
-                width={typeof window !== 'undefined' ? Math.min(window.innerWidth - 100, 1000) : 1000}
-                height={typeof window !== 'undefined' ? Math.min(window.innerHeight - 300, 700) : 700}
-                onNodeClick={handleNodeClick}
-                onNodeHover={handleNodeHover}
-              />
+              <ErrorBoundary
+                fallback={
+                  <div className="p-6 bg-red-50 border border-red-200 rounded-lg">
+                    <div className="flex items-center gap-2 text-red-800 mb-3">
+                      <span className="text-lg">⚠️</span>
+                      <h3 className="font-semibold">Knowledge Graph Error</h3>
+                    </div>
+                    <p className="text-red-700 text-sm mb-4">
+                      The knowledge graph failed to load. This might be due to:
+                    </p>
+                    <ul className="text-red-700 text-sm mb-4 list-disc list-inside">
+                      <li>Ollama not running locally (required for AI embeddings)</li>
+                      <li>CORS configuration issues</li>
+                      <li>Large dataset processing errors</li>
+                      <li>Browser compatibility issues</li>
+                    </ul>
+                    <div className="flex gap-3">
+                      <button
+                        onClick={() => window.location.reload()}
+                        className="px-4 py-2 bg-red-600 text-white text-sm rounded hover:bg-red-700 transition-colors"
+                      >
+                        Reload Page
+                      </button>
+                      <button
+                        onClick={() => setCurrentView('library')}
+                        className="px-4 py-2 border border-red-300 text-red-700 text-sm rounded hover:bg-red-50 transition-colors"
+                      >
+                        Back to Library
+                      </button>
+                    </div>
+                  </div>
+                }
+              >
+                <KnowledgeGraph
+                  documents={convertToDocumentNodes(filteredDocuments.length > 0 ? filteredDocuments : documents)}
+                  width={typeof window !== 'undefined' ? Math.min(window.innerWidth - 100, 1000) : 1000}
+                  height={typeof window !== 'undefined' ? Math.min(window.innerHeight - 300, 700) : 700}
+                  onNodeClick={handleNodeClick}
+                  onNodeHover={handleNodeHover}
+                />
+              </ErrorBoundary>
             </div>
 
             {/* Instructions */}

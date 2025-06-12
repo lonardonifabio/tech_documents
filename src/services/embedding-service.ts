@@ -15,27 +15,50 @@ export class EmbeddingService {
 
   async checkOllamaConnection(): Promise<boolean> {
     try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 5000); // 5 second timeout
+
       const response = await fetch(`${this.ollamaUrl}/api/tags`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
         },
-        signal: AbortSignal.timeout(5000) // 5 second timeout
+        signal: controller.signal,
+        mode: 'cors', // Explicitly set CORS mode
       });
+      
+      clearTimeout(timeoutId);
       
       if (response.ok) {
         const data = await response.json();
-        // Check if Mistral model is available
+        // Check if any compatible model is available
         const models = data.models || [];
-        const hasMistral = models.some((model: any) => 
-          model.name && model.name.toLowerCase().includes('mistral')
+        const hasCompatibleModel = models.some((model: any) => 
+          model.name && (
+            model.name.toLowerCase().includes('mistral') ||
+            model.name.toLowerCase().includes('llama') ||
+            model.name.toLowerCase().includes('phi3')
+          )
         );
         console.log('Ollama models available:', models.map((m: any) => m.name));
-        return hasMistral;
+        return hasCompatibleModel;
       }
       return false;
     } catch (error) {
-      console.log('Ollama connection failed:', error);
+      // More detailed error logging
+      if (error instanceof Error) {
+        if (error.name === 'AbortError') {
+          console.log('Ollama connection timeout after 5 seconds');
+        } else if (error.message.includes('CORS')) {
+          console.log('CORS error - make sure Ollama is running with OLLAMA_ORIGINS="*"');
+        } else if (error.message.includes('NetworkError') || error.message.includes('Failed to fetch')) {
+          console.log('Network error - Ollama not running on localhost:11434');
+        } else {
+          console.log('Ollama connection failed:', error.message);
+        }
+      } else {
+        console.log('Ollama connection failed:', error);
+      }
       return false;
     }
   }

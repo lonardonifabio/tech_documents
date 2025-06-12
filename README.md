@@ -16,6 +16,7 @@ A modern, high-performance document processing system built with **Astro Static 
 - **Automated Processing**: AI-powered document analysis and metadata extraction
 - **Smart Search**: Boolean operators, exact phrase matching, category filtering
 - **PDF Preview**: In-browser PDF viewing with modal interface
+- **AI Document Chat**: Interactive chat with documents using local Ollama/Mistral models
 - **Responsive Design**: Mobile-first approach with PWA capabilities
 
 ### Performance & PWA
@@ -39,6 +40,13 @@ react OR vue OR angular
 # Complex combinations
 (python OR javascript) AND "machine learning" NOT beginner
 ```
+
+### AI Document Chat
+- **Local AI Integration**: Chat with documents using Ollama/Mistral models
+- **Document Context**: AI understands document content, authors, and key concepts
+- **GitHub Pages Compatible**: Works with static hosting via local Ollama connection
+- **Multiple Models**: Support for various Ollama models (Mistral, Llama, Phi3)
+- **Smart Responses**: Context-aware answers about document content
 
 ## 🛠️ Technology Stack
 
@@ -99,6 +107,7 @@ The `documents/` folder contains **200+ PDF files** covering:
 ### Prerequisites
 - Node.js 20+
 - Python 3.9+
+- **For AI Chat**: Ollama installed locally (see [Chat Setup Guide](GITHUB_PAGES_CHAT_SETUP.md))
 
 ### Local Development
 
@@ -125,6 +134,11 @@ The `documents/` folder contains **200+ PDF files** covering:
    npm run build
    npm run preview
    ```
+
+5. **Set up AI Chat (Optional)**
+   - Follow the [GitHub Pages Chat Setup Guide](GITHUB_PAGES_CHAT_SETUP.md)
+   - Install and configure Ollama locally
+   - Enable CORS for GitHub Pages compatibility
 
 ### Repository Cleanup
 This repository has been cleaned of unnecessary files including:
@@ -186,6 +200,30 @@ export default defineConfig({
 ### Interactive Help
 Click the ❓ icon in the search bar for built-in help guide.
 
+## 🤖 AI Document Chat
+
+### Features
+- **Interactive Chat**: Ask questions about any document
+- **Context Awareness**: AI understands document metadata and content
+- **Local Processing**: Uses your local Ollama installation for privacy
+- **Multiple Models**: Choose from Mistral, Llama, Phi3, and more
+
+### Quick Setup
+1. **Install Ollama**: Download from [ollama.ai](https://ollama.ai/download)
+2. **Start Service**: Run `ollama serve` in terminal
+3. **Install Model**: Run `ollama pull mistral:7b-instruct`
+4. **Enable CORS**: Set `OLLAMA_ORIGINS="*"` environment variable
+5. **Test**: Click any document → use chat panel on the right
+
+### Detailed Setup
+For complete setup instructions, see: [GitHub Pages Chat Setup Guide](GITHUB_PAGES_CHAT_SETUP.md)
+
+### Example Questions
+- "What are the main topics covered in this document?"
+- "Can you explain the key concepts mentioned?"
+- "Who is the target audience for this document?"
+- "Summarize the methodology described"
+
 ## 📱 PWA Installation
 
 ### Desktop
@@ -230,6 +268,12 @@ npm run astro        # Astro CLI access
 1. **Bundle Size**: Check Astro build output
 2. **Loading Speed**: Verify service worker registration
 3. **PWA Features**: Test manifest and service worker
+
+### AI Chat Issues
+1. **"Ollama Not Connected"**: Follow [Chat Setup Guide](GITHUB_PAGES_CHAT_SETUP.md)
+2. **CORS Errors**: Set `OLLAMA_ORIGINS="*"` environment variable
+3. **No Models Found**: Run `ollama pull mistral:7b-instruct`
+4. **Slow Responses**: Use smaller models like `llama3.2:3b`
 
 ## 📈 Migration History
 
