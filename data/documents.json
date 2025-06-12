@@ -24990,16 +24990,23 @@
       "Giannis Tolios"
     ],
     "filepath": "documents/pycaret_1648896054.pdf",
-    "upload_date": "2025-06-04T21:18:56.223046",
+    "upload_date": "2025-06-12T20:29:24.637371",
     "file_size": 3064458,
-    "summary": "This document is a book titled 'Simplifying Machine Learning with PyCaret', which provides a low-code approach for both beginners and experts in the field of Machine Learning. The book can be purchased at http://leanpub.com/pycaretbook. It was published on 2021-10-20.",
+    "summary": "This document introduces a low-code approach to machine learning using the PyCaret library, suitable for both beginners and experts. It covers prerequisites, software requirements, installation of PyCaret, and usage in JupyterLab. The book also provides a brief introduction to machine learning, explaining its concept.",
     "keywords": [
       "PyCaret",
       "Machine Learning",
-      "Book",
-      "LeanPub"
+      "Low-code",
+      "Beginners",
+      "Experts"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "PyCaret is a low-code approach for simplifying machine learning tasks.",
+      "The book provides a step-by-step guide on installing and using PyCaret.",
+      "The document introduces the concept of machine learning in an accessible manner.",
+      "The book is designed to cater to both beginners and experts in machine learning."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Beginner",
     "content_preview": "Simplifying Machine Learning with PyCaret A Low-code Approach for Beginners and Experts!"
   },
