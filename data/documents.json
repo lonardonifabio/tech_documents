@@ -22962,6 +22962,33 @@
     "content_preview": "import numpy as np\nimport pandas as pd\nimport os"
   },
   {
+    "id": "2a3ce02c973d3c9fad3103025e374855",
+    "filename": "aws-caf-for-ai.pdf",
+    "title": "AWS Cloud Adoption Framework for Artificial Intelligence, Machine Learning, and Generative AI",
+    "authors": [],
+    "filepath": "documents/aws-caf-for-ai.pdf",
+    "upload_date": "2025-06-12T09:23:48.876627",
+    "file_size": 897087,
+    "summary": "This whitepaper presents Amazon Web Services' (AWS) Cloud Adoption Framework (CAF) specifically designed for Artificial Intelligence (AI), Machine Learning (ML), and Generative AI. It provides an overview of AI, introduces AWS CAF-AI, and offers guidance on implementing AI solutions in a secure, scalable, and cost-effective manner. Key topics include best practices, architectural considerations, and use cases across various industries.",
+    "keywords": [
+      "AWS",
+      "Cloud Adoption Framework",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Generative AI"
+    ],
+    "key_concepts": [
+      "The AWS Cloud Adoption Framework (CAF-AI) is a set of best practices, architectural considerations, and implementation guidance for building secure, scalable, and cost-effective AI solutions on AWS.",
+      "This whitepaper covers various aspects of AI, including its applications, challenges, and the role of ML and Generative AI in modern technology.",
+      "The document provides practical examples and use cases across different industries to demonstrate the effectiveness of CAF-AI in real-world scenarios.",
+      "The theoretical foundation of AWS CAF-AI is based on principles such as security, scalability, cost optimization, and compliance with industry regulations.",
+      "By following the guidelines outlined in this whitepaper, organizations can accelerate their AI initiatives while minimizing risks and maximizing returns."
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "This whitepaper presents Amazon Web Services' (AWS) Cloud Adoption Framework (CAF) specifically designed for Artificial Intelligence (AI), Machine Learning (ML), and Generative AI."
+  },
+  {
     "id": "68748d2e72acedfbc73a216ddc3f31ef",
     "filename": "bafykbzacecgx2heptjk3q75kdju6wyuphldnfxcat2fcljlganstlchbosfdk.pdf",
     "title": "Machine Learning for Financial Risk Management with Python",
