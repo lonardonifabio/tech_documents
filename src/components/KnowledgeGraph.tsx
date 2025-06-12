@@ -449,31 +449,76 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({
         </div>
       )}
 
-      {/* Controls */}
-      <div className="mb-4 flex flex-wrap items-center gap-2">
-        <div className="flex items-center gap-2">
-          <span className="text-sm font-medium">Ollama Status:</span>
-          <span className={`text-sm px-2 py-1 rounded ${
-            ollamaConnected ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'
-          }`}>
-            {ollamaConnected ? 'Connected' : 'Offline (using fallback)'}
-          </span>
-          <span className="text-xs text-gray-500">
-            {ollamaConnected ? 
-              'Using Mistral AI for high-quality embeddings' : 
-              'Using keyword-based fallback embeddings'
-            }
-          </span>
+      {/* Regenerate Embeddings - Prominent Call to Action */}
+      {!embeddings && !isLoading && (
+        <div className="mb-6 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-lg">
+          <div className="text-center">
+            <div className="mb-4">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-4">
+                <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
+                🚀 Generate Knowledge Graph Connections
+              </h3>
+              <p className="text-gray-700 mb-4 max-w-2xl mx-auto">
+                Click the button below to analyze your documents with AI and create intelligent connections. 
+                This will generate embeddings that power the knowledge graph visualization.
+              </p>
+            </div>
+            <button
+              onClick={handleRegenerateEmbeddings}
+              disabled={isLoading}
+              className="inline-flex items-center gap-2 px-8 py-4 text-lg font-semibold bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+              </svg>
+              {isLoading ? 'Generating Connections...' : 'Generate Embeddings & Connections'}
+            </button>
+            <p className="text-sm text-gray-600 mt-3">
+              ⚡ This process analyzes {documents.length} documents and may take a few moments
+            </p>
+          </div>
         </div>
-        
-        <button
-          onClick={handleRegenerateEmbeddings}
-          disabled={isLoading}
-          className="px-3 py-1 text-sm bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50"
-        >
-          {isLoading ? 'Processing...' : 'Regenerate Embeddings'}
-        </button>
-      </div>
+      )}
+
+      {/* Controls - Only show when embeddings exist */}
+      {embeddings && (
+        <div className="mb-4 flex flex-wrap items-center gap-4 p-4 bg-gray-50 rounded-lg">
+          <div className="flex items-center gap-2">
+            <span className="text-sm font-medium">AI Status:</span>
+            <span className={`text-sm px-2 py-1 rounded ${
+              ollamaConnected ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'
+            }`}>
+              {ollamaConnected ? '✅ Ollama Connected' : '⚠️ Offline Mode'}
+            </span>
+            <span className="text-xs text-gray-500">
+              {ollamaConnected ? 
+                'Using Mistral AI for high-quality embeddings' : 
+                'Using keyword-based fallback embeddings'
+              }
+            </span>
+          </div>
+          
+          <div className="flex items-center gap-2">
+            <button
+              onClick={handleRegenerateEmbeddings}
+              disabled={isLoading}
+              className="inline-flex items-center gap-1 px-4 py-2 text-sm bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50 transition-colors"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+              </svg>
+              {isLoading ? 'Regenerating...' : 'Regenerate Connections'}
+            </button>
+            <span className="text-xs text-gray-500">
+              Click to refresh embeddings and update connections
+            </span>
+          </div>
+        </div>
+      )}
 
       {/* Topic filters */}
       {topicClusters.length > 0 && (

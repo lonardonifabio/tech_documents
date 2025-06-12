@@ -282,24 +282,11 @@ Respond with only the category name:`;
 
   async saveEmbeddings(embeddings: EmbeddingData): Promise<void> {
     try {
-      const blob = new Blob([JSON.stringify(embeddings, null, 2)], {
-        type: 'application/json'
-      });
-      
-      // Create download link for user to save embeddings
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'document-embeddings.json';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
-      
-      // Also store in localStorage for caching
+      // Store embeddings in localStorage for caching (no file download)
       localStorage.setItem('document-embeddings', JSON.stringify(embeddings));
+      console.log('Embeddings saved to cache successfully');
     } catch (error) {
-      console.warn('Failed to save embeddings:', error);
+      console.warn('Failed to save embeddings to cache:', error);
     }
   }
 

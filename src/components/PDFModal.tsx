@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import DocumentChat from './DocumentChat';
 
 interface Document {
   id: string;
@@ -224,7 +225,7 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
             </div>
           </div>
 
-          {/* Right Side - PDF Preview */}
+          {/* Center - PDF Preview */}
           <div className="flex-1 bg-white">
             {previewError ? (
               <div className="flex items-center justify-center h-full bg-gray-50">
@@ -254,6 +255,11 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
                 title={`Preview of ${doc.title || doc.filename}`}
               />
             )}
+          </div>
+
+          {/* Right Sidebar - Chat Interface */}
+          <div className="w-80 border-l">
+            <DocumentChat document={doc} />
           </div>
         </div>
       </div>
