@@ -40,8 +40,7 @@ class IncrementalOllamaProcessor(FixedOllamaDocumentProcessor):
             # Add specific files to ensure they're tracked
             files_to_add = [
                 'data/documents.json',
-                'data/processed_files.json',
-                'dist/data/documents.json'
+                'data/processed_files.json'
             ]
             
             for file_path in files_to_add:
@@ -49,8 +48,8 @@ class IncrementalOllamaProcessor(FixedOllamaDocumentProcessor):
                     subprocess.run(['git', 'add', file_path], check=True, capture_output=True)
                     logger.info(f"Added {file_path} to git")
             
-            # Also add any other changes in data and dist directories
-            subprocess.run(['git', 'add', 'data/', 'dist/'], check=True, capture_output=True)
+            # Also add any other changes in data directory
+            subprocess.run(['git', 'add', 'data/'], check=True, capture_output=True)
             
             # Check if there are changes to commit
             result = subprocess.run(['git', 'diff', '--cached', '--quiet'], capture_output=True)
