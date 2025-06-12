@@ -13358,19 +13358,24 @@
       "Vincent Granville"
     ],
     "filepath": "documents/Machine_Learning_Cheat_Sheet_1608463909.pdf",
-    "upload_date": "2025-06-06T15:45:45.617677",
+    "upload_date": "2025-06-12T20:29:18.255318",
     "file_size": 510078,
-    "summary": "A guide to getting started with Machine Learning, including hardware recommendations and Linux setup on a Windows laptop. Author: Vincent Granville. Published June 6, 2019.",
+    "summary": "This document provides a comprehensive guide for beginners to get started with Machine Learning, including hardware requirements, software installation, and sample projects. The author recommends using a modern Windows laptop with Cygwin (a Linux layer) for flexibility and compatibility. Regular backups are advised using services like DropBox.",
     "keywords": [
       "Machine Learning",
       "Data Science",
-      "Linux",
+      "Cheat Sheet",
       "Cygwin",
-      "Windows"
+      "Linux"
     ],
-    "category": "Machine Learning",
-    "difficulty": "Intermediate",
-    "content_preview": "Get started with Machine Learning on a Windows laptop by installing Cygwin for a Linux environment."
+    "key_concepts": [
+      "The document recommends a modern Windows laptop with Cygwin (a Linux layer) for data science work.",
+      "Regular backups are advised using services like DropBox to protect important files.",
+      "The document provides a guide for beginners to get started with Machine Learning."
+    ],
+    "category": "Data Science",
+    "difficulty": "Beginner",
+    "content_preview": "Machine Learning Cheat Sheet"
   },
   {
     "id": "f490c8062166d9ef7aeb56fba80e7514",
