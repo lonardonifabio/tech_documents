@@ -12130,6 +12130,48 @@
     "content_preview": "Learn Python the Hard Way, Third Edition"
   },
   {
+    "id": "01e5924d7872932ae603b5fccc8bbe5a",
+    "filename": "Lessons_from_Defending_Gemini_1749677785.pdf",
+    "title": "Lessons from Defending Gemini Against Indirect Prompt Injections",
+    "authors": [
+      "Chongyang Shi",
+      "Sharon Lin",
+      "Shuang Song",
+      "Jamie Hayes",
+      "Ilia Shumailov",
+      "Itay Yona",
+      "Juliette Pluto",
+      "Aneesh Pappu",
+      "Christopher A. Choquette-Choo",
+      "Milad Nasr",
+      "Chawin Sitawarin",
+      "Gena Gibson",
+      "Andreas Terzis",
+      "John ‘Four’ Flynn"
+    ],
+    "filepath": "documents/Lessons_from_Defending_Gemini_1749677785.pdf",
+    "upload_date": "2025-06-12T09:23:42.152559",
+    "file_size": 2068087,
+    "summary": "This document discusses Google DeepMind's approach to evaluating the adversarial robustness of their AI model, Gemini. It describes an adversarial evaluation framework used to test Gemini against sophisticated attacks and outlines key lessons learned from these ongoing evaluations. The goal is to make Gemini more resilient against manipulation.",
+    "keywords": [
+      "AI",
+      "Gemini",
+      "Adversarial Robustness",
+      "Evaluation Framework",
+      "Security"
+    ],
+    "key_concepts": [
+      "The document explains Google DeepMind's approach to evaluating the adversarial robustness of their AI model, Gemini.",
+      "An adaptive attack technique suite is deployed against past, current, and future versions of Gemini in an ongoing evaluation process.",
+      "These evaluations aim to make Gemini more resilient against manipulation by a sophisticated adversary.",
+      "The threat model outlines the attack description, adversarial goal, and capabilities.",
+      "The report provides insights into how these ongoing evaluations can help improve the security of AI models."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "2025-5-18 Lessons from Defending Gemini Against Indirect Prompt Injections"
+  },
+  {
     "id": "bdb9fbf4df799f13a99c6a1fd1369e80",
     "filename": "Light_RAG_Neo4j_1740137060.pdf",
     "title": "LightRAG with Neo4j",
