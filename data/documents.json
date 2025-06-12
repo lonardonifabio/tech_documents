@@ -24577,15 +24577,22 @@
     "title": "The Fundamentals of Machine Learning",
     "authors": [],
     "filepath": "documents/learneverythingai__1712152091.pdf",
-    "upload_date": "2025-06-03T22:07:09.242567",
+    "upload_date": "2025-06-12T20:29:24.493369",
     "file_size": 524290,
-    "summary": "This document provides an overview of machine learning, its history, techniques, importance, usage across industries, challenges, future prospects, and differences from AI. It also discusses the role of human element in machine learning.",
+    "summary": "This document provides an overview of machine learning, explaining its role in daily life, differences from artificial intelligence, various techniques, the importance of human involvement, industries utilizing it, challenges, and future prospects. It also discusses the underlying technology of AI and how machine learning algorithms learn from data and experiences.",
     "keywords": [
       "Machine Learning",
       "Artificial Intelligence",
-      "AI",
+      "Algorithms",
       "Data",
       "Patterns"
+    ],
+    "key_concepts": [
+      "Machine learning is a set of algorithms learned from data and/or experiences, rather than being explicitly programmed.",
+      "Machine learning differs from artificial intelligence as it is the underlying technology of AI, with the goal of AI being to imitate human behavior.",
+      "Each task requires a different set of machine learning algorithms that detect patterns to perform certain tasks.",
+      "The document discusses various types of machine learning and how they work.",
+      "The document highlights the importance of human involvement in machine learning and the role it plays in industries."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
