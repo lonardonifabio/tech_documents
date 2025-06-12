@@ -13888,14 +13888,21 @@
     "title": "Machine Learning Methods for Malware Detection",
     "authors": [],
     "filepath": "documents/Machine_Learning_Methods_For_Malware_Detection__1609679024.pdf",
-    "upload_date": "2025-06-03T17:53:41.704098",
+    "upload_date": "2025-06-12T20:29:18.392319",
     "file_size": 498023,
-    "summary": "This paper discusses the application of machine learning in building advanced protection against malware, focusing on concepts like unsupervised and supervised learning, deep learning, false positive rates, and adaptability to malware writers' counteractions. It also covers specific applications in cybersecurity and infrastructure.",
+    "summary": "This document discusses the application of machine learning in malware detection, focusing on concepts such as unsupervised and supervised learning, deep learning, false positive rates, and adaptability to counteractions. The paper also covers specific applications in cybersecurity, including pre-execution detection with similarity hashing, two-stage pre-execution detection, deep learning against rare attacks, and post-execution behavior detection. It also touches upon the use of machine learning in clustering incoming data streams and distillation for updates.",
     "keywords": [
       "Machine Learning",
       "Malware Detection",
       "Cybersecurity",
       "Deep Learning"
+    ],
+    "key_concepts": [
+      "The paper discusses the extensive experience of using machine learning to build advanced protection against malware for customers.",
+      "Unsupervised and supervised learning, deep learning are the main machine learning concepts discussed in this document.",
+      "Trained models in malware detection require large representative datasets, low false positive rates, interpretability, and quick adaptability to counteractions.",
+      "The paper presents Kaspersky's application of machine learning for detecting new malware in pre-execution with similarity hashing and two-stage pre-execution detection on users’ computers.",
+      "Deep learning is used against rare attacks and in post-execution behavior detection, while also discussing its applications in the infrastructure such as clustering incoming data streams and distillation for updates."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
