@@ -9483,19 +9483,24 @@
     "title": "The Big Book of Generative AI by DataBricks",
     "authors": [],
     "filepath": "documents/Gen_AI_by_DataBricks_1740320466.pdf",
-    "upload_date": "2025-06-06T03:10:08.010908",
+    "upload_date": "2025-06-12T20:29:15.590288",
     "file_size": 3974439,
-    "summary": "This document explores the path to deploying production-quality GenAI applications, covering stages from foundation models to prompt engineering and retrieval augmented generation. It introduces DBRX, a new state-of-the-art open LLM.",
+    "summary": "This document explores the path to deploying production-quality GenAI applications. It covers three stages: Foundation Models, Prompt Engineering, and Retrieval Augmented Generation. The document introduces DBRX, a new state-of-the-art open LLM, and demonstrates its use in automated analysis of product reviews. The focus is on practical applications such as this case study.",
     "keywords": [
       "Generative AI",
       "DataBricks",
-      "LLM",
-      "Production Quality",
-      "Prompt Engineering"
+      "DBRX",
+      "Prompt Engineering",
+      "Retrieval Augmented Generation"
+    ],
+    "key_concepts": [
+      "The document provides a comprehensive guide to deploying production-quality GenAI applications across three stages.",
+      "It introduces DBRX, a new state-of-the-art open LLM, and demonstrates its use in automated analysis of product reviews.",
+      "The document focuses on practical applications such as the case study of using DBRX for automated analysis of product reviews."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "The Path to Deploying Production-Quality GenAI Applications ..."
+    "content_preview": "THE BIG BOOK OF GENERATIVE AICONTENTSIntroduction  ............................................................................................................................................................................................................ 3"
   },
   {
     "id": "584d3c5eb8777bc7f5301ba20076db94",
