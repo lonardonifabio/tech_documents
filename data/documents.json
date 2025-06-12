@@ -3271,19 +3271,25 @@
     "title": "OWASP Top 10 for LLMs - GenAI Red Teaming Guide",
     "authors": [],
     "filepath": "documents/Agentic_AI_Threats_1743591360.pdf",
-    "upload_date": "2025-06-05T14:25:23.923287",
+    "upload_date": "2025-06-12T20:29:11.466241",
     "file_size": 2206672,
-    "summary": "This document provides the OWASP Top 10 threats and mitigations for Language Learning Machines (LLMs) and General AI, focusing on Agentic AI security. It is licensed under Creative Commons CC BY-SA 4.0, allowing sharing, adaptation, and remixing with attribution and share-alike conditions.",
+    "summary": "This document, released in February 2025, provides a comprehensive guide on the OWASP Top 10 threats to Language Learning Models (LLMs) and Generative AI. It outlines the Agentic Security Initiative for Agentic AI, detailing various threats, mitigation strategies, and offers a reference architecture. The document is licensed under Creative Commons CC BY-SA 4.0, allowing free sharing, adaptation, and remixing with proper attribution.",
     "keywords": [
       "OWASP",
       "Top 10",
       "LLMs",
-      "General AI",
-      "Agentic AI"
+      "Generative AI",
+      "Agentic Security Initiative"
+    ],
+    "key_concepts": [
+      "The document focuses on the OWASP Top 10 threats specific to Language Learning Models (LLMs) and Generative AI.",
+      "It introduces the Agentic Security Initiative for Agentic AI, which aims to address security concerns in this emerging field.",
+      "The guide provides a reference architecture for Agentic AI, outlining key components and their interactions.",
+      "The document is licensed under Creative Commons CC BY-SA 4.0, allowing free sharing, adaptation, and remixing with proper attribution."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Version 1.0 February 2025 OWASP Top 10 for LLMs & Gen AI Agentic Security Initiative"
+    "content_preview": "Version 1.0 February 2025 OWASP Top 10 for LLM Apps & Gen AI Agentic Security Initiative"
   },
   {
     "id": "4bdbe8df913a44d68be7ec24569a74e4",
