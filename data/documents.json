@@ -3462,16 +3462,22 @@
     "title": "AlexNet Implementation in Keras",
     "authors": [],
     "filepath": "documents/AlexNet_1711185522.pdf",
-    "upload_date": "2025-06-03T22:07:02.620513",
+    "upload_date": "2025-06-12T20:29:11.515242",
     "file_size": 228203,
-    "summary": "This document details the implementation of AlexNet using Keras library. The code initializes a Convolutional Neural Network (CNN) for image classification.",
+    "summary": "This document provides a step-by-step guide on implementing the AlexNet model using Keras. The implementation includes defining the Convolutional Neural Network (CNN) architecture, initializing the CNN, and addressing common errors such as registering libraries and packages. The code demonstrates how to use layers like Convolution2D, MaxPooling2D, Flatten, Dense, Dropout, BatchNormalization in Keras.",
     "keywords": [
       "AlexNet",
       "Keras",
-      "Convolutional Neural Network",
-      "Image Classification"
+      "CNN",
+      "Convolutional Neural Network"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "Explanation of the AlexNet architecture and its layers",
+      "Demonstration of initializing a CNN using Keras",
+      "Resolution of common errors during library registration",
+      "Usage of Convolution2D, MaxPooling2D, Flatten, Dense, Dropout, BatchNormalization in Keras"
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
     "content_preview": "Initializing the CNN: classifier =Sequential()"
   },
