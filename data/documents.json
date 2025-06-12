@@ -1873,6 +1873,42 @@
     "content_preview": "AI Safety in Practice Partici..."
   },
   {
+    "id": "5608498b23c043df4bb7ef92dc3763c3",
+    "filename": "AI_Security_Risk_Assessment_1749414876.pdf",
+    "title": "AI Security Risk Assessment",
+    "authors": [
+      "Will Pearce",
+      "Hyrum Anderson",
+      "Ram Shankar Siva Kumar",
+      "Neil Coles",
+      "Andrew Paverd",
+      "Andrew Marshall",
+      "Aashish Bhateja",
+      "Alex Sutton"
+    ],
+    "filepath": "documents/AI_Security_Risk_Assessment_1749414876.pdf",
+    "upload_date": "2025-06-12T09:23:35.292492",
+    "file_size": 510946,
+    "summary": "This document provides best practices and guidance for securing AI systems. It covers topics such as data collection, processing, model training, deployment, system monitoring, incident management, and business continuity planning. The suggested approach includes severity, likelihood, impact assessment, security testing, and compliance review. Key contributors include Will Pearce, Hyrum Anderson, Ram Shankar Siva Kumar, Neil Coles, Andrew Paverd, Andrew Marshall, Aashish Bhateja, and Alex Sutton.",
+    "keywords": [
+      "AI Security",
+      "Risk Assessment",
+      "Data Collection",
+      "Model Training",
+      "System Monitoring"
+    ],
+    "key_concepts": [
+      "The document offers a comprehensive approach to securing AI systems by assessing severity, likelihood, and impact.",
+      "Data collection is an essential step in the security assessment process, involving data sources, sensitive data types, storage, access, integrity, and more.",
+      "Model training is crucial for ensuring the security of AI systems. The document discusses model design, selection, versioning, and other aspects related to this stage.",
+      "Security testing and compliance review are vital components of the approach outlined in the document.",
+      "The document emphasizes the importance of system monitoring, incident management, business continuity planning, and log reviews."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "AI Security Risk Assessment Best practice s and guidance to secure AI systems"
+  },
+  {
     "id": "e7aea33c26ce3309671fde330fb8eedb",
     "filename": "AI_Supply_Chain_1743591689.pdf",
     "title": "Securing AI Software Supply Chain",
@@ -2183,6 +2219,33 @@
     "category": "AI",
     "difficulty": "Intermediate",
     "content_preview": "This publication is funded by the European Union’s Justice Programme (2021-2027)..."
+  },
+  {
+    "id": "192d00ec9c36c8873a52bb9735494066",
+    "filename": "AI_and_the_Future_of_News_1749400982.pdf",
+    "title": "AI and the Future of News",
+    "authors": [],
+    "filepath": "documents/AI_and_the_Future_of_News_1749400982.pdf",
+    "upload_date": "2025-06-12T09:23:35.560495",
+    "file_size": 1903195,
+    "summary": "This document discusses the impact of AI on journalism, focusing on its ability to boost efficiency, personalize news experiences, and drive audience engagement. However, it emphasizes the need for human oversight, transparency, and ethical implementation to maintain trust. The document concludes by stating that AI is a complement to traditional journalism rather than a replacement.",
+    "keywords": [
+      "AI",
+      "Journalism",
+      "News",
+      "Automation",
+      "Personalization"
+    ],
+    "key_concepts": [
+      "AI boosts efficiency but still requires human oversight to ensure accuracy, trustworthiness, and journalistic integrity.",
+      "AI enables the creation of tailored news experiences, helping organizations deliver the right content to the right audience.",
+      "To maintain audience trust, newsrooms must disclose the use of AI clearly and ensure ethical implementation.",
+      "AI’s greatest strength lies in enhancing workflows, enabling creativity, and improving audience engagement.",
+      "AI cannot replace the cornerstones of journalism - human judgement, empathy, or critical thinking."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "REUTERS PRESENTS Revolutionising production, editing and dissemination in journalism one prompt at a time AI and the Future of News"
   },
   {
     "id": "cc255f28260479b6a6da8fb532f54481",
@@ -3516,6 +3579,35 @@
     "category": "Data Science",
     "difficulty": "Intermediate",
     "content_preview": "Statistical learning refers to a set of tools for making sense of complex data sets."
+  },
+  {
+    "id": "68263d9ee095cf4c92a33ea43875ef9d",
+    "filename": "Analysis_of_EU_AI_Office_stakeholder_consultations_1749397428.pdf",
+    "title": "Analysis of EU AI Office Stakeholder Consultations",
+    "authors": [
+      "CEPS - Centre for European Policy Studies"
+    ],
+    "filepath": "documents/Analysis_of_EU_AI_Office_stakeholder_consultations_1749397428.pdf",
+    "upload_date": "2025-06-12T09:23:36.429504",
+    "file_size": 4538764,
+    "summary": "This document presents the findings from a study conducted by CEPS on the stakeholder consultations held by the European Commission's Artificial Intelligence Office. The report focuses on defining AI systems, prohibited applications, and provides recommendations for future policy-making in the field of AI.",
+    "keywords": [
+      "AI",
+      "EU",
+      "Stakeholder Consultations",
+      "Defining AI Systems",
+      "Prohibited Applications"
+    ],
+    "key_concepts": [
+      "The report aims to provide a comprehensive analysis of the stakeholder consultations held by the EU AI Office.",
+      "The study focuses on defining what constitutes an AI system and outlines the key characteristics that distinguish it from other technologies.",
+      "The document also discusses prohibited applications of AI, such as those that pose a threat to human rights or security.",
+      "Recommendations are provided for future policy-making in the field of AI, with a focus on ensuring ethical and responsible use of the technology.",
+      "The report is based on the findings from consultations with various stakeholders, including industry experts, academics, and civil society organizations."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "This document presents the findings from a study conducted by CEPS on the stakeholder consultations held by the European Commission's Artificial Intelligence Office."
   },
   {
     "id": "28764e8b5308b0421ef6a10a14edee2f",
@@ -11740,6 +11832,40 @@
     "content_preview": "Expert Report on Privacy and Data Protection Risks in Large Language Models (LLMs)"
   },
   {
+    "id": "9a009c937faf67653dab0b156d9ca2e2",
+    "filename": "LRMs_collapse_big_time__1749631533.pdf",
+    "title": "The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity",
+    "authors": [
+      "Parshin Shojaee",
+      "*†Iman Mirzadeh",
+      "*Keivan Alizadeh",
+      "Maxwell Horton",
+      "Samy Bengio",
+      "Mehrdad Farajtabar"
+    ],
+    "filepath": "documents/LRMs_collapse_big_time__1749631533.pdf",
+    "upload_date": "2025-06-12T09:23:41.929557",
+    "file_size": 578041,
+    "summary": "This document explores the capabilities, scaling properties, and limitations of Large Reasoning Models (LRMs) through controllable puzzle environments. The study reveals that LRMs experience a complete accuracy collapse beyond certain complexities and exhibit a counter-intuitive scaling limit where their reasoning effort increases with problem complexity up to a point, then declines despite the complexity reduction. The work aims to provide insights into the reasoning traces’ structure and quality.",
+    "keywords": [
+      "Large Reasoning Models",
+      "LRMs",
+      "Reasoning Models",
+      "Problem Complexity",
+      "Controllable Puzzle Environments"
+    ],
+    "key_concepts": [
+      "This work investigates the gaps in understanding the fundamental capabilities, scaling properties, and limitations of Large Reasoning Models (LRMs).",
+      "The study uses controllable puzzle environments that allow precise manipulation of compositional complexity while maintaining consistent logical structures.",
+      "The analysis focuses on not only final answers but also the internal reasoning traces, offering insights into how LRMs ‘think’.",
+      "Through extensive experimentation across diverse puzzles, it is shown that frontier LRMs face a complete accuracy collapse beyond certain complexities.",
+      "The work reveals an unexpected scaling limit: their reasoning effort increases with problem complexity up to a point, then declines despite the complexity reduction."
+    ],
+    "category": "AI",
+    "difficulty": "Advanced",
+    "content_preview": "Recent generations of frontier language models have introduced Large Reasoning Models (LRMs) that generate detailed thinking processes before providing answers."
+  },
+  {
     "id": "3ef2ba74d7e0d9b40bbe9884ae12c524",
     "filename": "LSTM_1711023252.pdf",
     "title": "LSTM Analysis on Spam Email Dataset",
@@ -11838,6 +11964,33 @@
     "category": "Technology",
     "difficulty": "Intermediate",
     "content_preview": "Document: Langchain Application 1709835148"
+  },
+  {
+    "id": "a704b41b3bff039a2872da375333b77e",
+    "filename": "Large_Language_Models_Are_More_Persuasive_1749414905.pdf",
+    "title": "Large Language Models Are More Persuasive Than Incentivized Human Persuaders",
+    "authors": [],
+    "filepath": "documents/Large_Language_Models_Are_More_Persuasive_1749414905.pdf",
+    "upload_date": "2025-06-12T09:23:41.958557",
+    "file_size": 1066109,
+    "summary": "This research study compares the persuasiveness of large language models and incentivized human persuaders. The authors conducted experiments to test the effectiveness of both methods in influencing people's attitudes and behaviors. They found that large language models were more persuasive, particularly when it came to changing deeply held beliefs. Key practical applications include marketing, politics, and social influence campaigns.",
+    "keywords": [
+      "Large Language Models",
+      "Persuasion",
+      "Human Persuaders",
+      "Experiment",
+      "Influence"
+    ],
+    "key_concepts": [
+      "The study found that large language models were more persuasive than incentivized human persuaders in changing people's attitudes and behaviors.",
+      "The authors conducted experiments to test the effectiveness of both methods in influencing people's attitudes and behaviors.",
+      "The findings have practical implications for marketing, politics, and social influence campaigns.",
+      "The study provides insights into the role of large language models in shaping public opinion and behavior.",
+      "The research contributes to the growing body of knowledge about the impact of artificial intelligence on human decision-making."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Large Language Models Are More Persuasive Than Incentivized Human Persuaders"
   },
   {
     "id": "79997babf0363b031a371e0e3ad91237",
@@ -16412,6 +16565,36 @@
     "content_preview": "3 Table of Contents\nINTRODUCTION\n1. The EU Data Act\n2. Outline of Orgalim’s data act guide"
   },
   {
+    "id": "cc95c9c93ebaed8172b7c6defaaa6f64",
+    "filename": "Oversight_Structures_for_Agentic_AI_in_Public_Sector_1749710207.pdf",
+    "title": "Oversight Structures for Agentic AI in Public-Sector Organizations",
+    "authors": [
+      "Chris Schmitz",
+      "Jonathan Rystrøm",
+      "Jan Batzner"
+    ],
+    "filepath": "documents/Oversight_Structures_for_Agentic_AI_in_Public_Sector_1749710207.pdf",
+    "upload_date": "2025-06-12T09:23:44.998586",
+    "file_size": 242262,
+    "summary": "This document explores the challenges posed by agentic AI systems to traditional public sector oversight mechanisms. It identifies five essential governance dimensions for responsible deployment: cross-departmental implementation, comprehensive evaluation, enhanced security protocols, operational visibility, and systematic auditing. The study evaluates the capacity of existing oversight structures using a mixed-methods approach, consisting of a literature review and interviews with civil servants in AI-related roles. Findings suggest that agent oversight poses intensified versions of three existing governance challenges: continuous oversight, deeper integration of governance and operation...",
+    "keywords": [
+      "Artificial Intelligence",
+      "AI Governance",
+      "Public Sector",
+      "Oversight Structures"
+    ],
+    "key_concepts": [
+      "The introduction of agentic AI systems intensifies existing challenges to traditional public sector oversight mechanisms.",
+      "Five governance dimensions essential for responsible agent deployment are identified: cross-departmental implementation, comprehensive evaluation, enhanced security protocols, operational visibility, and systematic auditing.",
+      "Existing oversight structures are evaluated via a mixed-methods approach consisting of a literature review and interviews with civil servants in AI-related roles.",
+      "Agent oversight poses intensified versions of three existing governance challenges: continuous oversight, deeper integration of governance and operational capabilities, and interdepartmental coordination.",
+      "Proposed approaches adapt institutional structures and design agent oversight compatible with public sector constraints."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "arXiv:2506.04836v1  [cs.CY]  5 Jun 2025Oversight Structures for Agentic AI in Public-Sector Organizations"
+  },
+  {
     "id": "6269b0a40269cfb71d40045e0d7bbb1b",
     "filename": "Overview_of_artificial_intelligence_regulation_1739993311.pdf",
     "title": "Overview of Artificial Intelligence Regulation",
@@ -18673,6 +18856,41 @@
     "content_preview": "Learn how to read and write data using the Pandas library. This document covers methods for reading various file types, parsing tables from the web, writing data structures to disk, and more."
   },
   {
+    "id": "4907ab19576676ef5d8da993f9224bc3",
+    "filename": "Real_GenAI_risks_1749710097.pdf",
+    "title": "A Closer Look at the Existing Risks of Generative AI",
+    "authors": [
+      "MEGAN LI",
+      "WENDY BICKERSTETH",
+      "NINGJING TANG",
+      "JASON HONG",
+      "LORRIE CRANOR",
+      "HONG SHEN",
+      "HODA HEIDARI"
+    ],
+    "filepath": "documents/Real_GenAI_risks_1749710097.pdf",
+    "upload_date": "2025-06-12T09:23:46.007596",
+    "file_size": 769205,
+    "summary": "This document presents a comprehensive analysis of real-world incidents related to Generative AI, mapping the causes, effects, and stakeholders involved. The study builds on prior taxonomies of AI risks and harms, focusing specifically on Generative AI failures and their associated impacts. Through an examination of 499 publicly reported incidents, the paper describes the prevalence of each type of harm, underlying failure mode, and affected parties, revealing that most incidents are caused by user-related issues but impact parties beyond the immediate users of the faulty system.",
+    "keywords": [
+      "Generative AI",
+      "Risks",
+      "Incidents",
+      "Harms",
+      "Taxonomy"
+    ],
+    "key_concepts": [
+      "Explains the general-purpose nature of Generative AI and its expanding set of risks due to diverse applications.",
+      "Describes the construction of a taxonomy for Generative AI failures, mapping them to the harms they cause.",
+      "Reports on the prevalence of each type of harm, underlying failure mode, and affected stakeholders in 499 publicly reported incidents.",
+      "Highlights that most reported incidents are caused by user-related issues but impact parties beyond the immediate users of the faulty system.",
+      "Discusses the importance of understanding and addressing the risks associated with Generative AI to ensure its safe and responsible development, deployment, and use."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "arXiv:2505.22073v1  [cs.CY]  28 May 2025A Closer Look at the Existing Risks of Generative AI:"
+  },
+  {
     "id": "cb530d14e293aa7cbd2de9d5a03b8372",
     "filename": "Reasoning_Language_Models_1738710907.pdf",
     "title": "Reasoning Language Models: A Blueprint",
@@ -19428,6 +19646,33 @@
     "category": "AI",
     "difficulty": "Intermediate",
     "content_preview": "Scalable AI Incident Classification... This work is a collaboration..."
+  },
+  {
+    "id": "30d25e776d2b50348c5dd28c2c50126a",
+    "filename": "Schlegel_Sommer_Mortillaro_2025_Nature__1749710065.pdf",
+    "title": "Large Language Models and Emotional Intelligence Tests",
+    "authors": [
+      "Katja Schlegel1,2, Nils R. Sommere1& Marcello Mortillaro3"
+    ],
+    "filepath": "documents/Schlegel_Sommer_Mortillaro_2025_Nature__1749710065.pdf",
+    "upload_date": "2025-06-12T09:23:46.387600",
+    "file_size": 552299,
+    "summary": "This research investigates the emotional intelligence capabilities of large language models (LLMs) by examining their performance on standard emotional intelligence tests. The study found that LLMs, specifically ChatGPT-4, outperformed humans with an average accuracy of 81%, compared to human averages of 56% in original validation studies. The research also shows that LLMs can generate new test items for emotional intelligence tests, which were administered to human participants across five studies.",
+    "keywords": [
+      "Large Language Models",
+      "Emotional Intelligence Tests",
+      "ChatGPT-4"
+    ],
+    "key_concepts": [
+      "LLMs demonstrate expertise in diverse domains but their emotional intelligence is uncertain.",
+      "Research examines LLMs' ability to solve and generate performance-based emotional intelligence tests.",
+      "ChatGPT-4 outperformed humans on five standard emotional intelligence tests with an average accuracy of 81%.",
+      "ChatGPT-4 generated new test items for each emotional intelligence test, which were administered to human participants across five studies.",
+      "Original and ChatGPT-generated tests demonstrated statistically equivalent test difficulty but differences in other factors such as clarity, realism, diversity, internal consistency, correlations with vocabulary and external ability emotional intelligence tests were smaller than Cohen's d ± 0.25."
+    ],
+    "category": "AI",
+    "difficulty": "Advanced",
+    "content_preview": "Large language models are pro ﬁcient in solving and creating emotional intelligence tests"
   },
   {
     "id": "6d44d62055c5a4f2838879ca3bf85f99",
@@ -21743,6 +21988,31 @@
     "content_preview": "This document provides a comprehensive guide to common interview questions in Data Science, Analytics, and Machine Learning."
   },
   {
+    "id": "81a712dd6bab2af4b711fd2d6cba7d0f",
+    "filename": "Top_50_Large_Language_Model_LLM_Interview_Questions__1749397410.pdf",
+    "title": "Top_50_Large_Language_Model_LLM_Interview_Questions",
+    "authors": [],
+    "filepath": "documents/Top_50_Large_Language_Model_LLM_Interview_Questions__1749397410.pdf",
+    "upload_date": "2025-06-12T09:23:47.995618",
+    "file_size": 102158,
+    "summary": "This document provides 50 essential interview questions for understanding Large Language Models (LLMs), covering topics such as tokenization, the attention mechanism in transformer models, and their applications. Each question is paired with a detailed answer, offering both technical insights and practical examples.",
+    "keywords": [
+      "Large Language Model",
+      "Interview Questions",
+      "AI",
+      "Transformer Models",
+      "Attention Mechanism"
+    ],
+    "key_concepts": [
+      "Tokenization involves breaking down text into smaller units for LLMs to process numerical representations, enhancing computational efficiency and model performance.",
+      "The attention mechanism in transformer models allows the model to weigh the importance of different tokens when generating or interpreting text, improving the model's ability to handle diverse languages and manage rare or unknown words.",
+      "This document is designed for AI enthusiasts and professionals preparing for interviews, offering a comprehensive guide to LLMs."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Top 50 Large Language Model (LLM) Interview Questions"
+  },
+  {
     "id": "6c14a3543dd459318a2c55dd0cc483a3",
     "filename": "Top_AI_event__1638714866.pdf",
     "title": "AI Innovation Expo",
@@ -22571,6 +22841,33 @@
     "category": "AI",
     "difficulty": "Intermediate",
     "content_preview": "Visualization-of-Thought (VoT) aims to elicit spatial reasoning of LLMs by visualizing their reasoning traces..."
+  },
+  {
+    "id": "f0a21bfc566a7dba08a83fb9edc44979",
+    "filename": "WEF_Empowering_AI_Leadership_2022.pdf",
+    "title": "Empowering AI Leadership: AI C-Suite Toolkit",
+    "authors": [],
+    "filepath": "documents/WEF_Empowering_AI_Leadership_2022.pdf",
+    "upload_date": "2025-06-12T09:23:48.468623",
+    "file_size": 18056060,
+    "summary": "This document provides a comprehensive guide for executives on understanding AI, developing an AI strategy, and leading AI initiatives within their organizations. It covers topics such as the history of AI, strategic options it creates, the relationship between AI strategy and digital transformation, people and organizational aspects, and common pitfalls to avoid. The toolkit also offers insights into assessing an organization's maturity on the AI journey, understanding competitor landscapes, designing an AI roadmap, and the skills required for successful leadership.",
+    "keywords": [
+      "AI",
+      "Leadership",
+      "Strategy",
+      "Digital Transformation",
+      "Culture"
+    ],
+    "key_concepts": [
+      "This document is a toolkit designed to empower executives with knowledge about AI.",
+      "The guide covers the history, strategic options, and relationship between AI strategy and digital transformation.",
+      "It provides insights into assessing an organization's maturity on the AI journey and designing an AI roadmap.",
+      "The document discusses the role of executive sponsorship, skills required for successful leadership, and common pitfalls to avoid.",
+      "Understanding competitor landscapes and business stakeholder needs are also addressed in this toolkit."
+    ],
+    "category": "Business",
+    "difficulty": "Intermediate",
+    "content_preview": "Empowering AI Leadership: AI C-Suite Toolkit"
   },
   {
     "id": "e1f20ac86826fd7ef98060f345bedad9",
