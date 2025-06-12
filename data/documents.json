@@ -10271,18 +10271,25 @@
       "Michael A. Lones"
     ],
     "filepath": "documents/How_to_avoid_machine_learning_pitfalls_1630357004.pdf",
-    "upload_date": "2025-06-03T17:21:43.225979",
+    "upload_date": "2025-06-12T20:29:16.107294",
     "file_size": 244082,
-    "summary": "A guide for academic researchers on common mistakes when using ML techniques, focusing on rigorous comparisons and valid conclusions.",
+    "summary": "This document provides a guide for academic researchers on common mistakes when using machine learning techniques, focusing on rigorous comparisons and valid conclusions. It covers five stages of the ML process: before model building, model building, robust evaluation, fair comparison, and reporting results.",
     "keywords": [
       "Machine Learning",
       "Academic Research",
       "Pitfalls",
-      "Guide"
+      "Model Building",
+      "Evaluation"
+    ],
+    "key_concepts": [
+      "The guide aims to help newcomers avoid mistakes in ML within an academic context by focusing on scholarly concerns such as rigorous evaluation and comparison.",
+      "The document covers five stages of the machine learning process: before model building, model building, robust evaluation, fair comparison, and reporting results.",
+      "The lessons learned are applicable to a broader use of ML and can be used as an introductory guide for anyone getting started in this field.",
+      "The guide primarily assumes a basic knowledge of ML techniques and focuses on issues that are of particular concern within academic research."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "A guide for academic researchers on common ML pitfalls, focusing on rigorous evaluations and comparisons."
+    "content_preview": "This document gives a concise outline of some of the common mistakes that occur when using machine learning techniques, and what can be done to avoid them."
   },
   {
     "id": "12e363eea0f0d8c12151555f64b7f10a",
