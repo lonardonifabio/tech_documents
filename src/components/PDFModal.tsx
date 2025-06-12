@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import DocumentChat from './DocumentChat';
-import ErrorBoundary from './ErrorBoundary';
 
 interface Document {
   id: string;
@@ -84,7 +82,7 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
   
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
-      <div className="bg-white rounded-lg shadow-xl w-full max-w-7xl h-full max-h-[90vh] flex flex-col">
+      <div className="bg-white rounded-lg shadow-xl w-full max-w-6xl h-full max-h-[90vh] flex flex-col">
         {/* Header */}
         <div className="flex items-center justify-between p-4 border-b">
           <h2 className="text-xl font-semibold text-gray-800 truncate pr-4">
@@ -256,36 +254,6 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
                 title={`Preview of ${doc.title || doc.filename}`}
               />
             )}
-          </div>
-
-          {/* Right Sidebar - Chat Interface */}
-          <div className="w-80 border-l">
-            <ErrorBoundary
-              fallback={
-                <div className="p-4 bg-red-50 border border-red-200 rounded-lg m-4">
-                  <div className="flex items-center gap-2 text-red-800 mb-2">
-                    <span className="text-lg">⚠️</span>
-                    <h3 className="font-semibold">Chat Error</h3>
-                  </div>
-                  <p className="text-red-700 text-sm mb-3">
-                    The document chat feature encountered an error. This might be due to:
-                  </p>
-                  <ul className="text-red-700 text-xs mb-3 list-disc list-inside">
-                    <li>Ollama not running locally</li>
-                    <li>CORS configuration issues</li>
-                    <li>Network connectivity problems</li>
-                  </ul>
-                  <button
-                    onClick={() => window.location.reload()}
-                    className="px-3 py-1 bg-red-600 text-white text-sm rounded hover:bg-red-700 transition-colors"
-                  >
-                    Reload Page
-                  </button>
-                </div>
-              }
-            >
-              <DocumentChat document={doc} />
-            </ErrorBoundary>
           </div>
         </div>
       </div>
