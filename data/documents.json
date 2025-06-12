@@ -24918,19 +24918,26 @@
     "title": "PCOS Detection Using Multi-Scale Retinex Enhanced Ultrasound Images: A Deep Learning Approach with ImpalaCNN Algorithm",
     "authors": [],
     "filepath": "documents/pcos_1741962006.pdf",
-    "upload_date": "2025-06-05T20:14:29.817865",
+    "upload_date": "2025-06-12T20:29:24.591370",
     "file_size": 718124,
-    "summary": "This document describes a deep learning approach for PCOS (Polycystic Ovary Syndrome) detection using enhanced ultrasound images. The ImpalaCNN algorithm is employed, and the data is organized into two categories: 'infected' and 'not infected'. The code provided reads and organizes the image paths and their corresponding labels for further analy...",
+    "summary": "This document presents a research study that utilizes deep learning to detect Polycystic Ovary Syndrome (PCOS) using multi-scale Retinex enhanced ultrasound images. The study employs the ImpalaCNN algorithm, which is applied on a dataset containing infected and not infected images. The data is preprocessed by organizing image paths and labels into a DataFrame for further analysis.",
     "keywords": [
       "PCOS",
       "Ultrasound Images",
       "Deep Learning",
       "ImpalaCNN",
-      "Data Organization"
+      "Data Preprocessing"
+    ],
+    "key_concepts": [
+      "The study aims to detect PCOS using multi-scale Retinex enhanced ultrasound images.",
+      "The ImpalaCNN algorithm is used for the detection of PCOS in the dataset.",
+      "The dataset consists of infected and not infected images, which are organized into a DataFrame for analysis.",
+      "The study employs deep learning techniques to analyze the ultrasound images.",
+      "The research could potentially aid in early and accurate diagnosis of PCOS."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "import numpy as np\nimport pandas as pd\nimport os\nbase_path = \"/kaggle/input/augmented -enhanced-pcos/content/data/enhanced_data/\"\ncategories = [\"infected\", \"notinfected\" ]\nimage_paths = []\nl"
+    "content_preview": "import numpy as np\nimport pandas as pd\nimport os\nbase_path = \"/kaggle/input/augmented -enhanced-pcos/content/data/enhanced_data/\""
   },
   {
     "id": "6c13b74de61db5281f2062988b804fb8",
