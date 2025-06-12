@@ -13423,17 +13423,26 @@
     "title": "Machine Learning Algorithms",
     "authors": [],
     "filepath": "documents/Machine_Learning_Algorithms__1739096211.pdf",
-    "upload_date": "2025-06-05T20:14:23.542730",
+    "upload_date": "2025-06-12T20:29:18.169317",
     "file_size": 23252824,
-    "summary": "This document provides explanations for two popular machine learning algorithms: Linear Regression and Logistic Regression. Linear Regression is used for predicting continuous values, such as house prices based on size, while Logistic Regression is employed for classifying data, like emails as spam or not spam.",
+    "summary": "This document provides an introduction to two popular machine learning algorithms: Linear Regression and Logistic Regression. It explains their applications in predicting house prices and classifying emails as spam or not, respectively. The document also includes examples for each algorithm.",
     "keywords": [
       "Machine Learning",
       "Linear Regression",
-      "Logistic Regression"
+      "Logistic Regression",
+      "Prediction",
+      "Classification"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Linear Regression is a machine learning algorithm used to predict the price of a house based on its size by finding a straight line that best fits historical data.",
+      "Logistic Regression is a machine learning algorithm used to classify emails as spam or not based on their content by assigning a probability of them being spam.",
+      "Linear Regression finds the equation of the line (e.g., Price = 100 * Size + 50,000) that best represents historical data to predict house prices.",
+      "Logistic Regression calculates the probability that an email is spam and classifies it as such if the probability is above a certain threshold.",
+      "The document demonstrates the practical applications of Linear and Logistic Regression in real-world scenarios."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "T o p  1 0 t u t o r t a c a d e m yC u r a t e d b yA l g o r i t h m s"
+    "content_preview": "t o p  1 0 t u t o r t a c a d e m yC u r a t e d b yA l g o r i t h m s"
   },
   {
     "id": "8fb489e6e194b141af00f3cb2d137271",
