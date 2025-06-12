@@ -13727,22 +13727,28 @@
   {
     "id": "d852cd1b966f7a39786f916e6dd8e3e8",
     "filename": "Machine_Learning_Implementation_Strategy_1567264253.pdf",
-    "title": "Machine Learning Yearning - Draft",
+    "title": "Machine Learning Implementation Strategy",
     "authors": [
       "Andrew Ng"
     ],
     "filepath": "documents/Machine_Learning_Implementation_Strategy_1567264253.pdf",
-    "upload_date": "2025-06-04T21:18:53.091028",
+    "upload_date": "2025-06-12T20:29:18.371319",
     "file_size": 4206689,
-    "summary": "This document is a draft of the Machine Learning Yearning project by Andrew Ng. It provides a strategy for implementing machine learning, covering topics such as development and test sets, error analysis, bias and variance, and more. The goal is to help teams optimize their machine learning models.",
+    "summary": "This document is a draft of 'Machine Learning Yearning', a deeplearning.ai project by Andrew Ng. It provides a comprehensive strategy for implementing machine learning, covering topics such as development and test sets, error analysis, bias and variance, and techniques to reduce avoidable bias. The document emphasizes the importance of scale in driving progress, optimizing evaluation metrics, iterating quickly, and conducting thorough error analysis.",
     "keywords": [
       "Machine Learning",
+      "Implementation Strategy",
       "Andrew Ng",
-      "Strategy",
-      "Implementation",
-      "Draft"
+      "deeplearning.ai"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "The importance of having development and test sets that come from the same distribution for effective machine learning implementation.",
+      "The role of a single-number evaluation metric in optimizing machine learning models.",
+      "The concept of 'optimizing and satisficing metrics' to speed up iterations.",
+      "The significance of error analysis in evaluating ideas and improving machine learning models.",
+      "The tradeoff between bias and variance, and techniques for reducing avoidable bias."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
     "content_preview": "Machine Learning Yearning is a deeplearning.ai project."
   },
