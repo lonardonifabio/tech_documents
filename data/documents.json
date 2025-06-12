@@ -24417,22 +24417,29 @@
   {
     "id": "afe3766aaa1a67c462c8c627e6e63b63",
     "filename": "javascript_cheatsheet_2019_lenguajejs_com_1623050131.pdf",
-    "title": "javascript_cheatsheet_2019_lenguajejs_com_1623050131.pdf",
+    "title": "JavaScript Cheatsheet 2019 from lenguajejs.com",
     "authors": [],
     "filepath": "documents/javascript_cheatsheet_2019_lenguajejs_com_1623050131.pdf",
-    "upload_date": "2025-06-06T15:45:51.547688",
+    "upload_date": "2025-06-12T20:29:24.462368",
     "file_size": 193291,
-    "summary": "This document is a JavaScript cheat sheet for 2019, covering various topics such as assertions, quantifiers, grouping, capture groups, boundaries, character sets or alternation, classes, modify source array methods, iteration methods, callback for each method, properties, locale & timezone methods, unit getters/setters, number methods, string me...",
+    "summary": "This document provides a comprehensive guide on JavaScript, covering various topics such as assertions, quantifiers, grouping, capture groups, boundaries, character sets or alternation, classes, modifying source array methods, iteration methods, callback for each methods, properties, locale & timezone methods, unit getters/setters, number methods, and string methods. It is useful for both beginners and intermediate JavaScript developers.",
     "keywords": [
       "JavaScript",
-      "Cheat Sheet",
-      "2019",
-      "Regular Expressions",
-      "Assertions"
+      "Cheatsheet",
+      "Lenguajejs.com",
+      "Assertions",
+      "Quantifiers"
+    ],
+    "key_concepts": [
+      "The document explains the use of assertions in JavaScript, which are expressions that test a condition.",
+      "Quantifiers such as x* preceding  x 0 or more times {0,} and (x) capture group are discussed for pattern matching.",
+      "Grouping is covered to combine multiple characters into a single unit for pattern matching.",
+      "Boundaries like ^ begin of input and \\n reference to group n captured help in defining the context of patterns.",
+      "Character sets or alternation [abc]match any character set is explained for pattern matching."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "ASSERTIONSQUANTIFIERS x* preceding  x 0 or more times {0,}GROUPING (x) capture group \nBOUNDARIES ^ begin of inputa|b match a or bCHARACTER SETS OR ALTERNATION [abc]match any character set"
+    "content_preview": "ASSERTIONSQUANTIFIERS x* preceding  x 0 or more times {0,"
   },
   {
     "id": "d404198c3440bb130fbe2c12a0969e4e",
