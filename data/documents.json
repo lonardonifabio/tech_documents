@@ -25089,15 +25089,22 @@
     "title": "SQL Cheat Sheet",
     "authors": [],
     "filepath": "documents/sql cheat sheet.pdf",
-    "upload_date": "2025-06-06T15:45:51.835689",
+    "upload_date": "2025-06-12T20:29:24.775373",
     "file_size": 230259,
-    "summary": "This document provides a comprehensive guide to SQL queries, including SELECT statements with various join types (INNER JOIN, LEFT JOIN, FULL OUTER JOIN, CROSS JOIN), aggregate functions, filtering, sorting, and more.",
+    "summary": "This document provides a comprehensive guide to SQL queries, covering various join types (inner, left, full outer, and self), aggregate functions, filtering, sorting, combining, and pattern matching. It also includes examples for querying data from tables and using the WHERE clause for conditions.",
     "keywords": [
       "SQL",
-      "Cheat Sheet",
-      "Join",
-      "Aggregate Function",
-      "Filter"
+      "queries",
+      "join",
+      "aggregate function",
+      "filter"
+    ],
+    "key_concepts": [
+      "Perform inner, left, full outer, and self joins between tables in SQL",
+      "Use aggregate functions to group rows and perform calculations on them",
+      "Filter rows using the WHERE clause with conditions or pattern matching",
+      "Sort the result set in ascending or descending order",
+      "Combine or subtract result sets from multiple queries"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
