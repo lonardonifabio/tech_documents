@@ -11805,6 +11805,40 @@
     "content_preview": "Expert Report on Privacy and Data Protection Risks in Large Language Models (LLMs)"
   },
   {
+    "id": "9a009c937faf67653dab0b156d9ca2e2",
+    "filename": "LRMs_collapse_big_time__1749631533.pdf",
+    "title": "The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity",
+    "authors": [
+      "Parshin Shojaee",
+      "*†Iman Mirzadeh",
+      "*Keivan Alizadeh",
+      "Maxwell Horton",
+      "Samy Bengio",
+      "Mehrdad Farajtabar"
+    ],
+    "filepath": "documents/LRMs_collapse_big_time__1749631533.pdf",
+    "upload_date": "2025-06-12T09:23:41.929557",
+    "file_size": 578041,
+    "summary": "This document explores the capabilities, scaling properties, and limitations of Large Reasoning Models (LRMs) through controllable puzzle environments. The study reveals that LRMs experience a complete accuracy collapse beyond certain complexities and exhibit a counter-intuitive scaling limit where their reasoning effort increases with problem complexity up to a point, then declines despite the complexity reduction. The work aims to provide insights into the reasoning traces’ structure and quality.",
+    "keywords": [
+      "Large Reasoning Models",
+      "LRMs",
+      "Reasoning Models",
+      "Problem Complexity",
+      "Controllable Puzzle Environments"
+    ],
+    "key_concepts": [
+      "This work investigates the gaps in understanding the fundamental capabilities, scaling properties, and limitations of Large Reasoning Models (LRMs).",
+      "The study uses controllable puzzle environments that allow precise manipulation of compositional complexity while maintaining consistent logical structures.",
+      "The analysis focuses on not only final answers but also the internal reasoning traces, offering insights into how LRMs ‘think’.",
+      "Through extensive experimentation across diverse puzzles, it is shown that frontier LRMs face a complete accuracy collapse beyond certain complexities.",
+      "The work reveals an unexpected scaling limit: their reasoning effort increases with problem complexity up to a point, then declines despite the complexity reduction."
+    ],
+    "category": "AI",
+    "difficulty": "Advanced",
+    "content_preview": "Recent generations of frontier language models have introduced Large Reasoning Models (LRMs) that generate detailed thinking processes before providing answers."
+  },
+  {
     "id": "3ef2ba74d7e0d9b40bbe9884ae12c524",
     "filename": "LSTM_1711023252.pdf",
     "title": "LSTM Analysis on Spam Email Dataset",
