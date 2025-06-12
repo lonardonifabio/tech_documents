@@ -9815,24 +9815,30 @@
   {
     "id": "1365abee6d3ef887d7419ccda7999e95",
     "filename": "Google_AI_Tools_Create_Tools_LLMs_1744265666.pdf",
-    "title": "Google's Active Large Language Models: A Detailed Review",
+    "title": "Google's Active Developed Large Language Models: A Detailed Review",
     "authors": [
-      "Kamil BALA",
-      "Caltech AI PG"
+      "Kamil Bala"
     ],
     "filepath": "documents/Google_AI_Tools_Create_Tools_LLMs_1744265666.pdf",
-    "upload_date": "2025-06-06T03:10:08.267908",
+    "upload_date": "2025-06-12T20:29:15.846291",
     "file_size": 5009035,
-    "summary": "This document provides a comprehensive review of Google's actively developed large language models, including an overview and technical details. The focus is on models like PaLM 2.",
+    "summary": "This document provides an in-depth review of Google's actively developed large language models, focusing on their overview, model details, and technical aspects. The key models discussed are BERT, T5, MegaT, and PaLM 2. The document also highlights the potential applications and implications of these models in AI tools such as Google Labs' Creative Tools, Vertex AI, and Colab.",
     "keywords": [
-      "Google",
-      "Large Language Models",
-      "AI",
-      "Review"
+      "Google Large Language Models",
+      "BERT",
+      "T5",
+      "MegaT",
+      "PaLM 2"
+    ],
+    "key_concepts": [
+      "This document reviews Google's actively developed large language models, focusing on BERT, T5, MegaT, and PaLM 2.",
+      "The review provides an overview of these models, their details, and technical aspects.",
+      "Potential applications and implications of these models in AI tools like Google Labs' Creative Tools, Vertex AI, and Colab are discussed.",
+      "The document is written by Kamil Bala, a Caltech AI PG, IBM Artificial Intelligence Engineer, IBM Machine Learner Professional, Electrical and Electronics Engineer, and Master Electronics Teacher."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Intro to Google Labs \n AI Tools \n  Creative Tools -2 \n LLMs , Vertex AI , Colab (Image)"
+    "content_preview": "Intro to Google Labs AI Tools, focus on Large Language Models"
   },
   {
     "id": "33e5f43d71f9c3b0e29fbb46f2d6a4f9",
