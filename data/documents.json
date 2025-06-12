@@ -13818,18 +13818,25 @@
     "title": "Machine Learning Lens AWS Well-Architected Framework",
     "authors": [],
     "filepath": "documents/Machine_Learning_Lens_1641345855.pdf",
-    "upload_date": "2025-06-04T21:18:53.101028",
+    "upload_date": "2025-06-12T20:29:18.381319",
     "file_size": 3081429,
-    "summary": "This document provides an overview of the Machine Learning Lens within the AWS Well-Architected Framework, discussing its pillars, lifecycle, design principles, and application. It is intended for those with a working knowledge of machine learning and AWS architecture.",
+    "summary": "This document provides an overview of the Machine Learning Lens within the AWS Well-Architected Framework. It discusses the pillars, lifecycle, design principles, and application of this lens in machine learning architecture. The document is useful for developers and architects looking to optimize their machine learning solutions on AWS.",
     "keywords": [
       "Machine Learning",
       "AWS",
       "Well-Architected Framework",
       "Design Principles"
     ],
+    "key_concepts": [
+      "The Machine Learning Lens is a tool that helps developers and architects design, build, and operate machine learning workloads on AWS.",
+      "The document outlines the five pillars of the Well-Architected Framework: Operational Excellence, Security, Reliability, Performance Efficiency, and Cost Optimization.",
+      "The Machine Learning Lens follows a lifecycle that includes planning, building, operating, and evolving phases.",
+      "The document provides design principles for each phase of the machine learning lifecycle, such as using serverless technologies, implementing monitoring and logging, and ensuring data privacy and security.",
+      "Understanding and applying the Machine Learning Lens can help optimize machine learning solutions on AWS, improving their performance, reliability, and cost-effectiveness."
+    ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Machine Learning Lens AWS Well-Architected Framework Table of Contents Introduction..."
+    "content_preview": "Machine Learning Lens AWS Well-Architected Framework"
   },
   {
     "id": "ab0bba4d9a1223dbc65151a3c933ced1",
