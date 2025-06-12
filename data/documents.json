@@ -7834,43 +7834,28 @@
     "id": "aea97acf7b3e960ad623a3001b8e5ce4",
     "filename": "Draft_Critical_AI_Security_Guidelines_v1_1_1743591220.pdf",
     "title": "Draft: Critical AI Security Guidelines, v1.1",
-    "authors": [
-      "Ahmed Abugharbia",
-      "Sarthak Agrawal",
-      "Brett Arion",
-      "Matt Bromiley",
-      "Ron F. Del Rosario",
-      "Mick Douglas",
-      "David Hoelzer",
-      "Ken Huang",
-      "Bhavin P. Kapadia",
-      "Rob Lee",
-      "Seth Misenar",
-      "Helen Oakley",
-      "Jorge Orchilles",
-      "Jason Ross",
-      "Rakshith Shetty",
-      "Jim Simpson",
-      "Jochen Staengler",
-      "Rob Van Der Veer",
-      "Jason Vest",
-      "Eoin Wickens",
-      "Sounil Yu"
-    ],
+    "authors": [],
     "filepath": "documents/Draft_Critical_AI_Security_Guidelines_v1_1_1743591220.pdf",
-    "upload_date": "2025-06-05T14:25:27.235272",
+    "upload_date": "2025-06-12T20:29:14.879280",
     "file_size": 1140238,
-    "summary": "This document provides guidelines on critical security aspects of Generative AI, including Access Controls, Data Protection, Deployment Strategies, Inference Security, Monitoring, Governance, Risk, Compliance (GRC), published under the Creative Commons Attribution 4.0 International License.",
+    "summary": "This document provides comprehensive guidelines on ensuring security-focused controls for AI implementations across various categories such as Access Controls, Data Protection, Deployment Strategies, Inference Security, Monitoring, Governance, Risk, Compliance (GRC), and more. The guidelines are developed by multiple SANS experts and industry professionals to address technical security considerations for implementing and utilizing AI within an environment.",
     "keywords": [
       "AI",
       "Security",
       "Guidelines",
-      "Generative AI",
-      "Access Controls"
+      "Access Controls",
+      "Data Protection"
+    ],
+    "key_concepts": [
+      "The document focuses on the critical categories of Generative AI, including Access Controls, Data Protection, Deployment Strategies, Inference Security, Monitoring, Governance, Risk, Compliance (GRC).",
+      "The paper delves into technical security considerations for implementing and utilizing AI within an environment.",
+      "The guidelines aim to identify and establish best practices for securing AI implementations across various aspects such as access controls, data protection, deployment strategies, inference security, monitoring, and governance, risk, compliance (GRC).",
+      "The document is developed by multiple SANS experts and industry professionals.",
+      "The guidelines serve as a resource for enterprises and security practitioners to ensure the secure implementation and utilization of AI."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Draft: Critical AI Security Guidelines, v1.1 Overview As artificial intelligence (AI) continues to revolutionize enterprises and security practices,"
+    "content_preview": "Document: Draft: Critical AI Security Guidelines, v1.1"
   },
   {
     "id": "489d868e93c657cb03dd4b173826ac9c",
