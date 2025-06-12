@@ -1873,6 +1873,42 @@
     "content_preview": "AI Safety in Practice Partici..."
   },
   {
+    "id": "5608498b23c043df4bb7ef92dc3763c3",
+    "filename": "AI_Security_Risk_Assessment_1749414876.pdf",
+    "title": "AI Security Risk Assessment",
+    "authors": [
+      "Will Pearce",
+      "Hyrum Anderson",
+      "Ram Shankar Siva Kumar",
+      "Neil Coles",
+      "Andrew Paverd",
+      "Andrew Marshall",
+      "Aashish Bhateja",
+      "Alex Sutton"
+    ],
+    "filepath": "documents/AI_Security_Risk_Assessment_1749414876.pdf",
+    "upload_date": "2025-06-12T09:23:35.292492",
+    "file_size": 510946,
+    "summary": "This document provides best practices and guidance for securing AI systems. It covers topics such as data collection, processing, model training, deployment, system monitoring, incident management, and business continuity planning. The suggested approach includes severity, likelihood, impact assessment, security testing, and compliance review. Key contributors include Will Pearce, Hyrum Anderson, Ram Shankar Siva Kumar, Neil Coles, Andrew Paverd, Andrew Marshall, Aashish Bhateja, and Alex Sutton.",
+    "keywords": [
+      "AI Security",
+      "Risk Assessment",
+      "Data Collection",
+      "Model Training",
+      "System Monitoring"
+    ],
+    "key_concepts": [
+      "The document offers a comprehensive approach to securing AI systems by assessing severity, likelihood, and impact.",
+      "Data collection is an essential step in the security assessment process, involving data sources, sensitive data types, storage, access, integrity, and more.",
+      "Model training is crucial for ensuring the security of AI systems. The document discusses model design, selection, versioning, and other aspects related to this stage.",
+      "Security testing and compliance review are vital components of the approach outlined in the document.",
+      "The document emphasizes the importance of system monitoring, incident management, business continuity planning, and log reviews."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "AI Security Risk Assessment Best practice s and guidance to secure AI systems"
+  },
+  {
     "id": "e7aea33c26ce3309671fde330fb8eedb",
     "filename": "AI_Supply_Chain_1743591689.pdf",
     "title": "Securing AI Software Supply Chain",
