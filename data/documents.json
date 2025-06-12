@@ -620,18 +620,26 @@
     "filename": "9_1_1738485397.pdf",
     "title": "EU AI Act Expert Series: Reporting Serious Incidents",
     "authors": [
-      "Dr. Benedikt Kohn"
+      "Dr. Benedikt Kohn",
+      "Taylor Wessing"
     ],
     "filepath": "documents/9_1_1738485397.pdf",
-    "upload_date": "2025-06-05T20:14:15.390623",
+    "upload_date": "2025-06-12T20:29:09.844222",
     "file_size": 457065,
-    "summary": "This document discusses the reporting obligations for serious incidents involving AI systems under the EU AI Act. It covers what constitutes a 'Serious Incident', the confidentiality rules, follow-up reporting requirements, and examples of such incidents.",
+    "summary": "This document discusses the reporting obligations for serious incidents involving AI systems under the EU AI Act. It covers what constitutes a 'Serious Incident', the confidentiality rules, follow-up reporting requirements, and examples of such incidents. The document emphasizes the need for prompt initial reports and subsequent complete reports, ensuring the integrity of ongoing investigations and maintaining trust in the reporting process.",
     "keywords": [
       "EU AI Act",
-      "AI Systems",
-      "Incident Reporting",
-      "Regulation",
-      "Taylor Wessing"
+      "AI systems",
+      "Serious Incident",
+      "Reporting obligations",
+      "Incident Reporting"
+    ],
+    "key_concepts": [
+      "Providers are required to promptly submit an initial report upon identifying a serious incident involving an AI system under the EU AI Act.",
+      "Sensitive data related to incidents and AI systems collected during the investigation process must remain protected.",
+      "Follow-up reports must include comprehensive details of the incident.",
+      "A 'Serious Incident' means incidents involving AI systems that cause harm to individuals or infrastructure due to malfunction, error, or misuse.",
+      "The document emphasizes the need for trust in the reporting process."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
