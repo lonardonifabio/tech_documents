@@ -4467,9 +4467,9 @@
       "Waleed Mousa"
     ],
     "filepath": "documents/Automation_in_Excel_Using_Python_Cheat_Sheet_1692865017.pdf",
-    "upload_date": "2025-06-03T22:07:02.970515",
+    "upload_date": "2025-06-12T20:29:12.096248",
     "file_size": 83279,
-    "summary": "This document provides a cheat sheet for automating various operations in Excel using Python, including creating, opening, saving, and closing files; managing sheets and ranges; data cleaning and preprocessing; applying Excel formulas; creating charts; and automating pivot tables.",
+    "summary": "This document provides a comprehensive guide on automating various tasks in Microsoft Excel using Python, including creating, opening, saving, and closing files; managing sheets and ranges; data cleaning and preprocessing; applying Excel formulas; creating charts for visual insights; and automating Pivot Tables for data summary. The guide covers the use of packages such as openpyxl, xlwings, pandas, and provides commands for each task.",
     "keywords": [
       "Python",
       "Excel",
@@ -4477,9 +4477,16 @@
       "Cheat Sheet",
       "openpyxl"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "The guide demonstrates how to create, open, save, and close Excel files through Python scripts using packages like openpyxl and xlwings.",
+      "Learn to create, delete, or move sheets and manipulate cell ranges in Excel using openpyxl and xlwings.",
+      "Automate the cleaning and preprocessing of Excel data using pandas and openpyxl.",
+      "Discover how to apply Excel formulas programmatically with openpyxl.",
+      "Create and modify Excel charts for visual insights using openpyxl."
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "the Python + Excel Automation [Cheat Sheet] 1. Automating Basic Excel Operations"
+    "content_preview": "# Automation in Excel Using Python Cheat Sheet"
   },
   {
     "id": "b4ca79e4864a45602cee35ac95a60fb6",
