@@ -4823,19 +4823,26 @@
     "title": "Business Requirement Document for Consent Management Under the DPDP Act, 2023",
     "authors": [],
     "filepath": "documents/Biz_Req_Doc_India_consent_mgt_DPDPA_1749210545.pdf",
-    "upload_date": "2025-06-09T20:06:45.805278",
+    "upload_date": "2025-06-12T20:29:12.264250",
     "file_size": 1733336,
-    "summary": "This document outlines the functional requirements for a consent management system under the Data Protection and Digital Privacy Act of 2023 in India. It covers aspects such as consent collection, validation, update, renewal, withdrawal, and cookie consent.",
+    "summary": "This document outlines the business requirements for a consent management system under the Data Protection and Digital Privacy Act (DPDP Act) of 2023 in India. It details the functional requirements, including the consent management lifecycle, consent collection, validation, update, renewal, withdrawal, and cookie consent. The document also identifies key stakeholders and their responsibilities.",
     "keywords": [
       "Consent Management",
       "DPDP Act",
       "Data Protection",
       "Digital Privacy",
-      "Functional Requirements"
+      "Business Requirement Document"
+    ],
+    "key_concepts": [
+      "The document provides a comprehensive framework for managing consent under the DPDP Act, 2023.",
+      "It details the functional requirements for a consent management system, including the consent management lifecycle.",
+      "The lifecycle includes stages such as consent collection, validation, update, renewal, and withdrawal.",
+      "The document also covers the specifics of cookie consent within this framework.",
+      "Key stakeholders and their responsibilities are identified in the document."
     ],
     "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "Business Requirement Document for Consent Management Under the DPDP Act, 2023"
+    "content_preview": "Business Requirement Document For Consent Management Under the DPDP Act, 2023"
   },
   {
     "id": "b282c488731c784605764ee715a52a2a",
