@@ -12280,31 +12280,30 @@
   {
     "id": "853c02b0ed100522a8c1b18e30302b27",
     "filename": "LLM_Interview_Q_A_1746864405.pdf",
-    "title": "Tokenization and LoRa in LLM",
+    "title": "Tokenization and LoRa in LLM: Techniques for Optimizing Large Language Models",
     "authors": [
       "Bhavishya Pandit"
     ],
     "filepath": "documents/LLM_Interview_Q_A_1746864405.pdf",
-    "upload_date": "2025-06-12T20:29:17.088305",
+    "upload_date": "2025-06-13T17:20:45.784895",
     "file_size": 7458198,
-    "summary": "This document discusses the concepts of tokenization and LoRa (Low-Rank Adaptation) as techniques for optimizing Large Language Models (LLMs). Tokenization is explained as the process of splitting text into smaller units, improving efficiency and performance. LoRa is a parameter-efficient fine-tuning method that reduces memory usage without compromising performance in Natural Language Processing tasks by adding new trainable parameters to modify a model's behavior without increasing its overall size.",
+    "summary": "This document discusses two techniques, tokenization and LoRa (Low-Rank Adaptation), that are crucial for optimizing the performance of Large Language Models (LLMs). Tokenization is a process of splitting text into smaller units called tokens, improving efficiency and handling various languages. LoRa is a parameter-efficient fine-tuning method that reduces memory usage without compromising performance in Natural Language Processing tasks by adding new trainable parameters to modify a model's behavior without increasing its overall size.",
     "keywords": [
       "Tokenization",
       "LLM",
       "LoRa",
       "Large Language Models",
-      "Fine-tuning"
+      "Natural Language Processing"
     ],
     "key_concepts": [
       "Tokenization is the process of splitting text into smaller units called tokens, which can be words, subwords, or even characters. This step is crucial because LLMs do not understand raw text directly.",
+      "LoRa and Q LoRa are techniques designed to optimize the fine-tuning of Large Language Models, focusing on reducing memory usage and enhancing efficiency without compromising performance in Natural Language Processing tasks.",
       "LoRa (Low-Rank Adaptation) is a parameter-efficient fine-tuning method that introduces new trainable parameters to modify a model's behavior without increasing its overall size.",
-      "Effective tokenization allows models to handle various languages, manage rare words, and reduce the vocabulary size, which improves both efficiency and performance.",
-      "LoRa works by adding low-rank matrix adaptations to the model's existing parameters, reducing the memory overhead typically associated with training large models.",
-      "LoRa maintains the original parameter count, making it possible to train large models on limited resources."
+      "By doing so, LoRa maintains the original parameter count, reducing the memory overhead typically associated with training large models."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "TOPTOPTOP 50 LLM 50 LLM 50 LLM"
+    "content_preview": "Learn about tokenization and LoRa, techniques for optimizing Large Language Models in Natural Language Processing."
   },
   {
     "id": "12814746ba07bcca0433173f368affd9",
