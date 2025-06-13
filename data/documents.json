@@ -25700,19 +25700,26 @@
     "title": "Medical Image Classification Using Multi -Head Attention and LSTM",
     "authors": [],
     "filepath": "documents/umrict_1742720676.pdf",
-    "upload_date": "2025-06-05T14:25:36.752228",
+    "upload_date": "2025-06-12T20:29:24.795373",
     "file_size": 1378912,
-    "summary": "This document discusses a project on medical image classification using multi-head attention and LSTM. It involves loading data from Kaggle, preprocessing the images, and categorizing them based on various techniques such as 3D Rendering, Edge Detection, and Heatmap Visualization.",
+    "summary": "This document presents a study on medical image classification using multi-head attention and Long Short-Term Memory (LSTM) networks. The researcher collects images of fetal head abnormalities from a dataset, preprocesses them, and creates a dataframe for further analysis. The main objective is to classify the images into various categories such as 3D_Rendering, 3D_Volume_Rendering, Adaptive_Histogram_Equalization, Alpha_Blending, Basic_Color_Map, Contrast_Stretching, Edge_Detection, Gamma_Correction, Gaussian_Blur, Heatmap_Visualization, Interactive_Segmentation, LUT_Color_Map, and Random_Color_Palette. This work is significant for the medical field as it can aid in early detection and d...",
     "keywords": [
       "Medical Image Classification",
       "Multi-Head Attention",
       "LSTM",
-      "Data Preprocessing",
-      "Kaggle"
+      "Fetal Abnormalities",
+      "Data Preprocessing"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "The study uses a dataset of fetal head abnormalities images for classification.",
+      "The document explains the process of preprocessing the images and creating a dataframe for analysis.",
+      "The research employs multi-head attention and LSTM networks for image classification.",
+      "The main categories for image classification include 3D_Rendering, 3D_Volume_Rendering, Adaptive_Histogram_Equalization, Alpha_Blending, Basic_Color_Map, Contrast_Stretching, Edge_Detection, Gamma_Correction, Gaussian_Blur, Heatmap_Visualization, Interactive_Segmentation, LUT_Color_Map, and Random_Color_Palette.",
+      "The work aims to aid in early detection and diagnosis of fetal abnormalities."
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "import numpy as np\nimport pandas as pd\nimport os\nbase_path = '/kaggle/input/medical -imaging-fetal-colorized -new-dataset-"
+    "content_preview": "Document: Medical Image Classification Using Multi -Head Attention and LSTM"
   },
   {
     "id": "c6f7b1efa627cfab5fd2c12177bb435d",
