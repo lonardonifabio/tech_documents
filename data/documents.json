@@ -9465,19 +9465,25 @@
     "title": "OWASP Top 10 for LLMs - LLM and Gen AI Data Security Best Practices Guide 1.0",
     "authors": [],
     "filepath": "documents/GenAI_Data_Security_1743591705.pdf",
-    "upload_date": "2025-06-05T20:14:20.931703",
+    "upload_date": "2025-06-12T20:29:15.568288",
     "file_size": 2213736,
-    "summary": "This document provides general information about data security best practices for LLMs (Legal Language Models) and Gen AI, licensed under Creative Commons CC BY-SA 4.0. Users are free to share, adapt, and build upon the material, but must provide appropriate credit and indicate if changes were made.",
+    "summary": "This document provides general information about data security best practices for Legal Language Models (LLMs) and Generative Artificial Intelligence (Gen AI). It does not constitute legal advice, and links to third-party websites are only for convenience. The document is licensed under Creative Commons CC BY-SA 4.0, allowing free sharing, adaptation, and building upon the material with appropriate credit and attribution guidelines.",
     "keywords": [
       "Data Security",
       "AI",
-      "Machine Learning",
       "LLM",
-      "Legal Language Models"
+      "Gen AI",
+      "Creative Commons"
+    ],
+    "key_concepts": [
+      "The document outlines best practices for ensuring data security when using Legal Language Models (LLMs) and Generative Artificial Intelligence (Gen AI).",
+      "The document is licensed under Creative Commons CC BY-SA 4.0, allowing free sharing and adaptation as long as appropriate credit and attribution guidelines are followed.",
+      "The document does not provide legal advice; it is for general informational purposes only.",
+      "Links to third-party websites in the document do not imply endorsement of their contents by OWASP."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides general information about data security best practices for LLMs (Legal Language Models) and Gen AI, licensed under Creative Commons CC BY-SA 4.0."
+    "content_preview": "The information provided in this document does not, and is not intended to, constitute legal advice. All information is for general informational purposes only."
   },
   {
     "id": "39437670da63e268465908a8c5e21f3b",
