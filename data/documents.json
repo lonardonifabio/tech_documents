@@ -17455,22 +17455,30 @@
     "filename": "PowerBI_Guide_Follow_Dr_AngShu_drangshu_for_more_1638736959.pdf",
     "title": "Power BI for Intermediates Guide",
     "authors": [
-      "Soheil Bakhshi",
+      "Soheil Bakhshi (Microsoft MVP)",
       "Bruce Anderson"
     ],
     "filepath": "documents/PowerBI_Guide_Follow_Dr_AngShu_drangshu_for_more_1638736959.pdf",
-    "upload_date": "2025-06-04T19:59:43.273603",
+    "upload_date": "2025-06-12T20:29:20.408337",
     "file_size": 8350339,
-    "summary": "A step-by-step training guide on using Power BI for intermediates, covering data sources, preparation with Power Query, modeling the data, and more. Written by Microsoft MVP Soheil Bakhshi and Bruce Anderson.",
+    "summary": "This document provides a comprehensive step-by-step training guide on using Power BI for intermediates, covering topics such as connecting to data sources, data preparation with Power Query, modeling the data, and various phases in development. The guide is authored by Microsoft MVP Soheil Bakhshi and Bruce Anderson.",
     "keywords": [
       "Power BI",
       "Intermediate Guide",
-      "Data Preparation",
+      "Data Sources",
+      "Power Query",
       "Data Modeling"
+    ],
+    "key_concepts": [
+      "This guide is designed for intermediates who have some experience with Power BI.",
+      "The document covers connecting to various data sources, preparing data using Power Query, and modeling the data in Power BI.",
+      "Key concepts include splitting columns, renaming columns, adding columns, removing columns, changing data types, and transformation steps.",
+      "Connection modes such as Import, Direct Query, Mixed Mode, and Connect Live are explained.",
+      "The guide also covers phases in Power BI development and identifying key columns in Power Query."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "A step-by-step training guide on using Power BI for intermediates"
+    "content_preview": "This document provides a comprehensive step-by-step training guide on using Power BI for intermediates,"
   },
   {
     "id": "87a54f985c152179aad5a14051f500d2",
