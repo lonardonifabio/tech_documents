@@ -13353,23 +13353,30 @@
   {
     "id": "fbc10355af382b1eca80f0cd0c62f290",
     "filename": "ML_Guide_1637572092.pdf",
-    "title": "ML Guide to Implement Machine Learning Algorithms with Python",
+    "title": "Machine Learning Guide with Python",
     "authors": [
       "Rudolph Russell"
     ],
     "filepath": "documents/ML_Guide_1637572092.pdf",
-    "upload_date": "2025-06-03T22:07:05.946540",
+    "upload_date": "2025-06-12T20:29:17.849313",
     "file_size": 1658301,
-    "summary": "Step-by-step guide for implementing machine learning algorithms using Python, authored by Rudolph Russell.",
+    "summary": "This document provides a comprehensive step-by-step guide on implementing Machine Learning algorithms using Python, authored by Rudolph Russell in 2018. The guide covers various ML algorithms and their practical applications, making it valuable for both beginners and intermediates in the field of Data Science and AI.",
     "keywords": [
       "Machine Learning",
       "Python",
-      "Algorithm",
+      "Algorithms",
       "Guide"
+    ],
+    "key_concepts": [
+      "This guide offers a systematic approach to implementing Machine Learning algorithms using Python, making it accessible for both beginners and intermediates.",
+      "The document covers various ML algorithms such as regression, classification, clustering, and neural networks, providing practical examples for each.",
+      "The guide emphasizes the importance of data preprocessing, feature engineering, model selection, and evaluation in the implementation of Machine Learning models.",
+      "The theoretical foundations of Machine Learning are briefly discussed to provide a solid understanding of the concepts behind the algorithms.",
+      "Practical applications of Machine Learning in real-world scenarios are highlighted throughout the guide."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Step-by-Step Guide To Implement Machine Learning Algorithms with Python"
+    "content_preview": "Machine Learning Guide To Implement Machine Learning Algorithms with Python"
   },
   {
     "id": "f24712180d0377bf3bc058bef0e84581",
