@@ -7187,25 +7187,25 @@
     "title": "Decision Tree Tutorial",
     "authors": [],
     "filepath": "documents/Decision_Tree_Tutorial_1572121663.pdf",
-    "upload_date": "2025-06-12T20:29:14.132271",
+    "upload_date": "2025-06-13T17:20:42.763896",
     "file_size": 592022,
-    "summary": "This document provides an introduction to Decision Trees, a popular machine learning algorithm used in data analysis and prediction tasks. The tutorial explains the concept of decision trees using everyday examples, such as buying milk, and formalizes it by describing the structure and function of a decision tree. It also presents a hypothetical example of applying a decision tree to classify people based on their characteristics like skin color, hair length, weight, and height.",
+    "summary": "This document provides an introduction to Decision Trees, a popular machine learning algorithm used in various applications. It explains the concept of decision trees through everyday examples and discusses their use in predicting gender based on certain characteristics. The tutorial also covers the structure of a decision tree and its application in data analysis.",
     "keywords": [
-      "Decision Trees",
+      "Decision Tree",
       "Machine Learning",
       "Data Analysis",
-      "Prediction"
+      "Predictive Modeling"
     ],
     "key_concepts": [
-      "Decision trees are used in everyday life for making decisions based on a series of questions and conditions.",
+      "Decision trees are used in everyday life for making decisions based on various factors.",
       "Formally, a decision tree is a binary structure where each node splits the data to classify a response variable.",
-      "The tutorial presents a hypothetical example of using a decision tree to classify people based on their characteristics like skin color, hair length, weight, and height.",
-      "Decision trees can be applied to various real-world problems, such as predicting whether a new person is male or female based on given characteristics.",
-      "The tutorial serves as an introduction to decision trees for beginners in machine learning and data analysis."
+      "The tutorial demonstrates how to use decision trees to predict gender based on characteristics such as skin color, hair length, weight, and height.",
+      "The hypothetical decision tree in the document serves as an example of how to divide information for better analysis.",
+      "Decision trees are useful tools in data analysis and can be applied to a wide range of problems."
     ],
     "category": "Machine Learning",
-    "difficulty": "Beginner",
-    "content_preview": "Decision Trees are used in day-to-day life..."
+    "difficulty": "Intermediate",
+    "content_preview": "Learn how decision trees work through everyday examples and predict gender based on characteristics."
   },
   {
     "id": "2060ecbf690e0d71b8ebc6e34acc81d3",
