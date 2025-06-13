@@ -78,7 +78,7 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
 
     let post = `I share this document ${title} with my LinkedIn network.\n`;
     post += `${summary}.\n`;
-    
+    post += `\n`;
     if (keyConcepts.length > 0) {
       post += `Please find below the key concepts from the document:\n`;
       keyConcepts.forEach(concept => {
@@ -86,6 +86,8 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
       });
     }
     
+    post += `\n`;
+    post += `Would you like to explore and read documentation about AI? Go to https://lonardonifabio.github.io/tech_documents/ you will find more than 1100 documents on AI & Data Science.`;
     post += `\n`;
     keywords.forEach(keyword => {
       post += `#${keyword.replace(/\s+/g, '')} `;
