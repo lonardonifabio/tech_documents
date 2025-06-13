@@ -16320,26 +16320,26 @@
       "Steve Nouri"
     ],
     "filepath": "documents/NLP_Q_A_1606289505.pdf",
-    "upload_date": "2025-06-12T20:29:19.575334",
+    "upload_date": "2025-06-13T16:06:47.538868",
     "file_size": 257038,
-    "summary": "This document provides answers to frequently asked questions about Natural Language Processing (NLP). The main topics covered include keyword normalization, word vector distance computation, text corpus features, and document term matrix. Key methodologies discussed are lemmatization, Cosine Similarity, Euclidean Distance, and Part of Speech Tagging. Key findings include the uses of these techniques in NLP and their differences. Practical applications of these concepts are also demonstrated.",
+    "summary": "This document provides answers to 100 questions related to Natural Language Processing (NLP). The questions cover various topics such as keyword normalization, distance computation between word vectors, features of a text corpus, and creating a document term matrix. The document also explains concepts like Lemmatization, Cosine Similarity, Euclidean Distance, Part of Speech Tag, Basic Dependency Grammar, and Document Term Matrix.",
     "keywords": [
       "NLP",
-      "keyword normalization",
-      "word vector distance",
-      "text corpus features",
-      "document term matrix"
+      "Questions",
+      "Lemmatization",
+      "Cosine Similarity",
+      "Euclidean Distance"
     ],
     "key_concepts": [
       "Lemmatization helps to get to the base form of a word, e.g. are playing -> play, eating -> eat, etc.",
-      "Distance between two word vectors can be computed using Cosine similarity and Euclidean Distance",
-      "All of the above (count of the word in a document, vector notation of the word, Part of Speech Tag, Basic Dependency Grammar) can be used as features of the text corpus.",
-      "A cosine angle close to each other between two word vectors indicates the words are similar and vice versa",
-      "The cosine angle between two words ‘Football’ and ‘Cricket’ will be closer to 1 as compared to the angle between the words ‘Football’ and ‘New Delhi’"
+      "Distance between two word vectors can be computed using Cosine similarity and Euclidean Distance.",
+      "All of the above (Count of the word in a document, Vector notation of the word, Part of Speech Tag, Basic Dependency Grammar) can be used as features of the text corpus.",
+      "Creating a Document Term Matrix on input data of 20K documents.",
+      "This document provides answers to 100 questions related to Natural Language Processing (NLP)"
     ],
-    "category": "Technology",
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Q1. Which of the following techniques can be used for keyword normalization in NLP..."
+    "content_preview": "This document provides answers to 100 NLP questions."
   },
   {
     "id": "a8c898f6678d75493698ddc23b49e76f",
