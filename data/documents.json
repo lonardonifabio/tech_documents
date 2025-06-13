@@ -9878,25 +9878,26 @@
     "title": "Git Cheat Sheet",
     "authors": [],
     "filepath": "documents/Git_Cheat_Sheet_1621791623.pdf",
-    "upload_date": "2025-06-12T20:29:15.666289",
+    "upload_date": "2025-06-13T17:20:44.304899",
     "file_size": 85277,
-    "summary": "This document provides a comprehensive guide on using Git, a popular version control system. It covers topics such as working with snapshots and the Git staging area, setting up user information, initializing and cloning repositories, branching and merging, and more. The guide is useful for developers who want to learn or refresh their knowledge about Git.",
+    "summary": "This document provides a comprehensive guide on using Git, a popular version control system. It covers topics such as staging and snapshot management, user setup, repository initialization, branching, and merging. Key concepts include understanding the Git status command, working with add, reset, diff, commit, config, clone, and branch commands.",
     "keywords": [
       "Git",
       "Version Control",
-      "Repository",
-      "Branching",
-      "Merging"
+      "Staging Area",
+      "Snapshot",
+      "Branch"
     ],
     "key_concepts": [
-      "Explanation of the Git staging area and its role in committing changes",
-      "Instructions on how to configure user information for all local repositories",
-      "Description of initializing an existing directory as a Git repository and cloning repositories from a hosted location",
-      "Overview of branching, switching between branches, and merging branches' histories"
+      "Understanding the git status command helps you monitor your working directory, staged files, and untracked files.",
+      "The git add [file] command stages a file for your next commit.",
+      "The git reset [file] command unstages a file while retaining changes in the working directory.",
+      "The git diff command shows differences between what is changed but not staged.",
+      "The git config --global user.name and git config --global user.email commands set your name and email for Git commits."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "GIT CHEAT SHEET\nSTAGE & SNAPSHOT"
+    "content_preview": "Learn Git basics: staging, snapshot management, user setup, and more."
   },
   {
     "id": "39497016d1dccae9f31d066b36d1cce2",
