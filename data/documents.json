@@ -2649,26 +2649,26 @@
     "title": "Overcoming Limitations in AI Project Development",
     "authors": [],
     "filepath": "documents/AI_project_1604680572.pdf",
-    "upload_date": "2025-06-13T17:20:39.726892",
+    "upload_date": "2025-06-13T22:59:37.764895",
     "file_size": 2495096,
-    "summary": "This document discusses the challenges and limitations in AI technology, focusing on bias as a significant issue. It provides insights into how bias can occur during problem framing, data collection, and preparation stages. The document offers strategies to mitigate these biases for building effective and unbiased AI applications.",
+    "summary": "This document discusses the challenges and limitations in AI technology, focusing on bias as a significant issue. It provides insights into how bias can creep into algorithms during various stages of development, such as problem framing, data collection, and preparation. The document offers strategies to mitigate these biases for building more equitable and effective AI applications.",
     "keywords": [
       "AI",
       "Machine Learning",
       "Bias",
-      "Data Collection",
-      "Algorithm"
+      "Algorithms",
+      "Data"
     ],
     "key_concepts": [
       "Building perfect AI applications requires overcoming existing limitations in the technology.",
-      "Bias can creep into algorithms during various stages, including problem framing, data collection, and preparation.",
-      "AI systems learn from biased human decisions or reflect historical or social inequities even when sensitive variables are removed.",
-      "Strategies to mitigate AI bias include careful problem formulation, diverse training data, and regular auditing of AI models.",
-      "Theoretical frameworks for understanding and addressing AI bias involve fairness, accountability, transparency, and ethics."
+      "Bias can be introduced into AI systems during various stages of development, including problem framing, data collection, and preparation.",
+      "Strategies to mitigate biases in AI include careful selection of training data, using diverse datasets, and implementing fairness metrics.",
+      "AI bias can reflect historical or social inequities even when sensitive variables like gender, race, or sexual orientation are removed.",
+      "Understanding the sources and impacts of AI bias is crucial for building more equitable and effective AI applications."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Learn strategies to overcome limitations in AI applications, focusing on bias mitigation."
+    "content_preview": "Learn strategies to overcome limitations in AI, focusing on bias mitigation."
   },
   {
     "id": "682444cb1656f22ef56c145e43ef47e8",
