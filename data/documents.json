@@ -5076,22 +5076,27 @@
   {
     "id": "eb1d052963da8f2cce1518b3d0ecd220",
     "filename": "Bone_1725747702.pdf",
-    "title": "Bone Fracture Dataset Analysis Script",
+    "title": "Bone Fracture Dataset Analysis and Image Display Script",
     "authors": [],
     "filepath": "documents/Bone_1725747702.pdf",
-    "upload_date": "2025-06-05T20:14:17.659639",
+    "upload_date": "2025-06-12T20:29:12.288251",
     "file_size": 322208,
-    "summary": "This document contains a Python script for visualizing the Bone Fracture Dataset, which is part of a Kaggle competition. The script uses libraries such as matplotlib, seaborn, and TensorFlow to display images from the test, train, and validation sets.",
+    "summary": "This document provides a Python script for analyzing the Bone Fracture Dataset, which is part of a Kaggle competition. The script imports necessary libraries, defines functions to display images from the test, train, and validation sets, and displays these sets. It also checks the number of GPUs available.",
     "keywords": [
-      "Python",
-      "Script",
       "Bone Fracture Dataset",
-      "Kaggle",
-      "Machine Learning"
+      "Python Script",
+      "Kaggle Competition",
+      "Image Display"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "The script imports necessary libraries such as matplotlib, seaborn, random, PIL, and TensorFlow.",
+      "It defines a function to display images from the test, train, and validation sets.",
+      "The script displays the images from the specified directories (test, train, and validation) using the defined function.",
+      "It also checks the number of GPUs available using TensorFlow."
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "import tensorflow as tf\nprint(\"Num GPUs Available: \",  "
+    "content_preview": "Bone Fracture Dataset analysis and image display script..."
   },
   {
     "id": "f7b2b7fffd849dba1c67b0053cc9a45a",
