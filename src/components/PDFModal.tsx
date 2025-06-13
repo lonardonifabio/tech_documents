@@ -80,19 +80,17 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
     // Use the GitHub Pages URL for the application
     const githubPagesUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.id}`;
 
-    let post = `🚀 Sharing an insightful document with my LinkedIn network!\n\n`;
+    let post = `🚀 Just shared an insightful resource with my LinkedIn network!\n`;
     post += `📄 **${title}**\n`;
-    post += `📖 **Read this document with AI🤖 support:** ${githubPagesUrl}\n\n`;
+    post += `🤖 Explore it with AI-powered assistance: ${githubPagesUrl}\n\n`;
     // Add content preview if available
     if (contentPreview) {
-      post += `🔍 **Content Preview:**\n${contentPreview}\n\n`;
+      post += `🔍 **Content Preview:**\n${contentPreview}\n`;
     }
-    post += `\n`;
     post += `📊 **Explore 1100+ AI & Data Science Documents:**\n`;
-    post += `🌐 Visit: https://lonardonifabio.github.io/tech_documents/\n\n`;
+    post += `🌐 Visit: https://lonardonifabio.github.io/tech_documents/\n`;
     post += `\n`;
     // Add hashtags
-    post += `Tags: `;
     keywords.forEach(keyword => {
       post += `#${keyword.replace(/\s+/g, '')} `;
     });
