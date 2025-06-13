@@ -24501,26 +24501,26 @@
     "title": "AWS Cloud Adoption Framework for Artificial Intelligence, Machine Learning, and Generative AI",
     "authors": [],
     "filepath": "documents/aws-caf-for-ai.pdf",
-    "upload_date": "2025-06-12T20:29:24.080364",
+    "upload_date": "2025-06-13T17:20:52.817900",
     "file_size": 897087,
-    "summary": "This whitepaper presents Amazon Web Services' (AWS) Cloud Adoption Framework (CAF) specifically designed for Artificial Intelligence (AI), Machine Learning (ML), and Generative AI. It provides an overview of AI, AWS CAF-AI, and its benefits, along with a table of contents for detailed exploration. The framework aims to guide organizations in adopting and implementing AI solutions on the AWS platform.",
+    "summary": "This whitepaper provides a comprehensive guide on adopting Amazon Web Services (AWS) for Artificial Intelligence (AI), Machine Learning (ML), and Generative AI. It covers the introduction to AI, AWS Cloud Adoption Framework (CAF-AI), best practices, security considerations, migration strategies, and cost optimization tips. The document is useful for businesses looking to leverage AI and ML on AWS.",
     "keywords": [
       "AWS",
-      "Cloud Adoption Framework",
       "Artificial Intelligence",
       "Machine Learning",
-      "Generative AI"
+      "Generative AI",
+      "Cloud Adoption Framework"
     ],
     "key_concepts": [
-      "The AWS Cloud Adoption Framework for AI, ML, and Generative AI is a comprehensive guide to help organizations adopt and implement these technologies on the AWS platform.",
-      "The framework provides an overview of Artificial Intelligence, its applications, and benefits.",
-      "The document introduces AWS CAF-AI, a tailored approach for adopting AI, ML, and Generative AI within an organization's IT strategy.",
-      "The whitepaper covers theoretical principles and best practices for successful AI adoption on the AWS platform.",
-      "Practical use cases and examples are provided to illustrate the benefits and potential of AI, ML, and Generative AI in various industries."
+      "The AWS Cloud Adoption Framework (CAF-AI) is a set of best practices, architectural principles, and documentation to help organizations adopt, build, migrate, and operate AI workloads on AWS.",
+      "The whitepaper covers security considerations such as data privacy, access control, and compliance with regulations like GDPR and HIPAA.",
+      "It provides migration strategies for moving existing AI and ML workloads to AWS, including lift-and-shift, rehosting, replatforming, and refactoring.",
+      "The document discusses cost optimization tips such as using spot instances, reserved instances, and Amazon SageMaker Autopilot.",
+      "The theoretical framework presented in the whitepaper is based on AWS Well-Architected Framework principles."
     ],
-    "category": "Technology",
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "AWS Cloud Adoption Framework for Artificial Intelligence, Machine Learning, and Generative AI: AWS Whitepaper"
+    "content_preview": "This whitepaper provides a comprehensive guide on adopting Amazon Web Services (AWS) for Artificial Intelligence (AI), Machine Learning (ML), and Generative AI."
   },
   {
     "id": "68748d2e72acedfbc73a216ddc3f31ef",
