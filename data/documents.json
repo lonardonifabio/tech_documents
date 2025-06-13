@@ -7143,19 +7143,25 @@
     "title": "Decision Tree Tutorial",
     "authors": [],
     "filepath": "documents/Decision_Tree_Tutorial_1572121663.pdf",
-    "upload_date": "2025-06-03T17:53:39.611080",
+    "upload_date": "2025-06-12T20:29:14.132271",
     "file_size": 592022,
-    "summary": "Explores the concept of Decision Trees, their real-life applications, and a hypothetical example of using them to predict gender based on characteristics. Includes a brief introduction to decision trees and their structure.",
+    "summary": "This document provides an introduction to Decision Trees, a popular machine learning algorithm used in data analysis and prediction tasks. The tutorial explains the concept of decision trees using everyday examples, such as buying milk, and formalizes it by describing the structure and function of a decision tree. It also presents a hypothetical example of applying a decision tree to classify people based on their characteristics like skin color, hair length, weight, and height.",
     "keywords": [
-      "Decision Tree",
+      "Decision Trees",
       "Machine Learning",
-      "Algorithm",
-      "Gender Prediction",
-      "Characteristics"
+      "Data Analysis",
+      "Prediction"
+    ],
+    "key_concepts": [
+      "Decision trees are used in everyday life for making decisions based on a series of questions and conditions.",
+      "Formally, a decision tree is a binary structure where each node splits the data to classify a response variable.",
+      "The tutorial presents a hypothetical example of using a decision tree to classify people based on their characteristics like skin color, hair length, weight, and height.",
+      "Decision trees can be applied to various real-world problems, such as predicting whether a new person is male or female based on given characteristics.",
+      "The tutorial serves as an introduction to decision trees for beginners in machine learning and data analysis."
     ],
     "category": "Machine Learning",
-    "difficulty": "Intermediate",
-    "content_preview": "Decision trees are a binary structure..."
+    "difficulty": "Beginner",
+    "content_preview": "Decision Trees are used in day-to-day life..."
   },
   {
     "id": "2060ecbf690e0d71b8ebc6e34acc81d3",
