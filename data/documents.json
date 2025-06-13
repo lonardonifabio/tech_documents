@@ -18675,29 +18675,29 @@
   {
     "id": "0ccd8773cea193be91a28b2b30236beb",
     "filename": "Python_HandBook_1630510953.pdf",
-    "title": "Python HandBook_1630510953.pdf",
+    "title": "Python Handbook",
     "authors": [],
     "filepath": "documents/Python_HandBook_1630510953.pdf",
-    "upload_date": "2025-06-12T20:29:20.751337",
+    "upload_date": "2025-06-13T17:20:49.465894",
     "file_size": 7700958,
-    "summary": "This document provides a comprehensive guide to Python programming, covering installation, basic syntax, data types, operators, control statements, collections, functions, classes, modules, the Python Standard Library, debugging, and advanced topics such as decorators, closures, and exceptions. It also includes sections on using pip for installing third-party packages, list comprehensions, polymorphism, operator overloading, virtual environments, and the PEP8 style guide.",
+    "summary": "This comprehensive guide covers Python basics, installation, data types, operators, control statements, lists, tuples, dictionaries, sets, functions, objects, loops, classes, modules, the Python Standard Library, debugging, variables scope, command line arguments, lambda functions, recursion, nested functions, closures, decorators, docstrings, introspection, annotations, exceptions, the with statement, installing 3rd party packages using pip, list comprehensions, polymorphism, operator overloading, virtual environments, and concludes with a summary.",
     "keywords": [
       "Python",
-      "Programming Guide",
-      "Data Types",
-      "Operators",
-      "Control Statements"
+      "Programming",
+      "Guide",
+      "Basics",
+      "Data Types"
     ],
     "key_concepts": [
-      "This book serves as a comprehensive introduction to Python programming, covering installation, basic syntax, and advanced topics.",
-      "The document explains the differences between Python 2 and Python 3, providing guidance on which version to use.",
-      "It provides an in-depth look at various data types, operators, control statements, collections, and functions in Python.",
-      "The book covers important concepts such as decorators, closures, and exceptions, helping readers understand advanced programming techniques in Python.",
-      "The document includes a section on the PEP8 style guide, providing guidelines for writing clean and consistent code in Python."
+      "This handbook provides an introduction to Python, explaining how to install it and run programs in both Python 2 and Python 3.",
+      "The document covers the basics of working with Python, including data types such as strings, numbers, Booleans, and constants, as well as operators like the ternary operator.",
+      "It delves into control statements, lists, tuples, dictionaries, sets, functions, objects, loops, classes, modules, and the Python Standard Library.",
+      "The document also discusses debugging techniques, variables scope, accepting arguments from the command line, lambda functions, recursion, nested functions, closures, decorators, docstrings, introspection, annotations, exceptions, the with statement, installing 3rd party packages using pip, list comprehensions, polymorphism, operator overloading, virtual environments.",
+      "The guide concludes by summarizing the topics covered."
     ],
-    "category": "Technology",
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "1T able of Contents"
+    "content_preview": "This handbook covers Python basics and more."
   },
   {
     "id": "713c493e5a4ae1b83715b95ab16cb933",
