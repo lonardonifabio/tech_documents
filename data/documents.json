@@ -13947,19 +13947,26 @@
       "David Fleet"
     ],
     "filepath": "documents/Machine_Learning_Data_Mining_Notes_1633100360.pdf",
-    "upload_date": "2025-06-03T22:07:06.166541",
+    "upload_date": "2025-06-12T20:29:18.321319",
     "file_size": 1673273,
-    "summary": "Notes from a Machine Learning and Data Mining lecture for CSC411/D11 at the University of Toronto, covering topics such as Linear Regression, Nonlinear Regression, Artificial Neural Networks, K-Nearest Neighbors, Quadratics, and Basic Probability Theory.",
+    "summary": "This document provides lecture notes for a university course on Machine Learning and Data Mining, covering topics such as linear regression, nonlinear regression, artificial neural networks, k-nearest neighbors, quadratic optimization, basic probability theory, and classical logic. The notes also discuss concepts like overfitting and regularization.",
     "keywords": [
       "Machine Learning",
       "Data Mining",
-      "Lecture Notes",
-      "CSC411/D11",
-      "University of Toronto"
+      "Linear Regression",
+      "Nonlinear Regression",
+      "Artificial Neural Networks"
     ],
-    "category": "AI",
-    "difficulty": "Advanced",
-    "content_preview": "Notes from a Machine Learning and Data Mining lecture for CSC411/D11 at the University of Toronto, covering topics such as Linear Regression, Nonlinear Regression,"
+    "key_concepts": [
+      "These notes cover the fundamentals of Machine Learning, a field that focuses on creating algorithms capable of learning from and making decisions based on data.",
+      "Linear Regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables.",
+      "Nonlinear Regression extends Linear Regression by allowing for relationships between variables that are not linear.",
+      "Artificial Neural Networks (ANNs) are computational models inspired by biological neural networks, designed to recognize patterns in data.",
+      "K-Nearest Neighbors is a simple machine learning algorithm used for classification and regression tasks."
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "MachineLearningand Data Mining Lecture Notes CSC411/D11 Computer Science Department University of Toronto Version: February 6, 2012 Copyright c∝ci∇cleco√y∇t2010 AaronHertzmann andDavid Fleet"
   },
   {
     "id": "db0f7ee28fc75ec24045cb0c52a0b4b4",
