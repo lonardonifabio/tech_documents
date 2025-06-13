@@ -16370,17 +16370,22 @@
     "title": "Natural Language Processing with Python",
     "authors": [],
     "filepath": "documents/Natural_Language_Processing_NLP_with_Python_1610184574.pdf",
-    "upload_date": "2025-06-03T22:07:07.059549",
+    "upload_date": "2025-06-12T20:29:19.687336",
     "file_size": 21887374,
-    "summary": "Explores combining programming techniques with large text datasets, automatic extraction of key words and phrases, tools in Python for NLP, challenges of natural language processing. The document is divided into sections that alternate between linguistically motivated programming tasks and review of key programming concepts.",
+    "summary": "This document introduces Natural Language Processing (NLP) using Python. It covers topics such as processing large quantities of text, automatic keyword and phrase extraction, tools and techniques in Python for NLP tasks, challenges in NLP, and provides a taste of both linguistically motivated programming tasks and key programming concepts. The document is divided into sections that alternate between 'computing with language' and 'closer look at Python'.",
     "keywords": [
       "Natural Language Processing",
       "Python",
       "Text Analysis",
-      "Keywords Extraction",
-      "Computer Science"
+      "Keyword Extraction"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "Combining simple programming techniques with large quantities of text can achieve various tasks.",
+      "Python provides tools and techniques for automatic keyword and phrase extraction from text.",
+      "NLP presents interesting challenges such as understanding context, sentiment analysis, and machine translation.",
+      "The document adopts a unique style of introduction that gives an authentic taste of what will come later while covering elementary concepts in linguistics and computer science."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
     "content_preview": "1. Language Pr ocessing and Python"
   },
