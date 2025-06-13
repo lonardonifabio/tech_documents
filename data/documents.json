@@ -608,25 +608,26 @@
     "title": "7 Steps Machine Learning Problem Formulation",
     "authors": [],
     "filepath": "documents/7_Steps_Machine_Learning_Problem_Formulation_1567264103.pdf",
-    "upload_date": "2025-06-12T20:29:09.842221",
+    "upload_date": "2025-06-13T16:06:37.724847",
     "file_size": 157824,
-    "summary": "This document outlines a seven-step process for formulating machine learning problems, focusing on business problem statement, defining unit analysis, variables, labels, action, success criteria, and threshold component. The methodology emphasizes the importance of a clear business case and understanding the problem context before proceeding with data analysis and model development.",
+    "summary": "This document outlines a seven-step process for formulating machine learning problems, focusing on business problem statement, defining unit analysis, variables, labels, action, success criteria, and threshold component. The methodology emphasizes the importance of a clear business case and understanding the problem before diving into data analysis.",
     "keywords": [
       "Machine Learning",
       "Problem Formulation",
-      "Business Case",
-      "Data Analysis"
+      "Business Problem Statement",
+      "Define Unit Analysis",
+      "Define Variable"
     ],
     "key_concepts": [
-      "The seven-step process provides a structured approach to formulating machine learning problems, ensuring clarity and focus on the business objective.",
-      "Defining unit analysis, variables, labels, action, success criteria, and threshold component are crucial steps in problem formulation, as they guide data collection and model development.",
-      "A clear business case is essential for understanding the problem context and justifying the need for machine learning solutions.",
-      "The process emphasizes the importance of setting success criteria to measure the effectiveness of the machine learning model.",
-      "Threshold component helps in determining when the machine learning model's output is acceptable or requires further action."
+      "The seven-step process provides a structured approach to formulating machine learning problems, ensuring clarity and focus.",
+      "Understanding the business problem statement is crucial for selecting appropriate data analysis methods and tools.",
+      "Defining units of analysis, variables, labels, and action helps in structuring the data and identifying relevant features.",
+      "Setting success criteria and thresholds enables evaluation of model performance and determining when to stop training.",
+      "The document highlights the importance of a solid business case as a foundation for effective machine learning problem formulation."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "7 Steps Machine Learning Problem Formulation"
+    "content_preview": "Learn a structured approach to formulating machine learning problems with 7 steps."
   },
   {
     "id": "05e6d66ff7508555123136d0849c658b",
@@ -1181,26 +1182,25 @@
       "Claudia Fischer"
     ],
     "filepath": "documents/AI_Explainability_in_Practice_1742453217.pdf",
-    "upload_date": "2025-06-12T20:29:10.196226",
+    "upload_date": "2025-06-13T16:06:38.078849",
     "file_size": 8527231,
-    "summary": "This document is a participant and facilitator workbook for workshops on AI Explainability. It was written by a team of researchers from The Alan Turing Institute's Ethics Theme, under the guidance of Conor Rigby. The workbook aims to support understanding and application of AI Explainability in practice, with illustrations by Johnny Lighthands and input from Alex Krook and John Gilbert. It is intended for use in workshops related to AI Ethics and Governance.",
+    "summary": "This document is a participant and facilitator workbook for workshops focused on AI Explainability. It was written by a team of researchers from The Alan Turing Institute's Ethics Theme, with contributions from various partners and collaborators. The workbook aims to support the delivery of activities related to AI Explainability in Practice.",
     "keywords": [
       "AI",
       "Explainability",
       "Workshop",
-      "Ethics",
-      "Governance"
+      "Research"
     ],
     "key_concepts": [
-      "The workbook provides a comprehensive guide for understanding and applying AI Explainability in practice.",
-      "It is designed to support facilitators in delivering activities related to AI Explainability.",
-      "The document was written by a team of researchers from The Alan Turing Institute's Ethics Theme.",
-      "Conor Rigby led the design of this workbook and provided feedback across its iterations.",
-      "Illustrations for this document were created by Johnny Lighthands."
+      "The document provides a workbook for participants and facilitators to engage with during workshops focused on AI Explainability.",
+      "The workbook was written by a team of researchers from The Alan Turing Institute's Ethics Theme, with contributions from various partners and collaborators.",
+      "The workbook aims to support the delivery of activities related to AI Explainability in Practice.",
+      "The document is intended for participants to prepare for, and engage during, workshops.",
+      "The facilitator workbook is annotated to assist facilitators in delivering the accompanying activities."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "AI Explainability in Practice Participant Workbook"
+    "content_preview": "This is a workbook for AI Explainability in Practice workshops."
   },
   {
     "id": "e055751e759c2ed429688aa308a43136",
@@ -2336,7 +2336,7 @@
     "title": "AI applications usecases",
     "authors": [],
     "filepath": "documents/AI_applications_usecases.pdf",
-    "upload_date": "2025-06-12T20:29:10.792233",
+    "upload_date": "2025-06-13T16:06:38.675851",
     "file_size": 973779,
     "summary": "This comprehensive document provides detailed coverage of ai applications usecases concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations and real-world applications relevant to the field of ai. The document explores key principles, presents systematic approaches, and demonstrates practical implementations that can be applied across various domains. Through detailed analysis and evidence-based practices, it contributes to the understanding of complex topics while providing actionable insights for practitioners and researchers in the field.",
     "keywords": [
@@ -2648,9 +2648,9 @@
     "title": "Overcoming Limitations in AI Project Development",
     "authors": [],
     "filepath": "documents/AI_project_1604680572.pdf",
-    "upload_date": "2025-06-12T20:29:11.080236",
+    "upload_date": "2025-06-13T16:06:38.962852",
     "file_size": 2495096,
-    "summary": "This document discusses the challenges and limitations of current AI technology, focusing on bias as a significant issue. It provides insights into how bias can seep into algorithms during various stages, from problem framing to data collection and preparation. The document offers strategies for mitigating these biases in AI systems.",
+    "summary": "This document discusses the challenges and limitations in AI technology, focusing on bias as a significant issue. It provides insights into how bias can seep into algorithms during various stages of development, from problem framing to data collection and preparation. The document offers strategies for mitigating these biases to build more equitable and effective AI applications.",
     "keywords": [
       "AI",
       "Machine Learning",
@@ -2660,14 +2660,14 @@
     ],
     "key_concepts": [
       "Building perfect AI applications requires overcoming existing limitations in the technology.",
-      "Bias can be introduced into AI algorithms during various stages, such as problem framing, data collection, and preparation.",
-      "AI systems learn from biased human decisions or reflect historical and social inequities even when sensitive variables are removed.",
-      "Strategies for mitigating bias in AI systems are essential to ensure fairness and accuracy.",
-      "Understanding the impact of bias on AI decision-making is crucial for developing unbiased and effective AI applications."
+      "Bias can be introduced into AI systems during various stages of development, such as problem framing, data collection, and preparation.",
+      "AI bias can stem from biased human decisions or historical/social inequities, even when sensitive variables are removed.",
+      "Strategies for mitigating AI bias include careful data selection, diverse teams, and regular auditing of algorithms.",
+      "Understanding and addressing AI bias is crucial for building more equitable and effective AI applications."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "@ l e a r n . m a c h i n e l e a r n i n g01 BUILD A PERFECT AI - BASED PROJECT"
+    "content_preview": "Learn how to overcome limitations in AI project development, focusing on the issue of bias."
   },
   {
     "id": "682444cb1656f22ef56c145e43ef47e8",
@@ -3415,25 +3415,25 @@
     "title": "OWASP Top 10 for LLMs - GenAI Red Teaming Guide",
     "authors": [],
     "filepath": "documents/Agentic_AI_Threats_1743591360.pdf",
-    "upload_date": "2025-06-12T20:29:11.466241",
+    "upload_date": "2025-06-13T16:06:39.349853",
     "file_size": 2206672,
-    "summary": "This document, released in February 2025, provides a comprehensive guide on the OWASP Top 10 threats to Language Learning Models (LLMs) and Generative AI. It outlines the Agentic Security Initiative for Agentic AI, detailing various threats, mitigation strategies, and offers a reference architecture. The document is licensed under Creative Commons CC BY-SA 4.0, allowing free sharing, adaptation, and remixing with proper attribution.",
+    "summary": "This document, version 1.0 from February 2025, presents the OWASP Top 10 threats for Language Learning Models (LLMs) and Generative AI (GenAI). It outlines the Agentic Security Initiative for Agentic AI, detailing threats, mitigations, and a reference architecture. The document is licensed under Creative Commons CC BY-SA 4.0, allowing sharing, adaptation, and remixing with attribution and share-alike conditions.",
     "keywords": [
       "OWASP",
       "Top 10",
       "LLMs",
-      "Generative AI",
-      "Agentic Security Initiative"
+      "GenAI",
+      "Red Teaming Guide"
     ],
     "key_concepts": [
-      "The document focuses on the OWASP Top 10 threats specific to Language Learning Models (LLMs) and Generative AI.",
-      "It introduces the Agentic Security Initiative for Agentic AI, which aims to address security concerns in this emerging field.",
-      "The guide provides a reference architecture for Agentic AI, outlining key components and their interactions.",
-      "The document is licensed under Creative Commons CC BY-SA 4.0, allowing free sharing, adaptation, and remixing with proper attribution."
+      "The document outlines the OWASP Top 10 threats for Language Learning Models (LLMs) and Generative AI (GenAI).",
+      "It introduces the Agentic Security Initiative for Agentic AI, detailing its reference architecture.",
+      "The document provides guidelines on how to perform red teaming activities for Agentic AI systems.",
+      "The work is licensed under Creative Commons CC BY-SA 4.0, allowing sharing, adaptation, and remixing with attribution and share-alike conditions."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Version 1.0 February 2025 OWASP Top 10 for LLM Apps & Gen AI Agentic Security Initiative"
+    "content_preview": "This document outlines the OWASP Top 10 threats for LLMs & GenAI, Agentic AI reference architecture, and red teaming guide."
   },
   {
     "id": "4bdbe8df913a44d68be7ec24569a74e4",
@@ -4329,26 +4329,26 @@
       "Dr. Aleksander Aristovnik"
     ],
     "filepath": "documents/Artificial_Intelligence_for_Human_Centric_Society_1749161256.pdf",
-    "upload_date": "2025-06-12T20:29:12.007247",
+    "upload_date": "2025-06-13T16:06:39.887855",
     "file_size": 5973105,
-    "summary": "This document explores the role of artificial intelligence (AI) in shaping a human-centric society. Edited by Dr. Nina Tomaževič, Dr. Dejan Ravšelj, and Dr. Aleksander Aristovnik, it discusses the potential benefits and challenges of AI integration, focusing on ethical considerations, privacy concerns, and societal impact. The publication is co-funded by the European Parliament and ARIS (P5-0093), and offers insights into various applications of AI in areas such as healthcare, education, and governance.",
+    "summary": "This document explores the role of artificial intelligence (AI) in shaping a human-centric society. Edited by Dr. Nina Tomaževič, Dr. Dejan Ravšelj, and Dr. Aleksander Aristovnik, it discusses the potential benefits and challenges of AI integration, focusing on ethical considerations, privacy concerns, and societal impact. The publication is co-funded by the European Parliament and ARIS (P5-0093), and offers insights into the current state of AI development and its future implications.",
     "keywords": [
       "Artificial Intelligence",
       "Human-Centric Society",
       "Ethics",
       "Privacy",
-      "Applications"
+      "Societal Impact"
     ],
     "key_concepts": [
-      "AI is transforming society by automating tasks, improving efficiency, and creating new opportunities for human interaction.",
-      "The ethical implications of AI are a major concern, as the technology can impact privacy, autonomy, and decision-making processes.",
-      "To ensure a human-centric approach to AI development, it is crucial to prioritize transparency, accountability, and inclusivity in design and implementation.",
-      "AI has the potential to revolutionize various sectors, including healthcare, education, and governance, but requires careful consideration of its societal impact.",
-      "The theoretical framework for this document is based on principles of human-centered design, ethical AI, and responsible innovation."
+      "AI is rapidly transforming society, necessitating ethical considerations and regulations to ensure its use aligns with human values.",
+      "The integration of AI in various sectors such as healthcare, education, and transportation requires careful attention to privacy concerns and data protection.",
+      "The development and deployment of AI systems should prioritize human needs and well-being, fostering a truly human-centric society.",
+      "To achieve a human-centric approach to AI, it is crucial to involve diverse stakeholders in the decision-making process, including policymakers, researchers, and the general public.",
+      "The document emphasizes the need for ongoing research, collaboration, and dialogue among various actors to navigate the complexities of AI and its impact on society."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Artificial Intelligence for human-centric society: The future is here"
+    "content_preview": "This document explores the role of AI in shaping a human-centric society."
   },
   {
     "id": "f63d35665317d9d09853e84370058faa",
@@ -4695,25 +4695,25 @@
       "Alexander Wagner"
     ],
     "filepath": "documents/BSI_Test_Criteria_for_AI_Systems_in_Finance_1749156207.pdf",
-    "upload_date": "2025-06-12T20:29:12.137249",
+    "upload_date": "2025-06-13T16:06:40.017856",
     "file_size": 2637708,
-    "summary": "This document presents an evaluation catalogue for AI systems in finance developed by d-fine GmbH, TÜV Informa-technik GmbH, and Fraunhofer AISEC on behalf of the Federal Office for Information Security (BSI). The catalogue was prepared in English to ensure broader accessibility and facilitate collaboration with international stakeholders.",
+    "summary": "This document presents an evaluation catalogue developed by d-fine GmbH, TÜV Informa-technik GmbH, and Fraunhofer AISEC on behalf of the Federal Office for Information Security (BSI) to assess the trustworthiness of AI systems in finance. The catalogue was prepared in English to facilitate international collaboration.",
     "keywords": [
       "AI Systems",
       "Finance",
       "Evaluation Catalogue",
-      "d-fine GmbH",
-      "TÜV Informa-technik GmbH"
+      "Trustworthiness",
+      "d-fine GmbH"
     ],
     "key_concepts": [
       "The catalogue was developed by a team of experts from d-fine GmbH, TÜV Informa-technik GmbH, and Fraunhofer AISEC on behalf of the Federal Office for Information Security (BSI).",
-      "The catalogue provides test criteria for evaluating the trustworthiness of AI systems in the financial sector.",
-      "The catalogue was prepared in English to ensure broader accessibility and facilitate collaboration with international stakeholders.",
-      "The catalogue is relevant to researchers, industry professionals, and regulatory bodies involved in AI, finance, and technology."
+      "The catalogue aims to assess the trustworthiness of AI systems in finance, which is relevant internationally due to the widespread applicability of the EU AI Act.",
+      "The publication was prepared in English to ensure broader accessibility and facilitate collaboration with international stakeholders.",
+      "English serves as the standard language in technical, regulatory, and academic discourse on AI, making it the most appropriate choice for addressing a diverse audience."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Test Criteria Catalogue for AI Systems in Finance"
+    "content_preview": "This document presents an evaluation catalogue for AI Systems in Finance."
   },
   {
     "id": "dabe6dd739ac8416d016059148014d50",
@@ -5042,9 +5042,9 @@
     "title": "Business Requirement Document for Consent Management Under the DPDP Act, 2023",
     "authors": [],
     "filepath": "documents/Biz_Req_Doc_India_consent_mgt_DPDPA_1749210545.pdf",
-    "upload_date": "2025-06-12T20:29:12.264250",
+    "upload_date": "2025-06-13T16:06:40.144856",
     "file_size": 1733336,
-    "summary": "This document outlines the business requirements for a consent management system under the Data Protection and Digital Privacy Act (DPDP Act) of 2023 in India. It details the functional requirements, including the consent management lifecycle, consent collection, validation, update, renewal, withdrawal, and cookie consent. The document also identifies key stakeholders and their responsibilities.",
+    "summary": "This document outlines the business requirements for a consent management system compliant with the Data Protection and Digital Privacy Act (DPDP Act) of 2023 in India. It covers functional requirements such as consent collection, validation, update, renewal, withdrawal, and cookie consent. The document also defines key stakeholders and their responsibilities.",
     "keywords": [
       "Consent Management",
       "DPDP Act",
@@ -5054,14 +5054,13 @@
     ],
     "key_concepts": [
       "The document provides a comprehensive framework for managing consent under the DPDP Act, 2023.",
-      "It details the functional requirements for a consent management system, including the consent management lifecycle.",
-      "The lifecycle includes stages such as consent collection, validation, update, renewal, and withdrawal.",
-      "The document also covers the specifics of cookie consent within this framework.",
-      "Key stakeholders and their responsibilities are identified in the document."
+      "It details the functional requirements for a consent management system, including consent collection, validation, update, renewal, withdrawal, and cookie consent.",
+      "Key stakeholders and their responsibilities are clearly defined in this document.",
+      "The document serves as a guide for organizations to ensure compliance with the DPDP Act."
     ],
     "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "Business Requirement Document For Consent Management Under the DPDP Act, 2023"
+    "content_preview": "This document outlines business requirements for consent management under the DPDP Act, 2023."
   },
   {
     "id": "b282c488731c784605764ee715a52a2a",
@@ -5927,7 +5926,7 @@
     "title": "Convolution Neural Networks CNNs  1741522608",
     "authors": [],
     "filepath": "documents/Convolution_Neural_Networks_CNNs__1741522608.pdf",
-    "upload_date": "2025-06-12T20:29:12.865257",
+    "upload_date": "2025-06-13T16:06:40.749858",
     "file_size": 1121741,
     "summary": "This comprehensive document provides detailed coverage of convolution neural networks cnns  1741522608 concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations and real-world applications relevant to the field of machine learning. The document explores key principles, presents systematic approaches, and demonstrates practical implementations that can be applied across various domains. Through detailed analysis and evidence-based practices, it contributes to the understanding of complex topics while providing actionable insights for practitioners and researchers in the field.",
     "keywords": [
@@ -5950,14 +5949,14 @@
     "title": "Convolutional Neural Networks Explained",
     "authors": [],
     "filepath": "documents/Convolutional_Neural_Networks_Explained_1630508291.pdf",
-    "upload_date": "2025-06-12T20:29:12.867257",
+    "upload_date": "2025-06-13T16:06:40.751858",
     "file_size": 541889,
-    "summary": "This document provides an introduction to Convolutional Neural Networks (CNNs), explaining their purpose, architecture, and significance in enabling computers to 'see'. The document covers the basic structure of a CNN, which consists of three layers: convolutional, pooling, and fully connected. It is suitable for Intermediate level readers interested in Machine Learning or Data Science.",
+    "summary": "This document provides an introduction to Convolutional Neural Networks (CNNs), explaining their purpose, architecture, and significance in enabling computers to 'see'. The document covers the basic structure of a CNN, which consists of three layers: convolutional, pooling, and fully connected. It is suitable for Intermediate level readers interested in AI, Machine Learning, or Data Science.",
     "keywords": [
       "Convolutional Neural Networks",
       "CNN",
       "Neural Networks",
-      "Image Processing"
+      "Computer Vision"
     ],
     "key_concepts": [
       "Convolutional Neural Networks are a class of neural networks that specialize in processing data with a grid-like topology, such as images.",
@@ -5965,9 +5964,9 @@
       "A CNN consists of three main layers: convolutional, pooling, and fully connected.",
       "By using a CNN, one can enable sight to computers."
     ],
-    "category": "Machine Learning",
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Convolutional Neural Networks explained... #LearnWithDDS @datadrivenscience"
+    "content_preview": "Learn about Convolutional Neural Networks (CNNs) and their role in enabling computers to 'see'."
   },
   {
     "id": "832463d0096d63a77a941f9210761b47",
@@ -6025,22 +6024,22 @@
       "Murat Durmus"
     ],
     "filepath": "documents/Critical_Thinking_is_Your_Superpower_1741298994.pdf",
-    "upload_date": "2025-06-12T20:29:12.928258",
+    "upload_date": "2025-06-13T16:06:40.815858",
     "file_size": 2637564,
-    "summary": "This document discusses the importance of critical thinking in an AI-driven world. The author, Murat Durmus, emphasizes that in an era where simple answers are abundant, wisdom lies in questioning deeply and persistently. The text provides insights into cultivating critical thinking skills, their relevance in today's technology-dominated society, and the value of doubt in seeking truth.",
+    "summary": "This document explores the importance of critical thinking in an AI-driven world. The author, Murat Durmus, emphasizes that in an era where simple answers are abundant, wisdom lies in questioning deeply and persistently. The text discusses strategies for cultivating critical thinking skills, their relevance in today's technology-dominated society, and the value they bring in making informed decisions.",
     "keywords": [
       "Critical Thinking",
       "AI",
       "Wisdom",
-      "Doubt",
-      "Questioning"
+      "Decision Making",
+      "Technology"
     ],
     "key_concepts": [
-      "In an AI-driven world, critical thinking is a valuable skill that allows individuals to discern between reliable and unreliable information.",
-      "The author suggests that wisdom is not found in knowing the answers, but in questioning them deeply and persistently.",
-      "Doubt is presented as a crucial aspect of critical thinking, as it encourages individuals to seek truth and challenge assumptions.",
-      "The text discusses strategies for cultivating critical thinking skills, such as active listening, open-mindedness, and careful analysis.",
-      "The document highlights the practical implications of critical thinking in various aspects of life, including decision-making, problem-solving, and communication."
+      "In an AI-driven world, critical thinking is a valuable skill that allows individuals to make informed decisions.",
+      "The author suggests that questioning deeply and persistently is key to cultivating critical thinking skills.",
+      "Wisdom lies in the courage to doubt simple answers in today's information-rich society.",
+      "Critical thinking is essential for navigating complex problems and making sound judgments.",
+      "The text discusses practical strategies for improving one's critical thinking abilities."
     ],
     "category": "Business",
     "difficulty": "Intermediate",
@@ -7847,25 +7846,26 @@
       "Pierre Schlosser"
     ],
     "filepath": "documents/Digital_Finance_in_the_EU_Navigating_the_AI_revolution_1744204591.pdf",
-    "upload_date": "2025-06-12T20:29:14.840279",
+    "upload_date": "2025-06-13T16:06:42.717865",
     "file_size": 6652851,
-    "summary": "This document explores digital finance trends and the impact of Artificial Intelligence (AI) revolution in the European Union. It covers various aspects such as regulatory framework, technological advancements, and practical applications. The work is a collaborative effort by editors Lorenzo Moretti, Laura Rinaldi, and Pierre Schlosser from the European University Institute. Funded by the European Union, it provides insights into the EU Supervisory Digital Finance Academy (EU-SDFA) project.",
+    "summary": "This document explores the impact of Artificial Intelligence (AI) on digital finance within the European Union. It discusses new technological trends, regulatory challenges, and potential opportunities for innovation. The book is divided into chapters written by various authors, each focusing on specific aspects such as fintech, blockchain, AI applications, and ethical considerations.",
     "keywords": [
       "Digital Finance",
       "AI Revolution",
       "European Union",
-      "Regulation"
+      "Fintech",
+      "Blockchain"
     ],
     "key_concepts": [
-      "The document discusses the digital transformation of finance in the European Union, focusing on the role of Artificial Intelligence (AI).",
-      "It provides an overview of the regulatory framework for digital finance and AI in the EU.",
-      "The work delves into the technological advancements driving the AI revolution in digital finance.",
-      "It presents case studies and practical applications of AI in digital finance within the EU.",
-      "The document is based on research funded by the European Union's TSI Programme as part of the EU Supervisory Digital Finance Academy (EU-SDFA) project."
+      "The EU is experiencing a digital finance revolution driven by AI and new technologies.",
+      "The book discusses the regulatory challenges posed by these technological advancements in digital finance.",
+      "Innovation opportunities for digital finance are explored, with a focus on fintech and blockchain.",
+      "Ethical considerations surrounding AI applications in digital finance are addressed.",
+      "The theoretical framework of this study is based on the principles of digital transformation and regulatory compliance."
     ],
     "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "Digital Finance in the EU: Navigating new technological trends and the AI revolution"
+    "content_preview": "Exploring AI's impact on digital finance in the EU."
   },
   {
     "id": "9db48e4d80cfac0fd5c137a0cdb19a83",
@@ -8565,9 +8565,9 @@
     "title": "European Union Artificial Intelligence Act: A Guide",
     "authors": [],
     "filepath": "documents/European_Union_Artificial_Intelligence_Act_a_guide_1744539689.pdf",
-    "upload_date": "2025-06-12T20:29:15.169283",
+    "upload_date": "2025-06-13T16:06:43.044867",
     "file_size": 1143713,
-    "summary": "This document provides a comprehensive guide to the European Union's Artificial Intelligence Act, detailing its implementation timeline, key concepts such as general-purpose AI models, transparency obligations, regulatory sandboxes, enforcement and governance mechanisms, prohibited AI practices, high-risk AI systems, and its relationship with other regulatory frameworks. The guide also discusses the material and territorial scope of the Act, delegated Acts, implementing Acts, Commission Guidelines, codes of conduct and practice, standards, liability, and exclusions.",
+    "summary": "This document provides a comprehensive guide to the European Union's Artificial Intelligence Act, detailing its implementation timeline, key concepts such as general-purpose AI models, transparency obligations, regulatory sandboxes, enforcement and governance mechanisms, prohibited AI practices, high-risk AI systems classification, and more. It also discusses material and territorial scope, exclusions, and relationships with other regulatory frameworks.",
     "keywords": [
       "European Union",
       "Artificial Intelligence Act",
@@ -8576,15 +8576,15 @@
       "Transparency Obligations"
     ],
     "key_concepts": [
-      "The European Union's Artificial Intelligence Act aims to regulate the development and use of AI systems, focusing on general-purpose models that process personal data.",
+      "The European Union's Artificial Intelligence Act aims to regulate the use of AI, focusing on general-purpose models that process personal data.",
       "The guide explains the terminology and value chain of general-purpose AI models and outlines obligations for providers.",
-      "The Act also addresses transparency obligations for both general and high-risk AI systems, specifying timing and format requirements.",
-      "The document discusses the role of regulatory sandboxes in real-world testing of AI systems and the procedures for enforcement.",
-      "The guide provides an overview of the AI Act's application deadlines, delegated Acts, implementing Acts, Commission Guidelines, codes of conduct and practice, standards, liability, and exclusions."
+      "The act also addresses high-risk AI systems with systemic risk, requiring specific transparency obligations and timely reporting.",
+      "The document discusses the importance of transparency obligations for high-risk AI systems and their implementation timeline and format.",
+      "It outlines the role of regulatory sandboxes in real-world testing of AI systems and the enforcement mechanisms for non-compliance."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "European Union Artificial Intelligence Act: a guide"
+    "content_preview": "This document provides a guide to the European Union's Artificial Intelligence Act, detailing its implementation timeline, key concepts, and regulatory mechanisms."
   },
   {
     "id": "cf64ca971baf44efc360adf5e9fe6d2c",
@@ -8879,7 +8879,7 @@
     "title": "Flower Classification Analysis 1695102243",
     "authors": [],
     "filepath": "documents/Flower_Classification_Analysis_1695102243.pdf",
-    "upload_date": "2025-06-12T20:29:15.272284",
+    "upload_date": "2025-06-13T16:06:43.151867",
     "file_size": 3448329,
     "summary": "This comprehensive document provides detailed coverage of flower classification analysis 1695102243 concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations and real-world applications relevant to the field of technology. The document explores key principles, presents systematic approaches, and demonstrates practical implementations that can be applied across various domains. Through detailed analysis and evidence-based practices, it contributes to the understanding of complex topics while providing actionable insights for practitioners and researchers in the field.",
     "keywords": [
@@ -8950,26 +8950,26 @@
     "title": "Foundational Artificial Intelligence Risk Assessment Framework",
     "authors": [],
     "filepath": "documents/Foundational_artificial_intelligence_risk_assessment__1743182439.pdf",
-    "upload_date": "2025-06-12T20:29:15.331285",
+    "upload_date": "2025-06-13T16:06:43.210867",
     "file_size": 739295,
-    "summary": "This document presents a comprehensive risk assessment framework for artificial intelligence (AI), divided into three main parts: Components Analysis, Values Assessment, and Controls for AI Risks. The framework aims to inform AI governance, compliance, business processes, risk identification and analysis, controls and risk mitigations, skills development, communication, stakeholder engagement, and values alignment. Its completion will provide a structured approach to managing AI risks within the Queensland Government Enterprise Architecture.",
+    "summary": "This document presents a risk assessment framework for artificial intelligence (AI), divided into three main parts: Components Analysis, Values Assessment, and Controls for AI Risks. The framework aims to inform AI governance, compliance, business processes, risk identification and analysis, controls and risk mitigations, skills development, communication, stakeholder engagement, and values alignment. It is a comprehensive guide for organizations seeking to manage the risks associated with AI implementation.",
     "keywords": [
       "Artificial Intelligence",
       "Risk Assessment",
       "Framework",
-      "Government",
-      "Enterprise Architecture"
+      "Governance",
+      "Compliance"
     ],
     "key_concepts": [
-      "The framework is designed to provide a structured approach for managing AI risks within the Queensland Government Enterprise Architecture.",
-      "It consists of three main parts: Components Analysis, Values Assessment, and Controls for AI Risks.",
-      "Completion of this framework will inform various aspects such as governance, risk identification, controls, skills development, communication, and strategic alignment.",
-      "The framework is intended to be a tool for ensuring compliance with regulations and best practices in the use of AI.",
-      "It serves as a guide for implementing controls and risk mitigations to ensure safe and responsible use of AI."
+      "The framework provides a structured approach to assessing the risks associated with AI implementation in an organization.",
+      "It includes three main parts: Components Analysis, Values Assessment, and Controls for AI Risks.",
+      "Completion of this framework will inform various aspects such as risk identification, controls and mitigations, skills development, communication, and strategic alignment.",
+      "The framework is designed to ensure AI governance, compliance, and business processes are in line with the organization's values and strategic objectives.",
+      "The framework serves as a guide for organizations seeking to manage the risks associated with AI implementation effectively."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This framework includes: • Part A - Components Analysis. • Part B - Values Assessment   • Part C - Controls for AI Risks."
+    "content_preview": "This document presents a risk assessment framework for artificial intelligence (AI)."
   },
   {
     "id": "90b4be9a6d9899cd0b1a5e61e8133c60",
@@ -9400,26 +9400,25 @@
       "The World Bank"
     ],
     "filepath": "documents/GLOBAL_RENDS_IN_AI_GOVERNANCE_1742997331.pdf",
-    "upload_date": "2025-06-12T20:29:15.476286",
+    "upload_date": "2025-06-13T16:06:43.355868",
     "file_size": 22812101,
-    "summary": "This document, authored by The World Bank, provides an overview of the evolving approaches to AI governance across various countries. It discusses public disclosure policies and their implications, focusing on the role of international organizations like The World Bank in shaping these policies. Key topics include data privacy, ethical considerations, and the impact of AI on economic development.",
+    "summary": "This document, authored by The World Bank, provides an overview of the evolving approaches to AI governance across various countries. It discusses public disclosure policies and their implications, focusing on the role of international organizations like The World Bank. Key topics include data privacy, ethical considerations, and regulatory frameworks in AI development.",
     "keywords": [
       "AI Governance",
-      "Public Disclosure",
       "Data Privacy",
       "Ethics",
-      "International Organizations"
+      "Regulatory Frameworks"
     ],
     "key_concepts": [
       "The document discusses the evolving approaches to AI governance across countries, highlighting the importance of public disclosure policies.",
-      "It emphasizes the role of international organizations like The World Bank in shaping these policies and their impact on data privacy and ethical considerations.",
-      "The document sheds light on the implications of these policies for economic development and the broader societal impact of AI.",
-      "The theoretical framework discussed revolves around the principles of transparency, accountability, and inclusivity in AI governance.",
-      "Practical applications include understanding the role of public disclosure in fostering trust and promoting responsible AI use."
+      "It emphasizes the need for ethical considerations in AI development and the role of international organizations like The World Bank in shaping these discussions.",
+      "The document provides insights into data privacy concerns and regulatory frameworks that are being implemented to address them.",
+      "The theoretical framework discussed in the document is based on principles of transparency, accountability, and inclusivity in AI governance.",
+      "Practical implications of these findings include the need for countries to develop robust AI governance policies that balance innovation with ethical considerations."
     ],
-    "category": "Business",
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Global Trends   in AI Governance"
+    "content_preview": "This document discusses evolving approaches to AI governance across countries, focusing on public disclosure policies and ethical considerations."
   },
   {
     "id": "7da7b02bb30be2a86ba4e988f2b77f01",
@@ -9450,25 +9449,25 @@
       "Michael Charles Borrelli"
     ],
     "filepath": "documents/GPAI_CA_1740214391.pdf",
-    "upload_date": "2025-06-12T20:29:15.495287",
+    "upload_date": "2025-06-13T16:06:43.374867",
     "file_size": 928313,
-    "summary": "This document is a report by AI & Partners, discussing the necessity and benefits of regulations for General-Purpose AI models. It explains why regulations are essential, their potential impact on digital rights, and answers frequently asked questions about the General-Purpose AI Code of Practice. The report also highlights the role of AI & Partners in advocating for fundamental rights in the artificial intelligence age.",
+    "summary": "This document discusses the General-Purpose AI Code of Practice, a commitment by AI & Partners to defend and extend digital rights of users at risk. It explains why regulations are necessary for general-purpose AI models, their development process, and the role of AI Commons in this context. The report was prepared by Sean Donald John Musch and Michael Charles Borrelli.",
     "keywords": [
       "General-Purpose AI",
-      "Regulations",
+      "Code of Practice",
+      "AI & Partners",
       "Digital Rights",
-      "AI & Partners"
+      "Regulations"
     ],
     "key_concepts": [
-      "AI & Partners is an organization that defends and extends digital rights of users at risk worldwide by providing technical support, policy engagement, advocacy, grassroots services, regulatory interventions, and participating in industry groups.",
-      "The General-Purpose AI Code of Practice is a set of regulations aimed at ensuring the ethical use of AI models.",
-      "Regulations for General-Purpose AI models are necessary to protect digital rights and ensure their ethical use.",
-      "AI & Partners' report discusses frequently asked questions about the General-Purpose AI Code of Practice.",
-      "The report was prepared by Sean Donald John Musch and Michael Charles Borrelli, and it is available for more information at https://www.ai-and-partners.com/"
+      "AI & Partners is an organization that fights for fundamental rights in the artificial intelligence age.",
+      "The General-Purpose AI Code of Practice outlines regulations necessary for general-purpose AI models.",
+      "The development process and role of AI Commons are discussed in this document.",
+      "This report provides answers to frequently asked questions about the General-Purpose AI Code of Practice."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This report was prepared by Sean Donald John Musch and Michael Charles Borrelli. For more information visit https://www.ai -and-partners.com/ ."
+    "content_preview": "This report discusses the General-Purpose AI Code of Practice by AI & Partners."
   },
   {
     "id": "907cffc5dd3386c8c5f5e31e38fcc20b",
@@ -10691,14 +10690,14 @@
   {
     "id": "5c0b27729b47c2533f5325d3adebcd86",
     "filename": "How_to_avoid_machine_learning_pitfalls_1630357004.pdf",
-    "title": "How to avoid machine learning pitfalls",
+    "title": "How to avoid machine learning pitfalls: a guide for academic researchers",
     "authors": [
       "Michael A. Lones"
     ],
     "filepath": "documents/How_to_avoid_machine_learning_pitfalls_1630357004.pdf",
-    "upload_date": "2025-06-12T20:29:16.107294",
+    "upload_date": "2025-06-13T16:06:43.993866",
     "file_size": 244082,
-    "summary": "This document provides a guide for academic researchers on common mistakes when using machine learning techniques, focusing on rigorous comparisons and valid conclusions. It covers five stages of the ML process: before model building, model building, robust evaluation, fair comparison, and reporting results.",
+    "summary": "This document provides a concise outline of common mistakes when using machine learning techniques, focusing on issues particularly relevant to academic research such as rigorous comparisons and valid conclusions. It covers five stages of the ML process: what to do before model building, how to reliably build models, how to robustly evaluate models, how to compare models fairly, and how to report results.",
     "keywords": [
       "Machine Learning",
       "Academic Research",
@@ -10707,14 +10706,15 @@
       "Evaluation"
     ],
     "key_concepts": [
-      "The guide aims to help newcomers avoid mistakes in ML within an academic context by focusing on scholarly concerns such as rigorous evaluation and comparison.",
-      "The document covers five stages of the machine learning process: before model building, model building, robust evaluation, fair comparison, and reporting results.",
-      "The lessons learned are applicable to a broader use of ML and can be used as an introductory guide for anyone getting started in this field.",
-      "The guide primarily assumes a basic knowledge of ML techniques and focuses on issues that are of particular concern within academic research."
+      "This guide aims to help newcomers avoid mistakes when using ML within an academic research context.",
+      "It focuses on lessons learnt whilst doing ML research in academia, and while supervising students doing ML research.",
+      "It covers five stages of the machine learning process: what to do before model building, how to reliably build models, how to robustly evaluate models, how to compare models fairly, and how to report results.",
+      "Unlike similar guides aimed at a more general ML audience, it reflects the scholarly concerns of academia such as the need for rigorous evaluation and comparison.",
+      "Most lessons are applicable to broader use of ML and could be used as an introductory guide to anyone getting started in this field."
     ],
-    "category": "Machine Learning",
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document gives a concise outline of some of the common mistakes that occur when using machine learning techniques, and what can be done to avoid them."
+    "content_preview": "A guide for academic researchers on how to avoid common mistakes when using machine learning techniques."
   },
   {
     "id": "12e363eea0f0d8c12151555f64b7f10a",
@@ -10927,26 +10927,26 @@
     "title": "Artificial Intelligence in Capital Markets: Use Cases, Risks, and Challenges",
     "authors": [],
     "filepath": "documents/IOSCO_in_Capital_Markets_1741956952.pdf",
-    "upload_date": "2025-06-12T20:29:16.251295",
+    "upload_date": "2025-06-13T16:06:44.136865",
     "file_size": 1535527,
-    "summary": "This document, published by the International Organization of Securities Commissions (IOSCO), explores the application of AI in capital markets. It discusses various use cases, risks, and challenges associated with AI integration. The report invites feedback from stakeholders to further its understanding and focus on potential areas of concern. The document is a consultation report aimed at financial market participants, AI developers, academics, researchers, public policy experts, and other interested parties.",
+    "summary": "This document, published by the International Organization of Securities Commissions (IOSCO), explores the application of AI in capital markets, discussing use cases, risks, and challenges. It invites feedback from various stakeholders to further its understanding and potential areas of focus. The report is open for comments until April 11, 2025.",
     "keywords": [
       "Artificial Intelligence",
       "Capital Markets",
+      "IOSCO",
       "Use Cases",
-      "Risks",
-      "Challenges"
+      "Risks"
     ],
     "key_concepts": [
-      "The report discusses the integration of AI in capital markets and its various use cases, such as high-frequency trading, algorithmic trading, and robo-advisory.",
-      "The document highlights potential risks associated with AI adoption in capital markets, including market manipulation, systemic risk, and data privacy concerns.",
-      "The report outlines the challenges faced by financial institutions when implementing AI solutions, such as regulatory compliance, data quality, and model interpretability.",
-      "The theoretical framework of the document is based on IOSCO's principles for AI governance in capital markets, which emphasize transparency, accountability, and ethical considerations.",
-      "Practical implications of the report include providing guidance to financial institutions on managing risks associated with AI adoption and fostering a collaborative approach among stakeholders to address challenges."
+      "The report discusses the increasing use of AI in capital markets and its potential benefits.",
+      "It highlights various risks associated with the application of AI in capital markets, such as data privacy and market manipulation.",
+      "The document outlines challenges faced by regulators when overseeing AI-driven financial activities.",
+      "The report emphasizes the need for collaboration between regulators, industry participants, and AI developers to address these issues.",
+      "It provides a framework for understanding and addressing the regulatory implications of AI in capital markets."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "CR/01/2025  March  2025   Board/2025/017"
+    "content_preview": "IOSCO invites feedback on its report exploring AI use cases, risks, and challenges in capital markets."
   },
   {
     "id": "24707470d993d4c9ac6aaa3ca7124b89",
@@ -10999,28 +10999,30 @@
     "title": "ISO/IEC 42001: 2023 - A Guide to Implementation",
     "authors": [
       "Sean Musch",
-      "Michael Borrelli"
+      "Michael Borrelli",
+      "Charles Kerrigan",
+      "Jeff Bennison"
     ],
     "filepath": "documents/ISO_42001_1741432394.pdf",
-    "upload_date": "2025-06-12T20:29:16.284296",
+    "upload_date": "2025-06-13T16:06:44.172865",
     "file_size": 1468007,
-    "summary": "This document is a guide for implementing ISO/IEC 42001: 2023, the latest standard on artificial intelligence (AI) systems. The guide addresses key questions about the standard, including its purpose, scope, and benefits. It emphasizes AI & Partners' role in defending and extending digital rights of users at risk globally through technical support, policy engagement, advocacy, professional services, regulatory interventions, and industry group participation. The report was prepared by Sean Musch and Michael Borrelli from AI & Partners.",
+    "summary": "This document, published in March 2025, is a guide for implementing the EU AI Act. It was prepared by AI & Partners, a global organization that defends and extends digital rights of users at risk. The guide addresses key questions about ISO/IEC 42001, including its definition, purpose, and implications. It provides comprehensive policy engagement, technical support, advocacy, and regulatory interventions to protect fundamental rights in the artificial intelligence age.",
     "keywords": [
       "ISO/IEC 42001",
-      "AI systems",
-      "digital rights",
-      "technical support",
-      "policy engagement"
+      "EU AI Act",
+      "AI & Partners",
+      "Digital Rights",
+      "Artificial Intelligence"
     ],
     "key_concepts": [
-      "ISO/IEC 42001 is a guide for implementing the latest standard on AI systems.",
-      "AI & Partners defends and extends digital rights of users at risk globally through various services.",
-      "The report addresses key questions about ISO/IEC 42001, including its purpose, scope, and benefits.",
-      "The guide emphasizes the importance of AI & Partners' role in industry groups such as AI Commons."
+      "AI & Partners is a global organization that defends and extends digital rights of users at risk.",
+      "The guide provides comprehensive policy engagement, technical support, advocacy, and regulatory interventions to protect fundamental rights in the artificial intelligence age.",
+      "ISO/IEC 42001 is a guide for implementing the EU AI Act.",
+      "The document addresses key questions about ISO/IEC 42001, including its definition, purpose, and implications."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "ISO/IEC 42001: 2023 - A Guide to Implementation"
+    "content_preview": "This report, prepared by AI & Partners, is a guide for implementing the EU AI Act."
   },
   {
     "id": "6c7d9af7f90878356c7f19beb36533c2",
@@ -13906,24 +13908,24 @@
       "Vincent Granville"
     ],
     "filepath": "documents/Machine_Learning_Cheat_Sheet_1608463909.pdf",
-    "upload_date": "2025-06-12T20:29:18.255318",
+    "upload_date": "2025-06-13T16:06:46.201863",
     "file_size": 510078,
-    "summary": "This document provides a comprehensive guide for beginners to get started with Machine Learning, including hardware requirements, software installation, and sample projects. The author recommends using a modern Windows laptop with Cygwin (a Linux layer) for flexibility and compatibility. Regular backups are advised using services like DropBox.",
+    "summary": "This document provides a comprehensive guide for beginners to get started with Machine Learning, including hardware recommendations (Windows laptop with Cygwin), software setup, and sample projects. The author is Vincent Granville, published on June 6, 2019.",
     "keywords": [
       "Machine Learning",
       "Data Science",
-      "Cheat Sheet",
+      "Linux",
       "Cygwin",
-      "Linux"
+      "Windows"
     ],
     "key_concepts": [
-      "The document recommends a modern Windows laptop with Cygwin (a Linux layer) for data science work.",
-      "Regular backups are advised using services like DropBox to protect important files.",
-      "The document provides a guide for beginners to get started with Machine Learning."
+      "The ideal device for Machine Learning is a modern Windows laptop with Cygwin installed to enjoy the benefits of both Windows and Linux.",
+      "To set up a Linux environment on a Windows laptop, install Cygwin which allows you to execute commands or programs in the Cygwin console.",
+      "Regular backups of important files are essential using services like DropBox, even if you work heavily on the cloud."
     ],
     "category": "Data Science",
     "difficulty": "Beginner",
-    "content_preview": "Machine Learning Cheat Sheet"
+    "content_preview": "Get started with Machine Learning by installing Cygwin on a modern Windows laptop for a flexible Linux environment."
   },
   {
     "id": "f490c8062166d9ef7aeb56fba80e7514",
@@ -16321,26 +16323,26 @@
       "Steve Nouri"
     ],
     "filepath": "documents/NLP_Q_A_1606289505.pdf",
-    "upload_date": "2025-06-12T20:29:19.575334",
+    "upload_date": "2025-06-13T16:06:47.538868",
     "file_size": 257038,
-    "summary": "This document provides answers to frequently asked questions about Natural Language Processing (NLP). The main topics covered include keyword normalization, word vector distance computation, text corpus features, and document term matrix. Key methodologies discussed are lemmatization, Cosine Similarity, Euclidean Distance, and Part of Speech Tagging. Key findings include the uses of these techniques in NLP and their differences. Practical applications of these concepts are also demonstrated.",
+    "summary": "This document provides answers to 100 questions related to Natural Language Processing (NLP). The questions cover various topics such as keyword normalization, distance computation between word vectors, features of a text corpus, and creating a document term matrix. The document also explains concepts like Lemmatization, Cosine Similarity, Euclidean Distance, Part of Speech Tag, Basic Dependency Grammar, and Document Term Matrix.",
     "keywords": [
       "NLP",
-      "keyword normalization",
-      "word vector distance",
-      "text corpus features",
-      "document term matrix"
+      "Questions",
+      "Lemmatization",
+      "Cosine Similarity",
+      "Euclidean Distance"
     ],
     "key_concepts": [
       "Lemmatization helps to get to the base form of a word, e.g. are playing -> play, eating -> eat, etc.",
-      "Distance between two word vectors can be computed using Cosine similarity and Euclidean Distance",
-      "All of the above (count of the word in a document, vector notation of the word, Part of Speech Tag, Basic Dependency Grammar) can be used as features of the text corpus.",
-      "A cosine angle close to each other between two word vectors indicates the words are similar and vice versa",
-      "The cosine angle between two words ‘Football’ and ‘Cricket’ will be closer to 1 as compared to the angle between the words ‘Football’ and ‘New Delhi’"
+      "Distance between two word vectors can be computed using Cosine similarity and Euclidean Distance.",
+      "All of the above (Count of the word in a document, Vector notation of the word, Part of Speech Tag, Basic Dependency Grammar) can be used as features of the text corpus.",
+      "Creating a Document Term Matrix on input data of 20K documents.",
+      "This document provides answers to 100 questions related to Natural Language Processing (NLP)"
     ],
-    "category": "Technology",
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Q1. Which of the following techniques can be used for keyword normalization in NLP..."
+    "content_preview": "This document provides answers to 100 NLP questions."
   },
   {
     "id": "a8c898f6678d75493698ddc23b49e76f",
@@ -16517,28 +16519,26 @@
   {
     "id": "e26b79c9b9227bcd4465cc903e1ba180",
     "filename": "Negotiation_Skills_1627897524.pdf",
-    "title": "Salary Negotiation Cheatsheet",
+    "title": "Salary Negotiation CheatSheet",
     "authors": [],
     "filepath": "documents/Negotiation_Skills_1627897524.pdf",
-    "upload_date": "2025-06-12T20:29:19.771337",
+    "upload_date": "2025-06-13T16:06:47.737869",
     "file_size": 36623,
-    "summary": "This document provides a step-by-step guide for negotiating salary effectively. Key topics include identifying a passionate job, determining the salary range, conducting industry research, withholding salary history, using the FBI negotiation technique, and responding to HR inquiries about current salary. Practical applications are demonstrated through dialogue examples.",
+    "summary": "This document provides a comprehensive guide on salary negotiation strategies, emphasizing the importance of targeting desired jobs, researching salary ranges, conducting industry research, withholding salary history, and utilizing FBI negotiation techniques. The guide also includes sample dialogues for various scenarios.",
     "keywords": [
       "Salary Negotiation",
-      "Job Search",
-      "Career Development",
+      "Job Application",
       "FBI Technique"
     ],
     "key_concepts": [
-      "Identify a job you are passionate about to negotiate effectively.",
-      "Determine the salary range using personal networking, online research, and social media.",
-      "Use the FBI negotiation technique by sharing your research on the salary range if both parties agree there's a good fit.",
-      "Withhold giving your current salary history on an application.",
-      "Respond to HR inquiries about your current salary by mirroring, paraphrasing, and using effective pauses."
+      "Target a job you are passionate about to increase negotiation success.",
+      "Determine the salary range using personal networking, online research and social media for effective negotiation.",
+      "Utilize FBI negotiation technique by sharing your research on the salary range after establishing a good fit.",
+      "Withhold salary history on an application to maintain leverage during negotiations."
     ],
-    "category": "Technology",
+    "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "SALARY NEGOTIATION CHEATSHEET 1. Target a job you are passionate about."
+    "content_preview": "Learn effective strategies for salary negotiation in this comprehensive guide."
   },
   {
     "id": "b15402417606d006aa5315ae10218cb9",
@@ -17640,26 +17640,25 @@
     "title": "Power BI and R: Better Together",
     "authors": [],
     "filepath": "documents/Power_BI_and_R_Better_Together_1639641884.pdf",
-    "upload_date": "2025-06-12T20:29:20.414337",
+    "upload_date": "2025-06-13T16:06:48.387872",
     "file_size": 1506771,
-    "summary": "This document discusses the integration of Power BI and R for advanced analytics, emphasizing the importance of data literacy in today's data-driven world. It highlights how this combination empowers business leaders to make informed decisions by leveraging their own analytics and uncovering valuable insights. The document also provides a brief introduction to Microsoft Power BI.",
+    "summary": "This document discusses the integration of Power BI and R for advanced analytics, emphasizing the increasing importance of data literacy in today's world. It highlights how Power BI simplifies complex analytical tasks, making it accessible for business leaders to make informed decisions based on data rather than opinions.",
     "keywords": [
       "Data Literacy",
-      "Advanced Analytics",
       "Power BI",
-      "R",
-      "Business Intelligence"
+      "R Programming",
+      "Advanced Analytics",
+      "Business Decisions"
     ],
     "key_concepts": [
-      "The increasing availability of data presents challenges and opportunities for business leaders seeking insights.",
-      "Microsoft Power BI is a tool that brings advanced analytics to the daily business decision process.",
-      "By integrating R with Power BI, users can extract valuable knowledge from data to solve business problems.",
-      "Data literacy is crucial in today's world as it enables informed business decisions based on data rather than opinions.",
-      "The combination of Power BI and R empowers business leaders to dive into their own analytics and uncover insights."
+      "The document explains the need for business leaders to become data literate in order to understand and utilize statistical methods, machine learning, and data manipulation.",
+      "It introduces Microsoft Power BI as a tool that brings advanced analytics into the daily business decision process, allowing users to extract valuable insights from data.",
+      "The document suggests that with the right tools, business leaders can dive into their own analytics and uncover powerful insights.",
+      "The text implies that the integration of Power BI and R provides a powerful combination for data analysis and visualization."
     ],
     "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "1Advanced Analytics with Power BI"
+    "content_preview": "This document discusses the integration of Power BI and R for advanced analytics, making it accessible for business leaders to make informed decisions based on data."
   },
   {
     "id": "032a413ec01bb2c35aac36a20a96f928",
@@ -23173,30 +23172,29 @@
   {
     "id": "8ae5adf277039d0865e209e3af78ece7",
     "filename": "Two_types_of_AI_existential_risk_1748125530.pdf",
-    "title": "Two_types_of_AI_existential_risk_1748125530.pdf",
+    "title": "Two types of AI existential risk",
     "authors": [
       "Atoosa Kasirzadeh"
     ],
     "filepath": "documents/Two_types_of_AI_existential_risk_1748125530.pdf",
-    "upload_date": "2025-06-12T20:29:23.391355",
+    "upload_date": "2025-06-13T16:06:51.455884",
     "file_size": 894437,
-    "summary": "This document explores two types of existential risks from AI: decisive and accumulative. The conventional view focuses on abrupt, dire events caused by advanced AI systems, while the accumulative hypothesis suggests a gradual accumulation of AI-induced threats that undermine societal resilience until a triggering event results in irreversible collapse.",
+    "summary": "This paper explores two perspectives on existential risks from AI: decisive and accumulative. The conventional view focuses on abrupt, dire events caused by advanced AI systems, while the accumulative hypothesis suggests a gradual accumulation of AI-induced threats that could lead to systemic erosion and societal collapse over time.",
     "keywords": [
       "AI",
-      "Existential Risk",
-      "Decisive Risk",
-      "Accumulative Risk"
+      "existential risk",
+      "decisive risk",
+      "accumulative risk"
     ],
     "key_concepts": [
       "The conventional discourse on existential risks from AI typically focuses on abrupt, dire events caused by advanced AI systems.",
-      "The accumulative hypothesis suggests a gradual accumulation of AI-induced threats that undermine societal resilience over time.",
-      "This involves a boiling frog scenario where incremental AI risks slowly undermine systemic and societal resilience until a triggering event results in irreversible collapse.",
-      "The paper contrasts the conventional decisive AI x-risk hypothesis with the accumulative AI x-risk hypothesis.",
-      "The accumulative hypothesis suggests a different pathway to existential catastrophes, involving a gradual erosion of critical economic and political structures."
+      "The accumulative hypothesis suggests a gradual accumulation of AI-induced threats that could lead to systemic erosion and societal collapse over time.",
+      "This involves a gradual accumulation of AI risks that slowly undermine systematic and societal resilience until a triggering event results in irreversible collapse.",
+      "The paper contrasts the conventional decisive AI x-risk hypothesis with what I call an accumulative AI x-risk hypothesis."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Vol.:(0123456789)Philosophical Studies, The conventional discourse on existential risks from AI typically focuses on abrupt, dire events caused by advanced AI systems,"
+    "content_preview": "This paper contrasts the conventional decisive AI existential risk with an accumulative AI existential risk."
   },
   {
     "id": "cab18c4f9e4571b25b1906ad883c4cb0",
@@ -23881,9 +23879,9 @@
     "title": "Analysis of the provided text",
     "authors": [],
     "filepath": "documents/What_Should_Be_Internationalised_in_AI_Governance__1735879206.pdf",
-    "upload_date": "2025-06-12T20:29:23.774360",
+    "upload_date": "2025-06-13T16:06:51.846885",
     "file_size": 5135061,
-    "summary": "The provided text appears to be a complex and lengthy string of characters, possibly a code or a sequence of symbols. However, without additional context or information about its origin, it is difficult to accurately analyze or interpret its meaning. It could potentially be a computer program, a cipher, or a random sequence of characters.",
+    "summary": "The provided text appears to be a complex and lengthy string of characters, possibly a code or encrypted message. However, without additional context or a known key for decryption, it is difficult to determine its meaning accurately.",
     "keywords": [
       "Technology"
     ],
@@ -24125,9 +24123,9 @@
       "Joaquin Vanschoren"
     ],
     "filepath": "documents/_AutoML_Book_1655047477.pdf",
-    "upload_date": "2025-06-12T20:29:23.862361",
+    "upload_date": "2025-06-13T16:06:51.935885",
     "file_size": 6796761,
-    "summary": "This document is a book series that focuses on Automated Machine Learning (AutoML). It covers methods, systems, challenges, and competitions in machine learning. The series includes tutorial material, dataset descriptions, and pointers to data and software. It serves as a complete teaching toolkit for engineers and scientists, with more information available at http://www.springer.com/series/15602.",
+    "summary": "This document is a book series that focuses on Automated Machine Learning (AutoML). It covers methods, systems, challenges, and provides tutorial material, dataset descriptions, and pointers to data and software. The series also includes competition analyses, offering a comprehensive teaching toolkit for engineers and scientists. More information can be found at http://www.springer.com/series/15602.",
     "keywords": [
       "AutoML",
       "Machine Learning",
@@ -24137,13 +24135,13 @@
     ],
     "key_concepts": [
       "The series focuses on Automated Machine Learning (AutoML) methods, systems, and challenges.",
-      "It includes competitions in machine learning, tutorial material, dataset descriptions, and pointers to data and software.",
-      "The books in this series are written in the context of successful machine learning competitions.",
+      "It includes competition analyses, tutorial material, dataset descriptions, and pointers to data and software.",
+      "The books in the series are written in the context of successful machine learning competitions.",
       "Together with the websites of the challenge competitions, they offer a complete teaching toolkit for engineers and scientists."
     ],
-    "category": "Machine Learning",
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "The Springer Series on Challenges in Machine Learning"
+    "content_preview": "This document is a book series on Automated Machine Learning."
   },
   {
     "id": "732be58ba961c78e426a8f1ac014609f",
@@ -25890,11 +25888,14 @@
     "id": "6822f6a7ca9ea085faa87bd396e8e89e",
     "filename": "securing-ai.pdf",
     "title": "Securing AI for Enterprise Resilience",
-    "authors": [],
+    "authors": [
+      "Author1",
+      "Author2"
+    ],
     "filepath": "documents/securing-ai.pdf",
-    "upload_date": "2025-06-12T20:29:24.749372",
+    "upload_date": "2025-06-13T16:06:52.828888",
     "file_size": 2015004,
-    "summary": "This document discusses key risks, threats, and countermeasures related to AI security for enterprise resilience. It covers unique aspects of AI security, responsibilities within the enterprise, strategies for AI security, types of AI security threats, and getting started with an AI security strategy. Everyone has a role to play in AI security, and the document provides resources for advancing AI security. The authors are not specified.",
+    "summary": "This document discusses key risks, threats, and countermeasures related to AI security for enterprise resilience. It covers unique aspects of AI security, responsibilities within the enterprise, strategies for AI security, types of AI security threats, and getting started with an AI security strategy. The document emphasizes that everyone has a role in AI security and provides resources for advancing AI security. It concludes with information about the authors.",
     "keywords": [
       "AI Security",
       "Enterprise Resilience",
@@ -25903,15 +25904,15 @@
       "Countermeasures"
     ],
     "key_concepts": [
-      "The unique nature of AI security and its critical importance for enterprises.",
-      "The roles and responsibilities for AI security within an enterprise.",
-      "Strategies used by AI security engineers to reinforce the security foundation.",
-      "Types of AI security threats and their characteristics.",
-      "The need for a comprehensive AI security strategy and the role of every team member."
+      "The unique nature of AI security and its critical importance in today's rapidly innovating world.",
+      "Identifying the responsible parties for AI security within an enterprise.",
+      "Understanding how AI security engineers reinforce the overall security foundation.",
+      "Exploring various types of AI security threats that enterprises may face.",
+      "Providing a starting point for developing an effective AI security strategy."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses key risks, threats, and countermeasures related to AI security for enterprise resilience. It covers unique aspects of AI security, responsibilities within the enterprise, strategies for AI security, types of AI security threats, and getting started with an AI security strategy."
+    "content_preview": "This document discusses key risks, threats, and countermeasures related to AI security for enterprise resilience."
   },
   {
     "id": "2859e09e6343d5b8a487bfcb7815fd12",
@@ -26043,9 +26044,9 @@
     "title": "SQL Cheat Sheet",
     "authors": [],
     "filepath": "documents/sql cheat sheet.pdf",
-    "upload_date": "2025-06-12T20:29:24.775373",
+    "upload_date": "2025-06-13T16:06:52.855889",
     "file_size": 230259,
-    "summary": "This document provides a comprehensive guide to SQL queries, covering various join types (inner, left, full outer, and self), aggregate functions, filtering, sorting, combining, and pattern matching. It also includes examples for querying data from tables and using the WHERE clause for conditions.",
+    "summary": "This document provides a comprehensive guide to SQL queries, covering various join types (inner, left, full outer, and self), aggregate functions, filtering, sorting, combining results, and pattern matching. It also includes examples for querying data from columns, tables, and using the WHERE clause with conditions, IN operator, and LIKE pattern.",
     "keywords": [
       "SQL",
       "queries",
@@ -26054,15 +26055,15 @@
       "filter"
     ],
     "key_concepts": [
-      "Perform inner, left, full outer, and self joins between tables in SQL",
-      "Use aggregate functions to group rows and perform calculations on them",
-      "Filter rows using the WHERE clause with conditions or pattern matching",
-      "Sort the result set in ascending or descending order",
-      "Combine or subtract result sets from multiple queries"
+      "Perform inner join between two tables using the INNER JOIN clause",
+      "Use the LEFT JOIN clause to join a table to another table, returning all rows from the left table and matching rows from the right table",
+      "Execute full outer join with the FULL OUTER JOIN clause to return all matching and non-matching rows from both tables",
+      "Produce a Cartesian product of rows in tables using the CROSS JOIN clause",
+      "Join a table to itself using the INNER JOIN or RIGHT JOIN clauses"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "SELECT c1, c2 FROM t; Query data in columns c1 , c2 from a table"
+    "content_preview": "This document provides SQL query examples and explanations."
   },
   {
     "id": "3c59cf02594f4575b7d25542d47e9b13",
