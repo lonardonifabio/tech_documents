@@ -26134,26 +26134,26 @@
     "title": "Medical Image Classification Using Multi -Head Attention and LSTM",
     "authors": [],
     "filepath": "documents/umrict_1742720676.pdf",
-    "upload_date": "2025-06-12T20:29:24.795373",
+    "upload_date": "2025-06-13T17:20:53.520901",
     "file_size": 1378912,
-    "summary": "This document presents a study on medical image classification using multi-head attention and Long Short-Term Memory (LSTM) networks. The researcher collects images of fetal head abnormalities from a dataset, preprocesses them, and creates a dataframe for further analysis. The main objective is to classify the images into various categories such as 3D_Rendering, 3D_Volume_Rendering, Adaptive_Histogram_Equalization, Alpha_Blending, Basic_Color_Map, Contrast_Stretching, Edge_Detection, Gamma_Correction, Gaussian_Blur, Heatmap_Visualization, Interactive_Segmentation, LUT_Color_Map, and Random_Color_Palette. This work is significant for the medical field as it can aid in early detection and d...",
+    "summary": "This document discusses a study on medical image classification using multi-head attention and Long Short-Term Memory (LSTM) networks. The authors collect a dataset of fetal head abnormalities images, preprocess them, and perform classification using various techniques such as 3D rendering, edge detection, and heatmap visualization. The main contribution is the development of an LSTM model with multi-head attention for improved accuracy in classifying fetal head abnormalities.",
     "keywords": [
       "Medical Image Classification",
       "Multi-Head Attention",
       "LSTM",
-      "Fetal Abnormalities",
-      "Data Preprocessing"
+      "Fetal Head Abnormalities",
+      "Deep Learning"
     ],
     "key_concepts": [
-      "The study uses a dataset of fetal head abnormalities images for classification.",
-      "The document explains the process of preprocessing the images and creating a dataframe for analysis.",
-      "The research employs multi-head attention and LSTM networks for image classification.",
-      "The main categories for image classification include 3D_Rendering, 3D_Volume_Rendering, Adaptive_Histogram_Equalization, Alpha_Blending, Basic_Color_Map, Contrast_Stretching, Edge_Detection, Gamma_Correction, Gaussian_Blur, Heatmap_Visualization, Interactive_Segmentation, LUT_Color_Map, and Random_Color_Palette.",
-      "The work aims to aid in early detection and diagnosis of fetal abnormalities."
+      "The study aims to classify fetal head abnormalities in medical images using deep learning techniques.",
+      "The authors collect a dataset of fetal head abnormalities images and preprocess them for classification.",
+      "The LSTM model with multi-head attention is developed for improved accuracy in classifying fetal head abnormalities.",
+      "Various image processing techniques such as 3D rendering, edge detection, and heatmap visualization are used during the preprocessing stage.",
+      "The study contributes to the field of medical image analysis by providing a more accurate method for classifying fetal head abnormalities."
     ],
-    "category": "Data Science",
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Medical Image Classification Using Multi -Head Attention and LSTM"
+    "content_preview": "The document discusses a study on medical image classification using multi-head attention and LSTM networks."
   },
   {
     "id": "c6f7b1efa627cfab5fd2c12177bb435d",
