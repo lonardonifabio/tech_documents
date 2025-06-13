@@ -8635,18 +8635,25 @@
     "title": "Excel Formulas Cheat Sheet",
     "authors": [],
     "filepath": "documents/Excel_Formulas_Cheat_Sheet_1642235838.pdf",
-    "upload_date": "2025-06-06T15:45:42.544672",
+    "upload_date": "2025-06-12T20:29:15.191283",
     "file_size": 237571,
-    "summary": "This document provides a cheat sheet for various Excel database and date/time functions, including DAVERAGE, DCOUNT, DCOUNTA, DGET, DMAX, DMIN, DSTDEV, DPRODUCT, DSTDEVP, DSUM, DVAR, DVARP, DATE, DATEVALUE, and DAY.",
+    "summary": "This document provides a comprehensive guide to various Excel database and time functions, including DAVERAGE, DCOUNT, DCOUNTA, DGET, DMAX, DMIN, DSTDEV, DPRODUCT, DSTDEVP, DSUM, DVAR, DVARP, DATE, DATEVALUE, and DAY. These functions are essential for manipulating and analyzing data in Excel.",
     "keywords": [
       "Excel",
       "Formulas",
       "Database Functions",
-      "Date and Time Functions"
+      "Time Functions"
+    ],
+    "key_concepts": [
+      "The DAVERAGE function returns the average of selected database entries",
+      "The DCOUNT function counts the cells that contain numbers in a database",
+      "The DCOUNTA function counts the nonblank cells in a database",
+      "The DGET function extracts a single record from a database that matches specified criteria",
+      "The DMAX and DMIN functions return the maximum and minimum values from selected database entries respectively"
     ],
     "category": "Technology",
-    "difficulty": "Intermediate",
-    "content_preview": "Excel Formulas Cheat Sheet   Database Functions"
+    "difficulty": "Beginner",
+    "content_preview": "Excel Formulas  Cheat Sheet   Database Functions"
   },
   {
     "id": "3ab74018481b202a7048be51cf718d28",
