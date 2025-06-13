@@ -19207,26 +19207,25 @@
       "Syed Afroz Ali"
     ],
     "filepath": "documents/Python_for_Machine_Learning_Visualization_1735238818.pdf",
-    "upload_date": "2025-06-12T20:29:20.986336",
+    "upload_date": "2025-06-13T17:20:49.705895",
     "file_size": 10604223,
-    "summary": "This document is a comprehensive guide on using Python for data visualization in machine learning. It covers two parts (Part 01 and Part 03) available on Kaggle, authored by Syed Afroz Ali, a Kaggle Grand Master. The guide uses libraries such as pandas, numpy, seaborn, plotly.express, and plotly.graph_objects for data manipulation and visualization. The document begins with loading a dataset (heart_disease_uci.csv), cleaning it by dropping missing values, and then performing basic analysis like displaying the number of records and columns. It also includes creating scatter plots to visualize relationships between variables such as age and cholesterol levels.",
+    "summary": "This document is a comprehensive guide on data visualization using Python for machine learning. It covers various types of data visualizations and provides two parts (Part 01 and Part 02) as separate Kaggle notebooks. The author, Syed Afroz Ali, is a Kaggle Grand Master. The document uses libraries such as pandas, numpy, seaborn, plotly.express, plotly.graph_objects, and plotly.figure_factory to load, manipulate, and visualize data. The dataset used in this example is the heart disease UCI dataset.",
     "keywords": [
       "Python",
       "Machine Learning",
       "Data Visualization",
       "Kaggle",
-      "Seaborn"
+      "Notebook"
     ],
     "key_concepts": [
-      "Important concept sentence: The document provides a step-by-step guide on using Python for data visualization in machine learning, specifically focusing on the heart_disease_uci dataset.",
-      "Methodology or approach: The author uses libraries such as pandas, numpy, seaborn, plotly.express, and plotly.graph_objects to manipulate and visualize the data.",
-      "Findings or applications: The document presents scatter plots to visualize relationships between variables like age and cholesterol levels in the heart_disease_uci dataset.",
-      "Theoretical framework or principles: The guide follows best practices for data preprocessing, cleaning, and visualization in machine learning.",
-      "Practical implications or use cases: This guide can be useful for anyone looking to learn how to use Python for data visualization in machine learning projects."
+      "The document provides a guide on using Python for machine learning visualization.",
+      "It uses libraries such as pandas, numpy, seaborn, plotly.express, plotly.graph_objects, and plotly.figure_factory.",
+      "The dataset used in this example is the heart disease UCI dataset.",
+      "The document demonstrates how to load, manipulate, and visualize data using Python."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Prepared By: Syed Afroz Ali (Kaggle Grand Master) All Types of Data Visualization Kaggle Note Book Python for Machine Learning Visualization Part 01:"
+    "content_preview": "This document provides a guide on using Python for machine learning visualization, using libraries such as pandas, numpy, seaborn, plotly.express, plotly.graph_objects, and plotly.figure_factory."
   },
   {
     "id": "ee6fcf51ed61f446465fae769d46a3ce",
