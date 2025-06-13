@@ -10696,9 +10696,9 @@
       "Michael A. Lones"
     ],
     "filepath": "documents/How_to_avoid_machine_learning_pitfalls_1630357004.pdf",
-    "upload_date": "2025-06-13T16:06:43.993866",
+    "upload_date": "2025-06-13T17:20:44.743899",
     "file_size": 244082,
-    "summary": "This document provides a concise outline of common mistakes when using machine learning techniques, focusing on issues particularly relevant to academic research such as rigorous comparisons and valid conclusions. It covers five stages of the ML process: what to do before model building, how to reliably build models, how to robustly evaluate models, how to compare models fairly, and how to report results.",
+    "summary": "This document provides a concise outline of common mistakes when using machine learning techniques, focusing on issues of concern within academic research such as rigorous comparisons and valid conclusions. It covers five stages of the ML process: what to do before model building, how to reliably build models, how to robustly evaluate models, how to compare models fairly, and how to report results.",
     "keywords": [
       "Machine Learning",
       "Academic Research",
@@ -10708,14 +10708,14 @@
     ],
     "key_concepts": [
       "This guide aims to help newcomers avoid mistakes when using ML within an academic research context.",
-      "It focuses on lessons learnt whilst doing ML research in academia, and while supervising students doing ML research.",
-      "It covers five stages of the machine learning process: what to do before model building, how to reliably build models, how to robustly evaluate models, how to compare models fairly, and how to report results.",
-      "Unlike similar guides aimed at a more general ML audience, it reflects the scholarly concerns of academia such as the need for rigorous evaluation and comparison.",
-      "Most lessons are applicable to broader use of ML and could be used as an introductory guide to anyone getting started in this field."
+      "It focuses on lessons learnt whilst doing ML research in academia and supervising students.",
+      "It covers five stages of the ML process: preparation, model building, evaluation, comparison, and reporting.",
+      "The guide primarily aims at students and other researchers who are relatively new to the field of ML.",
+      "Most lessons are applicable to the broader use of ML."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "A guide for academic researchers on how to avoid common mistakes when using machine learning techniques."
+    "content_preview": "A guide for academic researchers on how to avoid common pitfalls when using machine learning techniques."
   },
   {
     "id": "12e363eea0f0d8c12151555f64b7f10a",
