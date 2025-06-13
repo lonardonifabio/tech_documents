@@ -13,6 +13,7 @@ interface Document {
   filepath: string;
   file_size: number;
   upload_date: string;
+  content_preview?: string;
 }
 
 interface PDFModalProps {
@@ -70,31 +71,31 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
   const generateLinkedInPost = (doc: Document): string => {
     const title = doc.title || doc.filename;
     const summary = doc.summary;
+    const contentPreview = doc.content_preview;
     const keyConcepts = doc.key_concepts || [];
     const keywords = doc.keywords.slice(0, 5); // Take first 5 keywords
+    const category = doc.category;
+    const difficulty = doc.difficulty;
     
     // Use the GitHub Pages URL for the application
     const githubPagesUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.id}`;
 
-    let post = `🤖I share this document 📄 ${title} with my LinkedIn network.\n`;
-    post += `📝 ${summary}.\n`;
-    post += `\n`;
-    if (keyConcepts.length > 0) {
-      post += `💡Please find below the key concepts from the document:\n`;
-      keyConcepts.forEach(concept => {
-        post += `• ${concept}\n`;
-      });
+    let post = `🚀 Sharing an insightful document with my LinkedIn network!\n\n`;
+    post += `📄 **${title}**\n`;
+    post += `📖 **Read this document with AI support:** ${githubPagesUrl}\n\n`;
+    // Add content preview if available
+    if (contentPreview) {
+      post += `🔍 **Content Preview:**\n${contentPreview}\n\n`;
     }
-    
     post += `\n`;
-    post += `📊 Would you like to explore and read documentation about AI? Go to https://lonardonifabio.github.io/tech_documents/ you will find more than 1100 documents on AI & Data Science.`;
+    post += `🌐 **Explore 1100+ AI & Data Science Documents:**\n`;
+    post += `Visit: https://lonardonifabio.github.io/tech_documents/\n\n`;
     post += `\n`;
+    // Add hashtags
+    post += `Tags: `;
     keywords.forEach(keyword => {
       post += `#${keyword.replace(/\s+/g, '')} `;
     });
-    
-    post += `\n\n${githubPagesUrl}`;
-    
     return post;
   };
 
@@ -304,6 +305,18 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
               <iframe
                 src={getPDFPreviewUrl(doc)}
                 className="w-full h-full border-0"
+                onError={() => setPreviewError(true)}
+                title={`Preview of ${doc.title || doc.filename}`}
+              />
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PDFModal;
                 onError={() => setPreviewError(true)}
                 title={`Preview of ${doc.title || doc.filename}`}
               />

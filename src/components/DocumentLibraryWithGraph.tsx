@@ -16,6 +16,7 @@ interface Document {
   filepath: string;
   file_size: number;
   upload_date: string;
+  content_preview?: string;
 }
 
 interface DocumentLibraryWithGraphProps {
@@ -98,7 +99,7 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
       ...doc,
       title: doc.title || doc.filename,
       authors: doc.authors || [],
-      content_preview: doc.summary.substring(0, 200) + '...'
+      content_preview: doc.content_preview || doc.summary.substring(0, 200) + '...'
     }));
   };
 

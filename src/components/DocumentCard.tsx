@@ -14,6 +14,7 @@ interface Document {
   filepath: string;
   file_size: number;
   upload_date: string;
+  content_preview?: string;
 }
 
 interface DocumentCardProps {
