@@ -25190,15 +25190,15 @@
   {
     "id": "4cdcaaaf2aa3c037ff9762f793436ff0",
     "filename": "machine learning tips and trick.pdf",
-    "title": "Machine Learning Tips and Trick.pdf",
+    "title": "Machine Learning Tips and Tricks",
     "authors": [
       "Afshine Amidi",
       "Shervine Amidi"
     ],
     "filepath": "documents/machine learning tips and trick.pdf",
-    "upload_date": "2025-06-04T21:18:56.159045",
+    "upload_date": "2025-06-12T20:29:24.514369",
     "file_size": 570460,
-    "summary": "This document provides machine learning tips, focusing on binary classification with metrics such as confusion matrix, accuracy, precision, recall, sensitivity, specificity, F1 score, ROC, and AUC. It is authored by Afshine Amidi and Shervine Amidi.",
+    "summary": "This document provides a comprehensive guide to assessing the performance of machine learning classifiers, focusing on binary classification. It introduces key metrics such as confusion matrix, accuracy, precision, recall, sensitivity, specificity, F1 score, ROC, and AUC. The guide is based on the VIP Cheatsheet: Machine Learning Tips by Afshine Amidi and Shervine Amidi.",
     "keywords": [
       "Machine Learning",
       "Classification",
@@ -25206,9 +25206,15 @@
       "Confusion Matrix",
       "Accuracy"
     ],
+    "key_concepts": [
+      "The document explains how to assess the performance of a machine learning classifier using various metrics.",
+      "It introduces the confusion matrix as a tool for a more complete picture when evaluating model performance.",
+      "Key metrics such as accuracy, precision, recall, sensitivity, specificity, F1 score, ROC, and AUC are discussed.",
+      "The guide is based on the VIP Cheatsheet: Machine Learning Tips by Afshine Amidi and Shervine Amidi."
+    ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "CS 229 – Machine Learning https://stanford.edu/~shervine VIP Cheatsheet: Machine Learning Tips"
+    "content_preview": "CS 229 – Machine Learning https://stanford.edu/~shervine"
   },
   {
     "id": "cb2b60de1bd8b9e70712c33460339cd2",
