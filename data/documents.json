@@ -16039,24 +16039,25 @@
       "Arjun Panwar"
     ],
     "filepath": "documents/MongoDB_with_Python_1639905443.pdf",
-    "upload_date": "2025-06-12T20:29:19.437333",
+    "upload_date": "2025-06-13T17:20:48.135892",
     "file_size": 58923,
-    "summary": "This document provides a comprehensive guide on using MongoDB with Python, emphasizing the use of Object-Oriented Programming (OOPs) concepts for code reusability. The guide includes a custom logging class to log each step into a file. It also covers the import and usage of necessary packages such as pymongo and pandas.",
+    "summary": "This document provides a comprehensive guide on using MongoDB with Python, emphasizing the use of Object-Oriented Programming (OOPs) concepts for code reusability. The guide includes a custom logging class to log every step into a file. It also covers the implementation of pymongo and pandas libraries in the mongodb class for performing various MongoDB tasks.",
     "keywords": [
       "MongoDB",
       "Python",
       "OOPs",
       "Logging",
-      "Custom Class"
+      "pymongo"
     ],
     "key_concepts": [
-      "The document demonstrates how to use OOPs concepts in MongoDB with Python for increased code reusability.",
-      "It presents a custom logging class that logs each step of the process into a file using the current time and log type.",
-      "The guide explains the import and usage of essential packages like pymongo and pandas for working with MongoDB in Python."
+      "The document uses OOPs concepts to increase the reusability of code in MongoDB with Python.",
+      "A custom logging class is implemented to log every step into a file for traceability.",
+      "The guide demonstrates the use of pymongo and pandas libraries in the mongodb class for performing various MongoDB tasks.",
+      "The theoretical framework revolves around using Python to interact with MongoDB databases."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "OOPs concepts are extensively used to increase reusablity of code"
+    "content_preview": "This document provides a guide on using MongoDB with Python, emphasizing OOPs concepts and custom logging."
   },
   {
     "id": "2c6c0a918d35fd886487f0bc923d3a52",
