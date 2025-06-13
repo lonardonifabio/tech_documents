@@ -14273,25 +14273,24 @@
     "title": "Machine Learning Methods for Malware Detection",
     "authors": [],
     "filepath": "documents/Machine_Learning_Methods_For_Malware_Detection__1609679024.pdf",
-    "upload_date": "2025-06-12T20:29:18.392319",
+    "upload_date": "2025-06-13T17:20:47.080891",
     "file_size": 498023,
-    "summary": "This document discusses the application of machine learning in malware detection, focusing on concepts such as unsupervised and supervised learning, deep learning, false positive rates, and adaptability to counteractions. The paper also covers specific applications in cybersecurity, including pre-execution detection with similarity hashing, two-stage pre-execution detection, deep learning against rare attacks, and post-execution behavior detection. It also touches upon the use of machine learning in clustering incoming data streams and distillation for updates.",
+    "summary": "This document discusses the application of machine learning in malware detection, focusing on concepts such as unsupervised and supervised learning, deep learning, false positive rates, and adaptability to malware writers' counteractions. The paper also presents Kaspersky's approach, including pre-execution detection with similarity hashing and two-stage pre-execution detection, deep learning against rare attacks, and deep learning in post-execution behavior detection. The document concludes with applications in the infrastructure such as clustering incoming objects and distillation.",
     "keywords": [
       "Machine Learning",
       "Malware Detection",
-      "Cybersecurity",
-      "Deep Learning"
+      "Cybersecurity"
     ],
     "key_concepts": [
-      "The paper discusses the extensive experience of using machine learning to build advanced protection against malware for customers.",
-      "Unsupervised and supervised learning, deep learning are the main machine learning concepts discussed in this document.",
-      "Trained models in malware detection require large representative datasets, low false positive rates, interpretability, and quick adaptability to counteractions.",
-      "The paper presents Kaspersky's application of machine learning for detecting new malware in pre-execution with similarity hashing and two-stage pre-execution detection on users’ computers.",
-      "Deep learning is used against rare attacks and in post-execution behavior detection, while also discussing its applications in the infrastructure such as clustering incoming data streams and distillation for updates."
+      "Machine learning is used to build advanced protection for customers against malware.",
+      "Unsupervised learning, supervised learning, and deep learning are key concepts in the paper.",
+      "The trained model must be interpretable, have extremely low false positive rates, and allow quick adaptation to malware writers’ counteractions.",
+      "Kaspersky's approach includes pre-execution detection with similarity hashing and two-stage pre-execution detection, deep learning against rare attacks, and deep learning in post-execution behavior detection.",
+      "Applications in the infrastructure include clustering incoming objects and distillation."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Machine Learning Methods for Malware Detection Learn more on kaspersky.com"
+    "content_preview": "This document discusses machine learning methods for malware detection."
   },
   {
     "id": "33fb38523eb86e3f5ba06f206a4bdb2f",
