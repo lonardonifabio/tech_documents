@@ -608,9 +608,9 @@
     "title": "7 Steps Machine Learning Problem Formulation",
     "authors": [],
     "filepath": "documents/7_Steps_Machine_Learning_Problem_Formulation_1567264103.pdf",
-    "upload_date": "2025-06-13T16:06:37.724847",
+    "upload_date": "2025-06-13T17:20:38.489891",
     "file_size": 157824,
-    "summary": "This document outlines a seven-step process for formulating machine learning problems, focusing on business problem statement, defining unit analysis, variables, labels, action, success criteria, and threshold component. The methodology emphasizes the importance of a clear business case and understanding the problem before diving into data analysis.",
+    "summary": "This document outlines a seven-step process for formulating machine learning problems, focusing on business problem statement, defining unit analysis, variables, labels, action, success criteria, and threshold component. The methodology is practical and can be applied to various machine learning scenarios, with the ultimate goal of improving model performance and achieving desired outcomes.",
     "keywords": [
       "Machine Learning",
       "Problem Formulation",
@@ -619,15 +619,15 @@
       "Define Variable"
     ],
     "key_concepts": [
-      "The seven-step process provides a structured approach to formulating machine learning problems, ensuring clarity and focus.",
-      "Understanding the business problem statement is crucial for selecting appropriate data analysis methods and tools.",
-      "Defining units of analysis, variables, labels, and action helps in structuring the data and identifying relevant features.",
-      "Setting success criteria and thresholds enables evaluation of model performance and determining when to stop training.",
-      "The document highlights the importance of a solid business case as a foundation for effective machine learning problem formulation."
+      "The seven-step process for formulating machine learning problems helps improve model performance and achieve desired outcomes.",
+      "Business problem statement is the first step, outlining the specific issue to be addressed by the machine learning model.",
+      "Define unit analysis involves identifying the data that will be used in the machine learning model.",
+      "Defining variables refers to selecting the features or attributes of the data that are relevant to the business problem.",
+      "Define label is the step where the target variable or outcome is specified."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Learn a structured approach to formulating machine learning problems with 7 steps."
+    "content_preview": "Learn a seven-step process for formulating machine learning problems to improve model performance and achieve desired outcomes."
   },
   {
     "id": "05e6d66ff7508555123136d0849c658b",
