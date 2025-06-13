@@ -18297,14 +18297,22 @@
       "Bryan Van de Ven"
     ],
     "filepath": "documents/Python Data Visualization Bokeh Cheat Sheet.pdf",
-    "upload_date": "2025-06-06T15:45:47.946681",
+    "upload_date": "2025-06-12T20:29:20.654337",
     "file_size": 1363598,
-    "summary": "This document provides a cheat sheet for using the Python data visualization library Bokeh. It covers basic steps to create plots, customizations, and more advanced features. The author is Bryan Van de Ven.",
+    "summary": "This document provides a comprehensive guide to using the Python data visualization library Bokeh. It covers topics such as plotting, rendering large datasets in modern web browsers, and key components like data and glyphs. The basic steps to create plots with Bokeh include preparing data, creating a new plot, adding renderers for your data with customizations, specifying where to generate the output, and showing or saving the results.",
     "keywords": [
       "Python",
       "Data Visualization",
       "Bokeh",
-      "Cheat Sheet"
+      "Plotting",
+      "Web Browsers"
+    ],
+    "key_concepts": [
+      "Bokeh is a high-performance interactive visualization library for Python.",
+      "The main components of Bokeh plotting are data and glyphs.",
+      "The basic steps to create plots with Bokeh are preparing data, creating a new plot, adding renderers, specifying output location, and showing or saving the results.",
+      "Your data is converted to Column Data Source in Bokeh.",
+      "You can manually convert 'x', 'y', 'Temp.', and 'lines.html' using Bokeh functions."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
