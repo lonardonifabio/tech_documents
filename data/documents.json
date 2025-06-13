@@ -18747,19 +18747,26 @@
     "title": "Python Pandas Cheat Sheet",
     "authors": [],
     "filepath": "documents/Python_Pandas_Cheat_Sheet_1628066941.pdf",
-    "upload_date": "2025-06-04T19:59:43.545604",
+    "upload_date": "2025-06-12T20:29:20.782337",
     "file_size": 1327711,
-    "summary": "This document provides a cheat sheet for the Python Pandas library, which is built on NumPy and offers easy-to-use data structures and analysis tools for the Python programming language. It includes sections on I/O, selection, dropping, applying functions, asking for help, basic information on Series, DataFrame, and more.",
+    "summary": "This document provides a comprehensive guide to using the Pandas library in Python for data science learning. It covers essential structures such as I/O, selection, dropping, applying functions, and asking for help. The content includes examples of one-dimensional Series and two-dimensional DataFrames, along with explanations on how to create, manipulate, and analyze these structures.",
     "keywords": [
       "Python",
       "Pandas",
-      "Data Analysis",
-      "Data Structures",
-      "NumPy"
+      "Data Science",
+      "DataFrame",
+      "Series"
+    ],
+    "key_concepts": [
+      "The Pandas library is built on NumPy and provides easy-to-use data structures and analysis tools for the Python programming language.",
+      "The following import convention should be used: >>> import pandas as pd",
+      "A one-dimensional Series can hold any data type (3-574) and is labeled with an index.",
+      "A two-dimensional DataFrame with columns of potentially different types can be created using the following syntax: data = {...}",
+      "The Pandas DataFrame provides functions for reading and writing to Excel"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "P and as D ata Structure... I/O Selec..."
+    "content_preview": "P and as Basi cs Cheat Shee tPyth o n F o r D at a Sci e n ce L earn P an d as Basi cs o nlin e at www .D at aCamp.co m"
   },
   {
     "id": "4e3e4b474d44d33a386095a3d6eb4d5a",
