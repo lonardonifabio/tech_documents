@@ -3553,24 +3553,25 @@
     "title": "AlexNet Implementation in Keras",
     "authors": [],
     "filepath": "documents/AlexNet_1711185522.pdf",
-    "upload_date": "2025-06-12T20:29:11.515242",
+    "upload_date": "2025-06-13T17:20:40.160893",
     "file_size": 228203,
-    "summary": "This document provides a step-by-step guide on implementing the AlexNet model using Keras. The implementation includes defining the Convolutional Neural Network (CNN) architecture, initializing the CNN, and addressing common errors such as registering libraries and packages. The code demonstrates how to use layers like Convolution2D, MaxPooling2D, Flatten, Dense, Dropout, BatchNormalization in Keras.",
+    "summary": "This document provides a step-by-step guide on implementing the AlexNet model using Keras. The implementation involves initializing the CNN, defining convolution and max pooling layers, and adding batch normalization. However, the code encounters errors related to cuDNN, cuFFT, and cuBLAS factories that have already been registered.",
     "keywords": [
       "AlexNet",
       "Keras",
+      "Convolutional Neural Network",
       "CNN",
-      "Convolutional Neural Network"
+      "Implementation"
     ],
     "key_concepts": [
-      "Explanation of the AlexNet architecture and its layers",
-      "Demonstration of initializing a CNN using Keras",
-      "Resolution of common errors during library registration",
-      "Usage of Convolution2D, MaxPooling2D, Flatten, Dense, Dropout, BatchNormalization in Keras"
+      "The document explains how to initialize a Convolutional Neural Network (CNN) using Keras.",
+      "It details the process of defining convolution and max pooling layers in the CNN.",
+      "Batch normalization is also included in the CNN initialization process as shown in the code.",
+      "The errors encountered during the implementation are related to cuDNN, cuFFT, and cuBLAS factories that have already been registered."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Initializing the CNN: classifier =Sequential()"
+    "content_preview": "This document provides a guide on implementing AlexNet using Keras, encountering errors related to cuDNN, cuFFT, and cuBLAS factories."
   },
   {
     "id": "5999ffb9abc21230ef305e85d26d1b9b",
