@@ -8,6 +8,7 @@ interface Document {
   summary: string;
   authors?: string[];
   keywords: string[];
+  key_concepts?: string[];
   category: string;
   difficulty: string;
   filepath: string;
@@ -17,11 +18,12 @@ interface Document {
 
 interface DocumentCardProps {
   doc: Document;
+  autoOpen?: boolean;
 }
 
-const DocumentCard: React.FC<DocumentCardProps> = ({ doc }) => {
+const DocumentCard: React.FC<DocumentCardProps> = ({ doc, autoOpen = false }) => {
   const [showFullSummary, setShowFullSummary] = useState(false);
-  const [showPDFModal, setShowPDFModal] = useState(false);
+  const [showPDFModal, setShowPDFModal] = useState(autoOpen);
 
   // Generate document preview with category-based styling
   const getDocumentPreview = (doc: Document) => {

@@ -9,6 +9,10 @@ export default {
       animation: {
         'spin': 'spin 1s linear infinite',
       },
+      colors: {
+        linkedin: '#0077B5',
+        'linkedin-dark': '#005885',
+      },
     },
   },
   plugins: [],

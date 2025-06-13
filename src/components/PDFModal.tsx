@@ -65,6 +65,46 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
       return 'Unknown date';
     }
   };
+
+  // Generate LinkedIn post content
+  const generateLinkedInPost = (doc: Document): string => {
+    const title = doc.title || doc.filename;
+    const summary = doc.summary;
+    const keyConcepts = doc.key_concepts || [];
+    const keywords = doc.keywords.slice(0, 5); // Take first 5 keywords
+    
+    // Use the GitHub Pages URL for the application
+    const githubPagesUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.id}`;
+
+    let post = `I share this document ${title} with my LinkedIn network.\n`;
+    post += `${summary}.\n`;
+    
+    if (keyConcepts.length > 0) {
+      post += `Please find below the key concepts from the document:\n`;
+      keyConcepts.forEach(concept => {
+        post += `• ${concept}\n`;
+      });
+    }
+    
+    post += `\n`;
+    keywords.forEach(keyword => {
+      post += `#${keyword.replace(/\s+/g, '')} `;
+    });
+    
+    post += `\n\n${githubPagesUrl}`;
+    
+    return post;
+  };
+
+  // Share on LinkedIn
+  const shareOnLinkedIn = () => {
+    const postContent = generateLinkedInPost(doc);
+    const encodedContent = encodeURIComponent(postContent);
+    const githubPagesUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.id}`;
+    const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(githubPagesUrl)}&text=${encodedContent}`;
+    
+    window.open(linkedInUrl, '_blank', 'width=600,height=600');
+  };
   
   useEffect(() => {
     if (isOpen) {
@@ -100,7 +140,8 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
         {/* Main Content */}
         <div className="flex-1 flex overflow-hidden">
           {/* Left Sidebar - Document Information */}
-          <div className="w-80 bg-gray-50 border-r overflow-y-auto p-4 space-y-4">
+          <div className="w-80 bg-gray-50 border-r flex flex-col">
+            <div className="flex-1 overflow-y-auto p-4 space-y-4">
             {/* Title */}
             <div>
               <h3 className="text-sm font-semibold text-gray-700 mb-2">📄 Title</h3>
@@ -212,7 +253,17 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
             </div>
 
             {/* Action Buttons */}
-            <div className="pt-4 border-t">
+            <div className="pt-4 border-t space-y-3">
+              <button
+                onClick={shareOnLinkedIn}
+                className="w-full bg-linkedin text-white px-4 py-2 rounded-lg hover:bg-linkedin-dark transition-colors duration-200 text-center text-sm font-medium flex items-center justify-center gap-2"
+                title="Share on LinkedIn"
+              >
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                📤 Share on LinkedIn
+              </button>
               <a
                 href={`https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${doc.filepath}`}
                 target="_blank"
@@ -221,6 +272,7 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
               >
                 📥 Download PDF
               </a>
+            </div>
             </div>
           </div>
 

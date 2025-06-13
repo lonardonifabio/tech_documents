@@ -37,6 +37,7 @@ const DocumentLibrary: React.FC<DocumentLibraryProps> = ({
   const [error, setError] = useState<string | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const [autoOpenDocId, setAutoOpenDocId] = useState<string | null>(null);
   
   const ITEMS_PER_PAGE = 20;
 
@@ -67,6 +68,14 @@ const DocumentLibrary: React.FC<DocumentLibraryProps> = ({
             setDocuments(sortedData);
             setFilteredDocs(sortedData);
             setLoading(false);
+            
+            // Check for URL parameter to auto-open document
+            const urlParams = new URLSearchParams(window.location.search);
+            const docId = urlParams.get('doc');
+            if (docId) {
+              setAutoOpenDocId(docId);
+            }
+            
             return;
           }
         } catch (err) {
@@ -203,8 +212,19 @@ const DocumentLibrary: React.FC<DocumentLibraryProps> = ({
   useEffect(() => {
     const startIndex = 0;
     const endIndex = currentPage * ITEMS_PER_PAGE;
-    setDisplayedDocs(filteredDocs.slice(startIndex, endIndex));
-  }, [filteredDocs, currentPage]);
+    let docsToDisplay = filteredDocs.slice(startIndex, endIndex);
+    
+    // If there's an auto-open document ID, ensure it's included in displayed docs
+    if (autoOpenDocId) {
+      const autoOpenDoc = documents.find(doc => doc.id === autoOpenDocId);
+      if (autoOpenDoc && !docsToDisplay.find(doc => doc.id === autoOpenDocId)) {
+        // Add the auto-open document to the beginning of the list
+        docsToDisplay = [autoOpenDoc, ...docsToDisplay];
+      }
+    }
+    
+    setDisplayedDocs(docsToDisplay);
+  }, [filteredDocs, currentPage, autoOpenDocId, documents]);
 
   // Load more documents
   const handleLoadMore = async () => {
@@ -286,7 +306,11 @@ const DocumentLibrary: React.FC<DocumentLibraryProps> = ({
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {displayedDocs.map(doc => (
-                <DocumentCard key={doc.id} doc={doc} />
+                <DocumentCard 
+                  key={doc.id} 
+                  doc={doc} 
+                  autoOpen={autoOpenDocId === doc.id}
+                />
               ))}
             </div>
             
