@@ -980,19 +980,26 @@
       "Vladimir Vuskovic"
     ],
     "filepath": "documents/AI_Agents_by_Google_1742549472.pdf",
-    "upload_date": "2025-06-06T03:10:02.748900",
+    "upload_date": "2025-06-12T20:29:10.097225",
     "file_size": 4043800,
-    "summary": "This document discusses AI agents, their models, tools, orchestration layer, and cognitive architectures. It also covers extensions, use cases, function samples, data stores, implementation, enhancing model performance, and quick start with LangChain Production applications with Vertex AI agents.",
+    "summary": "This document discusses AI agents, their model, tools, and orchestration layer. It highlights the differences between agents and models, cognitive architectures, and extensions. The document also provides sample extensions, functions, use cases, and function sample code. Data stores and implementation are covered, along with enhancing model performance through targeted learning. The document concludes with a quick start guide for LangChain Production and applications with Vertex AI agents.",
     "keywords": [
-      "AI",
-      "Agents",
+      "AI Agents",
       "Google",
       "Cognitive Architectures",
-      "Extensions"
+      "Extensions",
+      "Functions"
+    ],
+    "key_concepts": [
+      "An AI agent is a software system that perceives its environment and takes actions to achieve goals.",
+      "The model refers to the core machine learning algorithm used by the agent.",
+      "Tools are essential for agents to interact with the outside world, including data stores and function libraries.",
+      "Extensions allow for customization of an agent's behavior and capabilities.",
+      "Cognitive architectures describe how agents operate, including their memory, perception, and action systems."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "AI Agents by Google... Tools: Our keys to the outside world"
+    "content_preview": "AI Agents by Google"
   },
   {
     "id": "b2cb06bf211e4a51c7ab1c2393914b13",
