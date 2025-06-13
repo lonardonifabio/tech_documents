@@ -16324,26 +16324,26 @@
       "Steve Nouri"
     ],
     "filepath": "documents/NLP_Q_A_1606289505.pdf",
-    "upload_date": "2025-06-13T16:06:47.538868",
+    "upload_date": "2025-06-13T17:20:48.269892",
     "file_size": 257038,
-    "summary": "This document provides answers to 100 questions related to Natural Language Processing (NLP). The questions cover various topics such as keyword normalization, distance computation between word vectors, features of a text corpus, and creating a document term matrix. The document also explains concepts like Lemmatization, Cosine Similarity, Euclidean Distance, Part of Speech Tag, Basic Dependency Grammar, and Document Term Matrix.",
+    "summary": "This document provides answers to frequently asked questions about Natural Language Processing (NLP). It covers topics such as keyword normalization, word vector distance computation, text corpus features, and document term matrix. The main methodologies discussed include lemmatization, Euclidean distance, Cosine similarity, and basic dependency grammar. Key findings include the uses of these techniques in NLP and their differences. Practical applications are also provided.",
     "keywords": [
       "NLP",
-      "Questions",
-      "Lemmatization",
-      "Cosine Similarity",
-      "Euclidean Distance"
+      "keyword normalization",
+      "word vector distance",
+      "text corpus",
+      "document term matrix"
     ],
     "key_concepts": [
       "Lemmatization helps to get to the base form of a word, e.g. are playing -> play, eating -> eat, etc.",
       "Distance between two word vectors can be computed using Cosine similarity and Euclidean Distance.",
-      "All of the above (Count of the word in a document, Vector notation of the word, Part of Speech Tag, Basic Dependency Grammar) can be used as features of the text corpus.",
-      "Creating a Document Term Matrix on input data of 20K documents.",
-      "This document provides answers to 100 questions related to Natural Language Processing (NLP)"
+      "All of the above (count of the word in a document, vector notation of the word, Part of Speech Tag, Basic Dependency Grammar) can be used as features of the text corpus.",
+      "A cosine angle close to each other between two word vectors indicates the words are similar and vice versa.",
+      "The document term matrix is created on the input data of 20K documents."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides answers to 100 NLP questions."
+    "content_preview": "This document provides answers to frequently asked questions about Natural Language Processing (NLP)."
   },
   {
     "id": "a8c898f6678d75493698ddc23b49e76f",
