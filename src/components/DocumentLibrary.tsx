@@ -71,10 +71,12 @@ const DocumentLibrary: React.FC<DocumentLibraryProps> = ({
             setLoading(false);
             
             // Check for URL parameter to auto-open document
-            const urlParams = new URLSearchParams(window.location.search);
-            const docId = urlParams.get('doc');
-            if (docId) {
-              setAutoOpenDocId(docId);
+            if (typeof window !== 'undefined') {
+              const urlParams = new URLSearchParams(window.location.search);
+              const docId = urlParams.get('doc');
+              if (docId) {
+                setAutoOpenDocId(docId);
+              }
             }
             
             return;
@@ -252,7 +254,7 @@ const DocumentLibrary: React.FC<DocumentLibraryProps> = ({
   }
 
   if (error) {
-    return <ErrorMessage error={error} onRetry={() => window.location.reload()} />;
+    return <ErrorMessage error={error} onRetry={() => typeof window !== 'undefined' ? window.location.reload() : undefined} />;
   }
 
   return (

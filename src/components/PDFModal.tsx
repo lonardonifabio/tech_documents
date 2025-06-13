@@ -101,6 +101,8 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
 
   // Share on LinkedIn
   const shareOnLinkedIn = () => {
+    if (typeof window === 'undefined') return; // Guard against SSR
+    
     const postContent = generateLinkedInPost(doc);
     const encodedContent = encodeURIComponent(postContent);
     const githubPagesUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.id}`;
@@ -110,7 +112,7 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
   };
   
   useEffect(() => {
-    if (isOpen) {
+    if (isOpen && typeof document !== 'undefined') {
       document.addEventListener('keydown', handleKeyDown);
       document.body.style.overflow = 'hidden';
       
@@ -305,18 +307,6 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
               <iframe
                 src={getPDFPreviewUrl(doc)}
                 className="w-full h-full border-0"
-                onError={() => setPreviewError(true)}
-                title={`Preview of ${doc.title || doc.filename}`}
-              />
-            )}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default PDFModal;
                 onError={() => setPreviewError(true)}
                 title={`Preview of ${doc.title || doc.filename}`}
               />

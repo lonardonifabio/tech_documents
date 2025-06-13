@@ -80,7 +80,7 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
 
   // Register service worker
   useEffect(() => {
-    if ('serviceWorker' in navigator) {
+    if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
       const isDev = import.meta.env.DEV;
       const swPath = isDev ? '/sw.js' : '/tech_documents/sw.js';
       navigator.serviceWorker.register(swPath)
@@ -106,9 +106,11 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
   const handleNodeClick = (node: DocumentNode) => {
     setSelectedDocument(node);
     // Open document in new tab
-    const githubRawUrl = `https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${node.filepath}`;
-    const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(githubRawUrl)}`;
-    window.open(pdfViewerUrl, '_blank');
+    if (typeof window !== 'undefined') {
+      const githubRawUrl = `https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${node.filepath}`;
+      const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(githubRawUrl)}`;
+      window.open(pdfViewerUrl, '_blank');
+    }
   };
 
   const handleNodeHover = (_node: DocumentNode | null) => {
@@ -312,7 +314,7 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
                     </ul>
                     <div className="flex gap-3">
                       <button
-                        onClick={() => window.location.reload()}
+                        onClick={() => typeof window !== 'undefined' ? window.location.reload() : undefined}
                         className="px-4 py-2 bg-red-600 text-white text-sm rounded hover:bg-red-700 transition-colors"
                       >
                         Reload Page
