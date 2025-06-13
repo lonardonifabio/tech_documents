@@ -19565,25 +19565,25 @@
       "Sean Chen"
     ],
     "filepath": "documents/R_Programming_Quick_Reference_Sheet_1567265320.pdf",
-    "upload_date": "2025-06-12T20:29:21.180336",
+    "upload_date": "2025-06-13T17:20:49.904895",
     "file_size": 607662,
-    "summary": "This document provides a quick reference sheet for basic R programming, focusing on data structures, string manipulation, and various functions. It includes topics such as creating strings, splitting and substring extraction, matching patterns, data types, and special characters. The document also covers help resources, object management, and package-specific function calls.",
+    "summary": "This document provides a quick reference sheet for basic R programming, focusing on data structure manipulation, string handling, and functions. It covers topics such as paste(), str_split(), str_sub(), str_detect(), and various data types in R. The document also explains special characters, help functions, objects, and environment concepts.",
     "keywords": [
       "R Programming",
-      "Data Structures",
+      "Data Structure",
       "String Manipulation",
-      "Functions"
+      "Cheat Sheet"
     ],
     "key_concepts": [
-      "Strings can be concatenated using the paste() function with a separator specified.",
-      "The str_split(), str_sub(), and str_detect() functions from the stringr package are useful for splitting, substring extraction, and pattern matching respectively.",
-      "R version 3.0 and greater supports 64 bit integers and is case sensitive.",
-      "The help system in R provides various ways to access documentation and examples.",
-      "Objects in the current environment can be displayed, removed, or accessed using functions like ls(), rm(), and .name."
+      "The paste() function combines strings with a separator (sep) that defaults to a space.",
+      "The str_split() function splits a string into a list based on a specified pattern.",
+      "The str_sub() function extracts a substring from a given string.",
+      "The str_detect() function checks if a specified pattern exists within a string.",
+      "R version 3.0 and greater supports 64-bit integers, is case sensitive, and indexes start from 1."
     ],
     "category": "Data Science",
     "difficulty": "Beginner",
-    "content_preview": "General Data StructureS ManipulatinG  StrinG"
+    "content_preview": "Quick reference sheet for basic R programming focusing on data structure manipulation and string handling."
   },
   {
     "id": "caf22e028d76cf9cb2a3985480b63a03",
