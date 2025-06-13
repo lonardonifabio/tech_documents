@@ -3206,27 +3206,28 @@
     "id": "2c5334041419e90fa983e2b098a44614",
     "filename": "Adversarial_Machine_Learning_1743431306.pdf",
     "title": "Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations",
-    "authors": [
-      "Alina Oprea Apostol Vassilev",
-      "Maia Hamin",
-      "Alie Fordyce",
-      "Hyrum Anderson",
-      "Xander Davies"
-    ],
+    "authors": [],
     "filepath": "documents/Adversarial_Machine_Learning_1743431306.pdf",
-    "upload_date": "2025-06-05T20:14:16.880631",
+    "upload_date": "2025-06-12T20:29:11.418241",
     "file_size": 4184989,
-    "summary": "This document, published by NIST in March 2025, provides a taxonomy and terminology for Adversarial Machine Learning attacks and their mitigations. The publication is free to access and was collaboratively written by Alina Oprea Apostol Vassilev, Maia Hamin, Alie Fordyce, Hyrum Anderson, Xander Davies from various institutions including Northeas...",
+    "summary": "This document, published by NIST in March 2025, presents a comprehensive taxonomy and terminology for Adversarial Machine Learning (AML) attacks and their mitigation strategies. The publication is authored by Alina Oprea, Apostol Vassilev, Maia Hamin, Alie Fordyce, Hyrum Anderson, and Xander Davies from various institutions including Northeastern University, U.S. AI Safety Institute, National Institute of Standards and Robust Intelligence (now part of Cisco), and the U.K. AI Security Institute. The document is free to access at https://doi.org/10.6028/NIST.AI.100-2e2025. It provides a valuable resource for understanding AML, its potential threats, and strategies to mitigate these threats.",
     "keywords": [
       "Adversarial Machine Learning",
       "Attacks",
       "Mitigations",
-      "NIST",
-      "AI"
+      "Taxonomy",
+      "Terminology"
+    ],
+    "key_concepts": [
+      "The document presents a taxonomy and terminology for Adversarial Machine Learning (AML) attacks, providing a structured understanding of the various types of AML attacks.",
+      "The publication discusses strategies to mitigate Adversarial Machine Learning (AML) attacks, offering practical solutions for enhancing the security of machine learning systems.",
+      "The document provides a comprehensive overview of the current state of research on Adversarial Machine Learning (AML), highlighting key findings and future directions.",
+      "The work is based on the principles of trustworthy and responsible AI as outlined by NIST, emphasizing the importance of security in AI systems.",
+      "The document serves as a valuable resource for researchers, practitioners, and policymakers interested in understanding Adversarial Machine Learning (AML) and its implications."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document, published by NIST in March 2025..."
+    "content_preview": "Document: Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations"
   },
   {
     "id": "449e9a419f84b3920f89ac18771b4c3a",
