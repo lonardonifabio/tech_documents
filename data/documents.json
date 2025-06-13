@@ -25889,11 +25889,14 @@
     "id": "6822f6a7ca9ea085faa87bd396e8e89e",
     "filename": "securing-ai.pdf",
     "title": "Securing AI for Enterprise Resilience",
-    "authors": [],
+    "authors": [
+      "Author1",
+      "Author2"
+    ],
     "filepath": "documents/securing-ai.pdf",
-    "upload_date": "2025-06-12T20:29:24.749372",
+    "upload_date": "2025-06-13T16:06:52.828888",
     "file_size": 2015004,
-    "summary": "This document discusses key risks, threats, and countermeasures related to AI security for enterprise resilience. It covers unique aspects of AI security, responsibilities within the enterprise, strategies for AI security, types of AI security threats, and getting started with an AI security strategy. Everyone has a role to play in AI security, and the document provides resources for advancing AI security. The authors are not specified.",
+    "summary": "This document discusses key risks, threats, and countermeasures related to AI security for enterprise resilience. It covers unique aspects of AI security, responsibilities within the enterprise, strategies for AI security, types of AI security threats, and getting started with an AI security strategy. The document emphasizes that everyone has a role in AI security and provides resources for advancing AI security. It concludes with information about the authors.",
     "keywords": [
       "AI Security",
       "Enterprise Resilience",
@@ -25902,15 +25905,15 @@
       "Countermeasures"
     ],
     "key_concepts": [
-      "The unique nature of AI security and its critical importance for enterprises.",
-      "The roles and responsibilities for AI security within an enterprise.",
-      "Strategies used by AI security engineers to reinforce the security foundation.",
-      "Types of AI security threats and their characteristics.",
-      "The need for a comprehensive AI security strategy and the role of every team member."
+      "The unique nature of AI security and its critical importance in today's rapidly innovating world.",
+      "Identifying the responsible parties for AI security within an enterprise.",
+      "Understanding how AI security engineers reinforce the overall security foundation.",
+      "Exploring various types of AI security threats that enterprises may face.",
+      "Providing a starting point for developing an effective AI security strategy."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses key risks, threats, and countermeasures related to AI security for enterprise resilience. It covers unique aspects of AI security, responsibilities within the enterprise, strategies for AI security, types of AI security threats, and getting started with an AI security strategy."
+    "content_preview": "This document discusses key risks, threats, and countermeasures related to AI security for enterprise resilience."
   },
   {
     "id": "2859e09e6343d5b8a487bfcb7815fd12",
