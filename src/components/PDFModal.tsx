@@ -68,14 +68,71 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
   };
 
   // Generate LinkedIn post content
+  //#const generateLinkedInPost = (doc: Document): string => {
+  //#  const title = doc.title || doc.filename;
+  //#  const summary = doc.summary;
+  //#  const contentPreview = doc.content_preview;
+  //#  const keyConcepts = doc.key_concepts || [];
+  //#  const keywords = doc.keywords.slice(0, 5); // Take first 5 keywords
+  //#  const category = doc.category;
+  //#  const difficulty = doc.difficulty;
+  //#  
+  //#  // Use the GitHub Pages URL for the application
+  //#  const githubPagesUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.id}`;
+  //#
+  //#  let post = `🚀 Just shared an insightful resource with my LinkedIn network!\n\n`;
+  //#  post += `📄 **${title}**\n\n`;
+  //#  
+  //#  // Add summary
+  //#  if (summary) {
+  //#    const truncatedSummary = summary.length > 300 ? summary.substring(0, 300) + '...' : summary;
+  //#    post += `📝 **Summary:**\n${truncatedSummary}\n\n`;
+  //#  }
+  //#  
+  //#  // Add content preview if available
+  //#  if (contentPreview && contentPreview !== summary) {
+  //#    const truncatedPreview = contentPreview.length > 200 ? contentPreview.substring(0, 200) + '...' : contentPreview;
+  //#    post += `🔍 **Key Insights:**\n${truncatedPreview}\n\n`;
+  //#  }
+  //#  
+  //#  // Add key concepts if available
+  //#  if (keyConcepts.length > 0) {
+  //#    post += `💡 **Key Concepts:**\n`;
+  //#    keyConcepts.slice(0, 3).forEach(concept => {
+  //#      post += `• ${concept}\n`;
+  //#    });
+  //#    post += `\n`;
+  //#  }
+  //#  
+  //#  // Add category and difficulty
+  //#  post += `📊 **Category:** ${category} | **Level:** ${difficulty}\n\n`;
+  //#  
+  //#  // Add call to action
+  //#  post += `🤖 Explore this document with AI-powered assistance:\n${githubPagesUrl}\n\n`;
+  //#  post += `📚 **Discover 1100+ AI & Data Science Documents:**\n`;
+  //#  post += `🌐 https://lonardonifabio.github.io/tech_documents/\n\n`;
+  //#  
+  //#  // Add hashtags
+  //#  post += `#ArtificialIntelligence #DataScience #MachineLearning #AI #TechResources `;
+  //#  keywords.forEach(keyword => {
+  //#    const cleanKeyword = keyword.replace(/[^a-zA-Z0-9]/g, '');
+  //#    if (cleanKeyword.length > 2) {
+  //#      post += `#${cleanKeyword} `;
+  //#    }
+  //#  });
+  //#  
+  //#  return post;
+  //#};
+
+  // Generate LinkedIn post content
   const generateLinkedInPost = (doc: Document): string => {
     const title = doc.title || doc.filename;
-    const summary = doc.summary;
+    //const summary = doc.summary;
     const contentPreview = doc.content_preview;
-    const keyConcepts = doc.key_concepts || [];
+    //const keyConcepts = doc.key_concepts || [];
     const keywords = doc.keywords.slice(0, 5); // Take first 5 keywords
-    const category = doc.category;
-    const difficulty = doc.difficulty;
+    //const category = doc.category;
+    //const difficulty = doc.difficulty;
     
     // Use the GitHub Pages URL for the application
     const githubPagesUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.id}`;
@@ -97,16 +154,47 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
     return post;
   };
 
-  // Share on LinkedIn
+  // Share on LinkedIn with mobile-optimized approach
   const shareOnLinkedIn = () => {
     if (typeof window === 'undefined') return; // Guard against SSR
     
-    const postContent = generateLinkedInPost(doc);
-    const encodedContent = encodeURIComponent(postContent);
-    const githubPagesUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.id}`;
-    const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(githubPagesUrl)}&text=${encodedContent}`;
+    const title = doc.title || doc.filename;
+    // Use the dedicated document URL with proper Open Graph meta tags
+    const documentUrl = `https://lonardonifabio.github.io/tech_documents/document/${doc.id}`;
     
-    window.open(linkedInUrl, '_blank', 'width=600,height=600');
+    // Detect if user is on mobile
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
+    if (isMobile) {
+      // For mobile devices, use the dedicated URL with proper meta tags
+      // This will allow LinkedIn's crawler to extract proper Open Graph data
+      
+      // Try to use the native sharing API if available
+      if (navigator.share) {
+        const postContent = generateLinkedInPost(doc);
+        navigator.share({
+          title: `AI Document: ${title}`,
+          text: postContent,
+          url: documentUrl
+        }).catch(err => {
+          console.log('Native sharing failed, falling back to LinkedIn URL');
+          // Fallback to LinkedIn URL with dedicated document URL
+          const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(documentUrl)}`;
+          window.open(linkedInUrl, '_blank');
+        });
+      } else {
+        // For mobile without native sharing, use the dedicated URL
+        // LinkedIn's mobile crawler will extract meta tags from the dedicated page
+        const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(documentUrl)}`;
+        window.open(linkedInUrl, '_blank');
+      }
+    } else {
+      // For desktop, use the full post content with dedicated URL
+      const postContent = generateLinkedInPost(doc);
+      const encodedContent = encodeURIComponent(postContent);
+      const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(documentUrl)}&text=${encodedContent}`;
+      window.open(linkedInUrl, '_blank', 'width=600,height=600');
+    }
   };
   
   useEffect(() => {

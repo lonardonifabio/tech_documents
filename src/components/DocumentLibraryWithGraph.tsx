@@ -105,11 +105,10 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
 
   const handleNodeClick = (node: DocumentNode) => {
     setSelectedDocument(node);
-    // Open document in new tab
+    // Open document preview URL in new tab
     if (typeof window !== 'undefined') {
-      const githubRawUrl = `https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${node.filepath}`;
-      const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(githubRawUrl)}`;
-      window.open(pdfViewerUrl, '_blank');
+      const documentPreviewUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${node.id}`;
+      window.open(documentPreviewUrl, '_blank');
     }
   };
 
