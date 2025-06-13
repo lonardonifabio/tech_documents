@@ -5112,27 +5112,28 @@
   {
     "id": "eb1d052963da8f2cce1518b3d0ecd220",
     "filename": "Bone_1725747702.pdf",
-    "title": "Bone Fracture Dataset Analysis and Image Display Script",
+    "title": "Bone Fracture Dataset Analysis and Image Display",
     "authors": [],
     "filepath": "documents/Bone_1725747702.pdf",
-    "upload_date": "2025-06-12T20:29:12.288251",
+    "upload_date": "2025-06-13T17:20:40.933894",
     "file_size": 322208,
-    "summary": "This document provides a Python script for analyzing the Bone Fracture Dataset, which is part of a Kaggle competition. The script imports necessary libraries, defines functions to display images from the test, train, and validation sets, and displays these sets. It also checks the number of GPUs available.",
+    "summary": "This document provides a Python script for analyzing the Bone Fracture Dataset, which is used in computer vision projects. The script imports necessary libraries, defines functions to display images, and sets up directories for test, train, and validation images. It then displays these images using the defined function. Additionally, it checks the number of GPUs available.",
     "keywords": [
       "Bone Fracture Dataset",
       "Python Script",
-      "Kaggle Competition",
+      "Computer Vision",
       "Image Display"
     ],
     "key_concepts": [
       "The script imports necessary libraries such as matplotlib, seaborn, random, PIL, and TensorFlow.",
-      "It defines a function to display images from the test, train, and validation sets.",
-      "The script displays the images from the specified directories (test, train, and validation) using the defined function.",
-      "It also checks the number of GPUs available using TensorFlow."
+      "It defines a function to display images from the specified directories (test, train, validation) with a given number of images.",
+      "The function randomly selects images from the specified directories based on their availability.",
+      "The script displays the test, train, and validation images using the defined function.",
+      "It also checks the number of GPUs available."
     ],
-    "category": "Data Science",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Bone Fracture Dataset analysis and image display script..."
+    "content_preview": "This script displays images from the Bone Fracture Dataset used in computer vision projects."
   },
   {
     "id": "f7b2b7fffd849dba1c67b0053cc9a45a",
