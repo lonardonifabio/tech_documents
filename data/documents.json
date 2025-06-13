@@ -24477,24 +24477,24 @@
     "title": "Alzheimer’s Disease Classification Using a Novel Bidirectional CNN",
     "authors": [],
     "filepath": "documents/alz_1747912873.pdf",
-    "upload_date": "2025-06-12T20:29:24.074364",
+    "upload_date": "2025-06-13T17:20:52.811900",
     "file_size": 704951,
-    "summary": "This document presents a Python script for classifying Alzheimer's disease using a novel bidirectional Convolutional Neural Network (CNN). The script loads and preprocesses MRI images from an augmented dataset, then trains the model to distinguish between different stages of dementia. The script serves as a valuable resource for researchers in the field of medical image analysis and machine learning.",
+    "summary": "This document presents a Python script for classifying Alzheimer's disease using a novel bidirectional Convolutional Neural Network (CNN). The script loads and preprocesses MRI images from an augmented dataset, then trains the model to distinguish between different stages of Alzheimer's disease. The work aims to contribute to early detection and improved treatment strategies.",
     "keywords": [
-      "Alzheimer's disease",
-      "Convolutional Neural Network",
-      "MRI images",
+      "Alzheimer's Disease",
+      "CNN",
+      "MRI",
+      "Data Preprocessing",
       "Machine Learning"
     ],
     "key_concepts": [
-      "The document describes a novel bidirectional CNN for classifying Alzheimer's disease based on MRI images.",
-      "The script loads and preprocesses the data from an augmented dataset, which includes MRI images of different stages of dementia.",
-      "The trained model is able to distinguish between different stages of dementia, including MildDemented, ModerateDemented, NonDemented, VeryMildDemented.",
-      "The script serves as a valuable resource for researchers in the field of medical image analysis and machine learning."
+      "The script loads and preprocesses MRI images from an augmented dataset for Alzheimer's disease classification.",
+      "A novel bidirectional CNN is used to classify the images into different stages of Alzheimer's disease.",
+      "The model is trained using a dataset containing four categories: MildDemented, ModerateDemented, NonDemented, and VeryMildDemented."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document presents a Python script for classifying Alzheimer's disease using a novel bidirectional CNN. The script loads and preprocesses MRI images from an augmented dataset,"
+    "content_preview": "The script loads and preprocesses MRI images for Alzheimer's disease classification using a novel bidirectional CNN."
   },
   {
     "id": "2fbcaf0e70997d86f1631a884b8b199c",
