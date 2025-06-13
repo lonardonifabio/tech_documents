@@ -608,25 +608,26 @@
     "title": "7 Steps Machine Learning Problem Formulation",
     "authors": [],
     "filepath": "documents/7_Steps_Machine_Learning_Problem_Formulation_1567264103.pdf",
-    "upload_date": "2025-06-12T20:29:09.842221",
+    "upload_date": "2025-06-13T16:06:37.724847",
     "file_size": 157824,
-    "summary": "This document outlines a seven-step process for formulating machine learning problems, focusing on business problem statement, defining unit analysis, variables, labels, action, success criteria, and threshold component. The methodology emphasizes the importance of a clear business case and understanding the problem context before proceeding with data analysis and model development.",
+    "summary": "This document outlines a seven-step process for formulating machine learning problems, focusing on business problem statement, defining unit analysis, variables, labels, action, success criteria, and threshold component. The methodology emphasizes the importance of a clear business case and understanding the problem before diving into data analysis.",
     "keywords": [
       "Machine Learning",
       "Problem Formulation",
-      "Business Case",
-      "Data Analysis"
+      "Business Problem Statement",
+      "Define Unit Analysis",
+      "Define Variable"
     ],
     "key_concepts": [
-      "The seven-step process provides a structured approach to formulating machine learning problems, ensuring clarity and focus on the business objective.",
-      "Defining unit analysis, variables, labels, action, success criteria, and threshold component are crucial steps in problem formulation, as they guide data collection and model development.",
-      "A clear business case is essential for understanding the problem context and justifying the need for machine learning solutions.",
-      "The process emphasizes the importance of setting success criteria to measure the effectiveness of the machine learning model.",
-      "Threshold component helps in determining when the machine learning model's output is acceptable or requires further action."
+      "The seven-step process provides a structured approach to formulating machine learning problems, ensuring clarity and focus.",
+      "Understanding the business problem statement is crucial for selecting appropriate data analysis methods and tools.",
+      "Defining units of analysis, variables, labels, and action helps in structuring the data and identifying relevant features.",
+      "Setting success criteria and thresholds enables evaluation of model performance and determining when to stop training.",
+      "The document highlights the importance of a solid business case as a foundation for effective machine learning problem formulation."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "7 Steps Machine Learning Problem Formulation"
+    "content_preview": "Learn a structured approach to formulating machine learning problems with 7 steps."
   },
   {
     "id": "05e6d66ff7508555123136d0849c658b",
