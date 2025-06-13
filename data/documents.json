@@ -3415,25 +3415,25 @@
     "title": "OWASP Top 10 for LLMs - GenAI Red Teaming Guide",
     "authors": [],
     "filepath": "documents/Agentic_AI_Threats_1743591360.pdf",
-    "upload_date": "2025-06-12T20:29:11.466241",
+    "upload_date": "2025-06-13T16:06:39.349853",
     "file_size": 2206672,
-    "summary": "This document, released in February 2025, provides a comprehensive guide on the OWASP Top 10 threats to Language Learning Models (LLMs) and Generative AI. It outlines the Agentic Security Initiative for Agentic AI, detailing various threats, mitigation strategies, and offers a reference architecture. The document is licensed under Creative Commons CC BY-SA 4.0, allowing free sharing, adaptation, and remixing with proper attribution.",
+    "summary": "This document, version 1.0 from February 2025, presents the OWASP Top 10 threats for Language Learning Models (LLMs) and Generative AI (GenAI). It outlines the Agentic Security Initiative for Agentic AI, detailing threats, mitigations, and a reference architecture. The document is licensed under Creative Commons CC BY-SA 4.0, allowing sharing, adaptation, and remixing with attribution and share-alike conditions.",
     "keywords": [
       "OWASP",
       "Top 10",
       "LLMs",
-      "Generative AI",
-      "Agentic Security Initiative"
+      "GenAI",
+      "Red Teaming Guide"
     ],
     "key_concepts": [
-      "The document focuses on the OWASP Top 10 threats specific to Language Learning Models (LLMs) and Generative AI.",
-      "It introduces the Agentic Security Initiative for Agentic AI, which aims to address security concerns in this emerging field.",
-      "The guide provides a reference architecture for Agentic AI, outlining key components and their interactions.",
-      "The document is licensed under Creative Commons CC BY-SA 4.0, allowing free sharing, adaptation, and remixing with proper attribution."
+      "The document outlines the OWASP Top 10 threats for Language Learning Models (LLMs) and Generative AI (GenAI).",
+      "It introduces the Agentic Security Initiative for Agentic AI, detailing its reference architecture.",
+      "The document provides guidelines on how to perform red teaming activities for Agentic AI systems.",
+      "The work is licensed under Creative Commons CC BY-SA 4.0, allowing sharing, adaptation, and remixing with attribution and share-alike conditions."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Version 1.0 February 2025 OWASP Top 10 for LLM Apps & Gen AI Agentic Security Initiative"
+    "content_preview": "This document outlines the OWASP Top 10 threats for LLMs & GenAI, Agentic AI reference architecture, and red teaming guide."
   },
   {
     "id": "4bdbe8df913a44d68be7ec24569a74e4",
