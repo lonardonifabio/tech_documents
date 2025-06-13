@@ -15819,17 +15819,22 @@
       "Arjun Panwar"
     ],
     "filepath": "documents/MongoDB_with_Python_1639905443.pdf",
-    "upload_date": "2025-06-04T21:18:53.878033",
+    "upload_date": "2025-06-12T20:29:19.437333",
     "file_size": 58923,
-    "summary": "This document is a guide on using MongoDB with Python, utilizing OOPs concepts for code reusability and logging each step into a file. It includes a custom logging class and uses the pymongo and pandas libraries.",
+    "summary": "This document provides a comprehensive guide on using MongoDB with Python, emphasizing the use of Object-Oriented Programming (OOPs) concepts for code reusability. The guide includes a custom logging class to log each step into a file. It also covers the import and usage of necessary packages such as pymongo and pandas.",
     "keywords": [
       "MongoDB",
       "Python",
       "OOPs",
       "Logging",
-      "Custom Logging Class"
+      "Custom Class"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "The document demonstrates how to use OOPs concepts in MongoDB with Python for increased code reusability.",
+      "It presents a custom logging class that logs each step of the process into a file using the current time and log type.",
+      "The guide explains the import and usage of essential packages like pymongo and pandas for working with MongoDB in Python."
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
     "content_preview": "OOPs concepts are extensively used to increase reusablity of code"
   },
