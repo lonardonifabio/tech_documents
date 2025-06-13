@@ -10325,24 +10325,25 @@
     "title": "Graph Convolutional Networks",
     "authors": [],
     "filepath": "documents/Graph_Convolutional_Networks__1748375983.pdf",
-    "upload_date": "2025-06-12T20:29:15.995292",
+    "upload_date": "2025-06-13T17:20:44.630899",
     "file_size": 5574863,
-    "summary": "This document discusses the implementation of Graph Convolutional Networks (GCN) using PyTorch. The paper introduces a new model for semi-supervised learning on graph data, which is particularly useful in areas like social networks and bioinformatics. It provides code for loading the Cora dataset, preparing it for use with GCN, and initializing the GCN model. The document also explains how to set up the device (CPU or GPU) for training.",
+    "summary": "This document provides the code for loading a dataset using the Planetoid library, specifically the Cora dataset in graph machine learning. The code also initializes a Graph Neural Network (GNN) model. The work is based on the paper 'Graph Convolutional Networks' published on arXiv.org. This document is useful for Intermediate level Data Science and Machine Learning practitioners interested in Graph Neural Networks.",
     "keywords": [
-      "Graph Convolutional Networks",
-      "PyTorch",
-      "Semi-supervised Learning",
-      "Graph Data"
+      "Graph Neural Networks",
+      "Planetoid",
+      "Cora dataset",
+      "arXiv",
+      "GNN"
     ],
     "key_concepts": [
-      "The paper introduces a new model for semi-supervised learning on graph data using Graph Convolutional Networks.",
-      "It provides code for loading the Cora dataset, preparing it for use with GCN, and initializing the GCN model.",
-      "The document explains how to set up the device (CPU or GPU) for training the GCN model.",
-      "GCN is particularly useful in areas like social networks and bioinformatics."
+      "The code demonstrates how to load the Cora dataset using Planetoid library.",
+      "It initializes a Graph Neural Network (GNN) model for graph machine learning tasks.",
+      "The work is based on the paper 'Graph Convolutional Networks' published on arXiv.org.",
+      "This document serves as an example of using GNN in practice."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "def load_dataset (): ..."
+    "content_preview": "Code for loading Cora dataset and initializing a Graph Neural Network (GNN) model."
   },
   {
     "id": "e4919e56a68a2cbbdd4213ec060b37e7",
