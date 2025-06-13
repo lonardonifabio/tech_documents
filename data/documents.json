@@ -23881,19 +23881,26 @@
     "title": "Navigating the AI Frontier: A Primer on the Evolution and Impact of AI Agents",
     "authors": [],
     "filepath": "documents/World_Economic_Forum_on_AI_Agents_1747577497.pdf",
-    "upload_date": "2025-06-06T15:45:50.910687",
+    "upload_date": "2025-06-12T20:29:23.810360",
     "file_size": 3045530,
-    "summary": "This document provides a comprehensive overview of AI agents, their definition, components, autonomy, and authority. It explains how AI agents interact with their environment and make decisions to achieve specified goals.",
+    "summary": "This document provides a comprehensive overview of AI agents, their definition, components, autonomy, and authority. It explains how AI agents interact with their environment using sensors and effectors, make decisions based on inputs, and modify their surroundings to achieve specified goals. The document also highlights the core components of an AI agent, including user input and environment.",
     "keywords": [
       "AI Agent",
-      "Artificial Intelligence",
       "Autonomy",
-      "Environment Interaction",
-      "Decision Making"
+      "Authority",
+      "Environment",
+      "Core Components"
+    ],
+    "key_concepts": [
+      "An AI agent is an entity that senses percepts using sensors and responds to its environment, operating independently and making decisions without constant human intervention.",
+      "AI agents have the autonomy and authority to take actions to achieve a set of specified goals, thereby modifying their environment.",
+      "The core components of an AI agent include user input and environment, which serve as the areas in which the agent applies its sensors and effectors.",
+      "The document provides a visual representation (Figure 1) highlighting the core components of an AI agent.",
+      "The document discusses the evolution and impact of AI agents on various domains."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "An AI agent can be broadly defined as an entity that senses percepts and responds to its environment."
+    "content_preview": "Definition of an AI agent1 An AI agent responds autonomously to inputs and its reading of its environment to make complex decisions and change the environment."
   },
   {
     "id": "68c994ce98f79eb8276c0b0689aefe58",
