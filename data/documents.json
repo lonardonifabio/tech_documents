@@ -26076,26 +26076,26 @@
     "title": "SQL Cheat Sheet",
     "authors": [],
     "filepath": "documents/sql cheat sheet.pdf",
-    "upload_date": "2025-06-13T17:20:53.500901",
+    "upload_date": "2025-06-13T22:59:51.543955",
     "file_size": 230259,
-    "summary": "This document provides a comprehensive guide to SQL queries, covering various join types (inner, left, full outer, and self), aggregate functions, filtering, sorting, and set operations such as union, intersect, minus, and pattern matching. It serves as a valuable resource for beginners to advanced users in the field of Data Science and Analytics.",
+    "summary": "This document provides a comprehensive guide to SQL queries, covering various join types (inner, left, full outer, and self), aggregate functions, filtering, sorting, combining results, and pattern matching. It also includes examples for querying data from columns, tables, and using the WHERE clause with conditions, IN operator, and LIKE pattern.",
     "keywords": [
       "SQL",
-      "Join",
-      "Aggregate Function",
-      "Filter",
-      "Sort"
+      "queries",
+      "join",
+      "aggregate function",
+      "filter"
     ],
     "key_concepts": [
-      "Perform inner, left, full outer, and self joins to combine rows from two or more tables based on a specified condition.",
-      "Use aggregate functions like COUNT(), SUM(), AVG(), MIN(), MAX() to perform calculations on groups of rows in a table.",
-      "Filter the result set using WHERE clause with conditions such as equality, inequality, pattern matching, and IN operator.",
-      "Sort the result set in ascending or descending order using ORDER BY clause.",
-      "Combine rows from two or more queries using UNION, INTERSECT, and MINUS operators."
+      "Perform inner join between two tables using the INNER JOIN clause and specify a condition for matching rows.",
+      "Use the LEFT JOIN clause to join one table to another, returning all rows from the left table and matching rows from the right table if any.",
+      "Perform full outer join using the FULL OUTER JOIN clause to return all matching and non-matching rows from both tables.",
+      "Produce a Cartesian product of rows in tables using the CROSS JOIN clause.",
+      "Join a table to itself using the INNER JOIN or LEFT JOIN clause with an alias for each instance of the table."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn SQL queries for joining tables, filtering data, sorting results, and performing set operations."
+    "content_preview": "Document: SQL Cheat Sheet"
   },
   {
     "id": "3c59cf02594f4575b7d25542d47e9b13",
