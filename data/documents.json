@@ -13218,26 +13218,26 @@
     "title": "Top 10 Study Plan Inside Machine Learning Algorithms",
     "authors": [],
     "filepath": "documents/ML_1714377577.pdf",
-    "upload_date": "2025-06-12T20:29:17.761312",
+    "upload_date": "2025-06-13T17:20:46.453893",
     "file_size": 3447325,
-    "summary": "This document provides a comprehensive study plan for understanding and implementing ten popular machine learning algorithms, including Linear Regression and Logistic Regression. The plan covers the theory behind these algorithms, their implementation in Python, practice questions, and evaluation of performance.",
+    "summary": "This document provides a comprehensive study plan for understanding and implementing popular machine learning algorithms such as Linear Regression and Logistic Regression. The plan includes learning objectives, practice questions, and theoretical background. It is suitable for Intermediate learners in the field of Data Science.",
     "keywords": [
       "Machine Learning",
-      "Algorithms",
       "Linear Regression",
       "Logistic Regression",
-      "Python"
+      "Python",
+      "Binary Classification"
     ],
     "key_concepts": [
       "Linear Regression is a fundamental algorithm in machine learning used for predicting continuous variables.",
       "Understand the theory behind Linear Regression and implement it in Python.",
-      "Practice questions are provided to test understanding and application of Linear Regression.",
       "Logistic Regression is used for binary classification problems such as spam detection or predicting whether a customer will make a purchase.",
-      "Learn the concept of Logistic Regression and implement it on a binary classification problem."
+      "Grasp the concept of Logistic Regression and its difference from Linear Regression.",
+      "Practice implementing Logistic Regression on a binary classification problem."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "T op 10 Study Plan Inside Machine Learning Algorit hms"
+    "content_preview": "Learn and implement Linear Regression for predicting continuous variables and Logistic Regression for binary classification problems."
   },
   {
     "id": "e04efc5e514059b0be3d149d12897662",
