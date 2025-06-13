@@ -5949,14 +5949,14 @@
     "title": "Convolutional Neural Networks Explained",
     "authors": [],
     "filepath": "documents/Convolutional_Neural_Networks_Explained_1630508291.pdf",
-    "upload_date": "2025-06-12T20:29:12.867257",
+    "upload_date": "2025-06-13T16:06:40.751858",
     "file_size": 541889,
-    "summary": "This document provides an introduction to Convolutional Neural Networks (CNNs), explaining their purpose, architecture, and significance in enabling computers to 'see'. The document covers the basic structure of a CNN, which consists of three layers: convolutional, pooling, and fully connected. It is suitable for Intermediate level readers interested in Machine Learning or Data Science.",
+    "summary": "This document provides an introduction to Convolutional Neural Networks (CNNs), explaining their purpose, architecture, and significance in enabling computers to 'see'. The document covers the basic structure of a CNN, which consists of three layers: convolutional, pooling, and fully connected. It is suitable for Intermediate level readers interested in AI, Machine Learning, or Data Science.",
     "keywords": [
       "Convolutional Neural Networks",
       "CNN",
       "Neural Networks",
-      "Image Processing"
+      "Computer Vision"
     ],
     "key_concepts": [
       "Convolutional Neural Networks are a class of neural networks that specialize in processing data with a grid-like topology, such as images.",
@@ -5964,9 +5964,9 @@
       "A CNN consists of three main layers: convolutional, pooling, and fully connected.",
       "By using a CNN, one can enable sight to computers."
     ],
-    "category": "Machine Learning",
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Convolutional Neural Networks explained... #LearnWithDDS @datadrivenscience"
+    "content_preview": "Learn about Convolutional Neural Networks (CNNs) and their role in enabling computers to 'see'."
   },
   {
     "id": "832463d0096d63a77a941f9210761b47",
