@@ -1141,9 +1141,9 @@
       "NIKHIL YADAV"
     ],
     "filepath": "documents/AI_Deep_Learning_e_Machine_Learning_�_1685989836.pdf",
-    "upload_date": "2025-06-12T20:29:10.175225",
+    "upload_date": "2025-06-13T17:20:38.822891",
     "file_size": 7822644,
-    "summary": "This document provides definitions, axioms, and corollaries of probability theory, which forms the foundation for machine learning, deep learning, and artificial intelligence. It covers key concepts such as sample space, event, probability axioms, conditioning, and Bayes' rule. The document also includes examples like the discrete uniform law.",
+    "summary": "This document provides definitions, axioms, and corollaries of probability theory, which forms the foundation for machine learning, deep learning, and artificial intelligence. It covers key concepts such as sample space, events, probability axioms, conditioning, and Bayes' rule. The document also includes examples like the discrete uniform law.",
     "keywords": [
       "Probability",
       "Machine Learning",
@@ -1154,13 +1154,13 @@
     "key_concepts": [
       "A sample space is the set of all possible outcomes, where its elements must be mutually exclusive, collectively exhaustive and at the right granularity.",
       "An event is a subset of the sample space. Probability is assigned to events.",
-      "Probability models and axioms define how probabilities are assigned to events and satisfy certain rules.",
-      "The discrete uniform law assumes a finite set with equally likely elements, and provides an example for calculating probability of a specific event.",
-      "Conditioning and Bayes' rule help in understanding the relationship between events and their probabilities given some conditions."
+      "Probability models and axioms are defined, which satisfy the nonnegativity, normalization, countable additivity axioms, and their corollaries.",
+      "The discrete uniform law is an example where a finite set with equally likely elements is assumed, and the probability of an event A is calculated as k/n, where k is the number of elements in A and n is the total number of elements in the set.",
+      "Conditioning and Bayes' rule are defined, which help to calculate probabilities given that certain events have occurred."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "BY STANFORD UNIVERSITY AND MASSACHUSETTS INSTITUTE OF TECHNOLOGY All Cheat Sheets Machine Learning, Deep Learning, Artificial Intelligence COMPILED BY - NIKHIL YADAV Probability{the Science of Uncertainty and Data by Fabi\u0013 an Kozynski"
+    "content_preview": "This document provides definitions, axioms, and corollaries of probability theory in machine learning, deep learning, and artificial intelligence."
   },
   {
     "id": "2a0b5b78eff0a4559fc7faffb6b83179",
