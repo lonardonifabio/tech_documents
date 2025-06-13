@@ -25889,14 +25889,11 @@
     "id": "6822f6a7ca9ea085faa87bd396e8e89e",
     "filename": "securing-ai.pdf",
     "title": "Securing AI for Enterprise Resilience",
-    "authors": [
-      "Author1",
-      "Author2"
-    ],
+    "authors": [],
     "filepath": "documents/securing-ai.pdf",
-    "upload_date": "2025-06-13T16:06:52.828888",
+    "upload_date": "2025-06-13T17:20:53.474901",
     "file_size": 2015004,
-    "summary": "This document discusses key risks, threats, and countermeasures related to AI security for enterprise resilience. It covers unique aspects of AI security, responsibilities within the enterprise, strategies for AI security, types of AI security threats, and getting started with an AI security strategy. The document emphasizes that everyone has a role in AI security and provides resources for advancing AI security. It concludes with information about the authors.",
+    "summary": "This document discusses key risks, threats, and countermeasures related to AI security for enterprise resilience. It covers unique aspects of AI security, responsibilities within the enterprise, strategies for AI security, types of AI security threats, and getting started with an AI security strategy. Everyone has a role to play in AI security, and the document provides resources for advancing AI security. The authors are not specified.",
     "keywords": [
       "AI Security",
       "Enterprise Resilience",
@@ -25906,8 +25903,8 @@
     ],
     "key_concepts": [
       "The unique nature of AI security and its critical importance in today's rapidly innovating world.",
-      "Identifying the responsible parties for AI security within an enterprise.",
-      "Understanding how AI security engineers reinforce the overall security foundation.",
+      "Identifying who is responsible for AI security within the enterprise.",
+      "Understanding how AI security engineers reinforce the security foundation.",
       "Exploring various types of AI security threats that enterprises may face.",
       "Providing a starting point for developing an effective AI security strategy."
     ],
