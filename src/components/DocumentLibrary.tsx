@@ -260,7 +260,7 @@ const DocumentLibrary: React.FC<DocumentLibraryProps> = ({
         <header className="text-center mb-12 relative">
           <div className="flex items-center justify-center mb-4">
             <img 
-              src="/src/io_ds.png" 
+              src="https://www.fabiolonardoni.it/io_ds.png" 
               alt="Profile" 
               className="w-16 h-16 rounded-full mr-4 border-2 border-gray-300"
             />
