@@ -7940,9 +7940,9 @@
     "title": "Django for Beginners",
     "authors": [],
     "filepath": "documents/Django_for_begginers_1619727306.pdf",
-    "upload_date": "2025-06-12T20:29:14.864280",
+    "upload_date": "2025-06-13T17:20:43.501897",
     "file_size": 1596185,
-    "summary": "This document provides a comprehensive guide for beginners on Django, a popular Python web framework. It covers topics such as getting started with Django, administration, ArrayField (a PostgreSQL-specific field), Async Tasks (Celery), Authentication Backends, and Class Based Views. The guide includes examples, project structure, deployment with Docker support, and practical applications like email authentication backend.",
+    "summary": "This document provides a comprehensive guide for beginners on Django, a popular Python web framework. It covers topics such as getting started with Django, administration, ArrayField (a PostgreSQL-specific field), Async Tasks (Celery), Authentication Backends, and Class Based Views. The guide includes examples, project structure, deployment with Docker support, and practical applications.",
     "keywords": [
       "Django",
       "Python",
@@ -7950,15 +7950,15 @@
       "Beginner's Guide"
     ],
     "key_concepts": [
-      "Learn how to get started with Django, including versions, examples, and project setup",
-      "Understand Django concepts such as Administration, ArrayField, Async Tasks (Celery), Authentication Backends, and Class Based Views",
-      "Explore practical applications like email authentication backend and using Docker for deployment",
-      "Gain insights into the theoretical framework and principles of Django",
-      "Apply learned concepts to real-world use cases"
+      "Learn to set up a Django project from scratch",
+      "Understand the structure of a Django project and its components",
+      "Explore the use of ArrayField, Async Tasks (Celery), Authentication Backends, and Class Based Views in Django",
+      "Learn how to deploy a Django project with Docker support",
+      "Gain practical experience by working through examples provided"
     ],
     "category": "Technology",
     "difficulty": "Beginner",
-    "content_preview": "Django #django Table of Contents About 1 Chapter 1: Getting started with Django 2"
+    "content_preview": "Learn Django from scratch with this beginner's guide."
   },
   {
     "id": "a3d07522296c86154f9955aefc44d9a8",
