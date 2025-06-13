@@ -258,9 +258,17 @@ const DocumentLibrary: React.FC<DocumentLibraryProps> = ({
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-8">
         <header className="text-center mb-12 relative">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">
-            🤖 AI & Data Science Library
-          </h1>
+          <div className="flex items-center justify-center mb-4">
+            <img 
+              src="/src/io_ds.png" 
+              alt="Profile" 
+              className="w-16 h-16 rounded-full mr-4 border-2 border-gray-300"
+            />
+            <h1 className="text-4xl font-bold text-gray-800">
+              AI & Data Science Library
+            </h1>
+            <div className="text-4xl ml-4">🤖</div>
+          </div>
           <p className="text-xl text-gray-600 mb-2">
             Automated collection of Artificial Intelligence and Data Science documents
           </p>
