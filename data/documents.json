@@ -18403,26 +18403,26 @@
       "Bryan Van de Ven"
     ],
     "filepath": "documents/Python Data Visualization Bokeh Cheat Sheet.pdf",
-    "upload_date": "2025-06-12T20:29:20.654337",
+    "upload_date": "2025-06-13T17:20:49.367894",
     "file_size": 1363598,
-    "summary": "This document provides a comprehensive guide to using the Python data visualization library Bokeh. It covers topics such as plotting, rendering large datasets in modern web browsers, and key components like data and glyphs. The basic steps to create plots with Bokeh include preparing data, creating a new plot, adding renderers for your data with customizations, specifying where to generate the output, and showing or saving the results.",
+    "summary": "This document provides a comprehensive guide to using the Python data visualization library Bokeh for interactive and high-performance web-based plotting. The cheat sheet covers the main components of Bokeh, including 1D plotting, rendering enders & visual customizations, and the basic steps to create plots with bokeh.plotting interface. Under the hood, your data is converted to Column Data Source. The guide also includes manual methods for handling 'x', 'y' and other values.",
     "keywords": [
       "Python",
       "Data Visualization",
       "Bokeh",
-      "Plotting",
-      "Web Browsers"
+      "Cheat Sheet",
+      "Interactive Plotting"
     ],
     "key_concepts": [
-      "Bokeh is a high-performance interactive visualization library for Python.",
-      "The main components of Bokeh plotting are data and glyphs.",
-      "The basic steps to create plots with Bokeh are preparing data, creating a new plot, adding renderers, specifying output location, and showing or saving the results.",
-      "Your data is converted to Column Data Source in Bokeh.",
-      "You can manually convert 'x', 'y', 'Temp.', and 'lines.html' using Bokeh functions."
+      "Bokeh is a high-performance Python data visualization library that provides interactive web-based plotting.",
+      "The bokeh.plotting interface is centered around two main components: data and glyphs.",
+      "The basic steps to create plots with the bokeh.plotting interface are preparing some data, creating a new plot, adding renderers for your data with visual customizations, specifying where to generate the output, and showing or saving the results.",
+      "Your data is converted to Column Data Source under the hood in Bokeh.",
+      "You can also handle 'x', 'y' and other values manually in Bokeh."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Bo k e h Cheat Shee tPyth o n F o r D at a Sci e n ce"
+    "content_preview": "This document provides a guide to using the Python data visualization library Bokeh for interactive and high-performance web-based plotting."
   },
   {
     "id": "e19c188c3a45d2520c634c37354f3538",
