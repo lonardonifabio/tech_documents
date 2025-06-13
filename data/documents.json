@@ -26009,26 +26009,26 @@
     "title": "Advanced NLP with spaCy in Python",
     "authors": [],
     "filepath": "documents/spaCy_Advanced_NLP_in_Python_1627300147.pdf",
-    "upload_date": "2025-06-12T20:29:24.767372",
+    "upload_date": "2025-06-13T17:20:53.492901",
     "file_size": 2519193,
-    "summary": "This document provides a comprehensive guide on using the spaCy library for Natural Language Processing (NLP) tasks in Python. It covers topics such as installing and validating the model, loading the model, working with Doc and Span objects, understanding part-of-speech tags, and utilizing word vectors. The document also introduces coarse-grained and fine-grained part-of-speech tagging.",
+    "summary": "This document provides a comprehensive guide on using the spaCy library for Natural Language Processing (NLP) tasks in Python. It covers topics such as installing and validating the model, loading the model, working with Doc and Span objects, understanding part-of-speech tags, and utilizing word vectors. The document also explains how to use displacy for visualization and suggests installing large models for better performance.",
     "keywords": [
       "spaCy",
       "NLP",
       "Python",
-      "Part-of-Speech Tagging",
-      "Word Vectors"
+      "Data Science",
+      "Text Analysis"
     ],
     "key_concepts": [
-      "Learn spaCy online at www.DataCamp.com",
-      "To use the model, first download it using the command 'python -m spacy download en_core_web_sm'",
-      "The Doc object is used to analyze a text and the Span object is used to extract specific parts of the text with labels such as GPE (geopolitical)",
-      "Displacy is a tool for visualizing the output of the NLP analysis",
-      "Coarse-grained part-of-speech tags provide a high-level categorization of words, while fine-grained tags offer more detailed information"
+      "Explains how to install, validate, load the spaCy model in Python",
+      "Demonstrates working with Doc and Span objects in spaCy",
+      "Provides examples of part-of-speech tags and their uses",
+      "Introduces word vectors and their importance in NLP tasks",
+      "Suggests using displacy for visualization in NLP tasks"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Learn spaCy online at www.DataCamp.com"
+    "content_preview": "This document provides a guide on using spaCy for advanced NLP tasks in Python."
   },
   {
     "id": "1ce8bc1b4f115b62b11454473a366d74",
