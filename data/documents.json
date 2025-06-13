@@ -18635,25 +18635,31 @@
   {
     "id": "4e3e4b474d44d33a386095a3d6eb4d5a",
     "filename": "Python_Pandas_Cheat_Sheet_1638652093.pdf",
-    "title": "Python_Pandas_Cheat_Sheet_1638652093.pdf",
+    "title": "Python Pandas Cheat Sheet",
     "authors": [
-      "arianne Colton",
+      "Arianne Colton",
       "Sean Chen"
     ],
     "filepath": "documents/Python_Pandas_Cheat_Sheet_1638652093.pdf",
-    "upload_date": "2025-06-05T20:14:26.108780",
+    "upload_date": "2025-06-12T20:29:20.784337",
     "file_size": 611052,
-    "summary": "This document provides a cheat sheet for Data Analysis using PANDAS, including creation, manipulation, and operations on Series (1D) and DataFrame (2D) structures.",
+    "summary": "This document provides a comprehensive guide to using the Python library Pandas for data analysis, focusing on Series (1D) and DataFrame (2D) structures. It covers creating, manipulating, and accessing these data structures, as well as common operations such as merging, aligning, and indexing. The cheat sheet was created by Arianne Colton and Sean Chen.",
     "keywords": [
+      "Python",
       "Pandas",
       "Data Analysis",
       "Series",
-      "DataFrame",
-      "Python"
+      "DataFrame"
+    ],
+    "key_concepts": [
+      "A Series is a one-dimensional array-like object containing data of any NumPy data type with an associated index.",
+      "A DataFrame is a tabular data structure with ordered collections of columns, each of which can be different value types and can be thought of as a dict of Series.",
+      "Creating a Series or DataFrame from various inputs such as lists, arrays, or dictionaries.",
+      "Manipulating and accessing values in a Series or DataFrame using methods like .values, .index, .name, .unique(), and .loc[]."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Create Series series1 = pd.Series ([1, 2], index = ['a', 'b'])"
+    "content_preview": "Data Analysis with PANDAS CHEAT SHEET"
   },
   {
     "id": "4f7dfccdbf6d9b100d497a6580c2a137",
