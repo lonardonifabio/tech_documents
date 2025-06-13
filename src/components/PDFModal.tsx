@@ -76,18 +76,18 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
     // Use the GitHub Pages URL for the application
     const githubPagesUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.id}`;
 
-    let post = `I share this document ${title} with my LinkedIn network.\n`;
-    post += `${summary}.\n`;
+    let post = `🤖I share this document 📄 ${title} with my LinkedIn network.\n`;
+    post += `📝 ${summary}.\n`;
     post += `\n`;
     if (keyConcepts.length > 0) {
-      post += `Please find below the key concepts from the document:\n`;
+      post += `💡Please find below the key concepts from the document:\n`;
       keyConcepts.forEach(concept => {
         post += `• ${concept}\n`;
       });
     }
     
     post += `\n`;
-    post += `Would you like to explore and read documentation about AI? Go to https://lonardonifabio.github.io/tech_documents/ you will find more than 1100 documents on AI & Data Science.`;
+    post += `📊 Would you like to explore and read documentation about AI? Go to https://lonardonifabio.github.io/tech_documents/ you will find more than 1100 documents on AI & Data Science.`;
     post += `\n`;
     keywords.forEach(keyword => {
       post += `#${keyword.replace(/\s+/g, '')} `;
