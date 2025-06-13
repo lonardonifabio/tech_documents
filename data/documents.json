@@ -2648,26 +2648,26 @@
     "title": "Overcoming Limitations in AI Project Development",
     "authors": [],
     "filepath": "documents/AI_project_1604680572.pdf",
-    "upload_date": "2025-06-13T16:06:38.962852",
+    "upload_date": "2025-06-13T17:20:39.726892",
     "file_size": 2495096,
-    "summary": "This document discusses the challenges and limitations in AI technology, focusing on bias as a significant issue. It provides insights into how bias can seep into algorithms during various stages of development, from problem framing to data collection and preparation. The document offers strategies for mitigating these biases to build more equitable and effective AI applications.",
+    "summary": "This document discusses the challenges and limitations in AI technology, focusing on bias as a significant issue. It provides insights into how bias can occur during problem framing, data collection, and preparation stages. The document offers strategies to mitigate these biases for building effective and unbiased AI applications.",
     "keywords": [
       "AI",
       "Machine Learning",
       "Bias",
-      "Algorithms",
-      "Data"
+      "Data Collection",
+      "Algorithm"
     ],
     "key_concepts": [
       "Building perfect AI applications requires overcoming existing limitations in the technology.",
-      "Bias can be introduced into AI systems during various stages of development, such as problem framing, data collection, and preparation.",
-      "AI bias can stem from biased human decisions or historical/social inequities, even when sensitive variables are removed.",
-      "Strategies for mitigating AI bias include careful data selection, diverse teams, and regular auditing of algorithms.",
-      "Understanding and addressing AI bias is crucial for building more equitable and effective AI applications."
+      "Bias can creep into algorithms during various stages, including problem framing, data collection, and preparation.",
+      "AI systems learn from biased human decisions or reflect historical or social inequities even when sensitive variables are removed.",
+      "Strategies to mitigate AI bias include careful problem formulation, diverse training data, and regular auditing of AI models.",
+      "Theoretical frameworks for understanding and addressing AI bias involve fairness, accountability, transparency, and ethics."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Learn how to overcome limitations in AI project development, focusing on the issue of bias."
+    "content_preview": "Learn strategies to overcome limitations in AI applications, focusing on bias mitigation."
   },
   {
     "id": "682444cb1656f22ef56c145e43ef47e8",
