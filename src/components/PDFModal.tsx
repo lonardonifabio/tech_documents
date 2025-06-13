@@ -82,14 +82,14 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
 
     let post = `🚀 Sharing an insightful document with my LinkedIn network!\n\n`;
     post += `📄 **${title}**\n`;
-    post += `📖 **Read this document with AI support:** ${githubPagesUrl}\n\n`;
+    post += `📖 **Read this document with AI🤖 support:** ${githubPagesUrl}\n\n`;
     // Add content preview if available
     if (contentPreview) {
       post += `🔍 **Content Preview:**\n${contentPreview}\n\n`;
     }
     post += `\n`;
-    post += `🌐 **Explore 1100+ AI & Data Science Documents:**\n`;
-    post += `Visit: https://lonardonifabio.github.io/tech_documents/\n\n`;
+    post += `📊 **Explore 1100+ AI & Data Science Documents:**\n`;
+    post += `🌐 Visit: https://lonardonifabio.github.io/tech_documents/\n\n`;
     post += `\n`;
     // Add hashtags
     post += `Tags: `;
