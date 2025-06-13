@@ -26047,9 +26047,9 @@
     "title": "SQL Cheat Sheet",
     "authors": [],
     "filepath": "documents/sql cheat sheet.pdf",
-    "upload_date": "2025-06-12T20:29:24.775373",
+    "upload_date": "2025-06-13T16:06:52.855889",
     "file_size": 230259,
-    "summary": "This document provides a comprehensive guide to SQL queries, covering various join types (inner, left, full outer, and self), aggregate functions, filtering, sorting, combining, and pattern matching. It also includes examples for querying data from tables and using the WHERE clause for conditions.",
+    "summary": "This document provides a comprehensive guide to SQL queries, covering various join types (inner, left, full outer, and self), aggregate functions, filtering, sorting, combining results, and pattern matching. It also includes examples for querying data from columns, tables, and using the WHERE clause with conditions, IN operator, and LIKE pattern.",
     "keywords": [
       "SQL",
       "queries",
@@ -26058,15 +26058,15 @@
       "filter"
     ],
     "key_concepts": [
-      "Perform inner, left, full outer, and self joins between tables in SQL",
-      "Use aggregate functions to group rows and perform calculations on them",
-      "Filter rows using the WHERE clause with conditions or pattern matching",
-      "Sort the result set in ascending or descending order",
-      "Combine or subtract result sets from multiple queries"
+      "Perform inner join between two tables using the INNER JOIN clause",
+      "Use the LEFT JOIN clause to join a table to another table, returning all rows from the left table and matching rows from the right table",
+      "Execute full outer join with the FULL OUTER JOIN clause to return all matching and non-matching rows from both tables",
+      "Produce a Cartesian product of rows in tables using the CROSS JOIN clause",
+      "Join a table to itself using the INNER JOIN or RIGHT JOIN clauses"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "SELECT c1, c2 FROM t; Query data in columns c1 , c2 from a table"
+    "content_preview": "This document provides SQL query examples and explanations."
   },
   {
     "id": "3c59cf02594f4575b7d25542d47e9b13",
