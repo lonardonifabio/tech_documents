@@ -19326,22 +19326,29 @@
     "filename": "R_Programming_Quick_Reference_Sheet_1567265320.pdf",
     "title": "R Programming Quick Reference Sheet",
     "authors": [
-      "Arianne Colton",
+      "arianne Colton",
       "Sean Chen"
     ],
     "filepath": "documents/R_Programming_Quick_Reference_Sheet_1567265320.pdf",
-    "upload_date": "2025-06-04T21:18:54.821038",
+    "upload_date": "2025-06-12T20:29:21.180336",
     "file_size": 607662,
-    "summary": "This document provides a quick reference sheet for basic R programming, including data structure manipulation, string handling, and functions. It also covers topics like data types, special characters, and environment management.",
+    "summary": "This document provides a quick reference sheet for basic R programming, focusing on data structures, string manipulation, and various functions. It includes topics such as creating strings, splitting and substring extraction, matching patterns, data types, and special characters. The document also covers help resources, object management, and package-specific function calls.",
     "keywords": [
       "R Programming",
-      "Data Structure",
+      "Data Structures",
       "String Manipulation",
-      "Cheat Sheet"
+      "Functions"
+    ],
+    "key_concepts": [
+      "Strings can be concatenated using the paste() function with a separator specified.",
+      "The str_split(), str_sub(), and str_detect() functions from the stringr package are useful for splitting, substring extraction, and pattern matching respectively.",
+      "R version 3.0 and greater supports 64 bit integers and is case sensitive.",
+      "The help system in R provides various ways to access documentation and examples.",
+      "Objects in the current environment can be displayed, removed, or accessed using functions like ls(), rm(), and .name."
     ],
     "category": "Data Science",
     "difficulty": "Beginner",
-    "content_preview": "General Data StructureS, ManipulatinG  StrinGSR Programming Cheat Sheet"
+    "content_preview": "General Data StructureS ManipulatinG  StrinG"
   },
   {
     "id": "caf22e028d76cf9cb2a3985480b63a03",
