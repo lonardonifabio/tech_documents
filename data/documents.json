@@ -18877,9 +18877,9 @@
       "Sean Chen"
     ],
     "filepath": "documents/Python_Pandas_Cheat_Sheet_1638652093.pdf",
-    "upload_date": "2025-06-12T20:29:20.784337",
+    "upload_date": "2025-06-13T17:20:49.498894",
     "file_size": 611052,
-    "summary": "This document provides a comprehensive guide to using the Python library Pandas for data analysis, focusing on Series (1D) and DataFrame (2D) structures. It covers creating, manipulating, and accessing these data structures, as well as common operations such as merging, aligning, and indexing. The cheat sheet was created by Arianne Colton and Sean Chen.",
+    "summary": "This document provides a comprehensive guide on using the Python library Pandas for data analysis. It covers one-dimensional arrays (Series) and two-dimensional tables (DataFrame), explaining their creation, manipulation, and common operations such as getting values, indexing, auto-alignment, and merging. The authors are Arianne Colton and Sean Chen.",
     "keywords": [
       "Python",
       "Pandas",
@@ -18888,14 +18888,15 @@
       "DataFrame"
     ],
     "key_concepts": [
-      "A Series is a one-dimensional array-like object containing data of any NumPy data type with an associated index.",
-      "A DataFrame is a tabular data structure with ordered collections of columns, each of which can be different value types and can be thought of as a dict of Series.",
-      "Creating a Series or DataFrame from various inputs such as lists, arrays, or dictionaries.",
-      "Manipulating and accessing values in a Series or DataFrame using methods like .values, .index, .name, .unique(), and .loc[]."
+      "A Series is a one-dimensional array-like object containing data with an associated index.",
+      "A DataFrame is a two-dimensional table structure that can hold different value types for each column.",
+      "Creating a Series or DataFrame from a dictionary of equal-length lists or NumPy arrays.",
+      "Manipulating and getting values, indexing, and auto-alignment in Series and DataFrame.",
+      "Merging Series and DataFrames using common index values."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Data Analysis with PANDAS CHEAT SHEET"
+    "content_preview": "Learn to use the Python library Pandas for data analysis with this comprehensive cheat sheet."
   },
   {
     "id": "4f7dfccdbf6d9b100d497a6580c2a137",
