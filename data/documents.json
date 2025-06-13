@@ -3235,11 +3235,18 @@
     "id": "2c5334041419e90fa983e2b098a44614",
     "filename": "Adversarial_Machine_Learning_1743431306.pdf",
     "title": "Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations",
-    "authors": [],
+    "authors": [
+      "Alina Oprea",
+      "Apostol Vassilev",
+      "Maia Hamin",
+      "Alie Fordyce",
+      "Hyrum Anderson",
+      "Xander Davies"
+    ],
     "filepath": "documents/Adversarial_Machine_Learning_1743431306.pdf",
-    "upload_date": "2025-06-12T20:29:11.418241",
+    "upload_date": "2025-06-13T17:20:40.064893",
     "file_size": 4184989,
-    "summary": "This document, published by NIST in March 2025, presents a comprehensive taxonomy and terminology for Adversarial Machine Learning (AML) attacks and their mitigation strategies. The publication is authored by Alina Oprea, Apostol Vassilev, Maia Hamin, Alie Fordyce, Hyrum Anderson, and Xander Davies from various institutions including Northeastern University, U.S. AI Safety Institute, National Institute of Standards and Robust Intelligence (now part of Cisco), and the U.K. AI Security Institute. The document is free to access at https://doi.org/10.6028/NIST.AI.100-2e2025. It provides a valuable resource for understanding AML, its potential threats, and strategies to mitigate these threats.",
+    "summary": "This document, published by NIST in March 2025, presents a comprehensive taxonomy and terminology for Adversarial Machine Learning (AML) attacks and their mitigation strategies. The publication is authored by Alina Oprea, Apostol Vassilev, Maia Hamin, Alie Fordyce, Hyrum Anderson, and Xander Davies from various institutions including Northeastern University, U.S. AI Safety Institute, National Institute of Standards and Robust Intelligence (now part of Cisco), and the U.K. AI Security Institute. The document is available for free at https://doi.org/10.6028/NIST.AI.100-2e2025.",
     "keywords": [
       "Adversarial Machine Learning",
       "Attacks",
@@ -3248,15 +3255,15 @@
       "Terminology"
     ],
     "key_concepts": [
-      "The document presents a taxonomy and terminology for Adversarial Machine Learning (AML) attacks, providing a structured understanding of the various types of AML attacks.",
-      "The publication discusses strategies to mitigate Adversarial Machine Learning (AML) attacks, offering practical solutions for enhancing the security of machine learning systems.",
-      "The document provides a comprehensive overview of the current state of research on Adversarial Machine Learning (AML), highlighting key findings and future directions.",
-      "The work is based on the principles of trustworthy and responsible AI as outlined by NIST, emphasizing the importance of security in AI systems.",
-      "The document serves as a valuable resource for researchers, practitioners, and policymakers interested in understanding Adversarial Machine Learning (AML) and its implications."
+      "The document provides a detailed taxonomy and terminology for Adversarial Machine Learning (AML) attacks, categorizing them based on their nature, objectives, and impact.",
+      "The publication offers strategies for mitigating AML attacks, emphasizing the importance of robustness in machine learning models to prevent malicious manipulation.",
+      "The document discusses various case studies demonstrating real-world examples of AML attacks and their consequences.",
+      "The authors propose guidelines for developing trustworthy and responsible AI systems that can withstand adversarial attacks.",
+      "The theoretical framework presented in the document is based on the principles of cybersecurity, machine learning, and artificial intelligence."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations"
+    "content_preview": "This document provides a taxonomy and terminology for Adversarial Machine Learning attacks and their mitigations."
   },
   {
     "id": "449e9a419f84b3920f89ac18771b4c3a",
