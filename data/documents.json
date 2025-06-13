@@ -9594,9 +9594,9 @@
     "title": "OWASP Top 10 for LLMs - LLM and Gen AI Data Security Best Practices Guide 1.0",
     "authors": [],
     "filepath": "documents/GenAI_Data_Security_1743591705.pdf",
-    "upload_date": "2025-06-12T20:29:15.568288",
+    "upload_date": "2025-06-13T17:20:44.205899",
     "file_size": 2213736,
-    "summary": "This document provides general information about data security best practices for Legal Language Models (LLMs) and Generative Artificial Intelligence (Gen AI). It does not constitute legal advice, and links to third-party websites are only for convenience. The document is licensed under Creative Commons CC BY-SA 4.0, allowing free sharing, adaptation, and building upon the material with appropriate credit and attribution guidelines.",
+    "summary": "This document provides general information about data security best practices for Legal Language Models (LLMs) and Generative Artificial Intelligence (Gen AI). It is not legal advice, but a guide to help users understand the importance of data security in these areas. The document is licensed under Creative Commons CC BY-SA 4.0, allowing free sharing, adaptation, and building upon the material with proper attribution.",
     "keywords": [
       "Data Security",
       "AI",
@@ -9606,13 +9606,13 @@
     ],
     "key_concepts": [
       "The document outlines best practices for ensuring data security when using Legal Language Models (LLMs) and Generative Artificial Intelligence (Gen AI).",
-      "The document is licensed under Creative Commons CC BY-SA 4.0, allowing free sharing and adaptation as long as appropriate credit and attribution guidelines are followed.",
-      "The document does not provide legal advice; it is for general informational purposes only.",
-      "Links to third-party websites in the document do not imply endorsement of their contents by OWASP."
+      "Users are encouraged to follow these guidelines to protect their data from potential threats.",
+      "The document emphasizes the importance of proper attribution when sharing or building upon the material.",
+      "The Creative Commons CC BY-SA 4.0 license allows for free use and adaptation, as long as appropriate credit is given."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "The information provided in this document does not, and is not intended to, constitute legal advice. All information is for general informational purposes only."
+    "content_preview": "This document provides best practices for data security in AI, specifically LLMs and Gen AI."
   },
   {
     "id": "39437670da63e268465908a8c5e21f3b",
