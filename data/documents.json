@@ -18778,9 +18778,9 @@
       "Rebecca Vickery"
     ],
     "filepath": "documents/Python_Libraries_for_Interpretable_Machine_Learning_1569565987.pdf",
-    "upload_date": "2025-06-12T20:29:20.766337",
+    "upload_date": "2025-06-13T17:20:49.480895",
     "file_size": 495246,
-    "summary": "This document discusses four Python libraries - yellowbrick, SHAP, LIME, and DALEX - that aid in the visualization, explanation, and interpretation of machine learning models. The libraries are pip installable, well-documented, and emphasize visual interpretation. They help businesses address concerns about bias in AI by providing insights into model predictions and functioning.",
+    "summary": "This document discusses four Python libraries, namely yellowbrick, SHAP, LIME, and DALEX, which aid in the visualization, explanation, and interpretation of machine learning models. The focus is on addressing concerns about bias in AI, particularly for businesses that need to explain their model's predictions and functioning. All libraries are pip installable, well-documented, and emphasize visual interpretation.",
     "keywords": [
       "Python",
       "Machine Learning",
@@ -18789,15 +18789,15 @@
       "AI"
     ],
     "key_concepts": [
-      "The document discusses the importance of interpretable machine learning models for businesses, especially in addressing concerns about bias.",
-      "It introduces four Python libraries - yellowbrick, SHAP, LIME, and DALEX - that provide visualization, explanation, and interpretation capabilities for machine learning models.",
-      "These libraries are extensions of scikit-learn and have a focus on visual interpretation. They are pip installable and come with good documentation.",
-      "The document provides a brief guide to using these libraries for interpreting and explaining machine learning models.",
-      "The use of interpretable machine learning models can help businesses understand model predictions and functioning, thereby improving decision-making."
+      "The document discusses the importance of interpretable machine learning models in addressing concerns about bias in AI.",
+      "It introduces four Python libraries, yellowbrick, SHAP, LIME, and DALEX, that aid in visualization, explanation, and interpretation of machine learning models.",
+      "These libraries are extensions or alternatives to scikit-learn, providing useful visualizations for model interpretability.",
+      "The libraries are pip installable, well-documented, and emphasize visual interpretation.",
+      "The document provides a brief guide on how to use these libraries for interpreting and explaining machine learning models."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Python Libraries for Interpretable Machine Learning"
+    "content_preview": "This document discusses Python libraries for interpretable machine learning."
   },
   {
     "id": "7d82e4206da2af1e9c6e6ffd50933852",
