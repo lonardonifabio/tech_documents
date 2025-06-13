@@ -17015,19 +17015,25 @@
     "title": "Optimizers Comparison",
     "authors": [],
     "filepath": "documents/Optimizers_Comparison_1709383473.pdf",
-    "upload_date": "2025-06-04T21:18:54.141034",
+    "upload_date": "2025-06-12T20:29:20.210337",
     "file_size": 103522,
-    "summary": "This document compares various optimizers in TensorFlow Keras, specifically focusing on the MNIST dataset. It discusses issues with cuDNN, cuFFT, and cuBLAS registrations, data loading, reshaping, normalization, and label encoding.",
+    "summary": "This document provides a practical comparison of various optimizers in TensorFlow's Keras library, using the MNIST dataset as an example. The study focuses on Conv2D, MaxPooling2D, Dense, Dropout, Flatten layers and explores Adam, RMSprop, SGD, and other optimizers. Key findings include the impact of different optimizers on model convergence and accuracy.",
     "keywords": [
       "TensorFlow",
       "Keras",
-      "Optimizers",
+      "Optimizer",
       "MNIST",
-      "cuDNN"
+      "Conv2D"
+    ],
+    "key_concepts": [
+      "This document demonstrates the use of TensorFlow's Keras library to build and train a convolutional neural network (CNN) using the MNIST dataset.",
+      "The study compares the performance of various optimizers, including Adam, RMSprop, SGD, and others, in terms of model convergence and accuracy.",
+      "Key findings suggest that the choice of optimizer can significantly impact the performance of a deep learning model.",
+      "The theoretical framework for this comparison is based on the principles of gradient descent and optimization algorithms."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "optimizers-comparison-in-dl, discusses issues with cuDNN, cuFFT, and cuBLAS registrations"
+    "content_preview": "optimizers-comparison-in-dl"
   },
   {
     "id": "4d1476e6878d0eccf105d4c58249ded7",
