@@ -13191,23 +13191,31 @@
   {
     "id": "4abb95e7ab24e670e11066ea94312b87",
     "filename": "ML_CheatSheet_1637007275.pdf",
-    "title": "Machine Learning CheatSheet",
+    "title": "Machine Learning Cheat Sheet",
     "authors": [
       "Rémi Canard"
     ],
     "filepath": "documents/ML_CheatSheet_1637007275.pdf",
-    "upload_date": "2025-06-05T14:25:30.120258",
+    "upload_date": "2025-06-12T20:29:17.804313",
     "file_size": 1309589,
-    "summary": "This document provides descriptions, advantages, and use cases of various Machine Learning algorithms. It is inspired by the books and articles of MachineLearningMastery, with added math and ML Pros & Cons of HackingNote. The design is inspired by The Probability Cheatsheet of W. Chen. Written by Rémi Canard.",
+    "summary": "This document provides a comprehensive summary of various Machine Learning algorithms, their descriptions, advantages, and use cases. It is inspired by the books 'Machine Learning Mastery' and articles from 'ML Pros & Cons of HackingNote', with additional mathematical explanations. The design is inspired by 'The Probability Cheatsheet' of W. Chen. Written by Rémi Canard.",
     "keywords": [
       "Machine Learning",
       "Algorithms",
-      "Data Science",
-      "AI"
+      "Description",
+      "Advantages",
+      "Use Cases"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "The document aims to learn a target function that maps input variables to output variables with an error.",
+      "Linear and Nonlinear algorithms make different assumptions about the shape and structure of the target function, thus the need for testing several methods.",
+      "Linear algorithms are usually simpler, faster, and require less data, while Nonlinear can be more flexible, powerful, and performant.",
+      "Supervised learning methods learn to predict Y from X given that the data is labeled. Unsupervised learning methods learn to find the inherent structure of the unlabeled data.",
+      "The Bias-Variance trade-off in supervised learning refers to the prediction error being composed of bias, variance, and the irreducible part."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "MACHINE LEARNING CHEATSHEET  Summary\tof\tMachine\tLearning\tAlgorithms\tdescriptions..."
+    "content_preview": "MACHINE LEARNING CHEATSHEET"
   },
   {
     "id": "52044a4a67346bc1621f3292c1dbdc50",
