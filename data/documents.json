@@ -106,9 +106,9 @@
     "title": "10 Minutes to Pandas - pandas 0.17.1 Documentation",
     "authors": [],
     "filepath": "documents/10_Minutes_to_Pandas_1642524382.pdf",
-    "upload_date": "2025-06-12T20:29:09.283215",
+    "upload_date": "2025-06-13T17:20:37.931890",
     "file_size": 561924,
-    "summary": "This document provides a brief introduction to the pandas library, focusing on new users. It covers the basics of creating Series and DataFrames, using examples and customary imports. The document also mentions the use of numpy and matplotlib libraries.",
+    "summary": "This document provides a short introduction to the pandas library, focusing on new users. It covers object creation, including Series and DataFrame, using various methods such as passing lists, numpy arrays, and dictionaries of objects. The document also introduces how to handle missing data and customize data types.",
     "keywords": [
       "pandas",
       "DataFrame",
@@ -117,14 +117,14 @@
       "matplotlib"
     ],
     "key_concepts": [
-      "The document introduces pandas, a powerful data manipulation library in Python.",
-      "It explains how to create Series and DataFrames using various methods such as passing lists, numpy arrays, or dictionaries of objects.",
-      "The document also demonstrates the use of customary imports: import pandas as pd, import numpy as np, and import matplotlib.pyplot as plt.",
-      "It briefly mentions that more complex recipes can be found in the Cookbook."
+      "The document provides a brief introduction to pandas, a powerful library for data manipulation in Python.",
+      "It demonstrates how to create Series and DataFrame objects using various methods like passing lists, numpy arrays, and dictionaries of objects.",
+      "The document explains how to handle missing data by introducing the concept of NaN values.",
+      "It also covers customizing data types for better data analysis."
     ],
     "category": "Data Science",
     "difficulty": "Beginner",
-    "content_preview": "1/2/2016 10 Minutes to pandas — pandas 0.17.1 documentation"
+    "content_preview": "Learn to create Series and DataFrame objects in pandas using various methods."
   },
   {
     "id": "722f105592780fe905a4b316dcbd2b41",
