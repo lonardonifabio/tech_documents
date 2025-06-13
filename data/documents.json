@@ -14386,25 +14386,26 @@
     "title": "Machine Learning Part 02: NumPy and Pandas Fundamentals",
     "authors": [],
     "filepath": "documents/Machine_Learning_Part_02__1738571591.pdf",
-    "upload_date": "2025-06-12T20:29:18.441320",
+    "upload_date": "2025-06-13T17:20:47.129891",
     "file_size": 10649119,
-    "summary": "This document delves into the fundamentals of NumPy and Pandas, two essential libraries for data analysis and scientific computing in Python. It covers topics such as NumPy attributes and operations, array functions, broadcasting, coding demonstrations, introduction to Pandas, working with Series and DataFrames, GroupBy object, joins, merges, MultiIndex, long vs wide format, pivot tables, vectorized string operations, and date and time manipulation in pandas.",
+    "summary": "This document delves into the fundamentals of NumPy and Pandas, two essential libraries for data analysis and scientific computing in Python. Topics covered include NumPy attributes and operations, array functions, broadcasting, coding demonstrations, introduction to Pandas, working with Series and DataFrames, GroupBy object, joins, merges, MultiIndex, long vs wide format, pivot tables, vectorized string operations, and date and time manipulation in pandas. The document is useful for data scientists, engineers, and researchers working on numerical and scientific computing tasks.",
     "keywords": [
       "NumPy",
       "Pandas",
       "Data Analysis",
       "Scientific Computing",
-      "Python"
+      "Arrays"
     ],
     "key_concepts": [
-      "NumPy is a fundamental Python library for scientific and numerical computing, providing support for arrays and mathematical functions.",
-      "The document covers various topics related to NumPy such as attributes, operations, array functions, and broadcasting.",
-      "Pandas is introduced, with sections on working with Series, DataFrames, GroupBy object, joins, merges, MultiIndex, long vs wide format, pivot tables, vectorized string operations, and date and time manipulation.",
-      "The document serves as a comprehensive guide for beginners to understand the basics of NumPy and Pandas, while also providing useful insights for intermediate and advanced users."
+      "NumPy is a fundamental Python library for scientific and numerical computing.",
+      "NumPy provides support for arrays, including multi-dimensional arrays, and a wide range of mathematical functions to operate on these arrays.",
+      "Pandas is often used in conjunction with NumPy for various data analysis tasks.",
+      "The document covers topics like NumPy attributes and operations, array functions, broadcasting, coding demonstrations, introduction to Pandas, working with Series and DataFrames, GroupBy object, joins, merges, MultiIndex, long vs wide format, pivot tables, vectorized string operations, and date and time manipulation in pandas.",
+      "The document is useful for data scientists, engineers, and researchers working on numerical and scientific computing tasks."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "NumPy Fundamentals (Part-1) NumPy, which stands for..."
+    "content_preview": "This document delves into the fundamentals of NumPy and Pandas, two essential libraries for data analysis and scientific computing in Python."
   },
   {
     "id": "9dfaaf26ba4dff682714ca7c1e7b7f83",
