@@ -6393,12 +6393,12 @@
   {
     "id": "606386721b30d98b67e1bf8ee3051aa0",
     "filename": "Data science interview q&a.pdf",
-    "title": "Data science interview Q&A",
+    "title": "Data Science Interview Q&A",
     "authors": [],
     "filepath": "documents/Data science interview q&a.pdf",
-    "upload_date": "2025-06-12T20:29:13.333262",
+    "upload_date": "2025-06-13T17:20:41.966895",
     "file_size": 10590284,
-    "summary": "This document provides a comprehensive question and answer format for common statistics-related questions in data science interviews. Topics covered include the Central Limit Theorem, sampling methods, Type I vs Type II errors, Linear Regression with explanations of P-value, Coefficient, R-squared value, assumptions required for Linear Regression, Statistical Interaction, Selection Bias, and examples of non-Gaussian distributions.",
+    "summary": "This document provides answers to common statistics-based questions asked in data science interviews, covering topics such as the Central Limit Theorem, Sampling methods, Type I and II errors, Linear Regression, Assumptions for Linear Regression, Statistical Interaction, Selection Bias, and Non-Gaussian distributions.",
     "keywords": [
       "Data Science",
       "Statistics",
@@ -6407,15 +6407,15 @@
       "Sampling"
     ],
     "key_concepts": [
-      "The Central Limit Theorem is a fundamental theorem in statistics that states that the distribution of the mean of a large number of independent, identically distributed random variables will be approximately normally distributed.",
-      "Sampling refers to the process of selecting a subset (a sample) from a larger population for statistical analysis. Common sampling methods include simple random sampling, stratified sampling, cluster sampling, and systematic sampling.",
+      "The Central Limit Theorem is a fundamental theorem in probability theory, stating that the distribution of the sum (or average) of a large number of independent and identically distributed random variables will be approximately normally distributed.",
+      "Sampling refers to the process of selecting a subset of data points from a larger population for analysis. Common sampling methods include simple random sampling, stratified sampling, cluster sampling, and systematic sampling.",
       "Type I error (false positive) occurs when we incorrectly reject a true null hypothesis, while Type II error (false negative) occurs when we fail to reject a false null hypothesis.",
-      "Linear Regression is a statistical model used to analyze the linear relationship between two continuous variables. The P-value indicates the probability that the observed relationship could have occurred by chance, the Coefficient represents the strength and direction of the relationship, and R-squared value measures the proportion of variance in the dependent variable that can be explained by the independent variable.",
-      "Statistical Interaction refers to a situation where the effect of one independent variable on the dependent variable depends on the level of another independent variable."
+      "Linear Regression is a statistical model used for modeling the linear relationship between a dependent variable and one or more independent variables. The P-value, Coefficient, and R-squared value are important components of Linear Regression, with the P-value indicating the significance of the relationship, the Coefficient representing the strength and direction of the relationship, and the R-squared value measuring the proportion of variance in the dependent variable that can be explained by the independent variables.",
+      "Assumptions required for Linear Regression include linearity, independence, homoscedasticity, normality, and no multicollinearity among the independent variables."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Data science interview Q&A"
+    "content_preview": "Document: Data Science Interview Q&A"
   },
   {
     "id": "112436e8adcb638ed2fbb10a9bddec73",
