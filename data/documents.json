@@ -3129,9 +3129,9 @@
     "title": "The Art of AI Maturity: Advancing from Practice to Performance",
     "authors": [],
     "filepath": "documents/Accenture-Art-of-AI-Maturity-Report-Global-Revised.pdf",
-    "upload_date": "2025-06-12T09:23:36.143501",
+    "upload_date": "2025-06-14T12:13:45.880172",
     "file_size": 7861335,
-    "summary": "This document discusses the concept of AI maturity and its importance for organizations, highlighting the 12% of firms known as 'AI Achievers' that have advanced their use of AI for superior growth and business transformation. The report provides insights into how these companies master their craft and offers practical advice for other organizations to follow suit.",
+    "summary": "This document discusses the importance of AI maturity in organizations, defining what it is and highlighting the strategies used by 'AI Achievers' who have advanced beyond basic practice. It provides insights into how these companies master their craft, driving superior growth and business transformation. The report is based on an analysis of approximately 1,200 companies globally.",
     "keywords": [
       "AI",
       "Artificial Intelligence",
@@ -3140,15 +3140,15 @@
       "Business Transformation"
     ],
     "key_concepts": [
-      "The Art of AI Maturity refers to the process of advancing from practice to performance in the use of AI.",
-      "AI Achievers are organizations that have advanced their AI maturity and are reaping superior growth and business transformation benefits.",
-      "The report provides insights into how AI Achievers master their craft, offering practical advice for other organizations.",
-      "Accenture's analysis of approximately 1,200 companies globally found that only 12% have advanced their AI maturity enough to achieve superior growth and business transformation.",
-      "The document emphasizes the ever-expanding use cases of AI across various industries and encourages organizations to make the most of AI's full potential."
+      "The Art of AI Maturity refers to the ability of organizations to advance from basic practice to performance, achieving superior growth and business transformation.",
+      "AI Achievers are companies that have mastered their use of AI, driving logistics, improving customer service, increasing efficiency, empowering employees, and more.",
+      "Only 12% of firms have advanced their AI maturity enough to achieve superior growth and business transformation, according to Accenture’s extensive analysis.",
+      "The report is based on an analysis of approximately 1,200 companies globally.",
+      "The document provides insights into the strategies used by 'AI Achievers'."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Advancing from practice to performance, the path to extraordinary value starts here. The art of AI maturity..."
+    "content_preview": "This document discusses the importance of AI maturity in organizations and highlights the strategies used by 'AI Achievers'."
   },
   {
     "id": "01713c43286680e27b5cec1676eb6a2c",
@@ -5871,22 +5871,29 @@
   {
     "id": "ec96e8d8313efabd6599c715f5e5a64b",
     "filename": "Computer_vision_in_factory_Siemens_Advanta__1635145149.pdf",
-    "title": "Computer Vision in Factory - Siemens Advanta",
+    "title": "Augmented Machine Vision for Brownfield Assets by Siemens Advanta",
     "authors": [],
     "filepath": "documents/Computer_vision_in_factory_Siemens_Advanta__1635145149.pdf",
-    "upload_date": "2025-06-03T22:07:03.289518",
+    "upload_date": "2025-06-14T12:13:47.352169",
     "file_size": 1458608,
-    "summary": "Siemens Advanta presents Augmented Machine Vision (AMV), a non-invasive solution for digitizing brownfield assets, enabling data collection and improving transparency, throughput, process, and quality. This technology allows digital enablement in plants where no sensor is available.",
+    "summary": "This document discusses the Augmented Machine Vision (AMV) solution by Siemens Advanta, which enables digitalization of legacy machinery in brownfield environments. The methodology involves non-invasive integration of smart cameras into existing infrastructure to create a data layer, thereby allowing these assets to benefit from digitalization. Key applications include predictive process optimization and expanding system capabilities through virtual feedback. This approach can boost process quality and performance, reduce downtimes, and increase transparency and throughput.",
     "keywords": [
-      "Computer Vision",
-      "Siemens Advanta",
       "Augmented Machine Vision",
+      "Siemens Advanta",
       "Brownfield Assets",
-      "Digitalization"
+      "Digitalization",
+      "Legacy Machinery"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "The Augmented Machine Vision (AMV) solution by Siemens Advanta allows retroactive digitization of legacy tools and systems with a simple, non-invasive integration into the existing infrastructure.",
+      "By adding a data layer to brownfield environments, these assets can benefit from digitalization despite being rarely ideal candidates for it.",
+      "Predictive process optimization is one key application of Augmented Machine Vision, which can boost quality and performance of processes with predictive data models.",
+      "The AMV solution enables the provision and interpretation of all observable brownfield data, expanding capabilities of systems like machines or robots by using virtual feedback.",
+      "Reducing downtimes and increasing transparency and throughput are practical implications of implementing Augmented Machine Vision in brownfield environments."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Siemens Advanta presents Augmented Machine Vision (AMV), a non-invasive solution for digitizing brownfield assets..."
+    "content_preview": "This document discusses the Augmented Machine Vision (AMV) solution by Siemens Advanta, enabling digitalization of legacy machinery in brownfield environments."
   },
   {
     "id": "81c2843e2a2aad5b0b4af1c1039efcbb",
@@ -8116,19 +8123,25 @@
     "title": "Evaluating Bias in Algorithms (EDPB)",
     "authors": [],
     "filepath": "documents/EDPB_A_1739522099.pdf",
-    "upload_date": "2025-06-05T20:14:20.273690",
+    "upload_date": "2025-06-14T12:13:49.398164",
     "file_size": 488759,
-    "summary": "This document discusses sources of bias in algorithms, particularly in social media and facial recognition technology, and provides examples of bias reduction methods such as pre-processing, in-processing, and post-processing.",
+    "summary": "This document discusses the sources and reduction measures of bias in algorithms, focusing on social media and facial recognition technology. The European Data Protection Board clarifies that AI systems can reflect societal biases from historical data, and algorithmic choices can contribute to biased decisions. Evaluation bias is also addressed, which arises during assessments against non-representative datasets. Three methods for reducing bias - pre-processing, in-processing, and post-processing - are presented.",
     "keywords": [
-      "AI",
-      "Algorithms",
       "Bias",
+      "Algorithms",
+      "AI",
       "Data Protection",
-      "European Data Protection Board"
+      "Facial Recognition"
+    ],
+    "key_concepts": [
+      "AI systems reflect societal biases from historical data",
+      "Algorithmic choices can contribute to biased decisions",
+      "Evaluation bias arises during assessments against non-representative datasets",
+      "Three methods for reducing bias - pre-processing, in-processing, and post-processing"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "When trained on historical data, AI systems reflect societal bias which are embedded in the dataset."
+    "content_preview": "This document discusses sources and reduction measures of bias in algorithms."
   },
   {
     "id": "5d73f23cd5b955316ea6fcceeb2001ec",
@@ -11972,22 +11985,29 @@
   {
     "id": "deb41fd4ba6dffce616957f83ad5dafb",
     "filename": "KYAI_1737936090.pdf",
-    "title": "EU AI Act and KYAI Action Plan",
+    "title": "EU AI Act: Know Your AI System (KYAI) Action Plan",
     "authors": [],
     "filepath": "documents/KYAI_1737936090.pdf",
-    "upload_date": "2025-06-05T20:14:22.294724",
+    "upload_date": "2025-06-14T12:13:51.482159",
     "file_size": 2594844,
-    "summary": "This document presents the Know Your AI System (KYAI) Action Plan, outlining risk categories for AI systems in accordance with the EU AI Act. It provides guidance on executing an AI strategy within the scope of the Act.",
+    "summary": "This document presents the EU AI Act's KYAI Action Plan, aimed at codifying ethics guidelines for Trustworthy AI. It outlines a risk classification process for AI systems, detailing different risk categories and their implications on enterprises' AI strategies in accordance with the EU AI Act. The plan provides a comprehensive, non-exhaustive view of the risk landscape associated with AI systems.",
     "keywords": [
       "EU AI Act",
       "KYAI Action Plan",
-      "AI Risk",
+      "AI Risk Landscape",
       "Risk Classification",
-      "Enterprise Strategy"
+      "Trustworthy AI"
+    ],
+    "key_concepts": [
+      "The KYAI Action Plan outlines a risk classification process for AI systems, categorizing them based on the EU AI Act.",
+      "The Risk Classification Process helps enterprises execute their AI strategy in accordance with the widespread application of the EU AI Act.",
+      "The document aims to provide a comprehensive, non-exhaustive view of the risk landscape associated with AI systems.",
+      "AI systems are those which pose a risk of harm to individuals’ health, safety, and fundamental rights.",
+      "The Risk Classification represents different risk categories applicable to AI systems in the context of the EU AI Act."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "We are pleased to present the *Know Your AI System (KYAI) Action Plan..."
+    "content_preview": "This document presents the EU AI Act's KYAI Action Plan, aimed at codifying ethics guidelines for Trustworthy AI."
   },
   {
     "id": "5bcfe2d4bf840572e9d6266050d29c5f",
@@ -12174,19 +12194,26 @@
     "title": "Kryon-HR-Use-Cases-19-3-18.pdf",
     "authors": [],
     "filepath": "documents/Kryon-HR-Use-Cases-19-3-18.pdf",
-    "upload_date": "2025-06-04T21:18:52.427023",
+    "upload_date": "2025-06-14T12:13:51.586159",
     "file_size": 2731250,
-    "summary": "Explores how High performing HR departments are leveraging Robotic Process Automation (RPA) to streamline administrative tasks, allowing them to focus on strategic, value-added work. Discusses the benefits of RPA in automating payroll, benefits administration, and compliance reporting along the hire-to-retire process.",
+    "summary": "This document discusses the use of Robotic Process Automation (RPA) in Human Resources departments to streamline administrative tasks, allowing HR managers to focus on strategic, value-added work. The document highlights the labor-intensive and repetitive nature of many tasks along the 'hire-to-retire' process and how RPA can automate these tasks, improving efficiency and reducing error rates. It also touches upon the complexity of multi-step processes and the dependency on multiple systems.",
     "keywords": [
-      "Robotic Process Automation",
-      "HR",
-      "Hire-to-Retire",
-      "Payroll",
-      "Benefits Administration"
+      "RPA",
+      "Human Resources",
+      "Automation",
+      "Administrative Tasks",
+      "Hire-to-Retire Process"
+    ],
+    "key_concepts": [
+      "High performing HR departments are turning to technology, specifically RPA, to solve administrative task issues.",
+      "RPA allows HR to focus on strategic, value-added work by automating repetitive tasks.",
+      "RPA can improve efficiency and reduce error rates in the 'hire-to-retire' process.",
+      "The document discusses the labor-intensive and repetitive nature of many tasks along the 'hire-to-retire' process.",
+      "The complexity of multi-step processes and dependency on multiple systems is also addressed."
     ],
     "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "A company is only as good as its employees... HRis able to focus on its strategic, value -added work."
+    "content_preview": "This document discusses the use of RPA in HR to streamline administrative tasks."
   },
   {
     "id": "52cd83845faf46eed413ecffa2331718",
@@ -13983,18 +14010,23 @@
       "soulmachine"
     ],
     "filepath": "documents/Machine_Learning_Cheat_Sheet_1629957157.pdf",
-    "upload_date": "2025-06-04T21:18:53.039028",
+    "upload_date": "2025-06-14T12:13:52.820156",
     "file_size": 2130186,
-    "summary": "A condensed version of a machine learning manual containing classical equations, diagrams, and tricks aimed at quick knowledge recall in the field.",
+    "summary": "This document is a concise version of a machine learning manual, providing classical equations and diagrams for quick reference in the field. It standardizes symbols for clarity and includes important intermediary steps in mathematical proof processes to aid understanding.",
     "keywords": [
       "Machine Learning",
       "Cheat Sheet",
-      "Equations",
-      "Diagrams"
+      "Mathematical Formulas",
+      "Symbol Standardization"
+    ],
+    "key_concepts": [
+      "This cheat sheet aims to help readers quickly recall knowledge and ideas in machine learning by providing a standardized usage of symbols.",
+      "The document includes important intermediary steps in mathematical proof processes to aid understanding.",
+      "The cheat sheet is a condensed version of a larger machine learning manual, containing classical equations and diagrams."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "A condensed version of machine learning manual, contains classical equations and diagrams."
+    "content_preview": "A concise version of a machine learning manual, providing classical equations and diagrams for quick reference."
   },
   {
     "id": "6491e6fb3cbbe7bfb970f9d9c050010d",
@@ -14252,24 +14284,31 @@
   {
     "id": "ab0bba4d9a1223dbc65151a3c933ced1",
     "filename": "Machine_Learning_Mathematics_1743935287.pdf",
-    "title": "Machine Learning Mathematics by Mohamed Aazi",
+    "title": "Mathematics for Machine Learning by Mohamed Aazi",
     "authors": [
       "Mohamed Aazi"
     ],
     "filepath": "documents/Machine_Learning_Mathematics_1743935287.pdf",
-    "upload_date": "2025-06-06T15:45:45.750677",
+    "upload_date": "2025-06-14T12:13:52.944156",
     "file_size": 1662575,
-    "summary": "This comprehensive guide, 'Mathematics for Machine Learning' by Mohamed Aazi, provides a beginner-level introduction to the mathematical foundations essential for AI and Data Science. The full edition covers Part 1.",
+    "summary": "This comprehensive guide, written by Mohamed Aazi, provides a beginner-level introduction to the mathematical foundations essential for AI and Data Science. The document covers topics such as linear algebra, calculus, probability, and statistics, offering practical examples and exercises throughout. It serves as an ideal resource for those seeking to build a strong foundation in mathematics for machine learning.",
     "keywords": [
-      "Machine Learning",
       "Mathematics",
+      "Machine Learning",
       "AI",
       "Data Science",
-      "Mohamed Aazi"
+      "Linear Algebra"
+    ],
+    "key_concepts": [
+      "The book introduces the mathematical concepts necessary for understanding and applying machine learning algorithms.",
+      "It covers topics such as linear algebra, calculus, probability, and statistics, providing a solid foundation in these areas.",
+      "Practical examples and exercises are included throughout the guide to help readers apply their knowledge.",
+      "The book is structured in a way that allows beginners to easily grasp complex mathematical concepts related to machine learning.",
+      "It serves as an essential resource for anyone looking to build a strong foundation in mathematics for AI and Data Science."
     ],
     "category": "Machine Learning",
     "difficulty": "Beginner",
-    "content_preview": "MATHEMATICS FOR MACHINE LEARNING Mohamed AAZI"
+    "content_preview": "Comprehensive guide to building mathematical foundations for AI and Data Science."
   },
   {
     "id": "f9925279759292e439c79e63af82959e",
@@ -16497,19 +16536,26 @@
     "title": "Nail Disease Detection using Deep Learning",
     "authors": [],
     "filepath": "documents/Nail_1725987884.pdf",
-    "upload_date": "2025-06-06T15:45:46.952680",
+    "upload_date": "2025-06-14T12:13:54.182153",
     "file_size": 855672,
-    "summary": "This document discusses a deep learning approach for detecting nail diseases by utilizing a dataset containing various nail conditions such as Acral_Lentiginous_Melanoma, pitting, Onychogryphosis, clubbing, and Healthy_Nail. The code provided lists the folders in both the training and validation datasets, and includes a function to display image...",
+    "summary": "This document outlines a deep learning approach for detecting various nail diseases such as Acral Lentiginous Melanoma, pitting, Onychogryphosis, clubbing, and healthy nails. The project uses Python libraries like NumPy, Pandas, Matplotlib, and PIL to load, preprocess, and visualize the data. The dataset is divided into training and validation sets, with each set containing folders for each disease category.",
     "keywords": [
       "Deep Learning",
       "Nail Disease Detection",
       "Python",
-      "Pandas",
-      "Matplotlib"
+      "NumPy",
+      "Pandas"
+    ],
+    "key_concepts": [
+      "The document describes a deep learning method for detecting nail diseases using Python libraries.",
+      "The project uses image files from a dataset, which is divided into training and validation sets.",
+      "Each set contains folders for different disease categories such as Acral Lentiginous Melanoma, pitting, Onychogryphosis, clubbing, and healthy nails.",
+      "The method involves loading, preprocessing, and visualizing the data using NumPy, Pandas, Matplotlib, and PIL.",
+      "The document provides a function to display up to 5 images from a specified folder for visual inspection."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Folders in the training dataset path: ['blue_finger', 'Acral_Lentiginous_Melanoma', 'pitting', 'Onychogryphosis', 'clubbing', 'Healthy_Nail']"
+    "content_preview": "This document outlines a deep learning approach for detecting nail diseases using Python libraries."
   },
   {
     "id": "4c37ef8cc78d04662a9dbbdf1832c3cf",
@@ -19938,31 +19984,38 @@
     "filename": "Report_1746287786.pdf",
     "title": "AI Risk Repository: A Comprehensive Meta-Review, Database, and Taxonomy of Risks from Artificial Intelligence",
     "authors": [
-      "Peter Slatter y",
-      "Alexander K. Saeri",
-      "Emily A. C. Grundy",
-      "Jess Graham",
-      "Michael Noetel",
-      "Risto Uuk",
-      "James Dao",
-      "Soroush Pour",
-      "Stephen Casper",
-      "Neil Thompson"
+      "Peter Slatter y1,2",
+      "Alexander K. Saeri1,2",
+      "Emily A. C. Grundy1,2",
+      "Jess Graham3",
+      "Michael Noetel2,3",
+      "Risto Uuk4,5",
+      "James Dao6",
+      "Soroush Pour6",
+      "Stephen Casper7",
+      "Neil Thompson1"
     ],
     "filepath": "documents/Report_1746287786.pdf",
-    "upload_date": "2025-06-05T14:25:33.522243",
+    "upload_date": "2025-06-14T12:13:55.870150",
     "file_size": 4783337,
-    "summary": "This paper addresses the lack of shared understanding of AI risks by creating an AI Risk Repository as a common frame of reference. The repository is a living database of 1612 risks extracted from 65 taxonomies, which can be filtered based on two overarching taxonomies.",
+    "summary": "This document presents a comprehensive meta-review, database, and taxonomy of risks associated with Artificial Intelligence (AI). The authors aim to address the lack of shared understanding of AI risks by creating an AI Risk Repository. This repository is a living database of 1612 risks extracted from 65 taxonomies, which can be filtered based on two overarching taxonomies. The document also discusses the practical implications and use cases of this repository.",
     "keywords": [
       "AI Risks",
-      "Repository",
-      "Meta-Review",
+      "Risk Repository",
       "Database",
-      "Taxonomy"
+      "Taxonomy",
+      "Artificial Intelligence"
+    ],
+    "key_concepts": [
+      "The AI Risk Repository serves as a common frame of reference for academics, auditors, policymakers, AI companies, and the public to comprehensively discuss, research, and react to AI risks.",
+      "The repository is a living database of 1612 risks extracted from 65 taxonomies, which can be filtered based on two overarching taxonomies.",
+      "The document discusses the practical implications and use cases of this repository in addressing the lack of shared understanding of AI risks.",
+      "The authors emphasize the importance of a shared understanding of AI risks to facilitate research and reaction.",
+      "The repository is intended to aid in the discussion, research, and management of potential risks associated with the development and deployment of AI."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "The risks posed by Artificial Intelligence (AI) are of considerable concern to academics, auditors, policymakers, AI companies, and the public."
+    "content_preview": "This paper addresses the gap in shared understanding of AI risks by creating an AI Risk Repository."
   },
   {
     "id": "bfb6295e1d9490155c86559be390d7dc",
@@ -23088,18 +23141,25 @@
     "title": "Transfer Learning",
     "authors": [],
     "filepath": "documents/Transfer_Learning_1709665051.pdf",
-    "upload_date": "2025-06-03T22:07:08.730562",
+    "upload_date": "2025-06-14T12:13:57.868146",
     "file_size": 609597,
-    "summary": "Transfer learning is a machine learning technique that utilizes knowledge from one task to improve performance on another related task, particularly beneficial for tasks with limited data. It involves fine-tuning pre-trained models and has applications in computer vision and natural language processing.",
+    "summary": "Transfer Learning is a machine learning technique that leverages knowledge from one task (upstream) to enhance performance on another related task (downstream), particularly useful for tasks with limited data. The approach fine-tunes pre-trained upstream model weights to adapt them to the downstream task, with applications in computer vision and natural language processing. An example is fine-tuning a cat classifier to recognize dogs by utilizing shared features between the two animals.",
     "keywords": [
-      "Machine Learning",
       "Transfer Learning",
+      "Machine Learning",
       "Computer Vision",
       "Natural Language Processing"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Transfer learning utilizes knowledge gained from one task (upstream) to improve performance on another related task (downstream).",
+      "This approach is particularly beneficial when dealing with limited data for the downstream task.",
+      "Transfer learning involves fine-tuning the weights of a pre-trained upstream model to adapt it to the downstream task.",
+      "Applications include computer vision tasks like object detection and natural language processing tasks like sentiment analysis.",
+      "An example is fine-tuning a cat classifier to recognize dogs, leveraging the shared features between the two animals."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Transfer learning involves fine-tuning the weights of a pre-trained upstream model to adapt it to the downstream task."
+    "content_preview": "Transfer Learning: A technique in machine learning that utilizes knowledge from one task to improve performance on another related task, particularly useful for tasks with limited data."
   },
   {
     "id": "b50dc24532d55e21bfd9a42fad3ae933",
@@ -24122,9 +24182,9 @@
       "Piush Kumar Sharma"
     ],
     "filepath": "documents/_ 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐬 !_1741200192.pdf",
-    "upload_date": "2025-06-13T22:59:50.599951",
+    "upload_date": "2025-06-14T12:13:58.455144",
     "file_size": 4646138,
-    "summary": "This document provides over 140 basic Python programs for interview preparation, covering topics such as printing statements, arithmetical operations, and finding the area of a triangle using Jupyter Notebook. The programs are explained step-by-step with comments.",
+    "summary": "This document provides over 140 basic Python programs for interview preparation, covering topics such as printing statements, arithmetical operations, and finding the area of a triangle using Jupyter Notebook. The programs include addition, division, and a program to find the area of a triangle.",
     "keywords": [
       "Python",
       "Programs",
@@ -24132,14 +24192,14 @@
       "Jupyter Notebook"
     ],
     "key_concepts": [
-      "The document provides a collection of basic Python programs for interview preparation.",
-      "The programs are presented in Jupyter Notebook format, allowing users to run and test the code interactively.",
-      "The programs cover topics such as printing statements, arithmetical operations, and finding the area of a triangle.",
-      "Each program is explained step-by-step with comments for easy understanding."
+      "The document provides basic Python programs for interview preparation",
+      "The programs are presented in Jupyter Notebook format",
+      "The programs cover topics such as printing statements, arithmetical operations, and finding the area of a triangle",
+      "Users are required to input values for the programs to run"
     ],
-    "category": "Data Science",
+    "category": "Technology",
     "difficulty": "Beginner",
-    "content_preview": "This document provides basic Python programs for interview preparation."
+    "content_preview": "This document provides basic Python programs for interview preparation"
   },
   {
     "id": "cb096965ed93a6be32f0e58d1ebe7f37",
@@ -25491,25 +25551,32 @@
   {
     "id": "50185136268b141512a6c9e749379e39",
     "filename": "math4DeepLearning__1739721082.pdf",
-    "title": "Mathematical theory of deep learning",
+    "title": "Mathematical Theory of Deep Learning",
     "authors": [
       "Philipp Petersen",
       "Jakob Zech"
     ],
     "filepath": "documents/math4DeepLearning__1739721082.pdf",
-    "upload_date": "2025-06-06T15:45:51.628688",
+    "upload_date": "2025-06-14T12:13:59.175134",
     "file_size": 8071909,
-    "summary": "This document explores the mathematical foundations of deep learning, discussing feedforward neural networks, universal approximation, and splines. The authors are Philipp Petersen and Jakob Zech from Universit¨ at Wien and Universit¨ at Heidelberg respectively.",
+    "summary": "This document delves into the mathematical foundations of deep learning, providing a comprehensive overview of feedforward neural networks, universal approximation, and splines. The authors, Philipp Petersen and Jakob Zech, discuss the formal definition, size, activation functions, and universal approximation theorem of feedforward neural networks. They also explore B-splines and smooth functions in the context of splines. Key findings include the universal approximation property of deep learning models and the use of superexpressive activations. Practical applications range from machine learning to data science.",
     "keywords": [
       "Deep Learning",
       "Mathematics",
       "Neural Networks",
-      "University",
-      "Research"
+      "Universal Approximation",
+      "Splines"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "This document explains the mathematical theory behind deep learning, focusing on feedforward neural networks and their formal definition, size, activation functions, and universal approximation.",
+      "The authors discuss a universal approximation theorem that demonstrates the ability of deep learning models to approximate any continuous function with arbitrary accuracy.",
+      "The text also covers superexpressive activations and Kolmogorov’s superposition theorem, which are key concepts in understanding the expressive power of deep learning models.",
+      "B-splines and smooth functions are explored as part of the spline theory, providing a mathematical framework for modeling complex data.",
+      "The theoretical principles discussed in this document have practical implications for machine learning, data science, and other fields that utilize deep learning models."
+    ],
+    "category": "AI",
     "difficulty": "Advanced",
-    "content_preview": "This document explores the mathematical foundations of deep learning..."
+    "content_preview": "This document delves into the mathematical foundations of deep learning, providing a comprehensive overview of feedforward neural networks and splines."
   },
   {
     "id": "d0f718937772420daf4830eeb58d69b7",
@@ -25897,22 +25964,26 @@
   {
     "id": "23f9c72e2117d5fecc1f35bfc9eacf39",
     "filename": "python__1713162196.pdf",
-    "title": "Full Beginner’s Guide to Mastering Python",
+    "title": "Full Beginner's Guide to Mastering Python",
     "authors": [],
     "filepath": "documents/python__1713162196.pdf",
-    "upload_date": "2025-06-03T17:53:44.836158",
+    "upload_date": "2025-06-14T12:13:59.286131",
     "file_size": 2047638,
-    "summary": "A comprehensive beginner's guide on learning Python, covering installation, syntax, variables, operators, strings, and numbers. Includes interactive programming mode, script programming mode, identifiers, reserved words, comments, quotation, blank lines, and more.",
+    "summary": "This document provides a comprehensive guide for beginners to learn Python programming language. It covers topics such as installation, interactive and script programming modes, variables, basic operators, strings, and numbers. The guide includes exercises and feedback mechanisms.",
     "keywords": [
       "Python",
-      "Beginner's Guide",
-      "Programming",
-      "Syntax",
-      "Variables"
+      "Programming Guide",
+      "Beginner's Guide"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "This document is a comprehensive guide for beginners to learn Python programming language.",
+      "The guide covers topics such as installation, interactive and script programming modes, variables, basic operators, strings, and numbers.",
+      "The guide includes exercises and feedback mechanisms.",
+      "The guide is structured in a table of contents format."
+    ],
+    "category": "Data Science",
     "difficulty": "Beginner",
-    "content_preview": "Full Beginner’s Guide to Mastering Python"
+    "content_preview": "Learn Python with this comprehensive beginner's guide covering installation, interactive and script programming modes, variables, basic operators, strings, and numbers."
   },
   {
     "id": "3de908fc2a9c94a40b8bfc3a224125d8",
