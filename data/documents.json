@@ -17874,19 +17874,26 @@
     "title": "OpenCV Computer Vision Projects with Python",
     "authors": [],
     "filepath": "documents/OpenCV Computer Vision Projects with Python.pdf",
-    "upload_date": "2025-06-04T21:18:54.092034",
+    "upload_date": "2025-06-14T19:41:10.969086",
     "file_size": 14223149,
-    "summary": "Learn to work with OpenCV and create computer vision applications using Python in a three-module course. This document is a book published by Packt Publishing in 2016.",
+    "summary": "This document provides a comprehensive guide to working with OpenCV for computer vision projects using Python. The course is divided into three modules and covers practical applications of OpenCV, including image processing, object detection, and facial recognition. It also includes theoretical concepts such as machine learning algorithms and computer vision principles.",
     "keywords": [
       "OpenCV",
       "Computer Vision",
       "Python",
-      "Course",
-      "Book"
+      "Image Processing",
+      "Object Detection"
+    ],
+    "key_concepts": [
+      "Learn to use OpenCV for real-world computer vision applications with Python",
+      "Understand and implement machine learning algorithms in the context of computer vision",
+      "Gain hands-on experience with image processing techniques such as filtering, transformations, and feature extraction",
+      "Develop skills in object detection using popular methods like Haar cascades and deep learning models",
+      "Explore facial recognition techniques and their practical applications"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Learn to work with OpenCV and create cool computer vision applications using Python in a three-module course."
+    "content_preview": "Learn OpenCV for computer vision projects with Python in this comprehensive guide."
   },
   {
     "id": "1f4f4b83a50c6f165dd8dddb827a2a85",
