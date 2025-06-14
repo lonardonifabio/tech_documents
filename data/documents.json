@@ -12542,18 +12542,26 @@
     "title": "Jupyter Notebook Cheat Sheet",
     "authors": [],
     "filepath": "documents/Jupyter Notebook Cheat Sheet.pdf",
-    "upload_date": "2025-06-06T03:10:09.315909",
+    "upload_date": "2025-06-14T19:41:07.732079",
     "file_size": 1430540,
-    "summary": "This document provides a cheat sheet for saving, loading, and working with Jupyter notebooks, including tips on writing code and text. It also covers topics like selecting cells, copying and pasting, and adding new cells.",
+    "summary": "This document provides a comprehensive guide on saving, loading, and working with different programming languages in Jupyter Notebook. It covers topics such as cell manipulation, code writing, text formatting, and more. The cheat sheet is designed to help users learn Jupyter online at www.DataCamp.com. Key concepts include understanding IPython interfaces, creating new notebooks, deleting cells, and adding new cells.",
     "keywords": [
       "Jupyter Notebook",
       "Cheat Sheet",
-      "Python",
-      "Data Science"
+      "IPython",
+      "Cell Manipulation",
+      "Code Writing"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Understanding IPython interfaces is crucial for effective use of Jupyter Notebook.",
+      "Creating a new notebook can be done by making a copy of the current one and selecting the cells to clipboard.",
+      "Deleting cells in Jupyter Notebook can be achieved by right-clicking on the selected cells and choosing 'Delete Cells'.",
+      "Adding new cells above or below the current one can be done using the 'Insert Cell Above' or 'Insert Cell Below' options.",
+      "The 'Edit Mode' allows users to edit the content of a cell, while the 'Code Mode' is used for writing code."
+    ],
+    "category": "Data Science",
     "difficulty": "Beginner",
-    "content_preview": "Sav ing/L oading N o t eboo ks>W o rking wi"
+    "content_preview": "This document provides a guide on saving, loading, and working with Jupyter Notebooks."
   },
   {
     "id": "a938123b71355c6c1471bd2e0ad23167",
