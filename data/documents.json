@@ -5952,19 +5952,25 @@
     "title": "CheatSheet_Web_Scraping_1705418948.pdf",
     "authors": [],
     "filepath": "documents/CheatSheet_Web_Scraping_1705418948.pdf",
-    "upload_date": "2025-06-03T22:07:03.149517",
+    "upload_date": "2025-06-14T22:31:34.820622",
     "file_size": 140874,
-    "summary": "This document provides an introduction to HTML element syntax, XPath for web scraping with Selenium or Scrapy, and Beautiful Soup library workflow.",
+    "summary": "This document provides an introduction to web scraping using HTML and XPath, focusing on the structure of HTML elements, the concept of nodes, and the use of XPath for locating specific elements in a webpage. It also introduces Beautiful Soup, a Python library used for web scraping, and explains its workflow. The document is recommended for beginners who want to learn web scraping.",
     "keywords": [
       "HTML",
       "Web Scraping",
       "XPath",
-      "Selenium",
-      "Scrapy"
+      "Beautiful Soup"
+    ],
+    "key_concepts": [
+      "HTML elements are structured with 'nodes' and each rectangle represents a node (element, attribute, and text nodes)",
+      "To scrape with Selenium or Scrapy, you need to learn XPath",
+      "XPath usually contains a tag name, attribute name, and attribute value",
+      "Beautiful Soup is a Python library used for web scraping",
+      "The workflow of Beautiful Soup involves importing the libraries, fetching pages, extracting page content, and creating soup"
     ],
     "category": "Data Science",
-    "difficulty": "Intermediate",
-    "content_preview": "This is a single HTML element, but the HTML code behind a website has hundreds of them. The HTML code is structured with “nodes”. Each rectangle below represents a node (element, attribute and text nodes)"
+    "difficulty": "Beginner",
+    "content_preview": "Learn web scraping using HTML and XPath with this document. It introduces Beautiful Soup, a Python library for web scraping."
   },
   {
     "id": "ce510d2e7e6ecac5948dc51fafeb6cf4",
