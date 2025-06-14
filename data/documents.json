@@ -943,19 +943,25 @@
     "title": "Mastering AI Agents",
     "authors": [],
     "filepath": "documents/AI_Agents_1738505855.pdf",
-    "upload_date": "2025-06-06T15:45:37.603663",
+    "upload_date": "2025-06-14T19:41:00.866052",
     "file_size": 29843177,
-    "summary": "This e-book explores the concept of AI agents, which take an LLM's ability to provide accurate answers based on context and extend it by executing tasks or making decisions. It discusses the potential of AI agents in end-to-end task accomplishment, their historical background, and the unique capabilities they offer such as understanding context ...",
+    "summary": "This e-book explores the concept of AI agents, which extend the capabilities of Language Learning Machines (LLMs) by enabling them to accomplish end-to-end tasks. The document discusses how an AI agent can process information, make decisions, execute tasks, and coordinate with other systems or agents. It also highlights the unique features of AI agents such as understanding context without predefined rules, tuning decisions based on context, and learning from every interaction.",
     "keywords": [
       "AI Agents",
-      "LLMs",
+      "Language Learning Machines",
       "End-to-end tasks",
       "Context understanding",
       "Decision making"
     ],
+    "key_concepts": [
+      "An AI agent takes an LLM's ability to provide accurate answers based on context and extends it by performing actions such as making decisions, executing tasks, or coordinating with other systems or agents.",
+      "AI agents are computational entities that can accept input from their environment and take actions based on rules. With AI, these agents can understand the context without predefined rules, tune decisions based on context, and learn from every interaction.",
+      "The document provides examples of how an AI agent could process a claim end-to-end by analyzing documentation, checking policy compliance, calculating payments, and coordinating with other systems or agents when needed.",
+      "The ideas behind agents have existed for years, but the advent of AI has brought new capabilities to these entities, such as understanding context without predefined rules and learning from every interaction."
+    ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "In our previous e-book, “Mastering RAG,” our goal was clear: building enterprise-grade RAG systems..."
+    "content_preview": "Exploring AI agents that extend the capabilities of Language Learning Machines (LLMs) to accomplish end-to-end tasks."
   },
   {
     "id": "a0159d379d938a22a29b0ba5b8294b10",
