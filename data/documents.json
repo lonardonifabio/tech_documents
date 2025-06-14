@@ -23871,22 +23871,25 @@
   {
     "id": "fab32f3bcbee783d85f89d8e4077a11c",
     "filename": "Unified_Data_Infrastructure_Architecture_1620762115.pdf",
-    "title": "Unified Data Infrastructure Architecture",
+    "title": "A Unified Data Infrastructure Architecture",
     "authors": [],
     "filepath": "documents/Unified_Data_Infrastructure_Architecture_1620762115.pdf",
-    "upload_date": "2025-06-04T21:18:55.682043",
+    "upload_date": "2025-06-14T13:06:59.818945",
     "file_size": 167799,
-    "summary": "This document discusses various components of a unified data infrastructure architecture, including OLTP databases, dashboards, embedded analytics, augmented analytics, app frameworks, custom apps, query engines, real-time analytics, applications/ERP, data modeling, Spark platforms, Python libs, event streaming, stream processing, metadata manag...",
+    "summary": "This document discusses a comprehensive data infrastructure architecture, focusing on various components such as OLTP databases, dashboards, embedded analytics, augmented analytics, app frameworks, custom apps, ad hoc query engines, real-time analytics, applications/ERP, data modeling, Spark platforms, Python libraries, event streaming, stream processing, metadata management, quality and testing, entitlements and security, observability, batch query engine, event collectors, workflow manager, 3rd party APIs, file and object storage, logs, data lake, query and processing, data warehouse, data science platform, data science and ML libraries. The architecture includes tools like Fivetran, Lo...",
     "keywords": [
-      "Data Infrastructure",
-      "Architecture",
-      "OLTP Databases",
-      "CDCConnectors",
-      "Dashboards"
+      "Technology"
+    ],
+    "key_concepts": [
+      "This document explores fundamental concepts related to a unified data infrastructure architecture providing theoretical foundations and practical insights for understanding the subject matter.",
+      "The methodology presented in this work demonstrates systematic approaches to data science with emphasis on evidence-based practices and proven techniques.",
+      "Key findings and applications discussed include real-world implementations and case studies that illustrate the practical value of the concepts presented in this document.",
+      "The theoretical framework underlying this work builds upon established principles in data science while introducing innovative perspectives and methodologies.",
+      "Practical implications of this research extend to various domains where data science principles can be applied to solve complex problems and improve outcomes."
     ],
     "category": "Data Science",
-    "difficulty": "Advanced",
-    "content_preview": "A Uniﬁed Data Infrastructure Architecture via CDCConnectors (Fivetran, Stitch, Matillion)..."
+    "difficulty": "Intermediate",
+    "content_preview": "Document: A Unified Data Infrastructure Architecture"
   },
   {
     "id": "4d43492c747614a816c26ef9a4e34877",
