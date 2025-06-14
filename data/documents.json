@@ -7722,23 +7722,31 @@
   {
     "id": "59b21f67fd307ff82609ed7c1aa12e4d",
     "filename": "Deep_Learning_from_Scratch_1739912775.pdf",
-    "title": "Deep Learning from Scratch",
+    "title": "Deep Learning from Scratch by Seth Weidman",
     "authors": [
       "Seth Weidman"
     ],
     "filepath": "documents/Deep_Learning_from_Scratch_1739912775.pdf",
-    "upload_date": "2025-06-06T03:10:06.920906",
+    "upload_date": "2025-06-14T13:06:50.698945",
     "file_size": 9903500,
-    "summary": "A comprehensive guide on building deep learning models from scratch using Python, written by Seth Weidman. The book covers the fundamentals of deep learning and provides practical examples.",
+    "summary": "This document provides a comprehensive guide on building deep learning models from scratch using Python. It covers fundamental concepts, mathematical principles, and practical applications of deep learning. The book is suitable for both beginners and intermediate learners who wish to gain hands-on experience in deep learning.",
     "keywords": [
       "Deep Learning",
       "Python",
       "Machine Learning",
+      "Scratch",
       "First Principles"
+    ],
+    "key_concepts": [
+      "The book starts with an introduction to the basics of neural networks and deep learning, explaining key concepts such as activation functions, backpropagation, and optimization algorithms.",
+      "It provides a step-by-step guide on building deep learning models from scratch, using Python libraries like NumPy and TensorFlow.",
+      "The book includes numerous examples and exercises to help readers understand the practical applications of deep learning in various domains such as image classification, natural language processing, and reinforcement learning.",
+      "It also covers advanced topics like convolutional neural networks (CNNs), recurrent neural networks (RNNs), and generative adversarial networks (GANs).",
+      "The theoretical framework of the book is based on the principles of machine learning and statistics, with a focus on understanding the mathematical foundations of deep learning."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Deep Learning from Scratch Building with Python"
+    "content_preview": "Learn to build deep learning models from scratch using Python in this intermediate-level guide by Seth Weidman."
   },
   {
     "id": "aeac1e1edcd76b388555e9aae883ef39",
