@@ -19582,22 +19582,31 @@
   {
     "id": "4f7dfccdbf6d9b100d497a6580c2a137",
     "filename": "Python_Programming_1634289950.pdf",
-    "title": "Python Programming",
+    "title": "Python Programming by Hans-Petter Halvorsen",
     "authors": [
       "Hans-Petter Halvorsen"
     ],
     "filepath": "documents/Python_Programming_1634289950.pdf",
-    "upload_date": "2025-06-04T21:18:54.543036",
+    "upload_date": "2025-06-14T13:06:57.083945",
     "file_size": 3489455,
-    "summary": "A comprehensive guide to Python programming by Hans-Petter Halvorsen, published in 2019. The book covers various aspects of Python programming.",
+    "summary": "This document provides an introduction to Python programming, covering syntax, data structures, functions, and modules. It also delves into topics like file I/O, exceptions, and decorators. The book is suitable for beginners and intermediates, with practical examples and exercises throughout.",
     "keywords": [
       "Python",
       "Programming",
-      "Hans-Petter Halvorsen"
+      "Syntax",
+      "Data Structures",
+      "Functions"
+    ],
+    "key_concepts": [
+      "Learn the basic syntax of Python, including variables, constants, and operators.",
+      "Understand data structures such as lists, tuples, dictionaries, and sets in Python.",
+      "Gain proficiency in defining and using functions in Python.",
+      "Explore file I/O operations, exception handling, and decorators in Python.",
+      "Learn about the theoretical principles of object-oriented programming (OOP) in Python."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Comprehensive guide to Python programming by Hans-Petter Halvorsen, published in 2019."
+    "content_preview": "Introduction to Python programming with syntax, data structures, functions, and more."
   },
   {
     "id": "efd4fbb6505be72ab9bc141da0c93315",
