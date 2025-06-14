@@ -23134,18 +23134,25 @@
     "title": "Transfer Learning",
     "authors": [],
     "filepath": "documents/Transfer_Learning_1709665051.pdf",
-    "upload_date": "2025-06-03T22:07:08.730562",
+    "upload_date": "2025-06-14T12:13:57.868146",
     "file_size": 609597,
-    "summary": "Transfer learning is a machine learning technique that utilizes knowledge from one task to improve performance on another related task, particularly beneficial for tasks with limited data. It involves fine-tuning pre-trained models and has applications in computer vision and natural language processing.",
+    "summary": "Transfer Learning is a machine learning technique that leverages knowledge from one task (upstream) to enhance performance on another related task (downstream), particularly useful for tasks with limited data. The approach fine-tunes pre-trained upstream model weights to adapt them to the downstream task, with applications in computer vision and natural language processing. An example is fine-tuning a cat classifier to recognize dogs by utilizing shared features between the two animals.",
     "keywords": [
-      "Machine Learning",
       "Transfer Learning",
+      "Machine Learning",
       "Computer Vision",
       "Natural Language Processing"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Transfer learning utilizes knowledge gained from one task (upstream) to improve performance on another related task (downstream).",
+      "This approach is particularly beneficial when dealing with limited data for the downstream task.",
+      "Transfer learning involves fine-tuning the weights of a pre-trained upstream model to adapt it to the downstream task.",
+      "Applications include computer vision tasks like object detection and natural language processing tasks like sentiment analysis.",
+      "An example is fine-tuning a cat classifier to recognize dogs, leveraging the shared features between the two animals."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Transfer learning involves fine-tuning the weights of a pre-trained upstream model to adapt it to the downstream task."
+    "content_preview": "Transfer Learning: A technique in machine learning that utilizes knowledge from one task to improve performance on another related task, particularly useful for tasks with limited data."
   },
   {
     "id": "b50dc24532d55e21bfd9a42fad3ae933",
