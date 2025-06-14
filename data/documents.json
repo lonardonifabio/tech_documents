@@ -19945,31 +19945,38 @@
     "filename": "Report_1746287786.pdf",
     "title": "AI Risk Repository: A Comprehensive Meta-Review, Database, and Taxonomy of Risks from Artificial Intelligence",
     "authors": [
-      "Peter Slatter y",
-      "Alexander K. Saeri",
-      "Emily A. C. Grundy",
-      "Jess Graham",
-      "Michael Noetel",
-      "Risto Uuk",
-      "James Dao",
-      "Soroush Pour",
-      "Stephen Casper",
-      "Neil Thompson"
+      "Peter Slatter y1,2",
+      "Alexander K. Saeri1,2",
+      "Emily A. C. Grundy1,2",
+      "Jess Graham3",
+      "Michael Noetel2,3",
+      "Risto Uuk4,5",
+      "James Dao6",
+      "Soroush Pour6",
+      "Stephen Casper7",
+      "Neil Thompson1"
     ],
     "filepath": "documents/Report_1746287786.pdf",
-    "upload_date": "2025-06-05T14:25:33.522243",
+    "upload_date": "2025-06-14T12:13:55.870150",
     "file_size": 4783337,
-    "summary": "This paper addresses the lack of shared understanding of AI risks by creating an AI Risk Repository as a common frame of reference. The repository is a living database of 1612 risks extracted from 65 taxonomies, which can be filtered based on two overarching taxonomies.",
+    "summary": "This document presents a comprehensive meta-review, database, and taxonomy of risks associated with Artificial Intelligence (AI). The authors aim to address the lack of shared understanding of AI risks by creating an AI Risk Repository. This repository is a living database of 1612 risks extracted from 65 taxonomies, which can be filtered based on two overarching taxonomies. The document also discusses the practical implications and use cases of this repository.",
     "keywords": [
       "AI Risks",
-      "Repository",
-      "Meta-Review",
+      "Risk Repository",
       "Database",
-      "Taxonomy"
+      "Taxonomy",
+      "Artificial Intelligence"
+    ],
+    "key_concepts": [
+      "The AI Risk Repository serves as a common frame of reference for academics, auditors, policymakers, AI companies, and the public to comprehensively discuss, research, and react to AI risks.",
+      "The repository is a living database of 1612 risks extracted from 65 taxonomies, which can be filtered based on two overarching taxonomies.",
+      "The document discusses the practical implications and use cases of this repository in addressing the lack of shared understanding of AI risks.",
+      "The authors emphasize the importance of a shared understanding of AI risks to facilitate research and reaction.",
+      "The repository is intended to aid in the discussion, research, and management of potential risks associated with the development and deployment of AI."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "The risks posed by Artificial Intelligence (AI) are of considerable concern to academics, auditors, policymakers, AI companies, and the public."
+    "content_preview": "This paper addresses the gap in shared understanding of AI risks by creating an AI Risk Repository."
   },
   {
     "id": "bfb6295e1d9490155c86559be390d7dc",
