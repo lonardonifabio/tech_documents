@@ -13674,19 +13674,26 @@
       "Donna Schut"
     ],
     "filepath": "documents/MLOps_1630831226.pdf",
-    "upload_date": "2025-06-03T17:53:41.304090",
+    "upload_date": "2025-06-14T13:06:53.769945",
     "file_size": 7972504,
-    "summary": "This white paper from May 2021 provides a practitioner's guide to MLOps, discussing the lifecycle, core capabilities, and processes involved in this end-to-end workflow. It covers topics like experimentation, data processing, model training, evaluation, serving, online experimentation, monitoring, ML pipelines, model registry, dataset and featur...",
+    "summary": "This white paper from May 2021 presents a comprehensive guide on MLOps, an end-to-end workflow that aims to improve the quality and reduce time-to-market of ML systems. The document discusses the MLOps lifecycle, core capabilities, processes, and practical implementation aspects such as dataset and feature management, model governance, and continuous monitoring. Key concepts include the MLOps lifecycle, MLOps capabilities, and practical implications for building an ML-enabled system.",
     "keywords": [
       "MLOps",
-      "Machine Learning Operations",
+      "Machine Learning",
       "Continuous Delivery",
       "Automation",
-      "White Paper"
+      "DevOps"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "The MLOps lifecycle is a workflow that addresses the unique complexities of ML engineering.",
+      "MLOps capabilities include experimentation, data processing, model training, evaluation, serving, online experimentation, monitoring, and more.",
+      "Practical implementation aspects covered in the document include dataset and feature management, model governance, and continuous monitoring.",
+      "Theoretical framework or principles discussed in the paper revolve around adopting DevOps and DataOps methodologies for ML systems.",
+      "Practical implications of MLOps include improved quality and reduced time-to-market of ML systems."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This white paper from May 2021 provides a practitioner's guide to MLOps, discussing the lifecycle, core capabilities, and processes involved in this end-to-end workflow."
+    "content_preview": "This white paper presents a guide on MLOps, an end-to-end workflow for ML systems."
   },
   {
     "id": "b8a59d65a2059d0d1d1bfd2dac089e51",
