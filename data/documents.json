@@ -10343,25 +10343,25 @@
     "title": "Graphics Principles Cheatsheet v1.1",
     "authors": [],
     "filepath": "documents/Graphics_Principles_Cheatsheet_1569391935.pdf",
-    "upload_date": "2025-06-12T20:29:15.999292",
+    "upload_date": "2025-06-13T22:59:42.658916",
     "file_size": 898823,
-    "summary": "This document provides guidelines for effective data visualization, emphasizing the strategic use of color, consistency in color representation, and grouping elements for comparison. It suggests using existing resources like Color Brewer or Munsell for palette selection, placing labels next to data instead of legends, and plotting final comparisons such as mean differences. The document also advises on the use of reference lines and visual anchors, ordering values for easy comparison across categories, and considering proximity to improve association. It encourages careful thought before introducing additional color and highlights that effective visualizations facilitate insight, understa...",
+    "summary": "This document provides guidelines for effective data visualization, emphasizing the importance of color usage, consistency, and grouping elements for comparison. It suggests using existing resources like Color Brewer or Munsell for palette selection, utilizing bold colors to highlight important details, and placing labels next to data instead of using legends. The document also advises against using color to differentiate between the same variable categories and encourages the use of reference lines and visual anchors.",
     "keywords": [
       "Data Visualization",
       "Color Theory",
       "Graphic Design",
-      "Statistics"
+      "Statistical Analysis"
     ],
     "key_concepts": [
-      "Use color strategically for emphasis and distinction",
-      "Consistency in color representation is key",
-      "Group elements for comparison and plot final comparisons",
-      "Use reference lines and visual anchors for clarity",
-      "Effective visualizations facilitate insight, understanding, and decision making"
+      "Restrained use of color is effective in organizing a narrative and calling attention to certain elements.",
+      "Utilize existing resources for selection of appropriate palettes such as Color Brewer or Munsell.",
+      "Use colors or shades to represent meaningful differences like positive/negative values, treatments, or doses.",
+      "Be consistent, use the same color to mean the same thing in a series of graphs (e.g. treatment, dose).",
+      "Effective visualizations communicate complex statistical and quantitative information facilitating insight, understanding, and decision making."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Color for emphasis or distinction  Restrained use of color is highly effective in organizing a narrative and calling attention to certain elements"
+    "content_preview": "Guidelines for effective data visualization with color theory and consistency in mind."
   },
   {
     "id": "9588d752aae2670b12de0fd9aa2be70c",
