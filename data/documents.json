@@ -6816,17 +6816,26 @@
       "Dr. Matthew North"
     ],
     "filepath": "documents/Data_Mining_for_the_Masses_1634289963.pdf",
-    "upload_date": "2025-06-03T22:07:03.883523",
+    "upload_date": "2025-06-14T13:06:49.895945",
     "file_size": 17973697,
-    "summary": "A book on Data Mining by Dr. Matthew North, dedicated to Dr. Charles Hannon who inspired him to teach data mining to the masses.",
+    "summary": "This book provides an accessible introduction to data mining, a critical skill in today's data-driven world. It covers various techniques such as clustering, association rule learning, and decision trees, with practical examples and real-world applications. The author emphasizes the importance of understanding both the theory and the practical aspects of data mining.",
     "keywords": [
       "Data Mining",
-      "Book",
-      "Dr. Matthew North"
+      "Machine Learning",
+      "Data Analysis",
+      "Clustering",
+      "Association Rule Learning"
     ],
-    "category": "Data Science",
+    "key_concepts": [
+      "Data mining is a process of discovering patterns and knowledge from large data sets.",
+      "The book covers various techniques such as clustering, association rule learning, and decision trees.",
+      "Practical examples and real-world applications are used to illustrate the concepts.",
+      "Understanding both the theory and practical aspects of data mining is crucial.",
+      "The author emphasizes the importance of data mining in today's data-driven world."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Data Mining for the Masses"
+    "content_preview": "An accessible introduction to data mining with practical examples and real-world applications."
   },
   {
     "id": "f60102e8944a75a04120dd240712f60b",
