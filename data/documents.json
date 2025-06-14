@@ -25603,19 +25603,26 @@
     "title": "Git Cheat Sheet",
     "authors": [],
     "filepath": "documents/git cheat sheet.pdf",
-    "upload_date": "2025-06-06T15:45:51.485688",
+    "upload_date": "2025-06-14T13:07:00.713945",
     "file_size": 259772,
-    "summary": "This document provides a quick reference guide for using Git, a popular version control system. It covers essential commands such as cloning repositories, making local changes, committing, and managing branches and tags.",
+    "summary": "This document provides a comprehensive guide to using Git, a popular version control system. It covers topics such as cloning repositories, making local changes, committing and amending commits, viewing commit history, managing branches and tags, and updating and publishing changes. The document is presented by TOWER and can be accessed with a 30-day free trial at www.git-tower.com.",
     "keywords": [
       "Git",
       "Version Control",
-      "Cheat Sheet",
       "Repository",
-      "Branches"
+      "Clone",
+      "Commit"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "The document explains how to clone an existing repository using Git.",
+      "It provides steps for creating a new local repository and adding changes to be committed.",
+      "The document details the process of committing all local changes, amending commits, and viewing commit history.",
+      "It covers managing branches and tags in a Git repository.",
+      "The document also explains how to update and publish changes."
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Create a new local repository $ git init"
+    "content_preview": "Learn to use Git with this comprehensive cheat sheet."
   },
   {
     "id": "0ade4f6bb34e0254e2bac8d11269070f",
