@@ -28037,19 +28037,26 @@
     "title": "TensorFlow v2.0 Cheat Sheet",
     "authors": [],
     "filepath": "documents/tensorflow_2_cheatsheet_1644221191.pdf",
-    "upload_date": "2025-06-06T03:10:16.796917",
+    "upload_date": "2025-06-14T22:31:47.258630",
     "file_size": 910160,
-    "summary": "A guide to using TensorFlow version 2.0 for high-performance numerical computation and deep learning, with a focus on the Sequential API and Keras library.",
+    "summary": "This document provides a comprehensive guide to using TensorFlow version 2.0, an open-source software library for high-performance numerical computation and deep learning. It introduces the Sequential API for defining neural network models, demonstrates how to load data sets, and explains key concepts such as Keras, Flatten, Dense layers, ReLU activation function, Dropout regularization, and Softmax activation function.",
     "keywords": [
       "TensorFlow",
       "Deep Learning",
-      "Machine Learning",
       "Neural Networks",
+      "Sequential API",
       "Keras"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "TensorFlow is an open-source software library for high-performance numerical computation that supports machine learning and deep learning, with a flexible architecture enabling deployment across various platforms.",
+      "The Sequential API is the most common way to define neural network models in TensorFlow, corresponding to the mental image of a sequence of layers.",
+      "Keras is a high-level API for deep learning models that is widely adopted for fast prototyping and state-of-the-art research, and is fully implemented in TensorFlow.",
+      "The document demonstrates how to load data sets using the TensorFlow Keras datasets module, and preprocess the data by normalizing pixel values.",
+      "It explains key concepts such as Flatten, Dense layers, ReLU activation function, Dropout regularization, and Softmax activation function."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "A guide to using TensorFlow version 2.0 for high-performance numerical computation and deep learning, with a focus on the Sequential API and Keras library."
+    "content_preview": "Guide to using TensorFlow v2.0 for deep learning with the Sequential API and Keras."
   },
   {
     "id": "50c930533e0c7733e0dcad7750778e14",
