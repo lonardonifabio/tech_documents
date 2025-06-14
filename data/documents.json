@@ -18863,18 +18863,26 @@
     "title": "Probability Cheatsheet",
     "authors": [],
     "filepath": "documents/Probability_Cheatsheet_1647503893.pdf",
-    "upload_date": "2025-06-05T20:14:25.839765",
+    "upload_date": "2025-06-14T19:41:11.357087",
     "file_size": 401430,
-    "summary": "This document provides a comprehensive guide on basic probability concepts such as likelihood of events, complements, frequency distribution, and combinatorics. It also covers expected values, factorials, and combinations.",
+    "summary": "This document provides a comprehensive guide on basic probability concepts, including the likelihood of an event occurring, experimental probability, complementary events, frequency distribution, expected values, combinatorics, factorials, and combinations. It also explains how to calculate probabilities for specific outcomes in an experiment, predict future events using expected value, and understand the concept of combinations.",
     "keywords": [
       "Probability",
-      "Statistics",
-      "Mathematics",
-      "Cheatsheet"
+      "Experimental Probability",
+      "Complementary Events",
+      "Frequency Distribution",
+      "Expected Values"
+    ],
+    "key_concepts": [
+      "The likelihood of an event occurring is calculated as the preferred outcomes divided by the sample space.",
+      "Probability of an event based on the experiment is calculated by observing the event and recording the outcome, then dividing the number of times the event occurs by the total number of trials.",
+      "Complementary events are everything an event is not. The probability of an event's complement is 1 minus the probability of the event itself.",
+      "Frequency distribution table collects the probabilities for each possible outcome of an event, helping to predict future events when the expected value is unattainable.",
+      "Expected value is calculated by multiplying the number of times a given value or outcome appears in the sample space by its probability."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "BASIC PROBABILITY The likelihood of an event occurring"
+    "content_preview": "Guide on basic probability concepts and calculations."
   },
   {
     "id": "a16787535a0f0d68dfe7852c0394e770",
