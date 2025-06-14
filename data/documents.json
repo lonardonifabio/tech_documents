@@ -10049,21 +10049,29 @@
   {
     "id": "6ffe07a9a95d3ab08e4e7d92f1b99d42",
     "filename": "Generative_Adversarial_Networks_GANS__1718779287.pdf",
-    "title": "Generative Adversarial Networks (GANS)",
+    "title": "Generative Adversarial Networks (GANs) with PyTorch",
     "authors": [],
     "filepath": "documents/Generative_Adversarial_Networks_GANS__1718779287.pdf",
-    "upload_date": "2025-06-03T22:07:04.843531",
+    "upload_date": "2025-06-14T13:06:51.872945",
     "file_size": 1298535,
-    "summary": "Learn about Generative Adversarial Networks (GANs), a machine learning framework where two neural networks, the Generator and the Discriminator, are trained simultaneously to create fake data samples. Applications range from image generation to healthcare and entertainment.",
+    "summary": "This document introduces the concept of Generative Adversarial Networks (GANs), a machine learning framework that uses two neural networks, the Generator and Discriminator, to create realistic data samples. Applications range from image generation, image-to-image translation, video generation, data augmentation, healthcare, entertainment, to text generation. The document provides an overview of the GAN architecture, focusing on the Generator and Discriminator networks.",
     "keywords": [
-      "Generative Adversarial Networks",
       "GANs",
+      "PyTorch",
       "Machine Learning",
-      "Neural Networks"
+      "Neural Networks",
+      "Image Generation"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Generative Adversarial Networks (GANs) are a type of machine learning framework where two neural networks, the Generator and the Discriminator, are trained simultaneously through adversarial processes.",
+      "The Generator creates fake data samples, while the Discriminator evaluates them against real data samples to distinguish the fake from the real.",
+      "Applications of GANs include image generation, image-to-image translation, video generation, data augmentation, healthcare, entertainment, and text generation.",
+      "The architecture of a Generative Adversarial Network (GAN) consists of two primary components: the Generator and the Discriminator.",
+      "The Generator takes random noise as input and generates realistic data."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about Generative Adversarial Networks (GANs)..."
+    "content_preview": "This document introduces GANs, a machine learning framework with applications in various fields."
   },
   {
     "id": "805a9ece7ca60fc687c569510ce22931",
