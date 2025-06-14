@@ -7757,18 +7757,26 @@
       "Frank Millstein"
     ],
     "filepath": "documents/Deep_Learning_with_Keras_1653087880.pdf",
-    "upload_date": "2025-06-03T22:07:04.323526",
+    "upload_date": "2025-06-14T13:06:50.717945",
     "file_size": 515650,
-    "summary": "A beginner-friendly guide to deep learning using the Keras library, written by Frank Millstein. Also check out other popular books by the author.",
+    "summary": "This document serves as a comprehensive guide for beginners to understand and apply deep learning concepts using the Keras library. It covers topics such as neural networks, convolutional neural networks (CNN), recurrent neural networks (RNN), and long short-term memory (LSTM). The author, Frank Millstein, provides practical examples and explanations that make complex concepts accessible to beginners. This guide is useful for those looking to start their journey in deep learning.",
     "keywords": [
       "Deep Learning",
       "Keras",
-      "Machine Learning",
-      "Beginner's Guide"
+      "Neural Networks",
+      "CNN",
+      "RNN"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Deep learning is a subset of machine learning that uses artificial neural networks with multiple layers to learn and make predictions.",
+      "Keras is an open-source Python library for building and training deep learning models.",
+      "Convolutional Neural Networks (CNN) are a type of neural network commonly used in image processing tasks, such as object recognition and classification.",
+      "Recurrent Neural Networks (RNN) are a type of neural network that can process sequential data, such as time series or natural language.",
+      "Long Short-Term Memory (LSTM) is a special kind of RNN designed to handle long-term dependencies in sequential data."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Beginner",
-    "content_preview": "Deep Learning with Keras"
+    "content_preview": "A beginner's guide to deep learning with Keras"
   },
   {
     "id": "0da6e1555b063c2be4cc09a2e6769281",
