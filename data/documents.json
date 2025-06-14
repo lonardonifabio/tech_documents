@@ -23996,26 +23996,26 @@
     "title": "Navigating the AI Frontier: A Primer on the Evolution and Impact of AI Agents",
     "authors": [],
     "filepath": "documents/World_Economic_Forum_on_AI_Agents_1747577497.pdf",
-    "upload_date": "2025-06-13T17:20:52.547900",
+    "upload_date": "2025-06-13T22:59:50.577950",
     "file_size": 3045530,
-    "summary": "This document provides a comprehensive overview of AI agents, their definition according to the International Organization for Standardization, core components, and their autonomy and authority. It discusses how AI agents respond to inputs and modify their environment based on decisions made by their control center.",
+    "summary": "This document provides a comprehensive overview of AI agents, their definition, components, autonomy, and authority. It explains how AI agents interact with their environment using sensors and effectors, make decisions based on inputs, and modify their surroundings. The document also discusses the core components of an AI agent, including user input and environment.",
     "keywords": [
       "AI Agent",
-      "International Organization for Standardization",
       "Autonomy",
       "Authority",
-      "Core Components"
+      "Core Components",
+      "Environment"
     ],
     "key_concepts": [
-      "An AI agent is an entity that senses percepts and responds to its environment using sensors and effectors, operating independently and making decisions without constant human intervention.",
-      "The core components of an AI agent include user input, environment, and a control center that makes decisions based on the inputs received and the current state of the environment.",
-      "AI agents have autonomy, defined as the ability to operate independently, and authority, defined as the granted permissions and access rights to perform specific actions within defined boundaries.",
-      "The environment serves as the bounds in which the AI agent operates and applies its sensors and effectors to perceive and modify its surroundings based on inputs received and decisions made by the control center.",
-      "This document provides a visual representation (Figure 1) of how an agent is made up of several core components."
+      "An AI agent is an entity that senses percepts using sensors and responds to its environment, operating independently and making decisions without constant human intervention.",
+      "The core components of an AI agent include user input and the environment, where the agent applies its sensors and effectors to perceive and modify its surroundings based on inputs and decisions made by the control center.",
+      "AI agents have autonomy, defined as the ability to operate independently and make decisions without constant human intervention, and authority, which refers to the granted permissions and access rights to perform specific actions within defined boundaries.",
+      "The document discusses the evolution and impact of AI agents on various industries and society, highlighting their potential benefits and challenges.",
+      "The International Organization for Standardization (ISO) provides a broad definition of an AI agent as an entity that senses percepts using sensors and responds to its environment."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses AI agents, their definition, core components, and autonomy/authority."
+    "content_preview": "This document discusses the core components, autonomy, and authority of AI agents."
   },
   {
     "id": "68c994ce98f79eb8276c0b0689aefe58",
