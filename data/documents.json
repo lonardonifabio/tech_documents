@@ -1817,22 +1817,26 @@
   {
     "id": "4715d52a0b0d3b503f6b0a4c69a61392",
     "filename": "AI_Risk_Index_Included_Frameworks_1741716793.pdf",
-    "title": "AI Risk Index: Included Frameworks",
+    "title": "AI Risk Frameworks",
     "authors": [],
     "filepath": "documents/AI_Risk_Index_Included_Frameworks_1741716793.pdf",
-    "upload_date": "2025-06-05T14:25:22.992292",
+    "upload_date": "2025-06-14T10:08:49.700563",
     "file_size": 9058997,
-    "summary": "This document presents a slide deck showcasing various AI risk frameworks compiled from a systematic search of existing resources. The frameworks aim to synthesize knowledge on AI risks across academia and industry, providing a holistic view of how AI risks are currently conceptualized.",
+    "summary": "This document presents a comprehensive collection of AI risk frameworks compiled from various sources, offering a holistic view of how AI risks are currently conceptualized. The frameworks aim to synthesize knowledge on AI risks across academia and industry, identifying common themes and gaps in our understanding. This resource is valuable for researchers, practitioners, and policymakers seeking insights into the variety of ways AI risks have been categorized.",
     "keywords": [
-      "AI Risk",
-      "Frameworks",
-      "Taxonomy",
-      "MIT",
-      "Repository"
+      "AI Risk Frameworks",
+      "MIT AI Risk Repository",
+      "Taxonomy of AI Risks"
+    ],
+    "key_concepts": [
+      "The document presents a database and two taxonomies of AI risks compiled through a systematic search for existing frameworks, taxonomies, and classifications.",
+      "Frameworks of AI risk aim to synthesize knowledge on AI risks across academia and industry, identifying common themes and gaps in our understanding of AI risks.",
+      "This slide deck provides a holistic view of how AI risks are currently conceptualized, allowing readers to understand the variety of ways in which risks have been categorized by various authors.",
+      "The documents included in this deck were selected based on their focus on presenting a structured taxonomy or classification of AI risks, coverage of risks across multiple locations and industry sectors, proposition of an original framework, and status as peer-reviewed journal papers, preprints, conference papers, or industry reports."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "AI Risk Frameworks MIT AI Risk Repository Updated: January 2025"
+    "content_preview": "A collection of AI risk frameworks compiled from various sources, offering a holistic view of how AI risks are currently conceptualized."
   },
   {
     "id": "8a3f141d31ae6a7cbd35dbcb81ef889d",
@@ -3719,17 +3723,22 @@
       "Robert Tibshirani"
     ],
     "filepath": "documents/An_Introduction_to_Statistical_Learning_1628687530.pdf",
-    "upload_date": "2025-06-03T22:07:02.700513",
+    "upload_date": "2025-06-14T10:08:50.843568",
     "file_size": 1538553,
-    "summary": "A beginner-friendly guide to understanding complex datasets through statistical learning, with applications in R. Written by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani.",
+    "summary": "This document introduces statistical learning, a critical toolkit for understanding complex datasets, particularly relevant in today's data-driven world. It provides a less technical treatment of key topics compared to other resources, making it accessible to a broader audience. The book is written by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani.",
     "keywords": [
       "Statistical Learning",
       "Data Analysis",
       "R Programming"
     ],
+    "key_concepts": [
+      "Statistical learning refers to a set of tools for making sense of complex datasets, particularly relevant in today's data-driven world.",
+      "The book provides a less technical treatment of key topics compared to other resources, making it accessible to a broader audience.",
+      "The document is written by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani, authors with significant expertise in the field."
+    ],
     "category": "Data Science",
-    "difficulty": "Beginner",
-    "content_preview": "A beginner-friendly guide to understanding complex datasets through statistical learning, with applications in R."
+    "difficulty": "Intermediate",
+    "content_preview": "This document introduces statistical learning, a critical toolkit for understanding complex datasets."
   },
   {
     "id": "1757331f93ffebb62dbbe6460820dd62",
@@ -8264,9 +8273,9 @@
     "title": "EU unveils Competitiveness Compass",
     "authors": [],
     "filepath": "documents/EU_CC_1739090974.pdf",
-    "upload_date": "2025-06-05T14:25:27.290272",
+    "upload_date": "2025-06-14T10:08:54.140583",
     "file_size": 527946,
-    "summary": "The European Commission releases its Competitiveness Compass, a blueprint for innovation, sustainability, and growth to become a global AI leader. The document outlines four enablers for a competitive Europe: Regulatory Simplification, A Stronger Single Market, Financing Growth, Skills & Jobs. It also discusses the alignment of AI development wi...",
+    "summary": "The European Commission introduces the Competitiveness Compass, a strategic plan for innovation, sustainability, and growth to establish Europe as a global leader in AI. The document outlines four enablers: regulatory simplification, a stronger single market, financing growth, skills & jobs. The EU aims to close the innovation gap with the US and China by boosting start-ups, venture capital, and R&D, particularly in AI and deep-tech sectors. The strategy also emphasizes reducing dependencies on critical resources and strengthening supply chains for economic security.",
     "keywords": [
       "European Commission",
       "Competitiveness Compass",
@@ -8274,9 +8283,16 @@
       "Innovation Gap",
       "Economic Security"
     ],
+    "key_concepts": [
+      "The Competitiveness Compass is a blueprint for innovation, sustainability, and growth to make Europe a global AI leader.",
+      "Four enablers have been identified: regulatory simplification, a stronger single market, financing growth, skills & jobs.",
+      "The EU aims to close the innovation gap with the US and China by boosting start-ups, venture capital, and R&D in AI and deep-tech sectors.",
+      "The strategy focuses on ethical development, infrastructure, and industrial applications of AI to drive Europe’s leadership.",
+      "Reducing dependencies on critical resources and strengthening supply chains is crucial for ensuring economic security."
+    ],
     "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "EU unveils Competitiveness Compass (EC) The European Commission releases its Competitiveness Compass, a blueprint for innovation, sustainability, and growth to be a global AI leader."
+    "content_preview": "The European Commission introduces the Competitiveness Compass, a strategic plan to make Europe a global AI leader."
   },
   {
     "id": "eef71006f6183e28ea55b4c91fdd0cc0",
@@ -15331,9 +15347,9 @@
       "Himanshu Ram Chandani"
     ],
     "filepath": "documents/Math_for_Machine_Learning_1706625687.pdf",
-    "upload_date": "2025-06-04T21:18:53.499031",
+    "upload_date": "2025-06-14T10:08:58.181601",
     "file_size": 834983,
-    "summary": "This document provides a comprehensive roadmap on the essential mathematics required to understand Machine Learning algorithms, including Linear Algebra, Statistics, Probability, Objective Functions, Regularization, Information Theory, Optimization, and Distribution. It also includes examples of mathematical equations used in real-world scenario...",
+    "summary": "This document provides a comprehensive roadmap for understanding the mathematical foundations of Machine Learning, covering Linear Algebra, Statistics, Probability, Objective Functions, Regularization, Information Theory, Optimization, and Distribution. The authors have compiled all necessary topics to grasp the architecture of Machine Learning algorithms. Real-world examples are given, along with potential interview questions for ML Engineers. The document converts mathematical equations into Python programming expressions.",
     "keywords": [
       "Machine Learning",
       "Mathematics",
@@ -15341,9 +15357,16 @@
       "Statistics",
       "Probability"
     ],
+    "key_concepts": [
+      "This document provides a comprehensive roadmap for understanding the mathematical foundations of Machine Learning.",
+      "The document covers Linear Algebra, Statistics, Probability, Objective Functions, Regularization, Information Theory, Optimization, and Distribution.",
+      "Real-world examples are given to illustrate how these mathematical equations are used in Machine Learning.",
+      "Interview questions for ML Engineers are included based on the topics covered in the document.",
+      "The authors convert mathematical equations into Python programming expressions along with their real-world examples."
+    ],
     "category": "Machine Learning",
-    "difficulty": "Intermediate",
-    "content_preview": "Machine Learning Mathematics Roadmap Linear Algebra, Statistics, Probability, Objective Functions, Regularization, Information Theory, Optimization, Distribution"
+    "difficulty": "Advanced",
+    "content_preview": "Comprehensive roadmap for understanding Machine Learning mathematics, covering Linear Algebra, Statistics, Probability, and more."
   },
   {
     "id": "5e01591549a7a59b6b2d6a7b39f33b2f",
@@ -15500,25 +15523,32 @@
   {
     "id": "0623e9a3c0343c502cd4094e30f16b95",
     "filename": "Mathematics_and_deep_learning__1743299649.pdf",
-    "title": "Mathematics and deep learning",
+    "title": "Mathematics and deep learning: Methods, implementations, and theory",
     "authors": [
       "Arnulf Jentzen",
       "Benno Kuckuck",
       "Philippe von Wurstemberger"
     ],
     "filepath": "documents/Mathematics_and_deep_learning__1743299649.pdf",
-    "upload_date": "2025-06-06T15:45:46.388679",
+    "upload_date": "2025-06-14T10:08:58.297601",
     "file_size": 2159935,
-    "summary": "An introductory book on deep learning, covering methods, implementations, and theory. It is written by Arnulf Jentzen, Benno Kuckuck, and Philippe von Wurstemberger from The Chinese University of Hong Kong Shenzhen (CUHK-Shenzhen) and the University of Münster. Keywords include deep learning, artificial neural network, stochastic gradient descen...",
+    "summary": "This comprehensive document delves into the theoretical foundations of deep learning, focusing on methods, implementations, and mathematical underpinnings. The authors, renowned experts in their field, present a clear and concise introduction to deep learning, artificial neural networks, stochastic gradient descent, and optimization techniques. Key applications include machine learning, data science, and analytics. The book is suitable for both beginners and advanced readers, with Python source codes available for download.",
     "keywords": [
       "deep learning",
       "artificial neural network",
       "stochastic gradient descent",
       "optimization"
     ],
+    "key_concepts": [
+      "Deep learning is a subset of machine learning that uses artificial neural networks to learn and make decisions from data.",
+      "Stochastic Gradient Descent (SGD) is an optimization algorithm used in deep learning to minimize the error between predicted and actual outputs.",
+      "The book provides practical implementations of deep learning concepts, making it useful for both theoretical understanding and hands-on application.",
+      "The document adheres to mathematical principles and theories, providing a strong foundation for readers interested in the theoretical aspects of deep learning.",
+      "The book is structured to cater to readers with varying levels of expertise, making it accessible to beginners while still challenging advanced learners."
+    ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory"
+    "content_preview": "This book aims to provide an introduction to deep learning, focusing on methods, implementations, and theory."
   },
   {
     "id": "f000f649668fadeab989fa4a138e460a",
@@ -19856,18 +19886,26 @@
       "Andrew G. Barto"
     ],
     "filepath": "documents/Reinforcement_Learning__1638521618.pdf",
-    "upload_date": "2025-06-03T22:07:07.979556",
+    "upload_date": "2025-06-14T10:09:00.549610",
     "file_size": 1655090,
-    "summary": "This document is the second edition of the book 'Reinforcement Learning: An Introduction' by Richard S. Sutton and Andrew G. Barto, published by The MIT Press. The cover design is based on a simulated bicycle controlled by a reinforcement learning system.",
+    "summary": "This document provides an introduction to reinforcement learning, a machine learning technique that enables agents to learn from interactions with their environment. The book covers topics such as Markov decision processes, Q-learning, and deep reinforcement learning. It also includes practical applications and use cases, making it valuable for both beginners and advanced readers in the field of AI and Machine Learning.",
     "keywords": [
       "Reinforcement Learning",
       "Machine Learning",
-      "Book",
-      "Second Edition"
+      "AI",
+      "Markov Decision Processes",
+      "Q-Learning"
+    ],
+    "key_concepts": [
+      "Reinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with its environment.",
+      "The book covers the fundamental concepts and algorithms of reinforcement learning, including Q-learning and deep reinforcement learning.",
+      "Practical applications of reinforcement learning are discussed, showcasing its potential in areas such as robotics, gaming, and resource management.",
+      "The theoretical framework of reinforcement learning is based on Markov decision processes, which model the agent's environment and actions.",
+      "The second edition of this book includes updates to reflect recent advancements in reinforcement learning research."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "The cover design is based on the trajectories of a simulated bicycle controlled by a reinforcement learning system developed by Jette Randløv."
+    "content_preview": "An introduction to reinforcement learning, a machine learning technique."
   },
   {
     "id": "5c263ccb69f542d3240acba819fad342",
@@ -21058,13 +21096,20 @@
     "title": "Step by step DeepSeek R1 distilled Llama fine tuning 1738108432",
     "authors": [],
     "filepath": "documents/Step_by_step_DeepSeek_R1_distilled_Llama_fine_tuning_1738108432.pdf",
-    "upload_date": "2025-06-05T14:25:34.176240",
+    "upload_date": "2025-06-14T10:09:01.188613",
     "file_size": 3974593,
-    "summary": "This comprehensive document provides detailed coverage of step by step deepseek r1 distilled llama fine tuning 1738108432 concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations and real-world applications relevant to the field.",
+    "summary": "This comprehensive document provides detailed coverage of step by step deepseek r1 distilled llama fine tuning 1738108432 concepts, methodologies, and practical applications. It offers valuable insights into theoretical foundations and real-world applications relevant to the field of machine learning. The document explores key principles, presents systematic approaches, and demonstrates practical implementations that can be applied across various domains. Through detailed analysis and evidence-based practices, it contributes to the understanding of complex topics while providing actionable insights for practitioners and researchers in the field.",
     "keywords": [
       "Deep Learning"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "This document explores fundamental concepts related to step by step deepseek r1 distilled llama fine tuning 1738108432 providing theoretical foundations and practical insights for understanding the subject matter.",
+      "The methodology presented in this work demonstrates systematic approaches to machine learning with emphasis on evidence-based practices and proven techniques.",
+      "Key findings and applications discussed include real-world implementations and case studies that illustrate the practical value of the concepts presented in this document.",
+      "The theoretical framework underlying this work builds upon established principles in machine learning while introducing innovative perspectives and methodologies.",
+      "Practical implications of this research extend to various domains where machine learning principles can be applied to solve complex problems and improve outcomes."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
     "content_preview": "Document: Step by step DeepSeek R1 distilled Llama fine tuning 1738108432"
   },
@@ -23580,19 +23625,24 @@
     "title": "Understanding Responsibilities in AI Practices",
     "authors": [],
     "filepath": "documents/Understanding_Responsibilities_in_AI_Practices_1745256755.pdf",
-    "upload_date": "2025-06-06T15:45:50.687686",
+    "upload_date": "2025-06-14T10:09:02.799619",
     "file_size": 158715,
-    "summary": "Guidance on understanding roles and responsibilities to ensure responsible artificial intelligence (AI) practices, based on ISO/IEC standards and the NSW AI Assessment Framework. Encourages public servants to integrate these responsibilities into performance plans, training content, and internal processes for AI governance.",
+    "summary": "This document provides guidance on understanding roles and responsibilities to ensure responsible artificial intelligence (AI) practices, based on ISO/IEC standards and the NSW AI Assessment Framework. It is intended for use by NSW government agencies to understand what responsible AI means in practice, with suggestions to integrate these responsibilities into performance plans, training content, and internal processes for AI governance.",
     "keywords": [
       "AI",
-      "Responsibility",
-      "Guidance",
-      "NSW",
-      "ISO/IEC"
+      "Responsible AI",
+      "Roles and Responsibilities",
+      "NSW AI Assessment Framework"
+    ],
+    "key_concepts": [
+      "Responsible AI is a collective responsibility encompassing all levels within an agency, from executives to end users.",
+      "This module provides guidance for aligning responsibilities and accountability within your agency based on ISO/IEC standards and the NSW AI Assessment Framework.",
+      "Public servants are encouraged to consider integrating these responsibilities into performance plans, training content, and internal processes for AI governance.",
+      "The document outlines responsibilities through standard roles for flexibility and organized under broader strategic objectives."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "AI Assessment Framework Guidance   Understanding  Responsibilities in AI Practices"
+    "content_preview": "Guidance for understanding roles and responsibilities to ensure responsible AI practices."
   },
   {
     "id": "fab32f3bcbee783d85f89d8e4077a11c",
