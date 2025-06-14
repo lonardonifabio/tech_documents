@@ -20718,25 +20718,26 @@
       "Michael S. Bernstein"
     ],
     "filepath": "documents/Simulating_Human_Behavior_with_AI_Agents_1749156192.pdf",
-    "upload_date": "2025-06-13T17:20:50.377896",
+    "upload_date": "2025-06-13T22:59:48.393941",
     "file_size": 292092,
-    "summary": "This document discusses an AI agent architecture capable of simulating human behavior more complexly than traditional methods. The agents, based on LLM and in-depth interview transcripts, were tested against real participants' responses to major social science surveys and experiments, replicating their answers 85% as accurately as the individuals did two weeks later on the General Social Survey. The paper emphasizes the need for policymakers and researchers to collaborate on monitoring and consent mechanisms to mitigate risks while harnessing potential benefits.",
+    "summary": "This document discusses an AI agent architecture capable of simulating human behavior more complexly than traditional methods. The agents, trained on LLM and interview transcripts, were tested against real participants' responses to social science surveys and experiments, replicating their answers 85% as accurately as the individuals did two weeks later. The paper emphasizes the need for policymakers and researchers to collaborate in ensuring appropriate monitoring and consent mechanisms are implemented to mitigate risks while harnessing potential benefits.",
     "keywords": [
       "AI agents",
       "human behavior simulation",
       "social science surveys",
-      "policy brief"
+      "interviews",
+      "consent mechanisms"
     ],
     "key_concepts": [
-      "The AI agent architecture can simulate real people in ways far more complex than traditional approaches.",
-      "Generative agents were created to simulate 1,000 individuals using LLM and in-depth interview transcripts.",
-      "The generative agents' responses were evaluated against the corresponding person’s responses to major social science surveys and experiments.",
+      "The AI agent architecture can simulate real people in complex ways beyond traditional approaches.",
+      "Generative agents were created to simulate 1,000 individuals using LLM and interview transcripts.",
+      "The generative agents' responses were evaluated against participants' responses on major social science surveys and experiments.",
       "The agents replicated real participants’ responses 85% as accurately as the individuals did two weeks later on the General Social Survey.",
-      "Policymakers and researchers must work together to ensure appropriate monitoring and consent mechanisms are used."
+      "Policymakers and researchers must collaborate to ensure appropriate monitoring and consent mechanisms are used for these generative agents."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "AI agents simulate human behavior, replicating real participants’ responses 85% as accurately."
+    "content_preview": "AI agents simulate human behavior, replicating real participants’ responses 85% as accurately on social science surveys."
   },
   {
     "id": "8360b7f582fd14e3ebcf12307f9d7bc5",
