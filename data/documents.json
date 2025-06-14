@@ -4045,19 +4045,24 @@
       "Daniel Krasner"
     ],
     "filepath": "documents/Applied_Data_Science_1636566247.pdf",
-    "upload_date": "2025-06-04T19:59:38.730601",
+    "upload_date": "2025-06-14T13:06:48.023944",
     "file_size": 3666927,
-    "summary": "This document covers programming prerequisites for Applied Data Science, including Unix, Shell, Streams, Version Control with Git, and more.",
+    "summary": "This document provides an introduction to applied data science, covering essential programming prerequisites such as Unix and version control with Git. It delves into the history and culture of Unix, explaining key concepts like streams, standard streams, pipes, text handling, and philosophy. The document also introduces Git, its background, setup process, online materials, basic concepts, common workflows, and various operations such as moving from working to remote, discarding changes, erasing changes, and managing remotes.",
     "keywords": [
-      "Data Science",
-      "Programming",
       "Unix",
       "Git",
-      "Version Control"
+      "Data Science",
+      "Programming Prerequisites"
+    ],
+    "key_concepts": [
+      "The document covers the history and culture of Unix, explaining its importance in data science.",
+      "It provides an introduction to Git, a version control system essential for data science projects.",
+      "The text discusses key concepts related to Unix like streams, standard streams, pipes, text handling, and philosophy.",
+      "The document outlines common workflows and operations in Git, helping users manage their projects effectively."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document covers programming prerequisites for Applied Data Science, including Unix, Shell, Streams, Version Control with Git,"
+    "content_preview": "Introduction to applied data science with Unix and Git prerequisites."
   },
   {
     "id": "77143092f43515f6e86a7009279adbb6",
