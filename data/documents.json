@@ -16487,9 +16487,9 @@
     "title": "Natural Language Processing with Python",
     "authors": [],
     "filepath": "documents/Natural_Language_Processing_NLP_with_Python_1610184574.pdf",
-    "upload_date": "2025-06-13T17:20:48.380893",
+    "upload_date": "2025-06-13T22:59:46.405933",
     "file_size": 21887374,
-    "summary": "This document introduces Natural Language Processing (NLP) using Python. It covers topics such as processing large quantities of text, automatic keyword and phrase extraction, tools and techniques in Python for NLP, challenges in NLP, and provides a taste of both linguistically motivated programming tasks and key programming concepts. The document is divided into sections that alternate between 'computing with language' and 'closer look at Python'.",
+    "summary": "This document introduces Natural Language Processing (NLP) using Python. It covers topics such as processing large quantities of text, automatic keyword and phrase extraction, tools and techniques in Python for NLP tasks, challenges in NLP, and provides a taste of both linguistically motivated programming tasks and key programming concepts. The document is divided into sections that alternate between 'computing with language' and 'closer look at Python'.",
     "keywords": [
       "Natural Language Processing",
       "Python",
@@ -16497,14 +16497,14 @@
       "Keyword Extraction"
     ],
     "key_concepts": [
-      "Combining simple programming techniques with large quantities of text can achieve interesting results.",
+      "Combining simple programming techniques with large quantities of text can achieve various tasks.",
       "Python provides tools and techniques for automatic keyword and phrase extraction from text.",
-      "NLP presents several challenges, including understanding the style and content of a text.",
-      "The document adopts a unique style of introduction that mixes linguistically motivated programming tasks with key programming concepts."
+      "NLP presents interesting challenges such as understanding context, sentiment analysis, and machine translation.",
+      "The document adopts a unique style of introduction that gives an authentic taste of what will come later while covering elementary concepts in linguistics and computer science."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Learn NLP with Python: Combine simple programming techniques with large quantities of text, automatically extract keywords and phrases, and tackle challenges in NLP."
+    "content_preview": "Learn NLP with Python: Combine programming techniques with large text quantities, automatic keyword extraction, and more."
   },
   {
     "id": "3bc344744341eceae55e58be6e0093cf",
