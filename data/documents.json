@@ -21878,19 +21878,26 @@
       "Anurag Pandey"
     ],
     "filepath": "documents/Survival_Analysis_Intuition_Implementation_in_Python_1572850729.pdf",
-    "upload_date": "2025-06-03T22:07:08.409559",
+    "upload_date": "2025-06-14T13:06:58.408945",
     "file_size": 734539,
-    "summary": "Learn about Survival Analysis, a statistical technique used to answer questions like 'How long will a customer remain with your business?' or 'What is the likelihood that a patient will survive after being diagnosed?', applicable in various business settings.",
+    "summary": "This document introduces survival analysis, a statistical technique used to answer questions about the duration until a specific event occurs. It covers topics such as Kaplan-Meier Estimate, Cox Proportional Hazard Model, and their applications in various business settings. The article aims to build an intuition for this technique, providing examples like customer retention, machine lifespan, marketing channel performance, and patient survival rates.",
     "keywords": [
       "Survival Analysis",
-      "Python",
-      "Statistical Technique",
-      "Customer Retention",
-      "Machine Lifetime"
+      "Time to Event",
+      "Kaplan-Meier Estimate",
+      "Cox Proportional Hazard Model",
+      "Python"
+    ],
+    "key_concepts": [
+      "Survival analysis is a statistical technique used to determine the duration until a specific event occurs.",
+      "The Kaplan-Meier Estimate is a non-parametric method for estimating survival probabilities over time.",
+      "The Cox Proportional Hazard Model is a predictive model used in survival analysis to estimate the hazard rate at different times.",
+      "Survival analysis can be applied to various business questions, such as customer retention and machine lifespan.",
+      "This technique was primarily developed for medical research but has since been expanded to other fields."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about Survival Analysis, a statistical technique..."
+    "content_preview": "Learn about survival analysis, a statistical technique used to answer questions about the duration until a specific event occurs."
   },
   {
     "id": "70d29064669ce40b856260221de27e71",
