@@ -19395,19 +19395,26 @@
       "Ned Krastev"
     ],
     "filepath": "documents/Python_for_Finance__1694583651.pdf",
-    "upload_date": "2025-06-03T22:07:07.793555",
+    "upload_date": "2025-06-14T13:06:57.234945",
     "file_size": 903682,
-    "summary": "This document provides a guide on calculating and comparing rates of return, measuring investment risk, and using regression for financial analyses in Python. Topics include upside and downside, portfolios of stocks, market indices, covariance and correlation calculations, and portfolio variance.",
+    "summary": "This document provides a comprehensive guide on using Python for financial analysis, covering topics such as calculating and comparing rates of return, measuring investment risk, and using regression for financial analyses. The author explains various methods like upside and downside calculations, covariance and correlation calculations, and portfolio variance calculations. The practical applications include analyzing portfolios of stocks and market indices.",
     "keywords": [
       "Python",
       "Finance",
-      "Rates of Return",
+      "Data Science",
       "Investment Risk",
       "Regression Analysis"
     ],
+    "key_concepts": [
+      "This document introduces Python as a powerful tool for financial analysis, providing methods to calculate rates of return and measure investment risk.",
+      "The author explains the concept of upside and downside in the context of calculating rates of return, which helps investors understand potential gains and losses.",
+      "The document delves into the methodology of calculating covariance and correlation between securities to assess investment risk.",
+      "The practical application of these concepts is demonstrated through examples of analyzing portfolios of stocks and market indices.",
+      "Regression analysis is introduced as a useful technique for financial analyses, with the author providing an overview of its principles."
+    ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Python for Finance  365 DATA SCENCE2 Table of Contents Abstract ..."
+    "content_preview": "Learn to use Python for financial analysis, including calculating rates of return and measuring investment risk."
   },
   {
     "id": "0a654bc72c21b353e67065d68bc91959",
