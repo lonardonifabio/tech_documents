@@ -3260,17 +3260,24 @@
     "title": "Activation Functions in Neural Networks",
     "authors": [],
     "filepath": "documents/Activation_Function_1707252212.pdf",
-    "upload_date": "2025-06-04T19:59:38.471601",
+    "upload_date": "2025-06-14T13:06:47.619944",
     "file_size": 1505676,
-    "summary": "This document discusses the role and importance of activation functions in neural networks. It explains their purpose, benefits, and different types such as linear activation function.",
+    "summary": "This document discusses the role and importance of activation functions in neural networks. Activation functions determine whether a neuron should be activated based on its weighted input and bias, introducing non-linearity into the network to enable it to learn complex patterns. The choice of activation function is crucial for optimizing network performance, with different functions having different properties suitable for various tasks. Linear activation functions are also covered, which apply only a direct scaling to the input without adding non-linearity.",
     "keywords": [
-      "Neural Networks",
       "Activation Function",
-      "Non-linearity"
+      "Neural Networks",
+      "Non-Linearity"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Activation functions decide whether a neuron should be activated or not based on its weighted input and bias.",
+      "The purpose of activation functions is to introduce non-linearity into the output of a neuron, enabling the network to learn complex patterns.",
+      "Choosing the right activation function is crucial for optimizing network performance.",
+      "Different activation functions have different properties and are suitable for different tasks.",
+      "Linear activation functions apply only a direct scaling to the input without adding non-linearity."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses the role and importance of activation functions in neural networks. It explains their purpose, benefits, and different types such as linear activation function."
+    "content_preview": "Learn about activation functions in neural networks and their importance for optimizing network performance."
   },
   {
     "id": "99b194286b415374c158ef4101ee6a1d",
