@@ -16549,9 +16549,9 @@
       "Cheng Soon On"
     ],
     "filepath": "documents/Mathematics_for_Machine_Learning_1621954313.pdf",
-    "upload_date": "2025-06-03T22:07:06.689546",
+    "upload_date": "2025-06-14T22:31:41.544621",
     "file_size": 14989280,
-    "summary": "This self-contained textbook bridges the gap between mathematical and machine learning texts, introducing the mathematical concepts with a minimum of prerequisites. It derives four central machine learning methods: linear regression, principal component analysis, Gaussian mixture models, and support vector machines.",
+    "summary": "This self-contained textbook bridges the gap between mathematical and machine learning texts, introducing fundamental mathematical tools needed for understanding machine learning such as linear algebra, analytic geometry, matrix decompositions, vector calculus, optimization, probability and statistics. It derives four central machine learning methods: linear regression, principal component analysis, Gaussian mixture models, and support vector machines. The book includes worked examples, exercises, and programming tutorials.",
     "keywords": [
       "Machine Learning",
       "Mathematics",
@@ -16559,9 +16559,16 @@
       "Analytic Geometry",
       "Matrix Decompositions"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "This textbook introduces mathematical concepts with a minimum of prerequisites, making it accessible to both students and professionals.",
+      "The book derives four central machine learning methods: linear regression, principal component analysis, Gaussian mixture models, and support vector machines, providing a starting point for further study in the field.",
+      "Every chapter includes worked examples and exercises to test understanding and build practical experience with applying mathematical concepts.",
+      "Programming tutorials are offered on the book’s web site, allowing readers to apply their knowledge in a practical setting.",
+      "The textbook is written by Marc Peter Deisenroth, A. Aldo Faisal, and Cheng Soon On, experts in the field of machine learning."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "MATHEMATICS  FOR  MACHINE LEAR NING"
+    "content_preview": "This textbook bridges the gap between mathematical and machine learning texts."
   },
   {
     "id": "4344e67bc2d0762445e1ada012e6d74e",
