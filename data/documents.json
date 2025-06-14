@@ -17236,22 +17236,22 @@
     "title": "Optimizers Comparison in DL",
     "authors": [],
     "filepath": "documents/Optimizers_Comparison_1709383473.pdf",
-    "upload_date": "2025-06-13T17:20:48.912894",
+    "upload_date": "2025-06-13T22:59:46.934935",
     "file_size": 103522,
-    "summary": "This document provides a comparison of various optimizers used in deep learning, specifically focusing on TensorFlow's Keras library and the MNIST dataset. The paper discusses the implementation of Conv2D, MaxPooling2D, Dense, Dropout, Flatten layers, and how to handle GPU registration issues. It also covers data preprocessing steps such as reshaping and normalization.",
+    "summary": "This document provides a comparison of various optimizers used in deep learning, specifically focusing on TensorFlow's Keras library and the MNIST dataset. The paper discusses the implementation of Conv2D, MaxPooling2D, Dense, Dropout, Flatten layers, and how to handle GPU registration issues. It also includes data preprocessing steps such as reshaping, normalization, and one-hot encoding.",
     "keywords": [
-      "Optimizers",
       "Deep Learning",
+      "Optimizers",
       "TensorFlow",
       "Keras",
       "MNIST"
     ],
     "key_concepts": [
-      "The document explains how to import necessary libraries for deep learning in TensorFlow's Keras.",
-      "It demonstrates the process of loading and reshaping the MNIST dataset for use in a deep learning model.",
-      "The paper discusses common layers used in deep learning models such as Conv2D, MaxPooling2D, Dense, Dropout, and Flatten.",
-      "It highlights potential issues with GPU registration and provides solutions to overcome them.",
-      "The document covers data preprocessing steps like normalization."
+      "This document demonstrates the use of various optimizers in deep learning models using TensorFlow's Keras library.",
+      "The paper explains how to implement Conv2D, MaxPooling2D, Dense, Dropout, and Flatten layers for a deep learning model.",
+      "The document discusses the process of reshaping data, normalizing pixel values, and one-hot encoding labels in a deep learning model.",
+      "The paper highlights potential issues with GPU registration and provides solutions to overcome them.",
+      "The document offers practical insights into building optimizer calls for deep learning models."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
