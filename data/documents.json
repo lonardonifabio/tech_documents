@@ -26800,17 +26800,26 @@
     "title": "Learning Deep Learning",
     "authors": [],
     "filepath": "documents/learneverythingai__1710059795.pdf",
-    "upload_date": "2025-06-03T17:53:44.749156",
+    "upload_date": "2025-06-14T19:41:15.354102",
     "file_size": 4315837,
-    "summary": "A comprehensive guide to understanding and implementing deep learning concepts.",
+    "summary": "This document provides an in-depth exploration of deep learning, a subset of machine learning and artificial intelligence. It covers the fundamentals, architectures, training methods, and applications of deep learning. Key topics include convolutional neural networks (CNNs), recurrent neural networks (RNNs), long short-term memory (LSTM) networks, and generative adversarial networks (GANs). The document also discusses practical use cases such as image recognition, natural language processing, and speech recognition. It is suitable for both beginners and advanced learners.",
     "keywords": [
       "Deep Learning",
       "Machine Learning",
-      "Artificial Intelligence"
+      "Artificial Intelligence",
+      "Convolutional Neural Networks",
+      "Recurrent Neural Networks"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Deep learning is a subset of machine learning that uses artificial neural networks with multiple layers to learn and make decisions from data.",
+      "Convolutional Neural Networks (CNNs) are a type of deep learning architecture commonly used for image recognition tasks.",
+      "Recurrent Neural Networks (RNNs) are a type of deep learning architecture that can process sequential data, making them useful for natural language processing tasks.",
+      "Long Short-Term Memory (LSTM) networks are a special type of RNN designed to handle long-term dependencies in sequential data.",
+      "Generative Adversarial Networks (GANs) are a type of deep learning architecture used for generating new data that resembles existing data."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Comprehensive guide to understanding and implementing deep learning concepts."
+    "content_preview": "Explores deep learning, its architectures, and applications in image recognition, natural language processing, and speech recognition."
   },
   {
     "id": "3cfac65e90a8ee2c53abec7fa1df488a",
