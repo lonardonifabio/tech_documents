@@ -14017,21 +14017,28 @@
   {
     "id": "bc43f1e3265cdb98376f211d3faaf075",
     "filename": "ML_Cheat_Sheet_1653560861.pdf",
-    "title": "ML Cheat Sheet",
+    "title": "Linear Models Cheat Sheet",
     "authors": [],
     "filepath": "documents/ML_Cheat_Sheet_1653560861.pdf",
-    "upload_date": "2025-06-03T17:53:41.444093",
+    "upload_date": "2025-06-14T19:41:08.644081",
     "file_size": 3373797,
-    "summary": "This document provides an overview of linear models, including simple algorithms that model a linear relationship between inputs and outputs. It discusses topics such as least squares method, predicting customer lifetime value, and K-Means clustering.",
+    "summary": "This document provides a simple algorithm for linear regression modeling, focusing on predicting customer lifetime value using stock price predictions. It discusses the linear relationship between inputs and outputs, the use of K-Means clustering approach, assumptions, and potential issues such as varying cluster sizes and dimensionality. The document also suggests scaling to large datasets, simplicity in implementation, and interpreting results.",
     "keywords": [
-      "Machine Learning",
-      "Linear Models",
-      "Regression",
-      "Predictive Analytics"
+      "Linear Regression",
+      "Stock Price Prediction",
+      "Customer Lifetime Value",
+      "K-Means Clustering"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "The linear regression algorithm models a linear relationship between inputs and outputs using a continuous numerical output variable.",
+      "K-Means clustering is the most widely used clustering approach, determining K clusters based on Euclidean distance.",
+      "Assumptions in linear regression include linearity between inputs and outputs, and independence of errors.",
+      "The document suggests scaling to large datasets for better performance and interpretability.",
+      "The 'bottom-up' approach is used where each data point is treated as its own cluster, and the closures of two clusters are merged interactively."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "L i n e a r  M o d e l s Linear Regression..."
+    "content_preview": "This document discusses linear regression modeling for predicting customer lifetime value using stock price predictions."
   },
   {
     "id": "e3b3b090800fea0725ba85fedec85424",
