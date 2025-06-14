@@ -21619,7 +21619,7 @@
   {
     "id": "b55a7874226476147b8416a43d55336b",
     "filename": "Supervised_Learning_1567266643.pdf",
-    "title": "Supervised Learning Lecture Notes",
+    "title": "Supervised Machine Learning Lecture Notes",
     "authors": [
       "Andreas Lindholm",
       "Niklas Wahlström",
@@ -21627,18 +21627,24 @@
       "Thomas B. Schön"
     ],
     "filepath": "documents/Supervised_Learning_1567266643.pdf",
-    "upload_date": "2025-06-04T21:18:55.245040",
+    "upload_date": "2025-06-14T13:06:58.351945",
     "file_size": 2080046,
-    "summary": "Lecture notes for the Statistical Machine Learning course, written for the Department of Information Technology at Uppsala University. These notes will eventually be turned into a textbook and are open to comments from readers.",
+    "summary": "These lecture notes are for the Statistical Machine Learning course at Uppsala University, covering topics such as regression and classification in machine learning. The document is a work-in-progress towards becoming a textbook, with updates being released throughout the course. It includes an overview of the course content and encourages reader feedback.",
     "keywords": [
       "Machine Learning",
-      "Statistical Learning",
+      "Statistical Machine Learning",
       "Lecture Notes",
       "Uppsala University"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "These lecture notes are for a Statistical Machine Learning course at Uppsala University, covering topics such as regression and classification.",
+      "The document is a work-in-progress towards becoming a textbook, with updates being released throughout the course.",
+      "The notes include an overview of the course content and encourage reader feedback for improvement.",
+      "The course covers the fundamental concepts of machine learning, focusing on statistical approaches."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Lecture notes for the Statistical Machine Learning course, written for the Department of Information Technology at Uppsala University."
+    "content_preview": "Lecture notes for the Statistical Machine Learning course at Uppsala University."
   },
   {
     "id": "d4f32a7867611cce57dec953e4bdef07",
