@@ -8123,19 +8123,25 @@
     "title": "Evaluating Bias in Algorithms (EDPB)",
     "authors": [],
     "filepath": "documents/EDPB_A_1739522099.pdf",
-    "upload_date": "2025-06-05T20:14:20.273690",
+    "upload_date": "2025-06-14T12:13:49.398164",
     "file_size": 488759,
-    "summary": "This document discusses sources of bias in algorithms, particularly in social media and facial recognition technology, and provides examples of bias reduction methods such as pre-processing, in-processing, and post-processing.",
+    "summary": "This document discusses the sources and reduction measures of bias in algorithms, focusing on social media and facial recognition technology. The European Data Protection Board clarifies that AI systems can reflect societal biases from historical data, and algorithmic choices can contribute to biased decisions. Evaluation bias is also addressed, which arises during assessments against non-representative datasets. Three methods for reducing bias - pre-processing, in-processing, and post-processing - are presented.",
     "keywords": [
-      "AI",
-      "Algorithms",
       "Bias",
+      "Algorithms",
+      "AI",
       "Data Protection",
-      "European Data Protection Board"
+      "Facial Recognition"
+    ],
+    "key_concepts": [
+      "AI systems reflect societal biases from historical data",
+      "Algorithmic choices can contribute to biased decisions",
+      "Evaluation bias arises during assessments against non-representative datasets",
+      "Three methods for reducing bias - pre-processing, in-processing, and post-processing"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "When trained on historical data, AI systems reflect societal bias which are embedded in the dataset."
+    "content_preview": "This document discusses sources and reduction measures of bias in algorithms."
   },
   {
     "id": "5d73f23cd5b955316ea6fcceeb2001ec",
