@@ -10317,25 +10317,26 @@
     "title": "Graph Convolutional Networks",
     "authors": [],
     "filepath": "documents/Graph_Convolutional_Networks__1748375983.pdf",
-    "upload_date": "2025-06-13T17:20:44.630899",
+    "upload_date": "2025-06-13T22:59:42.655916",
     "file_size": 5574863,
-    "summary": "This document provides the code for loading a dataset using the Planetoid library, specifically the Cora dataset in graph machine learning. The code also initializes a Graph Neural Network (GNN) model. The work is based on the paper 'Graph Convolutional Networks' published on arXiv.org. This document is useful for Intermediate level Data Science and Machine Learning practitioners interested in Graph Neural Networks.",
+    "summary": "This document provides the code for loading a dataset using the Planetoid library, specifically the Cora dataset, which is commonly used in graph-based machine learning tasks. The code also initializes a Graph Neural Network (GNN) model. The paper, available at arXiv:1609.02907v4, introduces Graph Convolutional Networks (GCNs), a type of deep learning architecture designed for graph-structured data. GCNs have been widely used in various applications such as node classification and link prediction.",
     "keywords": [
-      "Graph Neural Networks",
+      "Graph Convolutional Networks",
+      "GNN",
       "Planetoid",
       "Cora dataset",
-      "arXiv",
-      "GNN"
+      "Deep Learning"
     ],
     "key_concepts": [
-      "The code demonstrates how to load the Cora dataset using Planetoid library.",
-      "It initializes a Graph Neural Network (GNN) model for graph machine learning tasks.",
-      "The work is based on the paper 'Graph Convolutional Networks' published on arXiv.org.",
-      "This document serves as an example of using GNN in practice."
+      "Graph Convolutional Networks (GCNs) are a type of deep learning architecture designed for graph-structured data.",
+      "The code provided loads the Cora dataset using the Planetoid library.",
+      "The document initializes a Graph Neural Network (GNN) model.",
+      "GCNs have been applied to tasks such as node classification and link prediction.",
+      "The paper is available at arXiv:1609.02907v4."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Code for loading Cora dataset and initializing a Graph Neural Network (GNN) model."
+    "content_preview": "This document provides code for loading a dataset and initializing a GNN model."
   },
   {
     "id": "e4919e56a68a2cbbdd4213ec060b37e7",
