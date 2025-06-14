@@ -16189,18 +16189,26 @@
     "title": "Matplotlib Cheat Sheet Plotting in Python",
     "authors": [],
     "filepath": "documents/Matplotlib Cheat Sheet Plotting in Python.pdf",
-    "upload_date": "2025-06-06T15:45:46.537679",
+    "upload_date": "2025-06-14T13:06:55.472945",
     "file_size": 1734765,
-    "summary": "This document provides a cheatsheet for using Matplotlib, a popular Python library for 2D plotting. It covers topics such as axes, data visualization, and customizing plots.",
+    "summary": "This document provides a comprehensive guide to using Matplotlib, a popular Python library for 2D plotting. It covers topics such as 1D and 2D plots, data visualization, color maps, markers, lines types, text and annotations, mathematical limits, legends, axes, figures, distributions, and interactive environments. The guide also includes a section on creating custom plots.",
     "keywords": [
       "Matplotlib",
       "Python",
+      "Plotting",
       "Data Visualization",
-      "Cheat Sheet"
+      "2D Plots"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "Matplotlib is a Python library for 2D plotting that produces high-quality figures in a variety of formats and interactive environments.",
+      "The guide covers topics such as 1D and 2D plots, data visualization, color maps, markers, lines types, text and annotations, mathematical limits, legends, axes, figures, distributions, and interactive environments.",
+      "The document includes a section on creating custom plots using Matplotlib.",
+      "Matplotlib provides public-quality figures in various formats and interactive environments across platforms.",
+      "The guide demonstrates how to create 2D plots using Matplotlib by importing necessary libraries, generating data, plotting the data, and customizing the plot."
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "M atp l o tlib Cheat Shee tPytho n F o r D ata Sci e n ce"
+    "content_preview": "Guide to using Matplotlib for 2D plotting in Python"
   },
   {
     "id": "43d511f2715eb5d1a54e68da113a0ec0",
