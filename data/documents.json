@@ -15354,26 +15354,26 @@
       "Stefanos Zafeiriou"
     ],
     "filepath": "documents/Math_for_inference_and_ML_1740694642.pdf",
-    "upload_date": "2025-06-12T20:29:18.940326",
+    "upload_date": "2025-06-13T22:59:45.660929",
     "file_size": 3482203,
-    "summary": "This document is a set of lecture notes from Imperial College London's Department of Computing, focusing on Mathematics for Inference and Machine Learning. The notes cover topics such as Linear Regression, Probabilities, Statistical Independence, Basic Probability Distributions, and Probabilistic Graphical Models. The instructors are Marc Deisenroth and Stefanos Zafeiriou. The document also includes discussions on the Uniform Distribution, Bernoulli Distribution, Binomial Distribution, Beta Distribution, Gaussian Distribution, Gamma Distribution, Wishart Distribution, and Conjugacy.",
+    "summary": "This document is a set of lecture notes from Imperial College London's Department of Computing, focusing on the mathematical foundations required for inference and machine learning. Topics covered include linear regression, probabilities, statistical independence, basic probability distributions, and probabilistic graphical models. The instructors are Marc Deisenroth and Stefanos Zafeiriou.",
     "keywords": [
       "Mathematics",
       "Inference",
       "Machine Learning",
-      "Linear Regression",
-      "Probabilities"
+      "Probability Distributions",
+      "Linear Regression"
     ],
     "key_concepts": [
-      "These lecture notes provide a comprehensive introduction to the mathematical foundations required for inference and machine learning.",
-      "The document covers Linear Regression, a fundamental concept in statistics used for modeling the relationship between a dependent variable and one or more independent variables.",
-      "Probabilities are a central topic, with discussions on means and covariances, sum of random variables, affine transformation, statistical independence, and basic probability distributions.",
-      "The course delves into various probability distributions, including the Uniform Distribution, Bernoulli Distribution, Binomial Distribution, Beta Distribution, Gaussian Distribution, Gamma Distribution, Wishart Distribution, and Conjugacy.",
-      "Probabilistic Graphical Models are introduced as a way to represent and reason about complex systems using graph structures."
+      "The document provides the mathematical foundations necessary for understanding inference and machine learning, focusing on linear regression.",
+      "It covers various probability distributions such as uniform, Bernoulli, binomial, beta, Gaussian, gamma, Wishart, and their properties.",
+      "The document introduces probabilistic graphical models to represent complex relationships between variables.",
+      "Statistical independence is discussed in the context of probability theory.",
+      "Conjugacy is a concept that links prior and posterior distributions in Bayesian statistics."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "LECTURE NOTES IMPERIAL COLLEGE LONDON DEPARTMENT OF COMPUTING Mathematics for Inference and Machine Learning"
+    "content_preview": "Lecture notes on Mathematics for Inference and Machine Learning from Imperial College London."
   },
   {
     "id": "56a66499ebd950331ae96fb8e15e5e2b",
