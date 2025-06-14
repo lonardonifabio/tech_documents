@@ -15612,9 +15612,9 @@
     "title": "Machine Learning in Emoji",
     "authors": [],
     "filepath": "documents/Machine_Learning_in_EMOJI_1627285379.pdf",
-    "upload_date": "2025-06-05T14:25:30.906255",
+    "upload_date": "2025-06-14T19:41:09.422083",
     "file_size": 307015,
-    "summary": "This document provides an overview of machine learning concepts using emojis, covering supervised and unsupervised learning, basic regression (linear and logistic), clustering analysis (K-Means), anomaly detection, bias-variance tradeoff, important accuracy functions, classification methods (neural network, K-NN, decision tree, random forest, SV...",
+    "summary": "This document provides an overview of machine learning concepts using emojis, covering supervised and unsupervised learning, basic regression (linear and logistic), clustering analysis (K-Means), anomaly detection, bias-variance tradeoff, important metrics like accuracy, precision, specificity, and sensitivity, classification methods (neural network, K-NN, decision tree, random forest, SVM, naive Bayes), feature reduction techniques (T-Distributed Stochastic Neighbor Embedding), and neighbor embedding.",
     "keywords": [
       "Machine Learning",
       "Emoji",
@@ -15622,9 +15622,16 @@
       "Unsupervised Learning",
       "Regression"
     ],
+    "key_concepts": [
+      "Machine learning is explained using emojis to make it more accessible.",
+      "Supervised learning involves a human building a model based on input/output pairs, with the human providing feedback for improvement.",
+      "Basic regression includes linear and logistic regression models, which are used for numerical and categorical data respectively.",
+      "Clustering analysis groups similar data points together using K-Means algorithm.",
+      "Anomaly detection finds outliers in a dataset by grouping data points and identifying unusual patterns."
+    ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "MACHINE LEARNING IN EMOJI\nSUPERVISED\nUNSUPERVISED"
+    "content_preview": "Overview of machine learning concepts using emojis, covering supervised and unsupervised learning, basic regression, clustering analysis, anomaly detection, bias-variance tradeoff, important metrics, classification methods, feature reduction techniques."
   },
   {
     "id": "e4fa449f9a0406f2c7cee5dc98386059",
