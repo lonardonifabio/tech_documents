@@ -10786,9 +10786,9 @@
       "Abid Ali Awan"
     ],
     "filepath": "documents/Guide_to_Machine_Learning_Pipelines_1635584372.pdf",
-    "upload_date": "2025-06-03T17:53:40.476085",
+    "upload_date": "2025-06-14T13:06:52.225945",
     "file_size": 1903990,
-    "summary": "This guide explains the importance of Machine Learning pipelines, demonstrates their use in production with a disaster tweets classification dataset, and introduces the Orchest platform. It also discusses the benefits of using pipelines for model deployment and scaling.",
+    "summary": "This document provides a comprehensive guide on the use of machine learning pipelines in production, with a practical example of disaster tweets classification. It covers installation and usage of the Orchest platform, data ingestion, preprocessing, training, and evaluation. The article emphasizes the importance of ML pipelines for flexibility, scalability, tracking changes, and maintaining similar versions in an ecosystem.",
     "keywords": [
       "Machine Learning Pipelines",
       "Orchest",
@@ -10796,9 +10796,16 @@
       "Natural Language Processing",
       "Disaster Tweets Classification"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "ML pipelines are independently executable code to run multiple tasks including data preparation and training machine learning models.",
+      "The Orchest platform is used for installing and using ML pipelines, providing flexibility and reproducibility in workflows.",
+      "The document demonstrates a practical example of disaster tweets classification using ML pipelines.",
+      "The importance of using ML pipelines for deploying models into production is highlighted due to the need for flexibility, scalability, tracking changes, and maintaining similar versions across the ecosystem.",
+      "The article is part of the Data Science Blogathon."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Learn how machine learning pipelines are used in productions and design your first pipeline using simple steps on disaster tweets classification datasets."
+    "content_preview": "Learn how to design your first machine learning pipeline using simple steps on disaster tweets classification datasets."
   },
   {
     "id": "f888b19ce23ff3dca6ed510d99c2da04",
