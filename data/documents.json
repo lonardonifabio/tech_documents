@@ -13896,23 +13896,31 @@
   {
     "id": "deadb394d4b61407ec40a66244bde461",
     "filename": "ML_notes_1673264685.pdf",
-    "title": "Lecture Notes in Machine Learning by Dr V N Krishnachandran",
+    "title": "Lecture Notes in Machine Learning",
     "authors": [
       "Dr V N Krishnachandran"
     ],
     "filepath": "documents/ML_notes_1673264685.pdf",
-    "upload_date": "2025-06-04T21:18:52.889027",
+    "upload_date": "2025-06-14T13:06:54.155945",
     "file_size": 1306789,
-    "summary": "These are lecture notes on Machine Learning by Dr V N Krishnachandran from the Vidya Centre for Artificial Intelligence Research at Vidya Academy of Science & Technology, Thrissur.",
+    "summary": "These lecture notes cover essential topics in machine learning, including linear regression, logistic regression, neural networks, support vector machines, and reinforcement learning. The notes also delve into Bayesian methods, kernel methods, and unsupervised learning techniques. Key applications include image recognition, natural language processing, and recommendation systems.",
     "keywords": [
       "Machine Learning",
-      "Lecture Notes",
-      "Dr V N Krishnachandran",
-      "Vidya Centre for Artificial Intelligence Research"
+      "Linear Regression",
+      "Logistic Regression",
+      "Neural Networks",
+      "Support Vector Machines"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "The notes provide a comprehensive introduction to machine learning, explaining the fundamental concepts and algorithms.",
+      "Linear regression is covered in detail, with an emphasis on its practical applications in predicting continuous outcomes.",
+      "Logistic regression is introduced as a popular method for binary classification problems.",
+      "Neural networks are discussed, focusing on their ability to learn complex patterns and relationships in data.",
+      "Support vector machines (SVMs) are presented as versatile algorithms for both classification and regression tasks."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Lecture Notes  in  MACHINE LEARNING   Dr V N Krishnachandran"
+    "content_preview": "Comprehensive introduction to machine learning, linear regression, logistic regression, neural networks, SVMs, and reinforcement learning."
   },
   {
     "id": "b44b81e4f1f777a7a8d3a648f025b204",
