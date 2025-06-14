@@ -14273,18 +14273,26 @@
       "Oliver Theobald"
     ],
     "filepath": "documents/ML_for_Absolute_Beginners_1616999539.pdf",
-    "upload_date": "2025-06-04T21:18:52.880027",
+    "upload_date": "2025-06-14T19:41:08.693081",
     "file_size": 782697,
-    "summary": "A beginner's guide to Machine Learning, first edition published in 2017 by Oliver Theobald.",
+    "summary": "This document is a comprehensive guide for absolute beginners in Machine Learning, covering the basics of ML algorithms, data preprocessing, model training, evaluation, and common pitfalls. It also includes practical examples using Python libraries such as scikit-learn and TensorFlow. The book emphasizes the importance of understanding the underlying principles and theoretical foundations of ML.",
     "keywords": [
       "Machine Learning",
-      "Beginner",
-      "Book",
-      "Oliver Theobald"
+      "Beginner's Guide",
+      "Python",
+      "scikit-learn",
+      "TensorFlow"
+    ],
+    "key_concepts": [
+      "Machine Learning is a subset of Artificial Intelligence that enables computers to learn from data and make predictions or decisions without being explicitly programmed.",
+      "The book covers various ML algorithms such as linear regression, logistic regression, decision trees, random forests, k-nearest neighbors, support vector machines, and neural networks.",
+      "Data preprocessing is a crucial step in the ML pipeline, which involves cleaning, transforming, and normalizing data to improve model performance.",
+      "Model training involves feeding the preprocessed data into an ML algorithm to learn patterns and make predictions. The book covers various optimization techniques such as gradient descent and backpropagation.",
+      "Model evaluation is essential for assessing the performance of a trained model. The book discusses various metrics such as accuracy, precision, recall, F1 score, and ROC AUC."
     ],
     "category": "Machine Learning",
     "difficulty": "Beginner",
-    "content_preview": "Machine Learning for Absolute Beginners"
+    "content_preview": "A beginner's guide to Machine Learning, covering the basics of ML algorithms, data preprocessing, model training, evaluation, and common pitfalls."
   },
   {
     "id": "b6d2745d07950373b80aeff54d6d61c5",
