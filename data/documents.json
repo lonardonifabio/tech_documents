@@ -2808,21 +2808,30 @@
     "id": "997e8a5ec2369f1223b5ae4342edaf92",
     "filename": "ALI_AA_BC_1744538704.pdf",
     "title": "AI Agents, Liability, and Lessons from car regulation",
-    "authors": [],
+    "authors": [
+      "ADA Lovelace Institute"
+    ],
     "filepath": "documents/ALI_AA_BC_1744538704.pdf",
-    "upload_date": "2025-06-05T20:14:16.591629",
+    "upload_date": "2025-06-14T13:06:47.348944",
     "file_size": 462090,
-    "summary": "This document examines how regulation can govern autonomous AI agents, focusing on liability issues that support responsible innovation. It offers a policy roadmap for developers, insurers, and regulators.",
+    "summary": "This document discusses the regulation of autonomous AI agents, focusing on liability issues to support responsible innovation. The paper proposes a framework that clarifies liability based on agent autonomy, reducing legal uncertainty for startups and researchers. This encourages innovation in oversight tools like audit logs, kill switches, and user approvals. The document offers valuable insights for developers, insurers, and regulators.",
     "keywords": [
-      "AI",
-      "Autonomous AI Agents",
+      "AI Agents",
       "Liability",
       "Regulation",
-      "Responsible Innovation"
+      "Responsible Innovation",
+      "Autonomous Systems"
+    ],
+    "key_concepts": [
+      "By clarifying liability based on agent autonomy, the framework empowers developers to innovate without fearing unpredictable legal exposure.",
+      "Clear liability rules reduce legal uncertainty, making it easier for startups and researchers to bring novel AI agents to market responsibly.",
+      "The taxonomy encourages innovation in oversight tools —like audit logs, kill switches, and user approvals—that support both safety and creativity.",
+      "The document offers a crucial policy roadmap by aligning legal certainty with technical progress.",
+      "The utility of this paper lies in providing actionable insights for developers, insurers, and regulators."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Examines how regulation can govern autonomous AI agents, focusing on liability issues."
+    "content_preview": "This document discusses the regulation of autonomous AI agents to support responsible innovation."
   },
   {
     "id": "ea2490e040c8872865a2cd336d5d2b11",
