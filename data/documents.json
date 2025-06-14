@@ -2468,24 +2468,31 @@
   {
     "id": "3c63f6b3543dcdd892bb799707ac5e2f",
     "filename": "AI_by_Hands_1711229073.pdf",
-    "title": "AI_by_Hands_1711229073.pdf",
+    "title": "AI Techniques Explored in AI_by_Hands_1711229073.pdf",
     "authors": [
       "Tom Yeh"
     ],
     "filepath": "documents/AI_by_Hands_1711229073.pdf",
-    "upload_date": "2025-06-03T17:53:37.776057",
+    "upload_date": "2025-06-14T13:06:47.048944",
     "file_size": 6189934,
-    "summary": "This document discusses various advanced topics in Artificial Intelligence, including Mixture of Experts (MOEs), Recurrent Neural Networks (RNN), Mamba, Matrix Multiplication, LLM Sampling, and more. It also covers the implementation of these concepts using PyTorch.",
+    "summary": "This document provides an overview of various advanced Artificial Intelligence (AI) techniques, including Mixture of Experts (MOEs), Recurrent Neural Networks (RNN), Mamba, Matrix Multiplication, LLM Sampling, Multilayer Perceptron (MLP) in PyTorch, Backpropagation, Transformer, Batch Normalization, Generative Adversarial Network (GAN), Self Attention, Dropout, Autoencoder, Vector Database, CLIP, Residual Network (ResNet), Graph Convolution Network (GCN), SORA’s Diffusion Transformer (DiT), Gemini 1.5's Switch Transformer, and Reinforcement Learning with Human Feedback (RLHF). The document also covers concepts such as One Node, Four Nodes, One Hidden Layer, Three Inputs, Seven Layers, and...",
     "keywords": [
-      "Artificial Intelligence",
+      "AI",
       "Machine Learning",
-      "Deep Learning",
+      "Neural Networks",
       "PyTorch",
-      "Mixture of Experts"
+      "Backpropagation"
+    ],
+    "key_concepts": [
+      "The document discusses the concept of a One Node, which is a basic building block in AI.",
+      "Four Nodes refer to a specific arrangement of nodes in an AI network.",
+      "One Hidden Layer is a layer in an AI network that processes information before it reaches the output layer.",
+      "Three Inputs are data points used as input for the AI model.",
+      "The document delves into the use and implementation of Seven Layers in an AI network."
     ],
     "category": "AI",
     "difficulty": "Advanced",
-    "content_preview": "This document discusses various advanced topics in AI, including Mixture of Experts (MOEs), Recurrent Neural Networks (RNN), and more."
+    "content_preview": "Document: AI Techniques Explored in AI_by_Hands_1711229073.pdf"
   },
   {
     "id": "11b0a844ec09acf9628af5f46a1359b2",
