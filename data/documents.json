@@ -14884,9 +14884,9 @@
     "title": "Machine Learning in Emoji",
     "authors": [],
     "filepath": "documents/Machine_Learning_in_EMOJI_1627285379 (1).pdf",
-    "upload_date": "2025-06-03T17:53:41.834100",
+    "upload_date": "2025-06-14T13:06:54.873945",
     "file_size": 307015,
-    "summary": "This document provides an overview of machine learning concepts using emojis, covering supervised and unsupervised learning, basic regression (linear and logistic), clustering analysis (K-Means), anomaly detection, bias-variance tradeoff, important metrics like accuracy, precision, specificity, sensitivity, classification methods (neural network...",
+    "summary": "This document provides an overview of machine learning concepts using emojis, covering supervised and unsupervised learning, basic regression (linear and logistic), clustering analysis (K-Means), anomaly detection, bias-variance tradeoff, various accuracy functions, classification methods (neural network, K-NN, decision tree, random forest, SVM, naive Bayes), and feature reduction techniques (T-Distributed Stochastic Neighbor Embedding).",
     "keywords": [
       "Machine Learning",
       "Emoji",
@@ -14894,9 +14894,16 @@
       "Unsupervised Learning",
       "Regression"
     ],
+    "key_concepts": [
+      "Machine learning models are built based on input/output data, with human input and machine output iteratively refined until satisfactory.",
+      "Basic regression can be either linear or logistic, using the LinearRegression() and LogisticRegression() functions respectively.",
+      "Clustering analysis groups similar data points based on centroids using K-Means.",
+      "Anomaly detection finds outliers through grouping using covariance.EllipticalEnvelope().",
+      "Understanding the bias-variance tradeoff is crucial to avoid underfitting or overfitting in machine learning models."
+    ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "MACHINE LEARNING IN EMOJI\nSUPERVISED\nUNSUPERVISED"
+    "content_preview": "Overview of machine learning concepts using emojis."
   },
   {
     "id": "4569350b71a55359a92042c37beab2b0",
