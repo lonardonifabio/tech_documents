@@ -7781,9 +7781,9 @@
     "title": "Deep Learning in Python",
     "authors": [],
     "filepath": "documents/Deep_Learning_in_Python_1741329080.pdf",
-    "upload_date": "2025-06-05T20:14:19.870682",
+    "upload_date": "2025-06-14T13:06:50.714945",
     "file_size": 2895863,
-    "summary": "This document provides an introduction to Deep Learning using Python, focusing on Neural Networks, Activation Functions, Loss Functions, Optimizers, and the Feedforward Neural Network (FNN) model. It includes code snippets for creating a simple FNN using TensorFlow and Keras.",
+    "summary": "This document provides an introduction to deep learning using Python. It covers the composition of neural networks, including input, hidden, and output layers, as well as various activation functions such as Sigmoid, ReLU, Tanh, and Softmax. The text also discusses loss functions like MSE and Cross-Entropy, and optimizers such as SGD, Adam, and RMSprop. It concludes with a practical example of creating a Feedforward Neural Network (FNN) using TensorFlow and Keras libraries.",
     "keywords": [
       "Deep Learning",
       "Python",
@@ -7791,9 +7791,16 @@
       "Activation Functions",
       "Loss Functions"
     ],
+    "key_concepts": [
+      "A neural network is composed of input, hidden, and output layers.",
+      "Common activation functions include Sigmoid, ReLU, Tanh, and Softmax.",
+      "Loss functions like MSE and Cross-Entropy are used to measure the difference between predicted and actual values.",
+      "Optimizers such as SGD, Adam, and RMSprop help adjust the weights of a neural network during training.",
+      "This document provides a practical example of creating a Feedforward Neural Network (FNN) using TensorFlow and Keras libraries."
+    ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Deep Learning in Python, Neural Networks – Composed of input, hidden, and output layers"
+    "content_preview": "This document introduces deep learning using Python, covering neural networks, activation functions, loss functions, optimizers, and a practical example."
   },
   {
     "id": "d1aea813d6dddce1a40c98b0d14d6e58",
