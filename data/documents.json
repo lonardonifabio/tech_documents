@@ -5854,21 +5854,29 @@
   {
     "id": "3af037d32186396d43d188efc942ee97",
     "filename": "Che_cos_MLOps__1642096489.pdf",
-    "title": "What is MLOps?",
+    "title": "MLOps: A Comprehensive Guide",
     "authors": [],
     "filepath": "documents/Che_cos_MLOps__1642096489.pdf",
-    "upload_date": "2025-06-03T22:07:03.148517",
+    "upload_date": "2025-06-14T19:41:03.187061",
     "file_size": 412409,
-    "summary": "MLOps is a set of practices aimed at deploying and maintaining machine learning models in production reliably and efficiently. It combines 'machine learning' with the continuous development practice of DevOps for software.",
+    "summary": "This document discusses MLOps, an approach that aims to deploy and maintain machine learning models in production reliably and efficiently. It combines the principles of Machine Learning and DevOps practices. The focus is on testing and developing ML models in isolated experimental systems, and transferring them to production systems using Data Scientists, DevOps, and Machine Learning Engineers. Similar to DevOps or DataOps, MLOps aims to increase automation and improve the quality of production models, while also considering business and regulatory requirements.",
     "keywords": [
       "MLOps",
       "Machine Learning",
       "DevOps",
-      "Data Science"
+      "Production",
+      "Automation"
+    ],
+    "key_concepts": [
+      "MLOps is a set of practices that aims to distribute and maintain machine learning models in production reliably and efficiently.",
+      "The approach combines the principles of Machine Learning and DevOps practices.",
+      "MLOps involves Data Scientists, DevOps, and Machine Learning Engineers to transfer an algorithm to production systems.",
+      "MLOps aims to increase automation and improve the quality of production models while considering business and regulatory requirements.",
+      "The focus is on testing and developing ML models in isolated experimental systems."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "MLOps è un insieme di pratiche che mira a distribuire e mantenere modelli di machine learning in produzione in modo affidabile ed efficiente."
+    "content_preview": "This document discusses MLOps, an approach that aims to deploy machine learning models in production reliably and efficiently."
   },
   {
     "id": "527493349c097147614b01f1a2a4f57c",
