@@ -22590,18 +22590,26 @@
       "Steven S. Skiena"
     ],
     "filepath": "documents/The_Data_Science_Design_Manual_1749114218.pdf",
-    "upload_date": "2025-06-05T20:14:28.121851",
+    "upload_date": "2025-06-14T13:06:59.177945",
     "file_size": 15274614,
-    "summary": "This document is a part of the 'Texts in Computer Science' series, focusing on Data Science Design. Edited by Steven S. Skiena and series editors David Gries, Orit Hazzan, and Fred B. Schneider.",
+    "summary": "This document provides a comprehensive guide to data science design, covering topics such as algorithms, machine learning, and statistical analysis. It offers practical applications for various industries and emphasizes the importance of design principles in data science. The book is part of the Texts in Computer Science series, edited by David Gries, Orit Hazzan, and Fred B. Schneider.",
     "keywords": [
       "Data Science",
-      "Computer Science",
-      "Manual",
-      "Textbook"
+      "Design",
+      "Algorithms",
+      "Machine Learning",
+      "Statistical Analysis"
+    ],
+    "key_concepts": [
+      "The book emphasizes the importance of design principles in data science, ensuring that models are interpretable, scalable, and robust.",
+      "It covers various machine learning techniques, including regression, classification, clustering, and dimensionality reduction.",
+      "The text offers practical applications for industries such as finance, healthcare, and marketing, demonstrating the versatility of data science.",
+      "The book is grounded in theoretical foundations, providing a strong understanding of statistical analysis and probability theory.",
+      "It encourages readers to approach data science problems systematically, following a design process that includes problem definition, data collection, model development, evaluation, and deployment."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Data Science Design MANUALTEXTS in Computer Science"
+    "content_preview": "A guide to data science design, covering algorithms, machine learning, and practical applications."
   },
   {
     "id": "e7e56040c24c697bb855af0d69573441",
