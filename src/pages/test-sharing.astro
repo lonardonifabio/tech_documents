@@ -1,7 +1,8 @@
 ---
-const title = "Test Mobile Sharing - AI Document Library";
-const description = "Test page to verify mobile LinkedIn sharing functionality works correctly on iOS Safari and other mobile browsers.";
-const testUrl = "https://lonardonifabio.github.io/tech_documents/test-sharing";
+// Test page for social media sharing optimization
+const title = "Test Sharing - AI & Data Science Document Library";
+const description = "Test page to verify LinkedIn and social media sharing functionality with proper Open Graph meta tags.";
+const pageUrl = "https://lonardonifabio.github.io/tech_documents/test-sharing";
 const imageUrl = "https://www.fabiolonardoni.it/AIdatasciencelibrary_cover.JPG";
 ---
 
@@ -9,245 +10,175 @@ const imageUrl = "https://www.fabiolonardoni.it/AIdatasciencelibrary_cover.JPG";
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
     <title>{title}</title>
-    
-    <!-- iOS Safari specific meta tags -->
-    <meta name="apple-touch-fullscreen" content="yes">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="AI Doc Library">
-    
-    <!-- Additional mobile sharing optimization -->
-    <meta name="HandheldFriendly" content="true">
-    <meta name="MobileOptimized" content="width">
     
     <!-- Enhanced Open Graph for LinkedIn sharing -->
     <meta property="og:title" content={title}>
     <meta property="og:description" content={description}>
     <meta property="og:type" content="website">
-    <meta property="og:url" content={testUrl}>
+    <meta property="og:url" content={pageUrl}>
     <meta property="og:image" content={imageUrl}>
+    <meta property="og:image:secure_url" content={imageUrl}>
+    <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="AI & Data Science Document Library - Mobile Test">
+    <meta property="og:image:alt" content="AI & Data Science Document Library - Test Sharing Page">
     <meta property="og:site_name" content="AI & Data Science Document Library">
     <meta property="og:locale" content="en_US">
+    
+    <!-- LinkedIn specific optimizations -->
+    <meta property="article:author" content="Fabio Lonardoni">
+    <meta property="linkedin:owner" content="Fabio Lonardoni">
     
     <!-- Enhanced Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content={title}>
     <meta name="twitter:description" content={description}>
     <meta name="twitter:image" content={imageUrl}>
-    <meta name="twitter:image:alt" content="AI & Data Science Document Library - Mobile Test">
+    <meta name="twitter:image:alt" content="AI & Data Science Document Library - Test Sharing Page">
     <meta name="twitter:site" content="@fabiolonardoni">
     <meta name="twitter:creator" content="@fabiolonardoni">
     
-    <!-- LinkedIn specific meta tags -->
-    <meta property="article:author" content="Fabio Lonardoni">
-    
-    <!-- Additional meta for mobile sharing -->
+    <!-- Additional meta tags for better social sharing -->
     <meta name="author" content="Fabio Lonardoni">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href={testUrl}>
+    <link rel="canonical" href={pageUrl}>
     
-    <style>
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        margin: 0;
-        padding: 20px;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        min-height: 100vh;
-        color: white;
-      }
-      
-      .container {
-        max-width: 600px;
-        margin: 0 auto;
-        background: rgba(255, 255, 255, 0.1);
-        padding: 30px;
-        border-radius: 15px;
-        backdrop-filter: blur(10px);
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-      }
-      
-      h1 {
-        text-align: center;
-        margin-bottom: 30px;
-        font-size: 2rem;
-      }
-      
-      .test-info {
-        background: rgba(255, 255, 255, 0.2);
-        padding: 20px;
-        border-radius: 10px;
-        margin-bottom: 30px;
-      }
-      
-      .share-buttons {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        margin-top: 30px;
-      }
-      
-      .share-btn {
-        padding: 15px 20px;
-        border: none;
-        border-radius: 10px;
-        font-size: 16px;
-        font-weight: bold;
-        cursor: pointer;
-        text-decoration: none;
-        text-align: center;
-        transition: transform 0.2s;
-      }
-      
-      .share-btn:active {
-        transform: scale(0.95);
-      }
-      
-      .linkedin {
-        background: #0077b5;
-        color: white;
-      }
-      
-      .twitter {
-        background: #1da1f2;
-        color: white;
-      }
-      
-      .copy-link {
-        background: rgba(255, 255, 255, 0.9);
-        color: #333;
-      }
-      
-      .meta-info {
-        background: rgba(0, 0, 0, 0.2);
-        padding: 15px;
-        border-radius: 8px;
-        margin-top: 20px;
-        font-size: 14px;
-        font-family: monospace;
-      }
-      
-      @media (max-width: 480px) {
-        .container {
-          padding: 20px;
+    <!-- Additional LinkedIn optimization -->
+    <meta property="og:rich_attachment" content="true">
+    
+    <!-- Structured Data for better SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Test Sharing - AI & Data Science Document Library",
+      "description": "Test page to verify LinkedIn and social media sharing functionality with proper Open Graph meta tags.",
+      "url": "https://lonardonifabio.github.io/tech_documents/test-sharing",
+      "author": {
+        "@type": "Person",
+        "name": "Fabio Lonardoni"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI & Data Science Document Library",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.fabiolonardoni.it/AIdatasciencelibrary_cover.JPG"
         }
-        
-        h1 {
-          font-size: 1.5rem;
-        }
-      }
-    </style>
+      },
+      "image": "https://www.fabiolonardoni.it/AIdatasciencelibrary_cover.JPG"
+    }
+    </script>
   </head>
-  <body>
-    <div class="container">
-      <h1>📱 Mobile Sharing Test</h1>
-      
-      <div class="test-info">
-        <h3>🎯 Test Instructions:</h3>
-        <p>1. Copy the link below</p>
-        <p>2. Open LinkedIn mobile app or Safari</p>
-        <p>3. Paste the link in a post</p>
-        <p>4. Verify the preview shows:</p>
-        <ul>
-          <li>✅ Correct title</li>
-          <li>✅ Description</li>
-          <li>✅ Cover image</li>
-        </ul>
-      </div>
-      
-      <div class="share-buttons">
-        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://lonardonifabio.github.io/tech_documents/test-sharing" 
-           class="share-btn linkedin" 
-           target="_blank"
-           rel="noopener noreferrer">
-          📤 Share on LinkedIn (Web)
-        </a>
+  <body class="bg-gray-50 min-h-screen">
+    <div class="max-w-4xl mx-auto p-8">
+      <div class="bg-white rounded-lg shadow-lg p-8">
+        <h1 class="text-4xl font-bold text-gray-900 mb-6">🧪 Social Media Sharing Test</h1>
         
-        <a href="https://twitter.com/intent/tweet?url=https://lonardonifabio.github.io/tech_documents/test-sharing&text=Testing mobile sharing for AI Document Library" 
-           class="share-btn twitter" 
-           target="_blank">
-          🐦 Share on Twitter
-        </a>
+        <div class="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8">
+          <h2 class="text-xl font-semibold text-blue-800 mb-3">LinkedIn Sharing Test</h2>
+          <p class="text-blue-700 mb-4">
+            This page is designed to test LinkedIn sharing functionality. When you share this URL on LinkedIn, 
+            it should display a rich preview with:
+          </p>
+          <ul class="list-disc list-inside text-blue-700 space-y-2">
+            <li><strong>Title:</strong> Test Sharing - AI & Data Science Document Library</li>
+            <li><strong>Description:</strong> Test page to verify LinkedIn and social media sharing functionality...</li>
+            <li><strong>Image:</strong> AI & Data Science library cover image</li>
+            <li><strong>URL:</strong> https://lonardonifabio.github.io/tech_documents/test-sharing</li>
+          </ul>
+        </div>
         
-        <button class="share-btn copy-link" onclick="copyLink()">
-          📋 Copy Link
-        </button>
-      </div>
-      
-      <div class="meta-info">
-        <strong>Current URL:</strong><br>
-        <span id="current-url">https://lonardonifabio.github.io/tech_documents/test-sharing</span>
+        <div class="grid md:grid-cols-2 gap-6 mb-8">
+          <div class="bg-green-50 border border-green-200 rounded-lg p-6">
+            <h3 class="text-lg font-semibold text-green-800 mb-3">✅ What Should Work</h3>
+            <ul class="text-green-700 space-y-2 text-sm">
+              <li>• Rich preview on LinkedIn</li>
+              <li>• Cover image displayed</li>
+              <li>• Title and description visible</li>
+              <li>• Proper URL formatting</li>
+              <li>• Author attribution</li>
+            </ul>
+          </div>
+          
+          <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
+            <h3 class="text-lg font-semibold text-yellow-800 mb-3">🔧 Technical Details</h3>
+            <ul class="text-yellow-700 space-y-2 text-sm">
+              <li>• Open Graph meta tags</li>
+              <li>• Twitter Card support</li>
+              <li>• LinkedIn-specific optimizations</li>
+              <li>• Structured data (JSON-LD)</li>
+              <li>• Canonical URL</li>
+            </ul>
+          </div>
+        </div>
         
-        <br><br>
+        <div class="bg-gray-100 rounded-lg p-6 mb-8">
+          <h3 class="text-lg font-semibold text-gray-800 mb-3">🔗 Test URLs</h3>
+          <div class="space-y-3">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Current Page:</label>
+              <input 
+                type="text" 
+                value={pageUrl}
+                readonly 
+                class="w-full p-2 border border-gray-300 rounded bg-white text-sm"
+              />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Main Library:</label>
+              <input 
+                type="text" 
+                value="https://lonardonifabio.github.io/tech_documents/"
+                readonly 
+                class="w-full p-2 border border-gray-300 rounded bg-white text-sm"
+              />
+            </div>
+          </div>
+        </div>
         
-        <strong>Image URL:</strong><br>
-        <span>https://www.fabiolonardoni.it/AIdatasciencelibrary_cover.JPG</span>
+        <div class="flex flex-wrap gap-4 mb-8">
+          <a
+            href="https://lonardonifabio.github.io/tech_documents/"
+            class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+          >
+            🏠 Back to Library
+          </a>
+          <button
+            onclick="navigator.clipboard.writeText(window.location.href)"
+            class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors font-medium"
+          >
+            📋 Copy URL
+          </button>
+          <a
+            href="https://developers.facebook.com/tools/debug/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors font-medium"
+          >
+            🔍 Debug on Facebook
+          </a>
+        </div>
         
-        <br><br>
-        
-        <strong>User Agent:</strong><br>
-        <span id="user-agent"></span>
-      </div>
-      
-      <div style="text-align: center; margin-top: 30px;">
-        <a href="/" style="color: white; text-decoration: underline;">
-          ← Back to Main Library
-        </a>
+        <div class="bg-red-50 border-l-4 border-red-400 p-6">
+          <h3 class="text-lg font-semibold text-red-800 mb-3">⚠️ Important Notes</h3>
+          <ul class="text-red-700 space-y-2 text-sm">
+            <li>• LinkedIn may cache old previews - it can take time to update</li>
+            <li>• Use LinkedIn's Post Inspector tool to force refresh</li>
+            <li>• Make sure the image URL is accessible and properly sized</li>
+            <li>• Test on different devices and platforms</li>
+          </ul>
+        </div>
       </div>
     </div>
     
-    <script>
-      // Display user agent for debugging
-      document.getElementById('user-agent').textContent = navigator.userAgent;
-      
-      // Copy link function
-      function copyLink() {
-        const url = 'https://lonardonifabio.github.io/tech_documents/test-sharing';
-        
-        if (navigator.share) {
-          // Use native sharing on mobile
-          navigator.share({
-            title: 'Test Mobile Sharing - AI Document Library',
-            text: 'Test page to verify mobile LinkedIn sharing functionality',
-            url: url
-          }).catch(console.error);
-        } else if (navigator.clipboard) {
-          // Fallback to clipboard
-          navigator.clipboard.writeText(url).then(() => {
-            alert('Link copied to clipboard!');
-          }).catch(() => {
-            fallbackCopy(url);
-          });
-        } else {
-          fallbackCopy(url);
-        }
+    <style>
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
       }
-      
-      function fallbackCopy(text) {
-        const textArea = document.createElement('textarea');
-        textArea.value = text;
-        document.body.appendChild(textArea);
-        textArea.select();
-        try {
-          document.execCommand('copy');
-          alert('Link copied to clipboard!');
-        } catch (err) {
-          alert('Please copy manually: ' + text);
-        }
-        document.body.removeChild(textArea);
-      }
-      
-      // Test if we're on mobile
-      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-      if (isMobile) {
-        console.log('Mobile device detected');
-      }
-    </script>
+    </style>
   </body>
 </html>

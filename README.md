@@ -1,343 +1,201 @@
-# AI Document Library - Astro SSG with PWA
+# AI & Data Science Document Library
 
-A modern, high-performance document processing system built with **Astro Static Site Generation** and **React Islands Architecture**. Features automated document processing, advanced search capabilities, and full Progressive Web App (PWA) functionality.
+An automated, AI-powered document library for AI/ML and Data Science resources with intelligent categorization and social media sharing optimization.
 
-## 🚀 Architecture
+## 🚀 Features
 
-- **Frontend**: Astro SSG with React Islands for optimal performance
-- **Search**: Advanced boolean search with AND, OR, NOT operators
-- **PWA**: Service worker, offline support, installable app
-- **Deployment**: Automated GitHub Actions pipeline
-- **Performance**: <500ms first load, <100KB bundle size
+### Core Functionality
+- **Automated Document Processing**: AI-powered categorization and metadata extraction
+- **Interactive Knowledge Graph**: Visual representation of document relationships
+- **Advanced Search & Filtering**: Multi-criteria search with real-time filtering
+- **PDF Preview**: In-browser document viewing with modal interface
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 
-## ✨ Features
+### Social Media Integration
+- **LinkedIn Sharing Optimization**: Enhanced Open Graph meta tags for rich previews
+- **Twitter Card Support**: Optimized sharing for Twitter platform
+- **Dynamic Meta Tags**: Context-aware social media previews for individual documents
+- **SEO Optimization**: Structured data and canonical URLs for better search visibility
 
-### Document Management
-- **Automated Processing**: AI-powered document analysis and metadata extraction
-- **Smart Search**: Boolean operators, exact phrase matching, category filtering
-- **PDF Preview**: In-browser PDF viewing with modal interface
-- **AI Document Chat**: Interactive chat with documents using local Ollama/Mistral models
-- **Responsive Design**: Mobile-first approach with PWA capabilities
-
-### Performance & PWA
-- **Static Site Generation**: Pre-rendered HTML for lightning-fast loading
-- **Island Architecture**: Hydration only where needed
-- **Service Worker**: Offline document access and background sync
-- **Installable**: Add to home screen on mobile and desktop
-- **Optimized Bundles**: Code splitting and lazy loading
-
-### Search Capabilities
-```
-# Basic searches
-machine learning
-"artificial intelligence"
-
-# Boolean operators
-python AND tensorflow
-react OR vue OR angular
-"data science" NOT statistics
-
-# Complex combinations
-(python OR javascript) AND "machine learning" NOT beginner
-```
-
-### AI Document Chat
-- **Local AI Integration**: Chat with documents using Ollama/Mistral models
-- **Document Context**: AI understands document content, authors, and key concepts
-- **GitHub Pages Compatible**: Works with static hosting via local Ollama connection
-- **Multiple Models**: Support for various Ollama models (Mistral, Llama, Phi3)
-- **Smart Responses**: Context-aware answers about document content
+### Technical Features
+- **Progressive Web App (PWA)**: Installable with offline capabilities
+- **Service Worker**: Caching and performance optimization
+- **Google Analytics**: Integrated tracking and analytics
+- **TypeScript Support**: Type-safe development environment
 
 ## 🛠️ Technology Stack
 
-- **Framework**: Astro 4.0 with React integration
-- **Styling**: Tailwind CSS with custom components
-- **TypeScript**: Full type safety and modern development
-- **PWA**: Service worker with caching strategies
-- **Deployment**: GitHub Actions + GitHub Pages
+- **Framework**: [Astro](https://astro.build/) - Static site generator with component islands
+- **Frontend**: React + TypeScript for interactive components
+- **Styling**: Tailwind CSS for responsive design
+- **Build Tool**: Vite for fast development and building
+- **Deployment**: GitHub Pages with automated CI/CD
 
 ## 📁 Project Structure
 
 ```
-├── .github/workflows/
-│   └── deploy.yml              # Automated deployment workflow
-├── .gitignore                  # Git ignore rules for build artifacts
-├── astro.config.mjs           # Astro configuration
-├── package.json               # Node.js dependencies and scripts
-├── package-lock.json          # Locked dependency versions
-├── tailwind.config.mjs        # Tailwind CSS configuration
-├── tsconfig.json              # TypeScript configuration
-├── README.md                  # Project documentation
+tech_documents/
 ├── src/
+│   ├── components/          # React components
+│   │   ├── DocumentCard.tsx
+│   │   ├── DocumentLibrary.tsx
+│   │   ├── KnowledgeGraph.tsx
+│   │   └── ...
 │   ├── layouts/
-│   │   └── Layout.astro        # Main layout with PWA meta tags
+│   │   └── Layout.astro     # Main layout with meta tags
 │   ├── pages/
-│   │   └── index.astro         # Homepage with DocumentLibrary island
-│   └── components/
-│       └── (React components will be here)
-├── components/
-│   └── DocumentLibrary.jsx     # Main React component (legacy location)
-├── public/
-│   ├── sw.js                   # Service Worker for PWA
-│   ├── manifest.json           # Web App Manifest
-│   └── .nojekyll              # Disables Jekyll processing
-├── documents/                  # PDF documents collection (200+ files)
-│   ├── AI and ML papers
-│   ├── Data Science guides
-│   ├── Business documents
-│   └── Technology reports
+│   │   ├── index.astro      # Main library page
+│   │   ├── knowledge-graph.astro
+│   │   ├── test-sharing.astro
+│   │   └── document/
+│   │       └── [id].astro   # Dynamic document pages
+│   ├── services/
+│   │   └── embedding-service.ts
+│   └── types/               # TypeScript definitions
 ├── data/
-│   ├── documents.json         # Generated document metadata
-│   └── processed_files.json   # Processing state tracking
-└── scripts/
-    ├── ensure_data.py         # Data file initialization script
-    └── requirements.txt       # Python dependencies
+│   └── documents.json       # Document metadata
+├── documents/               # PDF files
+├── public/                  # Static assets
+└── scripts/                 # Build and utility scripts
 ```
 
-### Document Collection
-The `documents/` folder contains **200+ PDF files** covering:
-- **Artificial Intelligence**: Research papers, tutorials, and guides
-- **Machine Learning**: Algorithms, frameworks, and best practices
-- **Data Science**: Analytics, visualization, and statistical methods
-- **Business Intelligence**: Executive guides and strategic reports
-- **Technology**: Programming languages, tools, and frameworks
-
-## 🚀 Quick Start
+## 🔧 Installation & Setup
 
 ### Prerequisites
-- Node.js 20+
-- Python 3.9+
-- **For AI Chat**: Ollama installed locally (see [Chat Setup Guide](GITHUB_PAGES_CHAT_SETUP.md))
+- Node.js (v18 or higher)
+- npm or yarn package manager
 
 ### Local Development
 
-1. **Clone and install**
+1. **Clone the repository**
    ```bash
    git clone https://github.com/lonardonifabio/tech_documents.git
    cd tech_documents
-   npm install
    ```
 
-2. **Ensure data files exist**
+2. **Install dependencies**
    ```bash
-   npm run process-docs
+   npm install
    ```
 
 3. **Start development server**
    ```bash
    npm run dev
-   # Opens at http://localhost:4321
    ```
 
-4. **Build for production**
-   ```bash
-   npm run build
-   npm run preview
+4. **Open in browser**
+   ```
+   http://localhost:4321
    ```
 
-5. **Set up AI Chat (Optional)**
-   - Follow the [GitHub Pages Chat Setup Guide](GITHUB_PAGES_CHAT_SETUP.md)
-   - Install and configure Ollama locally
-   - Enable CORS for GitHub Pages compatibility
-
-### Repository Cleanup
-This repository has been cleaned of unnecessary files including:
-- Migration documentation files
-- Legacy React SPA files (index.html, vite.config.js)
-- Build artifacts and cache directories
-- Temporary and placeholder files
-- Added comprehensive .gitignore for future development
-
-### GitHub Pages Deployment
-
-The repository is configured for automatic deployment:
-
-1. **Automatic Trigger**: Push to `main` branch
-2. **Data Processing**: Python script ensures data files exist
-3. **Astro Build**: Static site generation with optimizations
-4. **Deploy**: GitHub Pages deployment with PWA features
-
-**Important**: Ensure repository settings use "GitHub Actions" as Pages source.
-
-## 📊 Performance Metrics
-
-| Metric | Target | Achieved |
-|--------|--------|----------|
-| First Load | <500ms | ✅ |
-| Bundle Size | <100KB/page | ✅ |
-| Lighthouse Score | 95+ | ✅ |
-| Mobile Performance | Optimized | ✅ |
-
-## 🔧 Configuration
-
-### Astro Configuration (`astro.config.mjs`)
-```javascript
-export default defineConfig({
-  integrations: [react(), tailwind()],
-  output: 'static',
-  base: '/tech_documents/',
-  // PWA and performance optimizations
-});
-```
-
-### PWA Features
-- **Offline Access**: Cached documents work without internet
-- **Background Sync**: Automatic content updates
-- **Install Prompts**: Add to home screen capability
-- **Fast Loading**: Service worker caching strategies
-
-## 🔍 Advanced Search Guide
-
-### Boolean Operators
-- **AND**: `machine learning AND python` - Both terms required
-- **OR**: `python OR javascript` - Either term acceptable
-- **NOT**: `data science NOT statistics` - Exclude specific terms
-
-### Exact Phrases
-- **Quotes**: `"machine learning"` - Exact phrase matching
-- **Complex**: `python AND "data science" OR visualization NOT excel`
-
-### Interactive Help
-Click the ❓ icon in the search bar for built-in help guide.
-
-## 🤖 AI Document Chat
-
-### Features
-- **Interactive Chat**: Ask questions about any document
-- **Context Awareness**: AI understands document metadata and content
-- **Local Processing**: Uses your local Ollama installation for privacy
-- **Multiple Models**: Choose from Mistral, Llama, Phi3, and more
-
-### Quick Setup
-1. **Install Ollama**: Download from [ollama.ai](https://ollama.ai/download)
-2. **Start Service**: Run `ollama serve` in terminal
-3. **Install Model**: Run `ollama pull mistral:7b-instruct`
-4. **Enable CORS**: Set `OLLAMA_ORIGINS="*"` environment variable
-5. **Test**: Click any document → use chat panel on the right
-
-### Detailed Setup
-For complete setup instructions, see: [GitHub Pages Chat Setup Guide](GITHUB_PAGES_CHAT_SETUP.md)
-
-### Example Questions
-- "What are the main topics covered in this document?"
-- "Can you explain the key concepts mentioned?"
-- "Who is the target audience for this document?"
-- "Summarize the methodology described"
-
-## 📱 PWA Installation
-
-### Desktop
-1. Visit the site in Chrome/Edge
-2. Click install icon in address bar
-3. Enjoy native app experience
-
-### Mobile
-1. Open site in mobile browser
-2. Tap "Add to Home Screen"
-3. Access like a native app
-
-## 🛠️ Development Commands
+### Build for Production
 
 ```bash
-# Development
-npm run dev          # Start dev server
-npm run build        # Build for production
-npm run preview      # Preview production build
+# Build static site
+npm run build
 
-# Data Management
-npm run process-docs # Ensure data files exist
-npm run update-docs  # Update document metadata
-
-# Astro Commands
-npm run astro        # Astro CLI access
+# Preview production build
+npm run preview
 ```
 
-## 🔧 Troubleshooting
+## 📱 Social Media Sharing
 
-### Build Issues
-1. **Import Errors**: Ensure file extensions in imports (`.tsx`, `.astro`)
-2. **Dependencies**: Run `npm ci` for clean install
-3. **TypeScript**: Check `tsconfig.json` configuration
+### LinkedIn Optimization
 
-### Deployment Issues
-1. **Jekyll Errors**: Verify `.nojekyll` file exists
-2. **Workflow Conflicts**: Ensure only `deploy.yml` is active
-3. **Repository Settings**: Use "GitHub Actions" as Pages source
+The application includes comprehensive LinkedIn sharing optimization:
 
-### Performance Issues
-1. **Bundle Size**: Check Astro build output
-2. **Loading Speed**: Verify service worker registration
-3. **PWA Features**: Test manifest and service worker
+- **Open Graph Meta Tags**: Complete og: properties for rich previews
+- **Image Optimization**: Properly sized cover images (1200x630px)
+- **Dynamic URLs**: Context-aware canonical URLs for each page
+- **Author Attribution**: LinkedIn-specific author meta tags
 
-### AI Chat Issues
-1. **"Ollama Not Connected"**: Follow [Chat Setup Guide](GITHUB_PAGES_CHAT_SETUP.md)
-2. **CORS Errors**: Set `OLLAMA_ORIGINS="*"` environment variable
-3. **No Models Found**: Run `ollama pull mistral:7b-instruct`
-4. **Slow Responses**: Use smaller models like `llama3.2:3b`
+### Testing Social Sharing
 
-## 📈 Migration History
+Use the built-in test page to verify social media sharing:
+```
+https://lonardonifabio.github.io/tech_documents/test-sharing
+```
 
-### React SPA → Astro SSG
-- **Performance**: 60-70% faster loading times
-- **Bundle Size**: 50%+ reduction in JavaScript payload
-- **SEO**: Improved with static HTML generation
-- **PWA**: Enhanced with service worker and manifest
+### Debugging Tools
 
-## 📊 Repository Statistics
+- **Facebook Debugger**: https://developers.facebook.com/tools/debug/
+- **LinkedIn Post Inspector**: Available in LinkedIn's publishing tools
+- **Twitter Card Validator**: https://cards-dev.twitter.com/validator
 
-- **Total Documents**: 200+ PDF files
-- **Categories**: AI, Machine Learning, Data Science, Business, Technology
-- **File Size**: ~2GB of curated technical content
-- **Languages**: English technical documents
-- **Update Frequency**: Automated processing on new commits
+## 🔍 Key Components
 
-## 🔄 Recent Updates
+### DocumentLibrary.tsx
+Main component handling document display, search, and filtering functionality.
 
-### Repository Cleanup (Latest)
-- ✅ Removed 9 migration documentation files
-- ✅ Removed legacy React SPA files (index.html, vite.config.js)
-- ✅ Removed unused Astro template directory
-- ✅ Removed build artifacts (.astro/, dist/, node_modules/)
-- ✅ Added comprehensive .gitignore file
-- ✅ Cleaned temporary and placeholder files
+### KnowledgeGraph.tsx
+Interactive visualization of document relationships using D3.js.
 
-### Architecture Migration
-- ✅ Migrated from React SPA to Astro SSG
-- ✅ Implemented React Islands architecture
-- ✅ Added PWA capabilities with service worker
-- ✅ Optimized for GitHub Pages deployment
-- ✅ Enhanced search with boolean operators
+### Layout.astro
+Base layout with comprehensive meta tags for social media optimization.
+
+### Document Pages ([id].astro)
+Dynamic pages for individual documents with SEO and social sharing optimization.
+
+## 📊 Analytics & Tracking
+
+- **Google Analytics 4**: Integrated tracking (ID: G-4EXW1VQ31D)
+- **Performance Monitoring**: Core Web Vitals tracking
+- **User Interaction**: Document views and search analytics
+
+## 🌐 Deployment
+
+The application is automatically deployed to GitHub Pages using GitHub Actions:
+
+- **Production URL**: https://lonardonifabio.github.io/tech_documents/
+- **Automatic Deployment**: On push to main branch
+- **Build Process**: Astro static site generation with asset optimization
+
+## 🔒 Security & Privacy
+
+- **HTTPS Only**: All resources served over secure connections
+- **Content Security Policy**: Implemented for XSS protection
+- **Privacy Compliant**: GDPR-compliant analytics implementation
+
+## 📈 Performance Optimization
+
+- **Static Site Generation**: Pre-built pages for fast loading
+- **Image Optimization**: Responsive images with proper sizing
+- **Code Splitting**: Component-level code splitting with Astro islands
+- **Caching Strategy**: Service worker implementation for offline support
+- **CDN Delivery**: GitHub Pages CDN for global distribution
 
 ## 🤝 Contributing
 
-### Adding Documents
-1. **Add PDFs**: Place new PDF files in `documents/` folder
-2. **Commit Changes**: Push to main branch
-3. **Automatic Processing**: GitHub Actions will process new documents
-4. **Monitor Progress**: Check Actions tab for workflow status
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-### Development Contributions
-1. **Fork the repository**
-2. **Create feature branch**: `git checkout -b feature/new-feature`
-3. **Make changes and test locally**
-4. **Submit pull request** with detailed description
+## 📝 License
 
-### File Organization
-- Place PDFs in appropriate subdirectories within `documents/`
-- Use descriptive filenames
-- Ensure files are under 25MB (GitHub limit)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📄 License
+## 👨‍💻 Author
 
-This project is open source and available under the MIT License.
+**Fabio Lonardoni**
+- GitHub: [@lonardonifabio](https://github.com/lonardonifabio)
+- Twitter: [@fabiolonardoni](https://twitter.com/fabiolonardoni)
+- LinkedIn: [Fabio Lonardoni](https://linkedin.com/in/fabiolonardoni)
 
-## 🔗 Links
+## 🙏 Acknowledgments
 
-- **Live Demo**: [AI Document Library](https://lonardonifabio.github.io/tech_documents/)
-- **Repository**: [GitHub](https://github.com/lonardonifabio/tech_documents)
-- **Developer**: [Fabio Lonardoni](https://www.fabiolonardoni.it)
-- **Issues**: [Report bugs or request features](https://github.com/lonardonifabio/tech_documents/issues)
+- AI/ML community for providing valuable resources
+- Open source libraries and frameworks used in this project
+- Contributors and users providing feedback and suggestions
+
+## 📞 Support
+
+For support, questions, or feature requests:
+- Open an issue on GitHub
+- Contact via LinkedIn or Twitter
+- Check the documentation and test pages
 
 ---
 
-*Last updated: January 2025 - Repository cleaned and optimized for production*
+**Note**: This library is continuously updated with new AI/ML documents and features. Star the repository to stay updated with the latest additions!

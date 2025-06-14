@@ -40,16 +40,24 @@ const { title, description = "Automated AI/Data Science Document Library" } = As
     <meta property="og:title" content={title}>
     <meta property="og:description" content={description}>
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://lonardonifabio.github.io/tech_documents/">
+    <meta property="og:url" content={`https://lonardonifabio.github.io/tech_documents${Astro.url.pathname}`}>
     <meta property="og:image" content="https://www.fabiolonardoni.it/AIdatasciencelibrary_cover.JPG">
+    <meta property="og:image:secure_url" content="https://www.fabiolonardoni.it/AIdatasciencelibrary_cover.JPG">
+    <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="AI & Data Science Document Library">
+    <meta property="og:image:alt" content="AI & Data Science Document Library - Automated collection powered by AI">
     <meta property="og:site_name" content="AI & Data Science Document Library">
     <meta property="og:locale" content="en_US">
     
     <!-- LinkedIn specific optimizations -->
     <meta property="article:author" content="Fabio Lonardoni">
+    <meta property="linkedin:owner" content="Fabio Lonardoni">
+    
+    <!-- Additional meta tags for better social sharing -->
+    <meta name="author" content="Fabio Lonardoni">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href={`https://lonardonifabio.github.io/tech_documents${Astro.url.pathname}`}>
     
     <!-- Enhanced Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">

@@ -59,21 +59,24 @@ const mainAppUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.i
     <meta property="og:type" content="article">
     <meta property="og:url" content={documentUrl}>
     <meta property="og:image" content={imageUrl}>
+    <meta property="og:image:secure_url" content={imageUrl}>
+    <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content={`${doc.title || doc.filename} - AI Document Library`}>
+    <meta property="og:image:alt" content={`${doc.title || doc.filename} - AI & Data Science Document Library`}>
     <meta property="og:site_name" content="AI & Data Science Document Library">
     <meta property="og:locale" content="en_US">
     <meta property="article:author" content="Fabio Lonardoni">
     <meta property="article:section" content={doc.category}>
     <meta property="article:tag" content={doc.keywords.join(', ')}>
+    <meta property="article:published_time" content={doc.upload_date}>
     
     <!-- Enhanced Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content={title}>
     <meta name="twitter:description" content={description}>
     <meta name="twitter:image" content={imageUrl}>
-    <meta name="twitter:image:alt" content={`${doc.title || doc.filename} - AI Document Library`}>
+    <meta name="twitter:image:alt" content={`${doc.title || doc.filename} - AI & Data Science Document Library`}>
     <meta name="twitter:site" content="@fabiolonardoni">
     <meta name="twitter:creator" content="@fabiolonardoni">
     
@@ -81,10 +84,13 @@ const mainAppUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.i
     <meta property="linkedin:owner" content="Fabio Lonardoni">
     
     <!-- Additional meta for mobile sharing -->
-    <meta name="author" content={doc.authors ? doc.authors.join(', ') : 'AI Document Library'}>
+    <meta name="author" content={doc.authors ? doc.authors.join(', ') : 'Fabio Lonardoni'}>
     <meta name="keywords" content={doc.keywords.join(', ')}>
     <meta name="robots" content="index, follow">
     <link rel="canonical" href={documentUrl}>
+    
+    <!-- Additional LinkedIn optimization -->
+    <meta property="og:rich_attachment" content="true">
     
     <!-- Structured Data for better SEO -->
     <script type="application/ld+json" set:html={JSON.stringify({
