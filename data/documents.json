@@ -18368,25 +18368,32 @@
     "title": "Principles of Data Wrangling",
     "authors": [
       "Tye Rattenbury",
-      "Joe Hellerstein",
+      "Joseph M. Hellerstein",
       "Jeffrey Heer",
       "Sean Kandel",
       "Connor Carreras"
     ],
     "filepath": "documents/Principles_of_Data_Wrangling_1627462564.pdf",
-    "upload_date": "2025-06-06T15:45:47.801681",
+    "upload_date": "2025-06-14T13:06:56.779945",
     "file_size": 2163993,
-    "summary": "This document provides practical techniques for data preparation, focusing on the principles of Data Wrangling. It is authored by Tye Rattenbury, Joe Hellerstein, Jeffrey Heer, Sean Kandel, and Connor Carreras.",
+    "summary": "This document provides practical techniques for data preparation, focusing on the principles of data wrangling. It covers various methodologies such as data cleaning, transformation, and enrichment. Key findings include the importance of understanding the context of the data and the need for iterative processes in data wrangling. The authors suggest using tools like Trifacta, Pandas, and SQL to apply these techniques. The document is applicable to anyone dealing with data preparation tasks, from beginners to advanced practitioners.",
     "keywords": [
       "Data Wrangling",
       "Data Preparation",
-      "Practical Techniques",
-      "Tye Rattenbury",
-      "Joe Hellerstein"
+      "Data Cleaning",
+      "Transformation",
+      "Enrichment"
+    ],
+    "key_concepts": [
+      "Understanding the context of the data is crucial in data wrangling.",
+      "Iterative processes are essential for effective data wrangling.",
+      "Tools like Trifacta, Pandas, and SQL can be used to apply data wrangling techniques.",
+      "Data wrangling principles form a foundation for efficient and accurate data analysis.",
+      "Data wrangling is an integral part of the data science workflow."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Principles of Data Wrangling Practical Techniques for Data Preparation"
+    "content_preview": "Practical techniques for data preparation focusing on data wrangling principles."
   },
   {
     "id": "46f0832c803f651e2bca852cbae2e98b",
