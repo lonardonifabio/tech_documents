@@ -8168,18 +8168,24 @@
     "title": "Difference between Neural Network and Deep Learning",
     "authors": [],
     "filepath": "documents/Difference_b_w_Neural_Network_and_Deep_Learning_1628528320.pdf",
-    "upload_date": "2025-06-04T21:18:51.569017",
+    "upload_date": "2025-06-14T13:06:51.046945",
     "file_size": 687425,
-    "summary": "This document explains the key differences between a neural network and deep learning, focusing on their structure and complexity. It discusses how deep learning is a type of deep neural network with multiple hidden layers and numerous nodes in each layer.",
+    "summary": "This document provides a clear distinction between Neural Networks and Deep Learning, explaining that while both are machine learning techniques, the latter is a specific type of neural network with multiple hidden layers. The text covers the basic structure and function of each, their differences, and the role of deep learning in modern AI applications.",
     "keywords": [
       "Neural Network",
       "Deep Learning",
-      "Artificial Intelligence",
       "Machine Learning"
+    ],
+    "key_concepts": [
+      "A Neural Network is a collection of interconnected processing units (neurons) that work together to solve specific problems.",
+      "Deep Learning refers to a deep neural network, characterized by multiple hidden layers and numerous nodes in each layer.",
+      "The main difference between Neural Networks and Deep Learning lies in the number of hidden layers and their complexity.",
+      "Deep Learning has become crucial for modern AI applications due to its ability to learn complex patterns from large datasets.",
+      "Understanding the distinction between these two concepts is essential for anyone interested in machine learning and AI."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "The neural network is composed of many highly interconnected processing Neurons working together to solve a specific problem."
+    "content_preview": "Learn about Neural Networks and Deep Learning, their differences, and the role of deep learning in modern AI applications."
   },
   {
     "id": "e3d9b54950e2bf749091eb3a5085a803",
