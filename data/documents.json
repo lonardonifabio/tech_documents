@@ -1595,19 +1595,26 @@
     "title": "AI_ML_DL_differences.pdf",
     "authors": [],
     "filepath": "documents/AI_ML_DL_differences.pdf",
-    "upload_date": "2025-06-03T17:53:37.700055",
+    "upload_date": "2025-06-14T13:06:46.595944",
     "file_size": 7870063,
-    "summary": "This document explains the differences between Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL). It discusses AI's ability to learn from experience, ML as a subset of AI, and its focus on learning from data without explicit programming.",
+    "summary": "This document provides an in-depth comparison between Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL). It explains that AI is the science of creating intelligent machines, while ML is a subset of AI that allows computer programs to learn from data without explicit programming. The document discusses various approaches to machine learning such as supervised, unsupervised, and semi-supervised learning.",
     "keywords": [
       "Artificial Intelligence",
       "Machine Learning",
       "Deep Learning",
       "Data Science",
-      "Learning"
+      "Learning Algorithms"
+    ],
+    "key_concepts": [
+      "Artificial Intelligence is the science of creating machines that perform tasks with a type of human intelligence.",
+      "Machine learning is a subset of Artificial Intelligence and it allows computer programs to learn from data without explicit programming.",
+      "Machine learning focuses on enabling algorithms to learn from the data provided, gather insights, and make predictions on previously unanalyzed data.",
+      "AI deals with various issues such as General Intelligence, Knowledge representation, Learning, Motion and Manipulation, Natural Language Processing, Perception, Planning, Reasoning, Problem Solving, and Social Intelligence.",
+      "Machine learning can be performed using multiple approaches: Supervised learning, Unsupervised learning, semi-supervised learning."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "ARTIFICIAL INTELLIGENCE MACHINE LEARNING DEEP LEARNING UNDERSTAND THE DIFFERENCE BETWEEN"
+    "content_preview": "Understand the difference between Artificial Intelligence, Machine Learning, and Deep Learning."
   },
   {
     "id": "c798444123188a58f509827e1c0e3056",
