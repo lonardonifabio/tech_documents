@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import DocumentLibrary from './DocumentLibrary';
 import KnowledgeGraph from './KnowledgeGraph';
 import ErrorBoundary from './ErrorBoundary';
+import PDFModal from './PDFModal';
 import type { DocumentNode } from '../types/knowledge-graph';
 
 interface Document {
@@ -31,6 +32,8 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
   const [currentView, setCurrentView] = useState<'library' | 'graph'>(initialView);
   const [selectedDocument, setSelectedDocument] = useState<DocumentNode | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalDocument, setModalDocument] = useState<Document | null>(null);
 
   // Determine if Knowledge Graph button should be active
   const isKnowledgeGraphActive = filteredDocuments.length > 0 ? filteredDocuments.length <= 50 : documents.length <= 50;
@@ -105,11 +108,17 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
 
   const handleNodeClick = (node: DocumentNode) => {
     setSelectedDocument(node);
-    // Open document preview URL in new tab
-    if (typeof window !== 'undefined') {
-      const documentPreviewUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${node.id}`;
-      window.open(documentPreviewUrl, '_blank');
+    // Find the full document data from the documents array
+    const fullDocument = documents.find(doc => doc.id === node.id);
+    if (fullDocument) {
+      setModalDocument(fullDocument);
+      setIsModalOpen(true);
     }
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setModalDocument(null);
   };
 
   const handleNodeHover = (_node: DocumentNode | null) => {
@@ -347,7 +356,7 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
                 <div>
                   <h4 className="font-medium mb-2">🖱️ Interactions:</h4>
                   <ul className="space-y-1 text-blue-700">
-                    <li>• <strong>Click</strong> nodes to open documents</li>
+                    <li>• <strong>Click</strong> nodes to open document preview popup</li>
                     <li>• <strong>Hover</strong> to see document previews</li>
                     <li>• <strong>Drag</strong> nodes to reposition them</li>
                     <li>• <strong>Scroll</strong> to zoom in/out</li>
@@ -402,6 +411,15 @@ const DocumentLibraryWithGraph: React.FC<DocumentLibraryWithGraphProps> = ({
           </div>
         </div>
       </footer>
+
+      {/* PDF Modal */}
+      {modalDocument && (
+        <PDFModal
+          doc={modalDocument}
+          isOpen={isModalOpen}
+          onClose={handleCloseModal}
+        />
+      )}
     </div>
   );
 };
