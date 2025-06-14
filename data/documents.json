@@ -23211,19 +23211,25 @@
     "title": "The Data Scientist's Guide to Apache Spark",
     "authors": [],
     "filepath": "documents/The_Data_Scientist_s_Guide_to_Apache_Spark_1567887176.pdf",
-    "upload_date": "2025-06-03T17:53:44.054143",
+    "upload_date": "2025-06-14T19:41:13.733096",
     "file_size": 2685414,
-    "summary": "This guide offers a gentle introduction to Apache Spark, its core architecture, and Structured APIs using DataFrames and SQL. It is a preview of the upcoming book 'Spark: The Definitive Guide'.",
+    "summary": "This document provides a gentle introduction to Apache Spark, covering its core architecture, Spark Application, and Structured APIs using DataFrames and SQL. The guide also touches on Spark's core terminology and concepts to empower readers to start using Spark right away.",
     "keywords": [
       "Apache Spark",
       "Data Science",
-      "Guide",
-      "Structured API",
-      "DataFrame"
+      "Spark Application",
+      "DataFrames",
+      "SQL"
+    ],
+    "key_concepts": [
+      "The document introduces Apache Spark, a data processing engine that has seen significant growth over the years.",
+      "The guide covers the core architecture of a Spark cluster and explains how to create a Spark Application.",
+      "The reader will learn about using DataFrames and SQL within the context of Spark's Structured APIs.",
+      "The document provides an overview of key Spark terminology and concepts to help readers understand the technology better."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This guide offers a gentle introduction to Apache Spark..."
+    "content_preview": "This document introduces Apache Spark, a data processing engine that has seen significant growth over the years. It covers the core architecture of a Spark cluster and explains how to create a Spark Application."
   },
   {
     "id": "6b47a887d37513bec5a65e3156a9e937",
