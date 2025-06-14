@@ -5468,19 +5468,26 @@
     "title": "Brain Tumor MRI Classification",
     "authors": [],
     "filepath": "documents/Brain_Tumor_MRI_1710184716.pdf",
-    "upload_date": "2025-06-03T17:53:38.633073",
+    "upload_date": "2025-06-14T22:31:34.718622",
     "file_size": 1085538,
-    "summary": "This document is a Python script for brain tumor MRI classification using TensorFlow and scikit-learn libraries.",
+    "summary": "This document outlines a machine learning project focused on classifying brain tumors using Magnetic Resonance Imaging (MRI) data. The project utilizes TensorFlow and Keras for model building, Scikit-learn for data splitting, and Matplotlib for visualization. The dataset is obtained from Kaggle and the model achieves a high level of accuracy in classifying tumors.",
     "keywords": [
-      "brain tumor",
+      "Brain Tumor",
       "MRI",
-      "classification",
+      "Machine Learning",
       "TensorFlow",
-      "scikit-learn"
+      "Keras"
+    ],
+    "key_concepts": [
+      "The project aims to classify brain tumors using MRI data with the help of machine learning.",
+      "TensorFlow and Keras are used for building the model, specifically Sequential, Conv2D, MaxPooling2D, Flatten, Dense, Dropout, and Adamax optimizer.",
+      "Scikit-learn's train_test_split function is employed to split the data into training and testing sets.",
+      "Confusion matrix and classification report are used for evaluating the model's performance.",
+      "The dataset is obtained from Kaggle and the project achieves a high level of accuracy in classifying tumors."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This script generates data paths with labels for brain tumor MRI classification using TensorFlow and scikit-learn libraries."
+    "content_preview": "This document outlines a machine learning project focused on classifying brain tumors using MRI data."
   },
   {
     "id": "b67d8aa51e2d26493ec6481c6a14831f",
