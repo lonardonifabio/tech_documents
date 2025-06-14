@@ -21698,19 +21698,26 @@
     "title": "SQL Cheat Sheet",
     "authors": [],
     "filepath": "documents/SQL_Cheat_Sheet_Follow_Dr_AngShu_drangshu_for_more_1625344114.pdf",
-    "upload_date": "2025-06-05T20:14:26.763816",
+    "upload_date": "2025-06-14T22:31:43.927627",
     "file_size": 260182,
-    "summary": "This document provides a comprehensive guide on SQL queries, including SELECT, INNER JOIN, LEFT JOIN, FULL OUTER JOIN, CROSS JOIN, and various other clauses such as WHERE, GROUP BY, HAVING, UNION, INTERSECT, MINUS, and LIKE. It also covers pattern matching using % and _.",
+    "summary": "This document provides a comprehensive guide on various SQL queries, including SELECT statements with different types of joins (inner, left, full outer, and cross), aggregate functions, filtering, sorting, combining results, and pattern matching. It also covers UNION, INTERSECT, MINUS, and IN clauses.",
     "keywords": [
       "SQL",
-      "Cheat Sheet",
-      "Join",
-      "SELECT",
-      "WHERE"
+      "Joins",
+      "Aggregate Functions",
+      "Filtering",
+      "Sorting"
+    ],
+    "key_concepts": [
+      "The document explains the concept of SQL queries and how to use SELECT statements for retrieving data from tables.",
+      "It provides a detailed explanation of different types of joins (inner, left, full outer, and cross) and their uses.",
+      "The document covers aggregate functions like COUNT(), SUM(), AVG(), MAX(), and MIN() and how to use them with GROUP BY clause.",
+      "It explains the filtering capabilities of SQL using WHERE clause and pattern matching with wildcards % and _.",
+      "The document demonstrates combining results from multiple queries using UNION, INTERSECT, and MINUS clauses."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "SELECT c1, c2 FROM t WHERE condition;"
+    "content_preview": "This guide covers various SQL queries for data retrieval and manipulation."
   },
   {
     "id": "771db36b568a863df817eb65b1e95d54",
