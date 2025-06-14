@@ -22949,22 +22949,28 @@
   {
     "id": "9e66d10d8d2e53c07bf57a68969a6541",
     "filename": "Top_10_ML_Algorithm.pdf",
-    "title": "Top_10_ML_Algorithm.pdf",
+    "title": "Top 10 Machine Learning Algorithms",
     "authors": [],
     "filepath": "documents/Top_10_ML_Algorithm.pdf",
-    "upload_date": "2025-06-03T22:07:08.669562",
+    "upload_date": "2025-06-14T13:06:59.483945",
     "file_size": 3767043,
-    "summary": "Discusses the top 10 machine learning algorithms every engineer should know, including Naive Bayes Classifier, K Means Clustering, Support Vector Machine, Apriori Algorithm, Linear Regression, Logistic Regression, Artificial Neural Networks, Random Forests, Decision Trees, and Nearest Neighbours. Emphasizes the growing importance of machine lear...",
+    "summary": "This document provides an overview of the top 10 machine learning algorithms every engineer should know, including Naive Bayes Classifier, K Means Clustering, Support Vector Machine, Apriori, Linear Regression, Logistic Regression, Artificial Neural Networks, Random Forests, Decision Trees, and Nearest Neighbours. The document also discusses the increasing importance of machine learning in data science due to big data and programming tools like Python and R, and provides examples of real-world applications such as Netflix's recommendation algorithm.",
     "keywords": [
-      "Machine Learning",
-      "Algorithms",
-      "Data Scientist",
+      "Machine Learning Algorithms",
+      "Data Science",
       "Python",
-      "R"
+      "R",
+      "Big Data"
+    ],
+    "key_concepts": [
+      "Machine learning algorithms are essential for data scientists to know due to the rapid growth of big data and availability of programming tools like Python and R.",
+      "The document discusses 10 popular machine learning algorithms: Naive Bayes Classifier, K Means Clustering, Support Vector Machine, Apriori, Linear Regression, Logistic Regression, Artificial Neural Networks, Random Forests, Decision Trees, and Nearest Neighbours.",
+      "Real-world examples of machine learning applications are provided, such as Netflix's recommendation algorithm which learns more about a viewer's preferences based on the shows they watch.",
+      "The document explains that specialized machine learning algorithms have been developed to address complex real-world data problems."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Discusses the top 10 machine learning algorithms..."
+    "content_preview": "This document provides an overview of the top 10 machine learning algorithms every engineer should know."
   },
   {
     "id": "5180f83cdda2a9147f2d6e8124c49f97",
