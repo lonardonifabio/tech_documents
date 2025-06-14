@@ -13815,9 +13815,9 @@
     "title": "Machine Learning Algorithms",
     "authors": [],
     "filepath": "documents/Machine_Learning_Algorithms__1739096211.pdf",
-    "upload_date": "2025-06-13T17:20:46.857892",
+    "upload_date": "2025-06-13T22:59:44.886926",
     "file_size": 23252824,
-    "summary": "This document provides an introduction to two popular machine learning algorithms - Linear Regression and Logistic Regression. It explains how these algorithms can be used for prediction tasks such as predicting house prices based on size (Linear Regression) and classifying emails as spam or not spam based on content (Logistic Regression).",
+    "summary": "This document provides an introduction to two popular machine learning algorithms: Linear Regression and Logistic Regression. It explains how these algorithms can be used for prediction tasks, such as predicting house prices based on size (Linear Regression) and classifying emails as spam or not spam based on content (Logistic Regression).",
     "keywords": [
       "Machine Learning",
       "Linear Regression",
@@ -13826,15 +13826,15 @@
       "Classification"
     ],
     "key_concepts": [
-      "Linear Regression helps predict the price of a house based on its size by finding a straight line that best fits historical data.",
-      "Logistic Regression can classify emails as spam or not spam based on their content by analyzing words and assigning a probability.",
-      "In Linear Regression, an equation is found to represent the data and used to predict prices of new houses.",
-      "In Logistic Regression, when an email is received, the model calculates the probability that it's spam and classifies it accordingly.",
+      "Linear Regression helps you predict the price of a house based on its size by finding a straight line that best fits historical data.",
+      "Logistic Regression can help classify emails as spam or not spam based on their content by analyzing the words and assigning a probability.",
+      "In Linear Regression, the equation of the line that best represents the data is used to predict the price of any house based on its size.",
+      "Logistic Regression calculates the probability that an email is spam when received and classifies it accordingly.",
       "These algorithms are useful for various prediction and classification tasks in machine learning."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document introduces Linear and Logistic Regression, machine learning algorithms used for prediction and classification tasks."
+    "content_preview": "This document introduces Linear Regression and Logistic Regression, machine learning algorithms for prediction and classification tasks."
   },
   {
     "id": "8fb489e6e194b141af00f3cb2d137271",
