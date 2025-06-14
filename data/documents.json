@@ -18706,26 +18706,25 @@
     "title": "Python Handbook",
     "authors": [],
     "filepath": "documents/Python_HandBook_1630510953.pdf",
-    "upload_date": "2025-06-13T17:20:49.465894",
+    "upload_date": "2025-06-13T22:59:47.483937",
     "file_size": 7700958,
-    "summary": "This comprehensive guide covers Python basics, installation, data types, operators, control statements, lists, tuples, dictionaries, sets, functions, objects, loops, classes, modules, the Python Standard Library, debugging, variables scope, command line arguments, lambda functions, recursion, nested functions, closures, decorators, docstrings, introspection, annotations, exceptions, the with statement, installing 3rd party packages using pip, list comprehensions, polymorphism, operator overloading, virtual environments, and concludes with a summary.",
+    "summary": "This comprehensive guide covers Python fundamentals, including installation, data types, operators, control statements, lists, tuples, dictionaries, sets, functions, objects, loops, classes, modules, the Python Standard Library, debugging, variables scope, command line arguments, lambda functions, recursion, nested functions, closures, decorators, docstrings, introspection, annotations, exceptions, the with statement, 3rd party package installation using pip, list comprehensions, polymorphism, operator overloading, virtual environments, and concludes with a brief overview.",
     "keywords": [
       "Python",
       "Programming",
       "Guide",
-      "Basics",
-      "Data Types"
+      "Handbook"
     ],
     "key_concepts": [
-      "This handbook provides an introduction to Python, explaining how to install it and run programs in both Python 2 and Python 3.",
-      "The document covers the basics of working with Python, including data types such as strings, numbers, Booleans, and constants, as well as operators like the ternary operator.",
-      "It delves into control statements, lists, tuples, dictionaries, sets, functions, objects, loops, classes, modules, and the Python Standard Library.",
-      "The document also discusses debugging techniques, variables scope, accepting arguments from the command line, lambda functions, recursion, nested functions, closures, decorators, docstrings, introspection, annotations, exceptions, the with statement, installing 3rd party packages using pip, list comprehensions, polymorphism, operator overloading, virtual environments.",
-      "The guide concludes by summarizing the topics covered."
+      "Learn Python fundamentals from installation to advanced topics",
+      "Understand data types, operators, control statements, and various data structures in Python",
+      "Explore functions, objects, loops, classes, modules, and the Python Standard Library",
+      "Gain insights into debugging, variables scope, command line arguments, lambda functions, recursion, nested functions, closures, decorators, docstrings, introspection, annotations, exceptions, and the with statement",
+      "Discover 3rd party package installation using pip, list comprehensions, polymorphism, operator overloading, virtual environments"
     ],
-    "category": "AI",
-    "difficulty": "Intermediate",
-    "content_preview": "This handbook covers Python basics and more."
+    "category": "Technology",
+    "difficulty": "Beginner",
+    "content_preview": "Learn Python fundamentals and advanced topics in this comprehensive guide."
   },
   {
     "id": "713c493e5a4ae1b83715b95ab16cb933",
