@@ -633,26 +633,25 @@
     "filename": "9_1_1738485397.pdf",
     "title": "EU AI Act Expert Series: Reporting Serious Incidents",
     "authors": [
-      "Dr. Benedikt Kohn",
-      "Taylor Wessing"
+      "Dr. Benedikt Kohn"
     ],
     "filepath": "documents/9_1_1738485397.pdf",
-    "upload_date": "2025-06-13T17:20:38.491891",
+    "upload_date": "2025-06-13T22:59:36.527889",
     "file_size": 457065,
-    "summary": "This document discusses the reporting obligations for serious incidents involving AI systems under the EU AI Act. It covers topics such as what constitutes a serious incident, confidentiality rules during investigations, and follow-up reporting requirements. The document also provides examples of serious incidents and explains the initial report submission process.",
+    "summary": "This document discusses the reporting obligations for serious incidents involving AI systems under the EU AI Act. It covers what constitutes a 'Serious Incident', the confidentiality rules, follow-up reporting requirements, and examples of such incidents. The document is part of the EU AI Act Expert Series by Dr. Benedikt Kohn.",
     "keywords": [
       "EU AI Act",
-      "AI Systems",
+      "AI systems",
+      "Incident Reporting",
       "Serious Incident",
-      "Reporting Obligations",
-      "Confidentiality Rules"
+      "Competent Authorities"
     ],
     "key_concepts": [
-      "Incidents involving AI systems that cause harm to individuals or infrastructure due to malfunction, error, or misuse are considered serious incidents.",
+      "A 'Serious Incident' involves AI systems that cause harm to individuals or infrastructure due to malfunction, error, or misuse.",
       "Providers are required to promptly submit an initial report upon identifying a serious incident and follow up with a complete report.",
-      "Confidentiality rules apply during the investigation process to preserve the integrity of ongoing investigations and maintain trust in the reporting process.",
-      "Article 73 of EU AI Act defines a serious incident.",
-      "Examples of serious incidents include accidents resulting from autonomous vehicle malfunctions or AI-driven systems causing disruptions in essential services."
+      "Confidentiality rules apply to sensitive data related to incidents and AI systems collected during the investigation process.",
+      "The EU AI Act defines a 'Serious Incident' under Article 73.",
+      "Examples of serious incidents include accidents resulting from autonomous vehicle malfunctions or disruptions caused by AI-driven systems."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
