@@ -16497,19 +16497,26 @@
     "title": "Nail Disease Detection using Deep Learning",
     "authors": [],
     "filepath": "documents/Nail_1725987884.pdf",
-    "upload_date": "2025-06-06T15:45:46.952680",
+    "upload_date": "2025-06-14T12:13:54.182153",
     "file_size": 855672,
-    "summary": "This document discusses a deep learning approach for detecting nail diseases by utilizing a dataset containing various nail conditions such as Acral_Lentiginous_Melanoma, pitting, Onychogryphosis, clubbing, and Healthy_Nail. The code provided lists the folders in both the training and validation datasets, and includes a function to display image...",
+    "summary": "This document outlines a deep learning approach for detecting various nail diseases such as Acral Lentiginous Melanoma, pitting, Onychogryphosis, clubbing, and healthy nails. The project uses Python libraries like NumPy, Pandas, Matplotlib, and PIL to load, preprocess, and visualize the data. The dataset is divided into training and validation sets, with each set containing folders for each disease category.",
     "keywords": [
       "Deep Learning",
       "Nail Disease Detection",
       "Python",
-      "Pandas",
-      "Matplotlib"
+      "NumPy",
+      "Pandas"
+    ],
+    "key_concepts": [
+      "The document describes a deep learning method for detecting nail diseases using Python libraries.",
+      "The project uses image files from a dataset, which is divided into training and validation sets.",
+      "Each set contains folders for different disease categories such as Acral Lentiginous Melanoma, pitting, Onychogryphosis, clubbing, and healthy nails.",
+      "The method involves loading, preprocessing, and visualizing the data using NumPy, Pandas, Matplotlib, and PIL.",
+      "The document provides a function to display up to 5 images from a specified folder for visual inspection."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Folders in the training dataset path: ['blue_finger', 'Acral_Lentiginous_Melanoma', 'pitting', 'Onychogryphosis', 'clubbing', 'Healthy_Nail']"
+    "content_preview": "This document outlines a deep learning approach for detecting nail diseases using Python libraries."
   },
   {
     "id": "4c37ef8cc78d04662a9dbbdf1832c3cf",
