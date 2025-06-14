@@ -26042,19 +26042,25 @@
     "title": "PySpark Cheat Sheet",
     "authors": [],
     "filepath": "documents/python_PySpark_cheatSheet.pdf",
-    "upload_date": "2025-06-05T14:25:36.607229",
+    "upload_date": "2025-06-14T13:07:00.953945",
     "file_size": 1770506,
-    "summary": "This document provides a cheat sheet for PySpark RDD operations such as initializing Spark, applying functions, selecting data, reshaping data, mathematical operations, partitioning, counting instances, summing elements, checking emptiness, finding maximum and minimum values, calculating mean, standard deviation, variance, histograms, and summar...",
+    "summary": "This document provides a comprehensive guide to using PySpark's Resilient Distributed Datasets (RDD). It covers initializing Spark, applying functions, selecting data, reshaping data, mathematical operations, sorting, saving Spark context, executing commands, iterating through RDD, and various statistical operations. The document also includes examples for counting RDD instances, summing RDD elements, checking whether an RDD is empty, finding maximum and minimum values, calculating mean, standard deviation, variance, and histograms.",
     "keywords": [
       "PySpark",
       "RDD",
-      "Cheat Sheet",
       "Data Science",
       "Python"
     ],
+    "key_concepts": [
+      "Explains how to initialize SparkContext in PySpark",
+      "Demonstrates the use of functions on RDD in PySpark",
+      "Shows how to select, reshape, and sort data using PySpark's RDD",
+      "Provides examples for mathematical operations on RDD in PySpark",
+      "Offers insights into statistical operations like counting, summing, finding maximum and minimum values, calculating mean, standard deviation, variance, and histograms"
+    ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "PyS park RDD Cheat Shee tPyth o n F o r D at a Sci e n ce"
+    "content_preview": "This document provides a guide to using PySpark's Resilient Distributed Datasets (RDD). It covers initializing Spark, applying functions, selecting data, reshaping data, mathematical operations, sorting, saving Spark context, executing commands, iterating through RDD, and various statistical operations."
   },
   {
     "id": "23f9c72e2117d5fecc1f35bfc9eacf39",
