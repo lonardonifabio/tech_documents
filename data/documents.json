@@ -2581,22 +2581,29 @@
   {
     "id": "d887e9647a0c74a846c82402ae5c0751",
     "filename": "AI_for_DATA_SCIENCE__1746427935.pdf",
-    "title": "AI for DATA SCIENCE",
+    "title": "AI for Data Science",
     "authors": [],
     "filepath": "documents/AI_for_DATA_SCIENCE__1746427935.pdf",
-    "upload_date": "2025-06-06T03:10:03.416901",
+    "upload_date": "2025-06-14T22:31:33.241618",
     "file_size": 2009336,
-    "summary": "This document explores AI, its role in facilitating data science, and deep learning frameworks such as MXNet and TensorFlow. It also delves into other AI methodologies beyond deep learning, including optimization, fuzzy inference systems, artificial creativity, and more.",
+    "summary": "This document explores the integration of AI and data science, focusing on deep learning frameworks such as MXNet and TensorFlow. It delves into the workings of these systems, their main programming languages, and how to leverage them effectively. Additionally, it discusses optimization, fuzzy inference systems, artificial creativity, and other AI methodologies beyond deep learning. The document concludes with practical guides on building a DL network using MXNet and TensorFlow.",
     "keywords": [
       "AI",
       "Data Science",
       "Deep Learning",
-      "Frameworks",
-      "MXNet"
+      "MXNet",
+      "TensorFlow"
+    ],
+    "key_concepts": [
+      "AI facilitates data science by automating complex tasks, enabling faster insights and predictions.",
+      "Deep learning systems are a type of artificial neural network designed to learn from large amounts of data, improving performance on tasks such as image recognition and natural language processing.",
+      "The book provides comprehensive guides on using popular deep learning frameworks like MXNet and TensorFlow for various applications.",
+      "Optimization techniques in AI help improve the efficiency and effectiveness of machine learning models by reducing computational costs and improving accuracy.",
+      "Fuzzy inference systems are a type of AI system that uses 'fuzzy logic' to make decisions based on vague or uncertain data."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document explores AI, its role in facilitating data science..."
+    "content_preview": "Exploring the integration of AI and data science, focusing on deep learning frameworks like MXNet and TensorFlow."
   },
   {
     "id": "97135726dd603b520a4c045727d6f924",
