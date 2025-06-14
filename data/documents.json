@@ -19048,19 +19048,26 @@
     "title": "Practical Text Classification With Python and Keras",
     "authors": [],
     "filepath": "documents/Practical_Text_Classification_With_Python_and_Keras_1635839460.pdf",
-    "upload_date": "2025-06-03T17:53:42.932121",
+    "upload_date": "2025-06-14T22:31:42.969625",
     "file_size": 1044235,
-    "summary": "This document provides a practical guide on text classification using Python and Keras. It covers sentiment analysis, a popular use case in text classification, and demonstrates how to load data from the Sentiment Labelled Sentences Data Set from the UCI Machine Learning Repository.",
+    "summary": "This document provides a practical guide on performing text classification using Python and Keras, focusing on sentiment analysis as a use case. It discusses the process of choosing a dataset, loading data with Pandas, preprocessing text data, building a neural network model using Keras, training the model, and evaluating its performance. The document also highlights the importance of natural language processing (NLP) in text classification and mentions other common use cases such as spam detection and auto tagging.",
     "keywords": [
       "Text Classification",
+      "Sentiment Analysis",
       "Python",
       "Keras",
-      "Sentiment Analysis",
-      "Natural Language Processing"
+      "Deep Learning"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "Text classification is a prominent use case in natural language processing (NLP) and involves reading the mood or sentiment from text.",
+      "The document provides a step-by-step guide on performing text classification using Python and Keras, with sentiment analysis as an example.",
+      "The data set used for this tutorial can be downloaded from the UCI Machine Learning Repository and includes labeled reviews from IMDb, Amazon, and Yelp.",
+      "The document explains how to load the data into a Pandas DataFrame for further processing.",
+      "The text data is preprocessed by removing punctuation, converting all text to lowercase, and tokenizing the text."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Practical T ext Classification W ith Python and Keras. Reading the mood from text with machine learning is called sentiment analysis , and it is one of the prominent use cases in text classification."
+    "content_preview": "Learn how to perform text classification using Python and Keras for sentiment analysis. Download the data set from the UCI Machine Learning Repository, load it with Pandas, preprocess the text data, build a neural network model, train it, and evaluate its performance."
   },
   {
     "id": "bdb9c7280dd18dd80b583a4ee18f3c20",
