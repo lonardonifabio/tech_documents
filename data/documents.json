@@ -106,9 +106,9 @@
     "title": "10 Minutes to Pandas - pandas 0.17.1 Documentation",
     "authors": [],
     "filepath": "documents/10_Minutes_to_Pandas_1642524382.pdf",
-    "upload_date": "2025-06-13T17:20:37.931890",
+    "upload_date": "2025-06-13T22:59:35.969887",
     "file_size": 561924,
-    "summary": "This document provides a short introduction to the pandas library, focusing on new users. It covers object creation, including Series and DataFrame, using various methods such as passing lists, numpy arrays, and dictionaries of objects. The document also introduces how to handle missing data and customize data types.",
+    "summary": "This document provides a short introduction to the pandas library, focusing on new users. It covers object creation, including Series and DataFrame, using various methods such as passing lists, numpy arrays, or dictionaries of objects. The document also touches upon custom indexing and labeling columns, as well as handling missing data with NaN.",
     "keywords": [
       "pandas",
       "DataFrame",
@@ -117,14 +117,15 @@
       "matplotlib"
     ],
     "key_concepts": [
-      "The document provides a brief introduction to pandas, a powerful library for data manipulation in Python.",
-      "It demonstrates how to create Series and DataFrame objects using various methods like passing lists, numpy arrays, and dictionaries of objects.",
-      "The document explains how to handle missing data by introducing the concept of NaN values.",
-      "It also covers customizing data types for better data analysis."
+      "The document introduces pandas to new users by providing a short and concise guide on how to create Series and DataFrames using various methods.",
+      "It demonstrates the creation of a Series by passing a list of values, allowing pandas to generate a default integer index.",
+      "The creation of a DataFrame is shown by passing a numpy array, with a datetime index and labeled columns.",
+      "Another method for creating a DataFrame is demonstrated by passing a dict of objects that can be converted to series-like.",
+      "The document briefly touches upon handling missing data with NaN."
     ],
     "category": "Data Science",
     "difficulty": "Beginner",
-    "content_preview": "Learn to create Series and DataFrame objects in pandas using various methods."
+    "content_preview": "This document provides a short introduction to pandas, focusing on new users."
   },
   {
     "id": "722f105592780fe905a4b316dcbd2b41",
