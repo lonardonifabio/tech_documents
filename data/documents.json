@@ -5659,18 +5659,26 @@
     "title": "C Programming Cheatsheet",
     "authors": [],
     "filepath": "documents/C_Programming_1627300169 (1).pdf",
-    "upload_date": "2025-06-03T22:07:03.138517",
+    "upload_date": "2025-06-14T19:41:03.138061",
     "file_size": 171799,
-    "summary": "This document provides a comprehensive cheatsheet for C programming string format specifiers, arithmetic operators, and character escapes.",
+    "summary": "This document provides a comprehensive guide to C programming format specifiers, arithmetic operators, and character escapes. It covers string formatting using %[flags][width][.precision][length]specifier, various data types like char, int, float, and long, and their respective format specifiers. The document also explains width and precision, flags, and integer and string input/output operations.",
     "keywords": [
       "C Programming",
-      "String Format Specifiers",
+      "Format Specifiers",
+      "String Formatting",
       "Arithmetic Operators",
       "Character Escapes"
     ],
+    "key_concepts": [
+      "Format specifiers in C programming are used to print or scan various data types like char, int, float, and long.",
+      "Width and precision can be specified in format specifiers to control the display width and number of digits after the decimal point respectively.",
+      "Flags such as left-justify, right-justify, blank space, zero padding, and hexadecimal notation can be used with format specifiers for custom formatting.",
+      "Arithmetic operators in C programming include addition, subtraction, multiplication, division, modulus, increment, decrement, and pre/post increment.",
+      "Character escapes are used to represent special characters like NULL, backspace, newline, carriage return, tab, vertical tab, and form feed."
+    ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a comprehensive cheatsheet for C programming string format specifiers, arithmetic operators, and character escapes."
+    "content_preview": "This document covers C programming format specifiers, arithmetic operators, and character escapes."
   },
   {
     "id": "3edba52c1958cf07d9b1bcf4dd9dc483",
