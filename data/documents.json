@@ -980,9 +980,9 @@
       "Vladimir Vuskovic"
     ],
     "filepath": "documents/AI_Agents_by_Google_1742549472.pdf",
-    "upload_date": "2025-06-13T17:20:38.744891",
+    "upload_date": "2025-06-13T22:59:36.784890",
     "file_size": 4043800,
-    "summary": "This document discusses AI agents, their models, tools, and orchestration layer. It highlights the differences between agents and models, cognitive architectures, and extensions. The authors provide sample extension functions, use cases, and function sample code. The document also covers data stores, implementation, application, and enhancing model performance with targeted learning. It concludes with a quick start guide for LangChain Production and applications with Vertex AI agents.",
+    "summary": "This document discusses AI agents, their model, tools, and orchestration layer. It highlights the differences between agents and models, cognitive architectures, and extensions. The document also provides sample extensions, functions, use cases, and function sample code. Data stores and implementation are covered, along with enhancing model performance through targeted learning. The document concludes with a quick start guide for LangChain Production and applications with Vertex AI agents.",
     "keywords": [
       "AI Agents",
       "Google",
@@ -992,14 +992,14 @@
     ],
     "key_concepts": [
       "An agent is a software system that perceives its environment and takes actions to achieve goals.",
-      "The orchestration layer manages the interaction between multiple agents and their environment.",
-      "Extensions allow agents to interact with external systems and services.",
-      "Sample extensions include natural language processing, computer vision, and reinforcement learning.",
-      "Functions are the building blocks for creating custom agent behaviors."
+      "The model refers to the underlying machine learning model used by the agent.",
+      "The tools section discusses various tools used for interacting with the outside world, such as TensorFlow and PyTorch.",
+      "Extensions allow users to customize the behavior of an agent.",
+      "Cognitive architectures explain how agents operate and make decisions based on their environment."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about AI agents, their tools, and applications with Google."
+    "content_preview": "Learn about AI agents, their tools, and applications with Google's guide."
   },
   {
     "id": "b2cb06bf211e4a51c7ab1c2393914b13",
