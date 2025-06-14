@@ -8481,24 +8481,31 @@
   {
     "id": "a3d07522296c86154f9955aefc44d9a8",
     "filename": "Download_directly_here_by_tapping_to_expand_to_fullscreen_1643195210.pdf",
-    "title": "Machine Learning With Random Forests and Decision Trees: A Visual Guide For Beginners",
+    "title": "Machine Learning with Random Forests and Decision Trees: A Visual Guide for Beginners",
     "authors": [
       "Scott Hartshorn"
     ],
     "filepath": "documents/Download_directly_here_by_tapping_to_expand_to_fullscreen_1643195210.pdf",
-    "upload_date": "2025-06-03T22:07:04.668529",
+    "upload_date": "2025-06-14T22:31:37.296621",
     "file_size": 2379418,
-    "summary": "This document provides a beginner-friendly guide on understanding the Random Forest Machine Learning algorithm, with an emphasis on intuitive learning. It also explains the fundamentals of Decision Trees. The content is primarily programming language agnostic, focusing on the machine learning concepts, but uses Python 2.7's Scikit-learn module f...",
+    "summary": "This document provides a beginner-friendly guide on understanding the Random Forest Machine Learning algorithm, focusing on an intuitive explanation of its workings. It also covers the fundamental aspect of Decision Trees and includes some mathematical details. The book is programming language agnostic, primarily focusing on the machine learning concepts, with some code examples using Scikit-learn in Python 2.7.",
     "keywords": [
       "Machine Learning",
-      "Random Forest",
-      "Decision Tree",
-      "Beginner Guide",
-      "Scott Hartshorn"
+      "Random Forests",
+      "Decision Trees",
+      "Beginner's Guide",
+      "Scikit-learn"
+    ],
+    "key_concepts": [
+      "The document offers an intuitive understanding of how Random Forests work, enabling application to larger problems.",
+      "Since Decision Trees are a fundamental part of Random Forests, this book explains their workings as well.",
+      "The book includes a moderate amount of math when diving into the details of various aspects of Random Forests.",
+      "The content is primarily focused on explaining machine learning concepts rather than specific programming languages.",
+      "The document provides some code examples using Scikit-learn in Python 2.7."
     ],
     "category": "AI",
     "difficulty": "Beginner",
-    "content_preview": "Machine\tLearning\tWith\tRandom\tForests\tAnd\tA\tVisual\tGuide\tFor\tBeginners"
+    "content_preview": "A beginner's guide to understanding Random Forests and Decision Trees in Machine Learning."
   },
   {
     "id": "aea97acf7b3e960ad623a3001b8e5ce4",
