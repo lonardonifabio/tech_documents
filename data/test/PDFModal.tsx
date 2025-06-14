@@ -164,11 +164,40 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
     const title = doc.title || doc.filename;
     // Use the dedicated document URL with proper Open Graph meta tags
     const documentUrl = `https://lonardonifabio.github.io/tech_documents/document/${doc.id}`;
-    // For desktop, use the full post content with dedicated URL
-    const postContent = generateLinkedInPost(doc);
-    const encodedContent = encodeURIComponent(postContent);
-    const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(documentUrl)}&text=${encodedContent}`;
-    window.open(linkedInUrl, '_blank', 'width=600,height=600');
+    
+    // Detect if user is on mobile
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
+    if (isMobile) {
+      // For mobile devices, use the dedicated URL with proper meta tags
+      // This will allow LinkedIn's crawler to extract proper Open Graph data
+      
+      // Try to use the native sharing API if available
+      if (navigator.share) {
+        const postContent = generateLinkedInPost(doc);
+        navigator.share({
+          title: `AI Document: ${title}`,
+          text: postContent,
+          url: documentUrl
+        }).catch(err => {
+          console.log('Native sharing failed, falling back to LinkedIn URL');
+          // Fallback to LinkedIn URL with dedicated document URL
+          const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(documentUrl)}`;
+          window.open(linkedInUrl, '_blank');
+        });
+      } else {
+        // For mobile without native sharing, use the dedicated URL
+        // LinkedIn's mobile crawler will extract meta tags from the dedicated page
+        const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(documentUrl)}`;
+        window.open(linkedInUrl, '_blank');
+      }
+    } else {
+      // For desktop, use the full post content with dedicated URL
+      const postContent = generateLinkedInPost(doc);
+      const encodedContent = encodeURIComponent(postContent);
+      const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(documentUrl)}&text=${encodedContent}`;
+      window.open(linkedInUrl, '_blank', 'width=600,height=600');
+    }
   };
   
   useEffect(() => {
