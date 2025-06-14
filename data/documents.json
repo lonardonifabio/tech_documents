@@ -7709,25 +7709,26 @@
     "title": "Deep Learning Course Summary",
     "authors": [],
     "filepath": "documents/Deep_learning_1718550571.pdf",
-    "upload_date": "2025-06-13T17:20:43.278897",
+    "upload_date": "2025-06-13T22:59:41.309910",
     "file_size": 15159441,
-    "summary": "This document provides an overview of a deep learning course aimed at individuals seeking to break into AI. The course covers the foundations of deep learning, enabling learners to build, train, and apply fully connected neural networks. It emphasizes efficient implementation of neural networks, understanding key parameters in architecture, and delving deeper into how deep learning works. Upon completion, learners will be able to answer basic interview questions and apply deep learning to their own applications.",
+    "summary": "This document provides an overview of a deep learning course aimed at individuals seeking to break into AI. The course covers the foundations of deep learning, enabling learners to build, train, and apply fully connected deep neural networks. It also delves into efficient (vectorized) neural network implementation, key parameters in a neural network's architecture, and the workings of deep learning itself. Upon completion, learners will be equipped to apply deep learning to their own applications and answer basic interview questions.",
     "keywords": [
       "Deep Learning",
       "AI",
       "Neural Networks",
-      "Course"
+      "Course",
+      "Career Opportunities"
     ],
     "key_concepts": [
-      "Mastering deep learning opens numerous new career opportunities in AI.",
-      "The course covers the foundations of deep learning, including building, training, and applying neural networks.",
-      "Learners will understand key parameters in a neural network's architecture and efficient implementation techniques.",
-      "The course goes beyond surface-level descriptions to teach how deep learning actually works.",
-      "Upon completion, learners will be able to apply deep learning to their own applications and answer basic interview questions."
+      "Deep learning is a new 'superpower' for building AI systems that were not possible a few years ago.",
+      "The course covers the foundations of deep learning, including understanding major technology trends and applying them.",
+      "Learners will be able to build, train, and apply fully connected deep neural networks after completing this class.",
+      "The course teaches the inner workings of deep learning, not just a surface-level description.",
+      "Upon completion, learners will be able to answer basic interview questions related to AI."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This course helps you break into cutting-edge AI by teaching the foundations of deep learning."
+    "content_preview": "This course helps individuals break into cutting-edge AI by teaching the foundations of deep learning."
   },
   {
     "id": "c0d0eaf831570c9ae5256b2550a47ca7",
