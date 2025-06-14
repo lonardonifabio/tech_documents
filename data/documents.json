@@ -24886,20 +24886,29 @@
     "id": "00c466ad4a315f48835c6a615016cd97",
     "filename": "choosing-a-good-chart-09.pdf",
     "title": "Choosing a Good Chart",
-    "authors": [],
+    "authors": [
+      "A. Abela"
+    ],
     "filepath": "documents/choosing-a-good-chart-09.pdf",
-    "upload_date": "2025-06-03T17:53:44.475151",
+    "upload_date": "2025-06-14T13:07:00.437945",
     "file_size": 90990,
-    "summary": "This document provides suggestions for choosing the appropriate chart type based on the data and its intended use, including circular area charts, line charts, column charts, scatter charts, 3D area charts, pie charts, waterfall charts, stacked charts, and more.",
+    "summary": "This document provides an overview of various types of charts, their uses, and when to apply them in data visualization. It covers circular area chart, line chart, column chart, scatter chart, 3D area chart, pie chart, waterfall chart, stacked column chart, bubble chart, variable width column chart, bar chart, column histogram, line histogram, and table or table with embedded charts. The document also discusses the differences between cyclical and non-cyclical data, single or few categories versus many categories, and over time or comparison visualizations.",
     "keywords": [
-      "Chart",
       "Data Visualization",
-      "Graphs",
-      "Types of Charts"
+      "Charts",
+      "Line Chart",
+      "Column Chart",
+      "Scatter Chart"
+    ],
+    "key_concepts": [
+      "Understanding the different types of charts and their uses in data visualization",
+      "Applying the appropriate chart for specific data sets and purposes",
+      "Distinguishing between cyclical and non-cyclical data and choosing the right chart accordingly",
+      "Considering the number of categories and items when selecting a chart type"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides suggestions for choosing the appropriate chart type based on the data and its intended use,"
+    "content_preview": "Learn about various types of charts for data visualization."
   },
   {
     "id": "1afc8587a8d6de62cab801e2e64eb705",
