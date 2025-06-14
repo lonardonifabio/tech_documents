@@ -18293,19 +18293,26 @@
     "title": "Pandas Cheat Sheet",
     "authors": [],
     "filepath": "documents/Pandas_Cheat_Sheet.pdf",
-    "upload_date": "2025-06-06T15:45:47.526681",
+    "upload_date": "2025-06-14T19:41:11.060086",
     "file_size": 396529,
-    "summary": "This document provides a guide on various operations and functions in the Pandas library, focusing on creating, reshaping, sorting, reindexing, renaming, and manipulating DataFrames.",
+    "summary": "This document provides a comprehensive guide on creating, reshaping, and manipulating DataFrames using the Pandas library in Python. It covers topics such as melting data, pivoting, concatenating, sorting, reindexing, renaming columns, and resetting indexes. Additionally, it explains how to specify values for each column or row, create a DataFrame with a MultiIndex, and the concept of method chaining for improved readability.",
     "keywords": [
       "Pandas",
-      "DataFrame",
+      "DataFrames",
       "Reshaping",
       "Sorting",
       "Reindexing"
     ],
+    "key_concepts": [
+      "Creating DataFrames by specifying values for each column or row",
+      "Reshaping data using melt, pivot, and concat functions",
+      "Manipulating DataFrames through sorting, reindexing, renaming columns, and resetting indexes",
+      "Using method chaining to improve code readability",
+      "Creating a DataFrame with a MultiIndex"
+    ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Creating DataFrames Reshaping Data –Change layout, sorting , reindexing , renaming pd.melt(df)"
+    "content_preview": "Learn how to create, reshape, and manipulate DataFrames using Pandas in Python."
   },
   {
     "id": "aff5347bb883c797453b909cc3388867",
