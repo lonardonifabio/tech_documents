@@ -5768,22 +5768,31 @@
   {
     "id": "23b7c67fd5882a543aeba913e2df0c72",
     "filename": "Cloud-Data-Science-for-Dummies.pdf",
-    "title": "Cloud-Data-Science-for-Dummies.pdf",
+    "title": "Cloud Data Science for Dummies (Snowflake Special Edition)",
     "authors": [
       "David Baum"
     ],
     "filepath": "documents/Cloud-Data-Science-for-Dummies.pdf",
-    "upload_date": "2025-06-04T21:18:50.092007",
+    "upload_date": "2025-06-14T13:06:48.934944",
     "file_size": 2353726,
-    "summary": "A comprehensive guide to cloud data science using Snowflake, authored by David Baum.",
+    "summary": "This comprehensive guide offers a beginner-friendly introduction to cloud data science, focusing on the Snowflake platform. It covers essential topics such as data warehousing, big data analytics, machine learning, and SQL. The book also provides practical examples and use cases, making it an invaluable resource for both novice and experienced data scientists.",
     "keywords": [
       "Cloud Data Science",
       "Snowflake",
-      "David Baum"
+      "Data Warehousing",
+      "Big Data Analytics",
+      "Machine Learning"
+    ],
+    "key_concepts": [
+      "Learn the fundamentals of cloud data science using the Snowflake platform",
+      "Understand how to store, manage, and analyze large datasets in the cloud",
+      "Explore machine learning techniques for deriving insights from data",
+      "Discover practical applications of cloud data science in various industries",
+      "Gain a solid foundation in SQL for working with structured data"
     ],
     "category": "Data Science",
-    "difficulty": "Intermediate",
-    "content_preview": "These materials are © 2021 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited. Cloud Data Science Snowflake Special Edition"
+    "difficulty": "Beginner",
+    "content_preview": "Learn cloud data science using the Snowflake platform. Essential for beginners."
   },
   {
     "id": "82bb6c261d0edb1ae1c159b994bd189c",
