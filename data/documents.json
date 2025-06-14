@@ -24685,22 +24685,22 @@
       "Shervine Amidi"
     ],
     "filepath": "documents/convolutional neural network.pdf",
-    "upload_date": "2025-06-13T17:20:52.859900",
+    "upload_date": "2025-06-13T22:59:50.888952",
     "file_size": 2545508,
-    "summary": "This document provides an overview of Convolutional Neural Networks (CNNs), a type of neural network commonly used in deep learning. It discusses the architecture, layers such as convolution and pooling, their hyperparameters, and downsampling operations like max and average pooling. The fully connected layer is also briefly mentioned.",
+    "summary": "This document provides an overview of Convolutional Neural Networks (CNNs), discussing their architecture, layers (convolution, pooling, and fully connected), hyperparameters, and common operations like max pooling and average pooling. The cheatsheet is part of a deep learning course offered by Stanford University.",
     "keywords": [
-      "Convolutional Neural Networks",
+      "Convolutional Neural Network",
       "CNN",
       "Deep Learning",
-      "Neural Networks",
-      "Convolution Layer"
+      "Stanford",
+      "Cheatsheet"
     ],
     "key_concepts": [
-      "Convolutional neural networks (CNNs) are a specific type of neural network, typically composed of convolution and pooling layers.",
-      "The convolution layer uses filters to perform convolution operations on the input data. Its hyperparameters include filter size and stride.",
-      "The pooling layer is a downsampling operation applied after a convolution layer, preserving detected features and reducing the spatial dimensions of the feature map.",
+      "Convolutional neural networks are composed of convolution and pooling layers, which can be fine-tuned with respect to hyperparameters.",
+      "The convolution layer uses filters that perform convolution operations on the input data.",
+      "Pooling is a downsampling operation applied after a convolution layer, preserving detected features and downsampling the feature map.",
       "Max pooling selects the maximum value of the current view, while average pooling averages the values of the current view.",
-      "The fully connected layer operates on a flattened input, connecting each input to every other input."
+      "The fully connected layer operates on a flattened input where each input is connected to all neurons in the next layer."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
