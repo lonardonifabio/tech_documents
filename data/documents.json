@@ -19289,19 +19289,26 @@
       "Katia Oleinik (koleinik@bu.edu)"
     ],
     "filepath": "documents/Python_for_Data_Analysis_1567264306.pdf",
-    "upload_date": "2025-06-03T22:07:07.700554",
+    "upload_date": "2025-06-14T13:06:57.143945",
     "file_size": 1141119,
-    "summary": "This document provides a tutorial on Python libraries used in data analysis, including NumPy, SciPy, Pandas, SciKit-Learn, matplotlib, and Seaborn. The content covers reading, selecting, filtering, manipulating, plotting, descriptive, and inferential statistics. All these libraries are installed on the SCC.",
+    "summary": "This document provides a tutorial on using Python for data analysis, covering topics such as reading and filtering data, data manipulation, plotting, descriptive and inferential statistics, and introducing popular libraries like NumPy, SciPy, Pandas, SciKit-Learn, matplotlib, and Seaborn. All these libraries are installed on the SCC.",
     "keywords": [
       "Python",
       "Data Analysis",
       "Data Science",
-      "Libraries",
-      "NumPy"
+      "NumPy",
+      "SciPy"
+    ],
+    "key_concepts": [
+      "This tutorial introduces Python as a powerful tool for data analysis.",
+      "The document covers various methods for reading, filtering, and manipulating data in Python.",
+      "It explains how to plot data using libraries like matplotlib and Seaborn.",
+      "Descriptive and inferential statistics are also discussed in the tutorial.",
+      "The document provides an overview of popular Python libraries for data science such as NumPy, SciPy, Pandas, and SciKit-Learn."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Tutorial Content 2Overview of Python Libraries for Data Scientists"
+    "content_preview": "Tutorial on Python for Data Analysis covering reading, filtering, manipulating data, plotting, statistics, and popular libraries."
   },
   {
     "id": "3a812fa80159ac872a32c581e74a247c",
