@@ -19486,21 +19486,30 @@
   {
     "id": "4e67b889427f34cfad4f5db5f3037af2",
     "filename": "Python__1642836034.pdf",
-    "title": "Introduction to Python Programming",
-    "authors": [],
+    "title": "Introduction to Python Programming - Bite-Size",
+    "authors": [
+      "April Speight"
+    ],
     "filepath": "documents/Python__1642836034.pdf",
-    "upload_date": "2025-06-03T17:53:43.181126",
+    "upload_date": "2025-06-14T13:06:57.115945",
     "file_size": 6912999,
-    "summary": "A brief introduction to Python programming, covering the basics in a bite-sized format. This document is copyrighted by John Wiley & Sons, Inc.",
+    "summary": "This document is an introduction to Python programming, designed in a bite-size format for easy learning. It covers the basics of Python syntax, data structures, functions, and control structures. The book also includes practical examples and exercises to reinforce understanding.",
     "keywords": [
       "Python",
       "Programming",
-      "Bite-Size",
-      "Introduction"
+      "Introduction",
+      "Bite-Size"
     ],
-    "category": "Data Science",
+    "key_concepts": [
+      "This book provides a comprehensive introduction to Python programming for beginners, covering essential topics such as variables, data structures, functions, and control structures.",
+      "The book adopts a bite-size approach, breaking down complex concepts into manageable, easy-to-understand sections, making it ideal for those new to programming.",
+      "Practical examples and exercises are included throughout the book to reinforce understanding and provide hands-on experience with Python.",
+      "The theoretical framework of the book is based on object-oriented programming principles, preparing readers for more advanced topics in Python.",
+      "Upon completion of this book, readers will have a solid foundation in Python programming, ready to apply their skills in various practical settings."
+    ],
+    "category": "Technology",
     "difficulty": "Beginner",
-    "content_preview": "BITE-SIZE Python® April Speightan Introduction to Python Programming"
+    "content_preview": "An introduction to Python programming designed in a bite-size format for easy learning."
   },
   {
     "id": "10bcc432be1a95260edc28754ff07e9e",
