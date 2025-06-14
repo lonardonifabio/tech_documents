@@ -6312,18 +6312,24 @@
     "title": "Using Python for Data Science",
     "authors": [],
     "filepath": "documents/DS_1742846496.pdf",
-    "upload_date": "2025-06-05T20:14:18.340652",
+    "upload_date": "2025-06-14T13:06:49.203944",
     "file_size": 2542576,
-    "summary": "This book provides an introduction to data science using Python, covering the basics of data, Python data structures like lists, tuples, dictionaries, and sets, and common operations. It also includes exercises.",
+    "summary": "This document provides an introduction to using Python for data science, covering the basics of data, Python data structures like lists, tuples, dictionaries, and sets, and their applications in natural language processing. It also includes exercises for practice.",
     "keywords": [
-      "Data Science",
       "Python",
+      "Data Science",
       "Data Structures",
       "Natural Language Processing"
     ],
+    "key_concepts": [
+      "The document introduces the reader to using Python for data science, covering the basics of different types of data and their processing.",
+      "It explains various Python data structures such as lists, tuples, dictionaries, and sets, and demonstrates their usage in natural language processing.",
+      "The text includes exercises for practice to help reinforce the concepts learned.",
+      "The document is intended for readers who are interested in learning about data science using Python."
+    ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Using Python for Data Science... What’s in the Book?"
+    "content_preview": "Learn to use Python for data science, covering basics of data and Python data structures like lists, tuples, dictionaries, and sets."
   },
   {
     "id": "e7387252bc502e1801de3e72e4578aee",
