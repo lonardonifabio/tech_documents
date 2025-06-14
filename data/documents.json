@@ -13751,15 +13751,15 @@
   {
     "id": "7e255cb8a17a7ea6c61cf95b76d7ba72",
     "filename": "MachineLearningCheatsheet_1617636712.pdf",
-    "title": "MachineLearningCheatsheet_1617636712.pdf",
+    "title": "Machine Learning Cheatsheet",
     "authors": [
       "Afshine Amidi",
       "Shervine Amidi"
     ],
     "filepath": "documents/MachineLearningCheatsheet_1617636712.pdf",
-    "upload_date": "2025-06-05T20:14:23.270729",
+    "upload_date": "2025-06-14T13:06:54.170945",
     "file_size": 1365616,
-    "summary": "This document is a cheatsheet for CS 229 – Machine Learning, offering an overview of various machine learning concepts such as supervised and unsupervised learning, linear models, support vector machines, generative learning, tree-based methods, clustering, and more. It was created by Afshine Amidi and Shervine Amidi on September 15, 2018.",
+    "summary": "This document is a comprehensive cheatsheet for CS 229 – Machine Learning, providing an overview of various machine learning concepts and methodologies. It covers supervised learning, unsupervised learning, linear models, support vector machines, generative learning, tree-based methods, other non-parametric approaches, and learning theory. Key topics include linear regression, classification, logistic regression, generalized linear models, Gaussian Discriminant Analysis, Naive Bayes, k-means clustering, and Expectation-Maximization.",
     "keywords": [
       "Machine Learning",
       "Supervised Learning",
@@ -13767,9 +13767,16 @@
       "Linear Models",
       "Support Vector Machines"
     ],
+    "key_concepts": [
+      "This cheatsheet provides an introduction to supervised learning, a machine learning approach where the model is trained on labeled data.",
+      "Linear regression and classification are discussed as linear models used for regression and classification tasks respectively.",
+      "Logistic regression is a specific type of linear model used for binary classification problems.",
+      "Support Vector Machines (SVM) are covered, which are a popular machine learning algorithm for both regression and classification tasks.",
+      "Generative Learning methods like Gaussian Discriminant Analysis and Naive Bayes are introduced as techniques to model the underlying distribution of data."
+    ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "CS 229 – Machine Learning, Super VIP Cheatsheet:"
+    "content_preview": "Overview of machine learning concepts and methodologies, including supervised learning, unsupervised learning, linear models, support vector machines, generative learning, tree-based methods, and more."
   },
   {
     "id": "42869719f3b69e84147927158ee6f7ec",
