@@ -23079,23 +23079,31 @@
   {
     "id": "29551a99b761e0432a7050adaf919b72",
     "filename": "Think_Stats_1638130499.pdf",
-    "title": "Think Stats",
+    "title": "Think Stats: Exploratory Data Analysis in Python",
     "authors": [
       "Allen B. Downey"
     ],
     "filepath": "documents/Think_Stats_1638130499.pdf",
-    "upload_date": "2025-06-03T22:07:08.652561",
+    "upload_date": "2025-06-14T13:06:59.452945",
     "file_size": 2571869,
-    "summary": "A practical guide to exploratory data analysis using Python, version 2.0.38 by Allen B. Downey.",
+    "summary": "This document is a practical guide to exploratory data analysis (EDA) using the Python programming language. It covers various statistical concepts and techniques, including probability distributions, hypothesis testing, regression analysis, and more. The book emphasizes the importance of visualization and interactive exploration in understanding data. Key applications include data science, machine learning, and research.",
     "keywords": [
-      "Python",
-      "Data Analysis",
       "Exploratory Data Analysis",
-      "Allen Downey"
+      "Python",
+      "Statistics",
+      "Data Science",
+      "Machine Learning"
+    ],
+    "key_concepts": [
+      "EDA is a process of inspecting and summarizing data to understand its main features and identify patterns.",
+      "The book uses Python libraries such as Matplotlib, NumPy, and Seaborn for data visualization and manipulation.",
+      "Think Stats covers various statistical concepts like probability distributions, hypothesis testing, regression analysis, and more.",
+      "The author emphasizes the importance of interactive exploration in understanding data and encourages readers to experiment with their own datasets.",
+      "The book provides practical examples and exercises to help readers apply the concepts learned."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Think Stats Exploratory Data Analysis in Python Version 2.0.38"
+    "content_preview": "Explore data analysis with Python in Think Stats."
   },
   {
     "id": "0b446d94706c1f0cd228b7b5ce641587",
