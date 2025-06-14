@@ -24,7 +24,7 @@ const { doc } = Astro.props;
 const title = `${doc.title || doc.filename} - AI Document Library`;
 const description = doc.summary ? doc.summary.substring(0, 160) + '...' : 'AI & Data Science Document Library';
 const documentUrl = `https://lonardonifabio.github.io/tech_documents/document/${doc.id}`;
-const imageUrl = 'https://www.fabiolonardoni.it/io_ds.png';
+const imageUrl = 'https://www.fabiolonardoni.it/AIdatasciencelibrary_cover.JPG';
 const mainAppUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.id}`;
 ---
 
@@ -58,9 +58,11 @@ const mainAppUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.i
     <meta property="og:type" content="article">
     <meta property="og:url" content={documentUrl}>
     <meta property="og:image" content={imageUrl}>
-    <meta property="og:image:width" content="400">
-    <meta property="og:image:height" content="400">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content={`${doc.title || doc.filename} - AI Document Library`}>
     <meta property="og:site_name" content="AI & Data Science Document Library">
+    <meta property="og:locale" content="en_US">
     <meta property="article:author" content="Fabio Lonardoni">
     <meta property="article:section" content={doc.category}>
     <meta property="article:tag" content={doc.keywords.join(', ')}>
@@ -70,7 +72,9 @@ const mainAppUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.i
     <meta name="twitter:title" content={title}>
     <meta name="twitter:description" content={description}>
     <meta name="twitter:image" content={imageUrl}>
+    <meta name="twitter:image:alt" content={`${doc.title || doc.filename} - AI Document Library`}>
     <meta name="twitter:site" content="@fabiolonardoni">
+    <meta name="twitter:creator" content="@fabiolonardoni">
     
     <!-- LinkedIn specific meta tags -->
     <meta property="linkedin:owner" content="Fabio Lonardoni">
