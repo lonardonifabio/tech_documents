@@ -5871,22 +5871,29 @@
   {
     "id": "ec96e8d8313efabd6599c715f5e5a64b",
     "filename": "Computer_vision_in_factory_Siemens_Advanta__1635145149.pdf",
-    "title": "Computer Vision in Factory - Siemens Advanta",
+    "title": "Augmented Machine Vision for Brownfield Assets by Siemens Advanta",
     "authors": [],
     "filepath": "documents/Computer_vision_in_factory_Siemens_Advanta__1635145149.pdf",
-    "upload_date": "2025-06-03T22:07:03.289518",
+    "upload_date": "2025-06-14T12:13:47.352169",
     "file_size": 1458608,
-    "summary": "Siemens Advanta presents Augmented Machine Vision (AMV), a non-invasive solution for digitizing brownfield assets, enabling data collection and improving transparency, throughput, process, and quality. This technology allows digital enablement in plants where no sensor is available.",
+    "summary": "This document discusses the Augmented Machine Vision (AMV) solution by Siemens Advanta, which enables digitalization of legacy machinery in brownfield environments. The methodology involves non-invasive integration of smart cameras into existing infrastructure to create a data layer, thereby allowing these assets to benefit from digitalization. Key applications include predictive process optimization and expanding system capabilities through virtual feedback. This approach can boost process quality and performance, reduce downtimes, and increase transparency and throughput.",
     "keywords": [
-      "Computer Vision",
-      "Siemens Advanta",
       "Augmented Machine Vision",
+      "Siemens Advanta",
       "Brownfield Assets",
-      "Digitalization"
+      "Digitalization",
+      "Legacy Machinery"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "The Augmented Machine Vision (AMV) solution by Siemens Advanta allows retroactive digitization of legacy tools and systems with a simple, non-invasive integration into the existing infrastructure.",
+      "By adding a data layer to brownfield environments, these assets can benefit from digitalization despite being rarely ideal candidates for it.",
+      "Predictive process optimization is one key application of Augmented Machine Vision, which can boost quality and performance of processes with predictive data models.",
+      "The AMV solution enables the provision and interpretation of all observable brownfield data, expanding capabilities of systems like machines or robots by using virtual feedback.",
+      "Reducing downtimes and increasing transparency and throughput are practical implications of implementing Augmented Machine Vision in brownfield environments."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Siemens Advanta presents Augmented Machine Vision (AMV), a non-invasive solution for digitizing brownfield assets..."
+    "content_preview": "This document discusses the Augmented Machine Vision (AMV) solution by Siemens Advanta, enabling digitalization of legacy machinery in brownfield environments."
   },
   {
     "id": "81c2843e2a2aad5b0b4af1c1039efcbb",
