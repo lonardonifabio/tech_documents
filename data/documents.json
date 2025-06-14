@@ -12240,19 +12240,25 @@
     "title": "Keras Cheat Sheet Neural Networks in Python",
     "authors": [],
     "filepath": "documents/Keras Cheat Sheet Neural Networks in Python.pdf",
-    "upload_date": "2025-06-05T20:14:22.363724",
+    "upload_date": "2025-06-14T13:06:53.268945",
     "file_size": 1743028,
-    "summary": "This document provides a cheat sheet for Keras, a powerful and easy-to-use deep learning library for Theano and TensorFlow. It offers a high-level API to develop and evaluate deep learning models. The document covers Sequential Model Architecture, Inspecting Models, Compiling Models, Model Training, Evaluating Model's Performance, Saving/Loading...",
+    "summary": "This document provides a comprehensive guide to using Keras, a powerful and user-friendly deep learning library for Theano and TensorFlow. It offers a high-level API to develop and evaluate deep learning models. The cheat sheet covers Sequential Model Architecture, Inspecting Models, Compiling Models, Model Training, Evaluating Model's Performance, Saving/Loading Models, Model Fine-tuning, Preprocessing, and One-Hot Encoding. It also includes examples for Binary Classification, Multi-Class Classification, Regression, Recurrent Neural Networks, and Convolutional Neural Networks.",
     "keywords": [
       "Keras",
       "Deep Learning",
-      "Neural Networks",
       "Python",
+      "Neural Networks",
       "Theano"
+    ],
+    "key_concepts": [
+      "Keras is a powerful and easy-to-use deep learning library for Theano and TensorFlow.",
+      "The document provides a high-level API to develop and evaluate deep learning models using Keras.",
+      "The cheat sheet covers various topics such as Sequential Model Architecture, Inspecting Models, Compiling Models, Model Training, Evaluating Model's Performance, Saving/Loading Models, Model Fine-tuning, Preprocessing, and One-Hot Encoding.",
+      "Examples for Binary Classification, Multi-Class Classification, Regression, Recurrent Neural Networks, and Convolutional Neural Networks are included in the cheat sheet."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Inspect M od e l>"
+    "content_preview": "This document provides a guide to using Keras for deep learning with Python."
   },
   {
     "id": "68cc7176f0e4edb05a2b7696f299dc16",
