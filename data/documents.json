@@ -13271,9 +13271,9 @@
       "Rémi Canard"
     ],
     "filepath": "documents/ML_CheatSheet_1637007275.pdf",
-    "upload_date": "2025-06-13T17:20:46.496893",
+    "upload_date": "2025-06-13T22:59:44.527925",
     "file_size": 1309589,
-    "summary": "This document provides descriptions, advantages, and use cases of various Machine Learning algorithms. It is inspired by the books and articles of MachineLearningMastery, with added mathematical explanations and ML pros & cons from HackingNote. The design is inspired by The Probability Cheatsheet of W. Chen. Written by Rémi Canard.",
+    "summary": "This document provides descriptions, advantages, and use cases of various Machine Learning algorithms. It is inspired by the books and articles of MachineLearningMastery, with added mathematical explanations and ML Pros & Cons of HackingNote. The design is inspired by The Probability Cheatsheet of W. Chen. Written by Rémi Canard.",
     "keywords": [
       "Machine Learning",
       "Algorithms",
@@ -13286,7 +13286,7 @@
       "Linear and Nonlinear algorithms make different assumptions about the shape and structure of the target function, thus the need for testing several methods.",
       "Linear algorithms are usually simpler, faster, and require less data, while Nonlinear can be more flexible, powerful, and performant.",
       "Supervised learning methods learn to predict Y from X given that the data is labeled. Unsupervised learning methods learn to find the inherent structure of the unlabeled data.",
-      "The Bias-Variance trade-off in supervised learning refers to the prediction error being composed of bias, variance, and the irreducible part."
+      "The Bias-Variance trade-off in supervised learning refers to the prediction error being composed of the bias, variance, and the irreducible part."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
