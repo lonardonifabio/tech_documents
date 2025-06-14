@@ -3154,20 +3154,30 @@
     "id": "b311146e7f2564349ab8f5111d2b4cba",
     "filename": "A_Guide_for_Ethical_Data_Science_1640082762.pdf",
     "title": "A Guide for Ethical Data Science",
-    "authors": [],
+    "authors": [
+      "Royal Statistical Society (RSS)",
+      "Institute and Faculty of Actuaries (IFoA)"
+    ],
     "filepath": "documents/A_Guide_for_Ethical_Data_Science_1640082762.pdf",
-    "upload_date": "2025-06-02T17:58:11.948183",
+    "upload_date": "2025-06-14T19:41:02.099057",
     "file_size": 1265255,
-    "summary": "August 2019 guide by the Royal Statistical Society (RSS) and Institute and Faculty of Actuaries (IFoA), covering ethical considerations in data science, including enhancing societal value, avoiding harm, maintaining competence, preserving trustworthiness, accountability, and an implementation checklist.",
+    "summary": "This document, a collaboration between the Royal Statistical Society (RSS) and the Institute and Faculty of Actuaries (IFoA), provides a comprehensive guide on ethical data science. It outlines five key themes: enhancing societal value, avoiding harm, applying professional competence, preserving trustworthiness, maintaining accountability, and offers an implementation checklist. The guide is not obligatory but aims to promote ethical practices in the field.",
     "keywords": [
       "Ethical Data Science",
-      "Royal Statistical Society",
-      "Institute and Faculty of Actuaries",
-      "Data Science Ethics"
+      "RSS",
+      "IFoA",
+      "Guidance"
+    ],
+    "key_concepts": [
+      "The guide seeks to enhance the value of data science for society by promoting ethical practices.",
+      "To avoid harm, the guide emphasizes the importance of understanding and mitigating potential negative impacts of data science on individuals and society.",
+      "Professional competence is crucial in ethical data science, as outlined in the guide's sections on applying and maintaining it.",
+      "The guide stresses the need to preserve or increase trustworthiness by ensuring transparency, fairness, and accuracy in data science practices.",
+      "Accountability and oversight are essential for ethical data science, as detailed in the implementation checklist provided."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "August 2019A Guide for   Ethical Data Science"
+    "content_preview": "This guidance promotes ethical practices in data science."
   },
   {
     "id": "3646155f79bb5bb8d29d813f7090ee2a",
