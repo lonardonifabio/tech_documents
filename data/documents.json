@@ -15506,19 +15506,25 @@
       "Jonathan Wayna Korn, PhD"
     ],
     "filepath": "documents/Machine_learning_in_python__1725345598.pdf",
-    "upload_date": "2025-06-05T20:14:24.132734",
+    "upload_date": "2025-06-14T13:06:55.033945",
     "file_size": 9105640,
-    "summary": "This document provides an introduction to machine learning using Python, explaining typical processes and structures, types of problems such as classification and regression, data preprocessing, data exploration, and more. It also covers installing Python and necessary modules, navigating the data landscape, and balancing data.",
+    "summary": "This document provides a comprehensive guide to machine learning using Python, covering the typical processes and structures, types of problems such as classification and regression, data preprocessing, balancing data, and data exploration. It also includes instructions on installing Python, Jupyter, and necessary modules, as well as navigating various file formats like CSV, SAV, XLSX, and more.",
     "keywords": [
       "Machine Learning",
       "Python",
       "Data Preprocessing",
-      "Data Exploration",
-      "Regression"
+      "Data Exploration"
+    ],
+    "key_concepts": [
+      "This book is a comprehensive guide to machine learning using Python.",
+      "The document covers the typical processes and structures of machine learning, including installation of Python and necessary modules.",
+      "It explains various types of problems in machine learning such as classification and regression.",
+      "The document provides instructions on data preprocessing, balancing data, and data exploration.",
+      "The book also includes guidance on navigating different file formats like CSV, SAV, XLSX."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Machine  Learning in Python For Everyone"
+    "content_preview": "Comprehensive guide to machine learning using Python."
   },
   {
     "id": "1aaa2860d283f8303da045f168481381",
