@@ -7743,18 +7743,26 @@
       "Andrew Glassner"
     ],
     "filepath": "documents/Deep_learning_1642235381.pdf",
-    "upload_date": "2025-06-03T22:07:04.424527",
+    "upload_date": "2025-06-14T13:06:50.815945",
     "file_size": 18571805,
-    "summary": "A free chapter from the book 'Deep Learning: From Basics to Practice' by Andrew Glassner, covering deep learning basics. The book is available for purchase on www.glassner.com.",
+    "summary": "This document is a free chapter from Andrew Glassner's book 'Deep Learning: From Basics to Practice'. It provides an introduction to deep learning, covering topics such as neural networks, convolutional neural networks (CNN), recurrent neural networks (RNN), and long short-term memory (LSTM). The author emphasizes the practical applications of these concepts in areas like image recognition, speech recognition, and natural language processing. The book is suitable for both beginners and intermediate learners.",
     "keywords": [
       "Deep Learning",
-      "Andrew Glassner",
-      "Book",
-      "Chapter"
+      "Neural Networks",
+      "Convolutional Neural Networks",
+      "Recurrent Neural Networks",
+      "Long Short-Term Memory"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Deep learning is a subset of machine learning that uses artificial neural networks with multiple layers to learn and make decisions from data.",
+      "Convolutional Neural Networks (CNN) are used for image recognition tasks, where they can automatically learn spatial hierarchies of features from the input images.",
+      "Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM) networks are used for sequential data like speech recognition or natural language processing, allowing them to maintain a memory of previous inputs.",
+      "The book provides practical examples and exercises to help readers understand and apply these concepts.",
+      "The theoretical foundations of deep learning are grounded in principles such as backpropagation and gradient descent."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Free Chapter! Andrew Glassner DEEP LEARNING: From Basics"
+    "content_preview": "Free chapter from 'Deep Learning: From Basics to Practice' by Andrew Glassner."
   },
   {
     "id": "37c5c92d3a2ae749c3458dda432c5de8",
