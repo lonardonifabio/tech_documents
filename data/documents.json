@@ -18875,30 +18875,30 @@
     "filename": "Python_Pandas_Cheat_Sheet_1638652093.pdf",
     "title": "Python Pandas Cheat Sheet",
     "authors": [
-      "Arianne Colton",
+      "arianne Colton",
       "Sean Chen"
     ],
     "filepath": "documents/Python_Pandas_Cheat_Sheet_1638652093.pdf",
-    "upload_date": "2025-06-13T17:20:49.498894",
+    "upload_date": "2025-06-13T22:59:47.516937",
     "file_size": 611052,
-    "summary": "This document provides a comprehensive guide on using the Python library Pandas for data analysis. It covers one-dimensional arrays (Series) and two-dimensional tables (DataFrame), explaining their creation, manipulation, and common operations such as getting values, indexing, auto-alignment, and merging. The authors are Arianne Colton and Sean Chen.",
+    "summary": "This document provides a comprehensive guide to using the Python library Pandas for data analysis. It covers one-dimensional arrays (Series) and two-dimensional tables (DataFrame), explaining their creation, manipulation, and indexing. Key concepts include understanding Series as a fixed-length, ordered dict, auto-alignment of differently-indexed data in arithmetic operations, and creating DataFrames from dictionaries or NumPy arrays.",
     "keywords": [
-      "Python",
       "Pandas",
       "Data Analysis",
       "Series",
-      "DataFrame"
+      "DataFrame",
+      "Python"
     ],
     "key_concepts": [
-      "A Series is a one-dimensional array-like object containing data with an associated index.",
-      "A DataFrame is a two-dimensional table structure that can hold different value types for each column.",
-      "Creating a Series or DataFrame from a dictionary of equal-length lists or NumPy arrays.",
-      "Manipulating and getting values, indexing, and auto-alignment in Series and DataFrame.",
-      "Merging Series and DataFrames using common index values."
+      "Series is a one-dimensional array-like object containing data and an associated index.",
+      "DataFrame is a tabular data structure with ordered collections of columns, each of which can be different value type.",
+      "Data Frame can be thought of as a dict of Series.",
+      "Auto-align differently-indexed data in arithmetic operations for DataFrame.",
+      "Create DataFrame from a dictionary or NumPy arrays."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn to use the Python library Pandas for data analysis with this comprehensive cheat sheet."
+    "content_preview": "Guide to using Pandas for data analysis in Python, covering Series and DataFrame."
   },
   {
     "id": "4f7dfccdbf6d9b100d497a6580c2a137",
