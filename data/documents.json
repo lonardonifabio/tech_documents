@@ -15334,22 +15334,29 @@
   {
     "id": "7b66670dc6cc7a4992475f2a4950bad5",
     "filename": "Mastering_Object_Detection_with_YOLOv8_KerasCV_1740508442.pdf",
-    "title": "Mastering Object Detection with YOLOv8 KerasCV",
+    "title": "Mastering Object Detection with YOLOv8 using KerasCV",
     "authors": [],
     "filepath": "documents/Mastering_Object_Detection_with_YOLOv8_KerasCV_1740508442.pdf",
-    "upload_date": "2025-06-06T03:10:11.193911",
+    "upload_date": "2025-06-14T13:06:55.094945",
     "file_size": 1276367,
-    "summary": "This document provides a guide on mastering object detection using YOLOv8 and KerasCV. It includes code snippets for installation, hyperparameter tuning, data preparation, and visualization. The project uses TensorFlow and various libraries such as tqdm, seaborn, matplotlib, pandas, keras_cv, and its submodules.",
+    "summary": "This document provides a step-by-step guide on how to install and use the YOLOv8 object detection model with KerasCV, a popular deep learning library for computer vision tasks. The tutorial includes setting up hyperparameters, loading data from XML annotations and JPEG images, and visualizing results using Matplotlib and Seaborn. The document is applicable for self-driving car projects.",
     "keywords": [
       "YOLOv8",
       "KerasCV",
-      "TensorFlow",
       "Object Detection",
-      "Python"
+      "Computer Vision",
+      "Deep Learning"
+    ],
+    "key_concepts": [
+      "Explains how to install and set up the YOLOv8 object detection model using KerasCV.",
+      "Details the process of loading XML annotations and JPEG images for training the model.",
+      "Describes the use of hyperparameters such as learning rate, batch size, weight decay, and global clipnorm.",
+      "Highlights the importance of sorting XML and image files before processing.",
+      "Demonstrates the visualization of results using Matplotlib and Seaborn."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "! pip install --upgrade git+https://github.com/keras-team/keras-cv -q"
+    "content_preview": "Installs KerasCV, sets up hyperparameters, loads data, and visualizes results for YOLOv8 object detection."
   },
   {
     "id": "100b5018eaadaac84e4da27b39d18d1d",
