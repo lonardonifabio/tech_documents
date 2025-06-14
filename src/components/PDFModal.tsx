@@ -144,9 +144,12 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
     if (contentPreview) {
       post += `🔍 **Content Preview:**\n${contentPreview}\n`;
     }
+    post += `\n`;
     post += `📊 **Explore 1100+ AI & Data Science Documents:**\n`;
     post += `🌐 Visit: https://lonardonifabio.github.io/tech_documents/\n`;
     post += `\n`;
+    // post += `⭐ Don't forget to tag me on LinkedIn when you spot interesting AI/tech documents worth adding to this repository!`;
+    // post += `\n`;
     // Add hashtags
     keywords.forEach(keyword => {
       post += `#${keyword.replace(/\s+/g, '')} `;
