@@ -26909,22 +26909,27 @@
   {
     "id": "dbe6386f93b033da00b121c66f7eb9a9",
     "filename": "linear_models_1712649552.pdf",
-    "title": "Linear Models for NLP Starter Guide",
+    "title": "Linear Models for NLP: Starter Guide",
     "authors": [],
     "filepath": "documents/linear_models_1712649552.pdf",
-    "upload_date": "2025-06-04T21:18:56.153046",
+    "upload_date": "2025-06-14T19:41:15.366102",
     "file_size": 1117109,
-    "summary": "This document provides an introduction to linear models, their applications in data separation and relationships between data points, and the comparison with non-linear models. It is emphasized that 70% of corporate machine learning models are based on linear models.",
+    "summary": "This document provides an introduction to linear models, their applications in Natural Language Processing (NLP), and the differences between linear and non-linear models. It emphasizes the interpretability, simplicity, and robustness of linear models, which are used in 70% of corporate machine learning models. The document includes illustrations for better understanding.",
     "keywords": [
       "Linear Models",
       "NLP",
-      "Data Separation",
-      "Machine Learning",
-      "Corporate"
+      "Machine Learning"
+    ],
+    "key_concepts": [
+      "Linear models assume data is linearly separable and capture linear relationships between data points.",
+      "Linear operations are reversible, making linear models explainable and interpretable.",
+      "Linear models are simple, robust, and used in 70% of corporate machine learning models; non-linear Neural Networks (NN's) are used for edge cases.",
+      "The document includes a comparison between linear and non-linear models with an illustration.",
+      "The theoretical framework of this guide is based on the concept of linearly separable data and its application in NLP."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "swipe right LINEAR MODELS FOR NLP STARTER GUIDE"
+    "content_preview": "This document introduces linear models for NLP, emphasizing their interpretability and robustness."
   },
   {
     "id": "c7764ae50d4feef11aafb0460a5f84d4",
