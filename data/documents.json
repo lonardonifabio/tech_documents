@@ -15500,19 +15500,26 @@
     "title": "Malware Detection Using MLP",
     "authors": [],
     "filepath": "documents/Malware_Detection_1706860527.pdf",
-    "upload_date": "2025-06-04T21:18:53.375030",
+    "upload_date": "2025-06-14T13:06:55.070945",
     "file_size": 157483,
-    "summary": "This document discusses the detection of malware using Multi-Layer Perceptron (MLP) in Python, utilizing libraries such as NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn. The dataset used is a dynamic API call sequence per malware from Kaggle.",
+    "summary": "This document presents a Python script for malware detection using Multi-Layer Perceptron (MLP) on a dataset of dynamic API call sequences. The script imports necessary libraries, reads the data from a CSV file, preprocesses it by dropping unnecessary columns and handling missing values, plots the distribution of the 'malware' column, and finally trains and evaluates an MLP model using the preprocessed data.",
     "keywords": [
       "Malware Detection",
-      "Machine Learning",
+      "MLP",
       "Python",
-      "NumPy",
-      "Pandas"
+      "Data Preprocessing",
+      "Machine Learning"
+    ],
+    "key_concepts": [
+      "The script imports necessary libraries such as numpy, pandas, matplotlib, seaborn, and sklearn.",
+      "The data is read from a CSV file and preprocessed by dropping unnecessary columns and handling missing values.",
+      "The distribution of the 'malware' column is plotted using seaborn's countplot function.",
+      "An MLP model is trained and evaluated on the preprocessed data using sklearn's classification_report and confusion_matrix functions.",
+      "The script demonstrates how to use MLP for malware detection on a specific dataset."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "import numpy as np\nimport pandas as pd\nimport matplotlib .pyplot as plt\nimport seaborn as sns\nfrom sklearn .metrics import confusion_matrix,classification_report"
+    "content_preview": "A Python script for malware detection using MLP is presented, which includes data preprocessing and model training."
   },
   {
     "id": "3019af41a2c5e4a337de079b20a08a9e",
