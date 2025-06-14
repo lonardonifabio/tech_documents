@@ -14629,18 +14629,25 @@
     "title": "Machine Learning Methods for Malware Detection",
     "authors": [],
     "filepath": "documents/Machine_Learning_Methods_For_Malware_Detection__1598109652.pdf",
-    "upload_date": "2025-06-03T22:07:06.193542",
+    "upload_date": "2025-06-14T13:06:54.668945",
     "file_size": 498023,
-    "summary": "This paper discusses the application of machine learning in building advanced protection against malware, focusing on concepts like unsupervised and supervised learning, deep learning, false positive rates, and adaptability to counteractions. It also covers specific applications in cybersecurity and infrastructure.",
+    "summary": "This document discusses the application of machine learning in malware detection, focusing on concepts such as unsupervised and supervised learning, deep learning, false positive rates, and adaptability to counteractions. It also covers specific applications like pre-execution detection with similarity hashing, two-stage pre-execution detection, deep learning against rare attacks, and post-execution behavior detection. The paper provides insights into the use of machine learning in cybersecurity infrastructure, including clustering incoming objects and distillation for updates.",
     "keywords": [
       "Machine Learning",
       "Malware Detection",
       "Cybersecurity",
       "Deep Learning"
     ],
+    "key_concepts": [
+      "The paper discusses the use of machine learning to build advanced protection for customers against malware.",
+      "Unsupervised and supervised learning, deep learning are key concepts explained in this document.",
+      "Trained models in cybersecurity require large representative datasets, low false positive rates, interpretability, and quick adaptability.",
+      "The paper details specific applications of machine learning in malware detection such as pre-execution detection with similarity hashing and post-execution behavior detection.",
+      "The document provides insights into the use of machine learning in cybersecurity infrastructure, including clustering incoming objects and distillation for updates."
+    ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Machine Learning Methods for Malware Detection Learn more on kaspersky.com"
+    "content_preview": "This document discusses the application of machine learning in malware detection."
   },
   {
     "id": "8ac9fea5f6134f0e7232c1917f2aeda2",
