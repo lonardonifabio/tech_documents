@@ -5511,21 +5511,29 @@
   {
     "id": "b26d298f03031586a1ebd1d5aa01365e",
     "filename": "CNN_1738571604.pdf",
-    "title": "CIFAR-10 Dataset Analysis with Keras",
+    "title": "CIFAR-10 Dataset Classification with Keras",
     "authors": [],
     "filepath": "documents/CNN_1738571604.pdf",
-    "upload_date": "2025-06-06T03:10:04.800904",
+    "upload_date": "2025-06-14T13:06:48.579944",
     "file_size": 183167,
-    "summary": "This document demonstrates the loading, data augmentation, and initial analysis of the CIFAR-10 dataset using Keras. It includes visualizing the distribution of classes in the training and testing datasets.",
+    "summary": "This document provides a step-by-step guide on how to classify the CIFAR-10 dataset using Keras, a popular deep learning library. The code loads and preprocesses the dataset, applies data augmentation (optional), visualizes the distribution of classes, and builds a Convolutional Neural Network (CNN) model for classification. Key findings include the importance of data preprocessing and the effectiveness of CNNs in image classification tasks.",
     "keywords": [
       "CIFAR-10",
       "Keras",
+      "Convolutional Neural Network",
       "Data Augmentation",
-      "Distribution Analysis"
+      "Image Classification"
+    ],
+    "key_concepts": [
+      "This document demonstrates how to use Keras, a popular deep learning library, for image classification tasks.",
+      "The CIFAR-10 dataset is a widely used dataset in the field of computer vision, consisting of 60,000 32x32 color images in 10 classes.",
+      "Data augmentation is applied to increase the size and diversity of the training data, improving model performance.",
+      "The built CNN model consists of Conv2D, MaxPooling2D, Dense, Dropout, and Activation layers.",
+      "The findings suggest that preprocessing the data and using a CNN can lead to effective image classification."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document demonstrates the loading, data augmentation, and initial analysis of the CIFAR-10 dataset using Keras. It includes visualizing the distribution of classes in the training and testing datasets."
+    "content_preview": "This document guides on classifying CIFAR-10 dataset using Keras, loading and preprocessing data, applying data augmentation, building a CNN model, and visualizing the distribution of classes."
   },
   {
     "id": "47417e4e9e532c0b8c4208cfc909bb33",
