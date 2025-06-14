@@ -3603,19 +3603,26 @@
     "title": "OWASP Top 10 for LLMs - GenAI Red Teaming Guide: Agentic AI - Threats and Mitigations",
     "authors": [],
     "filepath": "documents/Agentic_AI_Threats_and_Mitigations_1742808149.pdf",
-    "upload_date": "2025-06-05T14:25:23.931288",
+    "upload_date": "2025-06-14T13:06:47.722944",
     "file_size": 2212944,
-    "summary": "This document, licensed under Creative Commons CC BY-SA 4.0, provides a guide on the OWASP Top 10 threats for Language Learning Machines (LLMs) and Generative Artificial Intelligence (GenAI). It discusses agentic AI, its reference architecture, and potential mitigations.",
+    "summary": "This document, licensed under Creative Commons CC BY-SA 4.0, provides a comprehensive guide on the OWASP Top 10 threats for Language Learning Machines (LLMs) and Generative Artificial Intelligence (GenAI). It discusses agentic AI, its reference architecture, and potential security risks along with mitigation strategies. The guide is intended to aid in red teaming exercises.",
     "keywords": [
       "OWASP",
       "Top 10",
-      "LLM",
+      "LLMs",
       "GenAI",
-      "Red Teaming Guide"
+      "Red Teaming"
     ],
-    "category": "Research",
+    "key_concepts": [
+      "The document presents the OWASP Top 10 threats specifically tailored for Language Learning Machines (LLMs) and Generative Artificial Intelligence (GenAI).",
+      "It introduces the concept of Agentic AI, a type of AI that can act autonomously in its environment.",
+      "The document outlines a reference architecture for Agentic AI to help understand its structure and functionality.",
+      "It discusses potential security threats associated with Agentic AI and provides strategies to mitigate these risks.",
+      "The guide is designed to support red teaming exercises, simulating attacks on AI systems to improve their security."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Version 1.0 February 2025 OWASP Top 10 for LLMs & Gen AI Agentic Security Initiative"
+    "content_preview": "Guide on OWASP Top 10 threats for LLMs and GenAI, focusing on Agentic AI."
   },
   {
     "id": "1fe46d7d9bba90f71943d21083c9b370",
