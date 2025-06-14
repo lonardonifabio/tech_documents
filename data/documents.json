@@ -13077,22 +13077,28 @@
   {
     "id": "79997babf0363b031a371e0e3ad91237",
     "filename": "LeNet__1711185582.pdf",
-    "title": "LeNet - Digit Recognizer",
+    "title": "Digit Recognizer using LeNet",
     "authors": [],
     "filepath": "documents/LeNet__1711185582.pdf",
-    "upload_date": "2025-06-04T21:18:52.453024",
+    "upload_date": "2025-06-14T19:41:08.011079",
     "file_size": 89978,
-    "summary": "This document is a Python script for building and training a Convolutional Neural Network (CNN) using Keras to recognize handwritten digits from the MNIST dataset. The script reads the data, preprocesses it, builds the model using layers such as Conv2D, MaxPool2D, Dense, Dropout, and Flatten, trains the model, and visualizes some of the digits.",
+    "summary": "This document provides a Python code implementation of a digit recognizer using the LeNet architecture. The code reads and preprocesses the dataset, normalizes the inputs, splits the data into training and testing sets, and trains a Convolutional Neural Network (CNN) model using Keras. The model is then evaluated on the test set.",
     "keywords": [
       "LeNet",
-      "Digit Recognizer",
-      "MNIST dataset",
+      "digit recognizer",
       "Convolutional Neural Network",
-      "Keras"
+      "Keras",
+      "Python"
+    ],
+    "key_concepts": [
+      "The LeNet architecture is a deep convolutional neural network that was introduced in 1998 for handwritten digit recognition.",
+      "The code uses the Keras library to define and train the CNN model, which consists of Conv2D, Dense, MaxPool2D, Dropout, Flatten, and other layers.",
+      "The dataset is preprocessed by normalizing the pixel values to be between 0 and 1.",
+      "The data is split into training and testing sets using the train_test_split function from sklearn.model_selection."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "import numpy as np\nimport pandas as pd\nimport keras"
+    "content_preview": "This document provides a Python code implementation of a digit recognizer using the LeNet architecture."
   },
   {
     "id": "9e152e8a5c8e6e717e2439904933fbe7",
