@@ -15717,22 +15717,27 @@
   {
     "id": "f0d459ea224d863a4619bcb90b5f25ae",
     "filename": "Mathematics_of_Algorithms_Cheatsheet_1567887099.pdf",
-    "title": "Mathematics_of_Algorithms_Cheatsheet_1567887099.pdf",
+    "title": "Mathematics of Algorithms Cheatsheet",
     "authors": [],
     "filepath": "documents/Mathematics_of_Algorithms_Cheatsheet_1567887099.pdf",
-    "upload_date": "2025-06-05T20:14:24.442735",
+    "upload_date": "2025-06-14T13:06:55.365945",
     "file_size": 248045,
-    "summary": "This document provides a cheat sheet for algorithms used in supervised- and unsupervised learning, including k-nearest neighbour, Naive Bayes, and Gaussian likelihood. It explains the model objective, training, regularisation, complexity, and provides formulas for each algorithm.",
+    "summary": "This document provides a cheat sheet for understanding algorithms used in supervised- and unsupervised learning, including k-nearest neighbour, Naive Bayes, and Gaussian likelihood. The k-nearest neighbour algorithm classifies new points based on the most frequent label of the k nearest training instances. Naive Bayes learns the class conditional probability using Bayes' rule, assuming each feature is independent of all others. Gaussian likelihood is not explicitly detailed in this document but is a common method used in machine learning.",
     "keywords": [
-      "Algorithms",
-      "Supervised Learning",
-      "Unsupervised Learning",
       "k-nearest neighbour",
-      "Naive Bayes"
+      "Naive Bayes",
+      "Gaussian likelihood",
+      "supervised learning",
+      "unsupervised learning"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "The k-nearest neighbour algorithm classifies a new point based on the most frequent label of the k nearest training instances.",
+      "Naive Bayes learns the class conditional probability by assuming each feature is independent of all others.",
+      "Gaussian likelihood is a common method used in machine learning, but it is not explicitly detailed in this document."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Cheat Sheet: Algorithms for Supervised- and Unsupervised Learning1 Algorithm Description Model Objective Training Regularisation Complexity Non-linear"
+    "content_preview": "This cheat sheet covers algorithms for supervised- and unsupervised learning: k-nearest neighbour, Naive Bayes, and Gaussian likelihood."
   },
   {
     "id": "a418c754f86c59f22fe2b6674a8717d7",
