@@ -6219,19 +6219,26 @@
       "Martin O’Hanlon"
     ],
     "filepath": "documents/Create_GUI_with_Python_1635584169.pdf",
-    "upload_date": "2025-06-03T22:07:03.340518",
+    "upload_date": "2025-06-14T19:41:03.708063",
     "file_size": 12333301,
-    "summary": "Learn how to create graphical user interfaces (GUIs) using the guizero library in Python. Suitable for beginners and experienced programmers, this book offers 10 fun projects including a painting program, emoji match game, and stop-motion animation creator.",
+    "summary": "This book guides users on creating Python desktop applications using the guizero library. Suitable for beginners to experienced programmers, it offers ten fun projects such as a painting program and emoji match game. The focus is on creating windows, text boxes, buttons, images, and learning event-based programming.",
     "keywords": [
       "Python",
       "GUI",
       "guizero",
-      "programming",
+      "desktop applications",
       "projects"
+    ],
+    "key_concepts": [
+      "Learn how to create your own graphical user interfaces using the guizero library in Python",
+      "Explore event-based programming and good (and bad) user interface design",
+      "Create various projects like a painting program, emoji match game, and stop-motion animation creator",
+      "Understand the basics of creating windows, text boxes, buttons, images, and more in Python programs",
+      "Gain practical experience in designing effective graphical user interfaces"
     ],
     "category": "Technology",
     "difficulty": "Beginner",
-    "content_preview": "Would you like to add buttons, boxes, pictures and colours to your Python programs? This book will show you how..."
+    "content_preview": "Learn to create Python desktop applications using the guizero library."
   },
   {
     "id": "2de844a7aab4aef1bd6775b1be65633c",
