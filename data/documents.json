@@ -17991,21 +17991,29 @@
   {
     "id": "47a4d35ef7dd4c3b99a935bc351aaddb",
     "filename": "Perceptron_1706560160.pdf",
-    "title": "Perceptron Network",
+    "title": "Understanding Perceptron Neural Network",
     "authors": [],
     "filepath": "documents/Perceptron_1706560160.pdf",
-    "upload_date": "2025-06-03T17:53:42.790118",
+    "upload_date": "2025-06-14T13:06:56.590945",
     "file_size": 617344,
-    "summary": "This document discusses the Perceptron, a type of artificial neural network with a focus on its neuron connection architecture, structure, and limitations. It also highlights the benefits of adding hidden layers to increase computational power for complex tasks.",
+    "summary": "This document provides an overview of the Perceptron Artificial Neural Network, explaining its structure, key components, and limitations. It discusses the neuron arrangement, layer structure, computational power, training complexity, and benefits of this network type. The document also highlights the internal layers, their role in enhancing computational power for complex tasks, and the creation of a feed-forward network. Lastly, it mentions the key characteristic of no feedback connections.",
     "keywords": [
       "Perceptron",
       "Artificial Neural Network",
-      "Neuron Connection Architecture",
-      "Hidden Layers"
+      "Neuron Arrangement",
+      "Layer Structure",
+      "Computational Power"
+    ],
+    "key_concepts": [
+      "The arrangement of processing elements (neurons) determines the network's behavior.",
+      "All ANNs share at least two layers: input, output, and optional hidden layers.",
+      "Increasing hidden layers and neurons boosts processing power but adds complexity to the training process.",
+      "A Perceptron with only two layers - input and output - enables learning non-linear relationships and complex data patterns.",
+      "The internal layer increases the network's computational power for complex tasks by refining data through intermediate computations."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Type of artificial neural network... Increasing hidden layers and neurons boosts processing power."
+    "content_preview": "This document discusses the Perceptron Artificial Neural Network, its structure, and benefits."
   },
   {
     "id": "1b507fd66f9bfa5f2bbad45e515948a1",
