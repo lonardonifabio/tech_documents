@@ -26149,26 +26149,25 @@
     "title": "Medical Image Classification Using Multi -Head Attention and LSTM",
     "authors": [],
     "filepath": "documents/umrict_1742720676.pdf",
-    "upload_date": "2025-06-13T17:20:53.520901",
+    "upload_date": "2025-06-13T22:59:51.563955",
     "file_size": 1378912,
-    "summary": "This document discusses a study on medical image classification using multi-head attention and Long Short-Term Memory (LSTM) networks. The authors collect a dataset of fetal head abnormalities images, preprocess them, and perform classification using various techniques such as 3D rendering, edge detection, and heatmap visualization. The main contribution is the development of an LSTM model with multi-head attention for improved accuracy in classifying fetal head abnormalities.",
+    "summary": "This document discusses a study on medical image classification using multi-head attention and Long Short-Term Memory (LSTM) networks. The research focuses on fetal head abnormalities classification, where the author collects images from various categories such as 3D_Rendering, 3D_Volume_Rendering, Adaptive_Histogram_Equalization, Alpha_Blending, Basic_Color_Map, Contrast_Stretching, Edge_Detection, Gamma_Correction, Gaussian_Blur, Heatmap_Visualization, Interactive_Segmentation, LUT_Color_Map, and Random_Color_Palette. The images are then loaded into a pandas DataFrame for further processing.",
     "keywords": [
       "Medical Image Classification",
       "Multi-Head Attention",
       "LSTM",
       "Fetal Head Abnormalities",
-      "Deep Learning"
+      "DataFrame"
     ],
     "key_concepts": [
-      "The study aims to classify fetal head abnormalities in medical images using deep learning techniques.",
-      "The authors collect a dataset of fetal head abnormalities images and preprocess them for classification.",
-      "The LSTM model with multi-head attention is developed for improved accuracy in classifying fetal head abnormalities.",
-      "Various image processing techniques such as 3D rendering, edge detection, and heatmap visualization are used during the preprocessing stage.",
-      "The study contributes to the field of medical image analysis by providing a more accurate method for classifying fetal head abnormalities."
+      "The study aims to classify fetal head abnormalities using a combination of multi-head attention and LSTM networks.",
+      "The author collects images from various categories, each representing different image processing techniques.",
+      "The images are loaded into a pandas DataFrame for further processing.",
+      "This research could contribute to the early detection and diagnosis of fetal abnormalities."
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "The document discusses a study on medical image classification using multi-head attention and LSTM networks."
+    "content_preview": "The document collects images for fetal head abnormalities classification using multi-head attention and LSTM networks."
   },
   {
     "id": "c6f7b1efa627cfab5fd2c12177bb435d",
