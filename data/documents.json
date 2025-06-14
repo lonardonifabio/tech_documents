@@ -6339,18 +6339,26 @@
     "title": "Customer Behavior Analytics",
     "authors": [],
     "filepath": "documents/Customer_Behavior_Analytics_1567265044.pdf",
-    "upload_date": "2025-06-04T21:18:50.272009",
+    "upload_date": "2025-06-14T19:41:03.724063",
     "file_size": 263264,
-    "summary": "This document discusses the importance of customer analytics in today's competitive market, emphasizing the need for businesses to understand and predict customer behavior. It uses a dataset from IBM for analysis.",
+    "summary": "This document discusses the importance of customer analytics in today's competitive market. It provides a step-by-step guide on how to load and analyze a publicly available dataset from IBM, focusing on customer lifetime value, response coverage, education, employment status, gender, income, and other relevant factors. The analysis aims to help businesses understand and predict their customers' purchasing behavior.",
     "keywords": [
-      "customer analytics",
-      "data analysis",
-      "competitive advantage",
-      "IBM dataset"
+      "Customer Analytics",
+      "Data Analysis",
+      "IBM Dataset",
+      "Marketing",
+      "Competitive Advantage"
+    ],
+    "key_concepts": [
+      "The importance of customer analytics for businesses in today's market",
+      "Guide on loading and analyzing a publicly available IBM dataset",
+      "Focus on customer lifetime value, response coverage, education, employment status, gender, income, etc.",
+      "Helping businesses understand and predict their customers' purchasing behavior",
+      "Improving competitive power against competitors"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "The importance of customer analytics is rising..."
+    "content_preview": "This document provides a guide on loading and analyzing a customer dataset from IBM to understand and predict customer behavior."
   },
   {
     "id": "22f76f04508b3eef3ed84726ec866442",
