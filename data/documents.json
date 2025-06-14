@@ -5110,9 +5110,9 @@
     "title": "Bone Fracture Dataset Analysis and Image Display",
     "authors": [],
     "filepath": "documents/Bone_1725747702.pdf",
-    "upload_date": "2025-06-13T17:20:40.933894",
+    "upload_date": "2025-06-13T22:59:38.969900",
     "file_size": 322208,
-    "summary": "This document provides a Python script for analyzing the Bone Fracture Dataset, which is used in computer vision projects. The script imports necessary libraries, defines functions to display images, and sets up directories for test, train, and validation images. It then displays these images using the defined function. Additionally, it checks the number of GPUs available.",
+    "summary": "This document provides a Python script for analyzing the Bone Fracture Dataset, which is used in computer vision projects. The script imports necessary libraries, defines functions to display images, and demonstrates how to display test, train, and validation images from the dataset. It also checks the number of GPUs available.",
     "keywords": [
       "Bone Fracture Dataset",
       "Python Script",
@@ -5121,14 +5121,13 @@
     ],
     "key_concepts": [
       "The script imports necessary libraries such as matplotlib, seaborn, random, PIL, and TensorFlow.",
-      "It defines a function to display images from the specified directories (test, train, validation) with a given number of images.",
-      "The function randomly selects images from the specified directories based on their availability.",
-      "The script displays the test, train, and validation images using the defined function.",
-      "It also checks the number of GPUs available."
+      "It defines a function to display images from the dataset, taking into account the number of images available and the size of the figure.",
+      "The function is used to display test, train, and validation images from the Bone Fracture Dataset.",
+      "The script also checks the number of GPUs available for TensorFlow."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This script displays images from the Bone Fracture Dataset used in computer vision projects."
+    "content_preview": "This document provides a Python script to analyze and display images from the Bone Fracture Dataset."
   },
   {
     "id": "f7b2b7fffd849dba1c67b0053cc9a45a",
