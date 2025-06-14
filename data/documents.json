@@ -15853,18 +15853,25 @@
     "title": "Matplotlib Cheat Sheet",
     "authors": [],
     "filepath": "documents/Matplotlib_Cheat_Sheet_1658309159.pdf",
-    "upload_date": "2025-06-03T17:53:42.301109",
+    "upload_date": "2025-06-14T13:06:55.484945",
     "file_size": 2695974,
-    "summary": "A comprehensive guide for using Matplotlib, a popular plotting library in Python. Covers basic to advanced features.",
+    "summary": "This document provides a comprehensive guide for beginners on using Matplotlib, a popular Python data visualization library. It covers essential plot types, customizations, and interactive features, with practical examples to help users quickly create effective visualizations.",
     "keywords": [
       "Matplotlib",
       "Python",
-      "Plotting",
-      "Guide"
+      "Data Visualization",
+      "Cheat Sheet"
+    ],
+    "key_concepts": [
+      "Matplotlib is a powerful Python library for creating static, animated, and interactive visualizations in Python.",
+      "The guide covers various plot types such as line plots, bar plots, scatter plots, histograms, and more.",
+      "Users will learn how to customize their plots using various options like colors, labels, titles, and gridlines.",
+      "Interactive features like zooming, panning, and saving the plot are also discussed.",
+      "Practical examples are provided throughout the guide to help users apply what they've learned."
     ],
     "category": "Data Science",
-    "difficulty": "Intermediate",
-    "content_preview": "SWIPE 0 1 / 0 9for beginners"
+    "difficulty": "Beginner",
+    "content_preview": "Guide for beginners on using Matplotlib, a popular Python data visualization library."
   },
   {
     "id": "dbb0de4486c1e8f2bf8e63f5f3a68857",
