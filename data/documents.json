@@ -16464,32 +16464,32 @@
   {
     "id": "4b1b0143f37a7e9ea99395f2acbe7555",
     "filename": "Mathematics_Theory_of_Deep_Learning_1749479134.pdf",
-    "title": "Mathematics Theory of Deep Learning",
+    "title": "Mathematics of Deep Learning",
     "authors": [
       "Philipp Petersen",
       "Jakob Zech"
     ],
     "filepath": "documents/Mathematics_Theory_of_Deep_Learning_1749479134.pdf",
-    "upload_date": "2025-06-12T09:23:43.811575",
+    "upload_date": "2025-06-14T19:41:09.863084",
     "file_size": 8198741,
-    "summary": "This document delves into the mathematical foundations of deep learning, exploring topics such as feedforward neural networks, universal approximation, and splines. The authors, Philipp Petersen and Jakob Zech, provide a comprehensive overview of these concepts, including their formal definitions, activation functions, and theoretical underpinnings. The work also discusses the universal approximation theorem and Kolmogorov’s superposition theorem in the context of deep learning. Practical applications and use cases are not extensively covered in this book.",
+    "summary": "This document delves into the mathematical theory behind deep learning, covering topics such as feedforward neural networks, universal approximation, and splines. The authors, Philipp Petersen and Jakob Zech, provide a comprehensive overview of these concepts, explaining their formal definitions, notions of size, activation functions, and universal approximation theorems. The document also discusses B-splines and smooth functions in the context of splines.",
     "keywords": [
-      "Mathematics",
       "Deep Learning",
+      "Mathematics",
       "Neural Networks",
       "Universal Approximation",
-      "Activation Functions"
+      "Splines"
     ],
     "key_concepts": [
-      "This document presents the mathematical theory behind deep learning, providing a formal definition of feedforward neural networks and discussing their size and activation functions.",
-      "The authors introduce the concept of universal approximation, demonstrating how deep learning models can approximate any continuous function with sufficient capacity.",
-      "The work also discusses B-splines and smooth functions, which are essential in understanding the mathematical foundations of deep learning.",
-      "The document explains the universal approximation theorem and Kolmogorov’s superposition theorem, shedding light on the theoretical underpinnings of deep learning.",
-      "While this book does not extensively cover practical applications and use cases, it serves as a valuable resource for researchers and practitioners seeking to understand the mathematical foundations of deep learning."
+      "This document explains the mathematical foundations of deep learning, focusing on feedforward neural networks and their formal definition.",
+      "The authors discuss the notion of size in feedforward neural networks, which is crucial for understanding their behavior and performance.",
+      "The paper delves into activation functions used in deep learning and their role in shaping the network's output.",
+      "Universal approximation theorems are presented, demonstrating the ability of deep learning models to approximate any continuous function with sufficient complexity.",
+      "The document also covers B-splines and smooth functions, which are essential concepts in the field of splines."
     ],
     "category": "AI",
     "difficulty": "Advanced",
-    "content_preview": "Mathematical theory of deep learning, Philipp Petersen1and Jakob Zech2"
+    "content_preview": "This document explores the mathematical theory behind deep learning, focusing on feedforward neural networks and universal approximation."
   },
   {
     "id": "0623e9a3c0343c502cd4094e30f16b95",
