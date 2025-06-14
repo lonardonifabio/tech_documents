@@ -11733,7 +11733,7 @@
   {
     "id": "21d92624682b5000bc87e63083767cc0",
     "filename": "Introduction_to_Machine_Learning_2019_1610184615.pdf",
-    "title": "Introduction_to_Machine_Learning_2019_1610184615.pdf",
+    "title": "Introduction to Machine Learning (2019) by Andreas Lindholm et al.",
     "authors": [
       "Andreas Lindholm",
       "Niklas Wahlström",
@@ -11741,18 +11741,25 @@
       "Thomas B. Schön"
     ],
     "filepath": "documents/Introduction_to_Machine_Learning_2019_1610184615.pdf",
-    "upload_date": "2025-06-03T22:07:05.374535",
+    "upload_date": "2025-06-14T13:06:53.058945",
     "file_size": 2080046,
-    "summary": "Lecture notes for the Statistical Machine Learning course, written for the course at the Department of Information Technology, Uppsala University, spring semester 2019. These notes will eventually be turned into a textbook and the authors are interested in comments from readers.",
+    "summary": "These lecture notes are for the Statistical Machine Learning course at Uppsala University. They cover an introduction to machine learning, focusing on regression and classification, with a major section dedicated to Chapter 6. The document is regularly updated, with the latest version being from March 12, 2019.",
     "keywords": [
       "Machine Learning",
-      "Statistical Learning",
+      "Statistical Machine Learning",
       "Lecture Notes",
       "Uppsala University"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "These lecture notes are designed for the Statistical Machine Learning course at Uppsala University, with plans to turn them into a textbook.",
+      "The document covers an introduction to machine learning, focusing on regression and classification.",
+      "A significant portion of the document is dedicated to Chapter 6.",
+      "The document is regularly updated, with updates noted in a changelog.",
+      "Comments from readers are encouraged and those who contribute significantly will receive a free copy of the book."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Lecture notes for the Statistical Machine Learning course, written for the course at the Department of Information Technology, Uppsala University..."
+    "content_preview": "Lecture notes for the Statistical Machine Learning course at Uppsala University."
   },
   {
     "id": "a45a2949074832a3c91a09e6609bedf9",
