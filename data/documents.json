@@ -6463,19 +6463,26 @@
       "Ravindran Kannan"
     ],
     "filepath": "documents/DS_1623315866.pdf",
-    "upload_date": "2025-06-03T17:53:38.868075",
+    "upload_date": "2025-06-14T19:41:03.743063",
     "file_size": 233320,
-    "summary": "This document provides an in-depth exploration of high-dimensional space, random projections, and best-fit subspaces using Singular Value Decomposition (SVD). Topics include generating points uniformly at random from a ball, Gaussians in high dimension, Johnson-Lindenstrauss Lemma, separating Gaussians, fitting a spherical Gaussian to data, and ...",
+    "summary": "This document delves into the foundational concepts of high-dimensional space, focusing on topics such as the Law of Large Numbers, properties of the unit ball, generating points uniformly at random from a ball, Gaussian distributions in high dimensions, random projection, Johnson-Lindenstrauss Lemma, separating Gaussians, fitting a spherical Gaussian to data, and best-fit subspaces and Singular Value Decomposition (SVD).",
     "keywords": [
-      "Data Science",
-      "High Dimensional Space",
-      "Random Projections",
-      "Singular Value Decomposition (SVD)",
-      "Gaussians"
+      "High-Dimensional Space",
+      "Law of Large Numbers",
+      "Geometry of High Dimensions",
+      "Unit Ball",
+      "Random Projection"
+    ],
+    "key_concepts": [
+      "High-dimensional spaces have unique geometric properties that differ significantly from lower dimensions.",
+      "The Law of Large Numbers states that the average of a large number of independent and identically distributed random variables converges to their expected value.",
+      "In high dimensions, the volume of the unit ball follows an interesting pattern, with most of its volume concentrated near the 'equator' rather than at the poles.",
+      "Random projection is a technique that allows for dimensionality reduction while preserving important properties of high-dimensional data.",
+      "The Johnson-Lindenstrauss Lemma guarantees that random projections can be used to approximate high-dimensional data in lower dimensions with minimal loss of information."
     ],
     "category": "Data Science",
     "difficulty": "Advanced",
-    "content_preview": "This document provides an in-depth exploration of high-dimensional space..."
+    "content_preview": "This document explores the foundations of data science, focusing on high-dimensional spaces and related concepts."
   },
   {
     "id": "a205a5f6cee9ec599189d4b081ca3722",
