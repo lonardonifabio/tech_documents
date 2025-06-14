@@ -25784,9 +25784,9 @@
       "Giannis Tolios"
     ],
     "filepath": "documents/pycaret_1648896054.pdf",
-    "upload_date": "2025-06-13T17:20:53.365901",
+    "upload_date": "2025-06-13T22:59:51.407954",
     "file_size": 3064458,
-    "summary": "This book introduces PyCaret, a low-code approach to machine learning suitable for both beginners and experts. It covers the installation process, software requirements, and provides an overview of machine learning concepts. The book is available for purchase at http://leanpub.com/pycaretbook.",
+    "summary": "This book provides a low-code approach to machine learning using PyCaret, suitable for both beginners and experts. It covers the basics of machine learning, installation, usage, and practical applications of PyCaret. The book is available for purchase at http://leanpub.com/pycaretbook.",
     "keywords": [
       "PyCaret",
       "Machine Learning",
@@ -25794,14 +25794,15 @@
       "Book"
     ],
     "key_concepts": [
-      "PyCaret is a low-code approach to machine learning that simplifies the process for both beginners and experts.",
-      "The book provides an overview of machine learning concepts, including what it is and its applications.",
-      "It covers the installation process, software requirements, and using JupyterLab with PyCaret.",
-      "The GitHub repository is also mentioned as a resource for further exploration."
+      "PyCaret is a low-code machine learning library that simplifies the process of building and deploying machine learning models.",
+      "The book provides a step-by-step guide on how to install, use, and apply PyCaret in various machine learning tasks.",
+      "The book covers practical applications of PyCaret in real-world scenarios, making it useful for both beginners and experts.",
+      "The theoretical foundations of machine learning are briefly introduced to provide context for the practical applications.",
+      "The book is part of the Lean Publishing process, allowing readers to provide feedback and contribute to its development."
     ],
     "category": "Machine Learning",
     "difficulty": "Beginner",
-    "content_preview": "This book simplifies machine learning with PyCaret, a low-code approach suitable for beginners and experts."
+    "content_preview": "Simplifying Machine Learning with PyCaret: A Low-code Approach for Beginners and Experts!"
   },
   {
     "id": "9815c9c327347ef01d994c78534ea95a",
