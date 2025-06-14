@@ -7262,19 +7262,26 @@
     "title": "Data Visualization with ggplot2",
     "authors": [],
     "filepath": "documents/Data_Visualization_1622011117.pdf",
-    "upload_date": "2025-06-06T03:10:06.552906",
+    "upload_date": "2025-06-14T13:06:50.331944",
     "file_size": 380073,
-    "summary": "This document provides a guide on how to create and customize data visualizations using the ggplot2 package in R. It covers topics such as changing plot titles, axis labels, geoms, and more.",
+    "summary": "This document provides an introduction to data visualization using the R package ggplot2. It covers the basics of creating plots, including changing titles, labels, and geoms (visual marks that represent data points). The document also explains how to map variables in a dataset to aesthetic properties like size, color, and location. Additionally, it discusses functions such as qplot() and ggsave(), which are used for creating and saving plots.",
     "keywords": [
       "Data Visualization",
       "ggplot2",
       "R",
       "Plot Titles",
-      "Axis Labels"
+      "Labels"
+    ],
+    "key_concepts": [
+      "The document is based on the grammar of graphics, which suggests that every graph can be built from a few components: data, geoms, and a coordinate system.",
+      "To change the title, labels, or other aesthetic properties of a plot, use functions like t + ggtitle(), t + xlab(), t + ylab(), and t + labs().",
+      "Geoms are used to represent data points. Each function returns a layer Data Visualization with ggplot2.",
+      "To display data values, map variables in the data set to aesthetic properties of the geom like size, color, and x and y locations.",
+      "Use qplot() or ggplot() to build a graph. qplot() creates a complete plot with given data, geom, and mappings, while ggplot() begins a plot that you finish by adding layers to."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a guide on how to create and customize data visualizations using the ggplot2 package in R. It covers topics such as changing plot titles, axis labels, geoms, and more."
+    "content_preview": "Learn data visualization with ggplot2 in R"
   },
   {
     "id": "a3eb178bea3d8181602c95959bdc0bf6",
