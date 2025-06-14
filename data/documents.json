@@ -26013,7 +26013,7 @@
     "title": "Advanced NLP with spaCy in Python",
     "authors": [],
     "filepath": "documents/spaCy_Advanced_NLP_in_Python_1627300147.pdf",
-    "upload_date": "2025-06-13T17:20:53.492901",
+    "upload_date": "2025-06-13T22:59:51.535955",
     "file_size": 2519193,
     "summary": "This document provides a comprehensive guide on using the spaCy library for Natural Language Processing (NLP) tasks in Python. It covers topics such as installing and validating the model, loading the model, working with Doc and Span objects, understanding part-of-speech tags, and utilizing word vectors. The document also explains how to use displacy for visualization and suggests installing large models for better performance.",
     "keywords": [
@@ -26026,13 +26026,13 @@
     "key_concepts": [
       "Explains how to install, validate, load the spaCy model in Python",
       "Demonstrates working with Doc and Span objects in spaCy",
-      "Provides examples of part-of-speech tags and their uses",
+      "Provides examples of part-of-speech tags and their usage",
       "Introduces word vectors and their importance in NLP tasks",
-      "Suggests using displacy for visualization in NLP tasks"
+      "Explains how to use displacy for visualization in spaCy"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a guide on using spaCy for advanced NLP tasks in Python."
+    "content_preview": "This document provides a guide on using the spaCy library for NLP tasks in Python."
   },
   {
     "id": "1ce8bc1b4f115b62b11454473a366d74",
