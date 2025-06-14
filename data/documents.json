@@ -22501,18 +22501,25 @@
       "François Fleuret"
     ],
     "filepath": "documents/The_Little_Book_of_Deep_Learning_1747089513.pdf",
-    "upload_date": "2025-06-05T20:14:28.216852",
+    "upload_date": "2025-06-14T13:06:59.270945",
     "file_size": 4741389,
-    "summary": "A concise ebook on deep learning by François Fleuret, a professor at the University of Geneva. The book covers topics such as machine learning, efficient computation, training, and more. It is formatted for phone screens.",
+    "summary": "This document is a comprehensive guide to deep learning, written by François Fleuret, a professor of computer science at the University of Geneva. The book covers foundations of machine learning, efficient computation, training methods, and more. It emphasizes the use of GPUs, TPUs, and batches for efficient computation, and discusses topics like losses, autoregressive models, and gradient descent. The book is formatted to fit on a phone screen.",
     "keywords": [
       "Deep Learning",
       "Machine Learning",
       "Computer Science",
-      "University of Geneva"
+      "Neocognitron",
+      "François Fleuret"
+    ],
+    "key_concepts": [
+      "The Neocognitron, an ancestor of deep neural networks, is a key concept in this document.",
+      "This book discusses efficient computation using GPUs, TPUs, and batches for deep learning.",
+      "Loss functions and gradient descent are important training methods covered in the book.",
+      "The book provides an overview of various categories of models used in machine learning."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "The Little Book of Deep Learning François Fleuret"
+    "content_preview": "A guide to deep learning, covering foundations, efficient computation, and training methods."
   },
   {
     "id": "fa6d2919e7438c54ae0b6ac9e8f7c800",
