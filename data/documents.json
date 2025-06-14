@@ -20861,35 +20861,29 @@
     "filename": "Reasoning_Language_Models_1738710907.pdf",
     "title": "Reasoning Language Models: A Blueprint",
     "authors": [
-      "Maciej Besta1†",
-      "Julia Barth1",
-      "Eric Schreiber1",
-      "Ales Kubicek1",
-      "Afonso Catarino1",
-      "Robert Gerstenberger1",
-      "Piotr Nyczyk2",
-      "Patrick Iff1",
-      "Yueling Li3",
-      "Sam Houliston1",
-      "Tomasz Sternal1",
-      "Marcin Copik1",
-      "Grzegorz Kwa´sniewski1",
-      "J¨urge..."
+      "Maciej Besta1†, Julia Barth1, Eric Schreiber1, Ales Kubicek1, Afonso Catarino1, Robert Gerstenberger1, Piotr Nyczyk2, Patrick Iff1, Yueling Li3, Sam Houliston1, Tomasz Sternal1, Marcin Copik1, Grzegorz Kwa´sniewski1, J¨urge..."
     ],
     "filepath": "documents/Reasoning_Language_Models_1738710907.pdf",
-    "upload_date": "2025-06-06T03:10:13.530915",
+    "upload_date": "2025-06-14T19:41:12.079089",
     "file_size": 7964667,
-    "summary": "This document provides a blueprint for building Reasoning Language Models (RLMs), discussing their history, main pillars, categories, architecture, and implementation details. It also includes comparisons with existing schemes, insights on efficient scaling, and the x1 framework for easy experimentation.",
+    "summary": "This document provides a comprehensive guide on Reasoning Language Models (RLMs), their history, pillars, categories, and architecture. It offers a blueprint for building various RLMs, detailing the essential components, algorithmic formulations, value and reward models, and mathematical specifications. The x1 framework is introduced as a toolbox to facilitate implementation and experimentation with RLM designs. The paper also compares existing schemes to the blueprint, discusses efficient scaling and modern cloud deployments, and offers example analyses and insights for building effective RLMs.",
     "keywords": [
       "Reasoning Language Models",
       "Blueprint",
       "Architecture",
-      "Implementation Details",
-      "x1 Framework"
+      "Implementation",
+      "Experimentation"
+    ],
+    "key_concepts": [
+      "RLMs are a type of model that can reason about language and perform complex tasks such as answering questions, summarizing text, and translating languages.",
+      "The blueprint provides a toolbox with ingredients to build various RLMs, including essential components, algorithmic formulations, value and reward models, and mathematical specifications.",
+      "The x1 framework is introduced as a tool for easily implementing and experimenting with RLM designs.",
+      "The paper compares existing schemes to the blueprint, discusses efficient scaling and modern cloud deployments, and offers example analyses and insights for building effective RLMs.",
+      "The document provides theoretical foundations and practical implications for using RLMs in various applications."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Reasoning Language Model (RLM):  What is it and how to build one?"
+    "content_preview": "This document offers a blueprint for building Reasoning Language Models (RLMs). It includes essential components, algorithmic formulations, and mathematical specifications."
   },
   {
     "id": "12b86c24d54c9bda18ac4e8c0a5359d4",
