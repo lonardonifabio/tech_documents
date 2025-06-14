@@ -22411,17 +22411,26 @@
       "Jerome Friedman"
     ],
     "filepath": "documents/The_Elements_of_Statistical_Learning_1638602291.pdf",
-    "upload_date": "2025-06-03T22:07:08.564561",
+    "upload_date": "2025-06-14T13:06:59.219945",
     "file_size": 2850927,
-    "summary": "Explores the development of new statistical tools for understanding vast amounts of data in various fields. Emphasizes concepts rather than mathematics, with many examples and color graphics. Covers supervised learning to unsupervised learning, including neural networks, support vector machines, classification trees, boosting, graphical models, ...",
+    "summary": "This book provides a comprehensive overview of data mining, inference, and prediction, focusing on the development of new tools in statistics due to advancements in computation and technology. It covers topics such as supervised learning (prediction), unsupervised learning, neural networks, support vector machines, classification trees, boosting, graphical models, random forests, ensemble methods, least angle regression & path algorithm, among others. The book is suitable for statisticians and anyone interested in data mining in science or industry.",
     "keywords": [
       "Data Mining",
       "Statistics",
-      "Machine Learning"
+      "Machine Learning",
+      "Prediction",
+      "Supervised Learning"
     ],
-    "category": "Data Science",
+    "key_concepts": [
+      "The explosion of data in various fields has led to the development of new tools in statistics, such as data mining and machine learning.",
+      "This book describes important ideas in these areas using a common conceptual framework, with an emphasis on concepts rather than mathematics.",
+      "The book covers topics including neural networks, support vector machines, classification trees, boosting, graphical models, random forests, ensemble methods, least angle regression & path algorithm.",
+      "It is a valuable resource for statisticians and anyone interested in data mining in science or industry.",
+      "The second edition features many topics not covered in the original, such as graphical models, random forests, ensemble methods, least angle regression & path algorithm."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Explores the development of new statistical tools for understanding vast amounts of data in various fields. Emphasizes concepts rather than mathematics,"
+    "content_preview": "A major new edition of The Elements of Statistical Learning covers data mining, inference, and prediction."
   },
   {
     "id": "a3867a203e0fe7204db071918451cc91",
