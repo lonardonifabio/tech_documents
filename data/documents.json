@@ -14753,24 +14753,31 @@
   {
     "id": "db0f7ee28fc75ec24045cb0c52a0b4b4",
     "filename": "Machine_Learning_Data_Visualization_1738360065.pdf",
-    "title": "Machine Learning Data Visualization Note Book",
+    "title": "Python for Machine Learning Visualization Note Book",
     "authors": [
       "Syed Afroz Ali"
     ],
     "filepath": "documents/Machine_Learning_Data_Visualization_1738360065.pdf",
-    "upload_date": "2025-06-05T20:14:23.733731",
+    "upload_date": "2025-06-14T13:06:54.635945",
     "file_size": 10860467,
-    "summary": "A comprehensive guide on data visualization for machine learning using Python, created by Kaggle Grand Master Syed Afroz Ali. The document covers two parts (Part 01 and Part 02) with examples from the 'heart_disease_uci.csv' dataset.",
+    "summary": "This document is a two-part guide on using Python for machine learning visualization by Kaggle Grand Master Syed Afroz Ali. It covers various data visualization techniques using libraries such as pandas, seaborn, and plotly. The guide provides practical examples using the heart_disease_uci dataset, demonstrating how to load, clean, and analyze the data, and visualize it effectively.",
     "keywords": [
+      "Python",
       "Machine Learning",
       "Data Visualization",
-      "Python",
       "Kaggle",
-      "Note Book"
+      "Seaborn"
+    ],
+    "key_concepts": [
+      "The guide is divided into two parts: Part 01 and Part 03, available on Kaggle.",
+      "The guide uses the heart_disease_uci dataset for practical examples.",
+      "The document demonstrates how to load, clean, and analyze data using pandas.",
+      "It shows various data visualization techniques using seaborn and plotly libraries.",
+      "The guide provides practical examples of effective data visualization in machine learning."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Prepared By: Syed Afroz Ali (Kaggle Grand Master) All Types of Data Visualization Kaggle Note Book Python for Machine Learning Visualization Part 01:"
+    "content_preview": "This document is a two-part guide on using Python for machine learning visualization by Kaggle Grand Master Syed Afroz Ali."
   },
   {
     "id": "d852cd1b966f7a39786f916e6dd8e3e8",
