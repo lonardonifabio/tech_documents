@@ -22926,9 +22926,9 @@
       "David Amos"
     ],
     "filepath": "documents/The_Ultimate_Guide_To_Speech_Recognition_With_Python_1567265782.pdf",
-    "upload_date": "2025-06-03T17:53:44.139144",
+    "upload_date": "2025-06-14T13:06:59.379945",
     "file_size": 1217188,
-    "summary": "This guide offers an in-depth look at implementing speech recognition in a Python project, covering topics like choosing a package, installing necessary modules, working with audio files and microphones, and more. It also includes a 'Guess the Word' game to put the concepts into practice.",
+    "summary": "This comprehensive guide provides a step-by-step approach for implementing speech recognition in Python projects. It covers the basics of how speech recognition works, choosing a suitable package, installation, working with audio files and microphones, handling noise, creating a 'Guess the Word' game, and recognizing speech in languages other than English.",
     "keywords": [
       "Speech Recognition",
       "Python",
@@ -22936,9 +22936,16 @@
       "Data Science",
       "AI"
     ],
+    "key_concepts": [
+      "Explains how speech recognition works and its importance in modern technology",
+      "Guides the reader on choosing a Python speech recognition package and installation",
+      "Details working with audio files, microphones, and handling noise in speech recognition",
+      "Provides a practical example of creating a 'Guess the Word' game using speech recognition",
+      "Offers insights into recognizing speech in languages other than English"
+    ],
     "category": "Machine Learning",
     "difficulty": "Advanced",
-    "content_preview": "This guide offers an in-depth look at implementing speech recognition in a Python project..."
+    "content_preview": "Learn how to add speech recognition to your Python project with this comprehensive guide."
   },
   {
     "id": "ac992b24613623e2f8c29c67566fbfad",
