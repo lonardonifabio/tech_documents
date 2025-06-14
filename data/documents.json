@@ -15511,25 +15511,32 @@
   {
     "id": "0623e9a3c0343c502cd4094e30f16b95",
     "filename": "Mathematics_and_deep_learning__1743299649.pdf",
-    "title": "Mathematics and deep learning",
+    "title": "Mathematics and deep learning: Methods, implementations, and theory",
     "authors": [
       "Arnulf Jentzen",
       "Benno Kuckuck",
       "Philippe von Wurstemberger"
     ],
     "filepath": "documents/Mathematics_and_deep_learning__1743299649.pdf",
-    "upload_date": "2025-06-06T15:45:46.388679",
+    "upload_date": "2025-06-14T10:08:58.297601",
     "file_size": 2159935,
-    "summary": "An introductory book on deep learning, covering methods, implementations, and theory. It is written by Arnulf Jentzen, Benno Kuckuck, and Philippe von Wurstemberger from The Chinese University of Hong Kong Shenzhen (CUHK-Shenzhen) and the University of Münster. Keywords include deep learning, artificial neural network, stochastic gradient descen...",
+    "summary": "This comprehensive document delves into the theoretical foundations of deep learning, focusing on methods, implementations, and mathematical underpinnings. The authors, renowned experts in their field, present a clear and concise introduction to deep learning, artificial neural networks, stochastic gradient descent, and optimization techniques. Key applications include machine learning, data science, and analytics. The book is suitable for both beginners and advanced readers, with Python source codes available for download.",
     "keywords": [
       "deep learning",
       "artificial neural network",
       "stochastic gradient descent",
       "optimization"
     ],
+    "key_concepts": [
+      "Deep learning is a subset of machine learning that uses artificial neural networks to learn and make decisions from data.",
+      "Stochastic Gradient Descent (SGD) is an optimization algorithm used in deep learning to minimize the error between predicted and actual outputs.",
+      "The book provides practical implementations of deep learning concepts, making it useful for both theoretical understanding and hands-on application.",
+      "The document adheres to mathematical principles and theories, providing a strong foundation for readers interested in the theoretical aspects of deep learning.",
+      "The book is structured to cater to readers with varying levels of expertise, making it accessible to beginners while still challenging advanced learners."
+    ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory"
+    "content_preview": "This book aims to provide an introduction to deep learning, focusing on methods, implementations, and theory."
   },
   {
     "id": "f000f649668fadeab989fa4a138e460a",
