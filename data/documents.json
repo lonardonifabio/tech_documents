@@ -3560,23 +3560,23 @@
     "title": "AlexNet Implementation in Keras",
     "authors": [],
     "filepath": "documents/AlexNet_1711185522.pdf",
-    "upload_date": "2025-06-13T17:20:40.160893",
+    "upload_date": "2025-06-13T22:59:38.202897",
     "file_size": 228203,
-    "summary": "This document provides a step-by-step guide on implementing the AlexNet model using Keras. The implementation involves initializing the CNN, defining convolution and max pooling layers, and adding batch normalization. However, the code encounters errors related to cuDNN, cuFFT, and cuBLAS factories that have already been registered.",
+    "summary": "This document provides a step-by-step guide on implementing the AlexNet model using Keras. The implementation involves defining and initializing the Convolutional Neural Network (CNN), with two sets of convolution layers followed by max pooling, batch normalization, and ReLU activation functions. However, the code execution encounters errors related to cuDNN, cuFFT, and cuBLAS factories.",
     "keywords": [
       "AlexNet",
       "Keras",
-      "Convolutional Neural Network",
       "CNN",
-      "Implementation"
+      "Convolutional Neural Network",
+      "Deep Learning"
     ],
     "key_concepts": [
-      "The document explains how to initialize a Convolutional Neural Network (CNN) using Keras.",
-      "It details the process of defining convolution and max pooling layers in the CNN.",
-      "Batch normalization is also included in the CNN initialization process as shown in the code.",
-      "The errors encountered during the implementation are related to cuDNN, cuFFT, and cuBLAS factories that have already been registered."
+      "The document explains the implementation of AlexNet using Keras libraries and packages.",
+      "The main steps include defining a Sequential model, adding Convolution2D layers, MaxPooling2D layers, BatchNormalization, and ReLU activation functions.",
+      "The code execution encounters errors related to cuDNN, cuFFT, and cuBLAS factories, which might require troubleshooting or updating the environment.",
+      "Understanding this implementation can help in developing deep learning models for image classification tasks."
     ],
-    "category": "Machine Learning",
+    "category": "AI",
     "difficulty": "Intermediate",
     "content_preview": "This document provides a guide on implementing AlexNet using Keras, encountering errors related to cuDNN, cuFFT, and cuBLAS factories."
   },
