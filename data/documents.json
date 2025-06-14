@@ -25237,19 +25237,26 @@
     "title": "Ultimate Guide to TensorFlow 2.0 in Python",
     "authors": [],
     "filepath": "documents/Ultimate_Guide_to_TensorFlow_2_0_in_Python_1567265383.pdf",
-    "upload_date": "2025-06-03T22:07:08.783562",
+    "upload_date": "2025-06-14T22:31:45.996629",
     "file_size": 929740,
-    "summary": "This document provides a comprehensive guide on TensorFlow 2.0 in Python, discussing its features and benefits, and how it simplifies the use of machine learning and deep learning concepts using tensors as multi-dimensional arrays.",
+    "summary": "This document provides a comprehensive guide on TensorFlow 2.0, a popular machine learning framework that has gained significant popularity over the years. It is particularly useful when combined with Python and explains its core concepts, benefits, and how to download the accompanying code from GitHub. The article also discusses the new version's goals of making the technology more accessible.",
     "keywords": [
       "TensorFlow 2.0",
-      "Python",
       "Machine Learning",
+      "Python",
       "Deep Learning",
       "Tensors"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "TensorFlow is a popular machine learning framework that uses tensors, multi-dimensional arrays of data, to abstract various concepts in machine learning and deep learning.",
+      "The new version, TensorFlow 2.0, aims to make the technology more accessible by simplifying its use and 'crossing the chasm' in terms of popularity.",
+      "TensorFlow is particularly beneficial when used with Python, which is a favorite combination among the machine learning community.",
+      "The document provides a guide on how to download the accompanying code for this article from GitHub (https://github.com/NMZivkovic/ultimate-tensorflow2.0).",
+      "The article discusses TensorFlow's mathematical foundations, describing tensors as geometric objects that describe linear relationships between other geometric objects."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Ultimate Guide to TensorFlow 2.0 in Python... This technology is mature enough to ease up its use and ‘cross the chasm’."
+    "content_preview": "This document provides a comprehensive guide on TensorFlow 2.0, a popular machine learning framework..."
   },
   {
     "id": "5af2935593fda497de5a5a808395f19e",
