@@ -25096,9 +25096,9 @@
     "title": "JavaScript Cheatsheet 2019 from lenguajejs.com",
     "authors": [],
     "filepath": "documents/javascript_cheatsheet_2019_lenguajejs_com_1623050131.pdf",
-    "upload_date": "2025-06-13T17:20:53.190901",
+    "upload_date": "2025-06-13T22:59:51.221953",
     "file_size": 193291,
-    "summary": "This document provides a comprehensive guide on JavaScript, covering various topics such as assertions, quantifiers, grouping, capture groups, boundaries, character sets or alternation, classes, modifying source array methods, iteration methods, callback for each methods, properties, locale & timezone methods, unit getters/setters, number methods, and string methods. It is useful for both beginners and intermediate JavaScript developers.",
+    "summary": "This document provides a comprehensive guide on JavaScript, covering topics such as assertions, quantifiers, grouping, capture groups, boundaries, character sets or alternation, classes, modifying source array methods, iteration methods, callback for each methods, properties, locale & timezone methods, unit getters/setters, number methods, and string methods. It is useful for both beginners and intermediate JavaScript developers.",
     "keywords": [
       "JavaScript",
       "Cheatsheet",
@@ -25107,13 +25107,13 @@
       "Quantifiers"
     ],
     "key_concepts": [
-      "The document explains the use of assertions in JavaScript, which are statements that test whether a condition is true or false.",
-      "Quantifiers are used to specify how many times a pattern should match. x* preceding  x 0 or more times {0,} represents zero or more occurrences of the previous character.",
-      "Grouping allows you to group multiple characters together and treat them as a single unit in regular expressions.",
-      "Capture groups are used to capture specific parts of a pattern for later use.",
-      "Boundaries define where a match can start or end. ^ begin of input matches the beginning of the input, while a|b matches either 'a' or 'b'."
+      "The document explains the use of assertions in JavaScript, which are statements that check whether a condition is true or false.",
+      "Quantifiers are used to specify how many times a pattern should match. x* preceding  x 0 or more times {0,} represents zero or more occurrences of x.",
+      "Grouping allows you to group multiple characters together in a regular expression.",
+      "Capture groups allow you to capture and store specific parts of a matched string for later use.",
+      "Boundaries are used to specify the position of a match within a string. ^ begin of input matches the start of the input, while a|b matches either a or b."
     ],
-    "category": "Data Science",
+    "category": "Technology",
     "difficulty": "Intermediate",
     "content_preview": "This document provides a comprehensive guide on JavaScript, covering various topics such as assertions, quantifiers, grouping, capture groups, boundaries, character sets, classes, modifying source array methods, iteration methods, callback for each methods, properties, locale & timezone methods, unit getters/setters, number methods, and string methods."
   },
