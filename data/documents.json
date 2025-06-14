@@ -7977,9 +7977,9 @@
     "title": "Deep Learning Simplified",
     "authors": [],
     "filepath": "documents/Deep_Learning_Simplified_1567341428.pdf",
-    "upload_date": "2025-06-04T21:18:51.193015",
+    "upload_date": "2025-06-14T22:31:36.824622",
     "file_size": 8067403,
-    "summary": "This document provides cheat sheets for AI, neural networks, machine learning, deep learning, and big data. It aims to simplify the concepts of these advanced topics.",
+    "summary": "This document provides cheat sheets for understanding key concepts in AI, neural networks, machine learning, deep learning, and big data. It offers simplified explanations and practical examples to help readers grasp these complex topics.",
     "keywords": [
       "AI",
       "Neural Networks",
@@ -7987,9 +7987,16 @@
       "Deep Learning",
       "Big Data"
     ],
+    "key_concepts": [
+      "Deep learning is a subset of machine learning that uses artificial neural networks with multiple layers to learn and make predictions from data.",
+      "The cheat sheets provide simplified explanations of complex concepts, making them accessible to beginners in the field.",
+      "Practical examples are used throughout the document to illustrate how these concepts can be applied in real-world scenarios.",
+      "The document covers various aspects of deep learning, including convolutional neural networks (CNNs), recurrent neural networks (RNNs), and long short-term memory (LSTM) networks.",
+      "Understanding these concepts is crucial for anyone looking to work with or develop AI systems."
+    ],
     "category": "Machine Learning",
-    "difficulty": "Intermediate",
-    "content_preview": "Cheat Sheets for AI, Neural Networks, Machine Learning, Deep Learning & Big  Data"
+    "difficulty": "Beginner",
+    "content_preview": "Simplified explanations and practical examples for deep learning, neural networks, machine learning, and big data."
   },
   {
     "id": "63e5cde6b53115f09bb64c9ef5681e8a",
