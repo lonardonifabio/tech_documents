@@ -16221,19 +16221,26 @@
       "Cheng Soon On"
     ],
     "filepath": "documents/Mathematics for machine learning.pdf",
-    "upload_date": "2025-06-03T22:07:06.650545",
+    "upload_date": "2025-06-14T19:41:09.820084",
     "file_size": 17393853,
-    "summary": "This self-contained textbook bridges the gap between mathematical and machine learning texts, introducing fundamental mathematical tools needed for machine learning such as linear algebra, optimization, probability, and statistics. It derives four central machine learning methods: linear regression, principal component analysis, Gaussian mixture...",
+    "summary": "This self-contained textbook bridges the gap between mathematical and machine learning texts, introducing fundamental mathematical tools needed for machine learning such as linear algebra, analytic geometry, matrix decompositions, vector calculus, optimization, probability and statistics. It derives four central machine learning methods: linear regression, principal component analysis, Gaussian mixture models, and support vector machines. The book includes worked examples, exercises, and programming tutorials.",
     "keywords": [
       "Machine Learning",
       "Mathematics",
       "Linear Algebra",
-      "Optimization",
-      "Probability"
+      "Analytic Geometry",
+      "Matrix Decompositions"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "This textbook introduces mathematical concepts with a minimum of prerequisites, making it accessible for data science or computer science students and professionals.",
+      "The book derives four central machine learning methods: linear regression, principal component analysis, Gaussian mixture models, and support vector machines, providing a starting point to machine learning texts.",
+      "For those learning the mathematics for the first time, the methods help build intuition and practical experience with applying mathematical concepts.",
+      "Every chapter includes worked examples and exercises to test understanding.",
+      "Programming tutorials are offered on the book’s web site."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This self-contained textbook bridges the gap between mathematical and machine learning texts..."
+    "content_preview": "This textbook bridges the gap between mathematical and machine learning texts."
   },
   {
     "id": "e3a6ef8e71ce38c9f21daa1fab7dff66",
