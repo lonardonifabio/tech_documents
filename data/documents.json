@@ -23204,19 +23204,25 @@
       "Steve Nouri"
     ],
     "filepath": "documents/The_Incredible_Pytorch_1619191137.pdf",
-    "upload_date": "2025-06-04T21:18:55.499042",
+    "upload_date": "2025-06-14T13:06:59.258945",
     "file_size": 722586,
-    "summary": "This document provides a curated list of tutorials, projects, libraries, videos, papers, books and more related to PyTorch. It includes official resources, practical deep learning guides, visualization tools, explainability techniques, and more. Contributions are welcome.",
+    "summary": "This document provides a curated list of tutorials, projects, libraries, videos, papers, books, and resources related to PyTorch. It includes official PyTorch tutorials, practical deep learning examples, and various other resources for both beginners and advanced users. The document also covers visualization tools, explainability techniques, and optimization strategies for PyTorch.",
     "keywords": [
       "PyTorch",
       "Deep Learning",
-      "Tutorial",
-      "Guide",
-      "Resource"
+      "Tutorials",
+      "Resources"
+    ],
+    "key_concepts": [
+      "This document offers a comprehensive guide to PyTorch, covering official tutorials, practical examples, and various resources for deep learning.",
+      "The guide includes a variety of tutorials such as the Official PyTorch Tutorials, Practical Deep Learning with PyTorch, and Minicourse in Deep Learning with PyTorch.",
+      "Visualization tools like Loss Visualization, Grad-CAM, FlashTorch, and Lucent are also covered in this guide.",
+      "Explainability techniques such as Efficient Covariance Estimation from Temporal Data and Hierarchical interpretations for neural networks are discussed in the document.",
+      "The guide provides optimization strategies like Effective PyTorch, Optimizing Runtime with TorchScript and Numerical Stability Optimization."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This is a curated list of tutorials, projects..."
+    "content_preview": "A curated list of PyTorch tutorials, projects, libraries, and resources for deep learning."
   },
   {
     "id": "47081303f18bc17cbdfd62c92940d86b",
