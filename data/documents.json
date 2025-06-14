@@ -13134,18 +13134,24 @@
       "Bhavishya Pandit"
     ],
     "filepath": "documents/LLM_Interview_Questions_1748853386.pdf",
-    "upload_date": "2025-06-05T14:25:29.458261",
+    "upload_date": "2025-06-14T22:31:39.592617",
     "file_size": 7458132,
-    "summary": "This document discusses the concepts of tokenization, LoR A and Q LoR A in the context of Large Language Models (LLMs). It explains why tokenization is important for LLMs and how these techniques optimize fine-tuning to reduce memory usage and improve efficiency.",
+    "summary": "This document discusses two techniques, tokenization and LoR A/Q LoR A, for optimizing Large Language Models (LLMs). Tokenization is explained as the process of splitting text into smaller units called tokens, which improves efficiency and performance. LoR A is a parameter-efficient fine-tuning method that reduces memory usage without compromising performance in Natural Language Processing tasks by adding new trainable parameters to modify a model's behavior without increasing its overall size.",
     "keywords": [
-      "Large Language Model",
+      "LLM",
       "Tokenization",
       "LoR A",
       "Q LoR A"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "Tokenization is the process of splitting text into smaller units called tokens, which improves efficiency and performance in LLMs.",
+      "LoR A (Low-Rank Adaptation) is a parameter-efficient fine-tuning method that reduces memory usage without compromising performance in Natural Language Processing tasks by adding low-rank matrix adaptations to the model's existing parameters.",
+      "Effective tokenization allows models to handle various languages, manage rare words, and reduce vocabulary size, improving both efficiency and performance.",
+      "LoR A maintains the original parameter count, reducing the memory overhead typically associated with training large models."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "TOPTOPTOP 50 LLM 50 LLM 50 LLM Bhavishya Pandit Interview Questions"
+    "content_preview": "This document discusses tokenization and LoR A/Q LoR A techniques for optimizing Large Language Models (LLMs)."
   },
   {
     "id": "8486c4a2490bcf72a2d651894d346eeb",
