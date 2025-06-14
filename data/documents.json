@@ -16630,45 +16630,29 @@
   {
     "id": "cdb01b9d884b7430dfef857005542282",
     "filename": "Medical_Hallucination_in_Foundation_Models_1741937625.pdf",
-    "title": "Medical Hallucination in Foundation Models",
-    "authors": [
-      "Yubin Kim",
-      "Hyewon Jeong",
-      "Shan Chen",
-      "Shuyue Stella Li",
-      "Mingyu Lu",
-      "Kumail Alhamoud",
-      "Jimin Mun",
-      "Cristina Grau",
-      "Minseok Jung",
-      "Rodrigo Gameiro",
-      "Lizhou Fan",
-      "Eugene Park",
-      "Tristan Lin",
-      "Joonsik Yoon",
-      "Wonjin Yoon",
-      "Maarten Sap",
-      "Yulia Tsvetkov",
-      "Paul Liang",
-      "Xuhai Xu",
-      "Xin Liu",
-      "Daniel McDuff",
-      "Hyeonhoon Lee",
-      "Hae Won Park",
-      "Samir Tulebaev"
-    ],
+    "title": "Medical Hallucination in Foundation Models and Their Impact on Healthcare",
+    "authors": [],
     "filepath": "documents/Medical_Hallucination_in_Foundation_Models_1741937625.pdf",
-    "upload_date": "2025-06-06T03:10:11.610912",
+    "upload_date": "2025-06-14T19:41:10.074084",
     "file_size": 6617059,
-    "summary": "This document explores the issue of medical hallucinations in foundation models and their impact on healthcare. It focuses on understanding the unique characteristics, causes, and implications of these errors, particularly in real-world clinical scenarios. The paper presents a taxonomy for addressing medical hallucinations and benchmarks models ...",
+    "summary": "This document explores the issue of hallucinations in foundation models used in medicine, their impact on clinical decisions and patient safety. It defines medical hallucination as any instance where a model generates misleading medical content. The paper delves into the unique characteristics, causes, and implications of these errors, focusing on real-world clinical scenarios. Contributions include a taxonomy for understanding and addressing medical hallucinations, benchmarking models using a medical hallucination dataset, and physician-annotated LLM responses to real medical cases.",
     "keywords": [
       "Medical Hallucination",
       "Foundation Models",
-      "AI in Medicine"
+      "AI in Medicine",
+      "Clinical Decisions",
+      "Patient Safety"
+    ],
+    "key_concepts": [
+      "Foundation Models that process multi-modal data have transformed AI's role in medicine, but their reliability is limited by hallucinations.",
+      "Medical hallucination refers to instances where a model generates misleading medical content that can impact clinical decisions and patient safety.",
+      "The paper examines the unique characteristics, causes, and implications of medical hallucinations, with a focus on how these errors manifest in real-world clinical scenarios.",
+      "Contributions include a taxonomy for understanding and addressing medical hallucinations, benchmarking models using a medical hallucination dataset, and physician-annotated LLM responses to real medical cases.",
+      "The study provides insights into the challenges and potential solutions for mitigating medical hallucinations in AI models used in healthcare."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Foundation Models that are capable of processing and generating multi-modal data have transformed AI’s role in medicine. However, a key limitation of their reliability is hallucination..."
+    "content_preview": "Document: Medical Hallucination in Foundation Models and Their Impact on Healthcare"
   },
   {
     "id": "42e8bda9650a9f1f549abcce7c6a6fdc",
