@@ -11381,22 +11381,28 @@
   {
     "id": "257097752cbeed4afe5fa50f119fac71",
     "filename": "How_to_Choose_the_Right_Data_Visualization_1711092568.pdf",
-    "title": "How_to_Choose_the_Right_Data_Visualization",
+    "title": "How to Choose the Right Data Visualization",
     "authors": [
       "Mike Yi"
     ],
     "filepath": "documents/How_to_Choose_the_Right_Data_Visualization_1711092568.pdf",
-    "upload_date": "2025-06-03T22:07:05.000532",
+    "upload_date": "2025-06-14T22:31:38.496617",
     "file_size": 487894,
-    "summary": "Learn how to choose the right data visualization for your analysis needs. This document covers common roles, types of data, and chart types for each role.",
+    "summary": "This document provides guidance on selecting appropriate data visualizations for various roles such as showing change over time, part-to-whole composition, depicting flows and processes, looking at data distribution, comparing values between groups, observing relationships between variables, and geographical data. The selection process takes into account the type of data (categorical, numeric, or a combination) and organizes visualizations accordingly. However, it is noted that deviating from standard modes may yield additional insights.",
     "keywords": [
       "Data Visualization",
       "Chart Types",
       "Data Analysis"
     ],
+    "key_concepts": [
+      "Choosing the right data visualization depends on its intended role in the analysis process.",
+      "The document organizes visualizations based on their roles and the types of data they can handle.",
+      "Breaking out of standard modes may provide additional insights in data visualization.",
+      "Common roles for data visualization include showing change over time, part-to-whole composition, depicting flows and processes, looking at data distribution, comparing values between groups, observing relationships between variables, and geographical data."
+    ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "How to Choose the Right Data Visualization by Mike Yi. How to Choose a Data Visualization – 3Introduction"
+    "content_preview": "This document provides guidance on selecting appropriate data visualizations for various roles..."
   },
   {
     "id": "b07069246aec597424393a4d0d41307d",
