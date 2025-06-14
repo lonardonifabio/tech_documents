@@ -4733,23 +4733,31 @@
   {
     "id": "aa65edda85bbf435cf4b8c862f4b3b7d",
     "filename": "Awesome_Tutorial_to_Learn_Outlier_Detection_in_Python_1646945559.pdf",
-    "title": "Awesome Tutorial to Learn Outlier Detection in Python",
+    "title": "Awesome Tutorial to Learn Outlier Detection in Python using PyOD",
     "authors": [
       "LAKSHAY ARORA"
     ],
     "filepath": "documents/Awesome_Tutorial_to_Learn_Outlier_Detection_in_Python_1646945559.pdf",
-    "upload_date": "2025-06-03T17:53:38.503071",
+    "upload_date": "2025-06-14T13:06:48.362944",
     "file_size": 1037427,
-    "summary": "Learn about outlier detection in Python using the PyOD library, a commonly overlooked issue in data science projects. The tutorial covers various algorithms provided by PyOD and is compatible with both Python 2 and 3.",
+    "summary": "This tutorial guides readers on how to detect outliers in data using the PyOD library in Python. The author shares his experience of overlooking outliers during a data science project and emphasizes the importance of data exploration, particularly outlier detection. The article provides an overview of PyOD, its compatibility with both Python 2 and 3, and offers a step-by-step guide to detect outliers in data.",
     "keywords": [
-      "Python",
       "Outlier Detection",
+      "Python",
+      "PyOD",
       "Data Science",
-      "PyOD"
+      "Data Exploration"
+    ],
+    "key_concepts": [
+      "Importance of data exploration and outlier detection in improving model accuracy",
+      "Introduction to PyOD library for outlier detection in Python",
+      "Explanation of how outliers can impact the quality of outputs in a data science project",
+      "Discussion on the role of outlier detection in the data exploration stage",
+      "Practical application of using PyOD to detect outliers in data"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "An Awesome Tutorial to Learn Outlier Detection in Python using the PyOD Library"
+    "content_preview": "Learn how to detect outliers in your data using the PyOD library in Python."
   },
   {
     "id": "ce5c655a7196c95136b1ce511bb668aa",
