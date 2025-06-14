@@ -13711,25 +13711,32 @@
   {
     "id": "52ead2adf0bb3d550afbc25645599233",
     "filename": "Machine_Learning_1640781658.pdf",
-    "title": "Machine Learning Story",
+    "title": "Machine Learning: Patterns, Predictions, and Actions",
     "authors": [
       "Moritz Hardt",
       "Benjamin Recht"
     ],
     "filepath": "documents/Machine_Learning_1640781658.pdf",
-    "upload_date": "2025-06-04T19:59:41.975601",
+    "upload_date": "2025-06-14T13:06:54.245945",
     "file_size": 2541045,
-    "summary": "Explores patterns, predictions, and actions in machine learning through a narrative approach by authors Moritz Hardt and Benjamin Recht. Licensed under Creative Commons BY-NC-ND 4.0.",
+    "summary": "This document delves into the world of machine learning, exploring its applications in pattern recognition, prediction, and actionable insights. The authors, Moritz Hardt and Benjamin Recht, discuss various methodologies such as deep learning and reinforcement learning, highlighting key findings like the importance of interpretability and fairness. The theoretical framework is based on statistical learning theory, and practical implications are provided for industries like finance, healthcare, and marketing.",
     "keywords": [
       "Machine Learning",
-      "Story",
-      "Patterns",
-      "Predictions",
-      "Actions"
+      "Pattern Recognition",
+      "Prediction",
+      "Deep Learning",
+      "Reinforcement Learning"
+    ],
+    "key_concepts": [
+      "Machine learning is a powerful tool for recognizing patterns in data, enabling computers to learn from experience.",
+      "Deep learning, a subset of machine learning, uses artificial neural networks with many layers to model complex relationships.",
+      "Reinforcement learning allows machines to learn by interacting with their environment and receiving rewards or punishments for actions.",
+      "Interpretability is crucial in machine learning as it helps understand the decisions made by the model and ensures fairness.",
+      "The theoretical foundation of machine learning lies in statistical learning theory, which provides a framework for understanding the trade-off between bias and variance."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Explores patterns, predictions, and actions in machine learning through a narrative approach"
+    "content_preview": "Exploring machine learning applications in pattern recognition, prediction, and actionable insights."
   },
   {
     "id": "723fc20c2edb5632afdf3641878f6b6c",
