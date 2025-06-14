@@ -27466,9 +27466,9 @@
     "title": "The Ultimate Guide to Managing Ethical and Security Risks in AI",
     "authors": [],
     "filepath": "documents/the_ultimate_guide_to_ai_V3_pdf_1714504128.pdf",
-    "upload_date": "2025-06-03T22:07:09.438568",
+    "upload_date": "2025-06-14T19:41:15.662103",
     "file_size": 3198906,
-    "summary": "This guide explores the current state of AI, ethical and security risks, top vulnerabilities affecting AI and large language models, collaboration with hackers for AI security, AI red teaming, case study on Snap Inc., and a checklist for implementing safe and secure AI.",
+    "summary": "This guide explores the current state of AI, focusing on the growing exponential attack surfaces and evolving regulatory landscape. It discusses top vulnerabilities affecting AI and large language models, the role of hackers in building and deploying AI securely, and the concept of AI red teaming. The document provides a case study of Snap, Inc.'s use of a bug bounty model for increased AI safety, introduces Hai, an AI assistant on the HackerOne platform, and offers a checklist for implementing safe and secure AI.",
     "keywords": [
       "AI",
       "Ethical Risks",
@@ -27476,9 +27476,16 @@
       "Large Language Models",
       "Hackers"
     ],
+    "key_concepts": [
+      "The current state of AI is characterized by growing attack surfaces and evolving regulatory landscape.",
+      "Offensive AI is outpacing defensive AI, making it crucial to collaborate with hackers for secure AI deployment.",
+      "Hackers are valuable assets in building and deploying AI securely due to their expertise in identifying vulnerabilities.",
+      "AI red teaming is a solution for addressing security risks in AI, with HackerOne providing a playbook and capabilities.",
+      "The bug bounty model can increase AI safety by leveraging a large pool of hackers for vulnerability identification."
+    ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "The Ultimate Guide to Managing Ethical and Security Risks in AI 2Introduction"
+    "content_preview": "This guide explores the current state of AI, focusing on ethical and security risks. It discusses top vulnerabilities, the role of hackers, AI red teaming, and a case study of Snap, Inc."
   },
   {
     "id": "fde802f513f26b009fcae8227cbced5c",
