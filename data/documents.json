@@ -9905,26 +9905,26 @@
     "title": "Git Cheat Sheet",
     "authors": [],
     "filepath": "documents/Git_Cheat_Sheet_1621791623.pdf",
-    "upload_date": "2025-06-13T17:20:44.304899",
+    "upload_date": "2025-06-13T22:59:42.330915",
     "file_size": 85277,
-    "summary": "This document provides a comprehensive guide on using Git, a popular version control system. It covers topics such as staging and snapshot management, user setup, repository initialization, branching, and merging. Key concepts include understanding the Git status command, working with add, reset, diff, commit, config, clone, and branch commands.",
+    "summary": "This document provides a comprehensive guide on using Git, a popular version control system. It covers topics such as staging and snapshot management, user setup, repository initialization, branching and merging, and more. The guide is useful for both beginners and intermediate users looking to improve their Git skills.",
     "keywords": [
       "Git",
       "Version Control",
       "Staging Area",
-      "Snapshot",
-      "Branch"
+      "Snapshots",
+      "Branching"
     ],
     "key_concepts": [
-      "Understanding the git status command helps you monitor your working directory, staged files, and untracked files.",
+      "The git status command shows modified files in the working directory, ready for your next commit.",
       "The git add [file] command stages a file for your next commit.",
-      "The git reset [file] command unstages a file while retaining changes in the working directory.",
-      "The git diff command shows differences between what is changed but not staged.",
-      "The git config --global user.name and git config --global user.email commands set your name and email for Git commits."
+      "The git reset [file] command unstages a file while retaining the changes in the working directory.",
+      "The git diff command shows what is changed but not staged, and git diff --staged shows what is staged but not yet committed.",
+      "The git config --global user.name and git config --global user.email commands set user information used across all local repositories."
     ],
     "category": "Data Science",
-    "difficulty": "Intermediate",
-    "content_preview": "Learn Git basics: staging, snapshot management, user setup, and more."
+    "difficulty": "Beginner",
+    "content_preview": "Learn Git basics: staging, snapshots, setup, and more."
   },
   {
     "id": "39497016d1dccae9f31d066b36d1cce2",
