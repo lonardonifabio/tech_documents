@@ -3624,25 +3624,25 @@
       "YANG HU"
     ],
     "filepath": "documents/Algorithms_in_Python_1713898284.pdf",
-    "upload_date": "2025-06-13T17:20:40.232893",
+    "upload_date": "2025-06-13T22:59:38.269897",
     "file_size": 13608033,
-    "summary": "This document provides a concise introduction to algorithms, focusing on their implementation in Python. It covers key topics such as linear tables, maximum and minimum value finding, bubble sorting algorithm, select sorting algorithm, linear table append, and insert operations. The book aims to make learning programming easy, fast, and effective.",
+    "summary": "This document provides a concise introduction to various algorithms, focusing on their explanation and cultivation of programming interest using Python. Topics covered include Linear Table Definition, Maximum Value, Bubble Sorting Algorithm, Minimum Value, Select Sorting Algorithm, Linear Table Append, and Linear Table Insert.",
     "keywords": [
       "Algorithms",
       "Python",
-      "Linear Tables",
-      "Sorting Algorithm"
+      "Sorting Algorithms",
+      "Linear Tables"
     ],
     "key_concepts": [
-      "This book offers a brief explanation of algorithms, aiming to cultivate programming interest.",
-      "The document focuses on the concept of linear tables and their definition.",
-      "It explains the bubble sorting algorithm, a common method for sorting data in computer science.",
-      "The minimum value finding method is also discussed, which is essential for various algorithms.",
-      "The select sorting algorithm is introduced as an alternative to bubble sort."
+      "This book aims to explain algorithms in a simple manner, making it easy for beginners to learn and understand.",
+      "The Bubble Sorting Algorithm is one of the sorting algorithms explained in this document, which helps organize data in ascending or descending order.",
+      "The Minimum Value concept is also covered, helping readers identify the smallest value within a given set of numbers.",
+      "The Select Sorting Algorithm is another sorting method discussed, which selects the smallest element from the unsorted part and puts it at the beginning of the sorted part.",
+      "Linear Table Append and Linear Table Insert are techniques for adding or modifying data in a linear table structure."
     ],
     "category": "Data Science",
     "difficulty": "Beginner",
-    "content_preview": "Learn algorithms in Python with ease and effectiveness."
+    "content_preview": "Learn algorithms using Python, including Bubble Sorting Algorithm, Minimum Value, and more."
   },
   {
     "id": "b788ee195b6eb0d10da1398ab950c68d",
