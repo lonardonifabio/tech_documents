@@ -5976,18 +5976,25 @@
       "Jure Š orn"
     ],
     "filepath": "documents/Comprehensive_Python_Cheatsheet_1635929858.pdf",
-    "upload_date": "2025-06-06T03:10:05.195904",
+    "upload_date": "2025-06-14T13:06:48.975945",
     "file_size": 6737063,
-    "summary": "This document provides a comprehensive cheatsheet for the Python programming language, covering topics such as collections, types, syntax, system functions, data handling, advanced concepts, and various libraries.",
+    "summary": "This document provides a comprehensive cheatsheet for the Python programming language, covering various topics such as collections, types, syntax, system functions, data handling, advanced concepts, and popular libraries. It includes explanations of key functions, methods, and syntax for each topic, making it an essential resource for both beginners and experienced Python developers.",
     "keywords": [
       "Python",
       "Cheatsheet",
       "Programming",
-      "Language"
+      "Development"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "The document provides a comprehensive overview of Python collections including List, Dictionary, Set, Tuple, Range, Enumerate, Iterator, and Generator.",
+      "It explains various types in Python such as Type, String, Regular Expression, Format, Numbers, Combinatorics, Datetime, and more.",
+      "The document covers Python syntax topics like Args, Inline, Closure, Decorator, Class, Duck Type, Enum, Exception, and others.",
+      "It provides information on system functions like Exit, Print, Input, Command Line Arguments, Open, Path, OS Commands, and more.",
+      "The document also covers data handling topics such as JSON, Pickle, CSV, SQLite, Bytes, Struct, Array, Memory View, Deque, and others."
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "7/5/2020 Comprehensive Python Cheatsheet"
+    "content_preview": "Comprehensive Python Cheatsheet for collections, types, syntax, system functions, data handling, advanced concepts, and popular libraries."
   },
   {
     "id": "e3d0e2919ff57e0e19eb304891be76e7",
