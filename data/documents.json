@@ -22611,17 +22611,25 @@
       "Jerome Friedman"
     ],
     "filepath": "documents/The_Elements_of_Statistical_Learning__1640293631.pdf",
-    "upload_date": "2025-06-03T17:21:45.600984",
+    "upload_date": "2025-06-14T13:06:59.244945",
     "file_size": 6146666,
-    "summary": "Explores the development of new statistical tools for understanding vast amounts of data in various fields. Emphasizes concepts rather than mathematics, with many examples and color graphics. Covers supervised learning to unsupervised learning, including neural networks, support vector machines, classification trees, boosting, graphical models, ...",
+    "summary": "This book offers a comprehensive introduction to data mining, inference, and prediction. It covers topics such as supervised learning (prediction), unsupervised learning, neural networks, support vector machines, classification trees, boosting, graphical models, random forests, ensemble methods, least angle regression & path algorithm. The emphasis is on concepts rather than mathematics, making it accessible to statisticians and anyone interested in data mining in science or industry.",
     "keywords": [
       "Data Mining",
-      "Statistics",
+      "Statistical Learning",
+      "Prediction",
       "Machine Learning"
     ],
-    "category": "Data Science",
+    "key_concepts": [
+      "The book provides a common conceptual framework for understanding the tools developed in the field of statistics over the past decade, particularly in areas like data mining and machine learning.",
+      "It offers a statistical approach with an emphasis on concepts rather than mathematics, making it accessible to a wide audience.",
+      "The book covers a broad range of topics, from supervised learning (prediction) to unsupervised learning, and includes many examples with color graphics for clarity.",
+      "New topics in this edition include graphical models, random forests, ensemble methods, least angle regression & path algorithm.",
+      "The book is intended to be a valuable resource for statisticians and anyone interested in data mining in science or industry."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Explores the development of new statistical tools for understanding vast amounts of data in various fields."
+    "content_preview": "A book that bridges the gap between statistics and data mining, offering a comprehensive introduction to these topics."
   },
   {
     "id": "0dbe12801824be2a1f3dbe43f1953672",
