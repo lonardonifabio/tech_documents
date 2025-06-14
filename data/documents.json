@@ -10062,22 +10062,28 @@
   {
     "id": "5f6c6a22531e6d1436c385c5503204ab",
     "filename": "GenAI_Data_Security_1743591639.pdf",
-    "title": "OWASP Top 10 for LLMs - LLM and Gen AI Data Security Best Practices Guide 1.0",
+    "title": "OWASP Top 10 for LLMs and Gen AI Data Security Best Practices Guide",
     "authors": [],
     "filepath": "documents/GenAI_Data_Security_1743591639.pdf",
-    "upload_date": "2025-06-05T20:14:20.923703",
+    "upload_date": "2025-06-14T19:41:06.328074",
     "file_size": 2213736,
-    "summary": "This document provides general information about data security best practices for LLMs (Legal Language Models) and Gen AI, licensed under Creative Commons CC BY-SA 4.0. It is not intended to constitute legal advice. The document contains links to third-party websites, which are only for convenience and OWASP does not recommend or endorse the con...",
+    "summary": "This document provides general information about data security best practices for Legal Language Models (LLMs) and Generative Artificial Intelligence (Gen AI). It does not constitute legal advice. The document contains links to third-party websites, which are only for convenience and OWASP does not recommend or endorse their contents. The document is licensed under Creative Commons CC BY-SA 4.0, allowing free sharing, adaptation, and building upon the material with appropriate credit and attribution.",
     "keywords": [
       "Data Security",
       "AI",
-      "Machine Learning",
-      "LLM",
-      "Legal Language Models"
+      "LLMs",
+      "Gen AI",
+      "Creative Commons"
+    ],
+    "key_concepts": [
+      "The document outlines best practices for ensuring data security when using Legal Language Models (LLMs) and Generative Artificial Intelligence (Gen AI).",
+      "The document is licensed under Creative Commons CC BY-SA 4.0, allowing free sharing and adaptation of the material with proper attribution.",
+      "The document does not provide legal advice but offers general information for informational purposes only.",
+      "The document contains links to third-party websites, which are provided for convenience only and do not imply endorsement of their contents."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides general information about data security best practices for LLMs (Legal Language Models) and Gen AI, licensed under Creative Commons CC BY-SA 4.0."
+    "content_preview": "This document provides best practices for data security when using AI in legal contexts."
   },
   {
     "id": "05beafdf25d2dde1a463bfb019b66a31",
