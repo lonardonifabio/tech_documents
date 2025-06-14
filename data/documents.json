@@ -13301,22 +13301,29 @@
   {
     "id": "a75cb4ce169f224f79bf7d510cbe0368",
     "filename": "Learning_Docker__1640512227.pdf",
-    "title": "Learning Docker",
+    "title": "Getting Started with Docker",
     "authors": [],
     "filepath": "documents/Learning_Docker__1640512227.pdf",
-    "upload_date": "2025-06-03T22:07:05.664537",
+    "upload_date": "2025-06-14T19:41:08.143080",
     "file_size": 1323036,
-    "summary": "This document provides a comprehensive guide on getting started with Docker, building images, using volumes, connecting containers, and more. It covers installation on various operating systems, creating and managing containers, and understanding concepts like checkpoints and restore.",
+    "summary": "This document provides a comprehensive guide on installing, building images, and using Docker on various operating systems such as Mac OS X, Windows, Ubuntu Linux, and CentOS. It covers key topics like creating containers, checkpoints, restores, volumes, connecting containers, and introduces Docker network and Docker-compose. The document also explains the difference between ENTRYPOINT and CMD, and demonstrates how to push and pull images to Docker Hub or another registry.",
     "keywords": [
       "Docker",
-      "Containerization",
-      "Linux",
-      "Windows",
-      "Mac OS X"
+      "Installation",
+      "Containers",
+      "Images",
+      "Google Cloud"
+    ],
+    "key_concepts": [
+      "Explains how to install Docker on various operating systems",
+      "Details the process of building images from a Dockerfile",
+      "Highlights the difference between ENTRYPOINT and CMD in Docker",
+      "Provides instructions on creating, checking, and restoring Docker containers",
+      "Introduces the concept of Docker Volumes and their usage"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a comprehensive guide on getting started with Docker..."
+    "content_preview": "Learn to install, build images, and use Docker on various OS."
   },
   {
     "id": "3dfe0ffc1134fe6907c75a49a8ea4a8c",
