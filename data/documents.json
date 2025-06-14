@@ -25646,7 +25646,7 @@
     "title": "PCOS Detection Using Multi-Scale Retinex Enhanced Ultrasound Images with ImpalaCNN Algorithm",
     "authors": [],
     "filepath": "documents/pcos_1741962006.pdf",
-    "upload_date": "2025-06-13T17:20:53.319901",
+    "upload_date": "2025-06-13T22:59:51.359954",
     "file_size": 718124,
     "summary": "This document presents a deep learning approach for the detection of Polycystic Ovary Syndrome (PCOS) using enhanced ultrasound images. The study utilizes the ImpalaCNN algorithm, which is applied to a dataset containing infected and non-infected images. The data is preprocessed by organizing image paths and labels into a DataFrame for further analysis.",
     "keywords": [
@@ -25657,14 +25657,14 @@
       "Kaggle"
     ],
     "key_concepts": [
-      "The study aims to detect PCOS using enhanced ultrasound images and the ImpalaCNN algorithm.",
+      "The study aims to detect PCOS using enhanced ultrasound images through a deep learning approach.",
+      "The ImpalaCNN algorithm is employed for the detection of PCOS in the dataset.",
       "The dataset consists of infected and non-infected image paths, which are organized into a DataFrame for analysis.",
-      "The ImpalaCNN algorithm is applied to the dataset for PCOS detection.",
-      "The study uses Python libraries such as numpy, pandas, and os for data preprocessing."
+      "The data preprocessing involves organizing image paths and labels into a Pandas DataFrame."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document presents a deep learning approach for the detection of Polycystic Ovary Syndrome (PCOS) using enhanced ultrasound images."
+    "content_preview": "This document presents a deep learning approach for the detection of PCOS using enhanced ultrasound images with the ImpalaCNN algorithm."
   },
   {
     "id": "6c13b74de61db5281f2062988b804fb8",
