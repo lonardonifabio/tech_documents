@@ -21974,9 +21974,9 @@
       "Malay Agarwal"
     ],
     "filepath": "documents/Step_by_Step_Data_Cleaning_Python_for_Machine_Learning_1567265800.pdf",
-    "upload_date": "2025-06-03T22:07:08.341559",
+    "upload_date": "2025-06-14T13:06:58.195945",
     "file_size": 364637,
-    "summary": "This document provides a step-by-step guide on data cleaning using Python's Pandas and NumPy libraries. It covers topics like dropping unnecessary columns, changing the index of a DataFrame, using .str() methods to clean columns, and more.",
+    "summary": "This document provides a comprehensive guide on data cleaning using Python's Pandas and NumPy libraries, covering topics such as dropping unnecessary columns, changing the index of a DataFrame, using .str() methods to clean columns, applying map function to clean the entire dataset, renaming columns, and skipping unnecessary rows in a CSV file. The datasets used are BL-Flickr-Images-Book.csv and university_towns.txt.",
     "keywords": [
       "Data Cleaning",
       "Python",
@@ -21984,9 +21984,16 @@
       "NumPy",
       "Machine Learning"
     ],
+    "key_concepts": [
+      "Explains the importance of data cleaning in data science and argues that it constitutes 80% of the job.",
+      "Describes how to drop unnecessary columns in a DataFrame.",
+      "Details changing the index of a DataFrame.",
+      "Discusses using .str() methods to clean columns.",
+      "Explains using the DataFrame.applymap() function to clean the entire dataset, element-wise."
+    ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Step-by-Step Data Cleaning with Python for Machine Learning"
+    "content_preview": "Learn to clean datasets using Python's Pandas and NumPy libraries."
   },
   {
     "id": "d7bc473b6dc9b3296459b4e2c4efde33",
