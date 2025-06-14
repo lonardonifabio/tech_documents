@@ -2172,19 +2172,26 @@
       "Kara Olive"
     ],
     "filepath": "documents/AI_Supply_Chain_1743591689.pdf",
-    "upload_date": "2025-06-05T20:14:16.042626",
+    "upload_date": "2025-06-14T22:31:32.952618",
     "file_size": 2048825,
-    "summary": "This document discusses the challenges and solutions for securing the AI software supply chain, using provenance information and building on existing security practices. It provides guidance for organizations to improve their AI supply chain security.",
+    "summary": "This document discusses the challenges and solutions for securing AI software supply chains, using provenance information and building on existing methods like Binary Authorization for Borg (BAB), Supply-chain Levels for Software Artifacts (SLSA), and Sigstore. It provides guidance for organizations to improve their AI supply chain security in a relatively short time.",
     "keywords": [
       "AI",
       "Software Supply Chain",
       "Security",
       "Provenance Information",
-      "Cryptographic Signing"
+      "Borg"
+    ],
+    "key_concepts": [
+      "The integration of AI into everyday products increases the threat landscape and the likelihood of attacks.",
+      "This paper proposes an approach to securing the AI supply chain using provenance information and adapting existing solutions like BAB, SLSA, and Sigstore.",
+      "Organizations should focus on areas where they can improve their AI supply chain security in a relatively short time.",
+      "The paper provides guidance for organizations to secure their AI software supply chains, emphasizing the need for continuous improvement.",
+      "The first part of the paper offers a broad overview of development lifecycles and their relevance to securing the AI supply chain."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Securing the AI Software Supply Chain... This paper explains our approach to securing our AI supply chain using provenance information"
+    "content_preview": "This paper explains an approach to securing the AI supply chain using provenance information and existing solutions."
   },
   {
     "id": "9bc698376b311d256740c1592a653f55",
