@@ -18522,19 +18522,26 @@
       "Jessy Hwang"
     ],
     "filepath": "documents/Probability Cheatsheet.pdf",
-    "upload_date": "2025-06-05T14:25:32.740247",
+    "upload_date": "2025-06-14T13:06:56.792945",
     "file_size": 807573,
-    "summary": "This document is a Probability Cheatsheet compiled by William Chen and Joe Blitzstein, with contributions from others. It covers topics such as counting, the multiplication rule, sampling tables, order matters, independence of events, and conditional probability.",
+    "summary": "This document provides a comprehensive guide to probability concepts, including counting methods, sampling tables, and definitions of probability. It covers topics such as the multiplication rule, independence of events, and thinking conditionally. The material is based on Joe Blitzstein's lectures and textbook, licensed under CC BY-NC-SA 4.0.",
     "keywords": [
       "Probability",
-      "Cheatsheet",
       "Counting",
-      "Multiplication Rule",
-      "Sampling Table"
+      "Sampling",
+      "Independence",
+      "Conditional Probability"
+    ],
+    "key_concepts": [
+      "The multiplication rule states that for a compound experiment with n1, n2, ..., nr possible outcomes, there are n1n2:::nr possibilities for the whole experiment.",
+      "The sampling table gives the number of possible samples of size k out of a population of size n, under various assumptions about how the sample is collected.",
+      "If all outcomes are equally likely, the probability of an event A happening is given by the ratio of the number of outcomes favorable to A and the total number of outcomes.",
+      "Independent events A and B are those for which knowing whether A occurred gives no information about whether B occurred.",
+      "Thinking conditionally involves considering the probability of one event given another has occurred."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document is a Probability Cheatsheet compiled by William Chen and Joe Blitzstein, with contributions from others. It covers topics such as counting, the multiplication rule, sampling tables, order matters, independence of events, and conditional probability."
+    "content_preview": "This document provides a cheatsheet for probability concepts, including counting methods and sampling tables."
   },
   {
     "id": "256825878448dda8f9dc65808b88a695",
