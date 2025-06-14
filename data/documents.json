@@ -4930,19 +4930,26 @@
     "title": "Early Detection and Prediction of Brain Stroke Severity using Unet with Multihead Attention Mechanism",
     "authors": [],
     "filepath": "documents/BT_1741096106.pdf",
-    "upload_date": "2025-06-05T20:14:17.516636",
+    "upload_date": "2025-06-14T19:41:02.926060",
     "file_size": 710034,
-    "summary": "This document discusses a study that uses the U-Net model with a multihead attention mechanism for early detection and prediction of brain stroke severity. It involves data preprocessing, visualization, and implementation of the U-Net model on a dataset. The code provided is in Python using libraries such as TensorFlow, NumPy, Pandas, Matplotlib...",
+    "summary": "This document presents a study that utilizes the U-Net model with a multihead attention mechanism for early detection and prediction of brain stroke severity. The research is based on the Inme Veri Seti Stroke Dataset, where the author visualizes and analyzes five sample images, masks, and overlays using Python libraries such as NumPy, Pandas, Matplotlib, PIL, OpenCV, and TensorFlow. The model's performance is not explicitly discussed in this document.",
     "keywords": [
       "Brain Stroke",
       "U-Net",
       "Multihead Attention Mechanism",
-      "TensorFlow",
-      "Data Preprocessing"
+      "Deep Learning",
+      "Image Analysis"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "The study employs the U-Net model, a popular convolutional neural network used for biomedical image segmentation.",
+      "A multihead attention mechanism is incorporated into the U-Net model to improve its performance in brain stroke severity prediction.",
+      "The research uses the Inme Veri Seti Stroke Dataset, which contains images of brain scans affected by strokes.",
+      "The author visualizes and analyzes five sample images, masks, and overlays using various Python libraries for better understanding.",
+      "The document serves as a starting point for researchers interested in applying deep learning techniques to brain stroke severity prediction."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "import numpy as np   import pandas as pd   import os  import matplotlib.pyplot as plt   from PIL import Image   from sklearn.model..."
+    "content_preview": "This document uses Python libraries and the U-Net model with a multihead attention mechanism for early detection and prediction of brain stroke severity. The author visualizes five sample images, masks, and overlays."
   },
   {
     "id": "7fddaea68fb115da7b546a0a5a6d7bea",
