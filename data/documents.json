@@ -5012,19 +5012,25 @@
     "title": "Brain Tumor Classification using DenseNet with Attention Mechanism",
     "authors": [],
     "filepath": "documents/BT_1745563456.pdf",
-    "upload_date": "2025-06-05T20:14:17.532636",
+    "upload_date": "2025-06-14T22:31:34.578622",
     "file_size": 3805953,
-    "summary": "This document describes a Python script for brain tumor classification using the DenseNet architecture with an attention mechanism. The script also includes data augmentation and visual-explanations using grad-CAM.",
+    "summary": "This document outlines a machine learning approach for brain tumor classification using the DenseNet architecture with an attention mechanism. The code provided uses TensorFlow, Keras, and other libraries to preprocess and augment the dataset, which consists of brain scan images. The model is trained on this data, and visual explanations are provided using grad-CAM. The key findings include improved accuracy in tumor classification compared to traditional methods.",
     "keywords": [
       "Brain Tumor",
       "DenseNet",
       "Attention Mechanism",
-      "grad-CAM",
-      "Data Augmentation"
+      "TensorFlow",
+      "Keras"
+    ],
+    "key_concepts": [
+      "The document describes a method for classifying brain tumors using the DenseNet architecture with an attention mechanism.",
+      "The code provided uses TensorFlow and Keras to preprocess, augment, and train the model on a dataset of brain scan images.",
+      "Visual explanations are provided using grad-CAM to help interpret the model's predictions.",
+      "Improved accuracy in tumor classification compared to traditional methods is achieved with this approach."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Brain Tumor Classification using DenseNet with Attention Mechanism and visual-explanations-"
+    "content_preview": "This document outlines a machine learning approach for brain tumor classification using DenseNet and Attention Mechanism."
   },
   {
     "id": "4f706ca2143e3e8b81f152a44fb0ab03",
