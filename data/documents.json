@@ -12898,12 +12898,12 @@
   {
     "id": "a7b7ca43b590fc3e931da0de593c7e44",
     "filename": "Linear_Regression_1567266618.pdf",
-    "title": "Linear Regression: A Machine Learning Approach",
+    "title": "CS 60050 Machine Learning Linear Regression",
     "authors": [],
     "filepath": "documents/Linear_Regression_1567266618.pdf",
-    "upload_date": "2025-06-13T17:20:46.086894",
+    "upload_date": "2025-06-13T22:59:44.110923",
     "file_size": 2628008,
-    "summary": "This document presents an overview of Linear Regression as a machine learning technique, using data from house prices and living areas in a city for illustration. The document serves as a guide on how to predict the prices of houses based on their living area, demonstrating a supervised learning problem where the target variable is continuous. Key concepts include the methodology used in Linear Regression, its application, and theoretical framework.",
+    "summary": "This document provides an overview of linear regression as a machine learning technique, using a dataset of house prices and living areas in a city for illustration. The document is based on slides from Andrew Ng's course materials. It explains how to use this supervised learning problem as a regression problem when the target variable is continuous. The practical application is predicting the prices of houses of different sizes in the city, given their living area.",
     "keywords": [
       "Linear Regression",
       "Machine Learning",
@@ -12912,15 +12912,15 @@
       "House Prices"
     ],
     "key_concepts": [
-      "Linear Regression is a statistical method used in machine learning to model the relationship between two continuous variables.",
-      "The document uses data from house prices and living areas in a city as an example of a supervised learning problem, where the goal is to predict house prices based on their living area.",
-      "The document provides insights into the practical application of Linear Regression in real-world scenarios such as predicting house prices.",
-      "The theoretical foundation of Linear Regression is rooted in statistical principles and its use helps in understanding the relationship between two variables.",
-      "Understanding Linear Regression can aid in making predictions about continuous target variables, which has numerous practical applications."
+      "Linear regression is a statistical method used in machine learning to predict a continuous target variable based on one or more input variables.",
+      "The document uses a dataset of house prices and living areas as an example to illustrate the concept of linear regression.",
+      "This problem is a supervised learning problem, where the goal is to learn a function that maps the input (living area) to the output (house price).",
+      "When the target variable is continuous, it is considered a regression problem.",
+      "The practical application of this technique is predicting house prices based on their living areas."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document explains Linear Regression using house price and living area data."
+    "content_preview": "Linear regression example using house prices and living areas."
   },
   {
     "id": "fdef873ae7576dfd140993f6b39300f8",
