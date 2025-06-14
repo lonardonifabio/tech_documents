@@ -5279,18 +5279,25 @@
     "title": "Binary Classification Confusion Matrix",
     "authors": [],
     "filepath": "documents/Binary_Classification_Confusion_Matrix_1627285552.pdf",
-    "upload_date": "2025-06-03T22:07:03.055516",
+    "upload_date": "2025-06-14T22:31:34.662622",
     "file_size": 3025361,
-    "summary": "This document discusses a binary classification confusion matrix, its structure, and various measures derived from it, including Error Rate (ERR) and Accuracy (ACC).",
+    "summary": "This document explains the concept of a binary classification confusion matrix, a table used to evaluate the performance of a binary classifier. It discusses various measures derived from this matrix, such as Error Rate (ERR) and Accuracy (ACC), and provides formulas for their calculation. The document is useful for data scientists, machine learning engineers, and researchers working on classification problems.",
     "keywords": [
-      "binary classification",
-      "confusion matrix",
-      "error rate",
-      "accuracy"
+      "Binary Classification",
+      "Confusion Matrix",
+      "Error Rate",
+      "Accuracy"
+    ],
+    "key_concepts": [
+      "A confusion matrix of binary classification is a two by two table formed by counting the number of the four outcomes of a binary classifier.",
+      "Various measures can be derived from a confusion matrix, such as Error Rate (ERR) and Accuracy (ACC).",
+      "Error rate (ERR) is calculated as the number of all incorrect predictions divided by the total number of the dataset. The best error rate is 0.0, whereas the worst is 1.0.",
+      "Accuracy (ACC) is calculated as the number of all correct predictions divided by the total number of the dataset. It can also be calculated by 1 – ERR.",
+      "First two basic measures from the confusion matrix are discussed in detail."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "A confusion matrix of binary classification is a two by two table formed by counting..."
+    "content_preview": "This document explains binary classification confusion matrices and their derived measures, such as Error Rate (ERR) and Accuracy (ACC)."
   },
   {
     "id": "4915af8573a6c7f139e9898354ffca27",
