@@ -21103,67 +21103,107 @@
   {
     "id": "0dcdf87955db841fed64d2e024acc401",
     "filename": "NLP_Q_A_1606289505.pdf",
-    "title": "Top 100 NLP Questions by Steve Nouri",
-    "authors": [
-      "Steve Nouri"
-    ],
+    "title": "Top 100 NLP Questions",
+    "authors": [],
     "filepath": "documents/NLP_Q_A_1606289505.pdf",
-    "upload_date": "2025-06-15T14:50:25.006332",
+    "upload_date": "2025-06-15T20:53:21.839213",
     "file_size": 257038,
-    "summary": "This document provides answers to 100 frequently asked questions about Natural Language Processing (NLP). It covers topics such as keyword normalization, word vector distance computation, text corpus features, and more. The document is intended for data scientists, machine learning engineers, and anyone interested in NLP.",
+    "summary": "This document excerpt appears to be a collection of questions and answers related to Natural Language Processing (NLP). It covers topics such as keyword normalization, distance between word vectors, and features of a text corpus.",
     "keywords": [
       "NLP",
-      "Question Answer",
-      "Steve Nouri"
+      "Lemmatization",
+      "Cosine Similarity",
+      "Euclidean distance",
+      "N-grams",
+      "GPT",
+      "BERT",
+      "ELMo",
+      "Word2Vec",
+      "Sentiment Analysis"
     ],
     "key_concepts": [
-      "Lemmatization is a technique used to convert a keyword into its base form",
-      "Cosine Similarity and Euclidean Distance are techniques used to compute the distance between two word vectors in NLP",
-      "A text corpus can have features such as count of the word in a document, vector notation of the word, part of speech tag, basic dependency grammar, etc.",
-      "This document is a collection of frequently asked questions about Natural Language Processing"
+      "Keyword normalization",
+      "Word vector computation",
+      "Text corpus features",
+      "Document term matrix reduction",
+      "Bidirectional language models",
+      "Unidirectional language model",
+      "Word embedding",
+      "Transformer architecture",
+      "Attention scores",
+      "Weighted average of words' representations"
     ],
-    "category": "AI",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides answers to 100 frequently asked questions about NLP.",
-    "target_audience": "Data scientists, machine learning engineers, and anyone interested in NLP",
+    "content_preview": "Document: Top 100 NLP Questions",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "AI",
-      "Machine Learning",
-      "Data Science"
+      "NLP (Natural Language Processing)",
+      "NLP",
+      "Natural Language Processing (NLP)"
     ],
     "business_functions": [
-      "Research & Development",
-      "Data Analysis"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "Natural Language Processing (NLP)"
-    ],
-    "processes": [
-      "Question Answering"
-    ],
-    "technical_terms": [
       "Lemmatization",
       "Cosine Similarity",
-      "Euclidean Distance",
-      "Text Corpus",
-      "Document Term Matrix"
+      "Euclidean distance",
+      "BERT",
+      "GPT"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "NLP",
+      "Lemmatization",
+      "Cosine Similarity"
     ],
     "methodologies": [
-      "Question and Answer format"
+      "NLP (Natural Language Processing)",
+      "unidirectional language model",
+      "bidirectional LSTM",
+      "LSI (Latent Semantic Indexing)"
     ],
-    "tools_mentioned": [],
+    "tools_mentioned": [
+      "Transformer architecture"
+    ],
     "prerequisites": [
-      "Basic understanding of Natural Language Processing"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Learn about various techniques in NLP, such as keyword normalization, word vector distance computation, text corpus features, etc."
+      "Understand machine learning concepts"
     ],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "use_cases": [
+      "keyword normalization",
+      "computing distance between word vectors",
+      "Sentiment Analysis",
+      "Language Translation",
+      "Document Summarization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Top 100 NLP Questions",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: NLP, Lemmatization, Cosine Similarity",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a8c898f6678d75493698ddc23b49e76f",
