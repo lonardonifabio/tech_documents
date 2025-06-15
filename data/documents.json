@@ -28426,18 +28426,24 @@
     "title": "How to Approach Any Machine Learning Problem",
     "authors": [],
     "filepath": "documents/ml_1627538361 (1).pdf",
-    "upload_date": "2025-06-05T14:25:36.527230",
+    "upload_date": "2025-06-15T08:35:10.487571",
     "file_size": 216082,
-    "summary": "This document provides a step-by-step guide on approaching any machine learning problem, starting from identifying the problem type and gathering data, to analyzing and preparing the data for modeling.",
+    "summary": "This document provides a step-by-step guide for approaching machine learning problems, starting with identifying the problem type and framing it appropriately. It emphasizes the importance of data quality and its proper formatting according to the problem statement. The document also discusses the process of obtaining the data.",
     "keywords": [
       "Machine Learning",
       "Problem Solving",
-      "Data Analysis",
-      "Data Preparation"
+      "Data Preparation",
+      "Data Analysis"
+    ],
+    "key_concepts": [
+      "The type of machine learning problem depends on the business problem at hand.",
+      "Data should be stored in a format appropriate for the problem statement.",
+      "Quality of data is crucial as it determines the solvability of the problem.",
+      "Obtaining and formatting data are essential steps in the machine learning process."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "How to Approach Any Machine Learning Problem learn.machinelearning01 As a first step, you need to articulate your problem by identifying the type which depends on your business problem."
+    "content_preview": "Learn to approach any machine learning problem by identifying its type, obtaining and formatting data, and ensuring data quality."
   },
   {
     "id": "3bc3ed644e9d2a73a1c0f9f6ea376deb",
