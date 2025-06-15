@@ -14237,26 +14237,26 @@
       "John ‘Four’ Flynn"
     ],
     "filepath": "documents/Lessons_from_Defending_Gemini_1749677785.pdf",
-    "upload_date": "2025-06-12T09:23:42.152559",
+    "upload_date": "2025-06-15T08:35:03.303549",
     "file_size": 2068087,
     "summary": "This document discusses Google DeepMind's approach to evaluating the adversarial robustness of their AI model, Gemini. It describes an adversarial evaluation framework used to test Gemini against sophisticated attacks and outlines key lessons learned from these ongoing evaluations. The goal is to make Gemini more resilient against manipulation.",
     "keywords": [
       "AI",
-      "Gemini",
       "Adversarial Robustness",
-      "Evaluation Framework",
-      "Security"
+      "Gemini",
+      "Google DeepMind",
+      "Adversarial Evaluation"
     ],
     "key_concepts": [
       "The document explains Google DeepMind's approach to evaluating the adversarial robustness of their AI model, Gemini.",
       "An adaptive attack technique suite is deployed against past, current, and future versions of Gemini in an ongoing evaluation process.",
-      "These evaluations aim to make Gemini more resilient against manipulation by a sophisticated adversary.",
+      "These ongoing evaluations aim to make Gemini more resilient against manipulation by a sophisticated adversary.",
       "The threat model outlines the attack description, adversarial goal, and capabilities.",
-      "The report provides insights into how these ongoing evaluations can help improve the security of AI models."
+      "The report provides insights into how these evaluations can help improve the security of AI models like Gemini."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "2025-5-18 Lessons from Defending Gemini Against Indirect Prompt Injections"
+    "content_preview": "Google DeepMind's approach to evaluating the adversarial robustness of Gemini and lessons learned from ongoing evaluations against sophisticated attacks."
   },
   {
     "id": "bdb9fbf4df799f13a99c6a1fd1369e80",
