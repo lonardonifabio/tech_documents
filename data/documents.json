@@ -24381,25 +24381,67 @@
       "RogerD.Peng"
     ],
     "filepath": "documents/R_for_Data_Science_1633507675.pdf",
-    "upload_date": "2025-06-13T22:59:47.940939",
+    "upload_date": "2025-06-15T16:03:32.422611",
     "file_size": 10998464,
-    "summary": "This book is a comprehensive guide to R programming for data science, written by RogerD.Peng and published in 2015. It's an in-progress book that leverages the Lean Publishing process, allowing for reader feedback and iterations until the right book is achieved. The book can be purchased at http://leanpub.com/rprogramming.",
+    "summary": "This book provides a comprehensive guide to using R for data science, covering topics such as data manipulation, visualization, and statistical modeling. It is intended for readers with some programming experience who want to learn how to use R effectively in their data analysis work. The book includes practical examples and exercises to help readers apply the concepts they learn. Key topics include data import/export, data cleaning, exploratory data analysis, regression analysis, time series analysis, and more.",
     "keywords": [
-      "R Programming",
+      "R",
       "Data Science",
-      "Book",
-      "LeanPub"
+      "Programming",
+      "Statistics",
+      "Data Analysis"
     ],
     "key_concepts": [
-      "The book is a guide for learning R programming specifically for data science.",
-      "It uses the Lean Publishing process, which allows for reader feedback and iterations to create the best possible book.",
-      "The book can be purchased from leanpub.com/rprogramming.",
-      "This version of the book was published in 2015.",
-      "RogerD.Peng is the author of this book, also known for his work on Exploratory Data Analysis with R."
+      "Learn how to use R for data manipulation, visualization, and statistical modeling",
+      "Understand the Lean Publishing process and its benefits",
+      "Gain practical experience through exercises and examples",
+      "Explore key topics such as data import/export, data cleaning, exploratory data analysis, regression analysis, time series analysis, and more"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A guide to R programming for data science, using the Lean Publishing process."
+    "content_preview": "Learn R for data science with practical examples and exercises.",
+    "target_audience": "Programmers with some experience who want to learn how to use R effectively in data analysis.",
+    "industry": [
+      "Data Science",
+      "Analytics",
+      "Business"
+    ],
+    "business_functions": [
+      "Data Analysis",
+      "Statistical Modeling"
+    ],
+    "companies": [],
+    "technologies": [
+      "R"
+    ],
+    "processes": [
+      "Data Analysis Process"
+    ],
+    "technical_terms": [
+      "Data Manipulation",
+      "Data Visualization",
+      "Statistical Modeling"
+    ],
+    "methodologies": [
+      "Lean Publishing"
+    ],
+    "tools_mentioned": [
+      "R"
+    ],
+    "prerequisites": [
+      "Some programming experience"
+    ],
+    "learning_objectives": [
+      "Learn how to use R for data analysis",
+      "Gain practical experience with R through exercises and examples"
+    ],
+    "use_cases": [
+      "Data manipulation, visualization, statistical modeling"
+    ],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "630402a4919cb6bc79922113ed56916d",
