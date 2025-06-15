@@ -5153,22 +5153,29 @@
   {
     "id": "4f706ca2143e3e8b81f152a44fb0ab03",
     "filename": "BT_1748176476.pdf",
-    "title": "Brain Tumor Segmentation BraTS 2020 Dataset",
+    "title": "Brain Tumor Segmentation using BraTS 2020 Dataset",
     "authors": [],
     "filepath": "documents/BT_1748176476.pdf",
-    "upload_date": "2025-06-05T20:14:17.539637",
+    "upload_date": "2025-06-14T22:31:34.585622",
     "file_size": 1680650,
-    "summary": "This document discusses the segmentation of gliomas in pre-operative MRI scans using the BraTS 2020 dataset. The goal is to label each pixel on the image as either part of a tumor area or not. The sub-regions of the tumor considered for evaluation are: enhancing tumor, tumor core, and whole tumor.",
+    "summary": "This document outlines a project focused on segmenting gliomas in pre-operative MRI scans. The goal is to label each pixel of the image, distinguishing between tumor areas (1 or 2 or 3) and non-tumor regions (0). The sub-regions of the tumor considered for evaluation are enhancing tumor (ET), tumor core (TC), and whole tumor (WT). The provided segmentation labels have specific values. The code uses various libraries such as OpenCV, Pandas, Seaborn, Matplotlib, Nilearn, Nibabel, Gif_your_Nifti, Keras, TensorFlow, and Scikit-learn for data processing, model building, and evaluation.",
     "keywords": [
-      "Brain Tumor",
-      "Segmentation",
+      "Brain Tumor Segmentation",
       "BraTS 2020 Dataset",
+      "Gliomas",
       "MRI Scans",
-      "Pixel Labeling"
+      "Image Labeling"
     ],
-    "category": "Technology",
-    "difficulty": "Intermediate",
-    "content_preview": "Brain Tumor Segmentation BraTS 2020 Dataset   Problem definiton"
+    "key_concepts": [
+      "The project aims to segment gliomas in pre-operative MRI scans, labeling each pixel as part of a tumor area or not.",
+      "The code uses various libraries including OpenCV, Pandas, Seaborn, Matplotlib, Nilearn, Nibabel, Gif_your_Nifti, Keras, TensorFlow, and Scikit-learn for data processing, model building, and evaluation.",
+      "The sub-regions of the tumor considered for evaluation are enhancing tumor (ET), tumor core (TC), and whole tumor (WT).",
+      "The provided segmentation labels have specific values: 1 for NCR & NET, 2 for ED, 4 for ET, and 0 for everything else.",
+      "The code uses machine learning techniques to build a model that can accurately segment gliomas in MRI scans."
+    ],
+    "category": "AI",
+    "difficulty": "Advanced",
+    "content_preview": "Document: Brain Tumor Segmentation using BraTS 2020 Dataset"
   },
   {
     "id": "4e5b411403f63051e9c7d78b69622dfd",
