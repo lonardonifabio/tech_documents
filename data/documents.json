@@ -9402,19 +9402,23 @@
       "Michael U. Gutmann"
     ],
     "filepath": "documents/Exercises_in_Machine_Learning__1706087235.pdf",
-    "upload_date": "2025-06-03T17:53:40.251084",
+    "upload_date": "2025-06-14T22:31:37.619620",
     "file_size": 2981502,
-    "summary": "A collection of exercises covering Linear Algebra, Optimization, and Directed Graphical Models for Machine Learning. The work includes topics like Gram-Schmidt orthogonalisation, Newton's method, and directed graph concepts.",
+    "summary": "This document provides exercises on Linear Algebra and Optimization, essential for understanding Machine Learning concepts. It also covers Directed Graphical Models, with topics including directed graph concepts and canonical connections. The work is licensed under Creative Commons Attribution 4.0 International License.",
     "keywords": [
       "Machine Learning",
-      "Exercises",
       "Linear Algebra",
       "Optimization",
       "Directed Graphical Models"
     ],
+    "key_concepts": [
+      "The document covers exercises on Linear Algebra, including Gram–Schmidt orthogonalisation, linear transforms, eigenvalue decomposition, trace, determinants, and eigenvalues.",
+      "It also includes exercises on Optimization, such as gradient of vector-valued functions, Newton’s method, gradient of matrix-valued functions, gradient of the log-determinant, descent directions for matrix-valued functions.",
+      "The document provides exercises on Directed Graphical Models, focusing on directed graph concepts and canonical connections."
+    ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Exercises in Machine Learning... Linear Algebra 1"
+    "content_preview": "Exercises in Machine Learning covers Linear Algebra, Optimization, and Directed Graphical Models."
   },
   {
     "id": "53d02c5d765aadc67158f1a416c97e7e",
