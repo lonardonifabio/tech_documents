@@ -22996,18 +22996,26 @@
     "title": "STATISTICS 101",
     "authors": [],
     "filepath": "documents/Stat_101_1721194656.pdf",
-    "upload_date": "2025-06-06T15:45:49.048683",
+    "upload_date": "2025-06-15T08:35:07.665558",
     "file_size": 8031743,
-    "summary": "Introduction to the fundamental concepts of statistics, including probability distributions, hypothesis testing, and regression analysis.",
+    "summary": "This document provides an introductory guide to statistics, covering topics such as data collection, descriptive and inferential statistics, probability distributions, hypothesis testing, and regression analysis. The document emphasizes the importance of statistical analysis in making informed decisions and solving real-world problems. It includes practical examples and exercises to help readers understand key concepts.",
     "keywords": [
       "Statistics",
-      "Probability",
-      "Hypothesis Testing",
-      "Regression Analysis"
+      "Data Analysis",
+      "Descriptive Statistics",
+      "Inferential Statistics",
+      "Probability Distributions"
+    ],
+    "key_concepts": [
+      "Statistics is a mathematical discipline that deals with the collection, analysis, interpretation, and presentation of data.",
+      "Descriptive statistics are used to summarize and describe the main features of a dataset, while inferential statistics are used to make predictions or draw conclusions about a population based on a sample.",
+      "Probability distributions are mathematical models that describe the likelihood of different outcomes in a random experiment.",
+      "Hypothesis testing is a statistical method used to determine whether there is evidence to reject a null hypothesis, which assumes no relationship between variables.",
+      "Regression analysis is a statistical technique used to model the relationship between a dependent variable and one or more independent variables."
     ],
     "category": "Data Science",
-    "difficulty": "Intermediate",
-    "content_preview": "This course covers the basics of statistics, essential for data analysis and interpretation."
+    "difficulty": "Beginner",
+    "content_preview": "Learn the basics of statistics with practical examples and exercises."
   },
   {
     "id": "52e0d61717679510d72f28a2e48a8445",
