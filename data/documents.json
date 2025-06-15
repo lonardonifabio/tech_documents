@@ -20933,18 +20933,24 @@
       "Ian Pointer"
     ],
     "filepath": "documents/Pytorch_1726691157.pdf",
-    "upload_date": "2025-06-06T03:10:13.330914",
+    "upload_date": "2025-06-14T22:31:43.519626",
     "file_size": 7173456,
-    "summary": "Learn to program PyTorch for deep learning, creating and deploying deep learning applications. Book by Ian Pointer.",
+    "summary": "This document provides a comprehensive guide on programming PyTorch, a popular open-source machine learning library, for deep learning applications. It covers the creation and deployment of deep learning models, with a focus on practical implementation. The book is written by Ian Pointer and published by O'Reilly Media.",
     "keywords": [
       "PyTorch",
       "Deep Learning",
-      "Ian Pointer",
       "Programming"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "This book introduces readers to the fundamentals of PyTorch, a powerful open-source machine learning library.",
+      "The text covers the creation and deployment of deep learning applications using PyTorch, with a focus on practical implementation.",
+      "Key topics include neural networks, convolutional neural networks (CNNs), recurrent neural networks (RNNs), and more.",
+      "The book also provides insights into best practices for training and optimizing models, as well as strategies for deploying deep learning applications.",
+      "The theoretical framework presented in the book is grounded in the principles of machine learning and artificial intelligence."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Programming PyTorch for Deep Learning by Ian Pointer"
+    "content_preview": "Guide on programming PyTorch for deep learning applications."
   },
   {
     "id": "be667b132d2172adec2ca050286a42f4",
