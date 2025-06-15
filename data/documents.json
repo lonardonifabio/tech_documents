@@ -783,26 +783,67 @@
       "Dr. Benedikt Kohn"
     ],
     "filepath": "documents/9_1_1738485397.pdf",
-    "upload_date": "2025-06-13T22:59:36.527889",
+    "upload_date": "2025-06-15T16:03:20.780539",
     "file_size": 457065,
-    "summary": "This document discusses the reporting obligations for serious incidents involving AI systems under the EU AI Act. It covers what constitutes a 'Serious Incident', the confidentiality rules, follow-up reporting requirements, and examples of such incidents. The document is part of the EU AI Act Expert Series by Dr. Benedikt Kohn.",
+    "summary": "This document discusses the reporting obligations for serious incidents involving AI systems under the EU AI Act. It covers what constitutes a 'Serious Incident', the confidentiality rules, follow-up reporting procedures, and the definition of a serious incident according to Article 73 of the EU AI Act. The target audience is professionals in AI regulation, IT & Data, and related fields.",
     "keywords": [
       "EU AI Act",
       "AI systems",
-      "Incident Reporting",
       "Serious Incident",
-      "Competent Authorities"
+      "Reporting obligations",
+      "Confidentiality rules"
     ],
     "key_concepts": [
-      "A 'Serious Incident' involves AI systems that cause harm to individuals or infrastructure due to malfunction, error, or misuse.",
-      "Providers are required to promptly submit an initial report upon identifying a serious incident and follow up with a complete report.",
-      "Confidentiality rules apply to sensitive data related to incidents and AI systems collected during the investigation process.",
-      "The EU AI Act defines a 'Serious Incident' under Article 73.",
-      "Examples of serious incidents include accidents resulting from autonomous vehicle malfunctions or disruptions caused by AI-driven systems."
+      "Incident Reporting process for AI systems under the EU AI Act",
+      "Definition of a 'Serious Incident' involving AI systems",
+      "Confidentiality rules regarding sensitive data in incident investigations",
+      "Follow-up reporting procedures after initial notification",
+      "Article 73 of the EU AI Act and its implications for serious incidents"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses reporting obligations for serious incidents involving AI systems under the EU AI Act."
+    "content_preview": "Learn about reporting obligations for serious incidents involving AI systems under the EU AI Act.",
+    "target_audience": "Professionals in AI regulation, IT & Data, and related fields",
+    "industry": [
+      "AI",
+      "Regulation",
+      "IT & Data"
+    ],
+    "business_functions": [
+      "Compliance",
+      "Regulatory Affairs",
+      "AI Governance"
+    ],
+    "companies": [
+      "Taylor Wessing"
+    ],
+    "technologies": [
+      "AI systems"
+    ],
+    "processes": [
+      "Incident Reporting"
+    ],
+    "technical_terms": [
+      "EU AI Act",
+      "Article 73",
+      "Serious Incident"
+    ],
+    "methodologies": [
+      "Regulatory compliance methodology"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Knowledge of the EU AI Act and AI systems"
+    ],
+    "learning_objectives": [
+      "Understand reporting obligations for serious incidents involving AI systems under the EU AI Act",
+      "Learn about confidentiality rules in incident investigations"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "54974353e5cefb6c5d828bd8c7c21fe6",
