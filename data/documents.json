@@ -23181,27 +23181,67 @@
     "filename": "Python_for_Everybody_1633415756.pdf",
     "title": "Python for Everybody",
     "authors": [
-      "Dr. Charles R. Severance"
+      "Dr. Charles R. Severance",
+      "Elliott Hauser",
+      "Sue Blumenberg"
     ],
     "filepath": "documents/Python_for_Everybody_1633415756.pdf",
-    "upload_date": "2025-06-13T22:59:47.611938",
+    "upload_date": "2025-06-15T16:03:32.097609",
     "file_size": 2379674,
-    "summary": "This document, 'Python for Everybody', is a comprehensive guide on exploring data using Python 3 by Dr. Charles R. Severance. It's an adaptation of the book 'Think Python: How to Think Like a Computer Scientist'. The author, Dr. Severance, aims to teach lifelong data handling skills using Python in his course SI502 at the University of Michigan. The work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.",
+    "summary": "This document provides an introduction to Python 3, focusing on exploring and manipulating data. It is a remix of the book 'Think Python' by Allen B. Downey, Jeﬀ Elkner, and others, specifically tailored for teaching lifelong data handling skills in Python. The book covers essential topics such as variables, loops, functions, and data structures, while emphasizing practical applications in data analysis.",
     "keywords": [
       "Python",
-      "Data Exploration",
-      "Computer Science",
-      "University of Michigan"
+      "Data Analysis",
+      "Programming",
+      "Data Structures",
+      "Variables"
     ],
     "key_concepts": [
-      "The book is an adaptation of 'Think Python: How to Think Like a Computer Scientist'.",
-      "Dr. Severance aims to teach lifelong data handling skills using Python in his course SI502.",
-      "The work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.",
-      "The document focuses on exploring data instead of understanding algorithms and abstractions."
+      "The book is a remix of 'Think Python', focusing on exploring and manipulating data using Python.",
+      "The document covers essential programming concepts such as variables, loops, functions, and data structures.",
+      "The book emphasizes practical applications in data analysis, making it suitable for lifelong learning.",
+      "The author's goal is to teach people data handling skills using Python in the context of SI502 - Networked Programming at the University of Michigan."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "An experiment in remixing a book titled Think Python..."
+    "content_preview": "A Python textbook remix for data exploration and analysis.",
+    "target_audience": "Students learning Python for data analysis, particularly those in the context of Networked Programming at the University of Michigan.",
+    "industry": [
+      "Education",
+      "Data Analysis"
+    ],
+    "business_functions": [
+      "Programming",
+      "Data Handling"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python 3"
+    ],
+    "processes": [
+      "Networked Programming"
+    ],
+    "technical_terms": [
+      "Variables",
+      "Loops",
+      "Functions",
+      "Data Structures"
+    ],
+    "methodologies": [
+      "Remixing an existing textbook for a specific purpose"
+    ],
+    "tools_mentioned": [
+      "Python 3"
+    ],
+    "prerequisites": [
+      "Basic programming knowledge"
+    ],
+    "learning_objectives": [],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "b8d8e938fd5d3140e068801c9dc00a5c",
