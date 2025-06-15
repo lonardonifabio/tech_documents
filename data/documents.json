@@ -1009,19 +1009,25 @@
       "Bhavishya Pandit"
     ],
     "filepath": "documents/AI_Agent_Dictionary_1740943208.pdf",
-    "upload_date": "2025-06-05T20:14:15.533624",
+    "upload_date": "2025-06-15T08:34:55.870518",
     "file_size": 4808553,
-    "summary": "This document provides a comprehensive guide to understanding various terms related to AI agents, including Autonomous Agents, Belief-Desire-Intention (BDI) Model, Conversational Agents, and Decision Trees. The source of the information is Bhavishya Pandit.",
+    "summary": "This document provides a comprehensive guide to understanding various types of AI agents, their functions, and applications in different fields such as robotics, gaming, automation, and conversational interfaces. It also introduces the Belief-Desire-Intention (BDI) model for decision-making and Decision Trees in AI systems.",
     "keywords": [
-      "AI",
-      "Agents",
+      "AI Agent",
       "Autonomous Agent",
-      "Belief-Desire-Intention",
-      "Conversational Agent"
+      "Belief-Desire-Intention Model",
+      "Conversational Agent",
+      "Decision Tree"
+    ],
+    "key_concepts": [
+      "An AI system that operates independently without human intervention, observes the environment and takes actions based on experiences is known as an Autonomous Agent.",
+      "The Belief-Desire-Intention (BDI) Model is a decision-making framework for AI agents where beliefs represent what the agent knows, desires are the goals it wants to achieve, and intentions are the actions taken to fulfill those desires.",
+      "Conversational Agents are AI-powered chatbots or voice assistants that understand natural language and respond to user queries. Examples include ChatGPT, Siri, and Alexa.",
+      "A Decision Tree is a flowchart-like model for decision-making in AI systems. It breaks problems into smaller steps using 'if-then' conditions and is common in rule-based AI systems."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a comprehensive guide to understanding various terms related to AI agents, including Autonomous Agents, Belief-Desire-Intention (BDI) Model, Conversational Agents, and Decision Trees."
+    "content_preview": "This document provides a guide to understanding various types of AI agents, their functions, and applications."
   },
   {
     "id": "1b51d062daba185c74b8e6220a900829",
