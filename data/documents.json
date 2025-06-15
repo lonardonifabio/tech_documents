@@ -519,9 +519,9 @@
     "title": "250+ AWS Interview Questions with Answers",
     "authors": [],
     "filepath": "documents/250_AWS_Interview_Questions_with_Answers_1667830964.pdf",
-    "upload_date": "2025-06-13T22:59:36.411889",
+    "upload_date": "2025-06-15T16:03:20.663538",
     "file_size": 589004,
-    "summary": "This document provides a comprehensive list of 250 interview questions and answers for Amazon Web Services (AWS), covering topics such as EC2, S3, key-pairs, Cloudwatch, Route53, EBS, and more. The document explains the components of AWS, their functions, and various pricing models and types of volumes for EC2 instances. It is useful for anyone preparing for an interview related to AWS.",
+    "summary": "This document provides a comprehensive list of interview questions and answers for Amazon Web Services (AWS), covering topics such as EC2, S3, key-pairs, Cloudwatch, EBS, and more. It explains the components of AWS, their functions, and pricing models. The document is intended for individuals preparing for AWS interviews or seeking to expand their knowledge about AWS.",
     "keywords": [
       "AWS",
       "Interview Questions",
@@ -530,15 +530,61 @@
       "Key-Pairs"
     ],
     "key_concepts": [
-      "AWS is a platform that provides on-demand resources for hosting web services, storage, networking, databases and other resources over the internet with a pay-as-you-go pricing.",
-      "EC2 – Elastic Compute Cloud, S3 – Simple Storage Service, Route53, EBS – Elastic Block Store, Cloudwatch, Key -Paris are few of the components of AWS.",
-      "Key-pairs are secure login information for your instances/virtual machines . To connect to the instances we use key -pairs that contain a public -key and private-key.",
-      "S3 stands for Simple Storage Service. It is a storage service that provides an interface that you can use to store any amount of data, at any time, from anywhere in the world. With S3 you pay only for what you use and the payment model is pay-as-you-go.",
-      "The different pricing model for EC2 instances are as below: On-demand, Reserved, Spot, Scheduled, Dedicated."
+      "AWS is a platform providing on-demand resources with pay-as-you-go pricing.",
+      "Components of AWS include EC2, S3, Route53, EBS, Cloudwatch, and Key-Paris.",
+      "Key-pairs are used for secure login information to connect to instances/virtual machines.",
+      "S3 is a storage service that provides an interface for storing data over the internet with pay-as-you-go pricing.",
+      "The document lists different pricing models for EC2 instances: On-demand, Reserved, Spot, Scheduled, and Dedicated."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Prepare for AWS interviews with this comprehensive list of 250+ interview questions and answers."
+    "content_preview": "Prepare for AWS interviews with 250+ questions and answers.",
+    "target_audience": "Individuals preparing for AWS interviews or expanding their knowledge about AWS.",
+    "industry": [
+      "IT",
+      "Cloud Computing"
+    ],
+    "business_functions": [
+      "Technical Support",
+      "System Administration",
+      "DevOps"
+    ],
+    "companies": [
+      "Amazon"
+    ],
+    "technologies": [
+      "AWS",
+      "EC2",
+      "S3",
+      "Key-Pairs",
+      "EBS",
+      "Cloudwatch"
+    ],
+    "processes": [
+      "Instance management",
+      "Data storage",
+      "Security management"
+    ],
+    "technical_terms": [
+      "On-demand",
+      "Reserved",
+      "Spot",
+      "Scheduled",
+      "Dedicated",
+      "Instance store volumes",
+      "EBS"
+    ],
+    "methodologies": [
+      "Question and answer format"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [],
+    "learning_objectives": [],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "6287f67b2a1609bbd7523bfa9ba6f214",
