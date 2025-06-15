@@ -6778,25 +6778,66 @@
     "title": "Convolutional Neural Networks Explained",
     "authors": [],
     "filepath": "documents/Convolutional_Neural_Networks_Explained_1630508291.pdf",
-    "upload_date": "2025-06-13T22:59:39.548903",
+    "upload_date": "2025-06-15T14:50:18.183316",
     "file_size": 541889,
-    "summary": "This document provides an introduction to Convolutional Neural Networks (CNNs), explaining their purpose, architecture, and significance in enabling computers to 'see'. The document covers the basic structure of a CNN, which consists of three layers: convolutional, pooling, and fully connected. It is suitable for Intermediate level readers interested in AI, Machine Learning, or Data Science.",
+    "summary": "This document provides an explanation of Convolutional Neural Networks (CNNs), a class of neural networks specialized in processing data with grid-like topology, such as images. The layers are arranged to detect simpler patterns first and more complex ones further along. The architecture consists of three layers: a convolutional layer, a pooling layer, and a fully connected layer.",
     "keywords": [
       "Convolutional Neural Networks",
       "CNN",
       "Neural Networks",
-      "Computer Vision"
+      "Image Processing"
     ],
     "key_concepts": [
-      "Convolutional Neural Networks are a class of neural networks that specialize in processing data with grid-like topology, such as images.",
-      "The architecture of a CNN consists of three layers: convolutional, pooling, and fully connected.",
-      "CNNs detect simpler patterns first (lines, curves) and more complex patterns (faces, objects) further along.",
-      "By using a CNN, one can enable sight to computers.",
-      "This document is part of the #LearnWithDDS series by Data Driven Science."
+      "This document explains Convolutional Neural Networks (CNNs), a class of neural networks specialized in processing data with grid-like topology, such as images.",
+      "The layers in CNNs are arranged to detect simpler patterns first and more complex ones further along.",
+      "The architecture of a CNN consists of three layers: a convolutional layer, a pooling layer, and a fully connected layer."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Introduction to Convolutional Neural Networks (CNNs) and their significance in enabling computers to 'see'."
+    "content_preview": "Learn about Convolutional Neural Networks (CNNs) and their architecture.",
+    "target_audience": "Data Scientists, Machine Learning Engineers, AI Researchers",
+    "industry": [
+      "Technology",
+      "AI"
+    ],
+    "business_functions": [
+      "Research & Development",
+      "Machine Learning"
+    ],
+    "companies": [],
+    "technologies": [
+      "Convolutional Neural Networks (CNNs)"
+    ],
+    "processes": [
+      "Image Processing"
+    ],
+    "technical_terms": [
+      "Neural Networks",
+      "Convolutional Layer",
+      "Pooling Layer",
+      "Fully Connected Layer"
+    ],
+    "methodologies": [
+      "Deep Learning"
+    ],
+    "tools_mentioned": [
+      "CNNs"
+    ],
+    "prerequisites": [
+      "Understanding of Neural Networks"
+    ],
+    "learning_objectives": [
+      "Learn about CNN architecture and its purpose in image processing."
+    ],
+    "use_cases": [
+      "Image classification, object detection, facial recognition"
+    ],
+    "benefits_mentioned": [
+      "Enabling sight to computers"
+    ],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "832463d0096d63a77a941f9210761b47",
