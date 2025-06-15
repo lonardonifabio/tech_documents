@@ -5541,18 +5541,25 @@
     "title": "Machine Learning: Bridging Between Business and Data Science",
     "authors": [],
     "filepath": "documents/Bridging_Gap_Between_Business_and_Data_Science_1651306118.pdf",
-    "upload_date": "2025-06-03T22:07:03.104517",
+    "upload_date": "2025-06-14T22:31:34.719622",
     "file_size": 563385,
-    "summary": "This document clarifies terms in data science, outlines the machine learning workflow, solves four groups of tasks, discusses three model training styles, and encourages businesses to adopt ML. It aims to bridge the gap between business and data science.",
+    "summary": "This document clarifies terms in data science, outlines the machine learning workflow, identifies four groups of tasks solved by ML, discusses three model training styles, encourages businesses to adopt ML, and provides further reading. The document aims to bridge the gap between business and data science, making ML adoption less daunting.",
     "keywords": [
       "Machine Learning",
       "Data Science",
       "Business",
       "Artificial Intelligence"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "This whitepaper aims to clarify terms in data science and explain how machine learning can be applied in a business context.",
+      "The document outlines the steps of the machine learning workflow, from defining the problem to model training and evaluation.",
+      "Four main tasks that machine learning solves are discussed: classification, cluster analysis, regression, ranking, and generation.",
+      "Three types of model training styles are supervised learning, unsupervised learning, and reinforcement learning.",
+      "The document encourages businesses to adopt a data-driven approach and emphasizes the role of a 'business translator' in this process."
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "If the past few years hasn’t found you living on a desert island without electricity or communication with the outside world, you’ve likely heard about machine learning (ML)."
+    "content_preview": "This whitepaper aims to bridge the gap between business and data science, making ML adoption less daunting."
   },
   {
     "id": "87ec14bcd7014fcc3b7f0830fc668370",
