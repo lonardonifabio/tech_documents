@@ -24385,19 +24385,26 @@
     "title": "The Ultimate Power Platform Licensing Matrix",
     "authors": [],
     "filepath": "documents/The_Ultimate_Power_Platform_Licensing_Matrix_1623048451.pdf",
-    "upload_date": "2025-06-04T21:18:55.540042",
+    "upload_date": "2025-06-14T22:31:45.564628",
     "file_size": 298241,
-    "summary": "This document discusses the licensing matrix for Microsoft's Power Platform, including Dataflows, AI Builder, Canvas Apps, and Business Process Flows. It also covers Dataverse, Virtual Agent, and Project for the web. The document explains the licensing details for various environments and exclusions.",
+    "summary": "This document provides an overview of the licensing matrix for Microsoft's Power Platform, focusing on Dataflows, AI Builder, Canvas Apps, Business Process Flows, Desktop Flows, Dataverse, Virtual Agent, and Project for the web. It discusses the eligibility, limitations, and key features of each component, including the ability to create unlimited canvas apps, model-driven apps, business process flows, and chatbots using standard connectors.",
     "keywords": [
       "Power Platform",
+      "Licensing Matrix",
       "Dataflows",
       "AI Builder",
-      "Canvas App",
-      "Business Process Flow"
+      "Canvas Apps"
+    ],
+    "key_concepts": [
+      "The document explains the licensing requirements and features for using Dataflows within the Power Platform.",
+      "AI Builder is a component of the Power Platform that allows users to create AI models without requiring coding skills.",
+      "Canvas AppModel - driven AppPortal App Cloud flows enable users to extend Office 365 applications or use Dataverse for Teams.",
+      "The document highlights the upcoming ability to create model-driven apps in Dataverse for Teams.",
+      "Users can create and run flows using standard connectors to extend Office 365 applications or within Dataverse for Teams."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses the licensing matrix for Microsoft's Power Platform, including Dataflows, AI Builder..."
+    "content_preview": "This document discusses the licensing requirements and features of Microsoft's Power Platform components like Dataflows, AI Builder, Canvas Apps, Business Process Flows, Desktop Flows, Dataverse, Virtual Agent, and Project for the web."
   },
   {
     "id": "965aca71554973285e8dc7e145ca4840",
