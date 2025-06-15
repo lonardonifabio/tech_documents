@@ -5151,28 +5151,67 @@
   {
     "id": "3d2e9d95cc7635b92b7c9d7c5fa6162b",
     "filename": "Art_5__1738416866.pdf",
-    "title": "EU AI Act: Codifying Ethics Guidelines for Trustworthy AI",
+    "title": "EU AI Act: Removing Prohibited AI Systems From EU Market",
     "authors": [],
     "filepath": "documents/Art_5__1738416866.pdf",
-    "upload_date": "2025-06-13T22:59:38.561898",
+    "upload_date": "2025-06-15T16:03:22.817551",
     "file_size": 608403,
-    "summary": "The EU AI Act aims to remove prohibited AI systems from the EU market by a deadline of February 2, 2025. The document defines AI as a machine-based system designed to operate with varying levels of autonomy that infers outputs based on input data. It proposes a risk-based approach to AI regulation, categorizing AI systems into unacceptable, high, 'transparency', minimal or no risk, and permitted subject to compliance or information/transparency obligations. The act encourages voluntary codes of conduct for permitted AI systems with no restrictions.",
+    "summary": "This document discusses the European Union's Artificial Intelligence (AI) Act, which aims to regulate AI systems based on their level of risk. The act defines AI as a machine designed to operate with varying levels of autonomy that can influence physical or virtual environments. It outlines a risk-based approach to AI regulation, categorizing AI systems into unacceptable, high, 'transparency', minimal or no risk, permitted subject to compliance, and permitted with no restrictions. The act also addresses transparency obligations for certain AI systems.",
     "keywords": [
       "EU AI Act",
+      "Artificial Intelligence",
       "AI Regulation",
-      "Trustworthy AI",
       "Risk-based approach"
     ],
     "key_concepts": [
-      "The EU AI Act aims to remove prohibited AI systems from the EU market by a deadline of February 2, 2025.",
-      "The document defines AI as a machine-based system designed to operate with varying levels of autonomy that infers outputs based on input data.",
-      "It proposes a risk-based approach to AI regulation, categorizing AI systems into unacceptable, high, 'transparency', minimal or no risk, and permitted subject to compliance or information/transparency obligations.",
-      "The act encourages voluntary codes of conduct for permitted AI systems with no restrictions.",
-      "The academic definition of AI is provided by Stanford University as the science and engineering of making intelligent machines."
+      "The EU AI Act defines AI as a machine that can influence physical or virtual environments.",
+      "The act categorizes AI systems based on their level of risk for regulation purposes.",
+      "The document outlines a risk-based approach to AI regulation in the EU.",
+      "The act addresses transparency obligations for certain AI systems.",
+      "The EU AI Act aims to remove prohibited AI systems from the EU market."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "The EU AI Act aims to remove prohibited AI systems from the EU market by a deadline of February 2, 2025."
+    "content_preview": "EU AI Act removes prohibited AI systems from EU market.",
+    "target_audience": "Policy makers, AI developers, and stakeholders in the European Union.",
+    "industry": [
+      "Technology",
+      "AI",
+      "Regulation"
+    ],
+    "business_functions": [
+      "Policy Making",
+      "AI Development",
+      "Compliance"
+    ],
+    "companies": [
+      "Stanford University"
+    ],
+    "technologies": [
+      "Artificial Intelligence"
+    ],
+    "processes": [
+      "AI Regulation"
+    ],
+    "technical_terms": [
+      "AI",
+      "Risk-based approach",
+      "Transparency"
+    ],
+    "methodologies": [
+      "Regulatory Framework Development"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Understanding of Artificial Intelligence and its applications.",
+      "Knowledge of EU regulations."
+    ],
+    "learning_objectives": [],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "36aaa826a381006fb827305c6e963c5d",
