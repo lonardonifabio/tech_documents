@@ -29207,29 +29207,71 @@
   {
     "id": "f71aac83ad36a622a0dad754aac79249",
     "filename": "Top_Google_Questions_Part_1_1652423188.pdf",
-    "title": "Top Google Questions – Part 1",
+    "title": "Top Google Questions - Part 1",
     "authors": [],
     "filepath": "documents/Top_Google_Questions_Part_1_1652423188.pdf",
-    "upload_date": "2025-06-13T22:59:49.979948",
+    "upload_date": "2025-06-15T16:03:34.528625",
     "file_size": 10716910,
-    "summary": "This document presents a list of frequently asked programming questions related to algorithms, data structures, and problem-solving in the context of software development, particularly in the field of computer science. The questions cover topics such as arrays, strings, linked lists, binary trees, and dynamic programming, among others. They are suitable for both beginners and advanced programmers.",
+    "summary": "This document presents a collection of frequently asked programming questions related to algorithms, data structures, and problem-solving on platforms like LeetCode and HackerRank. The questions cover topics such as arrays, strings, linked lists, binary trees, and dynamic programming, with solutions provided in Java, Python, and C++. The document is intended for programmers with an intermediate to advanced level of experience in algorithmic problem-solving.",
     "keywords": [
       "algorithms",
       "data structures",
       "programming questions",
-      "software development",
-      "computer science"
+      "LeetCode",
+      "HackerRank"
     ],
     "key_concepts": [
-      "Discusses various algorithmic problems such as Two Sum, Longest Substring Without Repeating Characters, Median of Two Sorted Arrays, and Longest Palindromic Substring.",
-      "Provides solutions to common data structure-related questions like ZigZag Conversion, String to Integer (atoi), Container With Most Water, Longest Common Prefix, Remove Nth Node From End of List, Merge k Sorted Lists, and Swap Nodes in Pairs.",
-      "Offers explanations for more complex problems like First Missing Positive, Permutations, Pow(x, n), N-Queens, Maximum Subarray, Spiral Matrix, Jump Game, and Binary Tree Inorder Traversal.",
-      "Covers theoretical concepts like dynamic programming, recursion, and binary search.",
-      "Provides practical applications of the discussed algorithms and data structures in real-world problem-solving scenarios."
+      "The document presents a collection of frequently asked programming questions on platforms like LeetCode and HackerRank",
+      "The questions cover topics such as arrays, strings, linked lists, binary trees, and dynamic programming",
+      "Solutions are provided in Java, Python, and C++ for the presented problems",
+      "The document is intended for programmers with an intermediate to advanced level of experience in algorithmic problem-solving"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses a list of frequently asked programming questions related to algorithms and data structures."
+    "content_preview": "Collection of frequently asked programming questions on LeetCode and HackerRank",
+    "target_audience": "Programmers with an intermediate to advanced level of experience in algorithmic problem-solving",
+    "industry": [
+      "Technology"
+    ],
+    "business_functions": [
+      "Software Development",
+      "Algorithm Design"
+    ],
+    "companies": [],
+    "technologies": [
+      "Java",
+      "Python",
+      "C++"
+    ],
+    "processes": [
+      "Algorithmic Problem Solving"
+    ],
+    "technical_terms": [
+      "Arrays",
+      "Strings",
+      "Linked Lists",
+      "Binary Trees",
+      "Dynamic Programming"
+    ],
+    "methodologies": [
+      "Divide and Conquer",
+      "Greedy Algorithm",
+      "Backtracking",
+      "Recursion"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Intermediate to advanced level of programming experience"
+    ],
+    "learning_objectives": [
+      "Solve programming problems related to algorithms and data structures",
+      "Improve problem-solving skills in a competitive coding environment"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "6f321874c27b71395074431ceb0046ce",
