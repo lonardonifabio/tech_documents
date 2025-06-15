@@ -15586,22 +15586,27 @@
   {
     "id": "ea162c1e8fb15994bd2a8f79a600289b",
     "filename": "Machine_Learning_Plus_1623066146.pdf",
-    "title": "Machine Learning Plus",
+    "title": "The Building Blocks of Machine Learning",
     "authors": [],
     "filepath": "documents/Machine_Learning_Plus_1623066146.pdf",
-    "upload_date": "2025-06-03T17:53:41.715098",
+    "upload_date": "2025-06-14T22:31:40.936620",
     "file_size": 1135109,
-    "summary": "This book covers the building blocks of the most common methods in machine learning, serving as a toolbox for machine learning engineers. It aims to provide derivations from scratch, both in theory and code.",
+    "summary": "This book covers the most common methods in machine learning, serving as a toolbox for machine learning engineers. It aims to provide derivations of these methods from both theory and code. Each chapter focuses on a single machine learning method or group of methods within the ML toolbox.",
     "keywords": [
       "Machine Learning",
+      "Methods",
       "Toolbox",
-      "Derivation",
-      "Theory",
-      "Code"
+      "Derivation"
+    ],
+    "key_concepts": [
+      "The book provides a comprehensive set of methods in machine learning, acting as a toolbox for engineers.",
+      "Each chapter corresponds to a single machine learning method or group of methods within the ML toolbox.",
+      "The best way to become comfortable with these methods is to see their derivations, both in theory and code.",
+      "The purpose of this book is to provide these derivations."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This book covers the building blocks of the most common methods in machine learning..."
+    "content_preview": "This book covers the most common methods in machine learning."
   },
   {
     "id": "7c5ed2e6b6003940ce741bb76d36edb3",
