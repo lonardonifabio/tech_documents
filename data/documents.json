@@ -15339,29 +15339,68 @@
   {
     "id": "a7b7ca43b590fc3e931da0de593c7e44",
     "filename": "Linear_Regression_1567266618.pdf",
-    "title": "CS 60050 Machine Learning Linear Regression",
+    "title": "Linear Regression: Predicting House Prices",
     "authors": [],
     "filepath": "documents/Linear_Regression_1567266618.pdf",
-    "upload_date": "2025-06-13T22:59:44.110923",
+    "upload_date": "2025-06-15T16:03:28.485586",
     "file_size": 2628008,
-    "summary": "This document provides an overview of linear regression as a machine learning technique, using a dataset of house prices and living areas in a city for illustration. The document is based on slides from Andrew Ng's course materials. It explains how to use this supervised learning problem as a regression problem when the target variable is continuous. The practical application is predicting the prices of houses of different sizes in the city, given their living area.",
+    "summary": "This document provides an overview of Linear Regression, a machine learning technique used for predicting continuous target variables such as house prices based on given features like living area. The content is derived from CS 60050 Machine Learning course materials by Andrew Ng. The document explains the concept, methodology, and application of linear regression using a dataset of house prices and their living areas in a city, serving as an example of supervised learning problems.",
     "keywords": [
       "Linear Regression",
       "Machine Learning",
-      "Supervised Learning",
-      "Regression Problem",
-      "House Prices"
+      "House Prices",
+      "Living Area",
+      "Supervised Learning"
     ],
     "key_concepts": [
-      "Linear regression is a statistical method used in machine learning to predict a continuous target variable based on one or more input variables.",
-      "The document uses a dataset of house prices and living areas as an example to illustrate the concept of linear regression.",
-      "This problem is a supervised learning problem, where the goal is to learn a function that maps the input (living area) to the output (house price).",
-      "When the target variable is continuous, it is considered a regression problem.",
-      "The practical application of this technique is predicting house prices based on their living areas."
+      "Linear Regression is a machine learning technique used for predicting continuous target variables based on given features.",
+      "The document uses a dataset of house prices and their living areas in a city to demonstrate the application of Linear Regression.",
+      "This example illustrates a supervised learning problem, where the target variable being predicted (house price) is continuous.",
+      "The theoretical framework for this document lies in the principles of machine learning and statistical modeling."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Linear regression example using house prices and living areas."
+    "content_preview": "Overview of Linear Regression using house prices and living areas.",
+    "target_audience": "Data scientists, machine learning enthusiasts, and students studying machine learning.",
+    "industry": [
+      "Real Estate"
+    ],
+    "business_functions": [
+      "Data Analysis",
+      "Predictive Modeling"
+    ],
+    "companies": [],
+    "technologies": [
+      "Linear Regression"
+    ],
+    "processes": [
+      "Supervised Learning"
+    ],
+    "technical_terms": [
+      "Linear Regression",
+      "Target Variable",
+      "Continuous Target Variables",
+      "Supervised Learning"
+    ],
+    "methodologies": [
+      "Statistical Modeling",
+      "Machine Learning"
+    ],
+    "tools_mentioned": [
+      "CS 60050 Machine Learning Course Materials"
+    ],
+    "prerequisites": [
+      "Basic understanding of machine learning and statistical modeling"
+    ],
+    "learning_objectives": [
+      "Understand the concept of Linear Regression and its application in predicting continuous target variables.",
+      "Learn how to apply Linear Regression using a dataset."
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "fdef873ae7576dfd140993f6b39300f8",
