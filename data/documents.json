@@ -3929,26 +3929,60 @@
     "title": "OWASP Top 10 for LLMs - GenAI Red Teaming Guide: Agentic AI - Threats and Mitigations",
     "authors": [],
     "filepath": "documents/Agentic_AI_Threats_1743591360.pdf",
-    "upload_date": "2025-06-13T22:59:38.151896",
+    "upload_date": "2025-06-15T14:50:16.770314",
     "file_size": 2206672,
-    "summary": "This document, licensed under Creative Commons CC BY-SA 4.0, provides a guide on the OWASP Top 10 threats for Language Learning Models (LLMs) and Generative AI (GenAI). It discusses agentic AI, its reference architecture, and potential security risks, along with mitigation strategies. The guide is intended to aid in red teaming activities.",
+    "summary": "This document, released in February 2025, presents the OWASP Top 10 threats to Language Learning Models (LLMs) and Generative AI (GenAI). It introduces the concept of Agentic AI, detailing its reference architecture. The guide aims to help organizations secure their AI systems by identifying potential risks and providing mitigation strategies.",
     "keywords": [
       "OWASP",
       "Top 10",
-      "LLM",
+      "LLMs",
       "Generative AI",
       "Agentic AI"
     ],
     "key_concepts": [
-      "The document presents the OWASP Top 10 threats specifically for Language Learning Models (LLMs) and Generative AI (GenAI).",
-      "It introduces Agentic AI, a type of AI that exhibits autonomous behavior and decision-making capabilities.",
-      "The guide provides an Agentic AI Reference Architecture to help understand the system's structure and potential vulnerabilities.",
-      "It discusses various threats and their mitigation strategies for Agentic AI systems in red teaming activities.",
-      "The document emphasizes the importance of security considerations when working with advanced AI technologies like Agentic AI."
+      "The document outlines the OWASP Top 10 threats specific to Language Learning Models (LLMs) and Generative AI (GenAI).",
+      "It introduces the concept of Agentic AI, a type of AI that can act autonomously and make decisions based on its environment.",
+      "The guide provides a reference architecture for Agentic AI, detailing its components and interactions.",
+      "The document aims to help organizations secure their AI systems by identifying potential risks and providing mitigation strategies.",
+      "The guide is part of the OWASP Agentic Security Initiative."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Guide on OWASP Top 10 threats for LLMs and GenAI, focusing on Agentic AI security."
+    "content_preview": "This document presents the OWASP Top 10 threats to LLMs and GenAI, introduces Agentic AI, and provides a reference architecture.",
+    "target_audience": "Cybersecurity professionals, AI developers, and organizations implementing AI systems.",
+    "industry": [
+      "Technology",
+      "Cybersecurity"
+    ],
+    "business_functions": [
+      "AI Development",
+      "Cybersecurity"
+    ],
+    "companies": [],
+    "technologies": [
+      "Language Learning Models (LLMs)",
+      "Generative AI (GenAI)"
+    ],
+    "processes": [
+      "AI Security",
+      "Red Teaming"
+    ],
+    "technical_terms": [
+      "OWASP Top 10",
+      "Agentic AI",
+      "Reference Architecture"
+    ],
+    "methodologies": [
+      "Red Teaming"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [],
+    "learning_objectives": [],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "4bdbe8df913a44d68be7ec24569a74e4",
