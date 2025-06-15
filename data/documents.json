@@ -1765,26 +1765,78 @@
     "title": "AI Governance Map",
     "authors": [],
     "filepath": "documents/AI_Governance_Map_1740426701.pdf",
-    "upload_date": "2025-06-13T22:59:36.931891",
+    "upload_date": "2025-06-15T16:03:21.180541",
     "file_size": 3140896,
-    "summary": "This document presents a practical, real-world framework for AI governance, mapping six key control sources into executive commitment, risk management, regulatory compliance, data governance, security, human oversight, privacy, and internal assessment. It covers GL-1 to PR-4, SE-1 to SE-6, RS-1 to RS-5, and AA-1 to AA-3.",
+    "summary": "This document presents a practical, real-world framework for AI governance, mapping six key control sources into one comprehensive structure. It covers executive commitment and accountability, risk management, regulatory compliance, data quality and governance, security, human oversight, privacy, and internal assessment. The framework is designed to help organizations navigate the complexities of AI governance.",
     "keywords": [
       "AI Governance",
       "Framework",
-      "Control Sources",
-      "Executive Commitment",
-      "Risk Management"
+      "Risk Management",
+      "Regulatory Compliance",
+      "Data Quality"
     ],
     "key_concepts": [
-      "The document provides a comprehensive framework for AI governance, integrating six key control sources into a practical structure.",
-      "GL-1 to PR-4, SE-1 to SE-6, RS-1 to RS-5, and AA-1 to AA-3 are the main components of this AI governance framework.",
-      "The framework covers executive commitment, risk management, regulatory compliance, data governance, security, human oversight, privacy, and internal assessment.",
-      "The document is structured around six key control sources: GL-1 Executive Commitment and Accountability, RM-1 Risk Management Framework and Governance, RO-1 Regulatory Compliance Framework, LC-1 Data Quality and Governance, SE-1 Security Governance, Architecture and Engineering, and RS-1 Human Oversight and Intervention.",
-      "The framework is designed to help organizations navigate the complex landscape of AI governance by providing a practical, real-world structure."
+      "The document presents a practical, real-world framework for AI governance.",
+      "It maps six key control sources into one comprehensive structure.",
+      "The framework covers executive commitment and accountability, risk management, regulatory compliance, data quality and governance, security, human oversight, privacy, and internal assessment.",
+      "The document is designed to help organizations navigate the complexities of AI governance."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "A practical, real-world framework for AI governance is presented, integrating six key control sources into a comprehensive structure."
+    "content_preview": "Practical framework for AI governance.",
+    "target_audience": "Organizations looking to implement effective AI governance.",
+    "industry": [
+      "Technology",
+      "AI"
+    ],
+    "business_functions": [
+      "Governance",
+      "Risk Management",
+      "Compliance",
+      "Data Management",
+      "Security"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "RMF",
+      "ISO27701",
+      "NIST",
+      "ISO42001",
+      "ISO27001",
+      "EU AI Act"
+    ],
+    "processes": [
+      "Executive Commitment and Accountability",
+      "Risk Management Framework",
+      "Regulatory Compliance",
+      "Data Quality and Governance",
+      "Security Governance",
+      "Human Oversight",
+      "Privacy"
+    ],
+    "technical_terms": [
+      "GL",
+      "RM",
+      "RO",
+      "LC",
+      "SE",
+      "RS",
+      "PR",
+      "AA",
+      "OM"
+    ],
+    "methodologies": [
+      "Framework Development"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [],
+    "learning_objectives": [],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "a798f36089c0dd52214a5ca40099d638",
