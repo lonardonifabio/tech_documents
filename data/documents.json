@@ -26036,12 +26036,12 @@
   {
     "id": "ea35afdf73aadd74603e534accbdaa29",
     "filename": "Web_Scraping_1705191820.pdf",
-    "title": "Web Scraping Tutorial",
+    "title": "Python Web Scraping Tutorial",
     "authors": [],
     "filepath": "documents/Web_Scraping_1705191820.pdf",
-    "upload_date": "2025-06-03T17:53:44.347148",
+    "upload_date": "2025-06-14T22:31:46.242629",
     "file_size": 919850,
-    "summary": "Learn web scraping concepts using Python, suitable for both beginners and advanced learners. Prerequisites include basic knowledge of HTML, CSS, JavaScript, and Python programming.",
+    "summary": "This document provides a comprehensive guide on web scraping using Python, covering various concepts, prerequisites, and audience suitability. It is useful for graduates, post-graduates, and research students who have basic knowledge of HTML, CSS, JavaScript, and Python programming concepts. The tutorial teaches the process of constructing an agent to extract, parse, download, and organize useful information from websites automatically.",
     "keywords": [
       "Python",
       "Web Scraping",
@@ -26049,9 +26049,16 @@
       "HTML",
       "CSS"
     ],
+    "key_concepts": [
+      "Web scraping is the process of constructing an agent to extract, parse, download, and organize useful information from websites automatically.",
+      "The tutorial covers various concepts of web scraping and makes the reader comfortable with scraping different types of websites and their data.",
+      "Prerequisites for this tutorial include basic knowledge about HTML, CSS, JavaScript, and Python programming concepts.",
+      "The tutorial is useful for graduates, post-graduates, and research students who either have an interest in this subject or have it as a part of their curriculum.",
+      "This tutorial suits the learning needs of both beginners and advanced learners."
+    ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn web scraping concepts using Python..."
+    "content_preview": "Learn web scraping using Python in this comprehensive tutorial. Prerequisites include basic knowledge about HTML, CSS, JavaScript, and Python programming concepts."
   },
   {
     "id": "8e4891f5ed504ce6b393421febb44f67",
