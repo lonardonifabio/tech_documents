@@ -7610,9 +7610,9 @@
     "title": "Data Science Interview Questions",
     "authors": [],
     "filepath": "documents/Data_Science_Interview_1567264324.pdf",
-    "upload_date": "2025-06-03T22:07:03.979524",
+    "upload_date": "2025-06-15T08:34:59.838535",
     "file_size": 3707206,
-    "summary": "This document provides frequently asked data science interview questions covering various topics such as linear regression, factor analysis, cluster analysis, SQL scripting, graph drawing, explaining complex concepts to non-technical people, model improvement, and root cause analysis.",
+    "summary": "This document provides a comprehensive list of frequently asked questions during data science interviews, covering various topics such as linear regression assumptions, factor analysis vs cluster analysis, SQL scripting, graph drawing for pay-per-click ads and ticket purchases, explaining Random Forest to non-technical individuals, proving model improvements, and root cause analysis.",
     "keywords": [
       "Data Science",
       "Interview Questions",
@@ -7620,9 +7620,16 @@
       "Factor Analysis",
       "Cluster Analysis"
     ],
+    "key_concepts": [
+      "Data science is an interdisciplinary field that covers various topics in the interview.",
+      "Linear regression assumes independence, linearity, homoscedasticity, and normality of errors.",
+      "Factor analysis and cluster analysis are techniques used for data reduction and exploration respectively.",
+      "An iterator generator is a function that produces a sequence of values one at a time.",
+      "SQL scripting is used to manipulate and query databases."
+    ],
     "category": "Data Science",
-    "difficulty": "Advanced",
-    "content_preview": "FAQ at interviews ... The problem:"
+    "difficulty": "Intermediate",
+    "content_preview": "Frequently asked data science interview questions covering various topics."
   },
   {
     "id": "f099a39229c00507a289cb1fc55cf9ff",
