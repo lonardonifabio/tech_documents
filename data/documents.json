@@ -13463,22 +13463,29 @@
   {
     "id": "3ef2ba74d7e0d9b40bbe9884ae12c524",
     "filename": "LSTM_1711023252.pdf",
-    "title": "LSTM Analysis on Spam Email Dataset",
+    "title": "LSTM Model for SMS Spam Detection",
     "authors": [],
     "filepath": "documents/LSTM_1711023252.pdf",
-    "upload_date": "2025-06-03T22:07:05.509536",
+    "upload_date": "2025-06-14T22:31:39.631617",
     "file_size": 191282,
-    "summary": "This document is a Python script using Keras and Scikit-learn libraries to perform LSTM (Long Short Term Memory) analysis on a spam email dataset. The goal is to classify emails as either 'spam' or 'ham'.",
+    "summary": "This document provides a step-by-step guide on building an LSTM model using Keras to classify SMS messages as spam or ham. The data is obtained from the Kaggle Spam dataset, and preprocessing involves tokenization, encoding, and splitting the data into training and testing sets. The LSTM model architecture includes layers such as Embedding, LSTM, Dense, Activation, Dropout, and Input. The RMSprop optimizer is used for optimization, and EarlyStopping callback is employed to prevent overfitting.",
     "keywords": [
       "LSTM",
       "Keras",
-      "Scikit-learn",
-      "Spam Email Dataset",
+      "SMS Spam Detection",
+      "Data Preprocessing",
       "Machine Learning"
+    ],
+    "key_concepts": [
+      "The document demonstrates the use of an LSTM model for text classification, specifically SMS spam detection.",
+      "It explains how to preprocess the data using Keras' Tokenizer and LabelEncoder functions, as well as splitting the data into training and testing sets.",
+      "The LSTM model architecture is detailed, including layers such as Embedding, LSTM, Dense, Activation, Dropout, and Input.",
+      "It discusses the use of the RMSprop optimizer for optimization and EarlyStopping callback to prevent overfitting.",
+      "The theoretical framework used in this document is based on deep learning and text classification."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "import pandas as pd\nimport numpy as np\n..."
+    "content_preview": "This document demonstrates building an LSTM model for SMS spam detection using Keras."
   },
   {
     "id": "06ed2b832a15536240c02374a44f9018",
