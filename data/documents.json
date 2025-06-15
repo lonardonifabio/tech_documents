@@ -21820,26 +21820,64 @@
       "Carlos Fernandez-Granda"
     ],
     "filepath": "documents/Probability_Stats_for_Data_Science_1634194227.pdf",
-    "upload_date": "2025-06-13T22:59:47.260936",
+    "upload_date": "2025-06-15T16:03:31.670606",
     "file_size": 5271166,
-    "summary": "This document provides an overview of fundamental concepts in probability and statistics from first principles, aimed at students taking the course Probability and Statistics for Data Science. It covers topics such as probability spaces, conditional probability, independence, random variables, functions of random variables, and more.",
+    "summary": "This document provides an overview of fundamental concepts in probability and statistics from first principles, targeting students enrolled in the Probability and Statistics for Data Science course at NYU. The content covers topics such as probability spaces, conditional probability, independence, random variables, functions of random variables, and more.",
     "keywords": [
       "Probability",
       "Statistics",
       "Data Science",
-      "Random Variables",
-      "Conditional Probability"
+      "NYU",
+      "Center for Data Science"
     ],
     "key_concepts": [
-      "These notes were developed for the course Probability and Statistics for Data Science at NYU, with a goal to provide an overview of fundamental concepts in probability and statistics.",
-      "The document covers topics such as probability spaces, conditional probability, independence, random variables, functions of random variables, and more from first principles.",
-      "The content is intended for students taking the course Probability and Statistics for Data Science at the Center for Data Science in NYU.",
-      "The document was supported by the National Science Foundation under NSF award DMS-1616340.",
-      "While writing these notes, the author was supported by Levent Sagun, Vlad Kobzar, Brett Bernstein, and David Rosenberg."
+      "These notes were developed for the course Probability and Statistics for Data Science at NYU.",
+      "The goal is to provide an overview of fundamental concepts in probability and statistics from first principles.",
+      "While writing these notes, I was supported by the National Science Foundation under NSF award DMS-1616340.",
+      "The content covers topics such as probability spaces, conditional probability, independence, random variables, functions of random variables, and more."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Overview of fundamental concepts in probability and statistics for Data Science students."
+    "content_preview": "Overview of fundamental concepts in probability and statistics for Data Science.",
+    "target_audience": "Students enrolled in the Probability and Statistics for Data Science course at NYU",
+    "industry": [
+      "Education",
+      "Data Science"
+    ],
+    "business_functions": [
+      "Data Analysis",
+      "Statistical Modeling"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Statistical Analysis"
+    ],
+    "technical_terms": [
+      "Probability Spaces",
+      "Conditional Probability",
+      "Independence",
+      "Random Variables"
+    ],
+    "methodologies": [
+      "Statistical Methods"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic Mathematics and Statistics Knowledge"
+    ],
+    "learning_objectives": [
+      "Understand fundamental concepts in probability and statistics for Data Science."
+    ],
+    "use_cases": [
+      "Applying statistical methods to data analysis in various industries."
+    ],
+    "benefits_mentioned": [
+      "Providing an overview of key concepts in probability and statistics, essential for Data Science."
+    ],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "02453f2ebbcc8963d926f94e5aec8d32",
