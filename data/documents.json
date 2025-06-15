@@ -26829,22 +26829,28 @@
   {
     "id": "41853d5f5394b2e0afc35961f0183ee5",
     "filename": "all_in_one_1639904092.pdf",
-    "title": "ML Advancements Survey",
+    "title": "Advancements in Machine Learning: A Comprehensive Survey",
     "authors": [],
     "filepath": "documents/all_in_one_1639904092.pdf",
-    "upload_date": "2025-06-03T22:07:08.945564",
+    "upload_date": "2025-06-14T22:31:46.569629",
     "file_size": 237274,
-    "summary": "This document provides a comprehensive survey of Machine Learning (ML) advancements, covering topics such as data quality, engineering, discovery, classification, regression, forecasting, recommendation, search & ranking, embeddings, natural language processing, sequence modeling, computer vision, reinforcement learning, anomaly detection, graph...",
+    "summary": "This document provides an extensive overview of various aspects of Machine Learning (ML), including data quality, data engineering, data discovery, classification, regression, forecasting, recommendation systems, natural language processing, sequence modeling, computer vision, reinforcement learning, anomaly detection, graph, optimization, information extraction, weak supervision, generation, validation and A/B testing, model management, efficiency, ethics, practices, fails, and more. Key topics include monitoring data quality at scale with statistical modeling by Uber, automating large-scale data quality verification by Amazon, Zipline: Airbnb’s ML data management platform, Feast: an ope...",
     "keywords": [
       "Machine Learning",
-      "Advancements",
       "Data Quality",
       "Data Engineering",
-      "Data Discovery"
+      "Data Discovery",
+      "Classification"
+    ],
+    "key_concepts": [
+      "Monitoring data quality at scale with statistical modeling is crucial for ensuring the reliability of ML systems, as demonstrated by Uber.",
+      "Automating large-scale data quality verification is a key aspect of maintaining high-quality datasets in production ML environments, as shown by Amazon's approach.",
+      "Zipline and Feast are essential tools for managing and storing data used in machine learning models, as demonstrated by Airbnb and Gojek respectively.",
+      "Amundsen is a powerful system for data discovery and exploration, helping to streamline the process of finding and understanding relevant datasets, as demonstrated by Lyft."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "P.S., W ant a summary of ML advancements? 👉ml-surveys"
+    "content_preview": "Document: Advancements in Machine Learning: A Comprehensive Survey"
   },
   {
     "id": "7a09dedcebb3436c2d10b5177b3f2efc",
