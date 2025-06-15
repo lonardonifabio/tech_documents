@@ -22555,22 +22555,29 @@
   {
     "id": "771db36b568a863df817eb65b1e95d54",
     "filename": "SQL_Guide__1641285345.pdf",
-    "title": "SQL Guide",
+    "title": "SQL Guide for Beginners",
     "authors": [],
     "filepath": "documents/SQL_Guide__1641285345.pdf",
-    "upload_date": "2025-06-03T17:53:43.542133",
+    "upload_date": "2025-06-15T08:35:07.396556",
     "file_size": 526134,
-    "summary": "A comprehensive guide on SQL, its uses, benefits, and how to download and install Microsoft SSMS for practice. The guide also covers understanding tables in a database.",
+    "summary": "This guide introduces SQL, a widely-used language for managing and manipulating databases. It provides step-by-step instructions on how to download and install Microsoft SSMS (SQL Server Management Studio) and a free database for practice (Northwind). The document covers the basics of tables, rows, columns, relationships, and technical terms in SQL.",
     "keywords": [
       "SQL",
-      "Guide",
       "Database",
+      "Management Studio",
       "SSMS",
-      "Tables"
+      "Northwind"
+    ],
+    "key_concepts": [
+      "Learning SQL is simple and beneficial due to its wide usage and transferable skills.",
+      "This guide explains how to download and install Microsoft SSMS for free.",
+      "The document provides instructions on how to get a free database (Northwind) for practice.",
+      "It introduces the concepts of tables, rows, columns, relationships, and technical terms in SQL.",
+      "The theoretical framework is based on understanding the structure and manipulation of databases using SQL."
     ],
     "category": "Data Science",
-    "difficulty": "Intermediate",
-    "content_preview": "Table of Contents, Answers, Table of Contents, Copyright, Disclaimer, Introduction – SQL - Why you should learn it"
+    "difficulty": "Beginner",
+    "content_preview": "Learn SQL with this beginner's guide, download free SSMS and a practice database (Northwind)."
   },
   {
     "id": "157d316ac5eba4db62349a03ce35c016",
