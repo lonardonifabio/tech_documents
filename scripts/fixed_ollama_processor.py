@@ -190,7 +190,7 @@ class MultiPassAnalyzer:
             "basic_info": """
 Analyze this document excerpt and extract basic information.
 Respond with valid JSON only:
-{{"title": "document title or main topic", "summary": "brief 2-3 sentence summary", "category": "document category (AI, Machine Learning, Data Science, Analytics, Business, Technology, Research)"}}
+{{"title": "document title or main topic", "summary": "summary with around 800 characters", "category": "document category (AI, Machine Learning, Data Science, Analytics, Business, Technology, Research)"}}
 
 Document excerpt:
 {content}
@@ -199,7 +199,7 @@ Document excerpt:
             "keywords": """
 Extract keywords and key concepts from this document excerpt.
 Respond with valid JSON only:
-{{"keywords": ["keyword1", "keyword2", "keyword3"], "key_concepts": ["concept1", "concept2", "concept3"]}}
+{{"keywords": ["keyword1", "keyword2", "keyword3"], "key_concepts": ["A sentence expressing a concept1", "A sentence expressing a concept2", "A sentence expressing a concept3"]}}
 
 Document excerpt:
 {content}
