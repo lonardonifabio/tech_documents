@@ -25418,22 +25418,27 @@
   {
     "id": "df23ce136756250189b726fce9f42ad3",
     "filename": "Types_of_Machine_Learning_Algorithms_1627454712 (1).pdf",
-    "title": "Types of Machine Learning Algorithms",
+    "title": "Types of Machine Learning Algorithms You Should Know",
     "authors": [],
     "filepath": "documents/Types_of_Machine_Learning_Algorithms_1627454712 (1).pdf",
-    "upload_date": "2025-06-03T17:53:44.262147",
+    "upload_date": "2025-06-14T22:31:45.890629",
     "file_size": 1348222,
-    "summary": "Learn about the three main types of machine learning algorithms: Supervised, Unsupervised, and Reinforcement. This document provides a brief overview of common algorithms within each category.",
+    "summary": "This document provides an overview of the three main categories of machine learning algorithms: supervised learning, unsupervised learning, and reinforcement learning. It discusses common algorithms within each category such as Nearest Neighbor, Naive Bayes, Decision Trees, Linear Regression, Support Vector Machines (SVM), Neural Networks for supervised learning. The document is useful for data science professionals seeking to expand their knowledge of machine learning.",
     "keywords": [
       "Machine Learning",
-      "Algorithms",
       "Supervised Learning",
       "Unsupervised Learning",
-      "Reinforcement Learning"
+      "Reinforcement Learning",
+      "Nearest Neighbor"
+    ],
+    "key_concepts": [
+      "Supervised learning is a type of machine learning where human experts act as teachers, feeding the computer with training data containing input/predictors and showing it the correct answers.",
+      "Common algorithms for supervised learning include Nearest Neighbor, Naive Bayes, Decision Trees, Linear Regression, Support Vector Machines (SVM), and Neural Networks.",
+      "Unsupervised learning is a type of machine learning where the computer learns patterns from unlabeled data without any human intervention."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "TYPES OF MACHINE LEARNING ALGORITHMS"
+    "content_preview": "Overview of machine learning algorithms: supervised, unsupervised, reinforcement."
   },
   {
     "id": "b3d96f3a3f3e508caf0072ad3a9affb3",
