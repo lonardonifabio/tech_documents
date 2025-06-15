@@ -10088,19 +10088,25 @@
       "Wagner Meira Jr."
     ],
     "filepath": "documents/Fundamentals_of_Data_Analysis_1610184409.pdf",
-    "upload_date": "2025-06-03T22:07:04.785530",
+    "upload_date": "2025-06-14T22:31:37.824619",
     "file_size": 137882,
-    "summary": "This book provides a comprehensive introduction to data mining concepts and algorithms, written by Mohammed J. Zaki from Rensselaer Polytechnic Institute and Wagner Meira Jr. from Universidade Federal de Minas Gerais.",
+    "summary": "This book provides a comprehensive introduction to data mining, covering fundamental concepts, algorithms, and applications. It is written by Mohammed J. Zaki from Rensselaer Polytechnic Institute and Wagner Meira Jr. from Universidade Federal de Minas Gerais. The book is divided into several sections, including preliminaries, data mining models, data mining techniques, and advanced topics in data mining. It also includes case studies and practical examples to illustrate the concepts discussed. The book is suitable for both beginners and more advanced readers interested in data mining.",
     "keywords": [
       "Data Mining",
       "Algorithms",
-      "Concepts",
-      "Mohammed J. Zaki",
-      "Wagner Meira Jr."
+      "Fundamental Concepts",
+      "Case Studies"
+    ],
+    "key_concepts": [
+      "The book covers fundamental concepts of data mining, including preprocessing, data modeling, and evaluation.",
+      "It introduces various algorithms used in data mining, such as clustering, classification, association rule mining, and sequence mining.",
+      "The book includes case studies and practical examples to illustrate the concepts discussed and demonstrate their application in real-world scenarios.",
+      "The theoretical framework of the book is based on statistical learning theory, machine learning, and database systems.",
+      "The book provides practical implications for data mining, including its use in business intelligence, market research, and fraud detection."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "DATA MINING AND ANALYSIS Fundamental Concepts and Algorithms"
+    "content_preview": "This book provides a comprehensive introduction to data mining, covering fundamental concepts and algorithms."
   },
   {
     "id": "5893c3606ecb35a41429e66c7006f298",
