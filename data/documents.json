@@ -3977,19 +3977,24 @@
     "title": "Algorithms Notes for Professionals",
     "authors": [],
     "filepath": "documents/Algorithms_Notes_for_Professionals_1630696066.pdf",
-    "upload_date": "2025-06-03T17:53:38.171064",
+    "upload_date": "2025-06-14T22:31:33.957620",
     "file_size": 2590808,
-    "summary": "A free, unofficial book offering over 200 pages of professional hints and tricks on algorithms, including a sample problem and an introduction to the Fizz Buzz Algorithm in Swift. Covers algorithm complexity with Big-Theta notation and comparison of asymptotic notations.",
+    "summary": "This document provides over 200 pages of professional hints and tricks on algorithms, starting with a sample algorithmic problem and getting started with the Simple Fizz Buzz Algorithm in Swift. It also covers algorithm complexity using Big-Theta notation and comparison of asymptotic notations.",
     "keywords": [
       "Algorithms",
-      "Programming",
       "Swift",
-      "Big-Theta Notation",
-      "Asymptotic Notations"
+      "Big-Theta Notation"
+    ],
+    "key_concepts": [
+      "This document offers a collection of professional tips and tricks on algorithms, aimed at professionals.",
+      "The document begins with a sample algorithmic problem to help readers understand the concept.",
+      "It provides a step-by-step guide on getting started with the Simple Fizz Buzz Algorithm in Swift.",
+      "The document delves into the concept of Big-Theta notation, a mathematical notation used to describe the upper bound of an algorithm's time complexity.",
+      "It also compares different asymptotic notations to help readers understand their differences and applications."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Free Programming BooksDisclaimer This is an unofficial free book created for educational purposes and is not a..."
+    "content_preview": "Over 200 pages of professional hints and tricks on algorithms."
   },
   {
     "id": "20ef89441907ddcf2cea1b83954f761b",
