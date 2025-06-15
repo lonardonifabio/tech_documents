@@ -23440,19 +23440,26 @@
     "title": "The data table R Package Cheat Sheet",
     "authors": [],
     "filepath": "documents/The data table R Package Cheat Sheet.pdf",
-    "upload_date": "2025-06-05T20:14:27.768849",
+    "upload_date": "2025-06-14T22:31:45.009628",
     "file_size": 5448330,
-    "summary": "This document provides a cheat sheet for the 'data.table' R package, which offers high-performance data manipulation and analysis functions. It includes examples of subsetting rows using indexing and grouping by columns, as well as calculating summary statistics.",
+    "summary": "This document provides a comprehensive guide to the 'data.table' package in R, which offers high-performance data manipulation and analysis functions. It covers topics such as loading the package, setting seeds, creating and modifying data tables, and performing various operations like subsetting rows using grouping by columns, chaining commands, and calculating summary statistics.",
     "keywords": [
       "R",
-      "Data Analysis",
-      "Data Manipulation",
-      "Cheat Sheet",
-      "data.table"
+      "data.table",
+      "data manipulation",
+      "data analysis",
+      "high performance"
+    ],
+    "key_concepts": [
+      "The 'data.table' package in R provides a high-performance version of base R’s data frame with syntax and feature enhancements for ease of use, convenience, and programming speed.",
+      "Subsetting rows using various methods such as indexing, manipulating on columns, doing by group, and chaining commands.",
+      "Performing advanced data table operations like calculating summary statistics, aggregating data, and finding standard deviation.",
+      "Understanding the general syntax for taking a data table (DT), subsetting rows using i, and performing calculations j by.",
+      "Loading the package using 'library(data.table)' and setting seeds to ensure reproducibility."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Creating A data table using i>Manipulating on Columns in j>Doing by Group"
+    "content_preview": "Guide to high-performance data manipulation in R using the 'data.table' package."
   },
   {
     "id": "e87bb604ebead42a7ba4a6e17d80a567",
