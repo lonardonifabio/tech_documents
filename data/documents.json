@@ -30097,9 +30097,9 @@
     "title": "SQL Cheat Sheet",
     "authors": [],
     "filepath": "documents/sql cheat sheet.pdf",
-    "upload_date": "2025-06-13T22:59:51.543955",
+    "upload_date": "2025-06-15T14:50:30.418342",
     "file_size": 230259,
-    "summary": "This document provides a comprehensive guide to SQL queries, covering various join types (inner, left, full outer, and self), aggregate functions, filtering, sorting, combining results, and pattern matching. It also includes examples for querying data from columns, tables, and using the WHERE clause with conditions, IN operator, and LIKE pattern.",
+    "summary": "This document provides a comprehensive guide to SQL queries, covering various join types (inner, left, right, full outer), aggregate functions, filtering, sorting, and set operations (union, intersect, minus). It also explains how to query data from tables, use pattern matching, and select rows based on value lists.",
     "keywords": [
       "SQL",
       "queries",
@@ -30108,15 +30108,60 @@
       "filter"
     ],
     "key_concepts": [
-      "Perform inner join between two tables using the INNER JOIN clause and specify a condition for matching rows.",
-      "Use the LEFT JOIN clause to join one table to another, returning all rows from the left table and matching rows from the right table if any.",
-      "Perform full outer join using the FULL OUTER JOIN clause to return all matching and non-matching rows from both tables.",
-      "Produce a Cartesian product of rows in tables using the CROSS JOIN clause.",
-      "Join a table to itself using the INNER JOIN or LEFT JOIN clause with an alias for each instance of the table."
+      "Explains the concept of SQL queries and their usage for retrieving data from tables.",
+      "Describes different types of joins (inner, left, right, full outer) and their applications.",
+      "Details how to use aggregate functions like COUNT(), SUM(), AVG(), MIN(), MAX() for grouping and calculating values.",
+      "Shows how to filter rows using conditions and the WHERE clause.",
+      "Illustrates sorting result sets in ascending or descending order."
     ],
     "category": "Data Science",
-    "difficulty": "Intermediate",
-    "content_preview": "Document: SQL Cheat Sheet"
+    "difficulty": "Beginner",
+    "content_preview": "Learn SQL queries with this cheat sheet.",
+    "target_audience": "Beginners and intermediate data analysts looking to understand SQL basics.",
+    "industry": [
+      "Data Analytics",
+      "IT Services"
+    ],
+    "business_functions": [
+      "Data Analysis",
+      "Database Management"
+    ],
+    "companies": [],
+    "technologies": [
+      "SQL"
+    ],
+    "processes": [
+      "Data Retrieval"
+    ],
+    "technical_terms": [
+      "JOIN",
+      "WHERE clause",
+      "AGGREGATE function",
+      "UNION",
+      "INTERSECT",
+      "MINUS"
+    ],
+    "methodologies": [
+      "SQL Querying Methodology"
+    ],
+    "tools_mentioned": [
+      "SQL"
+    ],
+    "prerequisites": [
+      "Basic understanding of databases and tables"
+    ],
+    "learning_objectives": [
+      "Understand SQL queries and their applications.",
+      "Learn different types of joins and their uses."
+    ],
+    "use_cases": [
+      "Analyzing data for business insights",
+      "Database management tasks"
+    ],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "3c59cf02594f4575b7d25542d47e9b13",
