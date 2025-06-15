@@ -9980,12 +9980,14 @@
   {
     "id": "c9a76068d655fffd10e4ee3cde455852",
     "filename": "From_Zero_to_Hero_with_Python_1567600716.pdf",
-    "title": "From Zero to Hero with Python",
-    "authors": [],
+    "title": "Learning Python: From Zero to Hero",
+    "authors": [
+      "TK"
+    ],
     "filepath": "documents/From_Zero_to_Hero_with_Python_1567600716.pdf",
-    "upload_date": "2025-06-03T22:07:04.776530",
+    "upload_date": "2025-06-14T22:31:37.815619",
     "file_size": 325365,
-    "summary": "This document introduces Python, a high-level programming language known for its readability and versatility in data science, web development, and machine learning. It covers the basics of variables, including integers, booleans, and strings.",
+    "summary": "This document provides an introduction to the Python programming language, emphasizing its readability and versatility in data science, web development, and machine learning. The author explains the basics of variables, integers, booleans, and other data types using simple examples.",
     "keywords": [
       "Python",
       "Programming",
@@ -9993,9 +9995,15 @@
       "Web Development",
       "Machine Learning"
     ],
+    "key_concepts": [
+      "Python is a high-level programming language designed for readability and expressing concepts in few lines of code.",
+      "Variables are used to store values in Python, making it easy to define and set values.",
+      "The document covers various data types such as integers, booleans, strings, and floats.",
+      "Python is widely used in industries like Quora, Pinterest, and Spotify for backend web development."
+    ],
     "category": "Technology",
     "difficulty": "Beginner",
-    "content_preview": "Learning Python: From Zero to Hero by TK. First of all, what is Python? According to its creator..."
+    "content_preview": "Learn Python basics with variables, integers, booleans, and other data types."
   },
   {
     "id": "faba59a3603ef7f6d1df7af892d81c6d",
