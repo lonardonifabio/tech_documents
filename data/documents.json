@@ -2,21 +2,28 @@
   {
     "id": "dc20fa1bf3e5917ffbd4688d8e36397a",
     "filename": "100_Days_of_Machine_Learning_1570648747.pdf",
-    "title": "100_Days_of_Machine_Learning",
+    "title": "100_Days_of_Machine_Learning_1570648747.pdf",
     "authors": [],
     "filepath": "documents/100_Days_of_Machine_Learning_1570648747.pdf",
-    "upload_date": "2025-06-02T17:58:11.427180",
+    "upload_date": "2025-06-14T22:31:31.671615",
     "file_size": 11610635,
-    "summary": "This document covers three types of regression models - Simple Linear Regression, Multiple Linear Regression, and Logistic Regression, over the course of days 2 to 4. Each day includes code snippets.",
+    "summary": "This document is a part of a 100-day series on Machine Learning, focusing on Regression models. It covers Simple Linear Regression (Day 2) and Multiple Linear Regression (Day 3), providing code examples for each. The series continues with Logistic Regression on Day 4. The document is useful for Intermediate level learners interested in Machine Learning.",
     "keywords": [
       "Machine Learning",
       "Regression",
-      "Code",
-      "100 Days"
+      "Simple Linear Regression",
+      "Multiple Linear Regression",
+      "Logistic Regression"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Simple Linear Regression is a statistical model used to analyze the relationship between two continuous variables.",
+      "Multiple Linear Regression extends Simple Linear Regression by allowing for more than one independent variable.",
+      "Logistic Regression is a classification algorithm used when the dependent variable is categorical.",
+      "The document provides code examples for implementing these regression models in Machine Learning."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Simple Linear Regression |  Day 2"
+    "content_preview": "Learn Regression models: Simple Linear, Multiple Linear, and Logistic. Code examples provided."
   },
   {
     "id": "8c24105595ada0885c2b8957435a244f",
