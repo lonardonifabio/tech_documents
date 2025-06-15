@@ -17523,18 +17523,24 @@
     "title": "Natural Language Pre-processing Steps in NLP",
     "authors": [],
     "filepath": "documents/NLP_1743590639.pdf",
-    "upload_date": "2025-06-05T20:14:24.910738",
+    "upload_date": "2025-06-14T22:31:42.033623",
     "file_size": 1639965,
-    "summary": "This document outlines 33 common pre-processing steps used before feeding data into an NLP model, including lowercasing, tokenization, removing punctuation and stopwords, stemming and lemmatization, handling contractions, removing special characters, part-of-speech tagging, named entity recognition, vectorization, handling missing data, normaliz...",
+    "summary": "This document discusses the 33 common pre-processing steps used before feeding data into an NLP model. These steps include lowercasing, tokenization, removing punctuation and stopwords, stemming and lemmatization, handling contractions and special characters, part-of-speech tagging, named entity recognition, vectorization, handling missing data, normalization, spelling correction, handling emojis and emoticons, removing HTML tags, handling URLs, mentions and hashtags, sentence segmentation, handling abbreviations, language detection, text encoding, handling whitespace tokens, handling dates and times, text augmentation, handling negations, dependency parsing, handling rare words, text chu...",
     "keywords": [
       "Natural Language Processing",
       "Pre-processing steps",
       "Text data analysis",
       "Machine learning models"
     ],
+    "key_concepts": [
+      "The pre-processing steps help improve the quality of text data for NLP analysis.",
+      "Common pre-processing steps include lowercasing, tokenization, removing punctuation and stopwords, stemming and lemmatization, handling contractions and special characters, part-of-speech tagging, named entity recognition, vectorization, handling missing data, normalization, spelling correction, handling emojis and emoticons, removing HTML tags, handling URLs, mentions and hashtags, sentence segmentation, handling abbreviations, language detection, text encoding, handling whitespace tokens, handling dates and times, text augmentation, handling negations, dependency parsing, handling rare words, text chunking, handling synonyms, and text normalization for social media.",
+      "The document provides explanations and example code for each pre-processing step.",
+      "These steps make it easier for algorithms to understand and process the text."
+    ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Natural Language Pre -processing (NLP) involves a series of pre -"
+    "content_preview": "This document discusses the 33 common pre-processing steps used before feeding data into an NLP model."
   },
   {
     "id": "417eb1103ce3a5f14de8991085102ba9",
