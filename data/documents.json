@@ -8784,18 +8784,25 @@
       "Suvash Sedhain"
     ],
     "filepath": "documents/Django__1658750070.pdf",
-    "upload_date": "2025-06-03T22:07:04.652529",
+    "upload_date": "2025-06-15T08:35:00.713538",
     "file_size": 1210783,
-    "summary": "A PDF document containing a book about Django, a popular web framework for Python. The book covers topics such as database interaction, template system, form processing, caching, internationalization, security, and deployment.",
+    "summary": "This document is a PDF version of the book 'The Django Book', which serves as an introduction to the Django web framework for Python. It covers topics such as getting started, generating Web pages, the Django template system, interacting with databases, form processing, advanced views and URL configurations, extending the template engine, outputting non-HTML content, sessions, users, registration, caching, other contributed sub-frameworks, middleware, integrating with legacy databases and applications, customizing the Django admin, internationalization and localization, security, and deployment. The book is compiled by Suvash Sedhain.",
     "keywords": [
       "Django",
       "Python",
-      "Web Framework",
+      "Web framework",
       "Book"
+    ],
+    "key_concepts": [
+      "The document provides an introduction to the Django web framework for Python.",
+      "It covers topics such as generating Web pages, interacting with databases, form processing, and more.",
+      "The book includes chapters on advanced views and URL configurations, extending the template engine, outputting non-HTML content, sessions, users, registration, caching, and more.",
+      "The document also discusses internationalization and localization, security, deployment, and integrating with legacy databases and applications.",
+      "It is compiled by Suvash Sedhain."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "A PDF document containing a book about Django, a popular web framework for Python."
+    "content_preview": "PDF version of 'The Django Book' for learning the Django web framework."
   },
   {
     "id": "bcf80cd0995f129df76a244d42454feb",
