@@ -13501,22 +13501,29 @@
   {
     "id": "68cc7176f0e4edb05a2b7696f299dc16",
     "filename": "Keras Cheats.pdf",
-    "title": "Keras Cheats.pdf",
+    "title": "Python for Data Science Cheat Sheet with Keras",
     "authors": [],
     "filepath": "documents/Keras Cheats.pdf",
-    "upload_date": "2025-06-05T14:25:29.330262",
+    "upload_date": "2025-06-15T10:33:59.894558",
     "file_size": 139989,
-    "summary": "This document provides a cheat sheet for using Keras, a powerful deep learning library for Theano and TensorFlow. It includes information on model architecture, fine-tuning, optimization parameters, and examples of basic usage.",
+    "summary": "This document provides a comprehensive cheat sheet for Python data science using the Keras library. It covers topics such as model architecture, fine-tuning, optimization parameters, preprocessing techniques like One-Hot Encoding, and practical examples of building and training deep learning models. The document is interactive and can be found on DataCamp.",
     "keywords": [
-      "Keras",
-      "Deep Learning",
       "Python",
       "Data Science",
+      "Keras",
+      "Deep Learning",
       "Neural Networks"
+    ],
+    "key_concepts": [
+      "Keras is a powerful and easy-to-use deep learning library for Theano and TensorFlow that provides a high-level neural networks API.",
+      "The document demonstrates how to develop and evaluate deep learning models using Keras, including setting up model architecture and fine-tuning optimization parameters.",
+      "Practical example of building and training a simple binary classification model with Keras, using the Sequential model and Dense layers.",
+      "Preprocessing techniques like One-Hot Encoding are covered to prepare data for deep learning models.",
+      "The document is interactive and can be found on DataCamp for further learning."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Learn Python for data science Interactively at www.DataCamp.com\nKeras"
+    "content_preview": "This document provides a cheat sheet for Python data science with Keras, covering topics like model architecture, fine-tuning, and preprocessing techniques."
   },
   {
     "id": "bd97085b138a8c4f829b86e983918efe",
