@@ -15111,9 +15111,9 @@
     "title": "Machine Learning History",
     "authors": [],
     "filepath": "documents/Machine_Learning_1625334359.pdf",
-    "upload_date": "2025-06-03T17:53:41.565095",
+    "upload_date": "2025-06-15T08:35:03.879551",
     "file_size": 22415524,
-    "summary": "Explores the major milestones and historical intellectual underpinnings of machine learning and artificial intelligence, from Bayes Theorem to Perceptron and Nearest Neighbor algorithms.",
+    "summary": "This document provides an overview of the major milestones in the history of machine learning and artificial intelligence, from Bayes Theorem in 1763 to the invention of Perceptron in 1957 and Nearest Neighbor in 1967. The article discusses the intellectual underpinnings of the idea of a 'thinking machine' and highlights key discoveries that have shaped modern machine learning.",
     "keywords": [
       "Machine Learning",
       "Artificial Intelligence",
@@ -15121,9 +15121,16 @@
       "Bayes Theorem",
       "Least Square Theory"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "The history of artificial intelligence and machine learning is intertwined, with significant algorithmic, statistical, mathematical, computational, and technical discoveries predating the 1950s.",
+      "Bayes Theorem (1763) and its applications underlie inference, describing the probability of an event occurring based on prior knowledge.",
+      "Least Square Theory (1805), developed by Adrien-Marie Legendre, helps in data fitting and is crucial for regression analysis.",
+      "Markov Chains (1913), named after Russian mathematician Andrey Markov, are used to describe a sequence of possible events based on a previous state.",
+      "Perceptron (1957), invented by American psychologist Frank Rosenblatt, is a type of linear classifier that has contributed to advances in deep learning."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Explores the major milestones and historical intellectual underpinnings of machine learning and artificial intelligence, from Bayes Theorem to Perceptron"
+    "content_preview": "Overview of major milestones in machine learning history from Bayes Theorem to Perceptron."
   },
   {
     "id": "52ead2adf0bb3d550afbc25645599233",
