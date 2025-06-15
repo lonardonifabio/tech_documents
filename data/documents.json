@@ -30759,44 +30759,44 @@
   {
     "id": "6bed8f211506113ac276999d8a08fd29",
     "filename": "_AutoML_Book_1655047477.pdf",
-    "title": "Springer Series on Challenges in Machine Learning",
+    "title": "The Springer Series on Challenges in Machine Learning",
     "authors": [],
     "filepath": "documents/_AutoML_Book_1655047477.pdf",
-    "upload_date": "2025-06-15T20:19:02.549222",
+    "upload_date": "2025-06-15T20:53:26.263165",
     "file_size": 6796761,
-    "summary": "A series of books focusing on Automated Machine Learning Methods, Systems, and Challenges, offering a complete teaching toolkit for engineers and scientists.",
+    "summary": "A series of books that collect papers from successful machine learning competitions, including analyses of challenges, tutorial material, and dataset descriptions.",
     "keywords": [
-      "Springer Series",
       "Machine Learning",
       "Automated Machine Learning",
-      "Competitions",
-      "Challenges",
-      "Books",
-      "Editors",
-      "ISSN",
-      "ISBN",
-      "DOI"
+      "Challenges in Machine Learning",
+      "Springer Series",
+      "AutoML",
+      "Neural Network",
+      "TPOT",
+      "Automatic Statistician",
+      "optimization",
+      "Bayesian optimization"
     ],
     "key_concepts": [
-      "Series",
-      "Publication",
-      "Machine Learning Competitions",
-      "Teaching Toolkit",
-      "Engineers and Scientists",
-      "automatically tuned neural network",
-      "automatically constructing and optimizing tree-based machine learning pipelines",
-      "fully automated reports",
-      "Automatic Statistician's natural-language descriptions for non-experts",
-      "AutoML challenges design and evaluation"
+      "Successful applications of machine learning methods and systems",
+      "Analyses of challenges in machine learning",
+      "Tutorial material for machine learning",
+      "Dataset descriptions and pointers to data and software",
+      "Automatically tuned neural network that won against human experts",
+      "Tree-based machine learning pipelines with flexible component connections",
+      "Fully automated data science reports with predictive models and performance comparison",
+      "Natural-language descriptions of results for non-experts in machine learning",
+      "AutoML challenges to spur development of practical approaches",
+      "Constrained optimization problem formulation for maximal memory consumption"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Springer Series on Challenges in Machine Learning",
+    "content_preview": "Document: The Springer Series on Challenges in Machine Learning",
     "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Artificial Intelligence",
-      "Artificial Intelligence (AI) and Machine Learning (ML)",
-      "Machine Learning"
+      "Machine Learning",
+      "Machine Learning/AI",
+      "AI/Machine Learning"
     ],
     "business_functions": [
       "Research and Development",
@@ -30804,32 +30804,30 @@
     ],
     "companies": [],
     "technologies": [
-      "Machine Learning",
-      "neural network",
-      "tree-based machine learning",
+      "neural networks",
+      "tree-based machine learning pipelines",
       "Bayesian optimization",
-      "Multi-objective optimization"
+      "Grid search"
     ],
     "processes": [
       "Analysis",
       "Implementation"
     ],
     "technical_terms": [
-      "Springer Series",
       "Machine Learning",
-      "Automated Machine Learning"
+      "Automated Machine Learning",
+      "Challenges in Machine Learning"
     ],
     "methodologies": [
-      "Automated Machine Learning Methods",
-      "Challenge Competitions",
-      "automatic tuning",
-      "pipeline optimization",
-      "data science automation"
+      "automated construction and optimization of machine learning pipelines",
+      "generation of fully automated reports with analysis and predictive models",
+      "Constrained optimization",
+      "Multi-objective optimization"
     ],
     "tools_mentioned": [
       "TPOT system",
       "Automatic Statistician",
-      "Grid search"
+      "Blackbox optimization methods"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
@@ -30838,11 +30836,11 @@
       "Understand machine learning concepts"
     ],
     "use_cases": [
-      "Machine Learning Competitions",
-      "Teaching Material Development",
-      "Automated machine learning pipeline construction",
-      "Data science automation",
-      "Predictive modeling"
+      "Automated Machine Learning Methods",
+      "Systems",
+      "Automating data science tasks",
+      "Generating predictive models",
+      "Hyperparameter Optimization"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -30856,9 +30854,9 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: Springer Series on Challenges in Machine Learning",
+      "Q: What is the main focus? A: The Springer Series on Challenges in Machine Learning",
       "Q: What category? A: Machine Learning",
-      "Q: Key concepts? A: Springer Series, Machine Learning, Automated Machine Learning",
+      "Q: Key concepts? A: Machine Learning, Automated Machine Learning, Challenges in Machine Learning",
       "Q: Target audience? A: Professionals",
       "Q: Main benefit? A: Enhanced understanding of the subject matter"
     ],
