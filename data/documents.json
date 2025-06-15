@@ -19282,19 +19282,26 @@
       "Gabriel Peyr\u0013 e"
     ],
     "filepath": "documents/Optimization_for_Machine_Learning_1630616567.pdf",
-    "upload_date": "2025-06-04T21:18:54.134034",
+    "upload_date": "2025-06-15T10:34:03.162551",
     "file_size": 9282151,
-    "summary": "This document presents first order optimization methods and their applications to machine learning. The course covers basic theoretical properties of optimization problems, the gradient descent method, stochastic gradient method, automatic differentiation, shallow and deep networks.",
+    "summary": "This document presents first order optimization methods and their applications to machine learning, focusing on scalable methods that can handle large datasets and models with many parameters. The course covers basic theoretical properties of optimization problems, gradient descent, stochastic gradient method, automatic differentiation, shallow and deep networks.",
     "keywords": [
       "Optimization",
       "Machine Learning",
       "Gradient Descent",
-      "Stochastic Gradient",
+      "Stochastic Gradient Method",
       "Automatic Differentiation"
+    ],
+    "key_concepts": [
+      "This document presents first order optimization methods and their applications to machine learning.",
+      "The course covers basic theoretical properties of optimization problems, including convex analysis and first order differential calculus.",
+      "The focus is on scalable methods that can handle large datasets and models with many parameters.",
+      "The methods discussed are variations around the notion of gradient descent.",
+      "The course covers shallow and deep networks."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document presents first order optimization methods and their applications to machine learning."
+    "content_preview": "This document presents first order optimization methods for machine learning."
   },
   {
     "id": "6579a1523eb65017587277277c3ea9dd",
