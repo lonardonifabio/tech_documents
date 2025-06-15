@@ -16764,18 +16764,23 @@
     "title": "Mastering AI Agents",
     "authors": [],
     "filepath": "documents/Mastering_AI_agents_1743862547.pdf",
-    "upload_date": "2025-06-06T03:10:11.188911",
+    "upload_date": "2025-06-14T22:31:41.279621",
     "file_size": 1749714,
-    "summary": "This e-book explores the concept of AI agents, which take answers provided by an LLM and perform tasks such as decision making or task execution. It discusses the potential of RAG-enhanced LLMs to process claims end-to-end and introduces the idea of AI agents that can understand context without predefined rules and learn from every interaction.",
+    "summary": "This e-book explores the concept of AI agents, which take an LLM's ability to provide accurate answers based on context and extend it by performing end-to-end tasks such as decision making, task execution, and coordinating multiple steps. The ideas behind agents have existed for years but with AI, they can now understand context without predefined rules, tune decisions based on context, and learn from every interaction.",
     "keywords": [
       "AI Agents",
       "LLM",
-      "RAG Systems",
-      "End-to-end tasks"
+      "End-to-end tasks",
+      "Context understanding"
+    ],
+    "key_concepts": [
+      "An AI agent takes an LLM's ability to provide accurate answers based on given context and extends it by performing end-to-end tasks.",
+      "AI agents can understand the context without predefined rules, tune decisions based on context, and learn from every interaction.",
+      "The ideas behind agents have existed for years but with AI, they offer capabilities that were not possible before."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "In our previous e-book, “Mastering RAG,” our goal was clear: building enterprise-grade RAG systems..."
+    "content_preview": "This e-book explores the concept of AI agents and their ability to understand context without predefined rules."
   },
   {
     "id": "7b66670dc6cc7a4992475f2a4950bad5",
