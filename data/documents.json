@@ -26251,22 +26251,31 @@
   {
     "id": "2a4079037ad4f941d5e4a4929aafedd1",
     "filename": "Virtual_Reality_Human_Computer_Interaction_1637329604.pdf",
-    "title": "Virtual Reality for Human Computer Interaction",
-    "authors": [],
+    "title": "Virtual Reality for Human Computer Interaction: Appearance",
+    "authors": [
+      "Marc Erich Latoschik"
+    ],
     "filepath": "documents/Virtual_Reality_Human_Computer_Interaction_1637329604.pdf",
-    "upload_date": "2025-06-04T21:18:55.690043",
+    "upload_date": "2025-06-15T08:35:09.509566",
     "file_size": 1268051,
-    "summary": "This document discusses the appearance of objects in Virtual Reality (VR) for Human-Computer Interaction, focusing on real-time 3D computer graphics and color models. It covers topics such as achromatic and colored light, chromatic color, color models for raster graphics, and physics and measurement for realism.",
+    "summary": "This document discusses the appearance of objects in Virtual Reality (VR) for Human-Computer Interaction. It covers the render types, lighting models, and shading algorithms used in VR, with a focus on local and global models. The document also delves into color theory, including chromatic and achromatic light, color models for raster graphics, and physics-based coding of RGB triples.",
     "keywords": [
       "Virtual Reality",
       "Human Computer Interaction",
-      "Real-time 3D Graphics",
-      "Color Models",
+      "Appearance",
+      "Render Type",
       "Lighting"
+    ],
+    "key_concepts": [
+      "Objects in VR are described by spatial attributes and appearance, which includes render type and lighting.",
+      "Local models for rendering do not consider object-object reflections, while global models do.",
+      "Examples of local models include Gouraud and Phong shaders using the Phong lighting model.",
+      "Color theory is crucial in VR as it deals with achromatic light reproduction, color reproduction, chromatic color, and color models for raster graphics.",
+      "Physics-based coding of RGB triples is used to achieve realism in computer graphics."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Virtual Reality for Human Computer Interaction... focuses on real-time 3D computer graphics and color models."
+    "content_preview": "This document discusses the appearance of objects in Virtual Reality for Human-Computer Interaction."
   },
   {
     "id": "8d7d5ef75d0cd48f08b6a82a4917a767",
