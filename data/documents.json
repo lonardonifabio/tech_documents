@@ -28496,22 +28496,28 @@
   {
     "id": "1ce8bc1b4f115b62b11454473a366d74",
     "filename": "spotify_1626959420 (1).pdf",
-    "title": "Spotify's Use of Machine Learning in 'Discover Weekly'",
+    "title": "How Spotify Uses Machine Learning for Personalized Recommendations",
     "authors": [],
     "filepath": "documents/spotify_1626959420 (1).pdf",
-    "upload_date": "2025-06-06T15:45:51.831689",
+    "upload_date": "2025-06-14T22:31:47.251630",
     "file_size": 949286,
-    "summary": "This document discusses how Spotify uses machine learning to create personalized playlists, specifically focusing on the 'Discover Weekly' feature. It explains the combination of Collaborative Filtering, Natural Language Processing, and Audio models used by Spotify.",
+    "summary": "This document discusses how Spotify utilizes machine learning, specifically Collaborative Filtering and Natural Language Processing, to create personalized playlists like 'Discover Weekly'. The document delves into the three models used by Spotify to generate these recommendations: Collaborative Filtering, Natural Language Processing, and Audio Models. It also provides insights on how these methods contribute to user engagement and music discovery.",
     "keywords": [
       "Spotify",
       "Machine Learning",
-      "Discover Weekly",
+      "Recommendation System",
       "Collaborative Filtering",
       "Natural Language Processing"
     ],
+    "key_concepts": [
+      "Spotify uses a combination of three models - Collaborative Filtering, Natural Language Processing, and Audio Models - to generate personalized playlists like 'Discover Weekly'.",
+      "The recommendation engine works by analyzing user's search/listening history patterns and potential music preferences to create a customized list of fifty songs.",
+      "One example is 'Discover Weekly', which reached 40 million people in the first year it was introduced.",
+      "These methods contribute to user engagement and music discovery by recommending tracks users might not have heard before but are likely to enjoy based on their listening history."
+    ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses how Spotify uses machine learning to create personalized playlists, specifically focusing on the 'Discover Weekly' feature."
+    "content_preview": "This document discusses how Spotify uses machine learning for personalized recommendations, focusing on 'Discover Weekly' and the three models used: Collaborative Filtering, Natural Language Processing, and Audio Models."
   },
   {
     "id": "d9303648be800c78fc0b038329cdb1f0",
