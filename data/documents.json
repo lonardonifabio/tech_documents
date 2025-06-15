@@ -14362,22 +14362,29 @@
   {
     "id": "ce4a86e499783cfa0dcc13131433951f",
     "filename": "ML.pdf",
-    "title": "Machine Learning Explained",
+    "title": "Understanding Machine Learning",
     "authors": [],
     "filepath": "documents/ML.pdf",
-    "upload_date": "2025-06-03T22:07:05.768538",
+    "upload_date": "2025-06-14T22:31:39.939618",
     "file_size": 5126830,
-    "summary": "This document explains the concept of machine learning, its types (Supervised Learning, Unsupervised Learning, Reinforcement Learning), and their real-world applications. It also mentions examples such as Risk Assessment, Image Classification, Fraud Detection, Customer Segmentation, Principal Component Analysis (PCA), Anomaly Detection, Game Pla...",
+    "summary": "This document provides an overview of machine learning, a subset of artificial intelligence that allows computers to learn from data and improve their performance over time. It discusses the three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning, with examples of real-world applications for each. The document also briefly touches upon the concept of an agent learning decision-making through interaction with an environment.",
     "keywords": [
       "Machine Learning",
       "Artificial Intelligence",
-      "AI",
-      "Algorithms",
-      "Statistical Models"
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning"
+    ],
+    "key_concepts": [
+      "Machine learning is a subset of artificial intelligence that focuses on the development of algorithms and statistical models to enable computers to perform tasks without being explicitly programmed.",
+      "There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning.",
+      "Supervised learning involves training algorithms on labeled datasets where input data is paired with corresponding output labels. Real-world applications include Risk Assessment, Image Classification, Fraud Detection, and Spam Filtering.",
+      "Unsupervised learning operates on unlabeled data to inherent patterns or structures. Real-world applications include Customer Segmentation, Principal Component Analysis (PCA), Anomaly Detection.",
+      "Reinforcement learning involves an agent learning decision-making by interacting with an environment and receiving feedback in the form of rewards or penalties."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document explains the concept of machine learning..."
+    "content_preview": "This document explains machine learning, its types, and real-world applications."
   },
   {
     "id": "3edbafc2f7fa36a15c66a5ece474a799",
