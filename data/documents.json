@@ -17387,21 +17387,29 @@
   {
     "id": "43d511f2715eb5d1a54e68da113a0ec0",
     "filename": "Matplotlib_Cheat_Sheet_1630696160.pdf",
-    "title": "Matplotlib Cheat Sheet",
+    "title": "Matplotlib Cheat Sheet for Data Science",
     "authors": [],
     "filepath": "documents/Matplotlib_Cheat_Sheet_1630696160.pdf",
-    "upload_date": "2025-06-04T21:18:53.700032",
+    "upload_date": "2025-06-15T08:35:05.118556",
     "file_size": 1769292,
-    "summary": "This document provides a cheat sheet for using Matplotlib, a popular Python library for 2D plotting. It covers topics such as axes, data visualization, and various types of plots.",
+    "summary": "This document provides a comprehensive guide to using Matplotlib, a Python library for creating 2D plots with public quality figures in various formats and interactive environments across platforms. It covers topics such as plotting customizations, plot anatomy, workflow, creating plots, data distribution, and scatter plots.",
     "keywords": [
       "Matplotlib",
       "Python",
       "Data Science",
-      "Plotting"
+      "Plotting",
+      "2D"
+    ],
+    "key_concepts": [
+      "Matplotlib is a Python library for producing high-quality 2D plots in various formats and interactive environments across platforms.",
+      "The document provides a step-by-step guide to creating customized plots using Matplotlib, including setting axes, plotting data, and adding labels and annotations.",
+      "The document also covers the creation of scatter plots, which are useful for visualizing multivariate data.",
+      "Matplotlib uses NumPy for handling data, making it easy to manipulate and visualize large datasets.",
+      "The theoretical principles behind Matplotlib's plotting functions are explained, providing a solid foundation for understanding how the library works."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "M atp l o tlib Cheat Shee tPytho n F or D ata Sci e nce"
+    "content_preview": "Guide to using Matplotlib, a Python library for creating 2D plots with public quality figures in various formats and interactive environments across platforms."
   },
   {
     "id": "76722918b5dd277448bf9fe887a8f06a",
