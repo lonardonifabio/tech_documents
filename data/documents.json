@@ -16195,9 +16195,9 @@
     "title": "Machine Learning on Retail",
     "authors": [],
     "filepath": "documents/Machine_Learning_on_Retail_1567264066.pdf",
-    "upload_date": "2025-06-04T21:18:53.248029",
+    "upload_date": "2025-06-14T22:31:41.077620",
     "file_size": 969899,
-    "summary": "This document explores business cases for applying Machine Learning in the retail sector, focusing on Demand Forecasting, Customer Segmentation, Product Bundling, Order Recommendation, and Customer Targeting. The goal is to minimize understock and overstock phenomena by using restocking strategies based on forecasted demand.",
+    "summary": "This document explores five business cases of applying Machine Learning in the retail industry, focusing on Demand Forecasting, Customer Segmentation, Customer Targeting, Product Bundling, and Order Recommendation. The main objective is to minimize understock and overstock phenomena by using restocking strategies based on forecasted demand. The document also discusses adjusting forecasting time units to other time frames.",
     "keywords": [
       "Machine Learning",
       "Retail",
@@ -16205,9 +16205,16 @@
       "Customer Segmentation",
       "Customer Targeting"
     ],
+    "key_concepts": [
+      "Machine Learning is applied in retail to forecast demand, minimize understock and overstock phenomena by restocking when necessary.",
+      "The document discusses a methodology for customer segmentation using Machine Learning techniques.",
+      "Customer Targeting strategies are presented using Machine Learning algorithms in this document.",
+      "Product Bundling is another application of Machine Learning in retail, as discussed in the document.",
+      "Order Recommendation is covered in the document, demonstrating how Machine Learning can be used to suggest products."
+    ],
     "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "This document explores business cases for applying Machine Learning in the retail sector..."
+    "content_preview": "This document explores business cases of applying Machine Learning in retail."
   },
   {
     "id": "556edfeddd3fd3281ab1cba2889af0d6",
