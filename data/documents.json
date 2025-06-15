@@ -6541,67 +6541,96 @@
   {
     "id": "7ac7d221973e28f757d40df8f64e8f5b",
     "filename": "Biz_Req_Doc_India_consent_mgt_DPDPA_1749210545.pdf",
-    "title": "Business Requirement Document for Consent Management Under the DPDP Act, 2023",
+    "title": "Business Requirement Document For Consent Management Under the DPDP Act, 2023",
     "authors": [],
     "filepath": "documents/Biz_Req_Doc_India_consent_mgt_DPDPA_1749210545.pdf",
-    "upload_date": "2025-06-15T14:50:17.575315",
+    "upload_date": "2025-06-15T20:53:14.432294",
     "file_size": 1733336,
-    "summary": "This document outlines the business requirements for a consent management system compliant with the Data Protection and Digital Privacy Act (DPDP Act) of 2023 in India. It covers functional requirements such as consent collection, validation, update, renewal, withdrawal, and cookie consent. The document is intended for stakeholders involved in data privacy and compliance.",
+    "summary": "This document covers business requirement document for consent management under the dpdp act, 2023 with detailed analysis and practical insights.",
     "keywords": [
       "Consent Management",
-      "Data Protection and Digital Privacy Act (DPDP Act)",
-      "India"
+      "DPDP Act",
+      "Business Requirement Document",
+      "consent",
+      "validation",
+      "CMS",
+      "Data Fiduciary",
+      "processing"
     ],
     "key_concepts": [
-      "The document describes a system for managing consents according to the DPDP Act, ensuring compliance with data protection regulations.",
-      "The system covers all stages of the consent management lifecycle, from collection and validation to renewal and withdrawal.",
-      "The document highlights the importance of proper cookie consent management in adhering to the DPDP Act.",
-      "Understanding the functional requirements outlined in this document is crucial for organizations operating within India to ensure data privacy compliance.",
-      "The document serves as a guide for businesses to implement effective and compliant consent management systems."
-    ],
-    "category": "Business",
-    "difficulty": "Intermediate",
-    "content_preview": "This document outlines the business requirements for a consent management system under the DPDP Act, 2023.",
-    "target_audience": "Stakeholders involved in data privacy and compliance.",
-    "industry": [
-      "Data Privacy",
-      "Technology"
-    ],
-    "business_functions": [
-      "Compliance",
-      "Data Management"
-    ],
-    "companies": [],
-    "technologies": [
-      "Consent Management Systems"
-    ],
-    "processes": [
-      "Consent Management Lifecycle"
-    ],
-    "technical_terms": [
-      "DPDP Act",
       "Consent Collection",
       "Consent Validation",
       "Consent Update",
       "Consent Renewal",
       "Consent Withdrawal",
-      "Cookie Consent"
+      "Cookie Consent",
+      "Consent Lifecycle Management",
+      "Consent must be validated for the exact purpose for which data is being processed.",
+      "Consent validation ensures that only data for which explicit consent is given is processed.",
+      "All consent validation actions must be logged in the CMS for compliance and reporting purposes."
+    ],
+    "category": "Business",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Business Requirement Document For Consent Management Under the DPDP Act, 2023",
+    "target_audience": "Professionals in business field",
+    "industry": [
+      "Financial Services",
+      "Regulatory Compliance"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Consent Management",
+      "DPDP Act",
+      "Business Requirement Document"
     ],
     "methodologies": [
-      "Regulatory Compliance Methodology"
+      "real-time response",
+      "immutable audit logs"
     ],
     "tools_mentioned": [
-      "Consent Management Systems"
+      "CMS API"
     ],
     "prerequisites": [
-      "Understanding of data privacy regulations and compliance requirements."
+      "Basic understanding of the subject matter"
     ],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "learning_objectives": [
+      "Understand business concepts"
+    ],
+    "use_cases": [
+      "Consent Management",
+      "Compliance with DPDP Act",
+      "Consent Validation",
+      "Data Processing",
+      "Audit Logging"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Business Requirement Document For Consent Management Under the DPDP Act, 2023",
+      "Q: What category? A: Business",
+      "Q: Key concepts? A: Consent Management, DPDP Act, Business Requirement Document",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "b282c488731c784605764ee715a52a2a",
