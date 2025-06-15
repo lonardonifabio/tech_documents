@@ -126,7 +126,16 @@ class OllamaClient:
             self.client.list()
             return True
         except Exception as e:
-            logger.error(f"Ollama service not available: {e}")
+            error_msg = str(e).lower()
+            if "connection refused" in error_msg or "connection error" in error_msg:
+                logger.error(f"❌ Ollama service not running on {self.host}")
+                logger.error("💡 Try running: ./scripts/start_ollama_service.sh")
+                logger.error("💡 Or manually: ollama serve &")
+            elif "address already in use" in error_msg:
+                logger.error(f"❌ Port 11434 already in use")
+                logger.error("💡 Run: ./scripts/start_ollama_service.sh to fix this")
+            else:
+                logger.error(f"❌ Ollama service error: {e}")
             return False
     
     def ensure_model_available(self) -> bool:
