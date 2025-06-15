@@ -22902,22 +22902,29 @@
   {
     "id": "318593c4c5d0a8b52195a65d52f155b9",
     "filename": "Securing_GenAI_1745620174.pdf",
-    "title": "Securing GenAI: A Comprehensive Report on Prompt Attacks",
+    "title": "Securing GenAI: A Comprehensive Report on Prompt Attacks: Taxonomy, Risks, and Solutions",
     "authors": [],
     "filepath": "documents/Securing_GenAI_1745620174.pdf",
-    "upload_date": "2025-06-05T20:14:26.974828",
+    "upload_date": "2025-06-15T08:35:07.584557",
     "file_size": 5014675,
-    "summary": "This document provides a comprehensive report on prompt attacks in GenAI, discussing their taxonomy, risks, and solutions. It also highlights three main attack vectors: Guardrail Bypass, Information Leakage, and Goal Hijacking.",
+    "summary": "This document provides a comprehensive analysis of prompt attacks in the context of Generative AI (GenAI). It presents an impact-focused taxonomy of these attacks, discusses their risks, and offers solutions. The report covers three main attack vectors: Guardrail Bypass, Information Leakage, and Goal Hijacking. It emphasizes the need for stronger defense mechanisms to address these persistent challenges. The background section provides an overview of AI system architecture.",
     "keywords": [
-      "GenAI",
       "Prompt Attacks",
+      "Generative AI",
+      "Security",
       "Taxonomy",
-      "Risks",
-      "Solutions"
+      "Risks"
+    ],
+    "key_concepts": [
+      "The report discusses the taxonomy, risks, and solutions for prompt attacks in Generative AI systems.",
+      "It presents an impact-focused taxonomy of three main attack vectors: Guardrail Bypass, Information Leakage, and Goal Hijacking.",
+      "The document highlights the need for stronger defense mechanisms to address these persistent challenges in GenAI security.",
+      "Background information is provided on the architecture of AI systems to better understand the context of the discussed attacks.",
+      "The report offers practical solutions to mitigate prompt attacks and enhance the security of Generative AI systems."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Securing GenAI: A Comprehensive Report on Prompt Attacks: Taxonomy, Risks, and Solutions"
+    "content_preview": "Comprehensive report on prompt attacks in GenAI, discussing taxonomy, risks, solutions, and defense mechanisms."
   },
   {
     "id": "b1b4efd0fda8fb0254d971469a11327e",
