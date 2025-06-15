@@ -23475,30 +23475,72 @@
   {
     "id": "0a654bc72c21b353e67065d68bc91959",
     "filename": "Python_for_Machine_Learning_Visualization_1735238818.pdf",
-    "title": "Python for Machine Learning Visualization Note Book",
+    "title": "Python for Machine Learning Visualization Part 01",
     "authors": [
       "Syed Afroz Ali"
     ],
     "filepath": "documents/Python_for_Machine_Learning_Visualization_1735238818.pdf",
-    "upload_date": "2025-06-13T22:59:47.722938",
+    "upload_date": "2025-06-15T16:03:32.207609",
     "file_size": 10604223,
-    "summary": "This document is a comprehensive guide on data visualization using Python for machine learning. It covers various types of data visualizations and provides two parts (Part 01 and Part 02) as separate Kaggle notebooks. The author, Syed Afroz Ali, is a Kaggle Grand Master. The document uses libraries such as pandas, numpy, seaborn, plotly.express, plotly.graph_objects, and plotly.figure_factory to load, manipulate, and visualize data. The dataset used in this example is the heart disease UCI dataset.",
+    "summary": "This document is a Kaggle notebook by Syed Afroz Ali, a Grand Master on the platform. It provides a comprehensive guide to Python for Machine Learning Visualization in two parts (Part 01 and Part 03). The notebook covers various data visualization techniques using libraries such as pandas, seaborn, plotly, and matplotlib. The document is intended for intermediate to advanced learners interested in data visualization and machine learning. The content includes loading a dataset, data exploration, and visualizing the distribution of specific variables using scatterplots.",
     "keywords": [
       "Python",
       "Machine Learning",
       "Data Visualization",
       "Kaggle",
-      "Notebook"
+      "Seaborn"
     ],
     "key_concepts": [
-      "The document provides a guide on using Python for data visualization in machine learning.",
-      "It uses libraries such as pandas, numpy, seaborn, plotly.express, plotly.graph_objects, and plotly.figure_factory.",
-      "The dataset used is the heart disease UCI dataset.",
-      "The document demonstrates how to load, manipulate, and visualize data using Python."
+      "The document provides a guide to Python for Machine Learning Visualization in two parts.",
+      "It covers various data visualization techniques using libraries such as pandas, seaborn, plotly, and matplotlib.",
+      "The content includes loading a dataset, data exploration, and visualizing the distribution of specific variables using scatterplots."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a guide on using Python for data visualization in machine learning. It uses libraries such as pandas, numpy, seaborn, plotly.express, plotly.graph_objects, and plotly.figure_factory."
+    "content_preview": "This document is a Kaggle notebook by Syed Afroz Ali, providing a guide to Python for Machine Learning Visualization.",
+    "target_audience": "Intermediate to advanced learners interested in data visualization and machine learning",
+    "industry": [
+      "Data Science",
+      "Technology"
+    ],
+    "business_functions": [
+      "Data Analysis",
+      "Machine Learning"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "pandas",
+      "seaborn",
+      "plotly",
+      "matplotlib"
+    ],
+    "processes": [
+      "Data Loading",
+      "Data Exploration",
+      "Data Visualization"
+    ],
+    "technical_terms": [
+      "CSV",
+      "Value Counts",
+      "Scatterplot"
+    ],
+    "methodologies": [
+      "Data Visualization Methodologies using Python Libraries"
+    ],
+    "tools_mentioned": [
+      "pandas",
+      "seaborn",
+      "plotly",
+      "matplotlib"
+    ],
+    "prerequisites": [],
+    "learning_objectives": [],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "ee6fcf51ed61f446465fae769d46a3ce",
