@@ -26834,9 +26834,9 @@
     "title": "Datasets Released by Google",
     "authors": [],
     "filepath": "documents/datasets_released_by_google_1623394859.pdf",
-    "upload_date": "2025-06-03T22:07:09.115565",
+    "upload_date": "2025-06-14T22:31:46.792629",
     "file_size": 2346532,
-    "summary": "This document discusses several datasets released by Google, including AudioSet, AVA Dataset, Cartoon Set, and Coached Conversational Preference Elicitation. The datasets cover various areas such as audio events annotation, human activity understanding, cartoon images, and movie preference elicitation.",
+    "summary": "This document discusses four datasets released by Google, including AudioSet, AVA Dataset, Cartoon Set, and Coached Conversational Preference Elicitation. AudioSet is a large-scale dataset of manually annotated audio events, while AVA is a video dataset of spatio-temporally localised Atomic Visual Actions. Cartoon Set is a collection of 2D cartoon avatar images used to develop personalized stickers in Google Allo. Coached Conversational Preference Elicitation consists of English dialogues with annotated utterances between a user and an assistant discussing movie preferences.",
     "keywords": [
       "Datasets",
       "Google",
@@ -26844,9 +26844,16 @@
       "AVA Dataset",
       "Cartoon Set"
     ],
+    "key_concepts": [
+      "The AudioSet dataset is a large-scale, manually annotated audio events dataset with 632 classes and over 20 million sound clips.",
+      "AVA Dataset is a video dataset of spatio-temporally localised Atomic Visual Actions, annotating 80 actions in 430 movie clips.",
+      "Cartoon Set is a collection of cartoon avatar images used to develop personalized stickers in Google Allo.",
+      "Coached Conversational Preference Elicitation dataset consists of English dialogues between a user and an assistant discussing movie preferences using natural language.",
+      "These datasets are valuable resources for machine learning, particularly in the areas of audio processing, video analysis, and conversational AI."
+    ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "83+ DATASETS RELEASED BY @learn.machinelearning"
+    "content_preview": "This document discusses four datasets released by Google, including AudioSet, AVA Dataset, Cartoon Set, and Coached Conversational Preference Elicitation."
   },
   {
     "id": "2e67d16b466cf3eb86801cf7f51d6e82",
