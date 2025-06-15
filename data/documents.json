@@ -12616,19 +12616,26 @@
       "S.V.N. Vishwanathan"
     ],
     "filepath": "documents/Introduction_to_ML_1627021014.pdf",
-    "upload_date": "2025-06-03T22:07:05.351535",
+    "upload_date": "2025-06-14T22:31:39.222616",
     "file_size": 10782206,
-    "summary": "A comprehensive guide on Machine Learning by Alex Smola and S.V.N. Vishwanathan, published by Yahoo! Labs in collaboration with Purdue University and Australian National University.",
+    "summary": "This document provides an overview of machine learning, its methodologies, key concepts, and practical applications. It covers supervised and unsupervised learning, neural networks, decision trees, reinforcement learning, and support vector machines. The authors also discuss the theoretical foundations of machine learning and its potential use cases in various industries.",
     "keywords": [
       "Machine Learning",
-      "Alex Smola",
-      "S.V.N. Vishwanathan",
-      "Yahoo! Labs",
-      "Purdue University"
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Neural Networks",
+      "Decision Trees"
+    ],
+    "key_concepts": [
+      "Machine learning is a subset of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.",
+      "Supervised learning involves training a model using labeled data, where the correct output (label) is provided for each input.",
+      "Unsupervised learning deals with unlabeled data, where the goal is to find hidden patterns or structure in the data.",
+      "Neural networks are a type of machine learning algorithm inspired by the structure and function of the human brain.",
+      "Decision trees are a popular machine learning model used for both classification and regression tasks."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "INTRODUCTION to MACHINE LEARNING"
+    "content_preview": "Overview of Machine Learning: Supervised, Unsupervised, Neural Networks, Decision Trees, Reinforcement Learning, SVM."
   },
   {
     "id": "9dea4e33fb75f6601096fe9a8d0ac6b8",
