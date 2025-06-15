@@ -653,24 +653,31 @@
   {
     "id": "56868df24fba211a58040667a5985069",
     "filename": "50_Years_of_Data_Science_1629784379.pdf",
-    "title": "50_Years_of_Data_Science_1629784379.pdf",
+    "title": "50 Years of Data Science",
     "authors": [
       "David Donoho"
     ],
     "filepath": "documents/50_Years_of_Data_Science_1629784379.pdf",
-    "upload_date": "2025-06-02T17:58:11.669182",
+    "upload_date": "2025-06-15T08:34:55.702518",
     "file_size": 459090,
-    "summary": "Explores the evolution of Data Science over 50 years, starting from John Tukey's call for reformation in academic statistics. Discusses the emergence of Data Science programs at major universities and their curriculum overlap with traditional statistics courses.",
+    "summary": "This document discusses the evolution of data science over the past 50 years, starting with John Tukey's call for a reformation in academic statistics. It highlights the works of John Chambers, Bill Cleveland, and Leo Breiman who emphasized the importance of data preparation, prediction, and expanding the boundaries of traditional statistics. The paper also touches upon the emergence of Data Science programs at major universities and their curricular overlap with traditional statistics courses.",
     "keywords": [
       "Data Science",
       "Statistics",
-      "Academia",
-      "Universities",
-      "Curriculum"
+      "Academic Statistics",
+      "John Tukey",
+      "John Chambers"
+    ],
+    "key_concepts": [
+      "The emergence of Data Science as a distinct field from traditional statistics",
+      "The call for academic statistics to expand its boundaries beyond theoretical statistics",
+      "The importance of data preparation and prediction in Data Science",
+      "The growth of Data Science programs at major universities",
+      "The overlap between Data Science and traditional statistics curricula"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Explores the evolution of Data Science over 50 years, starting from John Tukey's call for reformation in academic statistics."
+    "content_preview": "This document reviews some ingredients of the current Data Science moment, including recent commentary about data science in the popular media."
   },
   {
     "id": "044f4d8f3fae25611a3a5d32e952abb1",
