@@ -3112,26 +3112,67 @@
     "title": "Overcoming Limitations in AI Project Development",
     "authors": [],
     "filepath": "documents/AI_project_1604680572.pdf",
-    "upload_date": "2025-06-13T22:59:37.764895",
+    "upload_date": "2025-06-15T14:50:16.383313",
     "file_size": 2495096,
-    "summary": "This document discusses the challenges and limitations in AI technology, focusing on bias as a significant issue. It provides insights into how bias can creep into algorithms during various stages of development, such as problem framing, data collection, and preparation. The document offers strategies to mitigate these biases for building more equitable and effective AI applications.",
+    "summary": "This document discusses the challenges and limitations of AI technology, focusing on bias as a significant issue. It provides insights into how AI systems can learn from biased training data, outlines strategies to mitigate this problem, and offers practical advice for building unbiased AI applications.",
     "keywords": [
       "AI",
       "Machine Learning",
       "Bias",
-      "Algorithms",
-      "Data"
+      "Algorithms"
     ],
     "key_concepts": [
-      "Building perfect AI applications requires overcoming existing limitations in the technology.",
-      "Bias can be introduced into AI systems during various stages of development, including problem framing, data collection, and preparation.",
-      "Strategies to mitigate biases in AI include careful selection of training data, using diverse datasets, and implementing fairness metrics.",
-      "AI bias can reflect historical or social inequities even when sensitive variables like gender, race, or sexual orientation are removed.",
-      "Understanding the sources and impacts of AI bias is crucial for building more equitable and effective AI applications."
+      "The limitations of current AI technology require overcoming certain challenges to build perfect AI applications.",
+      "Bias can infiltrate algorithms through various stages, including problem framing, data collection, and preparation.",
+      "Strategies for mitigating bias in AI systems include careful data selection, diverse training datasets, and regular auditing of models.",
+      "Understanding the historical and social contexts that may contribute to biased decisions is crucial in developing unbiased AI applications.",
+      "Best practices for building unbiased AI applications emphasize transparency, accountability, and ongoing monitoring."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Learn strategies to overcome limitations in AI, focusing on bias mitigation."
+    "content_preview": "Learn strategies to overcome limitations in AI project development.",
+    "target_audience": "Data scientists, machine learning engineers, AI developers, and researchers interested in building unbiased AI applications.",
+    "industry": [
+      "Technology",
+      "AI"
+    ],
+    "business_functions": [
+      "Research & Development",
+      "Data Science"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "Machine Learning"
+    ],
+    "processes": [
+      "AI project development",
+      "Algorithm design",
+      "Data preprocessing"
+    ],
+    "technical_terms": [
+      "Bias",
+      "Algorithms",
+      "Training data",
+      "Historical inequities"
+    ],
+    "methodologies": [
+      "AI bias mitigation strategies"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of AI and machine learning concepts"
+    ],
+    "learning_objectives": [
+      "Understand the limitations of current AI technology",
+      "Identify sources of bias in AI systems",
+      "Learn strategies for mitigating bias in AI applications"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "682444cb1656f22ef56c145e43ef47e8",
