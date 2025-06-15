@@ -473,9 +473,9 @@
       "Murat Durmus"
     ],
     "filepath": "documents/20_Cognitive_Biases_everyone_should_know_1746776256.pdf",
-    "upload_date": "2025-06-05T14:25:22.332295",
+    "upload_date": "2025-06-15T10:33:52.520575",
     "file_size": 1718888,
-    "summary": "This document is an excerpt from the book 'The Cognitive Biases Compendium', exploring over 160 cognitive biases to make better decisions, think critically, solve problems effectively, and communicate more accurately. The author, Murat Durmus, is a CEO and founder of AISOMA, specializing in AI-based technology development and consulting.",
+    "summary": "This document is an excerpt from the book 'The Cognitive Biases Compendium', exploring over 160 cognitive biases with examples to help individuals make better decisions, think critically, solve problems effectively, and communicate more accurately. The author, Murat Durmus, is a CEO and founder of AISOMA, an AI-based technology development and consulting company. The book is available on Amazon in both paperback and eBook formats.",
     "keywords": [
       "Cognitive Biases",
       "Decision Making",
@@ -483,9 +483,15 @@
       "Problem Solving",
       "Communication"
     ],
+    "key_concepts": [
+      "The document provides a comprehensive list of cognitive biases that can impact decision making, thinking, and communication.",
+      "The author, Murat Durmus, is an expert in AI technology development and consulting, as well as the author of other books on AI and machine learning.",
+      "The book is available for purchase on Amazon in both paperback and eBook formats.",
+      "The document aims to help individuals improve their decision making skills, critical thinking abilities, problem solving capabilities, and communication skills."
+    ],
     "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "This document is an excerpt from the book: The Cognitive Biases Compendium"
+    "content_preview": "Explore over 160 cognitive biases to make better decisions, think critically, solve problems effectively, and communicate more accurately."
   },
   {
     "id": "58e74c3bf0aacc38a91704ae83af82ac",
@@ -1708,11 +1714,16 @@
     "id": "4f5936fb357da8df94542a65f30ebfd0",
     "filename": "AI_Judicial_Decision_Making_And_Fundamental_Rights_1740637590.pdf",
     "title": "Artificial Intelligence, Judicial Decision-Making and Fundamental Rights",
-    "authors": [],
+    "authors": [
+      "Mireia Artigot Golobardes",
+      "Gianluca Grasso",
+      "Paola Iamiceli",
+      "Bruno Castro Coma"
+    ],
     "filepath": "documents/AI_Judicial_Decision_Making_And_Fundamental_Rights_1740637590.pdf",
-    "upload_date": "2025-06-05T14:25:22.847293",
+    "upload_date": "2025-06-15T10:33:53.092574",
     "file_size": 3567659,
-    "summary": "This document is a handbook published within the framework of the JuLIA project, co-funded by the European Commission. It explores the intersection of Artificial Intelligence, judicial decision-making, and fundamental rights. The content represents the views of the authors only.",
+    "summary": "This handbook is a collaborative effort within the JuLIA project, co-funded by the European Commission. It explores the intersection of Artificial Intelligence (AI), judicial decision-making, and fundamental rights. The publication discusses the views of various authors on this topic, emphasizing the role of AI in judicial processes while maintaining respect for human rights.",
     "keywords": [
       "Artificial Intelligence",
       "Judicial Decision Making",
@@ -1720,9 +1731,16 @@
       "European Commission",
       "JuLIA Project"
     ],
+    "key_concepts": [
+      "The handbook provides a comprehensive analysis of the impact of AI on judicial decision-making processes and its implications for fundamental rights.",
+      "The project brings together experts from various universities and institutions across Europe to collaborate on understanding the role of AI in justice systems.",
+      "The publication discusses the challenges and opportunities presented by AI in upholding fundamental rights within judicial contexts.",
+      "The handbook offers insights into the theoretical framework guiding the use of AI in judicial decision-making, emphasizing the need for transparency, accountability, and human oversight.",
+      "Practical applications and use cases of AI in judicial decision-making are also explored, highlighting potential benefits and risks."
+    ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "HANDBOOK JuLIA (101046631) DG Just – JUST-2021JTRA"
+    "content_preview": "A collaborative effort exploring the intersection of AI, judicial decision-making, and fundamental rights."
   },
   {
     "id": "47ec976886574f9ed45e4cb328d193e7",
@@ -2308,6 +2326,35 @@
     "category": "AI",
     "difficulty": "Intermediate",
     "content_preview": "This paper explains an approach to securing the AI supply chain using provenance information and existing solutions."
+  },
+  {
+    "id": "5ce3fc47f3825ec5215a3a5eb210a1fd",
+    "filename": "AI_Survival_Stories_1749898774.pdf",
+    "title": "AI Survival Stories: a Taxonomic Analysis of AI Existential Risk",
+    "authors": [
+      "Herman Cappelen",
+      "Simon Goldstein",
+      "John Hawthorne"
+    ],
+    "filepath": "documents/AI_Survival_Stories_1749898774.pdf",
+    "upload_date": "2025-06-15T10:33:53.318573",
+    "file_size": 353265,
+    "summary": "This preprint paper proposes a framework for evaluating the existential risk posed by AI systems. The authors analyze an argument that AI systems could pose a threat to humanity, and construct a taxonomy of 'survival stories' where humanity survives into the future. The taxonomy is based on scenarios where one or both of the premises fail, such as scientific barriers preventing AI from becoming extremely powerful, or humanity banning research into AI.",
+    "keywords": [
+      "AI",
+      "Existential Risk",
+      "Philosophy",
+      "Preprint"
+    ],
+    "key_concepts": [
+      "The paper develops a framework for thinking about the existential risk of AI systems.",
+      "The authors analyze an argument that AI systems pose a threat to humanity, with premise one being AI systems will become extremely powerful and premise two being if AI systems become extremely powerful, they will destroy humanity.",
+      "The taxonomy of 'survival stories' is constructed based on scenarios where one or both of the premises fail.",
+      "Scenarios include scientific barriers preventing AI from becoming extremely powerful, or humanity banning research into AI."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "This preprint paper proposes a framework for evaluating the existential risk posed by AI systems."
   },
   {
     "id": "9bc698376b311d256740c1592a653f55",
@@ -4241,19 +4288,26 @@
       "Andrew Ng"
     ],
     "filepath": "documents/Andrew_Ng_Machine_Learning_Yearning_1588404160.pdf",
-    "upload_date": "2025-06-04T21:18:49.724005",
+    "upload_date": "2025-06-15T10:33:54.514570",
     "file_size": 4206689,
-    "summary": "This document is a draft of the book 'Machine Learning Yearning' by Andrew Ng. It discusses various aspects of machine learning strategy, including setting up development and test sets, error analysis, bias and variance, and techniques for reducing avoidable bias.",
+    "summary": "This document is a draft of Andrew Ng's Machine Learning Yearning project, offering insights on effective machine learning strategies. It discusses the importance of scale in driving progress, setting up development and test sets, error analysis, bias and variance, and their impact on machine learning models. The document also provides practical advice on optimizing metrics, iterating quickly, and cleaning mislabeled data.",
     "keywords": [
       "Machine Learning",
       "Andrew Ng",
-      "Yearning",
-      "Deeplearning.ai",
-      "Strategy"
+      "Strategy",
+      "Development Sets",
+      "Test Sets"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "The importance of scale in driving machine learning progress",
+      "Setting up development and test sets for effective iterations",
+      "Error analysis to evaluate ideas and optimize models",
+      "Addressing Bias and Variance for improved model performance",
+      "Practical advice on optimizing metrics, iterating quickly, and cleaning mislabeled data"
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Machine Learning Yearning is a deeplearning.ai project."
+    "content_preview": "A draft of Andrew Ng's Machine Learning Yearning project offers insights on effective machine learning strategies."
   },
   {
     "id": "0d91a02a31534a55110c312b15024a8c",
@@ -4698,29 +4752,36 @@
   {
     "id": "dab15ae416ff4e7f589a25c3a0f28522",
     "filename": "Artificial_Intelligence_Intelligent_Art_1741956153.pdf",
-    "title": "Artificial Intelligence - Intelligent Art?",
+    "title": "Artificial Intelligence and Intelligent Art",
     "authors": [
-      "EckartVoigts",
-      "RobinMarkusAuer",
-      "DietmarElflein",
-      "SebastianKunas",
-      "JanRöhnert",
-      "ChristophSeelinger"
+      "Eckart Voigts",
+      "Robin Markus Auer",
+      "Dietmar Elflein",
+      "Sebastian Kunas",
+      "Jan Röhnert",
+      "Christoph Seelinger"
     ],
     "filepath": "documents/Artificial_Intelligence_Intelligent_Art_1741956153.pdf",
-    "upload_date": "2025-06-05T14:25:24.351285",
+    "upload_date": "2025-06-15T10:33:54.725570",
     "file_size": 3830678,
-    "summary": "This document is an edited volume exploring the intersection of Artificial Intelligence and Art. It features contributions from several authors, including Eckart Voigts, Robin Markus Auer, Dietmar Elflein, Sebastian Kunas, Jan Röhnert, and Christoph Seelinger. The work focuses on various aspects of AI in art, such as its interplay with human cre...",
+    "summary": "This document explores the intersection of artificial intelligence (AI) and art, focusing on the latest research in this field. The authors, a group of scholars from various disciplines, discuss the potential for AI to contribute to the creative process in literature and music. The work delves into the interplay between human and machine creativity, coupled embodied creative systems, and the implications for future artistic production.",
     "keywords": [
       "Artificial Intelligence",
-      "AI",
       "Intelligent Art",
       "Creativity",
-      "Literature"
+      "Literature",
+      "Music"
+    ],
+    "key_concepts": [
+      "The potential of AI to contribute to the creative process in literature and music",
+      "The interplay between human and machine creativity in coupled embodied creative systems",
+      "Implications for future artistic production as a result of AI advancements",
+      "The role of scholars from various disciplines in this interdisciplinary research project",
+      "The impact of AI on the traditional artistic process and the evolution of art"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "EckartVoigts, Robin Markus Auer, Dietmar Elflein, Sebastian Kunas, Jan Röhnert, Christoph Seelinger (eds.) Artificial Intelligence – Intelligent Art?"
+    "content_preview": "This document explores the intersection of AI and art, focusing on the latest research in this field."
   },
   {
     "id": "b83f225e769a2099182f9c6b59af863c",
@@ -4909,26 +4970,32 @@
   {
     "id": "522809cf4df151aeb600185fe5c1a364",
     "filename": "AutoML_1643833051.pdf",
-    "title": "The Springer Series on Challenges in Machine Learning",
+    "title": "Springer Series on Challenges in Machine Learning",
     "authors": [
       "Frank Hutter",
       "Lars Kotthoff",
       "Joaquin Vanschoren"
     ],
     "filepath": "documents/AutoML_1643833051.pdf",
-    "upload_date": "2025-06-03T22:07:02.944515",
+    "upload_date": "2025-06-15T10:33:54.859570",
     "file_size": 6796761,
-    "summary": "This document is a series that focuses on Automated Machine Learning, including methods, systems, challenges, competitions, tutorial material, dataset descriptions, and pointers to data and software. It serves as a complete teaching toolkit for engineers and scientists.",
+    "summary": "This document is a series edited by Frank Hutter, Lars Kotthoff, and Joaquin Vanschoren, focusing on Automated Machine Learning Methods, Systems, and Challenges. It includes competition analyses, tutorial material, dataset descriptions, and pointers to data and software, providing a comprehensive teaching toolkit for engineers and scientists. The series is available at http://www.springer.com/series/15602.",
     "keywords": [
       "Automated Machine Learning",
       "Challenges in Machine Learning",
       "Springer Series",
       "Tutorial Material",
-      "Datasets"
+      "Dataset Descriptions"
+    ],
+    "key_concepts": [
+      "The series offers a complete teaching toolkit for engineers and scientists, including competition analyses, tutorial material, dataset descriptions, and pointers to data and software.",
+      "The books in this series are written in the context of successful machine learning competitions.",
+      "The series is available at http://www.springer.com/series/15602.",
+      "The series editors include Hugo Jair Escalante, Isabelle Guyon, and Sergio Escalera."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "The Springer Series on Challenges in Machine Learning offers a complete teaching toolkit and a valuable resource for engineers and scientists."
+    "content_preview": "This document is a series on Automated Machine Learning Methods, Systems, and Challenges."
   },
   {
     "id": "0e0b6f9f8980030815fdef09c945df4f",
@@ -6997,22 +7064,28 @@
   {
     "id": "d8c0722d31b72dee7e3df20d86b9ceee",
     "filename": "Data Exploration using Pandas.pdf",
-    "title": "Data Exploration using Pandas",
+    "title": "Data Exploration using Pandas Cheat Sheet",
     "authors": [],
     "filepath": "documents/Data Exploration using Pandas.pdf",
-    "upload_date": "2025-06-03T22:07:03.652521",
+    "upload_date": "2025-06-15T10:33:56.090567",
     "file_size": 1288192,
-    "summary": "This is a cheatsheet for data exploration using the Pandas library, covering reading and writing data, previewing dataframes, renaming columns, selecting rows or columns, and handling missing values.",
+    "summary": "This document provides a comprehensive guide on data exploration using the popular Python library, Pandas. It covers reading and writing various data formats (CSV, Excel), previewing dataframes, renaming columns, selecting rows or columns, handling missing values, and more. Practical applications include data cleaning, analysis, and visualization.",
     "keywords": [
       "Pandas",
       "Data Exploration",
-      "Cheatsheet",
-      "CSV",
-      "Excel"
+      "Data Cleaning",
+      "Data Analysis",
+      "Python"
+    ],
+    "key_concepts": [
+      "This document provides a comprehensive guide on data exploration using the popular Python library, Pandas.",
+      "It covers reading and writing various data formats (CSV, Excel) using functions like read_csv(), read_excel(), to_csv(), and to_excel().",
+      "The guide also includes methods for previewing dataframes, renaming columns, selecting rows or columns, and handling missing values.",
+      "Practical applications of this knowledge include data cleaning, analysis, and visualization."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Data Exploration using Pandas Cheatsheet 1. Reading and Writing Data"
+    "content_preview": "This document provides a guide on data exploration using Pandas, covering reading/writing data, previewing dataframes, renaming columns, selecting rows/columns, and handling missing values."
   },
   {
     "id": "c8eeb0f7868b4fe47da3a79118affa6b",
@@ -9807,23 +9880,29 @@
     "filename": "Fair_enough_AI_1748958231.pdf",
     "title": "Fair-Enough AI",
     "authors": [
-      "Jane R. Bambauer",
-      "Tal Z. Zarsky"
+      "Jane R. Bambauer*",
+      "Tal Z. Zarsky**"
     ],
     "filepath": "documents/Fair_enough_AI_1748958231.pdf",
-    "upload_date": "2025-06-05T20:14:20.593697",
+    "upload_date": "2025-06-15T10:33:58.044562",
     "file_size": 871835,
-    "summary": "This document discusses the issue of unfairness in AI, highlighting its potential inaccuracies, biases, disproportionality, exploitability, and opacity. It proposes a strategy for AI ethics officers to navigate the challenges of 'abdication' and 'ad-hoc criticism' in the regulatory landscape by making conscious trade-offs between fairness goals ...",
+    "summary": "This document, published in the Yale Journal of Law & Technology, discusses the issues of unfairness in AI and proposes a strategy for ethics officers to navigate the regulatory landscape. It explains various forms of AI unfairness, advocates for conscious trade-offs between fairness goals, and suggests that an algorithm making well-considered trade-offs between values should be considered 'fair enough' in the absence of clear legal requirements.",
     "keywords": [
       "AI",
       "Unfairness",
       "Ethics",
       "Policy",
-      "Regulation"
+      "Governance"
+    ],
+    "key_concepts": [
+      "AI can be inaccurate, biased, disproportionate, exploitable, and opaque.",
+      "The policy world lacks concrete standards for fair AI and provides little guidance on how to select between competing versions of (un)fairness.",
+      "AI developers should make trade-offs between fairness goals as consciously and intentionally as the context allows.",
+      "In the absence of clear legal requirements, an algorithm that makes well-considered trade-offs between values should be deemed 'fair enough'."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Yale Journal of Law & Technology, Volume 27, Issue 1, Fair-Enough AI, Jane R. Bambauer* and Tal Z. Zarsky**"
+    "content_preview": "This article offers a strategy for AI ethics officers to navigate the 'abdication/ad-hoc criticism' problems in the regulatory landscape."
   },
   {
     "id": "62159e07cb77ccd2685e86287c2f8e5e",
@@ -10049,18 +10128,23 @@
       "Jingbo Zhu"
     ],
     "filepath": "documents/Foundations_of_LLMs_1740948159.pdf",
-    "upload_date": "2025-06-05T20:14:20.718699",
+    "upload_date": "2025-06-15T10:33:58.166562",
     "file_size": 2018961,
-    "summary": "This document explores the foundations of large language models, their impact on artificial intelligence, and how they can acquire knowledge of the world and languages through large-scale language modeling tasks. It discusses the shift in research methodologies in natural language processing due to this discovery.",
+    "summary": "This document explores the foundational aspects of large language models, their origins in natural language processing, and their recent revolutionary impact on artificial intelligence. It discusses how these models can acquire knowledge of the world and languages through large-scale language modeling tasks, leading to a universal model capable of handling diverse problems. The paper delves into the research methodologies that have been influenced by this discovery, shifting from traditional training methods.",
     "keywords": [
       "Large Language Models",
       "Artificial Intelligence",
       "Natural Language Processing",
       "Knowledge Acquisition"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "Large language models can acquire knowledge of the world and languages through large-scale language modeling tasks.",
+      "This discovery has profoundly impacted research methodologies in natural language processing and related disciplines.",
+      "The shift from traditional training methods is a result of the insights brought by large language models."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document explores the foundations of large language models..."
+    "content_preview": "This document explores the foundations of large language models and their impact on artificial intelligence research methodologies."
   },
   {
     "id": "fa39b04233eaf576bbf1eec7b7f19f71",
@@ -10629,6 +10713,33 @@
     "content_preview": "1October 2024 edition A quick-start handbook for effective prompts"
   },
   {
+    "id": "aff1280c71ffc018b90ea36567775caf",
+    "filename": "GenAI_Commission_1749845391.pdf",
+    "title": "Exploring the Intersection of Technology, Society, and Policy: A Generative AI Outlook Report",
+    "authors": [],
+    "filepath": "documents/GenAI_Commission_1749845391.pdf",
+    "upload_date": "2025-06-15T10:33:58.386562",
+    "file_size": 2102605,
+    "summary": "This document is a comprehensive report by the Joint Research Centre (JRC), exploring the intersection of generative AI, technology, society, and policy. It provides evidence-based scientific support to the European policymaking process, discussing the methodology, quality, and implications of data used in this publication. The report does not reflect the position or opinion of the European Commission, and users should contact the referenced source for more information.",
+    "keywords": [
+      "Generative AI",
+      "Technology",
+      "Society",
+      "Policy",
+      "European Commission"
+    ],
+    "key_concepts": [
+      "The report discusses the potential impact of generative AI on various aspects of society and policy, highlighting the need for evidence-based scientific support in policymaking.",
+      "The document employs a rigorous methodology to ensure the quality and reliability of data used in the analysis.",
+      "Key findings from the report suggest potential applications and implications of generative AI in various sectors, including but not limited to, industry, healthcare, and education.",
+      "The theoretical framework of the report is grounded in the principles of scientific research and evidence-based policymaking.",
+      "Practical implications of the report include recommendations for policymakers, researchers, and stakeholders on how to navigate the challenges and opportunities presented by generative AI."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "This document explores the intersection of generative AI, technology, society, and policy."
+  },
+  {
     "id": "5f6c6a22531e6d1436c385c5503204ab",
     "filename": "GenAI_Data_Security_1743591639.pdf",
     "title": "OWASP Top 10 for LLMs and Gen AI Data Security Best Practices Guide",
@@ -10768,19 +10879,23 @@
       "Michael Charles Borrelli"
     ],
     "filepath": "documents/General purpose ai Report_1741622664.pdf",
-    "upload_date": "2025-06-05T20:14:20.956704",
+    "upload_date": "2025-06-15T10:33:58.429562",
     "file_size": 842205,
-    "summary": "This report, prepared by Sean Donald John Musch and Michael Charles Borrelli, discusses the General-Purpose AI Code of Practice, its necessity, and regulations. It highlights the work of AI & Partners in defending digital rights and advocating for fundamental rights in the artificial intelligence age.",
+    "summary": "This report, prepared by Sean Donald John Musch and Michael Charles Borrelli, discusses the General-Purpose AI Code of Practice. It explains why regulations are necessary for general-purpose AI models, outlines frequently asked questions about the code, and provides content on its contents. The document is published by AI & Partners, an organization that defends and extends digital rights of users at risk worldwide.",
     "keywords": [
-      "General Purpose AI",
+      "General-Purpose AI",
       "Code of Practice",
       "Regulations",
-      "Digital Rights",
       "AI & Partners"
+    ],
+    "key_concepts": [
+      "AI & Partners is an organization that fights for fundamental rights in the artificial intelligence age, providing technical support, policy engagement, advocacy, and more.",
+      "The General-Purpose AI Code of Practice is a set of regulations necessary for general-purpose AI models to ensure digital rights are protected.",
+      "This report addresses frequently asked questions about the General-Purpose AI Code of Practice and its importance."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This report was prepared by Sean Donald John Musch and Michael Charles Borrelli. For more information visit https://www.ai -and-partners.com/ ..."
+    "content_preview": "This report discusses the General-Purpose AI Code of Practice and its regulations."
   },
   {
     "id": "7b03c3fe4681fb95b0dc4d1631073be1",
@@ -11801,6 +11916,35 @@
     "content_preview": "This document discusses the evolution of Generative AI in 2025, focusing on custom GPTs and new models like DeepSeek and Grok."
   },
   {
+    "id": "31a60c239891a8367d984ee7ba69d840",
+    "filename": "How_build_your_career_in_AI_1749937673.pdf",
+    "title": "How to Build Your Career in AI: A Simple Guide by Andrew Ng",
+    "authors": [
+      "Andrew Ng"
+    ],
+    "filepath": "documents/How_build_your_career_in_AI_1749937673.pdf",
+    "upload_date": "2025-06-15T10:33:58.921561",
+    "file_size": 3725566,
+    "summary": "This guide offers a comprehensive roadmap for building a career in Artificial Intelligence (AI), emphasizing the transformative potential of AI and providing insights from Andrew Ng, founder of DeepLearning.AI. The document covers topics such as technical skills, math, project scoping, portfolio building, job search strategies, informational interviews, finding the right job, and overcoming imposter syndrome.",
+    "keywords": [
+      "Career in AI",
+      "Andrew Ng",
+      "DeepLearning.AI",
+      "Technical Skills",
+      "Math"
+    ],
+    "key_concepts": [
+      "AI is the new electricity and will transform human life.",
+      "Coding AI is the new literacy for career growth.",
+      "Learning technical skills is crucial for a promising AI career.",
+      "Math can be beneficial but not always necessary for an AI job.",
+      "Successful AI projects should align with your career goals."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Guide offers insights from Andrew Ng on building a career in AI."
+  },
+  {
     "id": "257097752cbeed4afe5fa50f119fac71",
     "filename": "How_to_Choose_the_Right_Data_Visualization_1711092568.pdf",
     "title": "How to Choose the Right Data Visualization",
@@ -12373,22 +12517,29 @@
   {
     "id": "ae615c79590ca4648a585b14cf5ae5eb",
     "filename": "Image_Processing_1705858028.pdf",
-    "title": "Image Processing using Python",
+    "title": "Image Processing Techniques Using Morphological Analysis",
     "authors": [],
     "filepath": "documents/Image_Processing_1705858028.pdf",
-    "upload_date": "2025-06-03T22:07:05.079533",
+    "upload_date": "2025-06-15T10:33:59.214560",
     "file_size": 375421,
-    "summary": "This document provides a tutorial on image processing techniques such as erosion, dilation, and morphological analysis using libraries like OpenCV and Matplotlib. It demonstrates these operations on an input image.",
+    "summary": "This document provides a practical guide on using morphological analysis for image processing. It demonstrates the use of OpenCV library to perform erosion, dilation, and combined erosion and dilation operations on an input image. The code snippets provided show how to create kernels, apply these operations, and visualize the results.",
     "keywords": [
-      "image processing",
+      "Image Processing",
+      "Morphological Analysis",
       "OpenCV",
-      "Matplotlib",
-      "erosion",
-      "dilation"
+      "Erosion",
+      "Dilation"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "Morphological analysis is a technique used in image processing to analyze and modify images by considering their shapes and sizes.",
+      "Erosion is an operation that removes pixels from the edges of an image, reducing its size.",
+      "Dilation is an operation that adds pixels on the edges of an image, increasing its size.",
+      "Combining erosion and dilation can help to enhance the edges of an image while preserving its overall structure.",
+      "The OpenCV library is a popular open-source computer vision and machine learning software library."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a tutorial on image processing techniques such as erosion, dilation, and morphological analysis using libraries like OpenCV and Matplotlib."
+    "content_preview": "This document demonstrates image processing techniques using morphological analysis with the OpenCV library."
   },
   {
     "id": "195540dda6bd0ade86bbe769aaf00ef1",
@@ -13397,22 +13548,29 @@
   {
     "id": "68cc7176f0e4edb05a2b7696f299dc16",
     "filename": "Keras Cheats.pdf",
-    "title": "Keras Cheats.pdf",
+    "title": "Python for Data Science Cheat Sheet with Keras",
     "authors": [],
     "filepath": "documents/Keras Cheats.pdf",
-    "upload_date": "2025-06-05T14:25:29.330262",
+    "upload_date": "2025-06-15T10:33:59.894558",
     "file_size": 139989,
-    "summary": "This document provides a cheat sheet for using Keras, a powerful deep learning library for Theano and TensorFlow. It includes information on model architecture, fine-tuning, optimization parameters, and examples of basic usage.",
+    "summary": "This document provides a comprehensive cheat sheet for Python data science using the Keras library. It covers topics such as model architecture, fine-tuning, optimization parameters, preprocessing techniques like One-Hot Encoding, and practical examples of building and training deep learning models. The document is interactive and can be found on DataCamp.",
     "keywords": [
-      "Keras",
-      "Deep Learning",
       "Python",
       "Data Science",
+      "Keras",
+      "Deep Learning",
       "Neural Networks"
+    ],
+    "key_concepts": [
+      "Keras is a powerful and easy-to-use deep learning library for Theano and TensorFlow that provides a high-level neural networks API.",
+      "The document demonstrates how to develop and evaluate deep learning models using Keras, including setting up model architecture and fine-tuning optimization parameters.",
+      "Practical example of building and training a simple binary classification model with Keras, using the Sequential model and Dense layers.",
+      "Preprocessing techniques like One-Hot Encoding are covered to prepare data for deep learning models.",
+      "The document is interactive and can be found on DataCamp for further learning."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Learn Python for data science Interactively at www.DataCamp.com\nKeras"
+    "content_preview": "This document provides a cheat sheet for Python data science with Keras, covering topics like model architecture, fine-tuning, and preprocessing techniques."
   },
   {
     "id": "bd97085b138a8c4f829b86e983918efe",
@@ -19130,19 +19288,26 @@
       "Gabriel Peyr\u0013 e"
     ],
     "filepath": "documents/Optimization_for_Machine_Learning_1630616567.pdf",
-    "upload_date": "2025-06-04T21:18:54.134034",
+    "upload_date": "2025-06-15T10:34:03.162551",
     "file_size": 9282151,
-    "summary": "This document presents first order optimization methods and their applications to machine learning. The course covers basic theoretical properties of optimization problems, the gradient descent method, stochastic gradient method, automatic differentiation, shallow and deep networks.",
+    "summary": "This document presents first order optimization methods and their applications to machine learning, focusing on scalable methods that can handle large datasets and models with many parameters. The course covers basic theoretical properties of optimization problems, gradient descent, stochastic gradient method, automatic differentiation, shallow and deep networks.",
     "keywords": [
       "Optimization",
       "Machine Learning",
       "Gradient Descent",
-      "Stochastic Gradient",
+      "Stochastic Gradient Method",
       "Automatic Differentiation"
+    ],
+    "key_concepts": [
+      "This document presents first order optimization methods and their applications to machine learning.",
+      "The course covers basic theoretical properties of optimization problems, including convex analysis and first order differential calculus.",
+      "The focus is on scalable methods that can handle large datasets and models with many parameters.",
+      "The methods discussed are variations around the notion of gradient descent.",
+      "The course covers shallow and deep networks."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document presents first order optimization methods and their applications to machine learning."
+    "content_preview": "This document presents first order optimization methods for machine learning."
   },
   {
     "id": "6579a1523eb65017587277277c3ea9dd",
@@ -19818,21 +19983,29 @@
   {
     "id": "31856127d2cbd7caeeb9cddf53185e6b",
     "filename": "Practical_Guide_to_SQL_basics_1570568809.pdf",
-    "title": "Practical Guide to SQL basics",
+    "title": "Practical Guide to SQL Basics",
     "authors": [],
     "filepath": "documents/Practical_Guide_to_SQL_basics_1570568809.pdf",
-    "upload_date": "2025-06-04T21:18:54.310035",
+    "upload_date": "2025-06-15T10:34:03.433550",
     "file_size": 505792,
-    "summary": "This document provides a guide on understanding data in a retail context, focusing on organizing and interpreting data for a company like ABC Companies Limited. It explains the concept of data and its organization using SQL, with examples of various entities such as customers, employees, suppliers, shareholders, creditors, products, stores, and ...",
+    "summary": "This document provides a comprehensive guide on understanding and organizing data in a relational database management system (RDBMS) using SQL, with practical examples from a hypothetical retail company named ABC Companies Limited. The document covers the structure of tables for customers, employees, suppliers, shareholders, creditors, products, stores, and sales, and explains how to represent and analyze data in both unorganized and organized formats.",
     "keywords": [
       "SQL",
       "Data Organization",
-      "Retail Data",
-      "Tabular Data Representation"
+      "Relational Database Management System",
+      "RDBMS",
+      "ABC Companies Limited"
+    ],
+    "key_concepts": [
+      "Data is a set of values with respect to variables, such as Name, Age, Units, Price, etc.",
+      "Organized data is represented in a tabular form for easy interpretation and analysis.",
+      "SQL can be used to analyze and manipulate organized data in RDBMS.",
+      "The document provides practical examples of SQL queries for analyzing data from a retail company.",
+      "Understanding the structure of tables in an RDBMS is essential for effective data analysis."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A few product Id’s and Units at a particular store of ABC Companies Ltd is as follows:"
+    "content_preview": "This document provides a guide on understanding and organizing data using SQL, with practical examples from a retail company."
   },
   {
     "id": "6fe72b52a6c0b2623548535b98d4a7bf",
@@ -20598,23 +20771,31 @@
   {
     "id": "af95da018218b5dfa286f4a10a471188",
     "filename": "Python_1747291020.pdf",
-    "title": "How to Think Like a Computer Scientist (Second Edition)",
+    "title": "How to Think Like a Computer Scientist (Python 3rd Edition)",
     "authors": [
       "Allen B. Downey"
     ],
     "filepath": "documents/Python_1747291020.pdf",
-    "upload_date": "2025-06-06T03:10:12.976914",
+    "upload_date": "2025-06-15T10:34:03.642550",
     "file_size": 1949867,
-    "summary": "This document is the second edition of Allen B. Downey's 'Think Python', updated for Python 3. It provides an introduction to computer science, focusing on problem-solving and programming in Python.",
+    "summary": "This document provides an introduction to programming and computer science concepts using the Python programming language. It covers topics such as data structures, algorithms, and problem-solving strategies. The book emphasizes practical applications and encourages readers to write code and solve problems on their own. This edition has been updated for Python 3.",
     "keywords": [
       "Python",
-      "Computer Science",
       "Programming",
-      "Allen B. Downey"
+      "Computer Science",
+      "Algorithms",
+      "Data Structures"
+    ],
+    "key_concepts": [
+      "Learn programming concepts using the Python language",
+      "Understand problem-solving strategies and write code to solve problems",
+      "Gain practical experience by writing and debugging code",
+      "Explore data structures such as lists, dictionaries, and classes",
+      "Implement algorithms for common tasks like sorting and searching"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Think Python SECOND EDITION"
+    "content_preview": "Learn Python programming with practical applications and problem-solving strategies."
   },
   {
     "id": "eed162373d4b10f64d64180d72053a0c",
@@ -21749,19 +21930,26 @@
     "title": "Robotic Process Automation (RPA) in BFSI by Tangentia",
     "authors": [],
     "filepath": "documents/RPA_for_BFSI_1567265243.pdf",
-    "upload_date": "2025-06-04T21:18:54.785038",
+    "upload_date": "2025-06-15T10:34:04.354548",
     "file_size": 448530,
-    "summary": "This document discusses the implementation of Robotic Process Automation (RPA) by Tangentia in the Banking, Financial Services, and Insurance (BFSI) sector. It covers areas such as complex journal entries, account reconciliations, allocations, fixed-asset accounts, financial planning and analysis, standard management reports, budget and forecast...",
+    "summary": "This document discusses the application of Robotic Process Automation (RPA) in the Banking, Financial Services, and Insurance (BFSI) sector by Tangentia. The automation is demonstrated through complex journal entries, account reconciliations, allocations maintenance, fixed-asset accounts, financial planning, and analysis. Key areas include building standard management reports, consolidating and validating budget and forecast inputs, and gathering and cleaning data for analysts.",
     "keywords": [
       "RPA",
-      "Tangentia",
       "BFSI",
+      "Tangentia",
       "Automation",
-      "Accounting"
+      "Journal Entries"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "Robotic Process Automation (RPA) is a technology used to automate high-volume, repetitive tasks in the BFSI sector.",
+      "Tangentia provides RPA solutions for complex journal entries, account reconciliations, and fixed-asset accounts management.",
+      "The RPA solution by Tangentia performs and documents account reconciliations, calculates and applies allocations, and maintains fixed-asset accounts.",
+      "In financial planning and analysis, Tangentia's RPA solution builds standard management reports, consolidates and validates budget and forecast inputs, and gathers and cleans data for analysts.",
+      "The theoretical framework of this document lies in the application of RPA to streamline and optimize BFSI operations."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Discusses RPA implementation in BFSI by Tangentia, covering areas like complex journal entries, account reconciliations, allocations, fixed-asset accounts, financial planning and analysis."
+    "content_preview": "This document discusses the use of Robotic Process Automation (RPA) in the BFSI sector by Tangentia."
   },
   {
     "id": "b7f200d28a8c4773e7a1a9f132e3ea25",
@@ -23060,6 +23248,32 @@
     "content_preview": "Simplifying Machine Learning with PyCaret: A Low-code Approach for Beginners and Experts!"
   },
   {
+    "id": "a094798d58a15c58528750e4be2d9769",
+    "filename": "Simplifying_the_EU_Tech_Rulebook_ITI_Report_1749942424.pdf",
+    "title": "Simplifying the EU's Tech Rulebook",
+    "authors": [],
+    "filepath": "documents/Simplifying_the_EU_Tech_Rulebook_ITI_Report_1749942424.pdf",
+    "upload_date": "2025-06-15T10:34:04.885547",
+    "file_size": 7090631,
+    "summary": "This document presents a report by ITI (www.itic.org) that discusses the complexity of Europe's digital regulatory framework, particularly in areas like platform rules, privacy, AI, and cybersecurity. The report highlights how this complexity leads to legal uncertainty, administrative burdens, and potential discouragement of investment and innovation. It suggests that simplifying the EU rulebook is crucial for strengthening Europe's competitiveness, benefiting both businesses and consumers. The EU is recommended to conduct an ambitious assessment of existing and proposed tech rules with the aim of mapping and simplifying legal overlaps.",
+    "keywords": [
+      "EU Tech Rulebook",
+      "Regulatory Simplification",
+      "Digital Regulation",
+      "Innovation",
+      "Competitiveness"
+    ],
+    "key_concepts": [
+      "The complexity of Europe's digital regulatory framework creates legal uncertainty and administrative burdens, potentially discouraging investment and innovation.",
+      "Simplifying the EU rulebook is key to strengthening Europe's competitiveness for the benefit of both businesses and consumers.",
+      "An ambitious assessment of existing and proposed tech rules should be conducted to map and simplify legal overlaps.",
+      "The report emphasizes the need for a streamlined approach in overarching guidance and issue-specific recommendations."
+    ],
+    "category": "Business",
+    "difficulty": "Intermediate",
+    "content_preview": "This document presents a report by ITI on simplifying Europe's digital regulatory framework, particularly in areas like platform rules, privacy, AI, and cybersecurity."
+  },
+  {
     "id": "f4d69e75db926c05efa3f6b5e41d5e1c",
     "filename": "Simulating_Human_Behavior_with_AI_Agents_1749156192.pdf",
     "title": "Simulating Human Behavior with AI Agents",
@@ -24106,21 +24320,30 @@
     "id": "94f3f0b806358885eb47ac68590ce287",
     "filename": "Technology_Convergence_Report_2025_1749210434.pdf",
     "title": "Technology Convergence Report 2025",
-    "authors": [],
+    "authors": [
+      "World Economic Forum"
+    ],
     "filepath": "documents/Technology_Convergence_Report_2025_1749210434.pdf",
-    "upload_date": "2025-06-09T20:06:56.035256",
+    "upload_date": "2025-06-15T10:34:05.747545",
     "file_size": 83003232,
-    "summary": "This report by the World Economic Forum explores how AI is converging with other technologies to reshape the future. Key areas of focus include omni compute, engineering biology, spatial intelligence, robotics, advanced materials, next-gen energy, quantum computing, and real-time AI delivery. The report highlights the potential benefits of these...",
+    "summary": "This report by the World Economic Forum explores how Artificial Intelligence (AI) is converging with other technologies such as omni compute, engineering biology, spatial intelligence, robotics, advanced materials, next-gen energy, quantum computing, and decentralized intelligent systems. The convergence of these technologies is expected to reshape the future by amplifying innovation across various domains. Key focus areas include real-time AI delivery, faster decisions, lower latency, greater privacy, and applications in IoT, autonomous vehicles, and sensors.",
     "keywords": [
-      "AI",
+      "Artificial Intelligence",
       "Technology Convergence",
-      "World Economic Forum",
       "Omni Compute",
-      "Engineering Biology"
+      "Engineering Biology",
+      "Spatial Intelligence"
+    ],
+    "key_concepts": [
+      "Artificial intelligence is central to the shift in technology convergence, amplifying innovation across every other domain.",
+      "Omni compute makes real-time AI delivery possible, unlocking faster decisions, lower latency, and greater privacy.",
+      "The convergence of AI with technologies like robotics, IoT, and sensors will have significant implications for various industries, including transportation and manufacturing.",
+      "Decentralized intelligent systems and the Internet of Robotic Things (loRT) are key components of this technology convergence landscape.",
+      "This report highlights the potential of technology convergence to reshape the future and drive innovation across multiple domains."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This report by the World Economic Forum explores how AI is converging with other technologies to reshape the future."
+    "content_preview": "Exploring how AI is converging with other technologies to reshape the future."
   },
   {
     "id": "2e1519dd2934db7b2b72d8c542292b5e",
@@ -25301,7 +25524,7 @@
   {
     "id": "5a7a61f2db1e15ca9b6bf5df9d44c506",
     "filename": "The_state_of_AI_2025_McKinsey_1742549379.pdf",
-    "title": "The state of AI 2025 - McKinsey",
+    "title": "The State of AI 2025 - McKinsey",
     "authors": [
       "Alex Singla",
       "Alexander Sukharevsky",
@@ -25310,19 +25533,26 @@
       "Bryce Hall"
     ],
     "filepath": "documents/The_state_of_AI_2025_McKinsey_1742549379.pdf",
-    "upload_date": "2025-06-05T14:25:35.212235",
+    "upload_date": "2025-06-15T10:34:06.374543",
     "file_size": 5650820,
-    "summary": "This document discusses how organizations are structuring and processes to capture value from general AI. It highlights the steps taken by large companies, organizational changes, risk mitigation strategies, new roles in AI, employee retraining, and faster adoption by larger companies. The use of AI continues to build momentum with over three-qu...",
+    "summary": "This document discusses the progress made by organizations in leveraging Generative AI (gen AI) for value creation. The report highlights organizational changes, such as redesigning workflows and elevating governance, to capture future value from gen AI. It also emphasizes the mitigation of associated risks and the hiring of new roles while retraining employees. Larger companies are leading this transformation, with 75% of respondents using AI in at least one business function, particularly gen AI.",
     "keywords": [
       "AI",
-      "General AI",
+      "Generative AI",
       "Organizations",
-      "Value capture",
-      "Risk mitigation"
+      "Value creation",
+      "Workflows"
+    ],
+    "key_concepts": [
+      "Organizations are redesigning workflows and elevating governance to capture future value from Generative AI.",
+      "Large companies are leading the way in organizational changes designed to generate future value from Generative AI.",
+      "The report finds that organizations are working to mitigate a growing set of Generative AI-related risks and are hiring for new AI-related roles while retraining employees.",
+      "Companies with at least $500 million in annual revenue are changing more quickly than smaller organizations in adopting Generative AI.",
+      "The use of Generative AI, as well as Analytical AI, continues to build momentum, with 75% of respondents using AI in at least one business function."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "The state of AI    March 2025"
+    "content_preview": "Organizations are rewiring to capture value from Generative AI."
   },
   {
     "id": "0602f9463ba67b809f261ee81a023eb9",
@@ -28054,17 +28284,26 @@
     "title": "Deep Learning: A Comprehensive Guide",
     "authors": [],
     "filepath": "documents/intro_to_Deep_Learning_1707251482.pdf",
-    "upload_date": "2025-06-03T22:07:09.209566",
+    "upload_date": "2025-06-15T10:34:07.686540",
     "file_size": 564135,
-    "summary": "This document introduces deep learning, a branch of machine learning using artificial neural networks to learn complex patterns in data. It discusses the advantages of deep learning such as robustness, flexibility, high dimensionality, unsupervised learning, fast insights, and efficient information retention.",
+    "summary": "This document provides an introduction to deep learning, a branch of machine learning that utilizes artificial neural networks (ANNs) to learn complex patterns in data. It discusses the advantages of deep learning, such as its robustness, flexibility, and ability to handle high dimensionality. The document also covers popular deep learning architectures like CNNs, RNNs, and DBNs, and addresses the challenges of training deep neural networks. Lastly, it highlights the applications of deep learning in areas like image recognition, natural language processing, speech recognition, and recommendation systems.",
     "keywords": [
       "Deep Learning",
       "Artificial Neural Networks",
-      "Machine Learning"
+      "Machine Learning",
+      "CNNs",
+      "RNNs"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Deep learning is a branch of machine learning using ANNs to learn complex patterns and relationships in data.",
+      "ANNs are inspired by the human brain and learn from large amounts of data without explicit programming.",
+      "Deep learning uses deep neural networks with multiple layers, enabling them to discover intricate data patterns.",
+      "Unlike traditional machine learning, deep learning automatically learns and improves through data, reducing manual feature engineering.",
+      "Deep learning has achieved success in areas like image recognition, natural language processing, speech recognition, and recommendation systems."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Deep learning is a branch of machine learning using artificial neural networks to learn complex patterns and relationships in data."
+    "content_preview": "This document introduces deep learning, a powerful machine learning technique."
   },
   {
     "id": "b750447d6dff5f944a04347ee1016d17",
@@ -28334,9 +28573,9 @@
       "Shivam Modi"
     ],
     "filepath": "documents/learneverythingai__1715292156.pdf",
-    "upload_date": "2025-06-04T21:18:56.147046",
+    "upload_date": "2025-06-15T10:34:07.752540",
     "file_size": 159797,
-    "summary": "A quick reference guide for Python programming concepts including variables, data types, control flow, functions, lists, dictionaries, modules and packages, file handling, exception handling, classes and objects, inheritance and polymorphism.",
+    "summary": "This document provides a comprehensive guide to Python programming concepts, covering variables and data types, control flow, functions, lists, dictionaries, modules and packages, file handling, exception handling, classes and objects, inheritance and polymorphism, error and exception handling, and concludes with a brief introduction. It serves as a quick reference for both beginners and experienced programmers.",
     "keywords": [
       "Python",
       "Programming",
@@ -28344,9 +28583,16 @@
       "Variables",
       "Data Types"
     ],
+    "key_concepts": [
+      "Python is a high-level, interpreted programming language known for its simplicity and readability.",
+      "A variable in Python is a named location in memory used to store data, with case-sensitive names that can contain letters, numbers, and underscores.",
+      "Python has several built-in data types, including numeric (int, float, complex), sequence (list, tuple, range), mapping (dict), set, and more.",
+      "Control flow in Python is managed through conditional statements and loops, allowing for decision making and repetition of code blocks.",
+      "Functions in Python are reusable pieces of code that perform specific tasks, and can take input parameters and return output values."
+    ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Python is a high-level, interpreted programming language known for its simplicity and readability."
+    "content_preview": "This cheatsheet provides a quick reference for Python programming concepts."
   },
   {
     "id": "e07ff30f685ace9c20c23de8bc277b64",
@@ -29158,22 +29404,29 @@
   {
     "id": "90e933469deaaafe97435cdc51b65bbf",
     "filename": "spaCy_Advanced_NLP_in_Python_1627300147 (1).pdf",
-    "title": "Advanced NLP in Python with spaCy",
+    "title": "Advanced NLP with spaCy in Python",
     "authors": [],
     "filepath": "documents/spaCy_Advanced_NLP_in_Python_1627300147 (1).pdf",
-    "upload_date": "2025-06-05T20:14:29.981867",
+    "upload_date": "2025-06-15T10:34:08.028539",
     "file_size": 2519193,
-    "summary": "This document provides a tutorial on using the spaCy library for Natural Language Processing (NLP) in Python, including loading and validating the model, creating Doc and Span objects, and utilizing part-of-speech tags.",
+    "summary": "This document provides a comprehensive guide on using the spaCy library for Natural Language Processing (NLP) tasks in Python. It covers topics such as installing and validating the model, loading the model, working with Doc and Span objects, understanding part-of-speech tags, and utilizing word vectors. The document also introduces displacy for visualizing the data and suggests using larger models for better performance.",
     "keywords": [
       "spaCy",
-      "Python",
-      "Natural Language Processing",
       "NLP",
-      "part-of-speech"
+      "Python",
+      "Data Science",
+      "Text Processing"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "This guide explains how to use spaCy, a popular NLP library in Python.",
+      "The document demonstrates the installation and validation of the spaCy model, as well as loading it into memory.",
+      "It shows how to work with Doc and Span objects, which are essential for text analysis tasks.",
+      "The guide explains part-of-speech tags, including coarse-grained and fine-grained tags.",
+      "Lastly, the document introduces displacy for visualizing NLP data."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Learn spaCy online at www .D at aCamp.com\n$>>> python -m spacy download en_core_web_sm"
+    "content_preview": "This guide explains how to use spaCy, a popular NLP library in Python."
   },
   {
     "id": "8180e9bac611ba3365e342d9b7ac0722",
