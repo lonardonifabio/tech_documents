@@ -30,10 +30,10 @@ const { title, description = "Automated AI/Data Science Document Library" } = As
     <link rel="preload" href={`${import.meta.env.BASE_URL}data/documents.json`} as="fetch" crossorigin="anonymous">
     
     <!-- PWA Meta Tags -->
-    <meta name="theme-color" content="#667eea">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="AI Doc Library">
+    <!-- <meta name="theme-color" content="#667eea"> -->
+    <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+    <!-- <meta name="apple-mobile-web-app-status-bar-style" content="default"> -->
+    <!-- <meta name="apple-mobile-web-app-title" content="AI Doc Library"> -->
     
     
     <!-- Enhanced Open Graph for LinkedIn sharing -->
@@ -53,6 +53,7 @@ const { title, description = "Automated AI/Data Science Document Library" } = As
     <!-- LinkedIn specific optimizations -->
     <meta property="article:author" content="Fabio Lonardoni">
     <meta property="linkedin:owner" content="Fabio Lonardoni">
+    <meta property="og:rich_attachment" content="true">
     
     <!-- Additional meta tags for better social sharing -->
     <meta name="author" content="Fabio Lonardoni">
@@ -60,13 +61,13 @@ const { title, description = "Automated AI/Data Science Document Library" } = As
     <link rel="canonical" href={`https://lonardonifabio.github.io/tech_documents${Astro.url.pathname}`}>
     
     <!-- Enhanced Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content={title}>
-    <meta name="twitter:description" content={description}>
-    <meta name="twitter:image" content="https://www.fabiolonardoni.it/AIdatasciencelibrary_cover.JPG">
-    <meta name="twitter:image:alt" content="AI & Data Science Document Library">
-    <meta name="twitter:site" content="@fabiolonardoni">
-    <meta name="twitter:creator" content="@fabiolonardoni">
+    <!--<meta name="twitter:card" content="summary_large_image">-->
+    <!--<meta name="twitter:title" content={title}>-->
+    <!--<meta name="twitter:description" content={description}>-->
+    <!--<meta name="twitter:image" content="https://www.fabiolonardoni.it/AIdatasciencelibrary_cover.JPG">-->
+    <!--<meta name="twitter:image:alt" content="AI & Data Science Document Library">-->
+    <!--<meta name="twitter:site" content="@fabiolonardoni">-->
+    <!--<meta name="twitter:creator" content="@fabiolonardoni">-->
   </head>
   <body class="bg-gray-50 min-h-screen">
     <slot />

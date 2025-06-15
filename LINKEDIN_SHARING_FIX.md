@@ -5,8 +5,16 @@
 ### Issue Description
 When sharing the AI & Data Science Document Library on LinkedIn via mobile (iPhone), the platform was only displaying the URL without rich preview content (title, description, image). However, other platforms like WhatsApp were correctly displaying the full content preview.
 
-### Root Cause
-The issue was caused by incomplete or improperly configured Open Graph meta tags. LinkedIn has specific requirements for social media previews that were not fully met in the original implementation.
+### Root Cause Analysis
+The issue had **two critical problems**:
+
+1. **Incomplete Open Graph meta tags**: LinkedIn has specific requirements for social media previews that were not fully met
+2. **Auto-redirect interference**: The document pages had a 100ms auto-redirect script that prevented LinkedIn's crawler from reading the meta tags before being redirected to the main app
+
+This explains why:
+- **Mobile sharing failed**: LinkedIn's crawler couldn't read meta tags due to immediate redirect
+- **Desktop preview was inconsistent**: Sometimes worked, sometimes showed generic info due to timing issues
+- **WhatsApp worked**: WhatsApp's crawler was faster or handled redirects differently
 
 ## 🛠️ Solution Implementation
 
