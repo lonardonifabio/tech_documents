@@ -27880,13 +27880,11 @@
     "id": "326fa434363380ece09cee9219b9b2a9",
     "filename": "nire0510_aws-services.pdf",
     "title": "AWS Services Explained",
-    "authors": [
-      "nire0510"
-    ],
+    "authors": [],
     "filepath": "documents/nire0510_aws-services.pdf",
-    "upload_date": "2025-06-05T14:25:36.536230",
+    "upload_date": "2025-06-14T22:31:47.038630",
     "file_size": 69833,
-    "summary": "This document provides an overview of various Amazon Web Services (AWS) such as VPC, Direct Connect, Route 53, EC2, Elastic Beanstalk, Lambda, EC2 Container Service, Mobile Hub, Device Farm, SNS, Cognito, and Mobile Analytics.",
+    "summary": "This document provides an overview of various Amazon Web Services (AWS) such as VPC, Direct Connect, Route 53, EC2, Elastic Beanstalk, Lambda, EC2 Container Service, Mobile Hub, Device Farm, SNS, Cognito, and Mobile Analytics. It explains their functionalities, benefits, and use cases in a beginner-friendly manner.",
     "keywords": [
       "AWS",
       "Amazon Web Services",
@@ -27894,9 +27892,16 @@
       "Direct Connect",
       "Route 53"
     ],
+    "key_concepts": [
+      "This document explores fundamental concepts related to aws services explained providing theoretical foundations and practical insights for understanding the subject matter.",
+      "The methodology presented in this work demonstrates systematic approaches to technology with emphasis on evidence-based practices and proven techniques.",
+      "Key findings and applications discussed include real-world implementations and case studies that illustrate the practical value of the concepts presented in this document.",
+      "The theoretical framework underlying this work builds upon established principles in technology while introducing innovative perspectives and methodologies.",
+      "Practical implications of this research extend to various domains where technology principles can be applied to solve complex problems and improve outcomes."
+    ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "AWS Services by nire0510 via cheatography.com/23531/cs/7421/\nVPC\nAmazon Virtual Private Cloud (VPC) lets you launch AWS resources in a private, isolated cloud."
+    "content_preview": "Document: AWS Services Explained"
   },
   {
     "id": "4898dee1e50f7fb2d62211c5fdb0fe8d",
