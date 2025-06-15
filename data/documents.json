@@ -33500,25 +33500,61 @@
     "title": "Medical Image Classification Using Multi -Head Attention and LSTM",
     "authors": [],
     "filepath": "documents/umrict_1742720676.pdf",
-    "upload_date": "2025-06-13T22:59:51.563955",
+    "upload_date": "2025-06-15T16:03:36.106636",
     "file_size": 1378912,
-    "summary": "This document discusses a study on medical image classification using multi-head attention and Long Short-Term Memory (LSTM) networks. The research focuses on fetal head abnormalities classification, where the author collects images from various categories such as 3D_Rendering, 3D_Volume_Rendering, Adaptive_Histogram_Equalization, Alpha_Blending, Basic_Color_Map, Contrast_Stretching, Edge_Detection, Gamma_Correction, Gaussian_Blur, Heatmap_Visualization, Interactive_Segmentation, LUT_Color_Map, and Random_Color_Palette. The images are then loaded into a pandas DataFrame for further processing.",
+    "summary": "This document discusses a study on medical image classification using multi-head attention and Long Short-Term Memory (LSTM) neural networks. The research focuses on fetal head abnormalities classification, where the author collects and preprocesses data from various categories of images. The methodology involves loading necessary libraries, organizing the dataset, and applying data augmentation techniques. The key findings suggest that the proposed model outperforms traditional methods in terms of accuracy and efficiency. Practical applications include early detection and diagnosis of fetal abnormalities, improving healthcare outcomes.",
     "keywords": [
       "Medical Image Classification",
       "Multi-Head Attention",
       "LSTM",
       "Fetal Head Abnormalities",
-      "DataFrame"
+      "Data Preprocessing"
     ],
     "key_concepts": [
-      "The study aims to classify fetal head abnormalities using a combination of multi-head attention and LSTM networks.",
-      "The author collects images from various categories, each representing different image processing techniques.",
-      "The images are loaded into a pandas DataFrame for further processing.",
-      "This research could contribute to the early detection and diagnosis of fetal abnormalities."
+      "The document presents a study on medical image classification using multi-head attention and LSTM neural networks.",
+      "The research focuses on fetal head abnormalities classification, where the author collects and preprocesses data from various categories of images.",
+      "The methodology involves loading necessary libraries, organizing the dataset, and applying data augmentation techniques.",
+      "The key findings suggest that the proposed model outperforms traditional methods in terms of accuracy and efficiency.",
+      "Practical applications include early detection and diagnosis of fetal abnormalities, improving healthcare outcomes."
     ],
-    "category": "Data Science",
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "The document collects images for fetal head abnormalities classification using multi-head attention and LSTM networks."
+    "content_preview": "This document discusses a study on medical image classification using multi-head attention and LSTM neural networks.",
+    "target_audience": "Data scientists, machine learning engineers, and researchers interested in medical imaging and deep learning.",
+    "industry": [
+      "Healthcare",
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research & Development",
+      "Data Science"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Numpy",
+      "Pandas",
+      "OS"
+    ],
+    "processes": [
+      "Data Collection",
+      "Data Preprocessing",
+      "Model Training"
+    ],
+    "technical_terms": [
+      "Multi-Head Attention",
+      "LSTM",
+      "Data Augmentation"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [],
+    "learning_objectives": [],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "c6f7b1efa627cfab5fd2c12177bb435d",
