@@ -22758,19 +22758,26 @@
       "Shervine Amidi"
     ],
     "filepath": "documents/Supervised Learning - Quick Refresher.pdf",
-    "upload_date": "2025-06-03T22:07:08.344559",
+    "upload_date": "2025-06-14T22:31:44.537627",
     "file_size": 656642,
-    "summary": "This document provides a refresher on supervised learning, discussing the types of predictive models (regression and classifier), models (discriminative and generative), and common loss functions. It also introduces the hypothesis and cost function.",
+    "summary": "This document provides a concise overview of supervised learning, discussing the types of predictive models (regression and classifier), models (discriminative and generative), and common loss functions (least squared, logistic, hinge, cross-entropy). It also introduces key concepts such as hypothesis, loss function, cost function, and provides examples for each model.",
     "keywords": [
       "Supervised Learning",
       "Machine Learning",
       "Regression",
-      "Classification",
-      "Loss Function"
+      "Classifier",
+      "Discriminative Model"
+    ],
+    "key_concepts": [
+      "The document discusses supervised learning, where a set of data points are associated with outcomes and a classifier is built to predict the outcome from the input.",
+      "It explains two types of predictive models: regression for continuous outcomes and classifiers for categorical outcomes, with examples like linear regression and logistic regression.",
+      "The document also introduces two types of models: discriminative models that directly estimate P(y|x) and generative models that estimate P(x|y) to deduce P(y|x).",
+      "Examples of models discussed include SVMs, GDA, Naive Bayes, and Neural Networks.",
+      "The document provides notations and general concepts such as hypothesis, loss function, and cost function."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "CS 229 – Machine Learning Stanford.edu/~shervine VIP Cheatsheet: Supervised Learning"
+    "content_preview": "This document offers a quick refresher on supervised learning, discussing types of predictive models and models."
   },
   {
     "id": "b55a7874226476147b8416a43d55336b",
