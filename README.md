@@ -115,13 +115,6 @@ Use the built-in test page to verify social media sharing:
 ```
 https://lonardonifabio.github.io/tech_documents/test-sharing
 ```
-
-### Debugging Tools
-
-- **Facebook Debugger**: https://developers.facebook.com/tools/debug/
-- **LinkedIn Post Inspector**: Available in LinkedIn's publishing tools
-- **Twitter Card Validator**: https://cards-dev.twitter.com/validator
-
 ## 🔍 Key Components
 
 ### DocumentLibrary.tsx
@@ -179,9 +172,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Fabio Lonardoni**
-- GitHub: [@lonardonifabio](https://github.com/lonardonifabio)
-- Twitter: [@fabiolonardoni](https://twitter.com/fabiolonardoni)
-- LinkedIn: [Fabio Lonardoni](https://linkedin.com/in/fabiolonardoni)
+- Website: [Fabio Lonardoni](https://www.fabiolonardoni.it)
+- LinkedIn: [Fabio Lonardoni]([https://linkedin.com/in/fabiolonardoni](https://www.linkedin.com/in/fabio-lonardoni-innovation-manager/))
 
 ## 🙏 Acknowledgments
 
