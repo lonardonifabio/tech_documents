@@ -30934,12 +30934,12 @@
   {
     "id": "370d5ef6250c1b616acf730412648fe5",
     "filename": "pcos_1741962006.pdf",
-    "title": "PCOS Detection Using Multi-Scale Retinex Enhanced Ultrasound Images with ImpalaCNN Algorithm",
+    "title": "PCOS Detection Using Multi-Scale Retinex Enhanced Ultrasound Images: A Deep Learning Approach with ImpalaCNN Algorithm",
     "authors": [],
     "filepath": "documents/pcos_1741962006.pdf",
-    "upload_date": "2025-06-13T22:59:51.359954",
+    "upload_date": "2025-06-15T16:03:35.899634",
     "file_size": 718124,
-    "summary": "This document presents a deep learning approach for the detection of Polycystic Ovary Syndrome (PCOS) using enhanced ultrasound images. The study utilizes the ImpalaCNN algorithm, which is applied to a dataset containing infected and non-infected images. The data is preprocessed by organizing image paths and labels into a DataFrame for further analysis.",
+    "summary": "This document presents a deep learning approach for the detection of Polycystic Ovary Syndrome (PCOS) using multi-scale Retinex enhanced ultrasound images. The study employs the ImpalaCNN algorithm, and the data is obtained from Kaggle. The code provided in Python uses pandas and numpy libraries to load and preprocess the data, which includes infected and not infected image paths and their corresponding labels.",
     "keywords": [
       "PCOS",
       "Ultrasound Images",
@@ -30948,14 +30948,51 @@
       "Kaggle"
     ],
     "key_concepts": [
-      "The study aims to detect PCOS using enhanced ultrasound images through a deep learning approach.",
-      "The ImpalaCNN algorithm is employed for the detection of PCOS in the dataset.",
-      "The dataset consists of infected and non-infected image paths, which are organized into a DataFrame for analysis.",
-      "The data preprocessing involves organizing image paths and labels into a Pandas DataFrame."
+      "The study aims to detect PCOS using multi-scale Retinex enhanced ultrasound images.",
+      "The ImpalaCNN algorithm is used for the deep learning approach in this research.",
+      "The data for this study is obtained from Kaggle and consists of infected and not infected image paths with their corresponding labels.",
+      "Python libraries such as pandas and numpy are used to load and preprocess the data."
     ],
-    "category": "Data Science",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document presents a deep learning approach for the detection of PCOS using enhanced ultrasound images with the ImpalaCNN algorithm."
+    "content_preview": "This document provides a deep learning approach for PCOS detection using multi-scale Retinex enhanced ultrasound images with ImpalaCNN algorithm.",
+    "target_audience": "Researchers, Data Scientists, and Machine Learning Engineers interested in medical image analysis and deep learning techniques.",
+    "industry": [
+      "Healthcare",
+      "Medical Imaging"
+    ],
+    "business_functions": [
+      "Research & Development",
+      "Data Analysis"
+    ],
+    "companies": [],
+    "technologies": [
+      "Deep Learning",
+      "ImpalaCNN",
+      "Python",
+      "Pandas",
+      "Numpy"
+    ],
+    "processes": [
+      "Data Preprocessing",
+      "Image Analysis"
+    ],
+    "technical_terms": [
+      "Retinex Enhanced Ultrasound Images",
+      "Kaggle"
+    ],
+    "methodologies": [
+      "Deep Learning Approach",
+      "ImpalaCNN Algorithm"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [],
+    "learning_objectives": [],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "6c13b74de61db5281f2062988b804fb8",
