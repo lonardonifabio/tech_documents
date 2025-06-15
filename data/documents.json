@@ -18496,25 +18496,62 @@
       "Steve Nouri"
     ],
     "filepath": "documents/NLP_Q_A_1606289505.pdf",
-    "upload_date": "2025-06-13T22:59:46.294932",
+    "upload_date": "2025-06-15T14:50:25.006332",
     "file_size": 257038,
-    "summary": "This document provides answers to 100 questions related to Natural Language Processing (NLP). The questions cover various topics such as keyword normalization, word vector distance computation, text corpus features, and document term matrix creation. The document also explains techniques like Lemmatization, Euclidean distance, Cosine Similarity, Part of Speech Tagging, Basic Dependency Grammar, and more.",
+    "summary": "This document provides answers to 100 frequently asked questions about Natural Language Processing (NLP). It covers topics such as keyword normalization, word vector distance computation, text corpus features, and more. The document is intended for data scientists, machine learning engineers, and anyone interested in NLP.",
     "keywords": [
       "NLP",
-      "Questions",
-      "Lemmatization",
-      "Euclidean Distance",
-      "Cosine Similarity"
+      "Question Answer",
+      "Steve Nouri"
     ],
     "key_concepts": [
-      "Lemmatization helps to get to the base form of a word, e.g. are playing -> play, eating -> eat, etc.",
-      "Distance between two word vectors can be computed using Cosine similarity and Euclidean Distance.",
-      "All of the above (Count of the word in a document, Vector notation of the word, Part of Speech Tag, Basic Dependency Grammar) can be used as features of the text corpus.",
-      "Creating a Document Term Matrix involves transforming a collection of documents into a matrix where rows represent terms and columns represent documents."
+      "Lemmatization is a technique used to convert a keyword into its base form",
+      "Cosine Similarity and Euclidean Distance are techniques used to compute the distance between two word vectors in NLP",
+      "A text corpus can have features such as count of the word in a document, vector notation of the word, part of speech tag, basic dependency grammar, etc.",
+      "This document is a collection of frequently asked questions about Natural Language Processing"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides answers to 100 questions related to Natural Language Processing (NLP)."
+    "content_preview": "This document provides answers to 100 frequently asked questions about NLP.",
+    "target_audience": "Data scientists, machine learning engineers, and anyone interested in NLP",
+    "industry": [
+      "AI",
+      "Machine Learning",
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research & Development",
+      "Data Analysis"
+    ],
+    "companies": [],
+    "technologies": [
+      "Natural Language Processing (NLP)"
+    ],
+    "processes": [
+      "Question Answering"
+    ],
+    "technical_terms": [
+      "Lemmatization",
+      "Cosine Similarity",
+      "Euclidean Distance",
+      "Text Corpus",
+      "Document Term Matrix"
+    ],
+    "methodologies": [
+      "Question and Answer format"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of Natural Language Processing"
+    ],
+    "learning_objectives": [
+      "Learn about various techniques in NLP, such as keyword normalization, word vector distance computation, text corpus features, etc."
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "a8c898f6678d75493698ddc23b49e76f",
