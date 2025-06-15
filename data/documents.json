@@ -18850,22 +18850,29 @@
   {
     "id": "2fad250f1812dea475ff5fb8a9b517fe",
     "filename": "Pivot_table_1644221271.pdf",
-    "title": "Pivot Table 101: Analyzing Data with Pivot Tables",
+    "title": "Pivot Table 101: A Comprehensive Guide to Data Analysis",
     "authors": [],
     "filepath": "documents/Pivot_table_1644221271.pdf",
-    "upload_date": "2025-06-04T21:18:54.196034",
+    "upload_date": "2025-06-14T22:31:42.834624",
     "file_size": 2578208,
-    "summary": "This document explains the importance and usage of Pivot Tables in data analysis. It provides a brief tutorial on how to use Pivot Tables to summarize, organize, filter, and analyze raw data. The document also includes examples and a quote attributed to Albert Einstein.",
+    "summary": "This document provides an introduction to Pivot Tables, a powerful tool in Microsoft Excel for organizing, summarizing, and analyzing raw data. The guide covers the basics of creating a Pivot Table, filtering data, and performing calculations such as sums, counts, and averages. It also discusses how Pivot Tables can help answer complex questions about data, even when you're not sure what you're looking for. The document includes practical examples and tips for effective use of Pivot Tables.",
     "keywords": [
       "Pivot Table",
       "Data Analysis",
+      "Microsoft Excel",
       "Raw Data",
-      "Filtering",
-      "Summarizing"
+      "Filtering"
+    ],
+    "key_concepts": [
+      "Pivot Tables allow you to easily organize, filter, summarize, and analyze raw data",
+      "Creating a Pivot Table involves selecting the data range, choosing the layout, and adding fields to the Rows, Columns, and Values areas",
+      "Filtering data in a Pivot Table can help focus on specific subsets of data",
+      "Calculations such as sums, counts, and averages can be performed on the values in a Pivot Table",
+      "Pivot Tables can help answer complex questions about data, even when you're not sure what you're looking for"
     ],
     "category": "Data Science",
-    "difficulty": "Intermediate",
-    "content_preview": "PIVOT TABLE 101\n1.Which state had the highest population in 2002?"
+    "difficulty": "Beginner",
+    "content_preview": "Learn how to use Pivot Tables in Microsoft Excel to analyze raw data."
   },
   {
     "id": "73114bd3ba40a6045a3a374754fc76fe",
