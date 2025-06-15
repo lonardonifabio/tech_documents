@@ -8079,17 +8079,26 @@
       "Scott D. Lowe"
     ],
     "filepath": "documents/Deep_Learning_for_Dummies_1633688549.pdf",
-    "upload_date": "2025-06-03T22:07:04.312526",
+    "upload_date": "2025-06-14T22:31:36.869622",
     "file_size": 3082350,
-    "summary": "A comprehensive guide to deep learning concepts and applications, written in a simplified manner by Scott D. Lowe.",
+    "summary": "This document provides a comprehensive introduction to deep learning, covering its fundamentals, methodologies, and practical applications. It is designed for beginners and intermediates, offering clear explanations of neural networks, convolutional neural networks (CNNs), recurrent neural networks (RNNs), and deep reinforcement learning. The book also includes case studies demonstrating the use of deep learning in various industries such as healthcare, finance, and autonomous vehicles.",
     "keywords": [
       "Deep Learning",
-      "Artificial Intelligence",
+      "Neural Networks",
+      "Convolutional Neural Networks",
+      "Recurrent Neural Networks",
       "Machine Learning"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Deep learning is a subset of machine learning that uses artificial neural networks with multiple layers to learn and make predictions.",
+      "Convolutional Neural Networks (CNNs) are a type of deep learning model commonly used for image recognition tasks.",
+      "Recurrent Neural Networks (RNNs) are a type of deep learning model that can process sequential data, such as time series or natural language.",
+      "Deep reinforcement learning is a type of deep learning where an agent learns to make decisions by interacting with its environment and receiving rewards or penalties for its actions.",
+      "The theoretical framework behind deep learning is rooted in statistics, probability, and optimization."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "These materials are © 2018 John Wiley & Sons, Inc. Any dissemination, distribution, or unauthorized use is strictly prohibited. Deep Learning HPE Special Edition"
+    "content_preview": "This document provides a comprehensive introduction to deep learning for beginners and intermediates."
   },
   {
     "id": "59b21f67fd307ff82609ed7c1aa12e4d",
