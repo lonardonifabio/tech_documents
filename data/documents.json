@@ -16630,19 +16630,26 @@
     "title": "Machine Learning with Limited Data",
     "authors": [],
     "filepath": "documents/Machine_learning_with_limited_data_1641974562.pdf",
-    "upload_date": "2025-06-04T21:18:53.373030",
+    "upload_date": "2025-06-14T22:31:41.234621",
     "file_size": 1499051,
-    "summary": "This document discusses the challenges and solutions for machine learning with limited data, focusing on the Defense Science and Technology Lab's Future of AI for Defence Project. It covers topics such as human ability to learn with limited data, zero-shot learning, traditional machine learning, and few-shot learning.",
+    "summary": "This document discusses the challenges and solutions for machine learning with limited data, focusing on the Defense Science and Technology Lab's Future of AI for Defence Project's Autonomy Programme. It covers topics such as human ability to learn with limited data, problems associated with limited data, various approaches like zero-shot learning, traditional machine learning, meta-learning, and few-shot learning. The document provides insights into the selection of appropriate methods when dealing with small amounts of unlabelled or labelled data.",
     "keywords": [
       "Machine Learning",
       "Limited Data",
-      "AI",
-      "Defense",
-      "Autonomy"
+      "Defense Science and Technology Lab",
+      "Future of AI for Defence Project",
+      "Autonomy Programme"
+    ],
+    "key_concepts": [
+      "The document explores the challenges of machine learning with limited data, particularly in the context of the Defense Science and Technology Lab's Future of AI for Defence Project.",
+      "It discusses the human ability to learn effectively with limited data and compares it to machine learning algorithms.",
+      "The document outlines problems associated with working with limited data and suggests potential solutions.",
+      "Various approaches such as zero-shot learning, traditional machine learning, meta-learning, and few-shot learning are discussed in the context of dealing with small amounts of unlabelled or labelled data.",
+      "The theoretical framework of these methods is presented, along with their practical implications for real-world applications."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Discusses challenges and solutions for machine learning with limited data, focusing on Defense Science..."
+    "content_preview": "This document discusses the challenges and solutions for machine learning with limited data."
   },
   {
     "id": "c1f54f397408497726ccb290303a30a3",
