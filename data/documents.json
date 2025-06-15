@@ -29500,11 +29500,14 @@
     "id": "6822f6a7ca9ea085faa87bd396e8e89e",
     "filename": "securing-ai.pdf",
     "title": "Securing AI for Enterprise Resilience",
-    "authors": [],
+    "authors": [
+      "AuthorName1",
+      "AuthorName2"
+    ],
     "filepath": "documents/securing-ai.pdf",
-    "upload_date": "2025-06-13T22:59:51.517955",
+    "upload_date": "2025-06-15T14:50:30.391342",
     "file_size": 2015004,
-    "summary": "This document discusses key risks, threats, and countermeasures related to AI security for enterprise resilience. It covers unique aspects of AI security, responsibilities within the enterprise, strategies for AI security, types of AI security threats, and getting started with an AI security strategy. The document emphasizes that everyone has a role in AI security and provides resources for advancing AI security. It concludes with information about the authors.",
+    "summary": "This document discusses key risks, threats, and countermeasures for securing AI systems in enterprises, emphasizing its unique nature and critical importance. It clarifies responsibilities, outlines strategies for AI security engineers, describes common threats, and provides a starting point for developing an AI security strategy. The document underscores the role of every team member in AI security and offers resources to advance AI security within organizations.",
     "keywords": [
       "AI Security",
       "Enterprise Resilience",
@@ -29513,15 +29516,55 @@
       "Countermeasures"
     ],
     "key_concepts": [
-      "The unique nature of AI security and its critical importance in today's rapidly innovating world.",
-      "Identifying the responsible parties for AI security within an enterprise.",
-      "Understanding how AI security engineers reinforce the security foundation.",
-      "Recognizing various types of AI security threats and their potential impact.",
-      "Learning about strategies to develop an effective AI security strategy."
+      "The intersection of critical systems and singular risks necessitates a unique approach to securing AI in enterprises.",
+      "AI security engineers play a crucial role in reinforcing the security foundation for AI systems.",
+      "Understanding common threats to AI security is essential for developing effective strategies.",
+      "Developing an AI security strategy requires collaboration and involvement from all team members.",
+      "Resources are available to help organizations advance their AI security capabilities."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses key risks, threats, and countermeasures related to AI security for enterprise resilience."
+    "content_preview": "This document discusses key risks, threats, and countermeasures for securing AI systems in enterprises.",
+    "target_audience": "IT professionals, security specialists, and executives responsible for enterprise resilience and AI strategy.",
+    "industry": [
+      "Technology",
+      "AI",
+      "Cybersecurity"
+    ],
+    "business_functions": [
+      "Security",
+      "AI Strategy",
+      "Enterprise Resilience"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "Machine Learning"
+    ],
+    "processes": [
+      "AI Security",
+      "Enterprise Resilience Planning"
+    ],
+    "technical_terms": [
+      "AI Security",
+      "Singular Risks",
+      "Threat Modeling"
+    ],
+    "methodologies": [
+      "AI Security Strategy Development",
+      "Risk Assessment"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Understanding of AI and its applications",
+      "Familiarity with cybersecurity principles"
+    ],
+    "learning_objectives": [],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "2859e09e6343d5b8a487bfcb7815fd12",
