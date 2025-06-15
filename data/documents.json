@@ -28078,25 +28078,32 @@
   {
     "id": "855b43ad44b127e8a2a1d36168899a05",
     "filename": "probablity and statistics.pdf",
-    "title": "Probability and Statistics",
+    "title": "CS 229 – Machine Learning: VIP Refresher: Probabilities and Statistics",
     "authors": [
       "Afshine Amidi",
       "Shervine Amidi"
     ],
     "filepath": "documents/probablity and statistics.pdf",
-    "upload_date": "2025-06-03T17:53:44.816157",
+    "upload_date": "2025-06-14T22:31:47.106630",
     "file_size": 339277,
-    "summary": "This document is a refresher on Probabilities and Statistics in the context of Machine Learning. It covers topics like sample space, events, axioms of probability, permutations, combinations, conditional probability, and Bayes' rule.",
+    "summary": "This document provides an introduction to probability and combinatorics, covering key concepts such as sample space, events, axioms of probability, permutations, combinations, conditional probability, and Bayes' rule. The authors, Afshine Amidi and Shervini Amidi, offer a refresher for students in the field of machine learning.",
     "keywords": [
       "Probability",
       "Statistics",
       "Machine Learning",
-      "Refresher",
-      "Combinatorics"
+      "Sample Space",
+      "Event"
+    ],
+    "key_concepts": [
+      "The sample space is the set of all possible outcomes of an experiment.",
+      "An event is a subset of the sample space, representing possible outcomes of the experiment.",
+      "The axioms of probability define the properties of probabilities for events.",
+      "A permutation is an arrangement of objects from a pool in a given order.",
+      "A combination is an arrangement of objects from a pool where the order does not matter."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document is a refresher on Probabilities and Statistics in the context of Machine Learning. It covers topics like sample space, events, axioms of probability,"
+    "content_preview": "This document introduces probability and combinatorics, covering key concepts such as sample space, events, axioms of probability, permutations, combinations, conditional probability, and Bayes' rule."
   },
   {
     "id": "51b08a5faefaf4b6a45096c30d79a6f1",
