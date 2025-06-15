@@ -26975,19 +26975,25 @@
       "Zahra Alipour"
     ],
     "filepath": "documents/introduction_to_machine_learning_1713701375.pdf",
-    "upload_date": "2025-06-03T22:07:09.214566",
+    "upload_date": "2025-06-14T22:31:46.921630",
     "file_size": 1512771,
-    "summary": "This document provides an overview of the fundamentals of machine learning, its applications, and steps for implementing a real project. It also discusses the history of artificial intelligence, from its birth in 1940 to recent advancements such as deep neural networks and large language models.",
+    "summary": "This presentation offers an overview of the history, fundamentals, and applications of machine learning. It covers key milestones in AI development from Alan Turing's work in the 1940s to the rise of deep neural networks and large language models (LLMs) like ChatGPT. The document also provides a step-by-step guide on implementing a real machine learning project.",
     "keywords": [
       "Machine Learning",
       "Artificial Intelligence",
-      "Deep Neural Networks",
-      "Convolutional Neural Networks",
+      "Deep Neural Network",
+      "Convolutional Neural Network",
       "AlphaGo"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "The history of artificial intelligence traces back to Alan Turing's work in the 1940s, where he proposed the concept of machines thinking and introduced the Turing Test.",
+      "From 2011 to 2015, a significant rise occurred in the use of convolutional neural networks for image identification and categorization with higher accuracy than humans.",
+      "DeepMind's AlphaGo program, powered by a deep neural network, marked a major milestone in AI development between 2016 and 2023. This period also saw the rise of large language models (LLMs) like ChatGPT, revolutionizing AI performance and enterprise value.",
+      "The presentation provides a step-by-step guide on implementing a real machine learning project."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Introduction to Machine Learning. This presentation provides an overview of the fundamentals..."
+    "content_preview": "Overview of the history, fundamentals, and applications of machine learning with a focus on key milestones in AI development."
   },
   {
     "id": "e9435337e234964e497dccc0b3f9b0e2",
