@@ -18307,21 +18307,28 @@
   {
     "id": "f0dcc4356b62befc01a7e764011c7868",
     "filename": "Neural_Network_1707252305.pdf",
-    "title": "Neural Networks: A Comprehensive Guide",
+    "title": "Neural Networks: Principles and Applications",
     "authors": [],
     "filepath": "documents/Neural_Network_1707252305.pdf",
-    "upload_date": "2025-06-03T17:53:42.589115",
+    "upload_date": "2025-06-14T22:31:42.280623",
     "file_size": 562957,
-    "summary": "This document provides an overview of Neural Networks, their structure, learning process, and applications in various fields such as Vision & Speech, Language Understanding, Healthcare, Finance, Personalization, Robotics & Vehicles.",
+    "summary": "This document delves into the concept of Neural Networks, their structure, learning process, and applications. It explains how neural networks mimic brain processing, comprise interconnected nodes with adjustable weights, and undergo iterative updates during the training process. The trained network can solve specific problems efficiently, such as classification, pattern matching, data clustering, and more. Applications range from vision and speech recognition to healthcare, finance, personalization, robotics, and vehicles. Overall, neural networks are crucial due to their adaptive learning and problem-solving capabilities.",
     "keywords": [
       "Neural Network",
       "Artificial Intelligence",
       "Machine Learning",
       "Deep Learning"
     ],
+    "key_concepts": [
+      "Neural networks mimic the brain's information handling process.",
+      "The network comprises interconnected nodes with adjustable weights.",
+      "During the learning process, weights undergo iterative updates based on input data.",
+      "Trained neural networks can solve specific problems efficiently.",
+      "Applications of neural networks range from vision and speech recognition to healthcare, finance, personalization, robotics, and vehicles."
+    ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Neural Networks mimic brain's processing, comprising interconnected nodes with associated weights."
+    "content_preview": "Learn about Neural Networks, their structure, learning process, and applications."
   },
   {
     "id": "8275b597541a663ed3a196e1bd792886",
