@@ -20565,12 +20565,12 @@
   {
     "id": "6e1a8aef2ffe183c6e47d065a36648d0",
     "filename": "Python_Cheat_Sheet_1622661095.pdf",
-    "title": "Python Cheat Sheet",
+    "title": "Python Basics: Getting Started with IDLE",
     "authors": [],
     "filepath": "documents/Python_Cheat_Sheet_1622661095.pdf",
-    "upload_date": "2025-06-05T14:25:32.913246",
+    "upload_date": "2025-06-15T08:35:06.632555",
     "file_size": 245352,
-    "summary": "This document provides an introduction to Python Basics, focusing on IDLE (Integrated Development and Learning Environment) and its advantages over other text editors. It also covers the Python shell and the three most-used data types: integers, strings, and objects.",
+    "summary": "This document provides an introduction to Python programming, focusing on the use of IDLE (Integrated Development and Learning Environment) for writing and running Python code. It explains the advantages of using IDLE over other text editors, describes the Shell mode of operation in IDLE, and lists the three most common data types in Python: integers, strings, and objects.",
     "keywords": [
       "Python",
       "IDLE",
@@ -20578,9 +20578,15 @@
       "Integers",
       "Strings"
     ],
+    "key_concepts": [
+      "IDLE is a pre-installed IDE on many Windows and Mac computers that comes with every Python installation.",
+      "IDLE's advantage over other text editors lies in its ability to highlight important keywords, making it easier for users to interpret code.",
+      "The Shell mode of operation in IDLE follows four steps: reads a Python statement, evaluates the results, prints the result on the screen, and loops back to read the next statement.",
+      "Python shell is useful for testing small code snippets."
+    ],
     "category": "Technology",
     "difficulty": "Beginner",
-    "content_preview": "What is IDLE (Integrated Development and Learning Environment)Most Windows and Mac computers come with Python pre-installed."
+    "content_preview": "Learn about IDLE, a pre-installed IDE on many computers that comes with Python. Discover its advantages and how to use the Shell mode for testing code."
   },
   {
     "id": "defec14980d29ef48a02e0afa0250de7",
