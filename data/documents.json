@@ -22266,25 +22266,79 @@
     "title": "Python Handbook",
     "authors": [],
     "filepath": "documents/Python_HandBook_1630510953.pdf",
-    "upload_date": "2025-06-13T22:59:47.483937",
+    "upload_date": "2025-06-15T16:03:31.895607",
     "file_size": 7700958,
-    "summary": "This comprehensive guide covers Python fundamentals, including installation, data types, operators, control statements, lists, tuples, dictionaries, sets, functions, objects, loops, classes, modules, the Python Standard Library, debugging, variables scope, command line arguments, lambda functions, recursion, nested functions, closures, decorators, docstrings, introspection, annotations, exceptions, the with statement, 3rd party package installation using pip, list comprehensions, polymorphism, operator overloading, virtual environments, and concludes with a brief overview.",
+    "summary": "This comprehensive guide covers the installation, basics, and advanced topics of Python programming language. It includes data types, operators, control statements, lists, tuples, dictionaries, sets, functions, classes, modules, debugging, exceptions, and more. The document also introduces the Python Standard Library, PEP8 style guide, and virtual environments.",
     "keywords": [
       "Python",
       "Programming",
+      "Language",
       "Guide",
-      "Handbook"
+      "Basics"
     ],
     "key_concepts": [
-      "Learn Python fundamentals from installation to advanced topics",
-      "Understand data types, operators, control statements, and various data structures in Python",
-      "Explore functions, objects, loops, classes, modules, and the Python Standard Library",
-      "Gain insights into debugging, variables scope, command line arguments, lambda functions, recursion, nested functions, closures, decorators, docstrings, introspection, annotations, exceptions, and the with statement",
-      "Discover 3rd party package installation using pip, list comprehensions, polymorphism, operator overloading, virtual environments"
+      "Learn how to install and run Python programs",
+      "Understand the differences between Python 2 and 3",
+      "Gain knowledge on data types, operators, control statements, and more",
+      "Explore advanced topics like classes, modules, debugging, exceptions, and virtual environments",
+      "Familiarize yourself with the Python Standard Library and PEP8 style guide"
     ],
-    "category": "Technology",
-    "difficulty": "Beginner",
-    "content_preview": "Learn Python fundamentals and advanced topics in this comprehensive guide."
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Learn Python basics and advanced topics in this comprehensive guide.",
+    "target_audience": "Python developers, data scientists, or anyone looking to learn Python programming",
+    "industry": [
+      "Technology",
+      "Data Science"
+    ],
+    "business_functions": [
+      "Software Development",
+      "Data Analysis"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Programming",
+      "Coding"
+    ],
+    "technical_terms": [
+      "Data Types",
+      "Operators",
+      "Control Statements",
+      "Lists",
+      "Tuples",
+      "Dictionaries",
+      "Sets",
+      "Functions",
+      "Classes",
+      "Modules",
+      "Debugging",
+      "Exceptions",
+      "Virtual Environments"
+    ],
+    "methodologies": [
+      "Python programming methodology"
+    ],
+    "tools_mentioned": [
+      "pip"
+    ],
+    "prerequisites": [
+      "Basic understanding of programming concepts"
+    ],
+    "learning_objectives": [
+      "Learn Python from basics to advanced topics",
+      "Understand the Python Standard Library and PEP8 style guide"
+    ],
+    "use_cases": [
+      "Developing software applications",
+      "Data analysis and manipulation"
+    ],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "713c493e5a4ae1b83715b95ab16cb933",
