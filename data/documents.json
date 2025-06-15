@@ -15253,19 +15253,26 @@
       "Shervine Amidi"
     ],
     "filepath": "documents/Machine_Learning_Cheatsheet_1628060880.pdf",
-    "upload_date": "2025-06-03T22:07:06.139541",
+    "upload_date": "2025-06-14T22:31:40.752620",
     "file_size": 1365616,
-    "summary": "A comprehensive cheatsheet on various machine learning concepts, including supervised and unsupervised learning, linear models, support vector machines, generative learning, tree-based methods, clustering, and more. Created by Afshine Amidi and Shervine Amidi.",
+    "summary": "This document is a comprehensive cheatsheet for CS229 – Machine Learning, offering an overview of various machine learning concepts and methodologies. It covers supervised learning, unsupervised learning, linear models, support vector machines, generative learning, tree-based methods, non-parametric approaches, and learning theory. Key topics include linear regression, classification, logistic regression, generalized linear models, Gaussian discriminant analysis, Naive Bayes, k-means clustering, and Expectation-Maximization.",
     "keywords": [
       "Machine Learning",
+      "CS229",
       "Supervised Learning",
       "Unsupervised Learning",
-      "Linear Models",
-      "Support Vector Machines"
+      "Linear Models"
+    ],
+    "key_concepts": [
+      "This cheatsheet provides a concise overview of supervised learning, a machine learning approach where the model is trained on labeled data.",
+      "Linear regression and classification are discussed as linear models used for regression and classification tasks respectively.",
+      "The document covers logistic regression, a popular algorithm for binary classification problems.",
+      "Generalized Linear Models (GLMs) are introduced as an extension of linear models that can handle non-normal response variables.",
+      "Support Vector Machines (SVMs) are presented as a powerful machine learning algorithm used for both classification and regression tasks."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "CS 229 – Machine Learning Stanford.edu/~shervine Super VIP Cheatsheet: Machine Learning"
+    "content_preview": "Overview of Machine Learning Cheatsheet covering supervised learning, unsupervised learning, linear models, and more."
   },
   {
     "id": "742f5f7294419e01b06161066c284eb4",
