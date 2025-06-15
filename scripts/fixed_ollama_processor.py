@@ -368,7 +368,7 @@ class ResultAggregator:
             "confidence_score": 0.0
         }
 
-class EnhancedOllamaDocumentProcessor:
+class FixedOllamaDocumentProcessor:
     """Enhanced document processor with multi-chunk analysis and multi-pass approach."""
     
     def __init__(self, model_name: str = "llama3.1:8b"):
@@ -385,7 +385,14 @@ class EnhancedOllamaDocumentProcessor:
         self.analyzer = MultiPassAnalyzer(self.ollama_client)
         self.aggregator = ResultAggregator()
         
+        # Backward compatibility
+        self.ollama_host = self.ollama_client.host
+        
         logger.info(f"Initialized enhanced processor with model: {model_name}")
+    
+    def ensure_model_available(self) -> bool:
+        """Ensure the Ollama model is available (backward compatibility)."""
+        return self.ollama_client.ensure_model_available()
     
     def extract_pdf_text(self, filepath: Path, max_pages: int = 20) -> str:
         """Extract text from PDF file with increased page limit."""
@@ -684,7 +691,7 @@ def main():
     # Check for force reprocess flag
     force_reprocess = '--force' in sys.argv or '-f' in sys.argv
     
-    processor = EnhancedOllamaDocumentProcessor(model_name)
+    processor = FixedOllamaDocumentProcessor(model_name)
     
     logger.info("Starting enhanced document processing...")
     if force_reprocess:
