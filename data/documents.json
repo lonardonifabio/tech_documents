@@ -12343,19 +12343,26 @@
       "Steve Nouri"
     ],
     "filepath": "documents/Interview_800_Data_Science_Questions__1632985294.pdf",
-    "upload_date": "2025-06-04T21:18:52.069021",
+    "upload_date": "2025-06-14T22:31:38.961616",
     "file_size": 17447004,
-    "summary": "This document is a collection of data science interview questions organized by Steve Nouri, covering topics such as the Central Limit Theorem, sampling methods, Type I and II errors, Linear Regression, statistical interaction, selection bias, and non-Gaussian distributions. It was published in September 2021.",
+    "summary": "This document is a Q&A interview organized by Steve Nouri on Data Science, covering topics such as the Central Limit Theorem, Sampling methods, Type I and II errors, Linear Regression, its components P-value, Coefficient, and R-squared value, assumptions required for Linear Regression, Statistical Interaction, Selection Bias, and examples of non-Gaussian distributions. It is aimed at an Intermediate level audience.",
     "keywords": [
       "Data Science",
-      "Interview Questions",
       "Statistics",
       "Central Limit Theorem",
-      "Linear Regression"
+      "Sampling",
+      "Type I Error"
+    ],
+    "key_concepts": [
+      "The Central Limit Theorem is a fundamental theorem in probability theory that describes the probability distribution of the sum of a large number of independent random variables, each having a common mean and variance.",
+      "Sampling refers to the process of selecting a subset (a sample) from a larger population to estimate characteristics of the entire population. There are various sampling methods such as simple random sampling, stratified sampling, cluster sampling, etc.",
+      "Type I error (false positive) occurs when we incorrectly reject the null hypothesis, while Type II error (false negative) occurs when we fail to reject the null hypothesis when it is actually false.",
+      "Linear Regression is a statistical model used to analyze the linear relationship between two continuous variables. The P-value indicates the probability that the observed difference could have occurred by chance, Coefficient represents the strength and direction of the relationship between the independent and dependent variables, and R-squared value measures the proportion of the variance in the dependent variable that is predictable from the independent variable.",
+      "Linear Regression assumes that the errors are normally distributed, independent, and have constant variance. It also assumes that there is a linear relationship between the independent and dependent variables."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "DATA SCIENCEQ&A Organized By Steve Nouri SEP 2021 A I 4 D i v e r s i t y"
+    "content_preview": "Document: Interview_800_Data_Science_Questions"
   },
   {
     "id": "8903e00cc8b2c64d7a2e4ad3143f3f85",
