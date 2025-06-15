@@ -13252,19 +13252,26 @@
     "title": "Keras Cheat Sheet",
     "authors": [],
     "filepath": "documents/Keras_Cheat_Sheet_1621852628.pdf",
-    "upload_date": "2025-06-06T15:45:44.355675",
+    "upload_date": "2025-06-14T22:31:39.460617",
     "file_size": 307507,
-    "summary": "This document provides a quick reference guide for using Keras, a popular deep learning library. It covers topics such as creating and compiling models, loading data sets, and using various activation functions.",
+    "summary": "This document provides a comprehensive guide to using Keras, a powerful and user-friendly deep learning library for Theano and TensorFlow. It covers the basics of creating and evaluating deep learning models, including data preparation, model architecture, compilation, training, and prediction. The document also suggests using NumPy, Pandas, Scikit-Learn, and Keras' built-in datasets for various machine learning tasks.",
     "keywords": [
       "Keras",
       "Deep Learning",
       "Neural Networks",
-      "Python",
-      "Machine Learning"
+      "Theano",
+      "TensorFlow"
+    ],
+    "key_concepts": [
+      "Keras is a high-level neural networks API for Theano and TensorFlow.",
+      "Data in Keras should be stored as NumPy arrays or lists of NumPy arrays.",
+      "Ideally, data is split into training and test sets using sklearn.cross_validation's train_test_split module.",
+      "Keras provides built-in datasets like boston_housing, mnist, cifar10, and imdb for various machine learning tasks.",
+      "The document demonstrates a basic example of creating a deep learning model using Keras."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Keras Cheat Sheet\nKeras is a powerful and easy-to-use deep learning library for Theano and TensorFlow that provides..."
+    "content_preview": "This document provides a guide to using Keras, a deep learning library. It covers data preparation, model architecture, compilation, training, and prediction."
   },
   {
     "id": "7aa4fab252ac6f0b0c12a1d6a924e56a",
