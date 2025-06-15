@@ -5561,22 +5561,29 @@
   {
     "id": "f7b2b7fffd849dba1c67b0053cc9a45a",
     "filename": "Brain_Tumor_1710062790.pdf",
-    "title": "Brain Tumor MRI Classification",
+    "title": "Brain Tumor MRI Classification using TensorFlow and Scikit-Learn",
     "authors": [],
     "filepath": "documents/Brain_Tumor_1710062790.pdf",
-    "upload_date": "2025-06-03T17:53:38.629073",
+    "upload_date": "2025-06-14T22:31:34.714622",
     "file_size": 1085538,
-    "summary": "This document is a Python script for brain tumor MRI classification using TensorFlow and scikit-learn libraries. The script generates data paths with labels for training and validation sets.",
+    "summary": "This document outlines a project that aims to classify brain tumors in MRIs using deep learning techniques with TensorFlow and machine learning algorithms from Scikit-Learn. The project involves data preprocessing, model building, training, and evaluation. The dataset used is the Brain Tumor MRI Dataset from Kaggle.",
     "keywords": [
-      "brain tumor",
+      "Brain Tumor",
       "MRI",
-      "classification",
+      "Deep Learning",
       "TensorFlow",
-      "scikit-learn"
+      "Scikit-Learn"
+    ],
+    "key_concepts": [
+      "The project involves classifying brain tumors in MRIs using deep learning techniques with TensorFlow.",
+      "Data preprocessing is performed on the dataset before model building and training.",
+      "A Convolutional Neural Network (CNN) model is built using TensorFlow's Sequential API.",
+      "The trained model is evaluated using confusion matrix and classification report from Scikit-Learn.",
+      "The project uses various layers such as Conv2D, MaxPooling2D, Flatten, Dense, Dropout, and optimizers like Adamax."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document is a Python script for brain tumor MRI classification using TensorFlow and scikit-learn libraries. The script generates data paths with labels for training and validation sets."
+    "content_preview": "The document outlines a project that classifies brain tumors in MRIs using deep learning techniques with TensorFlow and Scikit-Learn."
   },
   {
     "id": "5e3d90766381f332773150ece72a0752",
