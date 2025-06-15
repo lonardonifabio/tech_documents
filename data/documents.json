@@ -127,9 +127,9 @@
     "title": "10 Minutes to Pandas - pandas 0.17.1 Documentation",
     "authors": [],
     "filepath": "documents/10_Minutes_to_Pandas_1642524382.pdf",
-    "upload_date": "2025-06-13T22:59:35.969887",
+    "upload_date": "2025-06-15T16:03:20.218535",
     "file_size": 561924,
-    "summary": "This document provides a short introduction to the pandas library, focusing on new users. It covers object creation, including Series and DataFrame, using various methods such as passing lists, numpy arrays, or dictionaries of objects. The document also touches upon custom indexing and labeling columns, as well as handling missing data with NaN.",
+    "summary": "This document provides a short introduction to the pandas library, focusing on new users. It covers object creation, including Series and DataFrame, using various methods such as passing lists, numpy arrays, datetime indexes, and dictionaries of objects. The document also touches upon having specific data types.",
     "keywords": [
       "pandas",
       "DataFrame",
@@ -138,15 +138,60 @@
       "matplotlib"
     ],
     "key_concepts": [
-      "The document introduces pandas to new users by providing a short and concise guide on how to create Series and DataFrames using various methods.",
-      "It demonstrates the creation of a Series by passing a list of values, allowing pandas to generate a default integer index.",
-      "The creation of a DataFrame is shown by passing a numpy array, with a datetime index and labeled columns.",
-      "Another method for creating a DataFrame is demonstrated by passing a dict of objects that can be converted to series-like.",
-      "The document briefly touches upon handling missing data with NaN."
+      "This document introduces the pandas library, a powerful tool for data manipulation in Python.",
+      "The document demonstrates how to create Series and DataFrames using various methods such as passing lists, numpy arrays, datetime indexes, and dictionaries of objects.",
+      "The concept of having specific data types is briefly touched upon in the document.",
+      "The document serves as a starting point for new users, with more complex recipes found in the Cookbook."
     ],
     "category": "Data Science",
     "difficulty": "Beginner",
-    "content_preview": "This document provides a short introduction to pandas, focusing on new users."
+    "content_preview": "Learn to create Series and DataFrames using pandas in 10 minutes.",
+    "target_audience": "New users of the pandas library",
+    "industry": [
+      "Finance",
+      "Data Analysis"
+    ],
+    "business_functions": [
+      "Data Manipulation",
+      "Data Analysis"
+    ],
+    "companies": [],
+    "technologies": [
+      "pandas",
+      "numpy",
+      "matplotlib"
+    ],
+    "processes": [
+      "Data Cleaning",
+      "Data Transformation"
+    ],
+    "technical_terms": [
+      "Series",
+      "DataFrame",
+      "datetime index",
+      "dict of objects"
+    ],
+    "methodologies": [
+      "Data Manipulation using pandas"
+    ],
+    "tools_mentioned": [
+      "pandas",
+      "numpy",
+      "matplotlib.pyplot"
+    ],
+    "prerequisites": [
+      "Basic Python knowledge"
+    ],
+    "learning_objectives": [
+      "Learn how to create Series and DataFrames in pandas"
+    ],
+    "use_cases": [
+      "Data Analysis, Data Cleaning, and Data Transformation"
+    ],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "722f105592780fe905a4b316dcbd2b41",
