@@ -5615,25 +5615,64 @@
     "title": "Business Requirement Document for Consent Management Under the DPDP Act, 2023",
     "authors": [],
     "filepath": "documents/Biz_Req_Doc_India_consent_mgt_DPDPA_1749210545.pdf",
-    "upload_date": "2025-06-13T22:59:38.945900",
+    "upload_date": "2025-06-15T14:50:17.575315",
     "file_size": 1733336,
-    "summary": "This document outlines the business requirements for a consent management system compliant with the Data Protection and Digital Privacy Act (DPDP Act) of 2023 in India. It covers functional requirements such as consent collection, validation, update, renewal, withdrawal, and cookie consent. The document also defines key stakeholders and their responsibilities.",
+    "summary": "This document outlines the business requirements for a consent management system compliant with the Data Protection and Digital Privacy Act (DPDP Act) of 2023 in India. It covers functional requirements such as consent collection, validation, update, renewal, withdrawal, and cookie consent. The document is intended for stakeholders involved in data privacy and compliance.",
     "keywords": [
       "Consent Management",
-      "DPDP Act",
-      "Data Protection",
-      "Digital Privacy",
-      "Business Requirement Document"
+      "Data Protection and Digital Privacy Act (DPDP Act)",
+      "India"
     ],
     "key_concepts": [
-      "The document provides a comprehensive guide for creating a consent management system that adheres to the DPDP Act, 2023.",
-      "The functional requirements outlined in this document cover all stages of the consent lifecycle, including collection, validation, update, renewal, and withdrawal.",
-      "The document defines key stakeholders and their responsibilities for implementing and maintaining the consent management system.",
-      "The document includes a section on cookie consent, ensuring compliance with data protection regulations regarding cookies."
+      "The document describes a system for managing consents according to the DPDP Act, ensuring compliance with data protection regulations.",
+      "The system covers all stages of the consent management lifecycle, from collection and validation to renewal and withdrawal.",
+      "The document highlights the importance of proper cookie consent management in adhering to the DPDP Act.",
+      "Understanding the functional requirements outlined in this document is crucial for organizations operating within India to ensure data privacy compliance.",
+      "The document serves as a guide for businesses to implement effective and compliant consent management systems."
     ],
     "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "This document outlines the business requirements for a consent management system under the DPDP Act, 2023."
+    "content_preview": "This document outlines the business requirements for a consent management system under the DPDP Act, 2023.",
+    "target_audience": "Stakeholders involved in data privacy and compliance.",
+    "industry": [
+      "Data Privacy",
+      "Technology"
+    ],
+    "business_functions": [
+      "Compliance",
+      "Data Management"
+    ],
+    "companies": [],
+    "technologies": [
+      "Consent Management Systems"
+    ],
+    "processes": [
+      "Consent Management Lifecycle"
+    ],
+    "technical_terms": [
+      "DPDP Act",
+      "Consent Collection",
+      "Consent Validation",
+      "Consent Update",
+      "Consent Renewal",
+      "Consent Withdrawal",
+      "Cookie Consent"
+    ],
+    "methodologies": [
+      "Regulatory Compliance Methodology"
+    ],
+    "tools_mentioned": [
+      "Consent Management Systems"
+    ],
+    "prerequisites": [
+      "Understanding of data privacy regulations and compliance requirements."
+    ],
+    "learning_objectives": [],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "b282c488731c784605764ee715a52a2a",
