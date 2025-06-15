@@ -44,7 +44,7 @@ jobs:
         
     - name: Pull Mistral model
       run: |
-        ollama pull mistral:7b
+        ollama pull llama3.1:8b
         
     - name: Install Python dependencies
       run: |
