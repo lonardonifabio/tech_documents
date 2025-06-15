@@ -19970,21 +19970,29 @@
   {
     "id": "31856127d2cbd7caeeb9cddf53185e6b",
     "filename": "Practical_Guide_to_SQL_basics_1570568809.pdf",
-    "title": "Practical Guide to SQL basics",
+    "title": "Practical Guide to SQL Basics",
     "authors": [],
     "filepath": "documents/Practical_Guide_to_SQL_basics_1570568809.pdf",
-    "upload_date": "2025-06-04T21:18:54.310035",
+    "upload_date": "2025-06-15T10:34:03.433550",
     "file_size": 505792,
-    "summary": "This document provides a guide on understanding data in a retail context, focusing on organizing and interpreting data for a company like ABC Companies Limited. It explains the concept of data and its organization using SQL, with examples of various entities such as customers, employees, suppliers, shareholders, creditors, products, stores, and ...",
+    "summary": "This document provides a comprehensive guide on understanding and organizing data in a relational database management system (RDBMS) using SQL, with practical examples from a hypothetical retail company named ABC Companies Limited. The document covers the structure of tables for customers, employees, suppliers, shareholders, creditors, products, stores, and sales, and explains how to represent and analyze data in both unorganized and organized formats.",
     "keywords": [
       "SQL",
       "Data Organization",
-      "Retail Data",
-      "Tabular Data Representation"
+      "Relational Database Management System",
+      "RDBMS",
+      "ABC Companies Limited"
+    ],
+    "key_concepts": [
+      "Data is a set of values with respect to variables, such as Name, Age, Units, Price, etc.",
+      "Organized data is represented in a tabular form for easy interpretation and analysis.",
+      "SQL can be used to analyze and manipulate organized data in RDBMS.",
+      "The document provides practical examples of SQL queries for analyzing data from a retail company.",
+      "Understanding the structure of tables in an RDBMS is essential for effective data analysis."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A few product Id’s and Units at a particular store of ABC Companies Ltd is as follows:"
+    "content_preview": "This document provides a guide on understanding and organizing data using SQL, with practical examples from a retail company."
   },
   {
     "id": "6fe72b52a6c0b2623548535b98d4a7bf",
