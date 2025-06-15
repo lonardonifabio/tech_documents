@@ -12252,19 +12252,26 @@
     "title": "Implementing Deep Autoencoder in PyTorch",
     "authors": [],
     "filepath": "documents/Implementing_Deep_Autoencoder_in_PyTorch_1743874398.pdf",
-    "upload_date": "2025-06-05T14:25:28.665265",
+    "upload_date": "2025-06-14T22:31:38.794616",
     "file_size": 1706828,
-    "summary": "This document provides a brief introduction to deep learning autoencoders and their application in image reconstruction using the encoder and decoder networks. It also includes code snippets for implementing an autoencoder in PyTorch, with examples from a monkey species dataset.",
+    "summary": "This document provides a step-by-step guide on implementing deep autoencoders using PyTorch, a popular open-source machine learning library. The article covers the theory behind autoencoders, their application in image reconstruction, and demonstrates the implementation with a monkey species dataset. It also assumes some prior knowledge of Python, PyTorch, and deep learning concepts.",
     "keywords": [
       "Autoencoder",
-      "Deep Learning",
       "PyTorch",
+      "Deep Learning",
       "Image Reconstruction",
-      "Encoder Network"
+      "Neural Network"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Deep learning autoencoders are a type of neural network that can reconstruct specific images from the latent code space.",
+      "The autoencoders obtain the latent code data from a network called the encoder network. Then we give this code as the input to the decoder network which tries to reconstruct the images that the network has been trained on.",
+      "This document demonstrates the implementation of deep autoencoders using PyTorch, a popular open-source machine learning library.",
+      "The article assumes some prior knowledge of Python, PyTorch, and deep learning concepts.",
+      "The document uses a monkey species dataset for demonstrating the implementation of deep autoencoders."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "A Brief Introduction to Autoencoders •Deep learning autoencoders are a type of neural network that can reconstruct specific images from the latent code space."
+    "content_preview": "This document provides a step-by-step guide on implementing deep autoencoders using PyTorch, a popular open-source machine learning library."
   },
   {
     "id": "0e92d1bb572bc6cc4e40a5fa65dcff13",
