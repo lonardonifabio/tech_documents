@@ -10158,22 +10158,31 @@
   {
     "id": "e0421ab4e9731d1e986fc091c2e9d5ea",
     "filename": "GANs_A_deep_introduction_with_PyTorch_and_TensorFlow_1567265758.pdf",
-    "title": "GANs_A_deep_introduction_with_PyTorch_and_TensorFlow",
-    "authors": [],
+    "title": "GANs from Scratch 1: A deep introduction with PyTorch and TensorFlow",
+    "authors": [
+      "Diego Gomez Mosquera"
+    ],
     "filepath": "documents/GANs_A_deep_introduction_with_PyTorch_and_TensorFlow_1567265758.pdf",
-    "upload_date": "2025-06-03T22:07:04.796530",
+    "upload_date": "2025-06-14T22:31:37.835619",
     "file_size": 1821189,
-    "summary": "This document introduces Generative Adversarial Networks (GANs) with code examples in PyTorch and TensorFlow. GANs are known for their versatility and outstanding results in generating data, and have been used in real-life applications such as text/image/video generation, drug discovery, and text-to-image synthesis.",
+    "summary": "This document provides a comprehensive introduction to Generative Adversarial Networks (GANs), a popular deep learning concept that has been widely used in various applications such as text/image/video generation, drug discovery, and text-to-image synthesis. The author offers code examples in PyTorch and TensorFlow for readers to follow along.",
     "keywords": [
       "GANs",
       "PyTorch",
       "TensorFlow",
       "Deep Learning",
-      "Generative Models"
+      "Artificial Intelligence"
+    ],
+    "key_concepts": [
+      "Generative Adversarial Networks (GANs) are a powerful deep learning concept that have been widely used in various applications.",
+      "The author provides code examples in PyTorch and TensorFlow for readers to learn GANs from scratch.",
+      "GANs have been used in real-life applications such as text/image/video generation, drug discovery, and text-to-image synthesis.",
+      "The potential of GANs is demonstrated through a list of incredible projects created with the technology.",
+      "The author encourages readers to explore the potential of GANs by following along with the provided code examples."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This blog post we will explore Generative Adversarial Networks (GANs)..."
+    "content_preview": "Learn about Generative Adversarial Networks (GANs) from scratch with code examples in PyTorch and TensorFlow."
   },
   {
     "id": "a41a2219d62dee316f93e1b8bd4893df",
