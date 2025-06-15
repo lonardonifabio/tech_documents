@@ -16361,19 +16361,26 @@
     "title": "Mapping Frameworks at the Intersection of AI Safety and Traditional Risk Management",
     "authors": [],
     "filepath": "documents/Mapping_Frameworks_at_the_Intersection_of_AI_Safety_1745999851.pdf",
-    "upload_date": "2025-06-05T20:14:24.172734",
+    "upload_date": "2025-06-14T22:31:41.263621",
     "file_size": 859536,
-    "summary": "This document explores various frameworks that bridge the gap between current AI practices and established risk management, with a focus on AI safety and risk management at AGI companies. It also discusses research motivation, methodology, included frameworks, risk management translation, and adaptations of cybersecurity frameworks to manage fro...",
+    "summary": "This document explores various frameworks that bridge the gap between current AI practices and established risk management, focusing on risk assessment, governance, and maturity models. It reviews popular risk assessment techniques from safety-critical industries, discusses AI risk-management standards, and proposes a defense-in-depth approach for managing frontier AI risks. The document also introduces a maturity model based on the NIST AI Risk Management Framework and affirms an affirmative safety approach to risk management for high-risk AI.",
     "keywords": [
       "AI Safety",
       "Risk Management",
       "Frameworks",
-      "AGI Companies",
-      "Cybersecurity"
+      "Frontier AI",
+      "Governance"
+    ],
+    "key_concepts": [
+      "The document presents a Frontier AI Risk Management Framework that bridges the gap between current AI practices and established risk management.",
+      "It reviews popular risk assessment techniques from safety-critical industries for application in AI risk management.",
+      "The document discusses AI risk-management standards, such as the General-Purpose AI Systems (GPAIS) and Foundation Models.",
+      "Transforming risk governance at frontier AI companies is a key focus of this research.",
+      "The document proposes a defense-in-depth approach for managing frontier AI risks."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Mapping Frameworks at the Intersection of AI Safety and Traditional Risk Management"
+    "content_preview": "This document explores various frameworks that bridge the gap between current AI practices and established risk management, focusing on risk assessment, governance, and maturity models."
   },
   {
     "id": "887a5d8dd3391191ef8c1339455e18d5",
