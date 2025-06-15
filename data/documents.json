@@ -26553,18 +26553,24 @@
       "Jure Š orn"
     ],
     "filepath": "documents/_Python_Cheatsheet_2_July_2020_1634106998.pdf",
-    "upload_date": "2025-06-06T03:10:16.093916",
+    "upload_date": "2025-06-14T22:31:46.521629",
     "file_size": 6737063,
-    "summary": "This document provides a comprehensive cheatsheet for the Python programming language, covering topics such as collections, types, syntax, system functions, data handling, advanced concepts, and various libraries.",
+    "summary": "This document provides a comprehensive cheatsheet for the Python programming language, covering topics such as collections (List, Dictionary, Set, Tuple, Range, Enumerate, Iterator, Generator), types (Type, String, Regular_Exp, Format, Numbers, Combinatorics, Datetime), syntax (Args, Inline, Closure, Decorator, Class, Duck_Type, Enum, Exception), system (Exit, Print, Input, Command_Line_Arguments, Open, Path, OS_Commands), data (JSON, Pickle, CSV, SQLite, Bytes, Struct, Array, Memory_View, Deque), advanced concepts (Threading, Operator, Introspection, Metaprograming, Eval, Coroutine), and libraries (Progress_Bar, Plot, Table, Curses, Logging, Scraping, Web, Profile, NumPy, Image, Audio, G...",
     "keywords": [
       "Python",
       "Cheatsheet",
-      "Programming",
-      "Language"
+      "Programming"
+    ],
+    "key_concepts": [
+      "The document provides a comprehensive overview of Python's core concepts and libraries.",
+      "It covers various data structures like List, Dictionary, Set, Tuple, Range, Enumerate, Iterator, Generator, and their usage.",
+      "The document also explains different types in Python such as Type, String, Regular_Exp, Format, Numbers, Combinatorics, Datetime.",
+      "It provides insights into Python's syntax with topics like Args, Inline, Closure, Decorator, Class, Duck_Type, Enum, Exception.",
+      "The document also discusses system-related functions like Exit, Print, Input, Command_Line_Arguments, Open, Path, OS_Commands."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Comprehensive Python Cheatsheet\nDownload text le, Buy PDF, Fork me on GitHub or Check out FAQ."
+    "content_preview": "Comprehensive Python Cheatsheet for various topics like collections, types, syntax, system, data, advanced concepts, and libraries."
   },
   {
     "id": "a93891c140df9eaead9dd28f746f81b8",
