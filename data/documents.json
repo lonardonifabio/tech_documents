@@ -26620,19 +26620,24 @@
     "title": "Alzheimer Disease Detection using Novel Continuous Neural Network",
     "authors": [],
     "filepath": "documents/alzheimer_1748645981.pdf",
-    "upload_date": "2025-06-05T14:25:36.071232",
+    "upload_date": "2025-06-14T22:31:46.573629",
     "file_size": 567338,
-    "summary": "This document describes a method for detecting Alzheimer's disease using a novel continuous neural network. The code provided reads and organizes image data from two categories (AD and CN) for further analysis.",
+    "summary": "This document presents a study on Alzheimer's disease detection using a novel continuous neural network. The researcher collects and preprocesses data from the IraqiAD dataset, which contains images labeled as 'AD' (Alzheimer's Disease) or 'CN' (Control). The data is then used to train a neural network for classification purposes.",
     "keywords": [
-      "Alzheimer's Disease",
-      "Neural Network",
-      "Image Data",
-      "Pandas",
-      "Kaggle"
+      "Alzheimer's disease",
+      "neural network",
+      "IraqiAD dataset",
+      "image classification"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "The study aims to detect Alzheimer's Disease using a novel continuous neural network.",
+      "Data is collected and preprocessed from the IraqiAD dataset, which contains images labeled as 'AD' or 'CN'.",
+      "The data is used to train a neural network for classification purposes.",
+      "The document provides Python code for loading, processing, and preparing the data for model training."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "import numpy as np\nimport pandas as pd\nimport os"
+    "content_preview": "The study collects and preprocesses data from the IraqiAD dataset for Alzheimer's Disease detection using a novel continuous neural network."
   },
   {
     "id": "2a3ce02c973d3c9fad3103025e374855",
