@@ -371,7 +371,7 @@ class ResultAggregator:
 class EnhancedOllamaDocumentProcessor:
     """Enhanced document processor with multi-chunk analysis and multi-pass approach."""
     
-    def __init__(self, model_name: str = "mistral:7b"):
+    def __init__(self, model_name: str = "llama3.1:8b"):
         self.model_name = model_name
         self.base_dir = Path.cwd()
         self.documents_dir = self.base_dir / 'documents'
