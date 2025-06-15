@@ -13231,22 +13231,29 @@
   {
     "id": "5bc212a13afec3057aa9edba8196c5f2",
     "filename": "Keras_cheat_sheet_1599049773.pdf",
-    "title": "Keras Cheat Sheet",
+    "title": "Keras Cheat Sheet for R",
     "authors": [],
     "filepath": "documents/Keras_cheat_sheet_1599049773.pdf",
-    "upload_date": "2025-06-05T20:14:22.371724",
+    "upload_date": "2025-06-14T22:31:39.466617",
     "file_size": 566593,
-    "summary": "A guide on using Keras, a high-level neural networks API that supports multiple backends like TensorFlow and CNTK. The document provides an overview of working with Keras models in R using the keras R package.",
+    "summary": "This document provides a comprehensive guide to using Keras, a high-level neural networks API, in the R programming language. It covers installation, working with Keras models, and examples using the MNIST dataset. The document also highlights key features such as optimizers, loss functions, metrics, and model types like Sequential and Multi-GPU models.",
     "keywords": [
       "Keras",
+      "R",
       "Deep Learning",
       "Neural Networks",
-      "R",
-      "TensorFlow"
+      "Machine Learning"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Keras is a high-level neural networks API that supports multiple backends, including TensorFlow, CNTK, and Theano.",
+      "The keras R package uses the Python keras library and can be installed directly from R.",
+      "The document provides examples using the MNIST dataset for image classification tasks.",
+      "Key features of Keras include optimizers, loss functions, metrics, and model types like Sequential and Multi-GPU models.",
+      "The document also includes instructions on how to reshape and rescale data before working with Keras."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "IntroDeep Learning with Keras : CHEAT SHEET Keras is a high-level..."
+    "content_preview": "This document provides a guide to using Keras, a high-level neural networks API, in R. It covers installation, working with models, and examples using the MNIST dataset."
   },
   {
     "id": "4c20f012bae540d3ae41cbf59191f2aa",
