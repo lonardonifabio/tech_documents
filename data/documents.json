@@ -20569,19 +20569,26 @@
     "title": "Python Cheatsheet",
     "authors": [],
     "filepath": "documents/Python_Cheatsheet_1568873680.pdf",
-    "upload_date": "2025-06-05T20:14:26.037776",
+    "upload_date": "2025-06-14T22:31:43.202625",
     "file_size": 1785862,
-    "summary": "This document provides a quick reference guide for Python variables, lists, tuples, and if statements. It covers topics such as creating variables, strings, concatenation, lists, loops, list comprehensions, slicing, copying, tuples, and conditional tests.",
+    "summary": "This document provides a comprehensive guide on Python basics, focusing on variables, strings, lists, tuples, and if statements. It covers creating, modifying, and accessing variables, concatenating strings, working with lists including loops, list comprehensions, slicing, copying, and adding items. Additionally, it explains how to create and use tuples, and testing conditions using if statements.",
     "keywords": [
       "Python",
-      "Cheatsheet",
       "Variables",
+      "Strings",
       "Lists",
       "Tuples"
     ],
+    "key_concepts": [
+      "Variables are used to store values in Python. Strings are a series of characters enclosed by single or double quotes.",
+      "Concatenation (combining strings) can be achieved using the '+' operator or list comprehensions.",
+      "A list stores a series of items in a particular order and can be accessed using an index or within a loop. Lists can also be modified by adding, removing, or changing items.",
+      "Tuples are similar to lists but their items cannot be modified once created.",
+      "If statements are used to test for specific conditions and respond appropriately."
+    ],
     "category": "Technology",
     "difficulty": "Beginner",
-    "content_preview": "Variables are used to store values. A string is a series of characters, surrounded by single or double quotes."
+    "content_preview": "This document provides a Python cheatsheet covering variables, strings, lists, tuples, and if statements."
   },
   {
     "id": "04e308975b76a62e36adac6da0a0539e",
