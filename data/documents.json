@@ -17435,18 +17435,23 @@
       "Garrett Thomas"
     ],
     "filepath": "documents/Mathematics_of_Machine_Learning_1569139894.pdf",
-    "upload_date": "2025-06-04T21:18:53.596031",
+    "upload_date": "2025-06-15T08:35:05.010556",
     "file_size": 711243,
-    "summary": "This document provides a summary of the mathematical background needed for an introductory class in machine learning at UC Berkeley, assuming familiarity with multivariable calculus and linear algebra. It covers various mathematical topics relevant to machine learning, including proofs where they aid understanding.",
+    "summary": "This document provides an overview of the mathematical background required for an introductory machine learning class at UC Berkeley, assuming familiarity with multivariable calculus and linear algebra. It covers topics minimally, pointing readers to more comprehensive resources for further details. The document does not discuss specific machine learning models or algorithms but highlights their relevance.",
     "keywords": [
-      "Machine Learning",
       "Mathematics",
+      "Machine Learning",
       "Multivariable Calculus",
       "Linear Algebra"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "This document is an overview of the mathematical background needed for an introductory machine learning class, assuming familiarity with multivariable calculus and linear algebra.",
+      "The document covers topics minimally, pointing readers to more comprehensive resources for further details.",
+      "It does not discuss specific machine learning models or algorithms but highlights their relevance to the mathematical concepts presented."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a summary of the mathematical background needed for an introductory class in machine learning..."
+    "content_preview": "Overview of mathematical background for an introductory machine learning class at UC Berkeley."
   },
   {
     "id": "a67f39c2917f8c26c0d5590386d6bc2d",
