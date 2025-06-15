@@ -20074,19 +20074,25 @@
     "title": "Python Bokeh Cheat Sheet",
     "authors": [],
     "filepath": "documents/Python Bokeh Cheat Sheet.pdf",
-    "upload_date": "2025-06-05T20:14:25.967772",
+    "upload_date": "2025-06-14T22:31:43.133625",
     "file_size": 249767,
-    "summary": "This document provides a cheat sheet for using Python's Bokeh library for data visualization, including examples on plotting, layouts, and hover glyphs. It also suggests learning Bokeh interactively at DataCamp.",
+    "summary": "This document provides a cheat sheet for using the Python library Bokeh, which is a powerful interactive visualization tool for data science. It covers topics such as creating figures, plotting data, layouts, and various tools like selection glyphs and hover glyphs. The reader is encouraged to learn Bokeh interactively at DataCamp, taught by Bryan Van de Ven, a core contributor.",
     "keywords": [
       "Python",
       "Bokeh",
-      "Data Visualization",
-      "Cheat Sheet",
-      "DataCamp"
+      "Data Science",
+      "Visualization",
+      "Cheat Sheet"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "This document provides a comprehensive guide on using Bokeh, a Python library for interactive visualization in data science.",
+      "The guide covers topics such as creating figures, plotting data, and various tools like selection glyphs and hover glyphs.",
+      "The reader is encouraged to learn Bokeh interactively at DataCamp, taught by Bryan Van de Ven, a core contributor.",
+      "The document also includes examples of using functions like figure(), output_notebook(), file_html(), components(), row(), gridplot(), Tabs(), Panel(), and HoverTool()."
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Plotting With Bokeh\n>>> from bokeh.plotting import figure"
+    "content_preview": "This document provides a cheat sheet for using Bokeh, a Python library for interactive visualization in data science."
   },
   {
     "id": "0e64e26654c2b421a8ee773b6212b811",
