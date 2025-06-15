@@ -3648,28 +3648,70 @@
     "id": "682444cb1656f22ef56c145e43ef47e8",
     "filename": "AI_s_Energy_Paradox_1747211007.pdf",
     "title": "AI's Energy Paradox: Balancing Challenges and Opportunities",
-    "authors": [],
+    "authors": [
+      "World Economic Forum",
+      "Accenture"
+    ],
     "filepath": "documents/AI_s_Energy_Paradox_1747211007.pdf",
-    "upload_date": "2025-06-13T22:59:37.772895",
+    "upload_date": "2025-06-15T16:03:22.024546",
     "file_size": 3027416,
-    "summary": "This white paper, published by the World Economic Forum in collaboration with Accenture, explores the energy consumption of AI, its role in the energy transition, and the primary challenges and ecosystem enablers. It discusses opportunities to reduce AI system electricity consumption, presents use cases for AI-enabled electricity reduction, and outlines infrastructure, environmental, regulatory, financial, and other challenges and enablers.",
+    "summary": "This white paper, published by the World Economic Forum in collaboration with Accenture, explores the energy consumption of AI and its role in the energy transition. It discusses opportunities to reduce AI system electricity consumption, AI-enabled energy reduction opportunities, primary challenges, ecosystem enablers, and regulatory and financial incentives. The document is intended for industry professionals, policymakers, and researchers interested in AI, energy, and sustainability.",
     "keywords": [
       "AI",
-      "Energy Consumption",
+      "Energy Transition",
+      "Sustainability",
       "Data Centers",
-      "Electricity Reduction",
-      "Use Cases"
+      "Regulation"
     ],
     "key_concepts": [
-      "Artificial Intelligence consumes significant amounts of electricity, particularly in data centers.",
-      "AI can play a crucial role in facilitating an energy transition by reducing electricity consumption in various sectors.",
-      "The document outlines opportunities to reduce AI system electricity consumption and presents sample use cases.",
-      "Infrastructure challenges, environmental concerns, regulatory policies, financial incentives, and ecosystem enablers are discussed as primary challenges and potential solutions.",
-      "The paper provides an overview of the theoretical framework and principles guiding the exploration of AI's energy paradox."
+      "The document discusses the electricity consumption of AI systems and their role in the energy transition.",
+      "It presents opportunities to reduce AI system electricity consumption, such as optimizing data center operations and improving energy efficiency.",
+      "The paper highlights primary challenges in reducing AI's energy consumption, including infrastructure, environmental, and regulatory issues.",
+      "It also outlines ecosystem enablers, financial incentives, and regulatory policies that can help address these challenges.",
+      "The document provides examples of AI-enabled electricity reduction opportunities and sample use cases."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Exploring AI's energy consumption, opportunities for reduction, and challenges in the energy transition."
+    "content_preview": "Explores the energy consumption of AI and its role in the energy transition.",
+    "target_audience": "Industry professionals, policymakers, and researchers interested in AI, energy, and sustainability.",
+    "industry": [
+      "Energy",
+      "Technology"
+    ],
+    "business_functions": [
+      "Sustainability",
+      "Regulation",
+      "Policy"
+    ],
+    "companies": [
+      "Accenture"
+    ],
+    "technologies": [
+      "AI",
+      "Data Centers"
+    ],
+    "processes": [
+      "Energy Transition"
+    ],
+    "technical_terms": [
+      "AI Life Cycle",
+      "Data Center Operations",
+      "Energy Efficiency"
+    ],
+    "methodologies": [
+      "Case Studies",
+      "Regulatory Analysis"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of AI and energy systems."
+    ],
+    "learning_objectives": [],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "d2f96797ab6a7a5a605f3688f758e374",
