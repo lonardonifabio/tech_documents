@@ -28250,17 +28250,26 @@
     "title": "Deep Learning: A Comprehensive Guide",
     "authors": [],
     "filepath": "documents/intro_to_Deep_Learning_1707251482.pdf",
-    "upload_date": "2025-06-03T22:07:09.209566",
+    "upload_date": "2025-06-15T10:34:07.686540",
     "file_size": 564135,
-    "summary": "This document introduces deep learning, a branch of machine learning using artificial neural networks to learn complex patterns in data. It discusses the advantages of deep learning such as robustness, flexibility, high dimensionality, unsupervised learning, fast insights, and efficient information retention.",
+    "summary": "This document provides an introduction to deep learning, a branch of machine learning that utilizes artificial neural networks (ANNs) to learn complex patterns in data. It discusses the advantages of deep learning, such as its robustness, flexibility, and ability to handle high dimensionality. The document also covers popular deep learning architectures like CNNs, RNNs, and DBNs, and addresses the challenges of training deep neural networks. Lastly, it highlights the applications of deep learning in areas like image recognition, natural language processing, speech recognition, and recommendation systems.",
     "keywords": [
       "Deep Learning",
       "Artificial Neural Networks",
-      "Machine Learning"
+      "Machine Learning",
+      "CNNs",
+      "RNNs"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Deep learning is a branch of machine learning using ANNs to learn complex patterns and relationships in data.",
+      "ANNs are inspired by the human brain and learn from large amounts of data without explicit programming.",
+      "Deep learning uses deep neural networks with multiple layers, enabling them to discover intricate data patterns.",
+      "Unlike traditional machine learning, deep learning automatically learns and improves through data, reducing manual feature engineering.",
+      "Deep learning has achieved success in areas like image recognition, natural language processing, speech recognition, and recommendation systems."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Deep learning is a branch of machine learning using artificial neural networks to learn complex patterns and relationships in data."
+    "content_preview": "This document introduces deep learning, a powerful machine learning technique."
   },
   {
     "id": "b750447d6dff5f944a04347ee1016d17",
