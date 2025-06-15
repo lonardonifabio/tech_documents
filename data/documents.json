@@ -30702,25 +30702,71 @@
       "Giannis Tolios"
     ],
     "filepath": "documents/pycaret_1648896054.pdf",
-    "upload_date": "2025-06-13T22:59:51.407954",
+    "upload_date": "2025-06-15T16:03:35.946635",
     "file_size": 3064458,
-    "summary": "This book provides a low-code approach to machine learning using PyCaret, suitable for both beginners and experts. It covers the basics of machine learning, installation, usage, and practical applications of PyCaret. The book is available for purchase at http://leanpub.com/pycaretbook.",
+    "summary": "This document introduces PyCaret, a low-code approach to machine learning suitable for both beginners and experts. It covers prerequisites, software requirements, installation of PyCaret, using JupyterLab, and provides a brief introduction to machine learning.",
     "keywords": [
       "PyCaret",
       "Machine Learning",
       "Low-code",
-      "Book"
+      "Beginner",
+      "Expert"
     ],
     "key_concepts": [
-      "PyCaret is a low-code machine learning library that simplifies the process of building and deploying machine learning models.",
-      "The book provides a step-by-step guide on how to install, use, and apply PyCaret in various machine learning tasks.",
-      "The book covers practical applications of PyCaret in real-world scenarios, making it useful for both beginners and experts.",
-      "The theoretical foundations of machine learning are briefly introduced to provide context for the practical applications.",
-      "The book is part of the Lean Publishing process, allowing readers to provide feedback and contribute to its development."
+      "PyCaret is a low-code approach for simplifying machine learning tasks.",
+      "The book provides a step-by-step guide on installing and using PyCaret.",
+      "It offers an introduction to machine learning concepts for beginners.",
+      "The document assumes some basic knowledge of programming and data analysis."
     ],
     "category": "Machine Learning",
     "difficulty": "Beginner",
-    "content_preview": "Simplifying Machine Learning with PyCaret: A Low-code Approach for Beginners and Experts!"
+    "content_preview": "Learn PyCaret, a low-code approach for machine learning.",
+    "target_audience": "Beginners and experts in machine learning who want to use PyCaret.",
+    "industry": [
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Data Analysis",
+      "Machine Learning"
+    ],
+    "companies": [],
+    "technologies": [
+      "PyCaret",
+      "JupyterLab"
+    ],
+    "processes": [
+      "Installing PyCaret",
+      "Using JupyterLab"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Low-code"
+    ],
+    "methodologies": [
+      "PyCaret methodology"
+    ],
+    "tools_mentioned": [
+      "PyCaret",
+      "JupyterLab"
+    ],
+    "prerequisites": [
+      "Basic knowledge of programming and data analysis"
+    ],
+    "learning_objectives": [
+      "Learn how to install and use PyCaret for machine learning tasks."
+    ],
+    "use_cases": [
+      "Practical applications of PyCaret in machine learning."
+    ],
+    "benefits_mentioned": [
+      "Simplifying machine learning tasks with a low-code approach."
+    ],
+    "challenges_addressed": [
+      "Complexity in machine learning tasks."
+    ],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "9815c9c327347ef01d994c78534ea95a",
