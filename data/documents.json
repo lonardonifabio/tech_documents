@@ -30455,12 +30455,12 @@
   {
     "id": "afe3766aaa1a67c462c8c627e6e63b63",
     "filename": "javascript_cheatsheet_2019_lenguajejs_com_1623050131.pdf",
-    "title": "JavaScript Cheatsheet 2019 from lenguajejs.com",
+    "title": "JavaScript Cheatsheet 2019 by lenguajejs.com",
     "authors": [],
     "filepath": "documents/javascript_cheatsheet_2019_lenguajejs_com_1623050131.pdf",
-    "upload_date": "2025-06-13T22:59:51.221953",
+    "upload_date": "2025-06-15T16:03:35.769634",
     "file_size": 193291,
-    "summary": "This document provides a comprehensive guide on JavaScript, covering topics such as assertions, quantifiers, grouping, capture groups, boundaries, character sets or alternation, classes, modifying source array methods, iteration methods, callback for each methods, properties, locale & timezone methods, unit getters/setters, number methods, and string methods. It is useful for both beginners and intermediate JavaScript developers.",
+    "summary": "This document provides a comprehensive cheatsheet for JavaScript, covering various topics such as assertions, quantifiers, grouping, boundaries, character sets or alternation, classes, modifying source array methods, iteration methods, callback for each methods, properties, locale & timezone methods, unit getters/setters, number methods, string methods, and more. It is intended for intermediate to advanced JavaScript developers.",
     "keywords": [
       "JavaScript",
       "Cheatsheet",
@@ -30469,15 +30469,44 @@
       "Quantifiers"
     ],
     "key_concepts": [
-      "The document explains the use of assertions in JavaScript, which are statements that check whether a condition is true or false.",
-      "Quantifiers are used to specify how many times a pattern should match. x* preceding  x 0 or more times {0,} represents zero or more occurrences of x.",
-      "Grouping allows you to group multiple characters together in a regular expression.",
-      "Capture groups allow you to capture and store specific parts of a matched string for later use.",
-      "Boundaries are used to specify the position of a match within a string. ^ begin of input matches the start of the input, while a|b matches either a or b."
+      "Understand the use of assertions in JavaScript and their quantifiers.",
+      "Learn about grouping, boundaries, and character sets or alternation in JavaScript expressions.",
+      "Gain knowledge on various classes and modifying source array methods in JavaScript.",
+      "Explore iteration methods like .entries(), .keys(), .values(), .forEach(), .map(), .reduce(), .reduceRight(), .every(), .filter(), .find(), .findIndex() for handling arrays in JavaScript.",
+      "Familiarize yourself with properties, locale & timezone methods, unit getters/setters, number methods, and string methods in JavaScript."
     ],
-    "category": "Technology",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a comprehensive guide on JavaScript, covering various topics such as assertions, quantifiers, grouping, capture groups, boundaries, character sets, classes, modifying source array methods, iteration methods, callback for each methods, properties, locale & timezone methods, unit getters/setters, number methods, and string methods."
+    "content_preview": "This document provides a cheatsheet for JavaScript covering various topics.",
+    "target_audience": "Intermediate to advanced JavaScript developers",
+    "industry": [
+      "IT",
+      "Software Development"
+    ],
+    "business_functions": [
+      "Programming",
+      "Development",
+      "Scripting"
+    ],
+    "companies": [],
+    "technologies": [
+      "JavaScript"
+    ],
+    "processes": [
+      "Coding",
+      "Scripting",
+      "Debugging"
+    ],
+    "technical_terms": [],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [],
+    "learning_objectives": [],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "d404198c3440bb130fbe2c12a0969e4e",
