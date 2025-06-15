@@ -9367,24 +9367,32 @@
   {
     "id": "6fbc44fa1405f35b5c56d1db3d589408",
     "filename": "Easy_Things_are_Hard_in_Vision_1639839129.pdf",
-    "title": "Easy Things are Hard in Vision",
+    "title": "Easy things are hard in Vision - Computer Vision (Master the fundamentals of Convolutional Neural Network-Phase 1)",
     "authors": [
       "Vivek Chaudhary",
       "Deepanshu Dashora"
     ],
     "filepath": "documents/Easy_Things_are_Hard_in_Vision_1639839129.pdf",
-    "upload_date": "2025-06-03T22:07:04.678529",
+    "upload_date": "2025-06-15T08:35:00.951539",
     "file_size": 3571142,
-    "summary": "This book explores the challenges of computer vision, using the analogy of identifying fruits. It discusses how humans and computers approach object classification differently.",
+    "summary": "This book explores the challenges in computer vision, using the analogy of identifying fruits. It discusses how humans classify objects based on previous experiences and explains how computers approach similar problems differently. The focus is on understanding the fundamentals of Convolutional Neural Networks (CNN) in Phase 1. The authors are Vivek Chaudhary and Deepanshu Dashora.",
     "keywords": [
       "Computer Vision",
       "Convolutional Neural Network",
-      "Object Classification",
-      "Machine Learning"
+      "Phase 1",
+      "Vivek Chaudhary",
+      "Deepanshu Dashora"
+    ],
+    "key_concepts": [
+      "Computers classify objects in a different manner than humans, focusing on specific features like shapes and sizes.",
+      "The book uses the analogy of identifying fruits to explain the challenges in computer vision.",
+      "The focus is on mastering the fundamentals of Convolutional Neural Networks (CNN) in Phase 1 of this book.",
+      "Understanding how humans classify objects based on previous experiences is crucial for developing effective computer vision systems.",
+      "The book provides insights into the process of training a system to recognize specific objects like apples."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Easy things are hard in Vision - Computer Vision (Master the fundamentals of Convolutional Neural Network-Phase 1)"
+    "content_preview": "This book explores the challenges in computer vision using the analogy of identifying fruits."
   },
   {
     "id": "47a99baf837e233f5df8f587f5cd97a7",
