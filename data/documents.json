@@ -22502,14 +22502,14 @@
   {
     "id": "76cd81dd670fcdeca92dcc5bad88ce67",
     "filename": "Statistics_1706087247.pdf",
-    "title": "Statistics Programming with Think Stats",
+    "title": "Statistics Programming with Python",
     "authors": [
       "Skipper Seabold"
     ],
     "filepath": "documents/Statistics_1706087247.pdf",
-    "upload_date": "2025-06-03T17:53:43.754137",
+    "upload_date": "2025-06-14T22:31:44.251627",
     "file_size": 11517737,
-    "summary": "Comprehensive introduction to Python data analysis stack. Beneficial for practitioners wanting to brush up on technical skills and learn modern statistics textbook.",
+    "summary": "This comprehensive introduction offers a modern approach to data analysis using Python. It's ideal for practitioners wanting to enhance their technical skills and learn about the tools available in a modern programming language. The book covers exploratory data analysis, distributions, rules of probability, visualization, regression, time series analysis, survival analysis, and analytic methods.",
     "keywords": [
       "Python",
       "Data Analysis",
@@ -22517,9 +22517,16 @@
       "Programming",
       "Modern Statistics"
     ],
+    "key_concepts": [
+      "Learn the entire process of exploratory data analysis using Python.",
+      "Understand probability and statistics by writing and testing code.",
+      "Run experiments to test statistical behavior, such as generating samples from several distributions.",
+      "Use simulations to understand concepts that are hard to grasp mathematically.",
+      "New chapters on regression, time series analysis, survival analysis, and analytic methods enrich the discoveries."
+    ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This is the most comprehensive introduction to the Python data analysis stack on the market..."
+    "content_preview": "Learn Python data analysis with this comprehensive introduction."
   },
   {
     "id": "231a172e868d79d16cd396bc003e6269",
