@@ -12694,19 +12694,26 @@
       "Hadar Sharvit"
     ],
     "filepath": "documents/Intro_to_Deep_Learning_Notes_by_Hadar_Sharvit_1642754732.pdf",
-    "upload_date": "2025-06-03T22:07:05.209534",
+    "upload_date": "2025-06-15T08:35:02.477545",
     "file_size": 10949194,
-    "summary": "This document is a set of lecture notes on deep learning, written by Hadar Sharvit based on lectures given by Raanan Fattal and recitations by Matan Halfon. The notes cover topics such as entropy and cross-entropy, neural network models (Perceptron, Multi Layer Perceptron), activation functions, loss functions, and network training using gradien...",
+    "summary": "This document provides an introduction to deep learning, covering topics such as information theory, neural network models (Perceptron, Multi Layer Perceptron), activation functions, loss functions, and network training using gradient descent optimization and mini-batching. The document is based on lectures given by Raanan Fattal and Matan Halfon.",
     "keywords": [
       "Deep Learning",
       "Neural Networks",
-      "Activation Functions",
-      "Loss Function",
-      "Gradient Descent"
+      "Perceptron",
+      "Multi Layer Perceptron",
+      "Activation Function"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "The document explains deep learning through the lens of information theory, using entropy and cross-entropy to minimize the cost function.",
+      "It discusses various types of neural network models, including Perceptron and Multi Layer Perceptron, and their role in machine learning.",
+      "The activation functions used in these networks are also covered, with an explanation of their importance in shaping the output of the network.",
+      "The document delves into loss functions, specifically regression and classification loss, which help measure the error between predicted and actual values.",
+      "Lastly, it discusses network training methods, focusing on gradient descent optimization and mini-batching for efficient learning."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document is a set of lecture notes on deep learning, written by Hadar Sharvit based on lectures given by Raanan Fattal and recitations by Matan Halfon."
+    "content_preview": "This document introduces deep learning through information theory, neural network models, activation functions, loss functions, and training methods."
   },
   {
     "id": "0a85633dba8710b8fdcf0dd82077d067",
