@@ -27973,18 +27973,26 @@
       "mdesai96"
     ],
     "filepath": "documents/numpy-cheat-sheet.pdf",
-    "upload_date": "2025-06-06T03:10:16.597917",
+    "upload_date": "2025-06-14T22:31:47.038630",
     "file_size": 33705,
-    "summary": "A guide to creating and manipulating arrays in NumPy, including 1D, 2D, and 3D arrays, reshaping, subsetting, and slicing.",
+    "summary": "This document provides a comprehensive guide to using NumPy, a popular Python library for numerical computations. It covers array basics, creation, reshaping, subsetting, and slicing in one-, two-, and three-dimensional arrays. Key topics include creating arrays of various shapes, filling arrays with zeros, generating arrays with specific ranges, and accessing elements using indices.",
     "keywords": [
       "NumPy",
-      "Array",
-      "Cheat Sheet",
-      "Python"
+      "array",
+      "creation",
+      "reshaping",
+      "subsetting"
+    ],
+    "key_concepts": [
+      "Creates a 1D array with values 1, 2, 3. (shape 1x3)",
+      "Creates a 2D array of shape 2x3 with values 1,2,3,4",
+      "Reshapes an array into an array of shape 2x3x4",
+      "Selects the 0th element in a 1D array",
+      "Selects the 0th element in a 2D array"
     ],
     "category": "Data Science",
-    "difficulty": "Intermediate",
-    "content_preview": "Creates a 1D array with values 1, 2, 3. (shape 1x3)"
+    "difficulty": "Beginner",
+    "content_preview": "Learn to create, reshape, and subset NumPy arrays."
   },
   {
     "id": "46c9e8954f6fd97158dc61183e3e53b2",
