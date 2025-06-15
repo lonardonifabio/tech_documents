@@ -1559,33 +1559,73 @@
   {
     "id": "1a038965d1cb5bc0fb93a2a6af1bed26",
     "filename": "AI_Deep_Learning_e_Machine_Learning_�_1685989836.pdf",
-    "title": "Probability Theory in Machine Learning, Deep Learning, and Artificial Intelligence",
+    "title": "Probability Theory for Machine Learning, Deep Learning, and Artificial Intelligence",
     "authors": [
       "STANFORD UNIVERSITY",
       "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
       "NIKHIL YADAV"
     ],
     "filepath": "documents/AI_Deep_Learning_e_Machine_Learning_�_1685989836.pdf",
-    "upload_date": "2025-06-13T22:59:36.862891",
+    "upload_date": "2025-06-15T16:03:21.110541",
     "file_size": 7822644,
-    "summary": "This document provides definitions, axioms, corollaries, and examples related to probability theory, which is crucial for understanding uncertainty and data analysis in machine learning, deep learning, and artificial intelligence. It covers concepts such as sample space, event, probability axioms, conditioning, and Bayes' rule.",
+    "summary": "This document provides definitions, axioms, corollaries, and examples related to probability theory, which is essential for understanding machine learning, deep learning, and artificial intelligence. It covers topics such as sample spaces, events, probability axioms, conditioning, and Bayes' rule.",
     "keywords": [
       "Probability",
       "Machine Learning",
       "Deep Learning",
-      "Artificial Intelligence",
-      "Sample Space"
+      "Artificial Intelligence"
     ],
     "key_concepts": [
-      "A sample space is the set of all possible outcomes, where its elements must be mutually exclusive, collectively exhaustive and at the right granularity.",
-      "An event is a subset of the sample space. Probability is assigned to events.",
-      "Probability models and axioms are used to assign probabilities to events and satisfy certain rules.",
-      "Conditioning refers to the process of updating probabilities given that an event has occurred.",
-      "Bayes' rule provides a way to calculate conditional probabilities."
+      "A sample space is the set of all possible outcomes.",
+      "An event is a subset of the sample space.",
+      "Probability law assigns probabilities to events and satisfies the probability axioms.",
+      "Conditioning is the process of updating probabilities given that an event has occurred.",
+      "Bayes' rule is a formula for calculating conditional probabilities."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document explains probability theory, essential for understanding uncertainty and data analysis in machine learning, deep learning, and artificial intelligence."
+    "content_preview": "This document explains probability theory, essential for understanding machine learning and AI.",
+    "target_audience": "Machine Learning Engineers, Data Scientists, AI Researchers",
+    "industry": [
+      "Technology",
+      "AI",
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research & Development",
+      "Data Analysis"
+    ],
+    "companies": [],
+    "technologies": [
+      "Probability Theory"
+    ],
+    "processes": [
+      "Probability Calculation"
+    ],
+    "technical_terms": [
+      "Sample Space",
+      "Event",
+      "Conditional Probability",
+      "Bayes' Rule"
+    ],
+    "methodologies": [
+      "Probability Theory"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic Understanding of Mathematics"
+    ],
+    "learning_objectives": [
+      "Understand probability theory and its applications in machine learning, deep learning, and AI."
+    ],
+    "use_cases": [
+      "Applying probability theory to improve the accuracy of machine learning models.",
+      "Using Bayes' rule for decision-making in AI systems."
+    ],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "2a0b5b78eff0a4559fc7faffb6b83179",
