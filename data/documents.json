@@ -28471,9 +28471,9 @@
       "Shivam Modi"
     ],
     "filepath": "documents/learneverythingai__1715292156.pdf",
-    "upload_date": "2025-06-04T21:18:56.147046",
+    "upload_date": "2025-06-15T10:34:07.752540",
     "file_size": 159797,
-    "summary": "A quick reference guide for Python programming concepts including variables, data types, control flow, functions, lists, dictionaries, modules and packages, file handling, exception handling, classes and objects, inheritance and polymorphism.",
+    "summary": "This document provides a comprehensive guide to Python programming concepts, covering variables and data types, control flow, functions, lists, dictionaries, modules and packages, file handling, exception handling, classes and objects, inheritance and polymorphism, error and exception handling, and concludes with a brief introduction. It serves as a quick reference for both beginners and experienced programmers.",
     "keywords": [
       "Python",
       "Programming",
@@ -28481,9 +28481,16 @@
       "Variables",
       "Data Types"
     ],
+    "key_concepts": [
+      "Python is a high-level, interpreted programming language known for its simplicity and readability.",
+      "A variable in Python is a named location in memory used to store data, with case-sensitive names that can contain letters, numbers, and underscores.",
+      "Python has several built-in data types, including numeric (int, float, complex), sequence (list, tuple, range), mapping (dict), set, and more.",
+      "Control flow in Python is managed through conditional statements and loops, allowing for decision making and repetition of code blocks.",
+      "Functions in Python are reusable pieces of code that perform specific tasks, and can take input parameters and return output values."
+    ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Python is a high-level, interpreted programming language known for its simplicity and readability."
+    "content_preview": "This cheatsheet provides a quick reference for Python programming concepts."
   },
   {
     "id": "e07ff30f685ace9c20c23de8bc277b64",
