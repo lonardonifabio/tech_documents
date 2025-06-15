@@ -46,19 +46,26 @@
       "Waleed Mousa"
     ],
     "filepath": "documents/100_essential_concepts_for_data_science__1710060188.pdf",
-    "upload_date": "2025-06-03T17:53:37.237047",
+    "upload_date": "2025-06-14T22:31:31.699615",
     "file_size": 119337,
-    "summary": "This document covers essential concepts for data scientists, including data loading, cleaning, wrangling, visualization, descriptive and inferential statistics, probability, sampling, Bayesian thinking, regular expressions, data structures, complexity analysis, Python OOP, and more.",
+    "summary": "This document provides a comprehensive guide to essential concepts every data scientist should know, including data loading, cleaning, wrangling, visualization, descriptive and inferential statistics, probability, sampling, Bayesian thinking, regular expressions, data structures, complexity analysis, Python OOP, and more. The document is written by Waleed Mousa.",
     "keywords": [
       "Data Science",
-      "Data Loading",
-      "Data Cleaning",
-      "Data Wrangling",
-      "Data Visualization"
+      "Python",
+      "Statistics",
+      "Data Manipulation",
+      "Data Analysis"
+    ],
+    "key_concepts": [
+      "Use pandas to load data from different formats like CSV, Excel, SQL databases, etc.",
+      "Techniques to handle missing data, outliers, or inconsistent entries",
+      "Transform raw data into a suitable format for analysis by reshaping data, merging datasets, handling missing values, and converting data types",
+      "Use libraries like Matplotlib and Seaborn to create graphs and charts to understand data patterns and relationships",
+      "Basic statistical concepts like mean, median, mode, standard deviation, variance, correlation, etc. which are crucial for exploratory data analysis"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Essential Concepts for Data Scientists: 1- Data Loading, 2- Data Cleaning, 3- Data Wrangling,"
+    "content_preview": "Essential concepts for data scientists: data loading, cleaning, wrangling, visualization, statistics, probability, sampling, Bayesian thinking, regular expressions, data structures, complexity analysis, Python OOP."
   },
   {
     "id": "1b1fd9de07ae8419609661f8bb595879",
