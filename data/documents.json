@@ -7778,22 +7778,27 @@
   {
     "id": "e1fab0a6b274d7cec32f020dcdb9cfb3",
     "filename": "Data_Visualization.pdf",
-    "title": "Data Visualization: 10 Useful Ways to Visualize Your Data",
+    "title": "10 Useful Ways to Visualize Your Data (With Examples)",
     "authors": [],
     "filepath": "documents/Data_Visualization.pdf",
-    "upload_date": "2025-06-03T17:53:39.592080",
+    "upload_date": "2025-06-15T08:34:59.963535",
     "file_size": 591693,
-    "summary": "This guide provides 10 effective data visualization examples for creating powerful KPI dashboards. It covers various types of charts such as Line Chart, Column Chart, Bar Chart, Pie Chart, Area Chart, Pivot Table, Scatter Chart, Scatter Map/Area Map, Treemap, and Indicator.",
+    "summary": "This document provides a comprehensive guide on effective data visualization techniques for various types of data measurements. It covers 10 different data visualization examples, including Line Chart, Column Chart, Bar Chart, Pie Chart, Area Chart, Pivot Table, Scatter Chart, Scatter Map/Area Map, Treemap, and Indicator. The Indicator data visualization is explained in detail, showcasing its use for presenting changes in data using gauges or tic-markers, and demonstrating one or two numeric values with additional titles and color-coded icons.",
     "keywords": [
       "Data Visualization",
-      "Charts",
-      "KPI Dashboards",
       "Line Chart",
-      "Column Chart"
+      "Column Chart",
+      "Bar Chart",
+      "Pie Chart"
+    ],
+    "key_concepts": [
+      "Indicator data visualization is a vivid way to present changes in data using gauges or tic-markers.",
+      "Indicators allow you to display one or two numeric values with additional titles and color-coded icons for clarity.",
+      "Choose the appropriate data visualization type based on what measurement you are trying to emphasize and what information you are trying to reveal."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This guide provides 10 effective data visualization examples for creating powerful KPI dashboards."
+    "content_preview": "Learn 10 effective data visualization examples for your dashboards today, including Line Chart, Column Chart, Bar Chart, Pie Chart, Area Chart, Pivot Table, Scatter Chart, Scatter Map/Area Map, Treemap."
   },
   {
     "id": "9059d281c6df63b1d5edfe2a83374466",
