@@ -27579,18 +27579,25 @@
       "Shervine Amidi"
     ],
     "filepath": "documents/deep learning cheat sheet.pdf",
-    "upload_date": "2025-06-05T20:14:29.512863",
+    "upload_date": "2025-06-15T08:35:10.254570",
     "file_size": 1857752,
-    "summary": "This document provides tips, tricks, and techniques for deep learning, including data augmentation methods and batch normalization. It is a cheatsheet created by Afshine Amidi and Shervine Amidi, published on November 26, 2018.",
+    "summary": "This document provides a cheatsheet for deep learning, focusing on data processing techniques like data augmentation and batch normalization. It offers tips and tricks for CS230 course by Stanford University, authored by Afshine Amidi and Shervine Amidi. The main data augmentation techniques discussed are original, flip, rotation, random crop, color shift, noise addition, information loss, contrast change, and batch normalization.",
     "keywords": [
       "Deep Learning",
       "Data Augmentation",
       "Batch Normalization",
-      "Cheat Sheet"
+      "CS230",
+      "Stanford University"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Deep learning models often require a large amount of data to be properly trained. Data augmentation techniques can help generate more data from the existing ones.",
+      "The main data augmentation techniques include original, flip, rotation, random crop, color shift, noise addition, information loss, contrast change.",
+      "Batch normalization is a step that normalizes the batch {xi} using hyperparameters γ,β. It aims at allowing higher learning rates and reducing internal covariate shift.",
+      "Data augmentation techniques can simulate incorrect horizon calibration, random focus on one part of the image, several random crops in a row, color shifts, noise addition, information loss, contrast changes, and luminosity changes."
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "CS 230 – Deep Learning, VIP Cheatsheet: Tips and Tricks"
+    "content_preview": "This document offers tips and tricks for deep learning using data augmentation techniques like original, flip, rotation, random crop, color shift, noise addition, information loss, contrast change, and batch normalization."
   },
   {
     "id": "5921dda615c2ff7c0be0d4a4b516116b",
