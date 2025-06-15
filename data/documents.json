@@ -25171,24 +25171,31 @@
   {
     "id": "cab18c4f9e4571b25b1906ad883c4cb0",
     "filename": "Types_of_Machine_Learning_1622540952.pdf",
-    "title": "Types of Machine Learning",
+    "title": "Machine Learning: A Review of Learning Types",
     "authors": [
-      "Shagan Sah1"
+      "Shagan Sah"
     ],
     "filepath": "documents/Types_of_Machine_Learning_1622540952.pdf",
-    "upload_date": "2025-06-03T22:07:08.753562",
+    "upload_date": "2025-06-14T22:31:45.885629",
     "file_size": 765908,
-    "summary": "This document discusses various machine learning techniques, their applications, and primary categories (supervised, unsupervised, reinforcement learning). It also provides a brief overview of common terminology.",
+    "summary": "This document provides an overview of various machine learning techniques, their applications in data classification, prediction, and pattern recognition. It discusses supervised, unsupervised, and reinforcement learning, as well as hybrid approaches. The paper serves as a reference for machine learning terminology.",
     "keywords": [
       "Machine Learning",
-      "Artificial Intelligence",
-      "Data Classification",
-      "Prediction",
-      "Pattern Recognition"
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning",
+      "Data Classification"
+    ],
+    "key_concepts": [
+      "Machine learning is the study of computer algorithms that allow systems to learn and improve from experience, a subfield of artificial intelligence.",
+      "There are three primary categories of machine learning algorithms: supervised, unsupervised, and reinforcement learning.",
+      "Supervised learning algorithms learn from labeled data, while unsupervised learning algorithms find patterns in unlabeled data.",
+      "Reinforcement learning algorithms learn through trial and error by receiving rewards or punishments for their actions.",
+      "The paper serves as a collection of various machine learning terminology for easy reference."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Machine learning is the study of computer algorithms that provides systems the ability to automatically learn and improve from experience."
+    "content_preview": "Overview of machine learning techniques and their applications in data classification, prediction, and pattern recognition."
   },
   {
     "id": "df23ce136756250189b726fce9f42ad3",
