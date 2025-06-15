@@ -4486,28 +4486,68 @@
   {
     "id": "b44f3f61b436c13cf30ae13f9e52e3dc",
     "filename": "AlexNet_1711185522.pdf",
-    "title": "AlexNet Implementation in Keras",
+    "title": "Implementing AlexNet using Keras",
     "authors": [],
     "filepath": "documents/AlexNet_1711185522.pdf",
-    "upload_date": "2025-06-13T22:59:38.202897",
+    "upload_date": "2025-06-15T16:03:22.454549",
     "file_size": 228203,
-    "summary": "This document provides a step-by-step guide on implementing the AlexNet model using Keras. The implementation involves defining and initializing the Convolutional Neural Network (CNN), with two sets of convolution layers followed by max pooling, batch normalization, and ReLU activation functions. However, the code execution encounters errors related to cuDNN, cuFFT, and cuBLAS factories.",
+    "summary": "This document provides a step-by-step guide on implementing the AlexNet Convolutional Neural Network (CNN) model using the Keras library. The implementation involves defining layers such as Convolution2D, MaxPooling2D, Flatten, Dense, Dropout, and BatchNormalization. However, the code execution encounters errors related to cuDNN, cuFFT, and cuBLAS factories.",
     "keywords": [
       "AlexNet",
-      "Keras",
       "CNN",
-      "Convolutional Neural Network",
-      "Deep Learning"
+      "Keras",
+      "Convolutional Neural Network"
     ],
     "key_concepts": [
-      "The document explains the implementation of AlexNet using Keras libraries and packages.",
-      "The main steps include defining a Sequential model, adding Convolution2D layers, MaxPooling2D layers, BatchNormalization, and ReLU activation functions.",
-      "The code execution encounters errors related to cuDNN, cuFFT, and cuBLAS factories, which might require troubleshooting or updating the environment.",
-      "Understanding this implementation can help in developing deep learning models for image classification tasks."
+      "The document explains how to implement the AlexNet model using Keras libraries and packages.",
+      "The implementation involves defining layers such as Convolution2D, MaxPooling2D, Flatten, Dense, Dropout, and BatchNormalization.",
+      "The code execution encounters errors related to cuDNN, cuFFT, and cuBLAS factories.",
+      "Understanding these errors may require troubleshooting or updating the environment."
     ],
-    "category": "AI",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a guide on implementing AlexNet using Keras, encountering errors related to cuDNN, cuFFT, and cuBLAS factories."
+    "content_preview": "This document guides implementing AlexNet using Keras.",
+    "target_audience": "Data scientists, machine learning engineers, and developers with intermediate knowledge of deep learning and experience in using the Keras library.",
+    "industry": [
+      "Technology",
+      "AI"
+    ],
+    "business_functions": [
+      "Research & Development",
+      "Machine Learning Engineering"
+    ],
+    "companies": [],
+    "technologies": [
+      "Keras",
+      "Convolutional Neural Networks (CNN)"
+    ],
+    "processes": [
+      "Model Implementation"
+    ],
+    "technical_terms": [
+      "Convolution2D",
+      "MaxPooling2D",
+      "Flatten",
+      "Dense",
+      "Dropout",
+      "BatchNormalization"
+    ],
+    "methodologies": [
+      "Deep Learning",
+      "Convolutional Neural Networks (CNN)"
+    ],
+    "tools_mentioned": [
+      "Keras"
+    ],
+    "prerequisites": [
+      "Intermediate knowledge of deep learning and experience in using the Keras library"
+    ],
+    "learning_objectives": [],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "5999ffb9abc21230ef305e85d26d1b9b",
