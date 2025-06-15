@@ -208,6 +208,40 @@ class FixedOllamaDocumentProcessor:
                 extracted_data["content_preview"] = preview_match.group(1).strip()
                 break
         
+        # Extract target_audience
+        target_audience_patterns = [
+            r'"target_audience"\s*:\s*"([^"]*)"',
+            r'target_audience\s*:\s*"([^"]*)"'
+        ]
+        for pattern in target_audience_patterns:
+            match = re.search(pattern, response_text, re.IGNORECASE)
+            if match:
+                extracted_data["target_audience"] = match.group(1).strip()
+                break
+        
+        # Extract array fields
+        array_fields = [
+            "industry", "business_functions", "companies", "technologies", 
+            "processes", "technical_terms", "methodologies", "tools_mentioned",
+            "prerequisites", "learning_objectives", "use_cases", "benefits_mentioned",
+            "challenges_addressed", "best_practices", "questions_and_answers"
+        ]
+        
+        for field in array_fields:
+            patterns = [
+                rf'"{field}"\s*:\s*\[(.*?)\]',
+                rf'{field}\s*:\s*\[(.*?)\]'
+            ]
+            for pattern in patterns:
+                match = re.search(pattern, response_text, re.DOTALL | re.IGNORECASE)
+                if match:
+                    array_str = match.group(1)
+                    items = []
+                    for item_match in re.finditer(r'"([^"]*)"', array_str):
+                        items.append(item_match.group(1))
+                    extracted_data[field] = items
+                    break
+        
         if extracted_data:
             logger.info("Successfully extracted data using regex patterns")
             return extracted_data
@@ -224,10 +258,10 @@ class FixedOllamaDocumentProcessor:
         if len(text) > max_chars:
             text = text[:max_chars] + "..."
         
-        # Enhanced prompt for Mistral with key concepts and longer summary
+        # Enhanced prompt for Mistral with comprehensive information extraction
         prompt = f"""Analyze this document and respond with ONLY a JSON object in this exact format:
 
-{{"title": "document title", "summary": "comprehensive summary with around 1600 characters covering main topics, methodologies, key findings, and practical applications", "keywords": ["keyword1", "keyword2", "keyword3"], "key_concepts": ["Important concept sentence around 200 characters explaining a core idea from the document", "Another key concept sentence around 200 characters describing main methodology or approach", "Third concept sentence around 200 characters about findings or applications", "Fourth concept sentence around 200 characters covering theoretical framework or principles", "Fifth concept sentence around 200 characters about practical implications or use cases"], "category": "one of: AI, Machine Learning, Data Science, Analytics, Business, Technology, Research", "difficulty": "one of: Beginner, Intermediate, Advanced", "authors": [], "content_preview": "Summary of the document with around 100 characters."}}
+{{"title": "document title", "summary": "comprehensive summary with around 1600 characters covering main topics, methodologies, key findings, and practical applications", "keywords": ["keyword1", "keyword2", "keyword3"], "key_concepts": ["Important concept sentence around 200 characters explaining a core idea from the document", "Another key concept sentence around 200 characters describing main methodology or approach", "Third concept sentence around 200 characters about findings or applications", "Fourth concept sentence around 200 characters covering theoretical framework or principles", "Fifth concept sentence around 200 characters about practical implications or use cases"], "category": "one of: AI, Machine Learning, Data Science, Analytics, Business, Technology, Research", "difficulty": "one of: Beginner, Intermediate, Advanced", "authors": [], "content_preview": "Summary of the document with around 100 characters.", "target_audience": "describe who this document is intended for", "industry": ["list of relevant industries"], "business_functions": ["list of business functions addressed"], "companies": ["list of companies mentioned"], "technologies": ["list of technologies, tools, platforms mentioned"], "processes": ["list of business processes described"], "technical_terms": ["list of technical terms and jargon"], "methodologies": ["list of methodologies or approaches described"], "tools_mentioned": ["specific tools or software referenced"], "prerequisites": ["knowledge or skills needed to understand this document"], "learning_objectives": ["what readers will learn from this document"], "use_cases": ["practical applications or use cases described"], "benefits_mentioned": ["benefits or advantages highlighted"], "challenges_addressed": ["problems or challenges this document addresses"], "best_practices": ["best practices or recommendations mentioned"], "questions_and_answers": ["5 questions and answers about the core of the document"]}}
 
 Document: {filename}
 Content: {text}
@@ -269,9 +303,24 @@ JSON response:"""
         """Validate and clean analysis data"""
         # Ensure required fields exist
         required_fields = ["title", "summary", "keywords", "key_concepts", "category", "difficulty", "authors", "content_preview"]
+        array_fields = ["industry", "business_functions", "companies", "technologies", "processes", "technical_terms", 
+                       "methodologies", "tools_mentioned", "prerequisites", "learning_objectives", "use_cases", 
+                       "benefits_mentioned", "challenges_addressed", "best_practices", "questions_and_answers"]
+        string_fields = ["target_audience"]
+        
         for field in required_fields:
             if field not in analysis:
                 analysis[field] = "" if field not in ["keywords", "key_concepts", "authors"] else []
+        
+        # Ensure new array fields exist
+        for field in array_fields:
+            if field not in analysis:
+                analysis[field] = []
+        
+        # Ensure new string fields exist
+        for field in string_fields:
+            if field not in analysis:
+                analysis[field] = ""
         
         # Clean and validate title
         if not analysis["title"] or len(analysis["title"].strip()) < 3:
@@ -379,7 +428,29 @@ JSON response:"""
             "category": category,
             "difficulty": "Intermediate",
             "authors": [],
-            "content_preview": f"Document: {clean_title}"
+            "content_preview": f"Document: {clean_title}",
+            "target_audience": f"Professionals and researchers in {category.lower()} field",
+            "industry": ["Technology", "Research", "Education"],
+            "business_functions": ["Research and Development", "Strategy", "Innovation"],
+            "companies": [],
+            "technologies": keywords[:3],
+            "processes": ["Analysis", "Implementation", "Evaluation"],
+            "technical_terms": keywords[:3],
+            "methodologies": ["Best Practices", "Systematic Approach"],
+            "tools_mentioned": [],
+            "prerequisites": ["Basic understanding of the subject matter"],
+            "learning_objectives": [f"Understand core concepts in {category.lower()}", "Apply theoretical knowledge to practical scenarios"],
+            "use_cases": ["Professional development", "Academic research", "Practical implementation"],
+            "benefits_mentioned": ["Improved understanding", "Practical insights", "Evidence-based approaches"],
+            "challenges_addressed": ["Knowledge gaps", "Implementation challenges", "Best practice adoption"],
+            "best_practices": ["Follow systematic approaches", "Apply evidence-based methods", "Consider practical implications"],
+            "questions_and_answers": [
+                f"Q: What is the main focus of this document? A: {clean_title} concepts and applications",
+                f"Q: Who should read this document? A: Professionals in {category.lower()} field",
+                f"Q: What will I learn? A: Theoretical foundations and practical applications",
+                f"Q: What are the key benefits? A: Improved understanding and practical insights",
+                f"Q: How can I apply this knowledge? A: Through systematic implementation of the concepts presented"
+            ]
         }
     
     def get_file_hash(self, filepath: Path) -> str:
@@ -451,7 +522,23 @@ JSON response:"""
             "key_concepts": analysis.get("key_concepts", []),
             "category": analysis.get("category", "Technology"),
             "difficulty": analysis.get("difficulty", "Intermediate"),
-            "content_preview": analysis.get("content_preview", f"PDF document: {filepath.name}")
+            "content_preview": analysis.get("content_preview", f"PDF document: {filepath.name}"),
+            "target_audience": analysis.get("target_audience", ""),
+            "industry": analysis.get("industry", []),
+            "business_functions": analysis.get("business_functions", []),
+            "companies": analysis.get("companies", []),
+            "technologies": analysis.get("technologies", []),
+            "processes": analysis.get("processes", []),
+            "technical_terms": analysis.get("technical_terms", []),
+            "methodologies": analysis.get("methodologies", []),
+            "tools_mentioned": analysis.get("tools_mentioned", []),
+            "prerequisites": analysis.get("prerequisites", []),
+            "learning_objectives": analysis.get("learning_objectives", []),
+            "use_cases": analysis.get("use_cases", []),
+            "benefits_mentioned": analysis.get("benefits_mentioned", []),
+            "challenges_addressed": analysis.get("challenges_addressed", []),
+            "best_practices": analysis.get("best_practices", []),
+            "questions_and_answers": analysis.get("questions_and_answers", [])
         }
         
         return doc_info

@@ -192,6 +192,55 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
       window.open(linkedInUrl, '_blank', 'width=600,height=600');
     }
   };
+
+  // Talk with AI function - share document with AI assistants
+  const handleTalkWithAI = async () => {
+    if (typeof window === 'undefined') return; // Guard against SSR
+    
+    const title = doc.title || doc.filename;
+    const documentUrl = `https://lonardonifabio.github.io/tech_documents/document/${doc.id}`;
+    const summary = doc.summary || 'No summary available';
+    
+    // Create a comprehensive text for AI sharing
+    const aiText = `I'd like to discuss this document with you:\n\n` +
+                  `Title: ${title}\n\n` +
+                  `Summary: ${summary}\n\n` +
+                  `Document URL: ${documentUrl}\n\n` +
+                  `Please help me understand and analyze this document.`;
+    
+    // Check if we're on mobile and Web Share API is available
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
+    if (isMobile && navigator.share) {
+      // Use native mobile sharing to share with AI apps
+      try {
+        await navigator.share({
+          title: `Talk with AI about: ${title}`,
+          text: aiText,
+          url: documentUrl
+        });
+      } catch (error) {
+        // Fallback: copy to clipboard and show instructions
+        console.log('Native sharing failed, falling back to clipboard');
+        try {
+          await navigator.clipboard.writeText(aiText);
+          alert('Document information copied to clipboard! You can now paste it into ChatGPT, Gemini, or any AI assistant app.');
+        } catch (clipboardError) {
+          // Final fallback: show the text in an alert
+          alert(`Copy this text to share with your AI assistant:\n\n${aiText}`);
+        }
+      }
+    } else {
+      // Desktop fallback: copy to clipboard
+      try {
+        await navigator.clipboard.writeText(aiText);
+        alert('Document information copied to clipboard! You can now paste it into ChatGPT, Gemini, or any AI assistant.');
+      } catch (error) {
+        // Final fallback: show the text in an alert
+        alert(`Copy this text to share with your AI assistant:\n\n${aiText}`);
+      }
+    }
+  };
   
   useEffect(() => {
     if (isOpen && typeof document !== 'undefined') {
@@ -341,6 +390,18 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
 
             {/* Action Buttons */}
             <div className="pt-4 border-t space-y-3">
+              {/* Mobile-only "Talk with your AI" button */}
+              <button
+                onClick={handleTalkWithAI}
+                className="w-full bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 text-white px-4 py-2 rounded-lg transition-all duration-200 text-center text-sm font-medium flex items-center justify-center gap-2 md:hidden shadow-lg"
+                title="Talk with your AI"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                </svg>
+                🤖 Talk with your AI
+              </button>
+              
               <button
                 onClick={shareOnLinkedIn}
                 className="w-full bg-linkedin text-white px-4 py-2 rounded-lg hover:bg-linkedin-dark transition-colors duration-200 text-center text-sm font-medium flex items-center justify-center gap-2"
