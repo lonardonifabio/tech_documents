@@ -4270,19 +4270,26 @@
       "Andrew Ng"
     ],
     "filepath": "documents/Andrew_Ng_Machine_Learning_Yearning_1588404160.pdf",
-    "upload_date": "2025-06-04T21:18:49.724005",
+    "upload_date": "2025-06-15T10:33:54.514570",
     "file_size": 4206689,
-    "summary": "This document is a draft of the book 'Machine Learning Yearning' by Andrew Ng. It discusses various aspects of machine learning strategy, including setting up development and test sets, error analysis, bias and variance, and techniques for reducing avoidable bias.",
+    "summary": "This document is a draft of Andrew Ng's Machine Learning Yearning project, offering insights on effective machine learning strategies. It discusses the importance of scale in driving progress, setting up development and test sets, error analysis, bias and variance, and their impact on machine learning models. The document also provides practical advice on optimizing metrics, iterating quickly, and cleaning mislabeled data.",
     "keywords": [
       "Machine Learning",
       "Andrew Ng",
-      "Yearning",
-      "Deeplearning.ai",
-      "Strategy"
+      "Strategy",
+      "Development Sets",
+      "Test Sets"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "The importance of scale in driving machine learning progress",
+      "Setting up development and test sets for effective iterations",
+      "Error analysis to evaluate ideas and optimize models",
+      "Addressing Bias and Variance for improved model performance",
+      "Practical advice on optimizing metrics, iterating quickly, and cleaning mislabeled data"
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Machine Learning Yearning is a deeplearning.ai project."
+    "content_preview": "A draft of Andrew Ng's Machine Learning Yearning project offers insights on effective machine learning strategies."
   },
   {
     "id": "0d91a02a31534a55110c312b15024a8c",
