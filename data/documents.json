@@ -4248,19 +4248,26 @@
       "Daniel Krasner"
     ],
     "filepath": "documents/Applied_Data_Science_1642794357.pdf",
-    "upload_date": "2025-06-03T22:07:02.837514",
+    "upload_date": "2025-06-14T22:31:34.216621",
     "file_size": 3666927,
-    "summary": "A comprehensive guide to programming prerequisites for Applied Data Science, including Unix, Shell, Streams, Version Control with Git, and more. Suitable for Intermediate learners.",
+    "summary": "This document provides an introduction to programming prerequisites for applied data science, focusing on Unix, the Shell, streams, text handling, philosophy, and version control with Git. It covers history, culture, basic concepts, common workflows, and practical examples.",
     "keywords": [
-      "Data Science",
-      "Programming",
       "Unix",
-      "Git",
-      "Applied"
+      "Shell",
+      "Streams",
+      "Text",
+      "Version Control"
+    ],
+    "key_concepts": [
+      "The document introduces the importance of Unix as a foundational tool for data science, explaining its history and culture.",
+      "It delves into the Shell, a command-line interface used to interact with the operating system, and explains how it works.",
+      "The concept of streams in Unix is explained, which are sequences of bytes that can be read from or written to by processes.",
+      "The text handling section covers how data is represented and manipulated in Unix systems.",
+      "Version Control with Git is introduced as a tool for tracking changes in source code during software development."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A comprehensive guide to programming prerequisites for Applied Data Science, including Unix, Shell, Streams, Version Control with Git,"
+    "content_preview": "Introduction to programming prerequisites for applied data science, focusing on Unix, the Shell, streams, text handling, and version control with Git."
   },
   {
     "id": "731b8be2bc5abafb840a4f372715c7f6",
