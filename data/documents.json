@@ -22376,22 +22376,31 @@
   {
     "id": "e7c50d0c3474f89a35c5a2a108b163ba",
     "filename": "Stanford_MIT_on_AI_1737374742.pdf",
-    "title": "Stanford_MIT_on_AI_1737374742.pdf",
-    "authors": [],
+    "title": "Probability Theory: Understanding Uncertainty",
+    "authors": [
+      "Nikhil Yadav"
+    ],
     "filepath": "documents/Stanford_MIT_on_AI_1737374742.pdf",
-    "upload_date": "2025-06-05T14:25:33.942241",
+    "upload_date": "2025-06-14T22:31:44.175627",
     "file_size": 7822644,
-    "summary": "This document discusses the concepts of sample space, event, probability axioms, conditioning, and Bayes' rule in the context of Artificial Intelligence. Compiled by Nikhil Yadav.",
+    "summary": "This document provides an introduction to probability theory, covering key concepts such as sample spaces, events, probability axioms, conditioning, and Bayes' rule. It explains the science of uncertainty using examples like discrete uniform law. The document is compiled by Nikhil Yadav.",
     "keywords": [
-      "AI",
       "Probability",
+      "Theory",
+      "Uncertainty",
       "Sample Space",
-      "Event",
-      "Conditional Probability"
+      "Event"
+    ],
+    "key_concepts": [
+      "A sample space is the set of all possible outcomes, with elements being mutually exclusive, collectively exhaustive and at the right granularity.",
+      "An event is a subset of the sample space, to which probability is assigned.",
+      "Probability law assigns probabilities to events and satisfies the nonnegativity, normalization, countable additivity axioms, with their corollaries providing additional insights.",
+      "The discrete uniform law assumes a finite set with equally likely elements, and calculates the probability of an event based on its number of elements relative to the total number of elements in the set.",
+      "Conditioning refers to the calculation of probabilities given that another event has occurred, while Bayes' rule provides a method for updating beliefs when new evidence is available."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "A sample space is the set of all possible outcomes. The set's elements must be mutually exclusive, collectively exhaustive and at the right granularity."
+    "content_preview": "This document introduces probability theory, covering key concepts like sample spaces, events, and probability axioms. It also explains conditioning and Bayes' rule."
   },
   {
     "id": "7a98c4d89ca3deaf179b571ed38bc645",
