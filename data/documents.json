@@ -14810,22 +14810,28 @@
   {
     "id": "57d0f2807cd1614b4d0ff25a968b6459",
     "filename": "Machine_Learning_1720252114.pdf",
-    "title": "Machine Learning 1720252114.pdf",
+    "title": "Machine Learning",
     "authors": [],
     "filepath": "documents/Machine_Learning_1720252114.pdf",
-    "upload_date": "2025-06-03T17:53:41.593096",
+    "upload_date": "2025-06-14T22:31:40.462619",
     "file_size": 3214213,
-    "summary": "This document discusses machine learning, a subset of AI that enables computers to learn and improve from data without explicit programming. It's widely used in various fields such as face recognition, chatbots, disease diagnosis, and more. The document covers supervised learning, its types (regression and classification), and the concept of rei...",
+    "summary": "This document discusses machine learning, a subset of artificial intelligence that enables computers to learn and improve from data without explicit programming. It is widely used in various fields such as face recognition, chatbots, disease diagnosis, and autonomous vehicles. The document covers the three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. Supervised learning is further explained with examples like image classification and email spam detection.",
     "keywords": [
       "Machine Learning",
       "Artificial Intelligence",
+      "Data Science",
       "AI",
-      "Supervised Learning",
-      "Regression"
+      "Supervised Learning"
+    ],
+    "key_concepts": [
+      "Machine learning is a method to teach computers to learn from data and make decisions or predictions.",
+      "Supervised learning is a type of machine learning where the algorithm is trained on labeled data with input-output pairs.",
+      "Examples of supervised learning tasks include regression (predicting a continuous numerical output) and classification.",
+      "Machine learning is used in various sectors including healthcare, education, business, construction, astronomy, etc."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Machine learning is a subset of artificial intelligence (AI) that focuses on developing computer systems capable of learning and improving from data without being explicitly programmed."
+    "content_preview": "This document discusses machine learning and its applications."
   },
   {
     "id": "d8c24d958e140f6686e1b2904d5e250a",
