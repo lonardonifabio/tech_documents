@@ -22707,75 +22707,99 @@
   {
     "id": "87a54f985c152179aad5a14051f500d2",
     "filename": "Power_BI_and_R_Better_Together_1639641884.pdf",
-    "title": "Power BI and R: Better Together",
+    "title": "Advanced Analytics with Power BI",
     "authors": [],
     "filepath": "documents/Power_BI_and_R_Better_Together_1639641884.pdf",
-    "upload_date": "2025-06-15T14:50:25.856334",
+    "upload_date": "2025-06-15T20:53:22.678204",
     "file_size": 1506771,
-    "summary": "This document discusses the integration of Power BI and R for advanced analytics, emphasizing the importance of data literacy in today's data-driven world. It highlights how business leaders can leverage these tools to make informed decisions by manipulating large datasets and uncovering valuable insights. The document also provides a brief overview of Microsoft Power BI and its role in simplifying complex analytical tasks.",
+    "summary": "The world contains an astronomical amount of data that has changed interactions, uncovered breakthroughs, and revealed trends. Business leaders need to become data literate to make educated decisions.",
     "keywords": [
-      "Data Literacy",
       "Advanced Analytics",
       "Power BI",
-      "R",
-      "Business Intelligence"
+      "Data Literacy",
+      "R Script Showcase",
+      "Custom Visuals",
+      "Visualizations"
     ],
     "key_concepts": [
-      "The increasing availability of data and the need for business leaders to become data literate",
-      "The role of Power BI in simplifying complex analytical tasks for business decision making",
-      "The integration of R with Power BI for advanced analytics",
-      "The benefits of using Power BI and R for uncovering valuable insights from large datasets"
+      "The increasing availability of data and its impact on business decisions",
+      "The importance of becoming data literate for business leaders",
+      "Using advanced analytics to drive insights and make informed business decisions",
+      "Create advanced analytics in R visualizations through the community R Script Showcase.",
+      "Apply complex algorithms, visualizations, scripts, and more with just a click using the R Showcase.",
+      "Import an R custom visual to your report, drag the data, and apply R power without writing one line of R code."
     ],
-    "category": "Technology",
+    "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "Learn how Power BI and R can help business leaders make informed decisions by manipulating large datasets.",
-    "target_audience": "Business leaders, Data Analysts, Decision Makers",
+    "content_preview": "Document: Advanced Analytics with Power BI",
+    "target_audience": "Professionals in business field",
     "industry": [
-      "Healthcare",
-      "Retail",
-      "Finance"
+      "Business",
+      "Business Intelligence/Analytics"
     ],
     "business_functions": [
-      "Data Analysis",
-      "Decision Making",
-      "Business Intelligence"
+      "Research and Development",
+      "Strategy"
     ],
-    "companies": [
-      "Microsoft"
-    ],
+    "companies": [],
     "technologies": [
       "Power BI",
-      "R"
+      "R",
+      "TypeScript"
     ],
     "processes": [
-      "Data Manipulation",
-      "Analytics"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "Data Literacy",
       "Advanced Analytics",
-      "Machine Learning"
+      "Power BI",
+      "Data Literacy"
     ],
     "methodologies": [
-      "Statistical Methods",
-      "Data Manipulation"
+      "advanced analytics",
+      "data manipulation",
+      "machine learning",
+      "statistical methods",
+      "Power BI Developer Tools"
     ],
     "tools_mentioned": [
+      "Microsoft Power BI",
       "Power BI",
-      "R"
+      "R Script Showcase",
+      "Power BI Custom Visuals Gallery"
     ],
     "prerequisites": [
-      "Basic Understanding of Data Analysis"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand the role of Power BI and R in advanced analytics",
-      "Learn how to use these tools for data manipulation and insight discovery"
+      "Understand business concepts"
     ],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "use_cases": [
+      "Data analysis and insights",
+      "Business decision-making",
+      "Advanced Analytics",
+      "Custom Visualizations"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Advanced Analytics with Power BI",
+      "Q: What category? A: Business",
+      "Q: Key concepts? A: Advanced Analytics, Power BI, Data Literacy",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "032a413ec01bb2c35aac36a20a96f928",
