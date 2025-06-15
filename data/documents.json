@@ -19942,19 +19942,25 @@
     "title": "Python Cheat Sheet",
     "authors": [],
     "filepath": "documents/Python_Cheat_Sheet_1623881973.pdf",
-    "upload_date": "2025-06-06T15:45:47.987681",
+    "upload_date": "2025-06-14T22:31:43.184625",
     "file_size": 2463716,
-    "summary": "This document provides a Python cheat sheet covering keywords, logical operators, control structures, and class definitions. It includes examples for Boolean data values, logical operators (and, or, not), break, continue, and if-elif-else statements.",
+    "summary": "This document provides a comprehensive Python cheat sheet covering essential keywords, data types, logical operators, control structures, and object-oriented programming concepts. It includes code examples for each keyword and explains their usage in Python.",
     "keywords": [
-      "Python",
-      "Cheat Sheet",
       "Boolean",
       "Logical Operators",
-      "Control Structures"
+      "Control Structures",
+      "Object Oriented Programming"
+    ],
+    "key_concepts": [
+      "The Boolean data type has two values: True and False, used to represent logical states.",
+      "Logical operators (and, or, not) are used to combine Boolean expressions for more complex conditions.",
+      "Control structures like break, continue, and if-elif-else statements help manage program flow.",
+      "Object Oriented Programming is a programming paradigm that uses classes and objects to structure code.",
+      "Classes can be defined using the class keyword, and methods (functions associated with a class) are defined within them."
     ],
     "category": "Technology",
-    "difficulty": "Intermediate",
-    "content_preview": "Python Cheat Sheet - Keywords"
+    "difficulty": "Beginner",
+    "content_preview": "This document provides essential Python keywords, data types, and concepts for beginners."
   },
   {
     "id": "9917b39ec9fd37cf2fe74449cc72d2f9",
