@@ -14,6 +14,22 @@ interface Document {
   file_size: number;
   upload_date: string;
   content_preview?: string;
+  target_audience?: string;
+  industry?: string[];
+  business_functions?: string[];
+  companies?: string[];
+  technologies?: string[];
+  processes?: string[];
+  technical_terms?: string[];
+  methodologies?: string[];
+  tools_mentioned?: string[];
+  prerequisites?: string[];
+  learning_objectives?: string[];
+  use_cases?: string[];
+  benefits_mentioned?: string[];
+  challenges_addressed?: string[];
+  best_practices?: string[];
+  questions_and_answers?: string[];
 }
 
 interface PDFModalProps {
@@ -198,7 +214,7 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
     if (typeof window === 'undefined') return; // Guard against SSR
     
     const title = doc.title || doc.filename;
-    const documentUrl = `https://lonardonifabio.github.io/tech_documents/document/${doc.id}`;
+    const documentUrl = `https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${doc.filepath}`;
     const summary = doc.summary || 'No summary available';
     
     // Create a comprehensive text for AI sharing
@@ -342,6 +358,93 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
               )}
             </div>
 
+            {/* Target Audience */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">🎯 Target Audience</h3>
+              {doc.target_audience ? (
+                <p className="text-sm text-gray-900 leading-relaxed">
+                  {doc.target_audience}
+                </p>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No target audience information available</p>
+              )}
+            </div>
+
+            {/* Industry */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">🏭 Industry</h3>
+              {doc.industry && doc.industry.length > 0 ? (
+                <div className="flex flex-wrap gap-1">
+                  {doc.industry.map((item, index) => (
+                    <span
+                      key={index}
+                      className="bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs font-medium"
+                    >
+                      {item}
+                    </span>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No industry information available</p>
+              )}
+            </div>
+
+            {/* Business Functions */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">💼 Business Functions</h3>
+              {doc.business_functions && doc.business_functions.length > 0 ? (
+                <div className="space-y-1">
+                  {doc.business_functions.map((func, index) => (
+                    <div key={index} className="bg-white p-2 rounded border-l-2 border-green-500">
+                      <p className="text-sm text-gray-900">
+                        {func}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No business functions information available</p>
+              )}
+            </div>
+
+            {/* Companies */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">🏢 Companies</h3>
+              {doc.companies && doc.companies.length > 0 ? (
+                <div className="flex flex-wrap gap-1">
+                  {doc.companies.map((company, index) => (
+                    <span
+                      key={index}
+                      className="bg-purple-100 text-purple-800 px-2 py-1 rounded-full text-xs font-medium"
+                    >
+                      {company}
+                    </span>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No companies mentioned</p>
+              )}
+            </div>
+
+            {/* Technologies */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">⚙️ Technologies</h3>
+              {doc.technologies && doc.technologies.length > 0 ? (
+                <div className="flex flex-wrap gap-1">
+                  {doc.technologies.map((tech, index) => (
+                    <span
+                      key={index}
+                      className="bg-indigo-100 text-indigo-800 px-2 py-1 rounded-full text-xs font-medium"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No technologies mentioned</p>
+              )}
+            </div>
+
             {/* Keywords */}
             <div>
               <h3 className="text-sm font-semibold text-gray-700 mb-2">🏷️ Keywords</h3>
@@ -358,6 +461,206 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
                 </div>
               ) : (
                 <p className="text-sm text-gray-500 italic">No keywords available</p>
+              )}
+            </div>
+
+            {/* Processes */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">🔄 Processes</h3>
+              {doc.processes && doc.processes.length > 0 ? (
+                <div className="space-y-1">
+                  {doc.processes.map((process, index) => (
+                    <div key={index} className="bg-white p-2 rounded border-l-2 border-yellow-500">
+                      <p className="text-sm text-gray-900">
+                        {process}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No processes described</p>
+              )}
+            </div>
+
+            {/* Technical Terms */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">🔧 Technical Terms</h3>
+              {doc.technical_terms && doc.technical_terms.length > 0 ? (
+                <div className="flex flex-wrap gap-1">
+                  {doc.technical_terms.map((term, index) => (
+                    <span
+                      key={index}
+                      className="bg-red-100 text-red-800 px-2 py-1 rounded-full text-xs font-medium"
+                    >
+                      {term}
+                    </span>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No technical terms identified</p>
+              )}
+            </div>
+
+            {/* Methodologies */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">📋 Methodologies</h3>
+              {doc.methodologies && doc.methodologies.length > 0 ? (
+                <div className="space-y-1">
+                  {doc.methodologies.map((methodology, index) => (
+                    <div key={index} className="bg-white p-2 rounded border-l-2 border-cyan-500">
+                      <p className="text-sm text-gray-900">
+                        {methodology}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No methodologies described</p>
+              )}
+            </div>
+
+            {/* Tools Mentioned */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">🛠️ Tools Mentioned</h3>
+              {doc.tools_mentioned && doc.tools_mentioned.length > 0 ? (
+                <div className="flex flex-wrap gap-1">
+                  {doc.tools_mentioned.map((tool, index) => (
+                    <span
+                      key={index}
+                      className="bg-orange-100 text-orange-800 px-2 py-1 rounded-full text-xs font-medium"
+                    >
+                      {tool}
+                    </span>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No specific tools mentioned</p>
+              )}
+            </div>
+
+            {/* Prerequisites */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">📚 Prerequisites</h3>
+              {doc.prerequisites && doc.prerequisites.length > 0 ? (
+                <div className="space-y-1">
+                  {doc.prerequisites.map((prerequisite, index) => (
+                    <div key={index} className="bg-white p-2 rounded border-l-2 border-pink-500">
+                      <p className="text-sm text-gray-900">
+                        {prerequisite}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No prerequisites specified</p>
+              )}
+            </div>
+
+            {/* Learning Objectives */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">🎓 Learning Objectives</h3>
+              {doc.learning_objectives && doc.learning_objectives.length > 0 ? (
+                <div className="space-y-1">
+                  {doc.learning_objectives.map((objective, index) => (
+                    <div key={index} className="bg-white p-2 rounded border-l-2 border-emerald-500">
+                      <p className="text-sm text-gray-900">
+                        {objective}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No learning objectives specified</p>
+              )}
+            </div>
+
+            {/* Use Cases */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">💼 Use Cases</h3>
+              {doc.use_cases && doc.use_cases.length > 0 ? (
+                <div className="space-y-1">
+                  {doc.use_cases.map((useCase, index) => (
+                    <div key={index} className="bg-white p-2 rounded border-l-2 border-violet-500">
+                      <p className="text-sm text-gray-900">
+                        {useCase}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No use cases described</p>
+              )}
+            </div>
+
+            {/* Benefits Mentioned */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">✅ Benefits</h3>
+              {doc.benefits_mentioned && doc.benefits_mentioned.length > 0 ? (
+                <div className="space-y-1">
+                  {doc.benefits_mentioned.map((benefit, index) => (
+                    <div key={index} className="bg-white p-2 rounded border-l-2 border-green-500">
+                      <p className="text-sm text-gray-900">
+                        {benefit}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No benefits highlighted</p>
+              )}
+            </div>
+
+            {/* Challenges Addressed */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">⚠️ Challenges Addressed</h3>
+              {doc.challenges_addressed && doc.challenges_addressed.length > 0 ? (
+                <div className="space-y-1">
+                  {doc.challenges_addressed.map((challenge, index) => (
+                    <div key={index} className="bg-white p-2 rounded border-l-2 border-red-500">
+                      <p className="text-sm text-gray-900">
+                        {challenge}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No challenges addressed</p>
+              )}
+            </div>
+
+            {/* Best Practices */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">⭐ Best Practices</h3>
+              {doc.best_practices && doc.best_practices.length > 0 ? (
+                <div className="space-y-1">
+                  {doc.best_practices.map((practice, index) => (
+                    <div key={index} className="bg-white p-2 rounded border-l-2 border-amber-500">
+                      <p className="text-sm text-gray-900">
+                        {practice}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No best practices mentioned</p>
+              )}
+            </div>
+
+            {/* Questions and Answers */}
+            <div>
+              <h3 className="text-sm font-semibold text-gray-700 mb-2">❓ Questions & Answers</h3>
+              {doc.questions_and_answers && doc.questions_and_answers.length > 0 ? (
+                <div className="space-y-2">
+                  {doc.questions_and_answers.map((qa, index) => (
+                    <div key={index} className="bg-white p-3 rounded border border-gray-200">
+                      <p className="text-sm text-gray-900 leading-relaxed">
+                        {qa}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-500 italic">No Q&A available</p>
               )}
             </div>
 
