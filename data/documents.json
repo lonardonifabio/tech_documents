@@ -8285,9 +8285,9 @@
     "title": "Data Science Interview Q&A",
     "authors": [],
     "filepath": "documents/Data science interview q&a.pdf",
-    "upload_date": "2025-06-13T22:59:40.000905",
+    "upload_date": "2025-06-15T16:03:24.293560",
     "file_size": 10590284,
-    "summary": "This document provides answers to common statistics-based questions asked in data science interviews, covering topics such as the Central Limit Theorem, sampling methods, Type I and II errors, Linear Regression, assumptions required for Linear Regression, statistical interaction, selection bias, and non-Gaussian distributions.",
+    "summary": "This document provides answers to common data science interview questions, covering topics such as the Central Limit Theorem, sampling methods, Type I and II errors, Linear Regression, statistical interaction, selection bias, and non-Gaussian distributions. It is intended for individuals preparing for a data science interview or seeking to improve their understanding of these concepts.",
     "keywords": [
       "Data Science",
       "Statistics",
@@ -8296,15 +8296,37 @@
       "Sampling"
     ],
     "key_concepts": [
-      "The Central Limit Theorem is a fundamental theorem in statistics that states that the distribution of the sum of a large number of independent, identically distributed random variables will be approximately normally distributed.",
-      "Sampling refers to the process of selecting a subset (a sample) from a larger population for statistical analysis. Common sampling methods include simple random sampling, stratified sampling, cluster sampling, and systematic sampling.",
+      "The Central Limit Theorem is a fundamental theorem in statistics that describes the probability distribution of the sum of a large number of independent, identically distributed random variables.",
+      "Sampling is the process of selecting a subset (a sample) from a larger population to make inferences about the entire population. Common sampling methods include simple random sampling, stratified sampling, and cluster sampling.",
       "Type I error (false positive) occurs when we incorrectly reject the null hypothesis, while Type II error (false negative) occurs when we fail to reject the null hypothesis when it is actually false.",
-      "Linear Regression is a statistical model used to analyze the linear relationship between two continuous variables. The P-value indicates the probability that the observed difference could have occurred by chance, the Coefficient represents the strength and direction of the relationship, and R-Squared Value measures the proportion of variance in the dependent variable that can be explained by the independent variable.",
-      "Assumptions required for Linear Regression include linearity, independence, homoscedasticity (equal variances), normality, and no multicollinearity."
+      "Linear Regression is a statistical model used to analyze the relationship between a dependent variable and one or more independent variables. The P-value, Coefficient, and R-Squared Value are important components of Linear Regression that help assess the significance and strength of the relationship.",
+      "Assumptions required for Linear Regression include linearity, independence, homoscedasticity, normality, and no multicollinearity."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides answers to common statistics-based questions asked in data science interviews."
+    "content_preview": "This document provides answers to common data science interview questions.",
+    "target_audience": "Individuals preparing for a data science interview or seeking to improve their understanding of these concepts.",
+    "industry": [
+      "Data Science",
+      "Technology"
+    ],
+    "business_functions": [
+      "Data Analysis",
+      "Statistical Analysis"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [],
+    "technical_terms": [],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [],
+    "learning_objectives": [],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "112436e8adcb638ed2fbb10a9bddec73",
