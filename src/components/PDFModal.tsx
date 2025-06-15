@@ -159,17 +159,38 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
   };
 
   // Share on LinkedIn with mobile-optimized approach
-  const shareOnLinkedIn = () => {
-    //if (typeof window === 'undefined') return; // Guard against SSR
+  const shareOnLinkedIn = async () => {
+    if (typeof window === 'undefined') return; // Guard against SSR
     
     const title = doc.title || doc.filename;
     // Use the document URL with proper Open Graph meta tags
     const documentUrl = `https://lonardonifabio.github.io/tech_documents/document/${doc.id}`;
-    // For desktop, use the full post content with dedicated URL
     const postContent = generateLinkedInPost(doc);
-    const encodedContent = encodeURIComponent(postContent);
-    const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(documentUrl)}&text=${encodedContent}`;
-    window.open(linkedInUrl, '_blank', 'width=600,height=600');
+    
+    // Check if we're on mobile and Web Share API is available
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
+    if (isMobile && navigator.share) {
+      // Use native mobile sharing
+      try {
+        await navigator.share({
+          title: title,
+          text: postContent,
+          url: documentUrl
+        });
+      } catch (error) {
+        // Fallback to LinkedIn direct sharing if native sharing fails
+        console.log('Native sharing failed, falling back to LinkedIn direct sharing');
+        const encodedContent = encodeURIComponent(postContent);
+        const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(documentUrl)}&text=${encodedContent}`;
+        window.open(linkedInUrl, '_blank');
+      }
+    } else {
+      // Desktop: use LinkedIn direct sharing
+      const encodedContent = encodeURIComponent(postContent);
+      const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(documentUrl)}&text=${encodedContent}`;
+      window.open(linkedInUrl, '_blank', 'width=600,height=600');
+    }
   };
   
   useEffect(() => {
