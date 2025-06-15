@@ -29342,22 +29342,29 @@
   {
     "id": "90e933469deaaafe97435cdc51b65bbf",
     "filename": "spaCy_Advanced_NLP_in_Python_1627300147 (1).pdf",
-    "title": "Advanced NLP in Python with spaCy",
+    "title": "Advanced NLP with spaCy in Python",
     "authors": [],
     "filepath": "documents/spaCy_Advanced_NLP_in_Python_1627300147 (1).pdf",
-    "upload_date": "2025-06-05T20:14:29.981867",
+    "upload_date": "2025-06-15T10:34:08.028539",
     "file_size": 2519193,
-    "summary": "This document provides a tutorial on using the spaCy library for Natural Language Processing (NLP) in Python, including loading and validating the model, creating Doc and Span objects, and utilizing part-of-speech tags.",
+    "summary": "This document provides a comprehensive guide on using the spaCy library for Natural Language Processing (NLP) tasks in Python. It covers topics such as installing and validating the model, loading the model, working with Doc and Span objects, understanding part-of-speech tags, and utilizing word vectors. The document also introduces displacy for visualizing the data and suggests using larger models for better performance.",
     "keywords": [
       "spaCy",
-      "Python",
-      "Natural Language Processing",
       "NLP",
-      "part-of-speech"
+      "Python",
+      "Data Science",
+      "Text Processing"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "This guide explains how to use spaCy, a popular NLP library in Python.",
+      "The document demonstrates the installation and validation of the spaCy model, as well as loading it into memory.",
+      "It shows how to work with Doc and Span objects, which are essential for text analysis tasks.",
+      "The guide explains part-of-speech tags, including coarse-grained and fine-grained tags.",
+      "Lastly, the document introduces displacy for visualizing NLP data."
+    ],
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Learn spaCy online at www .D at aCamp.com\n$>>> python -m spacy download en_core_web_sm"
+    "content_preview": "This guide explains how to use spaCy, a popular NLP library in Python."
   },
   {
     "id": "8180e9bac611ba3365e342d9b7ac0722",
