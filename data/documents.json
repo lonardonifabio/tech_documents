@@ -30919,25 +30919,58 @@
     "title": "Alzheimer’s Disease Classification Using a Novel Bidirectional CNN",
     "authors": [],
     "filepath": "documents/alz_1747912873.pdf",
-    "upload_date": "2025-06-13T22:59:50.841952",
+    "upload_date": "2025-06-15T16:03:35.385631",
     "file_size": 704951,
-    "summary": "This document presents a Python script for classifying Alzheimer's disease using a novel bidirectional Convolutional Neural Network (CNN). The script loads and preprocesses MRI images from the Augmented Alzheimer's Dataset, splits them into training and testing sets, and trains the bidirectional CNN model. The key contribution of this work lies in the use of a bidirectional CNN for improved accuracy in Alzheimer's disease classification.",
+    "summary": "This document presents a study that uses a novel bidirectional convolutional neural network (CNN) to classify Alzheimer's disease based on MRI scans. The data is divided into four categories: MildDemented, ModerateDemented, NonDemented, and VeryMildDemented. The study uses Python libraries such as numpy, pandas, and os for data manipulation and preprocessing. The main findings suggest that the proposed method achieves high accuracy in classifying Alzheimer's disease.",
     "keywords": [
       "Alzheimer's Disease",
-      "CNN",
-      "Bidirectional CNN",
-      "MRI Images",
-      "Data Preprocessing"
+      "MRI",
+      "Convolutional Neural Network",
+      "Classification"
     ],
     "key_concepts": [
-      "The script loads and preprocesses MRI images from the Augmented Alzheimer's Dataset.",
-      "The data is split into training and testing sets for model evaluation.",
-      "A novel bidirectional CNN is used for improved accuracy in Alzheimer's disease classification.",
-      "The script provides a practical application of deep learning in medical image analysis."
+      "The study proposes a novel bidirectional CNN for classifying Alzheimer's disease based on MRI scans.",
+      "The data is divided into four categories: MildDemented, ModerateDemented, NonDemented, and VeryMildDemented.",
+      "The study achieves high accuracy in classifying Alzheimer's disease using the proposed method.",
+      "Python libraries such as numpy, pandas, and os are used for data manipulation and preprocessing."
     ],
-    "category": "Technology",
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document presents a Python script for classifying Alzheimer's disease using a novel bidirectional CNN."
+    "content_preview": "This document presents a study that uses a novel bidirectional CNN to classify Alzheimer's disease based on MRI scans.",
+    "target_audience": "Data scientists, machine learning engineers, and researchers interested in medical image analysis and Alzheimer's disease.",
+    "industry": [
+      "Healthcare",
+      "AI in Healthcare"
+    ],
+    "business_functions": [
+      "Research & Development",
+      "Data Analysis"
+    ],
+    "companies": [],
+    "technologies": [
+      "Convolutional Neural Networks",
+      "Python",
+      "MRI Scans"
+    ],
+    "processes": [
+      "Data Preprocessing",
+      "Model Training",
+      "Classification"
+    ],
+    "technical_terms": [
+      "CNN",
+      "MRI",
+      "Dementia"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [],
+    "learning_objectives": [],
+    "use_cases": [],
+    "benefits_mentioned": [],
+    "challenges_addressed": [],
+    "best_practices": [],
+    "questions_and_answers": []
   },
   {
     "id": "2fbcaf0e70997d86f1631a884b8b199c",
