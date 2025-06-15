@@ -7647,19 +7647,26 @@
     "title": "Data Science for Business Leaders",
     "authors": [],
     "filepath": "documents/Data_Science_for_Business_Leaders_1627029554.pdf",
-    "upload_date": "2025-06-06T03:10:06.510906",
+    "upload_date": "2025-06-14T22:31:36.490623",
     "file_size": 398413,
-    "summary": "This document provides a Data Science Cheat Sheet for business leaders, discussing various roles in data science (Data Engineer, Data Analyst, Machine Learning Engineer, Data Scientist), team organizational models, and types of data science (Descriptive Analytics and Predictive Analytics).",
+    "summary": "This document provides a cheat sheet for business leaders on data science, covering roles such as Data Engineer, Data Analyst, Machine Learning Engineer, Data Scientist, and building a data science team. It discusses various organizational models for data science teams, types of data science (Descriptive Analytics and Predictive Analytics), and their practical applications in business decisions like customer churn prediction and marketing strategies.",
     "keywords": [
       "Data Science",
       "Business Leaders",
-      "Roles",
-      "Team Organizational Models",
+      "Data Team",
+      "Organizational Models",
       "Descriptive Analytics"
     ],
-    "category": "Data Science",
+    "key_concepts": [
+      "The document outlines the roles and responsibilities of various data team members, from Data Engineer to Data Scientist.",
+      "It discusses three types of organizational models for data science teams: Centralized, Isolated, Embedded, and Hybrid.",
+      "Descriptive Analytics is explained as a methodology for providing useful data in the form of dashboards, reports, and emails to make informed business decisions.",
+      "Predictive Analytics is presented as a way to put data science models into production for continuous decision-making support.",
+      "The document highlights the importance of building a well-rounded data science team with different skills for various purposes."
+    ],
+    "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "Data Science Cheat Sheet for Business Leaders"
+    "content_preview": "A cheat sheet for business leaders on data science roles, organizational models, and practical applications."
   },
   {
     "id": "ecacd017040f663b7729cb3f9421ddd5",
