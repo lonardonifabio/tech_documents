@@ -152,16 +152,6 @@ const mainAppUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.i
           <p class="text-gray-700 leading-relaxed">{doc.summary}</p>
         </div>
         
-        {doc.key_concepts && doc.key_concepts.length > 0 && (
-          <div class="mb-6">
-            <h3 class="text-lg font-semibold text-gray-800 mb-3">Key Concepts:</h3>
-            <ul class="list-disc list-inside space-y-1">
-              {doc.key_concepts.map((concept: string) => (
-                <li class="text-gray-700">{concept}</li>
-              ))}
-            </ul>
-          </div>
-        )}
         
         <div class="flex flex-wrap gap-2 mb-6">
           {doc.keywords.map((keyword: string) => (
@@ -182,18 +172,10 @@ const mainAppUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.i
         
         <div class="flex gap-4">
           <a
-            href={`https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${doc.filepath}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            📥 Download PDF
-          </a>
-          <a
             href={mainAppUrl}
             class="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors"
           >
-            🔍 View in Library
+            🔍 View in the library powered by AI
           </a>
         </div>
         

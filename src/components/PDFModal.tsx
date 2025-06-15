@@ -135,7 +135,8 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
     //const difficulty = doc.difficulty;
     
     // Use the GitHub Pages URL for the application
-    const githubPagesUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.id}`;
+    //const githubPagesUrl = `https://lonardonifabio.github.io/tech_documents/?doc=${doc.id}`;
+    const githubPagesUrl = `https://lonardonifabio.github.io/tech_documents/document/${doc.id}`;
 
     let post = `🚀 Just shared an insightful resource with my LinkedIn network!\n`;
     post += `📄 **${title}**\n`;
@@ -159,10 +160,10 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
 
   // Share on LinkedIn with mobile-optimized approach
   const shareOnLinkedIn = () => {
-    if (typeof window === 'undefined') return; // Guard against SSR
+    //if (typeof window === 'undefined') return; // Guard against SSR
     
     const title = doc.title || doc.filename;
-    // Use the dedicated document URL with proper Open Graph meta tags
+    // Use the document URL with proper Open Graph meta tags
     const documentUrl = `https://lonardonifabio.github.io/tech_documents/document/${doc.id}`;
     // For desktop, use the full post content with dedicated URL
     const postContent = generateLinkedInPost(doc);
