@@ -16563,9 +16563,9 @@
     "title": "Machine Learning on Marketing",
     "authors": [],
     "filepath": "documents/Machine_Learning_on_Marketing_1567932349.pdf",
-    "upload_date": "2025-06-03T17:53:41.843100",
+    "upload_date": "2025-06-15T08:35:04.521554",
     "file_size": 885331,
-    "summary": "Explores business cases of applying Machine Learning to marketing, focusing on customer churn prediction, direct marketing, customer segmentation, product bundling, and measuring customer feedback (sentiment).",
+    "summary": "This document explores various business cases of applying Machine Learning in the field of marketing. Topics include Customer Churn prediction, Direct Marketing optimization, Customer Segmentation, Product Bundling, and Measuring Customer Feedback (Sentiment). The document provides a step-by-step approach to predict customer churn using ML, defining data units, variables, and labels.",
     "keywords": [
       "Machine Learning",
       "Marketing",
@@ -16573,9 +16573,15 @@
       "Direct Marketing",
       "Customer Segmentation"
     ],
+    "key_concepts": [
+      "The document discusses the use of Machine Learning to predict customer churn, helping businesses prioritize retention efforts.",
+      "A step-by-step approach is provided for defining data units, variables, and labels in a Customer Churn prediction model using ML.",
+      "The importance of understanding Recency, Frequency, and Monetary factors in the context of customer behavior is emphasized.",
+      "The document provides insights into how Machine Learning can optimize Direct Marketing strategies."
+    ],
     "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "Explores business cases of applying Machine Learning to marketing, focusing on customer churn prediction..."
+    "content_preview": "Learn how to predict customer churn using Machine Learning in marketing."
   },
   {
     "id": "0f03d0b8f6005525c28af2541e698def",
