@@ -24584,19 +24584,25 @@
       "Allen B. Downey"
     ],
     "filepath": "documents/Think_stats_data_analysis_in_Python_1610184593.pdf",
-    "upload_date": "2025-06-03T17:53:44.164145",
+    "upload_date": "2025-06-14T22:31:45.638628",
     "file_size": 2120489,
-    "summary": "A practical guide to exploratory data analysis using Python, focusing on statistical thinking and effective visualization. Version 2.0.38 by Allen B. Downey.",
+    "summary": "This document is a practical guide to exploratory data analysis (EDA) using the Python programming language. It covers various statistical concepts and techniques, such as probability distributions, hypothesis testing, and regression analysis. The book emphasizes the importance of visualization and interactive exploration of data. Key applications include data preprocessing, outlier detection, and model selection.",
     "keywords": [
       "Python",
       "Data Analysis",
-      "Statistical Thinking",
       "Exploratory Data Analysis",
-      "Allen Downey"
+      "Statistics"
+    ],
+    "key_concepts": [
+      "The book introduces readers to the concept of exploratory data analysis, which involves understanding the structure and properties of a dataset through visualization and statistical techniques.",
+      "It provides an in-depth look at various Python libraries for data manipulation and visualization, such as NumPy, pandas, and Matplotlib.",
+      "The book covers key statistical concepts like probability distributions, hypothesis testing, and regression analysis, with a focus on their practical applications in EDA.",
+      "It emphasizes the importance of interactive exploration of data through code examples and exercises.",
+      "Throughout the book, readers will learn how to preprocess data, detect outliers, and select appropriate models for further analysis."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Think Stats Exploratory Data Analysis in Python Version 2.0.38"
+    "content_preview": "Exploratory Data Analysis in Python guide using Python libraries for data manipulation and visualization."
   },
   {
     "id": "6a956b7ca2b9dd291b6e34a5c07af5c5",
