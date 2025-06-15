@@ -20534,19 +20534,26 @@
     "title": "Python Cheat Sheet",
     "authors": [],
     "filepath": "documents/Python_CheatSheet.pdf",
-    "upload_date": "2025-06-06T15:45:47.977681",
+    "upload_date": "2025-06-15T08:35:06.631555",
     "file_size": 1785862,
-    "summary": "This document provides a quick reference guide for Python variables, lists, tuples, and if statements. It covers topics such as creating variables, strings, concatenation, lists, loops, list comprehensions, slicing, copying, tuples, and conditional tests.",
+    "summary": "This document provides a comprehensive overview of Python's fundamental concepts, focusing on variables, strings, lists, tuples, and if statements. It explains how to declare and use variables, create and manipulate strings, work with lists including indexing, looping, adding items, list comprehensions, slicing, copying, and creating numerical lists. Additionally, it covers the creation and usage of tuples and conditional tests using if statements.",
     "keywords": [
       "Python",
-      "Cheat Sheet",
       "Variables",
+      "Strings",
       "Lists",
       "Tuples"
     ],
+    "key_concepts": [
+      "Variables are used to store values in Python, with strings being a series of characters surrounded by single or double quotes.",
+      "A list stores a series of items in a particular order and can be accessed using an index or within a loop. Items can also be added to a list.",
+      "List comprehensions provide a concise way to create lists based on existing lists or ranges.",
+      "Tuples are similar to lists but the items cannot be modified, making them useful for storing immutable data.",
+      "If statements are used to test for particular conditions and respond appropriately."
+    ],
     "category": "Technology",
     "difficulty": "Beginner",
-    "content_preview": "Variables are used to store values. A string is a series of characters, surrounded by single or double quotes."
+    "content_preview": "This document provides a Python Cheat Sheet, covering variables, strings, lists, tuples, and if statements."
   },
   {
     "id": "6e1a8aef2ffe183c6e47d065a36648d0",
