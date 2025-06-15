@@ -17944,77 +17944,108 @@
   {
     "id": "287f5fd8fbd995c500abee03c024b10b",
     "filename": "Machine_Learning_Cheat_Sheet_1608463909.pdf",
-    "title": "Machine Learning Cheat Sheet",
-    "authors": [
-      "Vincent Granville"
-    ],
+    "title": "1 Machine Learning Cheat Sheet",
+    "authors": [],
     "filepath": "documents/Machine_Learning_Cheat_Sheet_1608463909.pdf",
-    "upload_date": "2025-06-15T14:50:23.676329",
+    "upload_date": "2025-06-15T20:53:20.499228",
     "file_size": 510078,
-    "summary": "This document provides a comprehensive guide for beginners to get started with Machine Learning, including hardware requirements, software recommendations, and sample projects. The author suggests using a modern Windows laptop with Cygwin installed as an operating system on top of Windows for flexibility and compatibility.",
+    "summary": "A machine learning cheat sheet covering sample projects, data sets, and references. Includes recommendations for hardware and software setup.",
     "keywords": [
       "Machine Learning",
-      "Data Science",
-      "Cheat Sheet",
+      "Cygwin",
       "Linux",
-      "Cygwin"
+      "Windows",
+      "Data Science",
+      "AWS",
+      "hash tables",
+      "associative arrays",
+      "data structure",
+      "joins"
     ],
     "key_concepts": [
-      "The document suggests using a modern Windows laptop with Cygwin installed as an operating system on top of Windows for flexibility and compatibility in Machine Learning.",
-      "The author recommends installing Cygwin to get the benefits of both Windows and Linux environments.",
-      "Regular backups are suggested using services like DropBox for important files.",
-      "The document provides a visual representation of the Cygwin console on a Windows laptop."
+      "Getting started with machine learning from scratch",
+      "Setting up a Linux environment on a Windows laptop using Cygwin",
+      "Using Cygwin to connect to external servers and transfer files",
+      "Hash tables store data using a syntax such as $myhash{...} = ...;",
+      "Associative arrays are just hash tables: arrays indexed by strings rather than integers.",
+      "Memory allocation for hash tables is automated in Perl, but you should create a variable to track growth.",
+      "ML Applications in Business",
+      "Unusual ML Application: Gaming Technology",
+      "Importance of Data Science Systems",
+      "Designing Better Algorithms"
     ],
-    "category": "Data Science",
-    "difficulty": "Beginner",
-    "content_preview": "This document provides a guide for beginners to get started with Machine Learning, including hardware requirements and software recommendations.",
-    "target_audience": "Beginners in Machine Learning looking for a comprehensive guide to get started.",
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: 1 Machine Learning Cheat Sheet",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Technology",
-      "Data Science"
+      "Data Science",
+      "Data Science and Machine Learning"
     ],
     "business_functions": [
-      "Machine Learning",
-      "Data Analysis"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
       "Windows",
       "Linux",
       "Cygwin",
-      "DropBox"
+      "Perl",
+      "Machine Learning"
     ],
     "processes": [
-      "File transfers",
-      "Backup of important files"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
+      "Machine Learning",
       "Cygwin",
-      "UNIX",
-      "console"
+      "Linux"
     ],
     "methodologies": [
-      "Using a dual-operating system setup for Machine Learning work"
+      "Algorithms",
+      "Statistical Modeling"
     ],
     "tools_mentioned": [
-      "Cygwin",
-      "Excel",
-      "Word",
-      "FileZilla"
+      "FileZilla",
+      "DropBox",
+      "AWS",
+      "Hadoop",
+      "Map-Reduce"
     ],
     "prerequisites": [
-      "Basic computer skills"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understanding the hardware requirements and software recommendations for getting started with Machine Learning."
+      "Understand machine learning concepts"
     ],
     "use_cases": [
-      "Practical examples of using Cygwin in a Windows environment for Machine Learning work."
+      "Machine Learning",
+      "Data Analysis",
+      "efficient joins",
+      "feature selection",
+      "Gaming technology"
     ],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: 1 Machine Learning Cheat Sheet",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Machine Learning, Cygwin, Linux",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "f490c8062166d9ef7aeb56fba80e7514",
