@@ -6132,60 +6132,112 @@
     "id": "fabad7fec617112323f577f2139d5ee3",
     "filename": "BSI_Test_Criteria_for_AI_Systems_in_Finance_1749156207.pdf",
     "title": "Test Criteria Catalogue for AI Systems in Finance",
-    "authors": [
-      "Ulf Menzler",
-      "Henry Kleineidam",
-      "Cleo Matzken",
-      "Todor Dobrikov",
-      "Philipp Herrmann",
-      "Petra Gutjahr",
-      "Alexander Mehlmann",
-      "Danos Vasilios",
-      "Fabian Langer",
-      "Thora Markert",
-      "Melanie Bohnen",
-      "Pascal Debus",
-      "Sebastian Issel",
-      "Kilian Tscharke",
-      "Alexander Wagner"
-    ],
+    "authors": [],
     "filepath": "documents/BSI_Test_Criteria_for_AI_Systems_in_Finance_1749156207.pdf",
-    "upload_date": "2025-06-15T16:03:23.077553",
+    "upload_date": "2025-06-15T23:06:41.569755",
     "file_size": 2637708,
-    "summary": "This document presents an evaluation catalogue developed by d-fine GmbH, TÜV Informa-tionstechnik GmbH, and Fraunhofer AISEC on behalf of the Federal Office for Information Security (BSI) to assess the trustworthiness of AI systems in finance. The catalogue covers topics such as explainability, robustness, fairness, accountability, and privacy.",
+    "summary": "This evaluation catalogue was developed by d-fine GmbH in cooperation with TÜV Informationstechnik GmbH and Fraunhofer AISEC on behalf of the Federal Office for Information Security (BSI).",
     "keywords": [
       "AI",
       "Finance",
       "Evaluation Catalogue",
-      "Trustworthiness",
-      "d-fine GmbH"
+      "Trustworthy AI",
+      "EU AI Act",
+      "Governance",
+      "AI policy",
+      "Management system",
+      "Audits",
+      "GenAI"
     ],
     "key_concepts": [
-      "The catalogue provides a comprehensive framework for evaluating the trustworthiness of AI systems in finance.",
-      "The evaluation criteria cover aspects such as explainability, robustness, fairness, accountability, and privacy.",
-      "The catalogue was developed through interviews, discussions, questionnaires, and workshops with experts from various fields.",
-      "The publication is prepared in English to facilitate collaboration with international stakeholders.",
-      "The catalogue serves as a valuable resource for researchers, industry professionals, and policymakers in the field of AI and finance."
+      "Assessment of AI systems in finance",
+      "Development of evaluation criteria for trustworthy AI",
+      "International relevance and applicability of EU AI Act",
+      "Collaboration between industry, research, and policymakers on AI development",
+      "Periodic review of the (internal) AI policy",
+      "Establishment of AI management system and regular audits",
+      "Attacks with GenAI",
+      "Compliance of the AI service with general cloud computing compliance criteria",
+      "Impact on IP rights",
+      "System description/User guidance"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Evaluation catalogue for AI systems in finance developed by d-fine GmbH, TÜV Informa-tionstechnik GmbH, and Fraunhofer AISEC.",
-    "target_audience": "",
-    "industry": [],
-    "business_functions": [],
+    "content_preview": "Document: Test Criteria Catalogue for AI Systems in Finance",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Finance",
+      "Government",
+      "AI Technology",
+      "AI and Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
     "companies": [],
-    "technologies": [],
-    "processes": [],
-    "technical_terms": [],
-    "methodologies": [],
-    "tools_mentioned": [],
-    "prerequisites": [],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "technologies": [
+      "AI",
+      "ML",
+      "IT Security",
+      "Generative AI",
+      "Large Language Models"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "Finance",
+      "Evaluation Catalogue"
+    ],
+    "methodologies": [
+      "Periodic review of AI policy",
+      "Establishment of AI management system and regular audits",
+      "evaluation criteria",
+      "monitoring",
+      "Risk-Based"
+    ],
+    "tools_mentioned": [
+      "GenAI",
+      "Cloud computing compliance criteria",
+      "firewalls",
+      "security updates",
+      "Criteria Catalogue"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "AI Systems",
+      "AI Security & Robustness",
+      "IT Security",
+      "Monitoring",
+      "Performance"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Test Criteria Catalogue for AI Systems in Finance",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: AI, Finance, Evaluation Catalogue",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "dabe6dd739ac8416d016059148014d50",
