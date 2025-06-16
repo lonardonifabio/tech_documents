@@ -24426,82 +24426,84 @@
   {
     "id": "0ccd8773cea193be91a28b2b30236beb",
     "filename": "Python_HandBook_1630510953.pdf",
-    "title": "Python Handbook",
+    "title": "The Python Handbook",
     "authors": [],
     "filepath": "documents/Python_HandBook_1630510953.pdf",
-    "upload_date": "2025-06-15T16:03:31.895607",
+    "upload_date": "2025-06-16T06:48:09.898276",
     "file_size": 7700958,
-    "summary": "This comprehensive guide covers the installation, basics, and advanced topics of Python programming language. It includes data types, operators, control statements, lists, tuples, dictionaries, sets, functions, classes, modules, debugging, exceptions, and more. The document also introduces the Python Standard Library, PEP8 style guide, and virtual environments.",
+    "summary": "This book follows the 80/20 rule, aiming to teach 80% of the topic in 20% of the time. It focuses on the core of the language, simplifying complex topics and covering the basics of Python.",
     "keywords": [
       "Python",
       "Programming",
       "Language",
-      "Guide",
-      "Basics"
+      "Data types",
+      "Operators",
+      "Functions",
+      "Objects",
+      "Loops",
+      "Classes",
+      "Modules"
     ],
     "key_concepts": [
-      "Learn how to install and run Python programs",
-      "Understand the differences between Python 2 and 3",
-      "Gain knowledge on data types, operators, control statements, and more",
-      "Explore advanced topics like classes, modules, debugging, exceptions, and virtual environments",
-      "Familiarize yourself with the Python Standard Library and PEP8 style guide"
+      "80/20 rule: learn 80% of the topic in 20% of the time.",
+      "Python basics: data types, operators, functions, objects, loops, classes, modules, exceptions.",
+      "The Python Handbook approach: simplifying complex topics and focusing on core language features."
     ],
-    "category": "Data Science",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Learn Python basics and advanced topics in this comprehensive guide.",
-    "target_audience": "Python developers, data scientists, or anyone looking to learn Python programming",
+    "content_preview": "Document: The Python Handbook",
+    "target_audience": "Professionals in technology field",
     "industry": [
-      "Technology",
-      "Data Science"
+      "education"
     ],
     "business_functions": [
-      "Software Development",
-      "Data Analysis"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
       "Python"
     ],
     "processes": [
-      "Programming",
-      "Coding"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "Data Types",
-      "Operators",
-      "Control Statements",
-      "Lists",
-      "Tuples",
-      "Dictionaries",
-      "Sets",
-      "Functions",
-      "Classes",
-      "Modules",
-      "Debugging",
-      "Exceptions",
-      "Virtual Environments"
+      "Python",
+      "Programming",
+      "Language"
     ],
-    "methodologies": [
-      "Python programming methodology"
-    ],
-    "tools_mentioned": [
-      "pip"
-    ],
+    "methodologies": [],
+    "tools_mentioned": [],
     "prerequisites": [
-      "Basic understanding of programming concepts"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Learn Python from basics to advanced topics",
-      "Understand the Python Standard Library and PEP8 style guide"
+      "Understand technology concepts"
     ],
     "use_cases": [
-      "Developing software applications",
-      "Data analysis and manipulation"
+      "programming education",
+      "web development tutorials"
     ],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: The Python Handbook",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Python, Programming, Language",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "713c493e5a4ae1b83715b95ab16cb933",
