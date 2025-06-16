@@ -13460,72 +13460,87 @@
   {
     "id": "e567436ab29a8530842596e5aa78672d",
     "filename": "Git_Cheat_Sheet_1621791623.pdf",
-    "title": "Git Cheat Sheet",
+    "title": "GIT CHEAT SHEET",
     "authors": [],
     "filepath": "documents/Git_Cheat_Sheet_1621791623.pdf",
-    "upload_date": "2025-06-15T16:03:26.674575",
+    "upload_date": "2025-06-16T14:15:27.543076",
     "file_size": 85277,
-    "summary": "This document provides a comprehensive guide on using Git, a popular version control system. It covers topics such as working with snapshots and the Git staging area, setting up user information, initializing and cloning repositories, branching and merging, and more. The guide is intended for developers who are familiar with basic programming concepts and have some experience with version control systems.",
+    "summary": "This document provides a comprehensive guide to using Git, covering topics such as working with snapshots and the staging area, setting up user information, initializing and cloning repositories, isolating work in branches, changing context, and integrating changes. It includes explanations of various Git commands, including git status, git add, git reset, git diff, git commit, git config, git init, git clone, git branch, and git merge.",
     "keywords": [
       "Git",
-      "Version Control",
-      "Repository",
-      "Branch",
-      "Merge"
+      "Cheat Sheet",
+      "Snapshot",
+      "Staging Area"
     ],
     "key_concepts": [
-      "Explanation of the Git staging area and its role in committing changes",
-      "Description of how to configure user information for all local repositories",
-      "Instructions on initializing a directory as a Git repository and cloning repositories from a hosted location",
-      "Overview of branching, checking out branches, and merging changes"
+      "Working with snapshots and the Git staging area",
+      "Conﬁguring user information used across all local repositories",
+      "Isolating work in branches, changing context, and integrating changes"
     ],
-    "category": "Data Science",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Learn how to use Git effectively with this cheat sheet.",
-    "target_audience": "Developers and programmers who work with version control systems",
+    "content_preview": "Document: GIT CHEAT SHEET",
+    "target_audience": "Professionals in technology field",
     "industry": [
-      "Software Development",
-      "IT Services"
+      "Software Development"
     ],
     "business_functions": [
-      "Software Development",
-      "DevOps"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
       "Git"
     ],
     "processes": [
-      "Version Control",
-      "Repository Management"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "Branch",
-      "Merge",
-      "Commit",
-      "Staging Area"
+      "Git",
+      "Cheat Sheet",
+      "Snapshot"
     ],
     "methodologies": [
-      "Git Workflow"
+      "snapshot",
+      "staging area"
     ],
     "tools_mentioned": [
-      "git"
+      "git status",
+      "git add",
+      "git reset",
+      "git diff",
+      "git commit"
     ],
     "prerequisites": [
-      "Basic programming concepts",
-      "Familiarity with version control systems"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand the Git staging area and its role in committing changes",
-      "Learn how to configure user information for all local repositories",
-      "Master initializing a directory as a Git repository and cloning repositories from a hosted location",
-      "Gain knowledge on branching, checking out branches, and merging changes"
+      "Understand technology concepts"
     ],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "use_cases": [
+      "Version Control",
+      "Collaboration"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: GIT CHEAT SHEET",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Git, Cheat Sheet, Snapshot",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "39497016d1dccae9f31d066b36d1cce2",
