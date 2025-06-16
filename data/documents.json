@@ -33667,62 +33667,81 @@
     "title": "PCOS Detection Using Multi-Scale Retinex Enhanced Ultrasound Images: A Deep Learning Approach with ImpalaCNN Algorithm",
     "authors": [],
     "filepath": "documents/pcos_1741962006.pdf",
-    "upload_date": "2025-06-15T16:03:35.899634",
+    "upload_date": "2025-06-16T06:48:13.918317",
     "file_size": 718124,
-    "summary": "This document presents a deep learning approach for the detection of Polycystic Ovary Syndrome (PCOS) using multi-scale Retinex enhanced ultrasound images. The study employs the ImpalaCNN algorithm, and the data is obtained from Kaggle. The code provided in Python uses pandas and numpy libraries to load and preprocess the data, which includes infected and not infected image paths and their corresponding labels.",
+    "summary": "The document describes a deep learning approach for detecting PCOS using multi-scale retinex enhanced ultrasound images. It uses the ImpalaCNN algorithm and involves data preprocessing, image path and label creation, and data frame construction.",
     "keywords": [
       "PCOS",
-      "Ultrasound Images",
+      "Detection",
+      "Ultrasound",
+      "Images",
       "Deep Learning",
-      "ImpalaCNN",
-      "Kaggle"
+      "Algorithm",
+      "ImpalaCNN"
     ],
     "key_concepts": [
-      "The study aims to detect PCOS using multi-scale Retinex enhanced ultrasound images.",
-      "The ImpalaCNN algorithm is used for the deep learning approach in this research.",
-      "The data for this study is obtained from Kaggle and consists of infected and not infected image paths with their corresponding labels.",
-      "Python libraries such as pandas and numpy are used to load and preprocess the data."
+      "Multi-scale Retinex Enhanced Ultrasound Images for PCOS detection",
+      "Using a deep learning approach with ImpalaCNN algorithm for image classification",
+      "Loading and preprocessing ultrasound images from Kaggle dataset"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a deep learning approach for PCOS detection using multi-scale Retinex enhanced ultrasound images with ImpalaCNN algorithm.",
-    "target_audience": "Researchers, Data Scientists, and Machine Learning Engineers interested in medical image analysis and deep learning techniques.",
+    "content_preview": "Document: PCOS Detection Using Multi-Scale Retinex Enhanced Ultrasound Images: A Deep Learning Approach with ImpalaCNN Algorithm",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Healthcare",
-      "Medical Imaging"
+      "Healthcare"
     ],
     "business_functions": [
-      "Research & Development",
-      "Data Analysis"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "Deep Learning",
-      "ImpalaCNN",
-      "Python",
-      "Pandas",
-      "Numpy"
+      "numpy",
+      "pandas"
     ],
     "processes": [
-      "Data Preprocessing",
-      "Image Analysis"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "Retinex Enhanced Ultrasound Images",
-      "Kaggle"
+      "PCOS",
+      "Detection",
+      "Ultrasound"
     ],
-    "methodologies": [
-      "Deep Learning Approach",
+    "methodologies": [],
+    "tools_mentioned": [
       "ImpalaCNN Algorithm"
     ],
-    "tools_mentioned": [],
-    "prerequisites": [],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "PCOS detection",
+      "Medical imaging analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: PCOS Detection Using Multi-Scale Retinex Enhanced Ultrasound Images: A Deep Learning Approach with ImpalaCNN Algorithm",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: PCOS, Detection, Ultrasound",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "6c13b74de61db5281f2062988b804fb8",
