@@ -18213,67 +18213,84 @@
   {
     "id": "bc0c0d2027c05b8dabc6623fe47ec890",
     "filename": "Machine_Learning_Algorithms__1739096211.pdf",
-    "title": "Machine Learning Algorithms",
+    "title": "Machine Learning",
     "authors": [],
     "filepath": "documents/Machine_Learning_Algorithms__1739096211.pdf",
-    "upload_date": "2025-06-15T16:03:29.265591",
+    "upload_date": "2025-06-16T06:48:07.273249",
     "file_size": 23252824,
-    "summary": "This document provides a comprehensive introduction to Linear Regression and Logistic Regression, two fundamental machine learning algorithms. Linear Regression is explained with an example of predicting house prices based on size, while Logistic Regression is demonstrated through the classification of emails as spam or not spam. The document offers practical applications for both methods.",
+    "summary": "This document provides an overview of machine learning concepts, including linear regression and logistic regression. Linear regression is used for predicting continuous values, such as house prices based on their size. Logistic regression is used for classification tasks, such as identifying spam emails. Decision trees are also introduced as a series of questions to make decisions.",
     "keywords": [
       "Machine Learning",
       "Linear Regression",
       "Logistic Regression",
-      "Prediction",
-      "Classification"
+      "Decision Trees"
     ],
     "key_concepts": [
-      "Linear Regression helps predict the price of a house based on its size by finding a straight line that best fits historical data.",
-      "Logistic Regression analyzes email content and assigns a probability of being spam based on the words used.",
-      "Linear Regression finds an equation (e.g., Price = 100 * Size + 50,000) to predict house prices based on size.",
-      "Logistic Regression calculates the probability that an email is spam and classifies it as such if the probability exceeds a certain threshold."
+      "Predicting house prices based on size using linear regression",
+      "Classifying emails as spam or not spam using logistic regression",
+      "Decision trees as a series of questions to make a decision"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Introduction to Linear and Logistic Regression with practical examples.",
-    "target_audience": "Data scientists, machine learning enthusiasts, and anyone interested in understanding these algorithms.",
+    "content_preview": "Document: Machine Learning",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Technology",
-      "AI"
+      "Education"
     ],
     "business_functions": [
-      "Data Analysis",
-      "Machine Learning"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "Machine Learning Algorithms"
-    ],
-    "processes": [
-      "Prediction",
-      "Classification"
-    ],
-    "technical_terms": [
+      "Machine Learning",
       "Linear Regression",
       "Logistic Regression",
-      "Regression Line",
-      "Probability Threshold"
+      "Decision Trees"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Linear Regression",
+      "Logistic Regression"
     ],
     "methodologies": [
-      "Statistical Analysis",
-      "Machine Learning"
+      "Regression Analysis",
+      "Classification"
     ],
     "tools_mentioned": [],
     "prerequisites": [
-      "Basic understanding of statistics and machine learning concepts"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand the principles and applications of Linear Regression and Logistic Regression."
+      "Understand machine learning concepts"
     ],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "use_cases": [
+      "Predicting house prices",
+      "Classifying emails"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Machine Learning, Linear Regression, Logistic Regression",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "8fb489e6e194b141af00f3cb2d137271",
