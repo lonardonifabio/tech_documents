@@ -21715,72 +21715,97 @@
   {
     "id": "609d563df5f74fedb34fc4921240b68e",
     "filename": "Microsoft_Responsible_AI_Impact_Assessment_Template_1749995135.pdf",
-    "title": "Microsoft Responsible AI Impact Assessment Template",
+    "title": "Microsoft Responsible AI Standard v2 - Introduction",
     "authors": [],
     "filepath": "documents/Microsoft_Responsible_AI_Impact_Assessment_Template_1749995135.pdf",
-    "upload_date": "2025-06-15T16:03:30.504598",
+    "upload_date": "2025-06-16T14:15:31.331131",
     "file_size": 588881,
-    "summary": "This document is a template released by Microsoft to assess the impact an AI system may have on people, organizations, and society. It outlines a process for defining responsible AI standards and invites feedback from others in the field. The template includes sections for system information, lifecycle stage, and potential impacts.",
+    "summary": "The Responsible AI Impact Assessment Template is a product of Microsoft's multi-year effort to define a process for assessing the impact an AI system may have on people, organizations, and society. The template is released externally to share what has been learned, invite feedback from others, and contribute to the discussion about building better norms and practices around AI.",
     "keywords": [
-      "Microsoft",
       "Responsible AI",
       "Impact Assessment",
-      "Template",
-      "AI Standards"
+      "Microsoft",
+      "AI system",
+      "People",
+      "Organizations",
+      "Society",
+      "AI",
+      "Automation",
+      "Keyword Generation"
     ],
     "key_concepts": [
-      "The document provides a process for assessing the impact of an AI system on various stakeholders.",
-      "It is a multi-year effort by Microsoft to define responsible AI practices and contribute to industry discussions.",
-      "The template covers potential impacts on people, organizations, and society.",
-      "Microsoft invites feedback from others in the field to improve the approach."
+      "Assessing the impact of an AI system on people, organizations, and society.",
+      "Defining a process for assessing the impact of an AI system.",
+      "Building better norms and practices around AI.",
+      "Human-in-the-loop decision making",
+      "System outputs subject to human evaluation and approval",
+      "Automated keyword generation with human oversight",
+      "Deployment environment complexity",
+      "Simple vs. Moderately complex environments"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Microsoft releases Responsible AI Impact Assessment Template for feedback.",
-    "target_audience": "AI developers, researchers, and professionals interested in responsible AI practices.",
+    "content_preview": "Document: Microsoft Responsible AI Standard v2 - Introduction",
+    "target_audience": "Professionals in ai field",
     "industry": [
       "Technology",
-      "AI"
+      "relevant industry"
     ],
     "business_functions": [
-      "Research & Development",
-      "AI Ethics"
+      "Research and Development",
+      "Strategy"
     ],
-    "companies": [
-      "Microsoft"
-    ],
+    "companies": [],
     "technologies": [
-      "Artificial Intelligence"
+      "AI",
+      "Natural Language Processing"
     ],
     "processes": [
-      "AI Impact Assessment"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "AI Standards",
-      "Impact Assessment"
+      "Responsible AI",
+      "Impact Assessment",
+      "Microsoft"
     ],
     "methodologies": [
-      "Responsible AI Practices"
+      "keyword generation",
+      "operator review and approval"
     ],
-    "tools_mentioned": [],
+    "tools_mentioned": [
+      "unstructured text analysis"
+    ],
     "prerequisites": [
-      "Knowledge of AI and its ethical considerations"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand Microsoft's approach to responsible AI impact assessment.",
-      "Learn how to assess the potential impacts of an AI system."
+      "Understand ai concepts"
     ],
     "use_cases": [
-      "Applying the template to assess the impact of an AI system in a specific context."
+      "AI system impact assessment",
+      "responsible AI practices",
+      "keyword generation from unstructured text"
     ],
     "benefits_mentioned": [
-      "Contributing to the development of better norms and practices around AI."
+      "Improved understanding",
+      "Practical insights"
     ],
     "challenges_addressed": [
-      "Ensuring the ethical use of AI systems."
+      "Knowledge gaps",
+      "Implementation challenges"
     ],
-    "best_practices": [],
-    "questions_and_answers": []
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Microsoft Responsible AI Standard v2 - Introduction",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: Responsible AI, Impact Assessment, Microsoft",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "031eb8da7b03102c968f16f6dff769c1",
