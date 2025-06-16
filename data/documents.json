@@ -32773,70 +32773,80 @@
   {
     "id": "2a3ce02c973d3c9fad3103025e374855",
     "filename": "aws-caf-for-ai.pdf",
-    "title": "AWS Cloud Adoption Framework for Artificial Intelligence, Machine Learning, and Generative AI",
+    "title": "AWS Cloud Adoption Framework for Artiﬁcial Intelligence, Machine Learning, and Generative AI",
     "authors": [],
     "filepath": "documents/aws-caf-for-ai.pdf",
-    "upload_date": "2025-06-15T16:03:35.391631",
+    "upload_date": "2025-06-16T14:15:36.165203",
     "file_size": 897087,
-    "summary": "This whitepaper provides a comprehensive guide on adopting Amazon Web Services (AWS) for artificial intelligence (AI), machine learning (ML), and generative AI. It covers the AWS Cloud Adoption Framework (CAF-AI) methodology, best practices, and practical applications. The document is intended for IT professionals, data scientists, and AI/ML engineers looking to leverage AWS for their AI projects.",
+    "summary": "This document outlines Amazon Web Services' (AWS) approach to adopting artificial intelligence (AI), machine learning (ML), and generative AI. It provides an overview of the AWS Cloud Adoption Framework for AI, including its components, benefits, and best practices.",
     "keywords": [
       "AWS",
-      "Cloud Adoption Framework",
       "Artificial Intelligence",
       "Machine Learning",
-      "Generative AI"
+      "Generative AI",
+      "Cloud Adoption Framework"
     ],
     "key_concepts": [
-      "The AWS Cloud Adoption Framework (CAF-AI) is a methodology for adopting AWS services for AI, ML, and generative AI projects.",
-      "The whitepaper covers the CAF-AI approach, including its principles, processes, and tools.",
-      "Key findings include best practices for data management, security, and cost optimization in AI/ML projects on AWS.",
-      "The theoretical framework is based on AWS's proven methodology for cloud adoption and AI/ML implementation.",
-      "Practical implications include improved efficiency, scalability, and reliability of AI/ML projects on AWS."
+      "A framework for adopting artificial intelligence, machine learning, and generative AI in the cloud.",
+      "Introduction to artiﬁcial intelligence and its applications.",
+      "Overview of AWS Cloud Adoption Framework for AI and ML."
     ],
-    "category": "AI",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "A guide for adopting AWS services for AI, ML, and generative AI.",
-    "target_audience": "IT professionals, data scientists, AI/ML engineers",
+    "content_preview": "Document: AWS Cloud Adoption Framework for Artiﬁcial Intelligence, Machine Learning, and Generative AI",
+    "target_audience": "Professionals in technology field",
     "industry": [
-      "Technology",
-      "AI"
+      "Artificial Intelligence, Machine Learning"
     ],
     "business_functions": [
-      "Data Management",
-      "Security",
-      "Cost Optimization"
+      "Research and Development",
+      "Strategy"
     ],
-    "companies": [
-      "Amazon Web Services"
-    ],
+    "companies": [],
     "technologies": [
-      "AWS services",
-      "AI",
-      "ML",
-      "Generative AI"
+      "Artificial Intelligence",
+      "Machine Learning"
     ],
     "processes": [
-      "Cloud Adoption",
-      "AI/ML Implementation"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "CAF-AI",
-      "AI",
-      "ML",
-      "Generative AI",
-      "Data Management",
-      "Security",
-      "Cost Optimization"
+      "AWS",
+      "Artificial Intelligence",
+      "Machine Learning"
     ],
     "methodologies": [],
     "tools_mentioned": [],
-    "prerequisites": [],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "AI adoption",
+      "Machine Learning implementation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: AWS Cloud Adoption Framework for Artiﬁcial Intelligence, Machine Learning, and Generative AI",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: AWS, Artificial Intelligence, Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "68748d2e72acedfbc73a216ddc3f31ef",
