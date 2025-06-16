@@ -33715,75 +33715,105 @@
     "id": "4be2290270e6de9005d3f7a351d0caa3",
     "filename": "pycaret_1648896054.pdf",
     "title": "Simplifying Machine Learning with PyCaret",
-    "authors": [
-      "Giannis Tolios"
-    ],
+    "authors": [],
     "filepath": "documents/pycaret_1648896054.pdf",
-    "upload_date": "2025-06-15T16:03:35.946635",
+    "upload_date": "2025-06-16T06:48:13.965317",
     "file_size": 3064458,
-    "summary": "This document introduces PyCaret, a low-code approach to machine learning suitable for both beginners and experts. It covers prerequisites, software requirements, installation of PyCaret, using JupyterLab, and provides a brief introduction to machine learning.",
+    "summary": "This book is for sale at http://leanpub.com/pycaretbook. This version was published on 2021-10-20. This is a Leanpub book that uses the Lean Publishing process to empower authors and publishers. The book covers topics such as machine learning, PyCaret, JupyterLab, and more.",
     "keywords": [
       "PyCaret",
       "Machine Learning",
       "Low-code",
-      "Beginner",
-      "Expert"
+      "Beginners",
+      "Experts",
+      "dataset",
+      "exploratory data analysis",
+      "pycaret environment",
+      "machine learning model",
+      "streamlit framework"
     ],
     "key_concepts": [
-      "PyCaret is a low-code approach for simplifying machine learning tasks.",
-      "The book provides a step-by-step guide on installing and using PyCaret.",
-      "It offers an introduction to machine learning concepts for beginners.",
-      "The document assumes some basic knowledge of programming and data analysis."
+      "A Brief Introduction to Machine Learning",
+      "What is Machine Learning?",
+      "Simplifying Machine Learning with PyCaret",
+      "Lean Publishing process",
+      "Leanpub book",
+      "A dataset is used for exploratory data analysis.",
+      "Initializing a PyCaret environment is necessary for machine learning tasks.",
+      "Deploying a machine learning model to Streamlit Cloud is the final step.",
+      "Predictive model based on labeled instances",
+      "Training dataset with rows as instances and columns as features and label"
     ],
     "category": "Machine Learning",
-    "difficulty": "Beginner",
-    "content_preview": "Learn PyCaret, a low-code approach for machine learning.",
-    "target_audience": "Beginners and experts in machine learning who want to use PyCaret.",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Simplifying Machine Learning with PyCaret",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Data Science",
-      "Artificial Intelligence"
+      "Machine Learning",
+      "Insurance",
+      "Technology"
     ],
     "business_functions": [
-      "Data Analysis",
-      "Machine Learning"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
       "PyCaret",
-      "JupyterLab"
+      "Streamlit",
+      "machine learning"
     ],
     "processes": [
-      "Installing PyCaret",
-      "Using JupyterLab"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
+      "PyCaret",
       "Machine Learning",
       "Low-code"
     ],
     "methodologies": [
-      "PyCaret methodology"
+      "supervised learning",
+      "unsupervised learning",
+      "reinforcement learning"
     ],
     "tools_mentioned": [
-      "PyCaret",
-      "JupyterLab"
+      "JupyterLab",
+      "Leanpub",
+      "Github Repository"
     ],
     "prerequisites": [
-      "Basic knowledge of programming and data analysis"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Learn how to install and use PyCaret for machine learning tasks."
+      "Understand machine learning concepts"
     ],
     "use_cases": [
-      "Practical applications of PyCaret in machine learning."
+      "Beginners",
+      "Experts",
+      "Insurance Charges Prediction",
+      "Iris Classification",
+      "Predictive Modeling"
     ],
     "benefits_mentioned": [
-      "Simplifying machine learning tasks with a low-code approach."
+      "Improved understanding",
+      "Practical insights"
     ],
     "challenges_addressed": [
-      "Complexity in machine learning tasks."
+      "Knowledge gaps",
+      "Implementation challenges"
     ],
-    "best_practices": [],
-    "questions_and_answers": []
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Simplifying Machine Learning with PyCaret",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: PyCaret, Machine Learning, Low-code",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "9815c9c327347ef01d994c78534ea95a",
