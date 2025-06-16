@@ -8988,51 +8988,109 @@
   {
     "id": "606386721b30d98b67e1bf8ee3051aa0",
     "filename": "Data science interview q&a.pdf",
-    "title": "Data Science Interview Q&A",
+    "title": "Statistics",
     "authors": [],
     "filepath": "documents/Data science interview q&a.pdf",
-    "upload_date": "2025-06-15T16:03:24.293560",
+    "upload_date": "2025-06-16T20:33:55.983578",
     "file_size": 10590284,
-    "summary": "This document provides answers to common data science interview questions, covering topics such as the Central Limit Theorem, sampling methods, Type I and II errors, Linear Regression, statistical interaction, selection bias, and non-Gaussian distributions. It is intended for individuals preparing for a data science interview or seeking to improve their understanding of these concepts.",
+    "summary": "This document appears to be a collection of questions and answers related to statistics, covering topics such as the central limit theorem, sampling methods, type I vs type II error, linear regression, statistical interactions, selection bias, and non-Gaussian distributions. It seems to be a study guide or review material for students in data science or statistics.",
     "keywords": [
-      "Data Science",
-      "Statistics",
-      "Interview Questions",
       "Central Limit Theorem",
-      "Sampling"
+      "Sampling",
+      "Type I Error",
+      "Type II Error",
+      "Linear Regression",
+      "P-Value",
+      "Coefficient",
+      "R-Squared Value",
+      "Statistical Interaction",
+      "Selection Bias"
     ],
     "key_concepts": [
-      "The Central Limit Theorem is a fundamental theorem in statistics that describes the probability distribution of the sum of a large number of independent, identically distributed random variables.",
-      "Sampling is the process of selecting a subset (a sample) from a larger population to make inferences about the entire population. Common sampling methods include simple random sampling, stratified sampling, and cluster sampling.",
-      "Type I error (false positive) occurs when we incorrectly reject the null hypothesis, while Type II error (false negative) occurs when we fail to reject the null hypothesis when it is actually false.",
-      "Linear Regression is a statistical model used to analyze the relationship between a dependent variable and one or more independent variables. The P-value, Coefficient, and R-Squared Value are important components of Linear Regression that help assess the significance and strength of the relationship.",
-      "Assumptions required for Linear Regression include linearity, independence, homoscedasticity, normality, and no multicollinearity."
+      "A statistical concept that describes the distribution of sample means.",
+      "The process of selecting a subset of data from a larger population.",
+      "Errors in hypothesis testing, where Type I error is rejecting a true null hypothesis and Type II error is failing to reject a false null hypothesis.",
+      "A linear relationship between two or more variables, with coefficients representing the change in one variable for a unit change in another.",
+      "The significance of each component in linear regression, including p-value, coefficient, and R-squared value.",
+      "Measuring the uncertainty or randomness in a probability distribution.",
+      "Predicting the likelihood of an event occurring based on input variables.",
+      "Identifying relevant factors that contribute to a specific outcome.",
+      "Choosing the most suitable algorithm for a given problem type.",
+      "Determining relationships between items in a dataset."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides answers to common data science interview questions.",
-    "target_audience": "Individuals preparing for a data science interview or seeking to improve their understanding of these concepts.",
+    "content_preview": "Document: Statistics",
+    "target_audience": "Professionals in data science field",
     "industry": [
       "Data Science",
-      "Technology"
+      "Healthcare",
+      null
     ],
     "business_functions": [
-      "Data Analysis",
-      "Statistical Analysis"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
-    "technologies": [],
-    "processes": [],
-    "technical_terms": [],
-    "methodologies": [],
-    "tools_mentioned": [],
-    "prerequisites": [],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "technologies": [
+      "machine learning",
+      "data analysis",
+      "statistics"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Central Limit Theorem",
+      "Sampling",
+      "Type I Error"
+    ],
+    "methodologies": [
+      "sampling",
+      "linear regression",
+      "supervised learning",
+      "unsupervised learning",
+      "association rules"
+    ],
+    "tools_mentioned": [
+      "algorithms",
+      "models",
+      "datasets",
+      "Quora",
+      "Elder Research"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Predicting probability of death from heart disease",
+      "Identifying similar individual types",
+      "Analyzing association rules",
+      "Determining impact of coupons on purchase decisions"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Statistics",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Central Limit Theorem, Sampling, Type I Error",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "112436e8adcb638ed2fbb10a9bddec73",
