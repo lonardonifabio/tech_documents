@@ -33777,74 +33777,99 @@
   {
     "id": "2740b833c82e84d6b2723caf56861dbe",
     "filename": "sql cheat sheet.pdf",
-    "title": "SQL Cheat Sheet",
+    "title": "SQL Query Examples",
     "authors": [],
     "filepath": "documents/sql cheat sheet.pdf",
-    "upload_date": "2025-06-15T14:50:30.418342",
+    "upload_date": "2025-06-15T23:06:54.417875",
     "file_size": 230259,
-    "summary": "This document provides a comprehensive guide to SQL queries, covering various join types (inner, left, right, full outer), aggregate functions, filtering, sorting, and set operations (union, intersect, minus). It also explains how to query data from tables, use pattern matching, and select rows based on value lists.",
+    "summary": "A collection of SQL query examples demonstrating various join types, filtering, grouping, sorting, and pattern matching.",
     "keywords": [
-      "SQL",
-      "queries",
-      "join",
-      "aggregate function",
-      "filter"
+      "JOIN",
+      "LEFT JOIN",
+      "INNER JOIN",
+      "FULL OUTER JOIN",
+      "CROSS JOIN",
+      "RIGHT JOIN",
+      "UNION",
+      "INTERSECT",
+      "MINUS",
+      "LIKE"
     ],
     "key_concepts": [
-      "Explains the concept of SQL queries and their usage for retrieving data from tables.",
-      "Describes different types of joins (inner, left, right, full outer) and their applications.",
-      "Details how to use aggregate functions like COUNT(), SUM(), AVG(), MIN(), MAX() for grouping and calculating values.",
-      "Shows how to filter rows using conditions and the WHERE clause.",
-      "Illustrates sorting result sets in ascending or descending order."
+      "Inner join t1 and t2 to retrieve common rows.",
+      "Left join t1 and t2 to retrieve all rows from t1 and matching rows from t2.",
+      "Full outer join t1 and t2 to retrieve all rows from both tables with matching rows.",
+      "Cross join t1 and t2 to produce a Cartesian product of rows in both tables.",
+      "Right join t1 and t2 to retrieve all rows from t2 and matching rows from t1.",
+      "Union two queries to combine rows from both queries.",
+      "Intersect two queries to return the common rows between both queries.",
+      "Minus two queries to subtract a result set from another result set.",
+      "Like pattern matching to query rows using patterns % and _",
+      "In operator to query rows in a list"
     ],
-    "category": "Data Science",
-    "difficulty": "Beginner",
-    "content_preview": "Learn SQL queries with this cheat sheet.",
-    "target_audience": "Beginners and intermediate data analysts looking to understand SQL basics.",
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: SQL Query Examples",
+    "target_audience": "Professionals in technology field",
     "industry": [
-      "Data Analytics",
-      "IT Services"
+      "Data Analysis and Querying"
     ],
     "business_functions": [
-      "Data Analysis",
-      "Database Management"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
       "SQL"
     ],
     "processes": [
-      "Data Retrieval"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
       "JOIN",
-      "WHERE clause",
-      "AGGREGATE function",
-      "UNION",
-      "INTERSECT",
-      "MINUS"
+      "LEFT JOIN",
+      "INNER JOIN"
     ],
     "methodologies": [
-      "SQL Querying Methodology"
+      "JOIN",
+      "GROUP BY",
+      "HAVING",
+      "ORDER BY",
+      "UNION"
     ],
-    "tools_mentioned": [
-      "SQL"
-    ],
+    "tools_mentioned": [],
     "prerequisites": [
-      "Basic understanding of databases and tables"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand SQL queries and their applications.",
-      "Learn different types of joins and their uses."
+      "Understand technology concepts"
     ],
     "use_cases": [
-      "Analyzing data for business insights",
-      "Database management tasks"
+      "Data Retrieval",
+      "Data Filtering",
+      "Data Grouping",
+      "Data Sorting"
     ],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: SQL Query Examples",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: JOIN, LEFT JOIN, INNER JOIN",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "3c59cf02594f4575b7d25542d47e9b13",
