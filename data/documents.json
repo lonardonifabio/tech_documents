@@ -10781,75 +10781,95 @@
   {
     "id": "bcf80cd0995f129df76a244d42454feb",
     "filename": "Django_for_begginers_1619727306.pdf",
-    "title": "Django for Beginners",
+    "title": "Django",
     "authors": [],
     "filepath": "documents/Django_for_begginers_1619727306.pdf",
-    "upload_date": "2025-06-15T16:03:25.838570",
+    "upload_date": "2025-06-16T14:15:26.730064",
     "file_size": 1596185,
-    "summary": "This document provides a comprehensive guide for beginners on getting started with Django, a popular Python web framework. It covers topics such as project setup, administration, ArrayField (a PostgreSQL-specific field), async tasks using Celery, authentication backends, and class-based views. The guide includes examples, project structure, deployment with Docker, and best practices.",
+    "summary": "This document provides an overview of Django, including getting started with Django, project structure, and deployment. It covers topics such as virtual environments, Docker support, administration, array fields, async tasks, authentication backends, and class-based views.",
     "keywords": [
       "Django",
-      "Python",
-      "Web Development",
-      "Framework"
+      "#django",
+      "Table of Contents",
+      "Project Structure",
+      "Dockerfile",
+      "Compose",
+      "Nginx"
     ],
     "key_concepts": [
-      "Explains how to set up a Django project from scratch",
-      "Describes the structure of a Django project and its components",
-      "Introduces the concept of ArrayField, a PostgreSQL-specific field in Django",
-      "Provides an overview of async tasks using Celery in Django",
-      "Explains how to create authentication backends in Django"
+      "A complete hello world example.",
+      "Virtual Environment",
+      "Python 3.3+",
+      "Activate (any version)",
+      "Set your Project Path",
+      "Deployment friendly Project with Docker support.",
+      "ArrayField - a PostgreSQL-specific field",
+      "Async Tasks (Celery)",
+      "Authentication Backends",
+      "Class based views"
     ],
     "category": "Technology",
-    "difficulty": "Beginner",
-    "content_preview": "Learn Django from scratch with this beginner's guide.",
-    "target_audience": "Beginners in web development looking to learn Django",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Django",
+    "target_audience": "Professionals in technology field",
     "industry": [
-      "IT and Software"
+      "Software Development"
     ],
     "business_functions": [
-      "Web Development",
-      "Software Development"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
       "Django",
-      "Python",
-      "PostgreSQL",
-      "Celery",
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Django",
+      "#django",
+      "Table of Contents"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [
+      "virtualenvwrapper",
+      "pyenv",
+      "pyenv-virtualenv",
       "Docker",
       "Nginx"
     ],
-    "processes": [
-      "Project Setup",
-      "Deployment"
-    ],
-    "technical_terms": [
-      "Virtual Environment",
-      "URLs",
-      "Views",
-      "Forms",
-      "Admin",
-      "ArrayField",
-      "Async Tasks",
-      "Authentication Backends",
-      "Class Based Views"
-    ],
-    "methodologies": [
-      "Scratch-to-code approach for Django projects"
-    ],
-    "tools_mentioned": [
-      "Python 3.3+, Python 2, virtualenvwrapper, pyenv + pyenv-virtualenv, Docker, Compose, Nginx"
-    ],
     "prerequisites": [
-      "Basic knowledge of Python"
+      "Basic understanding of the subject matter"
     ],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Web Application Development",
+      "Backend Framework"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Django",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Django, #django, Table of Contents",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a3d07522296c86154f9955aefc44d9a8",
