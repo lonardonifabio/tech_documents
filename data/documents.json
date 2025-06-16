@@ -12724,72 +12724,90 @@
   {
     "id": "a41a2219d62dee316f93e1b8bd4893df",
     "filename": "GDPR_when_using_by_generative_AI_1742808099.pdf",
-    "title": "GDPR when using generative AI in public administration",
+    "title": "GDPR when using generative AI",
     "authors": [],
     "filepath": "documents/GDPR_when_using_by_generative_AI_1742808099.pdf",
-    "upload_date": "2025-06-15T16:03:26.418573",
+    "upload_date": "2025-06-16T14:15:27.292072",
     "file_size": 1945605,
-    "summary": "This document provides guidelines for the use of generative AI in public administration, considering data protection regulations as a starting point. It addresses the issues concerning widely available and integrated generative AI, focusing on data protection regulations if personal data is processed. The report does not cover development and fine-tuning.",
+    "summary": "The Privacy Protection Authority's part of the government's mission to develop guidelines for the use of generative AI in public administration. The report addresses issues concerned with widely available and integrated generative AI, particularly in relation to data protection regulations.",
     "keywords": [
       "GDPR",
-      "generative AI",
-      "public administration",
-      "data protection"
+      "Generative AI",
+      "Privacy Protection Authority",
+      "Public Administration",
+      "Automated decision-making",
+      "Personal data transfer",
+      "Data protection",
+      "Risks",
+      "Measures"
     ],
     "key_concepts": [
-      "The Privacy Protection Authority develops guidelines for the use of generative AI in public administration.",
-      "Data protection regulations must be taken into account if personal data is processed when using generative AI.",
-      "The document does not cover development and fine-tuning of generative AI.",
-      "The report focuses on issues concerning widely available and integrated generative AI."
+      "Guidelines for generative AI use in public administration",
+      "Data protection regulations and personal data handling",
+      "Consideration of GDPR when using generative AI",
+      "Individual rights during use of generative AI",
+      "Achieving appropriate safety during use of generative AI",
+      "Limiting risks from a data protection perspective",
+      "Guidelines for public administration operations using generative AI",
+      "Development and fine-tuning of generative AI systems"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Guidelines for using generative AI in public administration, considering data protection regulations.",
-    "target_audience": "Government officials, AI researchers, and data protection specialists.",
+    "content_preview": "Document: GDPR when using generative AI",
+    "target_audience": "Professionals in data science field",
     "industry": [
-      "Public Administration",
-      "AI"
+      "Public Administration"
     ],
     "business_functions": [
-      "Regulation and Compliance",
-      "Artificial Intelligence"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "Generative AI"
+      "generative AI"
     ],
     "processes": [
-      "Data Processing"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
       "GDPR",
-      "generative AI",
-      "personal data"
+      "Generative AI",
+      "Privacy Protection Authority"
     ],
-    "methodologies": [
-      "Guideline development"
-    ],
-    "tools_mentioned": [
-      "Online Document Translator"
-    ],
+    "methodologies": [],
+    "tools_mentioned": [],
     "prerequisites": [
-      "Understanding of AI, Data Protection Regulations"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Learn about the guidelines for using generative AI in public administration under GDPR.",
-      "Understand the importance of data protection regulations when using generative AI."
+      "Understand data science concepts"
     ],
     "use_cases": [
-      "Application of the guidelines in public administration."
+      "Data Protection",
+      "Regulatory Compliance",
+      "Automated Decision-Making",
+      "Data Transfer to Third Countries"
     ],
     "benefits_mentioned": [
-      "Ensuring compliance with data protection regulations."
+      "Improved understanding",
+      "Practical insights"
     ],
     "challenges_addressed": [
-      "Integrating generative AI into public administration while ensuring data protection."
+      "Knowledge gaps",
+      "Implementation challenges"
     ],
-    "best_practices": [],
-    "questions_and_answers": []
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: GDPR when using generative AI",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: GDPR, Generative AI, Privacy Protection Authority",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "f3fed6a89cda4922586511551f9e28f7",
