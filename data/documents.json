@@ -6415,65 +6415,101 @@
   {
     "id": "43efecd29c88fa14f1376a8f322029ed",
     "filename": "BIG_DATA_ANALYTICS_1567266033.pdf",
-    "title": "Big Data Analytics",
+    "title": "Big Data Analytics - Overview",
     "authors": [],
     "filepath": "documents/BIG_DATA_ANALYTICS_1567266033.pdf",
-    "upload_date": "2025-06-15T16:03:23.069553",
+    "upload_date": "2025-06-16T14:15:23.996024",
     "file_size": 1301275,
-    "summary": "This document provides an overview of Big Data Analytics, discussing the explosion in data volume and storage reduction over the past decade. It highlights the challenge of making sense of this vast amount of data and introduces big data analytics as a solution. The process of converting raw data into useful data products for organizations is explained, with a focus on the data life cycle. The document also compares Big Data Analytics to the traditional data mining cycle using the CRISP-DM methodology.",
+    "summary": "The volume of data has exploded to unimaginable levels in the past decade. Private companies and research institutions capture terabytes of data about their users' interactions, business, social media, and sensors from devices such as mobile phones and automobiles. The challenge is to make sense of this sea of data. Big Data Analytics involves collecting data from different sources, munging it for consumption by analysts, and delivering data products useful to the organization's business.",
     "keywords": [
-      "Big Data",
-      "Analytics",
+      "Big Data Analytics",
+      "Data Storage",
+      "Data Volume",
       "Data Mining",
-      "CRISP-DM"
+      "CRISP-DM Methodology",
+      "SQL",
+      "Data Cleaning",
+      "Exploratory Data Analysis",
+      "Data Preparation",
+      "Modeling"
     ],
     "key_concepts": [
-      "The challenge of making sense of vast amounts of data in today's digital age",
-      "The role of Big Data Analytics in converting raw data into useful data products",
-      "The comparison between Big Data Analytics and the traditional data mining cycle using the CRISP-DM methodology",
-      "The non-linear nature of the Big Data Analytics life cycle"
+      "Making sense of large amounts of data",
+      "Collecting and processing data from various sources",
+      "Converting unstructured raw data to a usable format",
+      "Delivering insights and business value through data analysis",
+      "A cycle with different stages for organizing work and delivering clear insights",
+      "Understanding SQL is a key skill for big data analytics.",
+      "Data exploration phase is mandatory after cleaning and storing data.",
+      "Statistical techniques and plotting are used to understand the data.",
+      "Data preparation involves reshaping, imputation, outlier detection, normalization, feature extraction, and selection.",
+      "Modeling stage involves trying different models to solve business problems."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about Big Data Analytics and its role in making sense of vast amounts of data.",
-    "target_audience": "Data analysts, researchers, and professionals interested in understanding Big Data Analytics",
+    "content_preview": "Document: Big Data Analytics - Overview",
+    "target_audience": "Professionals in data science field",
     "industry": [
-      "Technology",
-      "Research"
+      "Data Analytics",
+      "big data analytics"
     ],
     "business_functions": [
-      "Data Analysis",
-      "Research and Development"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "Big Data Analytics"
+      "Big Data Analytics",
+      "SQL"
     ],
     "processes": [
-      "Data Life Cycle"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "CRISP-DM"
+      "Big Data Analytics",
+      "Data Storage",
+      "Data Volume"
     ],
     "methodologies": [
-      "CRISP-DM Methodology"
+      "CRISP-DM Methodology",
+      "Traditional Data Mining Life Cycle",
+      "Exploratory Data Analysis",
+      "Data Preparation for Modeling and Assessment",
+      "Modelling"
     ],
     "tools_mentioned": [],
     "prerequisites": [
-      "Basic understanding of data analysis and mining"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand the concept of Big Data Analytics",
-      "Learn about the data life cycle in Big Data Analytics",
-      "Gain knowledge about the CRISP-DM methodology"
+      "Understand data science concepts"
     ],
     "use_cases": [
-      "Data analysis for private companies and research institutions"
+      "data analysis",
+      "business insights",
+      "data exploration",
+      "predictive modeling"
     ],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Big Data Analytics - Overview",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Big Data Analytics, Data Storage, Data Volume",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "fabad7fec617112323f577f2139d5ee3",
