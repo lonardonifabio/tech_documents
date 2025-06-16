@@ -2696,54 +2696,52 @@
   {
     "id": "1bc8726e00d5c4077816ed257dd407a7",
     "filename": "AI_Safety_in_Practice_1742807946.pdf",
-    "title": "AI Safety in Practice Workbook",
-    "authors": [
-      "David Leslie",
-      "Cami Rincón",
-      "Morgan Briggs",
-      "Antonella Maia Perini",
-      "Smera Jayadeva",
-      "Ann Borda",
-      "SJ Bennett",
-      "Christopher Burr",
-      "Claudia Fischer"
-    ],
+    "title": "AI Safety in Practice",
+    "authors": [],
     "filepath": "documents/AI_Safety_in_Practice_1742807946.pdf",
-    "upload_date": "2025-06-15T16:03:21.452543",
+    "upload_date": "2025-06-16T14:15:22.391000",
     "file_size": 3912435,
-    "summary": "This document is a workbook designed for participants to engage with during workshops on AI Ethics and Governance. It was written by a team of researchers from The Alan Turing Institute's Ethics Theme, with contributions from various partners and collaborators. The workbook provides activities and guidance for facilitators to deliver, aiming to promote understanding and application of AI safety principles.",
+    "summary": "This document is a participant workbook for AI safety in practice, intended to be used in preparation for and during workshops. It was written by a team of researchers from The Alan Turing Institute, with acknowledgments to various partners and collaborators.",
     "keywords": [
       "AI Safety",
-      "Workbook",
       "Ethics",
       "Governance",
-      "Workshops"
+      "AI",
+      "Safety",
+      "Reliability",
+      "Security",
+      "Robustness",
+      "Receiver Operating Characteristics (ROC)",
+      "Performance"
     ],
     "key_concepts": [
-      "The workbook is a practical guide for participants to engage with during workshops on AI Ethics and Governance.",
-      "It was written by a team of researchers from The Alan Turing Institute's Ethics Theme, with contributions from various partners and collaborators.",
-      "The workbook provides activities and guidance for facilitators to deliver, aiming to promote understanding and application of AI safety principles.",
-      "The document is intended for participants who will attend workshops on AI Ethics and Governance.",
-      "The workbook was designed with the support and efforts of various partners and collaborators."
+      "Programme for AI Ethics and Governance",
+      "Participant Workbook for AI Safety",
+      "Facilitator Workbook for AI Safety",
+      "A technically safe and sustainable AI system is accurate and performant, reliable, secure, and robust.",
+      "AI safety of the model focuses on ensuring that algorithms, architectures, and parameters within an AI system are both technically sustainable and safe.",
+      "AI safety of the system ensures that safety goals are met considering the broader context in which the model operates."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Practical guide for workshops on AI Ethics and Governance.",
-    "target_audience": "Participants attending workshops on AI Ethics and Governance",
+    "content_preview": "Document: AI Safety in Practice",
+    "target_audience": "Professionals in ai field",
     "industry": [
-      "AI",
-      "Technology"
+      "Public Policy",
+      "AI/Technology"
     ],
     "business_functions": [
-      "Ethics",
-      "Governance"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "AI"
+      "AI",
+      "ROC"
     ],
     "processes": [
-      "Workshops"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
       "AI Safety",
@@ -2751,18 +2749,43 @@
       "Governance"
     ],
     "methodologies": [
-      "Workshop design and facilitation"
+      "Safety Self-Assessment",
+      "Risk Management"
     ],
-    "tools_mentioned": [],
+    "tools_mentioned": [
+      "illustrations"
+    ],
     "prerequisites": [
-      "Understanding of AI and its ethical implications"
+      "Basic understanding of the subject matter"
     ],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "AI Ethics",
+      "Governance",
+      "AI safety",
+      "Risk management"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: AI Safety in Practice",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: AI Safety, Ethics, Governance",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "5608498b23c043df4bb7ef92dc3763c3",
