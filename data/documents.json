@@ -23769,68 +23769,96 @@
     "id": "a16787535a0f0d68dfe7852c0394e770",
     "filename": "Probability_Stats_for_Data_Science_1634194227.pdf",
     "title": "Probability and Statistics for Data Science",
-    "authors": [
-      "Carlos Fernandez-Granda"
-    ],
+    "authors": [],
     "filepath": "documents/Probability_Stats_for_Data_Science_1634194227.pdf",
-    "upload_date": "2025-06-15T16:03:31.670606",
+    "upload_date": "2025-06-16T06:48:09.676274",
     "file_size": 5271166,
-    "summary": "This document provides an overview of fundamental concepts in probability and statistics from first principles, targeting students enrolled in the Probability and Statistics for Data Science course at NYU. The content covers topics such as probability spaces, conditional probability, independence, random variables, functions of random variables, and more.",
+    "summary": "These notes provide an overview of fundamental concepts in probability and statistics from rst principles, developed for a course at NYU's Center for Data Science. The content covers basic probability theory, random variables, and conditioning on events.",
     "keywords": [
       "Probability",
       "Statistics",
       "Data Science",
-      "NYU",
-      "Center for Data Science"
+      "Random Variables",
+      "Conditional Probability",
+      "Independence",
+      "error",
+      "consistency",
+      "confidence intervals",
+      "nonparametric model estimation"
     ],
     "key_concepts": [
-      "These notes were developed for the course Probability and Statistics for Data Science at NYU.",
-      "The goal is to provide an overview of fundamental concepts in probability and statistics from first principles.",
-      "While writing these notes, I was supported by the National Science Foundation under NSF award DMS-1616340.",
-      "The content covers topics such as probability spaces, conditional probability, independence, random variables, functions of random variables, and more."
+      "Probability spaces define a set of possible outcomes, a sample space, and a probability measure.",
+      "Conditional probability is the probability of an event occurring given that another event has occurred.",
+      "Independence between events means that the occurrence of one event does not affect the probability of the other event.",
+      "A chapter on error handling and consistency in statistical models",
+      "Con dence intervals are used to estimate population parameters",
+      "Nonparametric model estimation is a method for estimating models without assuming a specific distribution",
+      "Parametric model estimation assumes a specific distribution and estimates its parameters",
+      "Bayesian statistics uses Bayes' theorem to update probabilities based on new data",
+      "Hypothesis testing involves testing a null hypothesis against an alternative hypothesis",
+      "Linear regression is a statistical method for modeling the relationship between a dependent variable and one or more independent variables"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Overview of fundamental concepts in probability and statistics for Data Science.",
-    "target_audience": "Students enrolled in the Probability and Statistics for Data Science course at NYU",
+    "content_preview": "Document: Probability and Statistics for Data Science",
+    "target_audience": "Professionals in data science field",
     "industry": [
       "Education",
-      "Data Science"
+      null
     ],
     "business_functions": [
-      "Data Analysis",
-      "Statistical Modeling"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [],
     "processes": [
-      "Statistical Analysis"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "Probability Spaces",
-      "Conditional Probability",
-      "Independence",
-      "Random Variables"
+      "Probability",
+      "Statistics",
+      "Data Science"
     ],
     "methodologies": [
-      "Statistical Methods"
+      "probability spaces",
+      "conditional probability",
+      "independence",
+      "probabilistic modeling",
+      "Bernoulli random variables"
     ],
-    "tools_mentioned": [],
+    "tools_mentioned": [
+      "coin flips"
+    ],
     "prerequisites": [
-      "Basic Mathematics and Statistics Knowledge"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand fundamental concepts in probability and statistics for Data Science."
+      "Understand data science concepts"
     ],
     "use_cases": [
-      "Applying statistical methods to data analysis in various industries."
+      "Data Science Education"
     ],
     "benefits_mentioned": [
-      "Providing an overview of key concepts in probability and statistics, essential for Data Science."
+      "Improved understanding",
+      "Practical insights"
     ],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Probability and Statistics for Data Science",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Probability, Statistics, Data Science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.95
   },
   {
     "id": "02453f2ebbcc8963d926f94e5aec8d32",
