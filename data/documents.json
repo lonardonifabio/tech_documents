@@ -1659,73 +1659,106 @@
   {
     "id": "1a038965d1cb5bc0fb93a2a6af1bed26",
     "filename": "AI_Deep_Learning_e_Machine_Learning_�_1685989836.pdf",
-    "title": "Probability Theory for Machine Learning, Deep Learning, and Artificial Intelligence",
-    "authors": [
-      "STANFORD UNIVERSITY",
-      "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
-      "NIKHIL YADAV"
-    ],
+    "title": "Probability: The Science of Uncertainty and Data",
+    "authors": [],
     "filepath": "documents/AI_Deep_Learning_e_Machine_Learning_�_1685989836.pdf",
-    "upload_date": "2025-06-15T16:03:21.110541",
+    "upload_date": "2025-06-16T22:24:13.388216",
     "file_size": 7822644,
-    "summary": "This document provides definitions, axioms, corollaries, and examples related to probability theory, which is essential for understanding machine learning, deep learning, and artificial intelligence. It covers topics such as sample spaces, events, probability axioms, conditioning, and Bayes' rule.",
+    "summary": "This document provides an overview of probability, including its definition, axioms, and applications. It covers topics such as sample spaces, events, and conditional probability. The document also includes examples and corollaries to illustrate the concepts.",
     "keywords": [
+      "Machine Learning",
+      "Deep Learning",
+      "Artificial Intelligence",
       "Probability",
+      "Uncertainty",
+      "Data",
+      "Conditional expectation",
+      "Total probability theorem",
+      "Total expectation theorem",
+      "Independence"
+    ],
+    "key_concepts": [
+      "Sample space is the set of all possible outcomes.",
+      "Event is a subset of the sample space with assigned probability.",
+      "Nonnegativity: P(A)≥0 for all events A.",
+      "Normalization: P( )=1.",
+      "Countable additivity: P/parenleft.alt4/uni22C3 iAi/parenright.alt4=∑ iP(Ai).",
+      "Conditional probability: P(A/divides.alt0B)△=P(A∩B) / P(B)",
+      "Jointly continuous random variables X;Y",
+      "Conditional expected value E[X/divides.alt0Y=y]",
+      "Total probability theorem fX(x)=/integral.disp∞ −∞fY(y)fX/divides.alt0Y(x/divides.alt0y)dy",
+      "Independence of jointly continuous random variables X;Y"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Probability: The Science of Uncertainty and Data",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Education",
+      "Mathematics and Statistics",
+      "Machine Learning/AI"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Machine Learning",
+      "Deep Learning",
+      "Artificial Intelligence",
+      "probability theory",
+      "statistics"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
       "Machine Learning",
       "Deep Learning",
       "Artificial Intelligence"
     ],
-    "key_concepts": [
-      "A sample space is the set of all possible outcomes.",
-      "An event is a subset of the sample space.",
-      "Probability law assigns probabilities to events and satisfies the probability axioms.",
-      "Conditioning is the process of updating probabilities given that an event has occurred.",
-      "Bayes' rule is a formula for calculating conditional probabilities."
-    ],
-    "category": "AI",
-    "difficulty": "Intermediate",
-    "content_preview": "This document explains probability theory, essential for understanding machine learning and AI.",
-    "target_audience": "Machine Learning Engineers, Data Scientists, AI Researchers",
-    "industry": [
-      "Technology",
-      "AI",
-      "Data Science"
-    ],
-    "business_functions": [
-      "Research & Development",
-      "Data Analysis"
-    ],
-    "companies": [],
-    "technologies": [
-      "Probability Theory"
-    ],
-    "processes": [
-      "Probability Calculation"
-    ],
-    "technical_terms": [
-      "Sample Space",
-      "Event",
-      "Conditional Probability",
-      "Bayes' Rule"
-    ],
     "methodologies": [
-      "Probability Theory"
+      "Probability",
+      "Conditional Probability",
+      "Bayes' Rule",
+      "integration",
+      "expectation"
     ],
-    "tools_mentioned": [],
+    "tools_mentioned": [
+      "calculus",
+      "probability density functions"
+    ],
     "prerequisites": [
-      "Basic Understanding of Mathematics"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand probability theory and its applications in machine learning, deep learning, and AI."
+      "Understand machine learning concepts"
     ],
     "use_cases": [
-      "Applying probability theory to improve the accuracy of machine learning models.",
-      "Using Bayes' rule for decision-making in AI systems."
+      "Predictive Modeling",
+      "Data Analysis"
     ],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Probability: The Science of Uncertainty and Data",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Machine Learning, Deep Learning, Artificial Intelligence",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "2a0b5b78eff0a4559fc7faffb6b83179",
