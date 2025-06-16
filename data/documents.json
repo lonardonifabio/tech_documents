@@ -9655,70 +9655,100 @@
     "id": "199b47b1998bf19e3a998aea1fa99ddf",
     "filename": "Data_Science_From_Scratch_1651307497.pdf",
     "title": "Data Science from Scratch",
-    "authors": [
-      "Steven Cooper"
-    ],
+    "authors": [],
     "filepath": "documents/Data_Science_From_Scratch_1651307497.pdf",
-    "upload_date": "2025-06-15T16:03:24.889564",
+    "upload_date": "2025-06-16T22:24:17.123251",
     "file_size": 4165562,
-    "summary": "This comprehensive guide covers everything a Data Scientist needs to know, including Python, Linear Algebra, Statistics, Coding, Applications, Neural Networks, and Decision Trees. It serves as an essential resource for beginners and intermediates in the field of Data Science.",
+    "summary": "A comprehensive guide to data science, covering topics such as Python, linear algebra, statistics, coding, applications, neural networks, and decision trees. It also discusses the importance of data science, its process, responsibilities, qualifications, and key differences between data science and big data.",
     "keywords": [
-      "Data Science",
-      "Python",
-      "Linear Algebra",
-      "Statistics",
-      "Coding"
+      "data science",
+      "python",
+      "linear algebra",
+      "statistics",
+      "coding",
+      "neural networks",
+      "decision trees"
     ],
     "key_concepts": [
-      "This guide provides a comprehensive introduction to Data Science, covering essential topics such as Python programming, Linear Algebra, Statistics, and Machine Learning.",
-      "The book focuses on practical applications of these concepts, with a strong emphasis on hands-on coding exercises and real-world examples.",
-      "Key methodologies discussed include Neural Networks and Decision Trees, which are popular techniques in the field of Data Science.",
-      "The theoretical foundations of these methodologies are also explored, helping readers to understand their underlying principles.",
-      "Practical implications and use cases are emphasized throughout the guide, making it a valuable resource for those looking to apply Data Science concepts in their work."
+      "Data Science and its Importance",
+      "Key Difference Between Data Science and Big Data",
+      "Responsibilities of a Data Scientist",
+      "Exploratory Analysis with Pandas",
+      "Creating a Predictive Model",
+      "Machine Learning and Analytics",
+      "Testing Data Science Models and Accuracy Analysis"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A practical guide for Data Scientists covering Python, Linear Algebra, Statistics, Coding, Applications, Neural Networks, and Decision Trees.",
-    "target_audience": "Data Scientists, Machine Learning Engineers, and those interested in learning Data Science concepts.",
+    "content_preview": "Document: Data Science from Scratch",
+    "target_audience": "Professionals in data science field",
     "industry": [
-      "Technology",
-      "Research"
+      "Education"
     ],
     "business_functions": [
-      "Data Analysis",
-      "Machine Learning",
-      "Statistical Analysis"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
       "Python",
-      "Neural Networks",
-      "Decision Trees"
-    ],
-    "processes": [
-      "Data Preprocessing",
-      "Model Training",
-      "Model Evaluation"
-    ],
-    "technical_terms": [
       "Linear Algebra",
       "Statistics",
-      "Machine Learning"
+      "SQL",
+      "R"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "data science",
+      "python",
+      "linear algebra"
     ],
     "methodologies": [
-      "Neural Networks",
-      "Decision Trees"
+      "Data Cleaning and Munging",
+      "Data Manipulation",
+      "Data Rescaling",
+      "Exploratory Analysis with Pandas",
+      "Creating a Predictive Model"
     ],
     "tools_mentioned": [
-      "Python"
+      "Apache Hadoop",
+      "Apache Storm",
+      "Apache Samza",
+      "Apache Spark",
+      "Apache Flink"
     ],
-    "prerequisites": [],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Professional Development",
+      "Career Advancement"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Science from Scratch",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: data science, python, linear algebra",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "ed2cb1b8a2db77509076de5221c6cbce",
