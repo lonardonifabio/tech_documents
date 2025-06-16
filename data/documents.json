@@ -26270,71 +26270,105 @@
     "id": "4d2db2f7c33f6e52a18e5e21de2c252b",
     "filename": "R_for_Data_Science_1633507675.pdf",
     "title": "R Programming for Data Science",
-    "authors": [
-      "RogerD.Peng"
-    ],
+    "authors": [],
     "filepath": "documents/R_for_Data_Science_1633507675.pdf",
-    "upload_date": "2025-06-15T16:03:32.422611",
+    "upload_date": "2025-06-16T14:15:33.251160",
     "file_size": 10998464,
-    "summary": "This book provides a comprehensive guide to using R for data science, covering topics such as data manipulation, visualization, and statistical modeling. It is intended for readers with some programming experience who want to learn how to use R effectively in their data analysis work. The book includes practical examples and exercises to help readers apply the concepts they learn. Key topics include data import/export, data cleaning, exploratory data analysis, regression analysis, time series analysis, and more.",
+    "summary": "This book is about R programming and its application in data science. It covers the history and overview of R, its features, philosophy, and limitations. The book also provides resources for learning more about R.",
     "keywords": [
-      "R",
+      "R Programming",
       "Data Science",
-      "Programming",
-      "Statistics",
-      "Data Analysis"
+      "Leanpub",
+      "Roger D. Peng",
+      "R",
+      "subsetting",
+      "vectors",
+      "matrices",
+      "lists",
+      "dates"
     ],
     "key_concepts": [
-      "Learn how to use R for data manipulation, visualization, and statistical modeling",
-      "Understand the Lean Publishing process and its benefits",
-      "Gain practical experience through exercises and examples",
-      "Explore key topics such as data import/export, data cleaning, exploratory data analysis, regression analysis, time series analysis, and more"
+      "Exploratory Data Analysis with R",
+      "History and Overview of R",
+      "What is R?",
+      "S Philosophy",
+      "Basic Features of R",
+      "Free Software",
+      "Design of the R System",
+      "Limitations of R",
+      "Subsetting R objects allows for efficient data extraction.",
+      "Partial matching enables flexible subsetting of lists and vectors."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn R for data science with practical examples and exercises.",
-    "target_audience": "Programmers with some experience who want to learn how to use R effectively in data analysis.",
+    "content_preview": "Document: R Programming for Data Science",
+    "target_audience": "Professionals in data science field",
     "industry": [
-      "Data Science",
-      "Analytics",
-      "Business"
+      "Education",
+      "Data Science/AI",
+      "Software Development",
+      "Biostatistics"
     ],
     "business_functions": [
-      "Data Analysis",
-      "Statistical Modeling"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "R"
+      "R",
+      "S",
+      "XLisp-Stat"
     ],
     "processes": [
-      "Data Analysis Process"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "Data Manipulation",
-      "Data Visualization",
-      "Statistical Modeling"
+      "R Programming",
+      "Data Science",
+      "Leanpub"
     ],
     "methodologies": [
-      "Lean Publishing"
+      "new statistical methods"
     ],
     "tools_mentioned": [
-      "R"
+      "S-PLUS",
+      "SAS",
+      "Stata",
+      "SPSS"
     ],
     "prerequisites": [
-      "Some programming experience"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Learn how to use R for data analysis",
-      "Gain practical experience with R through exercises and examples"
+      "Understand data science concepts"
     ],
     "use_cases": [
-      "Data manipulation, visualization, statistical modeling"
+      "Data Science Education",
+      "Professional Development",
+      "data analysis",
+      "machine learning",
+      "Optimization"
     ],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: R Programming for Data Science",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: R Programming, Data Science, Leanpub",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "630402a4919cb6bc79922113ed56916d",
