@@ -61,7 +61,7 @@ class DocumentChunker:
         self.chunk_size = chunk_size
         self.overlap_size = overlap_size
     
-    def chunk_document(self, text: str, max_pages: int = 5) -> List[DocumentChunk]:
+    def chunk_document(self, text: str, max_pages: int = 10) -> List[DocumentChunk]:
         """Create overlapping chunks from document text."""
         chunks = []
         words = text.split()
