@@ -1929,81 +1929,94 @@
   {
     "id": "d335c5dd433e4d7a893604bb167059a4",
     "filename": "AI_Governance_Map_1740426701.pdf",
-    "title": "AI Governance Map",
+    "title": "Master Control Set for AI",
     "authors": [],
     "filepath": "documents/AI_Governance_Map_1740426701.pdf",
-    "upload_date": "2025-06-15T16:03:21.180541",
+    "upload_date": "2025-06-16T14:15:22.119996",
     "file_size": 3140896,
-    "summary": "This document presents a practical, real-world framework for AI governance, mapping six key control sources into one comprehensive structure. It covers executive commitment and accountability, risk management, regulatory compliance, data quality and governance, security, human oversight, privacy, and internal assessment. The framework is designed to help organizations navigate the complexities of AI governance.",
+    "summary": "This document outlines a comprehensive framework for Master Controls, mapping the most important AI control sources into one real-world, practical framework. It covers various aspects of AI governance, including executive commitment and accountability, risk management, regulatory compliance, data quality, security, human oversight, privacy, and internal assessment and audit.",
     "keywords": [
-      "AI Governance",
-      "Framework",
-      "Risk Management",
-      "Regulatory Compliance",
-      "Data Quality"
-    ],
-    "key_concepts": [
-      "The document presents a practical, real-world framework for AI governance.",
-      "It maps six key control sources into one comprehensive structure.",
-      "The framework covers executive commitment and accountability, risk management, regulatory compliance, data quality and governance, security, human oversight, privacy, and internal assessment.",
-      "The document is designed to help organizations navigate the complexities of AI governance."
-    ],
-    "category": "AI",
-    "difficulty": "Intermediate",
-    "content_preview": "Practical framework for AI governance.",
-    "target_audience": "Organizations looking to implement effective AI governance.",
-    "industry": [
-      "Technology",
-      "AI"
-    ],
-    "business_functions": [
-      "Governance",
-      "Risk Management",
-      "Compliance",
-      "Data Management",
-      "Security"
-    ],
-    "companies": [],
-    "technologies": [
       "AI",
-      "RMF",
+      "SOC2",
       "ISO27701",
       "NIST",
+      "RMF",
       "ISO42001",
       "ISO27001",
       "EU AI Act"
     ],
-    "processes": [
-      "Executive Commitment and Accountability",
-      "Risk Management Framework",
-      "Regulatory Compliance",
+    "key_concepts": [
+      "Master Control Set for AI Governance",
+      "Mapping the 6 most important AI control sources into one framework",
+      "Risk Management Framework and Governance",
+      "Regulatory Compliance Framework",
       "Data Quality and Governance",
-      "Security Governance",
-      "Human Oversight",
-      "Privacy"
+      "Security Governance, Architecture and Engineering",
+      "Human Oversight and Intervention",
+      "Privacy by Design and Governance"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Master Control Set for AI",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "AI Governance"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "ISO27701",
+      "NIST RMF"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "GL",
-      "RM",
-      "RO",
-      "LC",
-      "SE",
-      "RS",
-      "PR",
-      "AA",
-      "OM"
+      "AI",
+      "SOC2",
+      "ISO27701"
     ],
     "methodologies": [
-      "Framework Development"
+      "SOC2",
+      "ISO42001",
+      "ISO27001"
     ],
     "tools_mentioned": [],
-    "prerequisites": [],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Master Controls Mapping",
+      "Risk Management Framework and Governance",
+      "Regulatory Compliance Framework"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Master Control Set for AI",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: AI, SOC2, ISO27701",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a798f36089c0dd52214a5ca40099d638",
