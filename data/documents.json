@@ -830,71 +830,80 @@
     "title": "7 Steps Machine Learning Problem Formulation",
     "authors": [],
     "filepath": "documents/7_Steps_Machine_Learning_Problem_Formulation_1567264103.pdf",
-    "upload_date": "2025-06-15T14:50:15.140310",
+    "upload_date": "2025-06-16T13:14:22.651085",
     "file_size": 157824,
-    "summary": "This document outlines a seven-step process for formulating machine learning problems, focusing on business problem statement, define unit analysis, define variable, define label, action, success criteria, threshold component, and business case component. The methodology emphasizes the importance of clear problem definition and understanding the data before diving into machine learning models.",
+    "summary": "The document outlines a 7-step process for formulating machine learning problems. It starts with stating a business problem and defining unit analysis, variable, label, action, success criteria, and threshold component. The goal is to improve client business value through predictive results.",
     "keywords": [
       "Machine Learning",
       "Problem Formulation",
-      "Data Analysis",
-      "Business Case"
+      "Unit Analysis",
+      "Variable Definition",
+      "Label Definition",
+      "Action",
+      "Success Criteria",
+      "Threshold Component"
     ],
     "key_concepts": [
-      "The seven-step process provides a structured approach to formulating machine learning problems.",
-      "Understanding the business problem is crucial before defining variables and labels for the model.",
-      "Success criteria help measure the effectiveness of the machine learning model.",
-      "Threshold component sets limits for acceptable performance of the model.",
-      "Business case component ensures that the machine learning problem aligns with the overall business objectives."
+      "State a predictive problem to improve client business value.",
+      "Know the impact of predictive result.",
+      "Define Unit Analysis for Business Case Component #2",
+      "How might we (goals) so that (impact/outcome)?"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Learn a structured approach to formulating machine learning problems.",
-    "target_audience": "Data scientists, machine learning engineers, and business analysts who want to improve their problem-formulation skills for machine learning projects.",
+    "content_preview": "Document: 7 Steps Machine Learning Problem Formulation",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Finance",
-      "Healthcare",
-      "Retail"
+      "relevant industry"
     ],
     "business_functions": [
-      "Data Analysis",
-      "Machine Learning Modeling",
-      "Business Strategy"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
-    "technologies": [
-      "Python",
-      "R",
-      "SQL"
-    ],
+    "technologies": [],
     "processes": [
-      "Problem Formulation",
-      "Data Preprocessing",
-      "Model Training"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "Variable",
-      "Label",
-      "Threshold Component"
+      "Machine Learning",
+      "Problem Formulation",
+      "Unit Analysis"
     ],
     "methodologies": [
-      "Design Thinking",
-      "CRISP-DM (Cross-Industry Standard Process for Data Mining)"
+      "Machine Learning"
     ],
     "tools_mentioned": [],
     "prerequisites": [
-      "Basic understanding of machine learning concepts",
-      "Experience with data analysis"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand the importance of problem formulation in machine learning",
-      "Learn a structured approach to formulating machine learning problems",
-      "Identify key components of a well-defined machine learning problem"
+      "Understand machine learning concepts"
     ],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "use_cases": [
+      "targeted promotions",
+      "offers to potential customers"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: 7 Steps Machine Learning Problem Formulation",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Machine Learning, Problem Formulation, Unit Analysis",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "05e6d66ff7508555123136d0849c658b",
