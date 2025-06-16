@@ -124,36 +124,47 @@
   {
     "id": "6bbdf560f7d380e2548a155c83b0b798",
     "filename": "10_Minutes_to_Pandas_1642524382.pdf",
-    "title": "10 Minutes to Pandas - pandas 0.17.1 Documentation",
+    "title": "10 Minutes to pandas",
     "authors": [],
     "filepath": "documents/10_Minutes_to_Pandas_1642524382.pdf",
-    "upload_date": "2025-06-15T16:03:20.218535",
+    "upload_date": "2025-06-16T06:47:58.292155",
     "file_size": 561924,
-    "summary": "This document provides a short introduction to the pandas library, focusing on new users. It covers object creation, including Series and DataFrame, using various methods such as passing lists, numpy arrays, datetime indexes, and dictionaries of objects. The document also touches upon having specific data types.",
+    "summary": "This is a short introduction to pandas, geared mainly for new users. It covers creating Series and DataFrames, including passing lists of values, numpy arrays, and dictionaries with specific dtypes.",
     "keywords": [
       "pandas",
-      "DataFrame",
-      "Series",
       "numpy",
-      "matplotlib"
+      "matplotlib",
+      "dataframe",
+      "series",
+      "binary ops stats",
+      "descriptive statistic",
+      "broadcasting",
+      "apply",
+      "histogramming"
     ],
     "key_concepts": [
-      "This document introduces the pandas library, a powerful tool for data manipulation in Python.",
-      "The document demonstrates how to create Series and DataFrames using various methods such as passing lists, numpy arrays, datetime indexes, and dictionaries of objects.",
-      "The concept of having specific data types is briefly touched upon in the document.",
-      "The document serves as a starting point for new users, with more complex recipes found in the Cookbook."
+      "Object Creation",
+      "Data Structure Intro",
+      "Creating a Series by passing a list of values",
+      "Creating a DataFrame by passing a numpy array",
+      "Customarily importing pandas, numpy and matplotlib",
+      "Performing descriptive statistics on dataframes",
+      "Broadcasting operations across different dimensions",
+      "Applying functions to data using the apply method",
+      "Handling missing values in data analysis",
+      "Creating histograms and discretizing data"
     ],
     "category": "Data Science",
-    "difficulty": "Beginner",
-    "content_preview": "Learn to create Series and DataFrames using pandas in 10 minutes.",
-    "target_audience": "New users of the pandas library",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: 10 Minutes to pandas",
+    "target_audience": "Professionals in data science field",
     "industry": [
-      "Finance",
-      "Data Analysis"
+      "Data Science",
+      "Data Science/Analytics"
     ],
     "business_functions": [
-      "Data Manipulation",
-      "Data Analysis"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
@@ -162,36 +173,55 @@
       "matplotlib"
     ],
     "processes": [
-      "Data Cleaning",
-      "Data Transformation"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "Series",
-      "DataFrame",
-      "datetime index",
-      "dict of objects"
-    ],
-    "methodologies": [
-      "Data Manipulation using pandas"
-    ],
-    "tools_mentioned": [
       "pandas",
       "numpy",
-      "matplotlib.pyplot"
+      "matplotlib"
+    ],
+    "methodologies": [
+      "object creation",
+      "data structure intro",
+      "data alignment",
+      "broadcasting"
+    ],
+    "tools_mentioned": [
+      "IPython",
+      "pandas",
+      "numpy"
     ],
     "prerequisites": [
-      "Basic Python knowledge"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Learn how to create Series and DataFrames in pandas"
+      "Understand data science concepts"
     ],
     "use_cases": [
-      "Data Analysis, Data Cleaning, and Data Transformation"
+      "data analysis",
+      "machine learning",
+      "statistical modeling"
     ],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: 10 Minutes to pandas",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: pandas, numpy, matplotlib",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "722f105592780fe905a4b316dcbd2b41",
