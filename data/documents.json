@@ -4691,63 +4691,83 @@
   {
     "id": "9b7680e2c62c3fd4a9403bc70a8fa023",
     "filename": "Agentic_AI_Threats_1743591360.pdf",
-    "title": "OWASP Top 10 for LLMs - GenAI Red Teaming Guide: Agentic AI - Threats and Mitigations",
+    "title": "OWASP Top 10 for LLM Apps & Gen AI Agentic Security Initiative",
     "authors": [],
     "filepath": "documents/Agentic_AI_Threats_1743591360.pdf",
-    "upload_date": "2025-06-15T14:50:16.770314",
+    "upload_date": "2025-06-16T13:14:24.266088",
     "file_size": 2206672,
-    "summary": "This document, released in February 2025, presents the OWASP Top 10 threats to Language Learning Models (LLMs) and Generative AI (GenAI). It introduces the concept of Agentic AI, detailing its reference architecture. The guide aims to help organizations secure their AI systems by identifying potential risks and providing mitigation strategies.",
+    "summary": "This document provides general informational purposes only and does not constitute legal advice. It contains links to third-party websites and is licensed under Creative Commons, CC BY-SA 4.0.",
     "keywords": [
       "OWASP",
-      "Top 10",
-      "LLMs",
-      "Generative AI",
-      "Agentic AI"
+      "LLM Apps",
+      "Gen AI",
+      "Agentic Security",
+      "Threats",
+      "Mitigations"
     ],
     "key_concepts": [
-      "The document outlines the OWASP Top 10 threats specific to Language Learning Models (LLMs) and Generative AI (GenAI).",
-      "It introduces the concept of Agentic AI, a type of AI that can act autonomously and make decisions based on its environment.",
-      "The guide provides a reference architecture for Agentic AI, detailing its components and interactions.",
-      "The document aims to help organizations secure their AI systems by identifying potential risks and providing mitigation strategies.",
-      "The guide is part of the OWASP Agentic Security Initiative."
+      "Agentic AI refers to artificial intelligence that can take actions on behalf of a user.",
+      "The OWASP Top 10 for LLM Apps & Gen AI Agentic Security Initiative aims to identify and mitigate threats related to agentic AI.",
+      "Creative Commons license CC BY-SA 4.0 applies to this document, allowing free sharing and adaptation with attribution."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document presents the OWASP Top 10 threats to LLMs and GenAI, introduces Agentic AI, and provides a reference architecture.",
-    "target_audience": "Cybersecurity professionals, AI developers, and organizations implementing AI systems.",
+    "content_preview": "Document: OWASP Top 10 for LLM Apps & Gen AI Agentic Security Initiative",
+    "target_audience": "Professionals in ai field",
     "industry": [
-      "Technology",
       "Cybersecurity"
     ],
     "business_functions": [
-      "AI Development",
-      "Cybersecurity"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "Language Learning Models (LLMs)",
-      "Generative AI (GenAI)"
+      "LLM Apps",
+      "Gen AI"
     ],
     "processes": [
-      "AI Security",
-      "Red Teaming"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "OWASP Top 10",
-      "Agentic AI",
-      "Reference Architecture"
+      "OWASP",
+      "LLM Apps",
+      "Gen AI"
     ],
     "methodologies": [
       "Red Teaming"
     ],
     "tools_mentioned": [],
-    "prerequisites": [],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "LLM Apps Security",
+      "Gen AI Agentic Security"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: OWASP Top 10 for LLM Apps & Gen AI Agentic Security Initiative",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: OWASP, LLM Apps, Gen AI",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "4bdbe8df913a44d68be7ec24569a74e4",
