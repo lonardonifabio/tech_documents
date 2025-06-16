@@ -11048,66 +11048,105 @@
     "id": "aea97acf7b3e960ad623a3001b8e5ce4",
     "filename": "Draft_Critical_AI_Security_Guidelines_v1_1_1743591220.pdf",
     "title": "Draft: Critical AI Security Guidelines, v1.1",
-    "authors": [
-      "Ahmed Abugharbia",
-      "Sarthak Agrawal",
-      "Brett Arion",
-      "Matt Bromiley",
-      "Ron F. Del Rosario",
-      "Mick Douglas",
-      "David Hoelzer",
-      "Ken Huang",
-      "Bhavin P. Kapadia",
-      "Rob Lee",
-      "Seth Misenar",
-      "Helen Oakley",
-      "Jorge Orchilles",
-      "Jason Ross",
-      "Rakshith Shetty",
-      "Jim Simpson",
-      "Jochen Staengler",
-      "Rob Van Der Veer",
-      "Jason Vest",
-      "Eoin Wickens",
-      "Sounil Yu"
-    ],
+    "authors": [],
     "filepath": "documents/Draft_Critical_AI_Security_Guidelines_v1_1_1743591220.pdf",
-    "upload_date": "2025-06-15T16:03:25.855570",
+    "upload_date": "2025-06-16T14:15:26.745064",
     "file_size": 1140238,
-    "summary": "This document provides comprehensive guidelines on ensuring security-focused controls for AI implementations across various categories such as Access Controls, Data Protection, Deployment Strategies, Inference Security, Monitoring, Governance, Risk, Compliance (GRC), and more. It is a collaborative effort by multiple SANS experts and industry professionals.",
+    "summary": "As artificial intelligence (AI) continues to revolutionize enterprises and security practices, ensuring security-focused controls for AI implementations is paramount. In this paper, multiple SANS experts and industry professionals delve into the critical categories of Generative AI, encompassing: Access Controls Data Protection Deployment Strategies Inference Security Monitoring Governance, Risk, Compliance (GRC). Our initial goal was to identify and establish technical security considerations for implementing and utilizing AI within an environment. However, as this space grows, our recommendations have evolved to address emerging challenges.",
     "keywords": [
       "AI",
       "Security",
       "Guidelines",
+      "Generative AI",
       "Access Controls",
-      "Data Protection"
+      "Data Protection",
+      "Deployment Strategies",
+      "Inference Security",
+      "Monitoring",
+      "Governance"
     ],
     "key_concepts": [
-      "The document focuses on the critical categories of Generative AI and its security implications for enterprises and security practices.",
-      "It discusses technical security considerations for implementing and utilizing AI within an environment, including Access Controls, Data Protection, Deployment Strategies, Inference Security, Monitoring, and Governance, Risk, Compliance (GRC).",
-      "The document aims to identify and establish best practices for securing AI implementations across these categories.",
-      "It highlights the importance of security-focused controls as AI continues to revolutionize enterprises and security practices.",
-      "The document is a collaborative effort by multiple SANS experts and industry professionals."
+      "Ensuring security-focused controls for AI implementations is paramount.",
+      "Critical categories of Generative AI include Access Controls, Data Protection, Deployment Strategies, Inference Security, and Monitoring.",
+      "GRC (Governance, Risk, Compliance) is a critical aspect of AI security.",
+      "Models can be vulnerable to malicious code introduced through packaging.",
+      "Bad actors can create models with architectural backdoors that are difficult to remove.",
+      "Fine-tuning may not be enough to remove backdoors from models.",
+      "Pickle file attacks can exploit ML models and introduce malicious behavior.",
+      "Sleeper agents are deceptive LLMs that persist through safety training."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Guidelines for securing AI implementations across various categories.",
-    "target_audience": "",
-    "industry": [],
-    "business_functions": [],
+    "content_preview": "Document: Draft: Critical AI Security Guidelines, v1.1",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Cybersecurity",
+      "AI and Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
     "companies": [],
-    "technologies": [],
-    "processes": [],
-    "technical_terms": [],
-    "methodologies": [],
-    "tools_mentioned": [],
-    "prerequisites": [],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "technologies": [
+      "AI",
+      "Generative AI",
+      "HuggingFace",
+      "Pickle file attacks"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "Security",
+      "Guidelines"
+    ],
+    "methodologies": [
+      "Access Controls",
+      "Data Protection",
+      "Deployment Strategies",
+      "Inference Security",
+      "Monitoring"
+    ],
+    "tools_mentioned": [
+      "Datasets",
+      "Models",
+      "Various tools"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Generative AI",
+      "Access Controls",
+      "Data Protection",
+      "Deployment Strategies",
+      "Inference Security"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Draft: Critical AI Security Guidelines, v1.1",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: AI, Security, Guidelines",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "489d868e93c657cb03dd4b173826ac9c",
