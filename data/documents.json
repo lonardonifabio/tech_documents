@@ -12488,72 +12488,110 @@
   {
     "id": "3dea1781ba2e34cf8257a9e4bec41a21",
     "filename": "From_Policy_to_Practice_GenAI_Governance_1748948783.pdf",
-    "title": "From Policy to Practice: GenAI Governance",
-    "authors": [
-      "Himanshu Joshi",
-      "Shabnam Hassani",
-      "Dhari Gandhi",
-      "Lucas Hartman"
-    ],
+    "title": "Approaches to Responsible Governance of GenAI in Organizations",
+    "authors": [],
     "filepath": "documents/From_Policy_to_Practice_GenAI_Governance_1748948783.pdf",
-    "upload_date": "2025-06-15T16:03:26.392573",
+    "upload_date": "2025-06-16T14:15:27.266072",
     "file_size": 863864,
-    "summary": "This document discusses approaches to responsible governance of Generative AI (GenAI) in organizations, drawing on a literature review, established governance frameworks, and insights from industry experts. It provides actionable recommendations for organizations to adopt a balanced, risk-based governance approach that allows for both innovation and oversight.",
+    "summary": "The rapid evolution and integration of Generative AI (GenAI) across industries have introduced unprecedented opportunities for innovation while also presenting complex challenges around ethics, accountability, and societal impact. This white paper draws on a combination of literature review, established governance frameworks, and insights from industry roundtable discussions with industry experts varying in professional backgrounds and organizations.",
     "keywords": [
-      "Generative AI",
-      "Governance",
-      "Responsible AI",
-      "Organizations"
+      "Responsible Governance",
+      "GenAI",
+      "Artificial Intelligence",
+      "Ethics",
+      "Accountability",
+      "Societal Impact",
+      "AI governance",
+      "vendor-related risks",
+      "third-party models",
+      "data practices"
     ],
     "key_concepts": [
-      "Explains the challenges and opportunities of integrating Generative AI in various industries",
-      "Describes a balanced, risk-based governance approach for GenAI",
-      "Presents practical insights from industry experts on real-world experiences and challenges",
-      "Analyzes existing governance models and real-world use cases of GenAI",
-      "Provides actionable recommendations for organizations to implement responsible GenAI governance"
+      "Integrating responsible GenAI governance into organizational structures",
+      "Balanced, risk-based governance approach for innovation and oversight",
+      "Core principles for GenAI governance in diverse organizations",
+      "Comprehensive evaluation and management of vendor-related risks",
+      "Clear accountability for governance activities is crucial for organizations new to AI governance",
+      "Adaptable governance strategies are needed to address the unique risks and challenges of GenAI",
+      "Risk classification and tiered mitigation strategies are essential for AI governance",
+      "A successful responsible AI governance framework must be embedded at all levels of an organization.",
+      "Clearly defined roles at each level ensures accountability, reduces risks, and aligns GenAI practices with organizational goals.",
+      "Effective governance frameworks should address GenAI concerns from a strategic level down to tactical implementation."
     ],
-    "category": "AI",
+    "category": "Research",
     "difficulty": "Intermediate",
-    "content_preview": "Discusses responsible governance of Generative AI in organizations.",
-    "target_audience": "AI professionals, industry experts, and organizational leaders interested in implementing responsible GenAI governance",
+    "content_preview": "Document: Approaches to Responsible Governance of GenAI in Organizations",
+    "target_audience": "Professionals in research field",
     "industry": [
+      "Artificial Intelligence",
+      "financial services",
+      "healthcare",
       "Technology",
-      "AI",
-      "Data Science"
+      "AI/GenAI development"
     ],
     "business_functions": [
-      "Governance",
-      "AI Strategy",
-      "Innovation Management"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "Generative AI"
+      "Generative AI (GenAI)",
+      "AI",
+      "GenAI"
     ],
     "processes": [
-      "Governance processes",
-      "AI implementation processes"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "Generative AI",
-      "Responsible AI",
-      "Governance Frameworks"
+      "Responsible Governance",
+      "GenAI",
+      "Artificial Intelligence"
     ],
     "methodologies": [
-      "Literature review",
-      "Industry roundtable discussions"
+      "literature review",
+      "established governance frameworks",
+      "industry roundtable discussions",
+      "Risk-Based Approaches",
+      "NIST AI Risk Management Framework (RMF)"
     ],
-    "tools_mentioned": [],
+    "tools_mentioned": [
+      "Github page: https://vectorinstitute.github.io/responsible-gen-ai/",
+      "risk classification",
+      "tiered mitigation strategies"
+    ],
     "prerequisites": [
-      "Understanding of Generative AI and its implications",
-      "Knowledge of governance principles"
+      "Basic understanding of the subject matter"
     ],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "learning_objectives": [
+      "Understand research concepts"
+    ],
+    "use_cases": [
+      "innovation",
+      "ethics",
+      "accountability",
+      "societal impact",
+      "GenAI governance"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Approaches to Responsible Governance of GenAI in Organizations",
+      "Q: What category? A: Research",
+      "Q: Key concepts? A: Responsible Governance, GenAI, Artificial Intelligence",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "c9a76068d655fffd10e4ee3cde455852",
