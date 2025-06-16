@@ -3557,36 +3557,36 @@
   {
     "id": "ee9f2f6c7d0045e03512222fb42d3e82",
     "filename": "AI_project_1604680572.pdf",
-    "title": "Overcoming Limitations in AI Project Development",
+    "title": "BUILD A PERFECT AI-BASED PROJECT",
     "authors": [],
     "filepath": "documents/AI_project_1604680572.pdf",
-    "upload_date": "2025-06-15T14:50:16.383313",
+    "upload_date": "2025-06-16T05:47:52.578381",
     "file_size": 2495096,
-    "summary": "This document discusses the challenges and limitations of AI technology, focusing on bias as a significant issue. It provides insights into how AI systems can learn from biased training data, outlines strategies to mitigate this problem, and offers practical advice for building unbiased AI applications.",
+    "summary": "The document discusses the limitations of AI technology and how to overcome them. It highlights bias, cost, and time as major challenges.",
     "keywords": [
       "AI",
       "Machine Learning",
       "Bias",
-      "Algorithms"
+      "Cost",
+      "Time"
     ],
     "key_concepts": [
-      "The limitations of current AI technology require overcoming certain challenges to build perfect AI applications.",
-      "Bias can infiltrate algorithms through various stages, including problem framing, data collection, and preparation.",
-      "Strategies for mitigating bias in AI systems include careful data selection, diverse training datasets, and regular auditing of models.",
-      "Understanding the historical and social contexts that may contribute to biased decisions is crucial in developing unbiased AI applications.",
-      "Best practices for building unbiased AI applications emphasize transparency, accountability, and ongoing monitoring."
+      "Limitations of AI technology",
+      "Overcoming bias in algorithms",
+      "High cost of training data",
+      "Hardware limitations and computation resources",
+      "Importance of proper data collection for prediction models"
     ],
-    "category": "AI",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Learn strategies to overcome limitations in AI project development.",
-    "target_audience": "Data scientists, machine learning engineers, AI developers, and researchers interested in building unbiased AI applications.",
+    "content_preview": "Document: BUILD A PERFECT AI-BASED PROJECT",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Technology",
-      "AI"
+      "Artificial Intelligence"
     ],
     "business_functions": [
-      "Research & Development",
-      "Data Science"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
@@ -3594,33 +3594,51 @@
       "Machine Learning"
     ],
     "processes": [
-      "AI project development",
-      "Algorithm design",
-      "Data preprocessing"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "Bias",
-      "Algorithms",
-      "Training data",
-      "Historical inequities"
+      "AI",
+      "Machine Learning",
+      "Bias"
     ],
     "methodologies": [
-      "AI bias mitigation strategies"
+      "Data Collection",
+      "Data Preparation",
+      "Framing the Problem"
     ],
-    "tools_mentioned": [],
+    "tools_mentioned": [
+      "GPT-3"
+    ],
     "prerequisites": [
-      "Basic understanding of AI and machine learning concepts"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand the limitations of current AI technology",
-      "Identify sources of bias in AI systems",
-      "Learn strategies for mitigating bias in AI applications"
+      "Understand machine learning concepts"
     ],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "use_cases": [
+      "overcoming AI limitations",
+      "building perfect AI applications"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: BUILD A PERFECT AI-BASED PROJECT",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: AI, Machine Learning, Bias",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "682444cb1656f22ef56c145e43ef47e8",
