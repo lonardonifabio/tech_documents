@@ -14183,69 +14183,113 @@
     "id": "5c0b27729b47c2533f5325d3adebcd86",
     "filename": "How_to_avoid_machine_learning_pitfalls_1630357004.pdf",
     "title": "How to avoid machine learning pitfalls: a guide for academic researchers",
-    "authors": [
-      "Michael A. Lones"
-    ],
+    "authors": [],
     "filepath": "documents/How_to_avoid_machine_learning_pitfalls_1630357004.pdf",
-    "upload_date": "2025-06-15T14:50:21.453324",
+    "upload_date": "2025-06-16T05:47:57.632375",
     "file_size": 244082,
-    "summary": "This document provides a concise outline of common mistakes when using machine learning techniques, focusing on rigorous comparisons and valid conclusions within academic research. It covers five stages of the ML process: pre-model building, model building, evaluation, comparison, and reporting.",
+    "summary": "A concise outline of common mistakes in machine learning techniques and how to avoid them, intended as a guide for research students.",
     "keywords": [
-      "Machine Learning",
-      "Academic Research",
-      "Pitfalls",
-      "Comparisons",
-      "Conclusions"
+      "machine learning",
+      "academic research",
+      "research students",
+      "class imbalance",
+      "limited data",
+      "deep neural networks",
+      "domain experts",
+      "feature set",
+      "ML model",
+      "weather conditions"
     ],
     "key_concepts": [
-      "Explains common mistakes in using machine learning within academic research",
-      "Focuses on rigorous comparisons and valid conclusions",
-      "Covers five stages of the machine learning process: pre-model building, model building, evaluation, comparison, and reporting",
-      "Primarily aimed at students and other researchers new to ML",
-      "Assumes a basic knowledge of ML techniques"
+      "Common mistakes when using machine learning techniques",
+      "Rigorous comparisons and valid conclusions in academic research",
+      "Stages of the machine learning process: model building, evaluation, comparison, and reporting results",
+      "Class imbalance occurs when some classes have significantly fewer samples than others, making it difficult to train accurate models.",
+      "When dealing with limited data, it's essential to limit the complexity of ML models to avoid overfitting.",
+      "Domain experts can provide valuable insights and guidance throughout a project, from problem selection to publication.",
+      "The presence of the same weather conditions can make the test set non-independent and non-representative.",
+      "Using a single piece of equipment to collect both training and test data can lead to overlearning and poor generalisation.",
+      "A validation set should be used instead of the test set for model evaluation and early stopping.",
+      "Combining strengths of multiple models to compensate for weaknesses"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Guide for avoiding machine learning pitfalls in academic research.",
-    "target_audience": "Students and researchers new to machine learning within an academic context",
+    "content_preview": "Document: How to avoid machine learning pitfalls: a guide for academic researchers",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Academia"
-    ],
-    "business_functions": [],
-    "companies": [],
-    "technologies": [
+      "Academic Research",
+      "classification problems",
+      "Data Science/AI",
+      null,
       "Machine Learning"
     ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machine learning",
+      "deep neural networks",
+      "Machine Learning",
+      "Decision Trees",
+      "SVM"
+    ],
     "processes": [
-      "Machine Learning Process"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "Machine Learning Techniques"
+      "machine learning",
+      "academic research",
+      "research students"
     ],
     "methodologies": [
-      "Machine Learning Methodologies"
+      "rigorous comparisons",
+      "valid conclusions",
+      "class imbalance handling",
+      "accuracy metrics for imbalanced data sets",
+      "early stopping"
     ],
-    "tools_mentioned": [],
+    "tools_mentioned": [
+      "arXiv",
+      "Nature Machine Intelligence",
+      "Data mining and knowledge discovery",
+      "Advances in neural information processing systems",
+      "Journal of Big Data"
+    ],
     "prerequisites": [
-      "Basic knowledge of Machine Learning Techniques"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understanding common mistakes in ML within academic research and how to avoid them",
-      "Learning the five stages of the ML process"
+      "Understand machine learning concepts"
     ],
     "use_cases": [
-      "Academic research using machine learning"
+      "Machine Learning",
+      "Research",
+      "class imbalance",
+      "limited data",
+      "Model evaluation"
     ],
     "benefits_mentioned": [
-      "Avoiding common pitfalls in ML research"
+      "Improved understanding",
+      "Practical insights"
     ],
     "challenges_addressed": [
-      "Common challenges in academic ML research"
+      "Knowledge gaps",
+      "Implementation challenges"
     ],
     "best_practices": [
-      "Rigorous comparisons and valid conclusions in ML research"
+      "Follow systematic approaches"
     ],
-    "questions_and_answers": []
+    "questions_and_answers": [
+      "Q: What is the main focus? A: How to avoid machine learning pitfalls: a guide for academic researchers",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: machine learning, academic research, research students",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "12e363eea0f0d8c12151555f64b7f10a",
