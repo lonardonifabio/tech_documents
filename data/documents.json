@@ -908,72 +908,84 @@
   {
     "id": "05e6d66ff7508555123136d0849c658b",
     "filename": "9_1_1738485397.pdf",
-    "title": "EU AI Act Expert Series: Reporting Serious Incidents",
-    "authors": [
-      "Dr. Benedikt Kohn"
-    ],
+    "title": "EU AI Act Expert Series - Reporting Serious Incidents",
+    "authors": [],
     "filepath": "documents/9_1_1738485397.pdf",
-    "upload_date": "2025-06-15T16:03:20.780539",
+    "upload_date": "2025-06-16T13:14:22.653085",
     "file_size": 457065,
-    "summary": "This document discusses the reporting obligations for serious incidents involving AI systems under the EU AI Act. It covers what constitutes a 'Serious Incident', the confidentiality rules, follow-up reporting procedures, and the definition of a serious incident according to Article 73 of the EU AI Act. The target audience is professionals in AI regulation, IT & Data, and related fields.",
+    "summary": "The EU AI Act requires providers to report serious incidents involving AI systems, including those that cause harm to individuals or infrastructure due to malfunction, error, or misuse. Providers must submit an initial report promptly and follow up with a complete report, which includes comprehensive details of the incident. Confidentiality rules apply to sensitive data related to incidents and AI systems collected during the investigation process.",
     "keywords": [
       "EU AI Act",
-      "AI systems",
-      "Serious Incident",
-      "Reporting obligations",
-      "Confidentiality rules"
+      "Serious Incident Reporting",
+      "Incident Reporting",
+      "Confidentiality Rules",
+      "Sensitive Data",
+      "AI Systems",
+      "Malfunction",
+      "Error",
+      "Misuse"
     ],
     "key_concepts": [
-      "Incident Reporting process for AI systems under the EU AI Act",
-      "Definition of a 'Serious Incident' involving AI systems",
-      "Confidentiality rules regarding sensitive data in incident investigations",
-      "Follow-up reporting procedures after initial notification",
-      "Article 73 of the EU AI Act and its implications for serious incidents"
+      "A serious incident is defined as an incident involving AI systems that cause harm to individuals or infrastructure due to malfunction, error, or misuse.",
+      "Providers are required to promptly submit an initial report upon identifying a serious incident involving an AI system under the EU AI Act.",
+      "Sensitive data related to incidents and AI systems collected during the investigation process must remain protected."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about reporting obligations for serious incidents involving AI systems under the EU AI Act.",
-    "target_audience": "Professionals in AI regulation, IT & Data, and related fields",
+    "content_preview": "Document: EU AI Act Expert Series - Reporting Serious Incidents",
+    "target_audience": "Professionals in ai field",
     "industry": [
-      "AI",
-      "Regulation",
-      "IT & Data"
+      "AI Regulation"
     ],
     "business_functions": [
-      "Compliance",
-      "Regulatory Affairs",
-      "AI Governance"
+      "Research and Development",
+      "Strategy"
     ],
-    "companies": [
-      "Taylor Wessing"
-    ],
+    "companies": [],
     "technologies": [
-      "AI systems"
+      "AI",
+      "autonomous vehicles"
     ],
     "processes": [
-      "Incident Reporting"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
       "EU AI Act",
-      "Article 73",
-      "Serious Incident"
+      "Serious Incident Reporting",
+      "Incident Reporting"
     ],
-    "methodologies": [
-      "Regulatory compliance methodology"
-    ],
+    "methodologies": [],
     "tools_mentioned": [],
     "prerequisites": [
-      "Knowledge of the EU AI Act and AI systems"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand reporting obligations for serious incidents involving AI systems under the EU AI Act",
-      "Learn about confidentiality rules in incident investigations"
+      "Understand ai concepts"
     ],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "use_cases": [
+      "Incident Reporting",
+      "Serious Incident Reporting"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: EU AI Act Expert Series - Reporting Serious Incidents",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: EU AI Act, Serious Incident Reporting, Incident Reporting",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "54974353e5cefb6c5d828bd8c7c21fe6",
