@@ -18025,70 +18025,94 @@
   {
     "id": "43584061f58eae4a74230564746799a9",
     "filename": "ML_1714377577.pdf",
-    "title": "Top 10 Complete Study Plan Inside Machine Learning Algorithms: Linear Regression and Logistic Regression",
+    "title": "Top 10 Complete Study Plan Inside Machine Learning Algorithms",
     "authors": [],
     "filepath": "documents/ML_1714377577.pdf",
-    "upload_date": "2025-06-15T16:03:28.859588",
+    "upload_date": "2025-06-16T14:15:29.694108",
     "file_size": 3447325,
-    "summary": "This document provides a comprehensive study plan for understanding and implementing popular machine learning algorithms, specifically Linear Regression and Logistic Regression. It covers the theory behind these methods, their differences, and practical applications in Python. The document includes practice questions to test understanding and evaluate performance of the models.",
+    "summary": "This document provides an overview of linear regression and logistic regression algorithms used in machine learning. It covers the theory behind linear regression, how to implement it in Python, and practice questions for predicting housing prices using a given dataset. Additionally, it discusses logistic regression for binary classification problems, such as spam detection or predicting customer purchases.",
     "keywords": [
       "Machine Learning",
       "Linear Regression",
       "Logistic Regression",
-      "Python"
+      "Algorithms",
+      "KNN",
+      "Naive Bayes",
+      "Classification"
     ],
     "key_concepts": [
-      "Linear Regression is a fundamental algorithm in machine learning used for predicting continuous variables.",
-      "Logistic Regression is used for binary classification problems such as spam detection or predicting whether a customer will make a purchase.",
-      "Understand the theory behind Linear Regression and its differences from Logistic Regression.",
-      "Implement Linear Regression in Python to predict housing prices using a given dataset.",
-      "Evaluate the performance of your Linear Regression model."
+      "A foundational algorithm in machine learning used for predicting a continuous variable.",
+      "Used for binary classification problems, such as spam detection or predicting whether a customer will make a purchase.",
+      "The concept of logistic regression and its difference from linear regression.",
+      "A simple, instance-based learning algorithm where the class of a sample is determined by the majority class among its nearest neighbors.",
+      "A family of simple probabilistic classifiers based on applying Bayes' theorem with strong independence assumptions between features.",
+      "Understanding the KNN algorithm and its application",
+      "Implementing KNN for a classification problem",
+      "Using Naive Bayes to classify patients as having a disease or not based on their medical records"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Comprehensive study plan for Machine Learning Algorithms: Linear Regression and Logistic Regression.",
-    "target_audience": "Data scientists, machine learning engineers, and students with intermediate Python skills.",
+    "content_preview": "Document: Top 10 Complete Study Plan Inside Machine Learning Algorithms",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Technology",
-      "AI"
+      "Machine Learning",
+      "Healthcare"
     ],
     "business_functions": [
-      "Data Analysis",
-      "Machine Learning"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "Python"
+      "Python",
+      "KNN",
+      "Naive Bayes"
     ],
     "processes": [
-      "Predictive Modeling"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
+      "Machine Learning",
       "Linear Regression",
-      "Logistic Regression",
-      "Binary Classification"
+      "Logistic Regression"
     ],
     "methodologies": [
-      "Machine Learning Algorithms"
+      "instance-based learning",
+      "probabilistic classification"
     ],
-    "tools_mentioned": [
-      "Python"
-    ],
+    "tools_mentioned": [],
     "prerequisites": [
-      "Intermediate Python skills"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand the theory behind Linear Regression",
-      "Implement Linear Regression in Python",
-      "Evaluate the performance of a Linear Regression model"
+      "Understand machine learning concepts"
     ],
     "use_cases": [
-      "Predicting housing prices using a given dataset"
+      "Predicting continuous variables",
+      "Binary classification problems",
+      "Patient classification based on medical records",
+      "Text categorization using Naive Bayes"
     ],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Top 10 Complete Study Plan Inside Machine Learning Algorithms",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Machine Learning, Linear Regression, Logistic Regression",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "e04efc5e514059b0be3d149d12897662",
