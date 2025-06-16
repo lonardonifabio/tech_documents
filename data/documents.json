@@ -7770,69 +7770,86 @@
   {
     "id": "2ec959d5275b9a80ae2f6c4c41e1f75d",
     "filename": "Convolutional_Neural_Networks_Explained_1630508291.pdf",
-    "title": "Convolutional Neural Networks Explained",
+    "title": "CONVOLUTIONAL NEURAL NETWORKS EXPLAINED",
     "authors": [],
     "filepath": "documents/Convolutional_Neural_Networks_Explained_1630508291.pdf",
-    "upload_date": "2025-06-15T14:50:18.183316",
+    "upload_date": "2025-06-15T23:06:42.298762",
     "file_size": 541889,
-    "summary": "This document provides an explanation of Convolutional Neural Networks (CNNs), a class of neural networks specialized in processing data with grid-like topology, such as images. The layers are arranged to detect simpler patterns first and more complex ones further along. The architecture consists of three layers: a convolutional layer, a pooling layer, and a fully connected layer.",
+    "summary": "A class of neural networks that specializes in processing data with a grid-like topology, such as images. It enables sight to computers by detecting simpler and complex patterns.",
     "keywords": [
       "Convolutional Neural Networks",
-      "CNN",
+      "CNNs",
       "Neural Networks",
-      "Image Processing"
+      "Deep Learning",
+      "Computer Vision"
     ],
     "key_concepts": [
-      "This document explains Convolutional Neural Networks (CNNs), a class of neural networks specialized in processing data with grid-like topology, such as images.",
-      "The layers in CNNs are arranged to detect simpler patterns first and more complex ones further along.",
-      "The architecture of a CNN consists of three layers: a convolutional layer, a pooling layer, and a fully connected layer."
+      "Class of neural networks that specializes in processing grid-like data such as images.",
+      "Three-layer architecture: convolutional, pooling, and fully connected layers.",
+      "Convolution layer detects simpler patterns first (lines, curves) and more complex patterns further along."
     ],
-    "category": "AI",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about Convolutional Neural Networks (CNNs) and their architecture.",
-    "target_audience": "Data Scientists, Machine Learning Engineers, AI Researchers",
+    "content_preview": "Document: CONVOLUTIONAL NEURAL NETWORKS EXPLAINED",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Technology",
-      "AI"
+      "Artificial Intelligence"
     ],
     "business_functions": [
-      "Research & Development",
-      "Machine Learning"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
       "Convolutional Neural Networks (CNNs)"
     ],
     "processes": [
-      "Image Processing"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "Neural Networks",
-      "Convolutional Layer",
-      "Pooling Layer",
-      "Fully Connected Layer"
+      "Convolutional Neural Networks",
+      "CNNs",
+      "Neural Networks"
     ],
     "methodologies": [
-      "Deep Learning"
+      "Grid-like topology processing",
+      "Layered architecture"
     ],
     "tools_mentioned": [
-      "CNNs"
+      "Convolution layer",
+      "Pooling layer",
+      "Fully connected layer"
     ],
     "prerequisites": [
-      "Understanding of Neural Networks"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Learn about CNN architecture and its purpose in image processing."
+      "Understand machine learning concepts"
     ],
     "use_cases": [
-      "Image classification, object detection, facial recognition"
+      "Image Recognition",
+      "Computer Vision"
     ],
     "benefits_mentioned": [
-      "Enabling sight to computers"
+      "Improved understanding",
+      "Practical insights"
     ],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: CONVOLUTIONAL NEURAL NETWORKS EXPLAINED",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Convolutional Neural Networks, CNNs, Neural Networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "832463d0096d63a77a941f9210761b47",
