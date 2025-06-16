@@ -27891,71 +27891,96 @@
     "id": "1f4eb146993e72219103b4fdda561714",
     "filename": "Simplifying_Machine_Learning_with_PyCaret_Book_Sample_1635599191.pdf",
     "title": "Simplifying Machine Learning with PyCaret",
-    "authors": [
-      "Giannis Tolios"
-    ],
+    "authors": [],
     "filepath": "documents/Simplifying_Machine_Learning_with_PyCaret_Book_Sample_1635599191.pdf",
-    "upload_date": "2025-06-15T16:03:32.877614",
+    "upload_date": "2025-06-16T14:15:33.706166",
     "file_size": 3064458,
-    "summary": "This document provides a comprehensive guide to using the PyCaret library for machine learning, suitable for both beginners and experts. It covers prerequisites, software requirements, installation of PyCaret, and usage in JupyterLab. The book also includes a brief introduction to machine learning, explaining what it is and its relevance.",
+    "summary": "This book is for sale at http://leanpub.com/pycaretbook. This version was published on 2021-10-20. It's a Leanpub book that uses the Lean Publishing process, which empowers authors and publishers to publish in-progress ebooks using lightweight tools and many iterations to get reader feedback.",
     "keywords": [
-      "Machine Learning",
       "PyCaret",
-      "Book",
-      "Guide"
+      "Machine Learning",
+      "Low-code",
+      "Beginners",
+      "Experts",
+      "dataset",
+      "exploratory data analysis",
+      "pycaret environment",
+      "machine learning model",
+      "streamlit framework"
     ],
     "key_concepts": [
-      "PyCaret is a low-code approach for machine learning that simplifies the process for both beginners and experts.",
-      "The document provides instructions on installing PyCaret, using JupyterLab, and accessing the Github repository associated with the library.",
-      "The book includes a brief introduction to machine learning, explaining its core concepts.",
-      "The document assumes some basic knowledge of programming and data analysis."
+      "A Brief Introduction to Machine Learning",
+      "What is Machine Learning?",
+      "Simplifying Machine Learning with PyCaret",
+      "Lean Publishing process",
+      "Leanpub book",
+      "Initializing the PyCaret Environment to perform Exploratory Data Analysis on a dataset.",
+      "Creating and Assigning a Machine Learning Model for evaluation and plotting.",
+      "Deploying a Machine Learning Model using the Streamlit Framework, specifically with the Insurance Charges Prediction App and Iris Classification App."
     ],
     "category": "Machine Learning",
-    "difficulty": "Beginner",
-    "content_preview": "Guide to using PyCaret for machine learning.",
-    "target_audience": "Programmers and data analysts interested in machine learning, particularly those who want to use the PyCaret library.",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Simplifying Machine Learning with PyCaret",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Technology",
-      "Data Science"
+      "Machine Learning",
+      "Insurance"
     ],
     "business_functions": [
-      "Machine Learning",
-      "Data Analysis"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
       "PyCaret",
-      "JupyterLab"
+      "Streamlit"
     ],
     "processes": [
-      "Installing PyCaret",
-      "Using JupyterLab with PyCaret"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
+      "PyCaret",
       "Machine Learning",
-      "PyCaret",
-      "JupyterLab"
+      "Low-code"
     ],
-    "methodologies": [
-      "Low-code approach for machine learning"
-    ],
+    "methodologies": [],
     "tools_mentioned": [
-      "PyCaret",
-      "JupyterLab"
+      "JupyterLab",
+      "Leanpub",
+      "Github Repository"
     ],
     "prerequisites": [
-      "Basic knowledge of programming and data analysis"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understanding how to use PyCaret for machine learning"
+      "Understand machine learning concepts"
     ],
     "use_cases": [
-      "Applying machine learning using the PyCaret library"
+      "Beginners",
+      "Experts",
+      "Insurance Charges Prediction",
+      "Iris Classification"
     ],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Simplifying Machine Learning with PyCaret",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: PyCaret, Machine Learning, Low-code",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a094798d58a15c58528750e4be2d9769",
