@@ -14424,65 +14424,108 @@
   {
     "id": "8df5919bfa7658e2d4c7e6468c4c86f2",
     "filename": "IOSCO_in_Capital_Markets_1741956952.pdf",
-    "title": "Artificial Intelligence in Capital Markets: Use Cases, Risks, and Challenges",
+    "title": "Artificial Intelligence in Capital Markets: Use Cases, Risks , and Challenges",
     "authors": [],
     "filepath": "documents/IOSCO_in_Capital_Markets_1741956952.pdf",
-    "upload_date": "2025-06-15T16:03:27.271579",
+    "upload_date": "2025-06-15T23:06:45.688783",
     "file_size": 1535527,
-    "summary": "This document is a consultation report by the International Organization of Securities Commissions (IOSCO) discussing the use cases, risks, and challenges associated with AI in capital markets. It invites feedback from various stakeholders to further explore potential areas of focus for the Artificial Intelligence Working Group (AIWG).",
+    "summary": "Consultation Report from The International Organization of Securities Commissions on AI in capital markets, including use cases, risks, and challenges.",
     "keywords": [
       "Artificial Intelligence",
       "Capital Markets",
       "Use Cases",
       "Risks",
-      "Challenges"
+      "Challenges",
+      "AI",
+      "Finance",
+      "Intelligent Financial System",
+      "Machine Learning",
+      "LLM"
     ],
     "key_concepts": [
-      "The report provides an overview of AI applications in capital markets, such as algorithmic trading and robo-advisory.",
-      "It highlights potential risks associated with AI, including market manipulation, systemic risk, and data privacy concerns.",
-      "The document discusses challenges faced by regulators in addressing these risks, such as the complexity of AI systems and the need for international coordination.",
-      "The report emphasizes the importance of understanding and managing these risks to ensure a stable and efficient financial market.",
-      "It encourages stakeholders to provide feedback on the content of the report and potential areas of focus going forward."
+      "The use of AI in capital markets is becoming increasingly prevalent.",
+      "There are various risks associated with the adoption of AI in capital markets, including bias and cybersecurity threats.",
+      "Regulators and market participants must work together to address the challenges posed by AI in capital markets.",
+      "Agency: The degree to which an AI system acts directly in the world with little human intervention.",
+      "Human Interaction with LLM Interface: Using prompts to specify expected output and provide grounding (facts).",
+      "Types of AI Technologies: Used in various applications, including virtual assistants, map and transportation programs, word processing, email apps, wearable health apps, advertising, content recommendations, and facial recognition tools.",
+      "AI systems generate text, audio, images, and video based on training data.",
+      "Generative AI creates new content in response to prompts.",
+      "Representation Learning Models interpret semantic meaning from input data."
     ],
-    "category": "AI",
+    "category": "Research",
     "difficulty": "Intermediate",
-    "content_preview": "IOSCO invites feedback on AI in capital markets.",
-    "target_audience": "Financial market participants, AI developers, academics, researchers, public policy experts, and other interested parties.",
+    "content_preview": "Document: Artificial Intelligence in Capital Markets: Use Cases, Risks , and Challenges",
+    "target_audience": "Professionals in research field",
     "industry": [
       "Capital Markets",
-      "Finance"
+      "Finance",
+      "AI and Machine Learning"
     ],
     "business_functions": [
-      "Regulation",
-      "AI Development",
-      "Financial Services"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "Artificial Intelligence"
+      "AI",
+      "LLM",
+      "Generative Artificial Intelligence",
+      "Artificial General Intelligence",
+      "Transformative AI"
     ],
     "processes": [
-      "Algorithmic Trading",
-      "Robo-Advisory"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "Machine Learning",
-      "Deep Learning",
-      "Neural Networks"
+      "Artificial Intelligence",
+      "Capital Markets",
+      "Use Cases"
     ],
     "methodologies": [
-      "Consultation Process"
+      "probabilistic algorithms",
+      "representation learning models"
     ],
-    "tools_mentioned": [],
+    "tools_mentioned": [
+      "virtual assistants",
+      "map and transportation programs",
+      "word processing and email apps",
+      "wearable health apps",
+      "facial recognition tools"
+    ],
     "prerequisites": [
-      "Understanding of Artificial Intelligence and Capital Markets"
+      "Basic understanding of the subject matter"
     ],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "learning_objectives": [
+      "Understand research concepts"
+    ],
+    "use_cases": [
+      "Artificial Intelligence",
+      "Risk Management",
+      "Enhance investor access and engagement",
+      "Promote investor protection and market integrity",
+      "text generation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Artificial Intelligence in Capital Markets: Use Cases, Risks , and Challenges",
+      "Q: What category? A: Research",
+      "Q: Key concepts? A: Artificial Intelligence, Capital Markets, Use Cases",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "24707470d993d4c9ac6aaa3ca7124b89",
