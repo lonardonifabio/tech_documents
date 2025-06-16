@@ -33889,58 +33889,103 @@
   {
     "id": "afe3766aaa1a67c462c8c627e6e63b63",
     "filename": "javascript_cheatsheet_2019_lenguajejs_com_1623050131.pdf",
-    "title": "JavaScript Cheatsheet 2019 by lenguajejs.com",
+    "title": "Regular Expressions and JavaScript Methods",
     "authors": [],
     "filepath": "documents/javascript_cheatsheet_2019_lenguajejs_com_1623050131.pdf",
-    "upload_date": "2025-06-15T16:03:35.769634",
+    "upload_date": "2025-06-16T20:34:07.396686",
     "file_size": 193291,
-    "summary": "This document provides a comprehensive cheatsheet for JavaScript, covering various topics such as assertions, quantifiers, grouping, boundaries, character sets or alternation, classes, modifying source array methods, iteration methods, callback for each methods, properties, locale & timezone methods, unit getters/setters, number methods, string methods, and more. It is intended for intermediate to advanced JavaScript developers.",
+    "summary": "This document excerpt appears to be a reference guide for regular expressions and various methods available in JavaScript. It covers topics such as quantifiers, grouping, boundaries, character sets, classes, and more. Additionally, it provides information on iteration methods, callback functions, and unit getters/setters.",
     "keywords": [
-      "JavaScript",
-      "Cheatsheet",
-      "Lenguajejs.com",
-      "Assertions",
-      "Quantifiers"
+      "ASSERTIONS",
+      "QUANTIFIERS",
+      "GROUPING",
+      "BOUNDARIES",
+      "CHARACTER SETS",
+      "OR ALTERNATION",
+      "CLASSES",
+      "MODIFY SOURCE ARRAY METHODS",
+      "ITERATION METHODS",
+      "CALLBACK FOR EACH METHODS"
     ],
     "key_concepts": [
-      "Understand the use of assertions in JavaScript and their quantifiers.",
-      "Learn about grouping, boundaries, and character sets or alternation in JavaScript expressions.",
-      "Gain knowledge on various classes and modifying source array methods in JavaScript.",
-      "Explore iteration methods like .entries(), .keys(), .values(), .forEach(), .map(), .reduce(), .reduceRight(), .every(), .filter(), .find(), .findIndex() for handling arrays in JavaScript.",
-      "Familiarize yourself with properties, locale & timezone methods, unit getters/setters, number methods, and string methods in JavaScript."
+      "Assertions and quantifiers in regular expressions.",
+      "Grouping and capturing in regular expressions.",
+      "Boundaries and anchors in regular expressions.",
+      "Character sets and alternation in regular expressions.",
+      "Classes and methods for modifying source arrays.",
+      "Iteration methods for arrays.",
+      "Callback methods for each iteration.",
+      "Properties and methods for locale and timezone.",
+      "Unit getters and setters for numbers.",
+      "Methods for working with strings, including character at index."
     ],
-    "category": "Data Science",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a cheatsheet for JavaScript covering various topics.",
-    "target_audience": "Intermediate to advanced JavaScript developers",
+    "content_preview": "Document: Regular Expressions and JavaScript Methods",
+    "target_audience": "Professionals in technology field",
     "industry": [
-      "IT",
-      "Software Development"
+      null,
+      "software development"
     ],
     "business_functions": [
-      "Programming",
-      "Development",
-      "Scripting"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "JavaScript"
+      "Regular Expressions",
+      "JavaScript",
+      "CSS"
     ],
     "processes": [
-      "Coding",
-      "Scripting",
-      "Debugging"
+      "Analysis",
+      "Implementation"
     ],
-    "technical_terms": [],
-    "methodologies": [],
-    "tools_mentioned": [],
-    "prerequisites": [],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "technical_terms": [
+      "ASSERTIONS",
+      "QUANTIFIERS",
+      "GROUPING"
+    ],
+    "methodologies": [
+      "import/export",
+      "dynamic import"
+    ],
+    "tools_mentioned": [
+      "JSON file manipulation",
+      "animation/transition events"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "animation and transition events",
+      "form and field events",
+      "keyboard events",
+      "mouse events",
+      "load and object events"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Regular Expressions and JavaScript Methods",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: ASSERTIONS, QUANTIFIERS, GROUPING",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "d404198c3440bb130fbe2c12a0969e4e",
