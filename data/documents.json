@@ -2903,69 +2903,99 @@
   {
     "id": "c4b47839ddca839b30fc799f3a187a2f",
     "filename": "AI_and_Cyber__1638654960.pdf",
-    "title": "Artificial Intelligence & Cybersecurity For Dummies®, IBM Limited Edition",
-    "authors": [
-      "Ted Coombs"
-    ],
+    "title": "Understanding Cybersecurity",
+    "authors": [],
     "filepath": "documents/AI_and_Cyber__1638654960.pdf",
-    "upload_date": "2025-06-15T16:03:21.620544",
+    "upload_date": "2025-06-16T06:47:59.704170",
     "file_size": 1581279,
-    "summary": "This document provides an accessible introduction to the intersection of Artificial Intelligence (AI) and Cybersecurity. It covers topics such as AI applications in cybersecurity, common threats, best practices for security, and practical use cases. The book is intended for beginners with little to no prior knowledge in these fields.",
+    "summary": "Social engineering is a confidence scam that convinces unsuspecting people to provide information to bad people trying to steal their information. It's often the first step in an attack and can be underestimated due to its non-technical nature. Between 66 and 84 percent of network intrusions contain a social engineering factor, and personal information has been stolen from almost everyone who has used a computer.",
     "keywords": [
       "Artificial Intelligence",
       "Cybersecurity",
-      "IBM",
-      "For Dummies"
+      "Social Engineering",
+      "Data Security",
+      "Network Intrusion",
+      "Privacy",
+      "SSH",
+      "password-guessing",
+      "brute force attack",
+      "NMAP"
     ],
     "key_concepts": [
-      "AI can be used to enhance cybersecurity by detecting threats and anomalies more effectively than traditional methods.",
-      "The book discusses common cybersecurity threats such as phishing, malware, and ransomware, and how AI can help mitigate these risks.",
-      "Practical use cases of AI in cybersecurity are provided, including AI-powered firewalls and intrusion detection systems.",
-      "The theoretical framework of AI and Cybersecurity is briefly discussed, emphasizing the importance of data privacy and security.",
-      "The book offers best practices for securing networks and systems using AI, such as implementing AI-powered threat intelligence platforms."
+      "IBM Limited Edition",
+      "Copyright law and permissions",
+      "Trademark usage",
+      "A confidence scam that convinces people to provide information to bad actors.",
+      "The first step in a complex attack, often underestimated due to its non-technical nature.",
+      "Between 66 and 84% of network intrusions contain a social engineering factor.",
+      "Personal information is often stolen through hacks, affecting almost everyone who has used a computer.",
+      "Social networks have made sharing personal information an art.",
+      "SSH brute force attack involves finding an open SSH server and using a tool to guess passwords.",
+      "Running SSH on a non-standard port can prevent novice hackers from accessing the system."
     ],
     "category": "AI",
-    "difficulty": "Beginner",
-    "content_preview": "Learn how AI can enhance cybersecurity and protect your networks from threats.",
-    "target_audience": "Individuals with little to no prior knowledge in Artificial Intelligence or Cybersecurity.",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Understanding Cybersecurity",
+    "target_audience": "Professionals in ai field",
     "industry": [
-      "Technology",
       "Cybersecurity"
     ],
     "business_functions": [
-      "Security Operations",
-      "Network Administration"
+      "Research and Development",
+      "Strategy"
     ],
-    "companies": [
-      "IBM"
-    ],
+    "companies": [],
     "technologies": [
-      "Artificial Intelligence",
-      "Machine Learning"
+      "SSH",
+      "NMAP"
     ],
     "processes": [
-      "Threat Detection",
-      "Intrusion Detection",
-      "Network Security"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "AI",
-      "ML",
-      "Cybersecurity Threats",
-      "Data Privacy"
+      "Artificial Intelligence",
+      "Cybersecurity",
+      "Social Engineering"
     ],
     "methodologies": [
-      "AI-powered threat intelligence",
-      "AI-enhanced cybersecurity systems"
+      "brute force attack"
     ],
-    "tools_mentioned": [],
-    "prerequisites": [],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "tools_mentioned": [
+      "Hydra",
+      "NCrack",
+      "Medusa"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Network Intrusion Detection",
+      "Data Security",
+      "SSH brute force attack prevention"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Understanding Cybersecurity",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: Artificial Intelligence, Cybersecurity, Social Engineering",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.9166666666666666
   },
   {
     "id": "08cc14bcf960497cc0288d77e0349fde",
