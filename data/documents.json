@@ -33088,61 +33088,85 @@
   {
     "id": "7a09dedcebb3436c2d10b5177b3f2efc",
     "filename": "alz_1747912873.pdf",
-    "title": "Alzheimer’s Disease Classification Using a Novel Bidirectional CNN",
+    "title": "Alzheimer’s Disease Classification Using a Novel Bidirectional CNN!",
     "authors": [],
     "filepath": "documents/alz_1747912873.pdf",
-    "upload_date": "2025-06-15T16:03:35.385631",
+    "upload_date": "2025-06-16T20:34:07.010682",
     "file_size": 704951,
-    "summary": "This document presents a study that uses a novel bidirectional convolutional neural network (CNN) to classify Alzheimer's disease based on MRI scans. The data is divided into four categories: MildDemented, ModerateDemented, NonDemented, and VeryMildDemented. The study uses Python libraries such as numpy, pandas, and os for data manipulation and preprocessing. The main findings suggest that the proposed method achieves high accuracy in classifying Alzheimer's disease.",
+    "summary": "This document appears to be a Python script for classifying Alzheimer's disease using a novel bidirectional Convolutional Neural Network (CNN). The script loads an augmented MRI dataset from the Kaggle platform, extracts image paths and labels, and creates a pandas DataFrame to store the data. The code also includes some basic data exploration using the `head()` and `tail()` methods.",
     "keywords": [
       "Alzheimer's Disease",
+      "Classification",
+      "CNN",
+      "Deep Learning",
       "MRI",
-      "Convolutional Neural Network",
-      "Classification"
+      "Neuroimaging"
     ],
     "key_concepts": [
-      "The study proposes a novel bidirectional CNN for classifying Alzheimer's disease based on MRI scans.",
-      "The data is divided into four categories: MildDemented, ModerateDemented, NonDemented, and VeryMildDemented.",
-      "The study achieves high accuracy in classifying Alzheimer's disease using the proposed method.",
-      "Python libraries such as numpy, pandas, and os are used for data manipulation and preprocessing."
+      "Bidirectional CNN architecture for Alzheimer's disease classification",
+      "Use of MRI images for diagnosis and classification",
+      "Development of a novel deep learning model for accurate classification"
     ],
-    "category": "AI",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document presents a study that uses a novel bidirectional CNN to classify Alzheimer's disease based on MRI scans.",
-    "target_audience": "Data scientists, machine learning engineers, and researchers interested in medical image analysis and Alzheimer's disease.",
+    "content_preview": "Document: Alzheimer’s Disease Classification Using a Novel Bidirectional CNN!",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Healthcare",
-      "AI in Healthcare"
+      "Healthcare"
     ],
     "business_functions": [
-      "Research & Development",
-      "Data Analysis"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "Convolutional Neural Networks",
-      "Python",
-      "MRI Scans"
+      "numpy",
+      "pandas"
     ],
     "processes": [
-      "Data Preprocessing",
-      "Model Training",
-      "Classification"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "CNN",
-      "MRI",
-      "Dementia"
+      "Alzheimer's Disease",
+      "Classification",
+      "CNN"
     ],
-    "methodologies": [],
-    "tools_mentioned": [],
-    "prerequisites": [],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "methodologies": [
+      "Bidirectional CNN"
+    ],
+    "tools_mentioned": [
+      "/kaggle/input/augmented-alzheimer-mri-dataset/AugmentedAlzheimerDataset/"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Alzheimer's Disease Diagnosis",
+      "Medical Imaging Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Alzheimer’s Disease Classification Using a Novel Bidirectional CNN!",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Alzheimer's Disease, Classification, CNN",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "2fbcaf0e70997d86f1631a884b8b199c",
