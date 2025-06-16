@@ -10749,67 +10749,107 @@
   {
     "id": "37c5c92d3a2ae749c3458dda432c5de8",
     "filename": "Deep_learning_1718550571.pdf",
-    "title": "Deep Learning for AI Professionals",
+    "title": "Course Summary: Breaking into Cutting-Edge AI",
     "authors": [],
     "filepath": "documents/Deep_learning_1718550571.pdf",
-    "upload_date": "2025-06-15T16:03:25.616568",
+    "upload_date": "2025-06-16T22:24:17.846258",
     "file_size": 15159441,
-    "summary": "This document provides an overview of a deep learning course aimed at breaking into cutting-edge AI. The course covers the foundations of deep learning, enabling learners to build, train, and apply fully connected deep neural networks. It also delves into efficient (vectorized) neural network implementation, key parameters in a neural network's architecture, and the workings of deep learning. Upon completion, individuals will be able to answer basic interview questions and apply deep learning to their own applications.",
+    "summary": "This course helps you break into cutting-edge AI by mastering deep learning. You'll learn the foundations of deep learning, including building, training, and applying fully connected deep neural networks. By the end of this class, you'll understand major technology trends driving Deep Learning, be able to implement efficient neural networks, and know how to apply deep learning to your own applications.",
     "keywords": [
       "Deep Learning",
       "AI",
       "Neural Networks",
-      "Career Opportunities"
+      "Machine Learning",
+      "vectorization",
+      "NumPy",
+      "GPU",
+      "SIMD",
+      "Logistic Regression",
+      "for loops"
     ],
     "key_concepts": [
-      "Deep learning is a new 'superpower' for building AI systems that were not possible a few years ago.",
-      "The course covers the foundations of deep learning, including understanding major technology trends and applying deep learning to own applications.",
-      "Learners will be able to build, train, and apply fully connected deep neural networks after completing this class.",
-      "The course teaches efficient (vectorized) neural network implementation and key parameters in a neural network's architecture.",
-      "Upon completion, individuals will be equipped to answer basic interview questions related to deep learning."
+      "Understanding major technology trends driving Deep Learning",
+      "Building, training, and applying fully connected deep neural networks",
+      "Implementing efficient (vectorized) neural networks",
+      "Key parameters in a neural network's architecture",
+      "How Deep Learning actually works",
+      "Applying Deep Learning to own applications",
+      "Answering basic interview questions for AI jobs",
+      "Vectorizing Logistic Regression using NumPy library",
+      "Using vectorization to avoid for loops in computations",
+      "Understanding broadcasting and reshaping in NumPy"
     ],
-    "category": "AI",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This course helps break into cutting-edge AI by teaching the foundations of deep learning.",
-    "target_audience": "Individuals looking to advance their careers in AI and deep learning.",
+    "content_preview": "Document: Course Summary: Breaking into Cutting-Edge AI",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "AI",
-      "Technology"
+      "Artificial Intelligence",
+      "Data Science/AI"
     ],
     "business_functions": [
-      "Data Science",
-      "Machine Learning"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "Deep Learning",
-      "Neural Networks"
+      "deep learning",
+      "neural networks",
+      "NumPy",
+      "Python"
     ],
     "processes": [
-      "Training Neural Networks",
-      "Implementing Efficient Neural Networks"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
       "Deep Learning",
-      "Neural Networks",
-      "Activation Function",
-      "Perceptron"
+      "AI",
+      "Neural Networks"
     ],
     "methodologies": [
-      "Deep Learning Methodology"
+      "fully connected deep neural networks",
+      "vectorized neural networks",
+      "Vectorization",
+      "SIMD (Single Instruction, Multiple Data) operation",
+      "backpropagation"
     ],
     "tools_mentioned": [
-      "Neural Network Tools"
+      "NumPy library",
+      "GPU (Graphics Processing Unit)",
+      "mathematical notation (L, n[l], g[l], a[l], w[l])"
     ],
     "prerequisites": [
-      "Basic Understanding of Linear Algebra and Calculus"
+      "Basic understanding of the subject matter"
     ],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "AI job opportunities",
+      "Building AI systems",
+      "Logistic Regression",
+      "Computer Vision"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Course Summary: Breaking into Cutting-Edge AI",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Deep Learning, AI, Neural Networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "c0d0eaf831570c9ae5256b2550a47ca7",
