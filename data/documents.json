@@ -37254,28 +37254,82 @@
   {
     "id": "6148aeec3f13feaf2c21795d6621a053",
     "filename": "facial_recognition_1616398581.pdf",
-    "title": "Facial Recognition Works @learn.machinelearning01",
+    "title": "Facial Recognition Works",
     "authors": [],
     "filepath": "documents/facial_recognition_1616398581.pdf",
-    "upload_date": "2025-06-13T22:59:51.156953",
+    "upload_date": "2025-06-17T12:16:41.918923",
     "file_size": 3109110,
-    "summary": "This document provides an introduction to facial recognition, explaining how it works and the steps involved in implementing it using machine learning algorithms. The document covers topics such as finding all faces in a frame, face analysis, converting images to data, and finding a match. It serves as a guide for beginners interested in understanding and applying facial recognition.",
+    "summary": "A facial recognition system uses biometrics to map facial features from a photograph, video, or other means of sensors. It compares the information with a database of known faces to find a match.",
     "keywords": [
-      "Facial Recognition",
-      "Machine Learning",
-      "Algorithms",
-      "Biometrics"
+      "facial recognition",
+      "machine learning",
+      "biometrics"
     ],
     "key_concepts": [
-      "Facial recognition is a method of uniquely identifying or verifying a person using biometric data from their face.",
-      "The document outlines the steps involved in implementing facial recognition, including finding all faces in a frame, face analysis, converting images to data, and finding a match.",
-      "Each step is explained using a different machine learning algorithm.",
-      "The theoretical framework for this document lies in the field of computer vision and pattern recognition.",
-      "Practical applications of facial recognition can be found in security systems, access control, and biometric identification."
+      "Facial recognition system",
+      "Machine learning algorithm",
+      "Histogram of Oriented Gradients (HOG)"
     ],
-    "category": "Machine Learning",
-    "difficulty": "Beginner",
-    "content_preview": "This document introduces facial recognition and explains how it works using machine learning algorithms."
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Facial Recognition Works",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Security"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "HOG",
+      "machine learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "facial recognition",
+      "machine learning",
+      "biometrics"
+    ],
+    "methodologies": [
+      "Histogram of Oriented Gradients"
+    ],
+    "tools_mentioned": [
+      "computer"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Facial Recognition",
+      "Surveillance"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Facial Recognition Works",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: facial recognition, machine learning, biometrics",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "049942f890e19f7a4d4937d9873432c7",
