@@ -19613,31 +19613,105 @@
   {
     "id": "4abb95e7ab24e670e11066ea94312b87",
     "filename": "ML_CheatSheet_1637007275.pdf",
-    "title": "Machine Learning CheatSheet",
-    "authors": [
-      "Rémi Canard"
-    ],
+    "title": "Machine Learning Cheatsheet",
+    "authors": [],
     "filepath": "documents/ML_CheatSheet_1637007275.pdf",
-    "upload_date": "2025-06-13T22:59:44.527925",
+    "upload_date": "2025-06-17T09:28:57.880175",
     "file_size": 1309589,
-    "summary": "This document provides descriptions, advantages, and use cases of various Machine Learning algorithms. It is inspired by the books and articles of MachineLearningMastery, with added mathematical explanations and ML Pros & Cons of HackingNote. The design is inspired by The Probability Cheatsheet of W. Chen. Written by Rémi Canard.",
+    "summary": "A summary of machine learning algorithms, their descriptions, advantages, and use cases. The document provides an overview of linear and nonlinear algorithms, supervised and unsupervised learning methods, and the bias-variance trade-off.",
     "keywords": [
       "Machine Learning",
       "Algorithms",
-      "Description",
-      "Advantages",
-      "Use Cases"
+      "Linear Regression",
+      "Nonlinear Regression",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Bias-Variance Trade-off",
+      "kernel",
+      "support vectors",
+      "linear algebra"
     ],
     "key_concepts": [
-      "The document aims to learn a target function that maps input variables to output variables with an error.",
-      "Linear and Nonlinear algorithms make different assumptions about the shape and structure of the target function, thus the need for testing several methods.",
-      "Linear algorithms are usually simpler, faster, and require less data, while Nonlinear can be more flexible, powerful, and performant.",
-      "Supervised learning methods learn to predict Y from X given that the data is labeled. Unsupervised learning methods learn to find the inherent structure of the unlabeled data.",
-      "The Bias-Variance trade-off in supervised learning refers to the prediction error being composed of the bias, variance, and the irreducible part."
+      "Definition of Machine Learning",
+      "Types of Algorithms (Parametric and Nonparametric)",
+      "Supervised vs Unsupervised Learning",
+      "Bias and Variance in Supervised Learning",
+      "Concept of Support Vectors",
+      "Hyperplane Learning",
+      "Kernel Methods",
+      "Ensemble Algorithms",
+      "Bagging and Random Forest"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Learn Machine Learning algorithms with descriptions, advantages, and use cases."
+    "content_preview": "Document: Machine Learning Cheatsheet",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "math",
+      "linear kernel",
+      "polynomial kernel",
+      "radial kernel"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Algorithms",
+      "Linear Regression"
+    ],
+    "methodologies": [
+      "parametric",
+      "non-parametric",
+      "hyperplane learning",
+      "bootstrap aggregation"
+    ],
+    "tools_mentioned": [
+      "linear",
+      "nonlinear",
+      "linear algebra",
+      "categorical feature transformation"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Predictive Modeling",
+      "Data Analysis",
+      "Face detection from images",
+      "Target Audience Classification from tweets"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning Cheatsheet",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Machine Learning, Algorithms, Linear Regression",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "52044a4a67346bc1621f3292c1dbdc50",
