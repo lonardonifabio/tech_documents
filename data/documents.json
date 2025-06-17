@@ -15455,30 +15455,91 @@
   {
     "id": "48e17a72602af19a3d8d62f54786cdd5",
     "filename": "Hands_on_Python_Tutorial__1620072841.pdf",
-    "title": "Hands-on Python Tutorial",
-    "authors": [
-      "Dr. Andrew N. Harrington"
-    ],
+    "title": "Hands-on Python Tutorial Release 2.0",
+    "authors": [],
     "filepath": "documents/Hands_on_Python_Tutorial__1620072841.pdf",
-    "upload_date": "2025-06-13T22:59:42.687917",
+    "upload_date": "2025-06-17T05:39:08.251799",
     "file_size": 1273649,
-    "summary": "This document provides a comprehensive guide to learning Python 3, covering topics such as the Python interpreter, Idle, types and functions, integer arithmetic, strings, variables, print function, input/output, defining functions, dictionaries, loops, and more. It is designed for beginners and includes practical exercises.",
+    "summary": "This document provides a hands-on tutorial for learning Python, covering topics such as context, the Python interpreter and Idle, types and functions, integer arithmetic, strings, variables and assignment, print function, input and output, defining functions of your own, dictionaries, and loops.",
     "keywords": [
       "Python",
       "Tutorial",
-      "Beginner",
-      "Programming"
+      "Release",
+      "computer programming",
+      "low-level operations",
+      "high-level languages",
+      "translators"
     ],
     "key_concepts": [
-      "Learn Python 3 with this hands-on tutorial",
-      "Understand the Python interpreter and Idle",
-      "Master basic types and functions in Python",
-      "Explore integer arithmetic, strings, variables, and print function",
-      "Gain experience with input/output, defining functions, dictionaries, loops, and more"
+      "Context of Python programming",
+      "Introduction to Python interpreter and Idle",
+      "Types and functions in Python",
+      "Integer arithmetic in Python",
+      "Strings in Python",
+      "Variables and assignment in Python",
+      "Print function in Python",
+      "Input and output in Python",
+      "Defining functions in Python",
+      "Dictionaries in Python"
     ],
-    "category": "Technology",
-    "difficulty": "Beginner",
-    "content_preview": "Learn Python 3 with this hands-on tutorial"
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Hands-on Python Tutorial Release 2.0",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Software Development"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Tutorial",
+      "Release"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [
+      "Idle Editor",
+      "Python Interpreter"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Programming",
+      "Computer Operations"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Hands-on Python Tutorial Release 2.0",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, Tutorial, Release",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "47f481aca38bf9b7b98deef1fddb1c12",
