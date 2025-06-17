@@ -7523,27 +7523,87 @@
   {
     "id": "eb1d052963da8f2cce1518b3d0ecd220",
     "filename": "Bone_1725747702.pdf",
-    "title": "Bone Fracture Dataset Analysis and Image Display",
+    "title": "Bone Fracture Dataset",
     "authors": [],
     "filepath": "documents/Bone_1725747702.pdf",
-    "upload_date": "2025-06-13T22:59:38.969900",
+    "upload_date": "2025-06-17T09:28:52.277085",
     "file_size": 322208,
-    "summary": "This document provides a Python script for analyzing the Bone Fracture Dataset, which is used in computer vision projects. The script imports necessary libraries, defines functions to display images, and demonstrates how to display test, train, and validation images from the dataset. It also checks the number of GPUs available.",
+    "summary": "A dataset for bone fracture detection using computer vision, including image files and a function to display selected images. The dataset consists of test, train, and validation sets.",
     "keywords": [
       "Bone Fracture Dataset",
-      "Python Script",
       "Computer Vision",
-      "Image Display"
+      "Matplotlib",
+      "Seaborn",
+      "PIL",
+      "TensorFlow"
     ],
     "key_concepts": [
-      "The script imports necessary libraries such as matplotlib, seaborn, random, PIL, and TensorFlow.",
-      "It defines a function to display images from the dataset, taking into account the number of images available and the size of the figure.",
-      "The function is used to display test, train, and validation images from the Bone Fracture Dataset.",
-      "The script also checks the number of GPUs available for TensorFlow."
+      "Image Display",
+      "Data Loading",
+      "Yolo8 Model",
+      "GPU Availability"
     ],
-    "category": "Technology",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a Python script to analyze and display images from the Bone Fracture Dataset."
+    "content_preview": "Document: Bone Fracture Dataset",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Medical Imaging"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "TensorFlow"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Bone Fracture Dataset",
+      "Computer Vision",
+      "Matplotlib"
+    ],
+    "methodologies": [
+      "Deep Learning"
+    ],
+    "tools_mentioned": [
+      "Matplotlib",
+      "Seaborn",
+      "PIL"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Bone Fracture Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Bone Fracture Dataset",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Bone Fracture Dataset, Computer Vision, Matplotlib",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "f7b2b7fffd849dba1c67b0053cc9a45a",
