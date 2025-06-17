@@ -30623,30 +30623,84 @@
     "id": "cceade54ce1088ef88eb2ba04d3c90c0",
     "filename": "Python_for_Finance__1694583651.pdf",
     "title": "Python for Finance",
-    "authors": [
-      "Ned Krastev"
-    ],
+    "authors": [],
     "filepath": "documents/Python_for_Finance__1694583651.pdf",
-    "upload_date": "2025-06-14T13:06:57.234945",
+    "upload_date": "2025-06-17T12:16:38.410923",
     "file_size": 903682,
-    "summary": "This document provides a comprehensive guide on using Python for financial analysis, covering topics such as calculating and comparing rates of return, measuring investment risk, and using regression for financial analyses. The author explains various methods like upside and downside calculations, covariance and correlation calculations, and portfolio variance calculations. The practical applications include analyzing portfolios of stocks and market indices.",
+    "summary": "A document about using Python in finance, covering topics such as calculating rates of return, measuring investment risk, and using regression for financial analyses.",
     "keywords": [
       "Python",
       "Finance",
-      "Data Science",
+      "Rates of Return",
+      "Portfolios",
+      "Market Indices",
       "Investment Risk",
-      "Regression Analysis"
+      "Regression"
     ],
     "key_concepts": [
-      "This document introduces Python as a powerful tool for financial analysis, providing methods to calculate rates of return and measure investment risk.",
-      "The author explains the concept of upside and downside in the context of calculating rates of return, which helps investors understand potential gains and losses.",
-      "The document delves into the methodology of calculating covariance and correlation between securities to assess investment risk.",
-      "The practical application of these concepts is demonstrated through examples of analyzing portfolios of stocks and market indices.",
-      "Regression analysis is introduced as a useful technique for financial analyses, with the author providing an overview of its principles."
+      "Calculating and Comparing Rates of Return",
+      "Measuring Investment Risk",
+      "Using Regression for Financial Analyses"
     ],
-    "category": "Data Science",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Learn to use Python for financial analysis, including calculating rates of return and measuring investment risk."
+    "content_preview": "Document: Python for Finance",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Finance"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Finance",
+      "Rates of Return"
+    ],
+    "methodologies": [
+      "Finance"
+    ],
+    "tools_mentioned": [
+      "365 DATA SCENCE2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Calculating and Comparing Rates of Return",
+      "Measuring Investment Risk"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python for Finance",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Python, Finance, Rates of Return",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "0a654bc72c21b353e67065d68bc91959",
