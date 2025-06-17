@@ -37320,31 +37320,82 @@
   {
     "id": "29551a99b761e0432a7050adaf919b72",
     "filename": "Think_Stats_1638130499.pdf",
-    "title": "Think Stats: Exploratory Data Analysis in Python",
-    "authors": [
-      "Allen B. Downey"
-    ],
+    "title": "Exploratory Data Analysis in Python",
+    "authors": [],
     "filepath": "documents/Think_Stats_1638130499.pdf",
-    "upload_date": "2025-06-14T13:06:59.452945",
+    "upload_date": "2025-06-17T12:16:40.661923",
     "file_size": 2571869,
-    "summary": "This document is a practical guide to exploratory data analysis (EDA) using the Python programming language. It covers various statistical concepts and techniques, including probability distributions, hypothesis testing, regression analysis, and more. The book emphasizes the importance of visualization and interactive exploration in understanding data. Key applications include data science, machine learning, and research.",
+    "summary": "This book is an introduction to the practical tools of exploratory data analysis. It follows a process for working with datasets, including importing and cleaning, single variable explorations, and pair-wise explorations. The book provides a device-independent representation of the textbook that can be converted to other formats and printed.",
     "keywords": [
-      "Exploratory Data Analysis",
       "Python",
-      "Statistics",
-      "Data Science",
-      "Machine Learning"
+      "Data Analysis",
+      "Exploratory Data Analysis"
     ],
     "key_concepts": [
-      "EDA is a process of inspecting and summarizing data to understand its main features and identify patterns.",
-      "The book uses Python libraries such as Matplotlib, NumPy, and Seaborn for data visualization and manipulation.",
-      "Think Stats covers various statistical concepts like probability distributions, hypothesis testing, regression analysis, and more.",
-      "The author emphasizes the importance of interactive exploration in understanding data and encourages readers to experiment with their own datasets.",
-      "The book provides practical examples and exercises to help readers apply the concepts learned."
+      "Data Cleaning",
+      "Summary Statistics",
+      "Relationships Between Variables"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Explore data analysis with Python in Think Stats."
+    "content_preview": "Document: Exploratory Data Analysis in Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education/Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Data Analysis",
+      "Exploratory Data Analysis"
+    ],
+    "methodologies": [
+      "Exploratory Data Analysis"
+    ],
+    "tools_mentioned": [
+      "L ATEX source code",
+      "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Exploratory Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Exploratory Data Analysis in Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, Data Analysis, Exploratory Data Analysis",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "0b446d94706c1f0cd228b7b5ce641587",
