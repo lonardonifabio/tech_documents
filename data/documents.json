@@ -30198,29 +30198,79 @@
   {
     "id": "47a4d35ef7dd4c3b99a935bc351aaddb",
     "filename": "Perceptron_1706560160.pdf",
-    "title": "Understanding Perceptron Neural Network",
+    "title": "Type of artificial neural network",
     "authors": [],
     "filepath": "documents/Perceptron_1706560160.pdf",
-    "upload_date": "2025-06-14T13:06:56.590945",
+    "upload_date": "2025-06-17T22:29:08.367727",
     "file_size": 617344,
-    "summary": "This document provides an overview of the Perceptron Artificial Neural Network, explaining its structure, key components, and limitations. It discusses the neuron arrangement, layer structure, computational power, training complexity, and benefits of this network type. The document also highlights the internal layers, their role in enhancing computational power for complex tasks, and the creation of a feed-forward network. Lastly, it mentions the key characteristic of no feedback connections.",
+    "summary": "A type of artificial neural network with a specific structure and limitations, enabling learning non-linear relationships and complex data patterns.",
     "keywords": [
-      "Perceptron",
-      "Artificial Neural Network",
-      "Neuron Arrangement",
-      "Layer Structure",
-      "Computational Power"
+      "artificial_neural_network",
+      "neuron_connection_architecture",
+      "layer_structure",
+      "hidden_layers",
+      "computational_power",
+      "training_complexity"
     ],
     "key_concepts": [
-      "The arrangement of processing elements (neurons) determines the network's behavior.",
-      "All ANNs share at least two layers: input, output, and optional hidden layers.",
-      "Increasing hidden layers and neurons boosts processing power but adds complexity to the training process.",
-      "A Perceptron with only two layers - input and output - enables learning non-linear relationships and complex data patterns.",
-      "The internal layer increases the network's computational power for complex tasks by refining data through intermediate computations."
+      "Artificial Neural Networks (ANNs)",
+      "Neuron Connection Architecture",
+      "Layer Structure of ANNs",
+      "Benefits and Limitations of Hidden Layers"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses the Perceptron Artificial Neural Network, its structure, and benefits."
+    "content_preview": "Document: Type of artificial neural network",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Neural Networks"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "artificial_neural_network",
+      "neuron_connection_architecture",
+      "layer_structure"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Type of artificial neural network",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: artificial_neural_network, neuron_connection_architecture, layer_structure",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.75
   },
   {
     "id": "1b507fd66f9bfa5f2bbad45e515948a1",
