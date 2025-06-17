@@ -15605,29 +15605,78 @@
   {
     "id": "895f81c6479f8545c8b09e31d6e79d87",
     "filename": "Graph_Convolutional_Networks__1748375983.pdf",
-    "title": "Graph Convolutional Networks",
+    "title": "Graph Neural Networks for Node Classification",
     "authors": [],
     "filepath": "documents/Graph_Convolutional_Networks__1748375983.pdf",
-    "upload_date": "2025-06-13T22:59:42.655916",
+    "upload_date": "2025-06-17T09:28:55.996144",
     "file_size": 5574863,
-    "summary": "This document provides the code for loading a dataset using the Planetoid library, specifically the Cora dataset, which is commonly used in graph-based machine learning tasks. The code also initializes a Graph Neural Network (GNN) model. The paper, available at arXiv:1609.02907v4, introduces Graph Convolutional Networks (GCNs), a type of deep learning architecture designed for graph-structured data. GCNs have been widely used in various applications such as node classification and link prediction.",
+    "summary": "This document discusses the implementation of a Graph Neural Network (GNN) for node classification on the Cora dataset. The GNN architecture consists of two layers with 128 hidden units and is trained using the Adam optimizer.",
     "keywords": [
-      "Graph Convolutional Networks",
+      "PyTorch",
+      "Graph Neural Networks",
+      "GCN",
       "GNN",
-      "Planetoid",
-      "Cora dataset",
       "Deep Learning"
     ],
     "key_concepts": [
-      "Graph Convolutional Networks (GCNs) are a type of deep learning architecture designed for graph-structured data.",
-      "The code provided loads the Cora dataset using the Planetoid library.",
-      "The document initializes a Graph Neural Network (GNN) model.",
-      "GCNs have been applied to tasks such as node classification and link prediction.",
-      "The paper is available at arXiv:1609.02907v4."
+      "Graph Convolutional Networks",
+      "Neural Network Architecture",
+      "Model Training",
+      "Hyperparameter Tuning"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides code for loading a dataset and initializing a GNN model."
+    "content_preview": "Document: Graph Neural Networks for Node Classification",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "PyTorch",
+      "Graph Neural Networks",
+      "GCN"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Node classification",
+      "Graph-structured data analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Graph Neural Networks for Node Classification",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: PyTorch, Graph Neural Networks, GCN",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.75
   },
   {
     "id": "e4919e56a68a2cbbdd4213ec060b37e7",
