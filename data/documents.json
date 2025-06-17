@@ -12958,26 +12958,88 @@
     "title": "Deep Learning in Python",
     "authors": [],
     "filepath": "documents/Deep_Learning_in_Python_1741329080.pdf",
-    "upload_date": "2025-06-14T13:06:50.714945",
+    "upload_date": "2025-06-17T22:29:02.429665",
     "file_size": 2895863,
-    "summary": "This document provides an introduction to deep learning using Python. It covers the composition of neural networks, including input, hidden, and output layers, as well as various activation functions such as Sigmoid, ReLU, Tanh, and Softmax. The text also discusses loss functions like MSE and Cross-Entropy, and optimizers such as SGD, Adam, and RMSprop. It concludes with a practical example of creating a Feedforward Neural Network (FNN) using TensorFlow and Keras libraries.",
+    "summary": "This document provides an overview of deep learning in Python, including neural networks, activation functions, loss functions, optimizers, and a step-by-step guide to training and evaluating a neural network. It also covers the use of convolutional neural networks (CNNs) for image classification and object detection.",
     "keywords": [
       "Deep Learning",
-      "Python",
       "Neural Networks",
+      "Python",
       "Activation Functions",
-      "Loss Functions"
+      "Loss Functions",
+      "Optimizers"
     ],
     "key_concepts": [
-      "A neural network is composed of input, hidden, and output layers.",
-      "Common activation functions include Sigmoid, ReLU, Tanh, and Softmax.",
-      "Loss functions like MSE and Cross-Entropy are used to measure the difference between predicted and actual values.",
-      "Optimizers such as SGD, Adam, and RMSprop help adjust the weights of a neural network during training.",
-      "This document provides a practical example of creating a Feedforward Neural Network (FNN) using TensorFlow and Keras libraries."
+      "Feedforward Neural Network (FNN)",
+      "ReLU (Rectified Linear Unit)",
+      "Sigmoid",
+      "Tanh",
+      "Softmax",
+      "Convolutional Neural Network (CNN)"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document introduces deep learning using Python, covering neural networks, activation functions, loss functions, optimizers, and a practical example."
+    "content_preview": "Document: Deep Learning in Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "TensorFlow"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Deep Learning",
+      "Neural Networks",
+      "Python"
+    ],
+    "methodologies": [
+      "Deep Learning",
+      "Feedforward Neural Network"
+    ],
+    "tools_mentioned": [
+      "Keras",
+      "Conv2D",
+      "MaxPooling2D"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Image Classification",
+      "Object Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning in Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Deep Learning, Neural Networks, Python",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "d1aea813d6dddce1a40c98b0d14d6e58",
