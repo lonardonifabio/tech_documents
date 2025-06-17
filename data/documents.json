@@ -11707,30 +11707,81 @@
   {
     "id": "af6cfd62e6c00b880899a1e2b254f3c7",
     "filename": "Data_Science_Public_Datasets_1702277546.pdf",
-    "title": "Data Science Public Datasets",
-    "authors": [
-      "Hemanshu Ramchandani"
-    ],
+    "title": "Datasets for Data Science and Machine Learning",
+    "authors": [],
     "filepath": "documents/Data_Science_Public_Datasets_1702277546.pdf",
-    "upload_date": "2025-06-14T13:06:50.250945",
+    "upload_date": "2025-06-17T12:16:31.299922",
     "file_size": 3360998,
-    "summary": "This document provides a comprehensive guide to various public datasets suitable for Data Science, Machine Learning, and Deep Learning projects across diverse domains such as Agriculture, Biology, Finance, Healthcare, and more. The author, Hemanshu Ramchandani, shares insights on complementary collections, data challenges, and popular datasets in specific areas like ImageProcessing, MachineLearning, and TimeSeries. The guide is valuable for both beginners and advanced professionals.",
+    "summary": "This document provides a comprehensive list of datasets across various domains, including agriculture, architecture, biology, chemistry, climate, complex networks, computer networks, cybersecurity, data challenges, earth science, economics, education, energy, entertainment, finance, GIS, government, healthcare, image processing, machine learning, museums, natural language, neuroscience, physics, prostate cancer, psychology and cognition, public domains, search engines, social networks, social sciences, software, sports, time series, transportation, esports, and complementary collections.",
     "keywords": [
       "Data Science",
-      "Public Datasets",
       "Machine Learning",
       "Deep Learning"
     ],
     "key_concepts": [
-      "This guide offers a collection of public datasets suitable for various Data Science, Machine Learning, and Deep Learning projects.",
-      "The document provides insights into complementary collections and data challenges in specific areas like ImageProcessing, MachineLearning, and TimeSeries.",
-      "The guide is valuable for both beginners and advanced professionals in the field of Data Science and Machine Learning.",
-      "The author, Hemanshu Ramchandani, shares his expertise on popular datasets across diverse domains such as Agriculture, Biology, Finance, Healthcare, and more.",
-      "This document serves as a useful resource for finding datasets for your next project in the domain of Data Science, Machine Learning, or Deep Learning."
+      "Agriculture",
+      "Biology",
+      "Computer Networks"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Guide to public datasets for Data Science, Machine Learning, and Deep Learning projects."
+    "content_preview": "Document: Datasets for Data Science and Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Data Science",
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "methodologies": [
+      "Remote Sensing",
+      "Optimization"
+    ],
+    "tools_mentioned": [
+      "PLANTS Database",
+      "1000 Genomes Project"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Datasets for Data Science and Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Data Science, Machine Learning, Deep Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "d69c0cf7c162284bd6f8a09a6fbdfc88",
