@@ -112,7 +112,7 @@ class DocumentChunker:
 class OllamaClient:
     """Handles communication with Ollama API."""
     
-    def __init__(self, model_name: str = "llama3.1:8b", host: str = None):
+    def __init__(self, model_name: str = "llama3.2:3b", host: str = None):
         self.model_name = model_name
         self.host = host or os.getenv('OLLAMA_HOST', '127.0.0.1:11434')
         if not self.host.startswith('http'):
@@ -380,7 +380,7 @@ class ResultAggregator:
 class FixedOllamaDocumentProcessor:
     """Enhanced document processor with multi-chunk analysis and multi-pass approach."""
     
-    def __init__(self, model_name: str = "llama3.1:8b"):
+    def __init__(self, model_name: str = "llama3.2:3b"):
         self.model_name = model_name
         self.base_dir = Path.cwd()
         self.documents_dir = self.base_dir / 'documents'
@@ -693,7 +693,7 @@ class FixedOllamaDocumentProcessor:
 def main():
     """Main entry point."""
     # Allow custom model name via environment variable or argument
-    model_name = os.getenv('OLLAMA_MODEL', 'llama3.1:8b')
+    model_name = os.getenv('OLLAMA_MODEL', 'llama3.2:3b')
     if len(sys.argv) > 1 and not sys.argv[1].startswith('--'):
         model_name = sys.argv[1]
     
