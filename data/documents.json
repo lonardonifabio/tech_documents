@@ -39064,32 +39064,104 @@
   {
     "id": "50185136268b141512a6c9e749379e39",
     "filename": "math4DeepLearning__1739721082.pdf",
-    "title": "Mathematical Theory of Deep Learning",
-    "authors": [
-      "Philipp Petersen",
-      "Jakob Zech"
-    ],
+    "title": "Mathematical theory of deep learning",
+    "authors": [],
     "filepath": "documents/math4DeepLearning__1739721082.pdf",
-    "upload_date": "2025-06-14T12:13:59.175134",
+    "upload_date": "2025-06-17T12:16:42.068923",
     "file_size": 8071909,
-    "summary": "This document delves into the mathematical foundations of deep learning, providing a comprehensive overview of feedforward neural networks, universal approximation, and splines. The authors, Philipp Petersen and Jakob Zech, discuss the formal definition, size, activation functions, and universal approximation theorem of feedforward neural networks. They also explore B-splines and smooth functions in the context of splines. Key findings include the universal approximation property of deep learning models and the use of superexpressive activations. Practical applications range from machine learning to data science.",
+    "summary": "A document discussing the mathematical foundations of deep learning, including formal definitions, universal approximation, and activation functions.",
     "keywords": [
-      "Deep Learning",
-      "Mathematics",
-      "Neural Networks",
-      "Universal Approximation",
-      "Splines"
+      "deep learning",
+      "mathematical theory",
+      "neural networks",
+      "deep neural networks",
+      "generalization properties",
+      "empirical risk minimization",
+      "covering numbers",
+      "PAC learning",
+      "overparameterized regime",
+      "double descent phenomenon"
     ],
     "key_concepts": [
-      "This document explains the mathematical theory behind deep learning, focusing on feedforward neural networks and their formal definition, size, activation functions, and universal approximation.",
-      "The authors discuss a universal approximation theorem that demonstrates the ability of deep learning models to approximate any continuous function with arbitrary accuracy.",
-      "The text also covers superexpressive activations and Kolmogorov’s superposition theorem, which are key concepts in understanding the expressive power of deep learning models.",
-      "B-splines and smooth functions are explored as part of the spline theory, providing a mathematical framework for modeling complex data.",
-      "The theoretical principles discussed in this document have practical implications for machine learning, data science, and other fields that utilize deep learning models."
+      "Universal approximation theorem",
+      "Kolmogorov's superposition theorem",
+      "B-splines",
+      "Generalization bounds",
+      "Approximation-complexity trade-off",
+      "VC dimension",
+      "Lower bounds on achievable approximation rates",
+      "Robustness and adversarial examples",
+      "Artificial neural networks",
+      "Deep learning architectures"
     ],
-    "category": "AI",
-    "difficulty": "Advanced",
-    "content_preview": "This document delves into the mathematical foundations of deep learning, providing a comprehensive overview of feedforward neural networks and splines."
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Mathematical theory of deep learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning",
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "deep learning",
+      "mathematical theory",
+      "neural networks"
+    ],
+    "methodologies": [
+      "mathematical theory",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "neural networks",
+      "activation functions",
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Deep Learning",
+      "Neural Networks",
+      "Computer Vision",
+      "Image Recognition"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Mathematical theory of deep learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: deep learning, mathematical theory, neural networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "d0f718937772420daf4830eeb58d69b7",
