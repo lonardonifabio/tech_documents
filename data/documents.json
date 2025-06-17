@@ -24922,27 +24922,88 @@
   {
     "id": "f0d459ea224d863a4619bcb90b5f25ae",
     "filename": "Mathematics_of_Algorithms_Cheatsheet_1567887099.pdf",
-    "title": "Mathematics of Algorithms Cheatsheet",
+    "title": "Algorithms for Supervised- and Unsupervised Learning",
     "authors": [],
     "filepath": "documents/Mathematics_of_Algorithms_Cheatsheet_1567887099.pdf",
-    "upload_date": "2025-06-14T13:06:55.365945",
+    "upload_date": "2025-06-17T12:16:36.442923",
     "file_size": 248045,
-    "summary": "This document provides a cheat sheet for understanding algorithms used in supervised- and unsupervised learning, including k-nearest neighbour, Naive Bayes, and Gaussian likelihood. The k-nearest neighbour algorithm classifies new points based on the most frequent label of the k nearest training instances. Naive Bayes learns the class conditional probability using Bayes' rule, assuming each feature is independent of all others. Gaussian likelihood is not explicitly detailed in this document but is a common method used in machine learning.",
+    "summary": "This document provides an overview of various algorithms used in supervised and unsupervised learning, including k-nearest neighbor, naive Bayes, and Gaussian likelihood. It explains the model objective, training, regularization, complexity, and online learning capabilities of each algorithm.",
     "keywords": [
       "k-nearest neighbour",
+      "Bayes' rule",
       "Naive Bayes",
-      "Gaussian likelihood",
-      "supervised learning",
-      "unsupervised learning"
+      "Multivariate likelihood",
+      "Multinomial likelihood"
     ],
     "key_concepts": [
-      "The k-nearest neighbour algorithm classifies a new point based on the most frequent label of the k nearest training instances.",
-      "Naive Bayes learns the class conditional probability by assuming each feature is independent of all others.",
-      "Gaussian likelihood is a common method used in machine learning, but it is not explicitly detailed in this document."
+      "K-Nearest Neighbour Algorithm",
+      "Naive Bayes Classification",
+      "Multivariate Likelihood",
+      "Multinomial Likelihood",
+      "Gaussian Likelihood"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This cheat sheet covers algorithms for supervised- and unsupervised learning: k-nearest neighbour, Naive Bayes, and Gaussian likelihood."
+    "content_preview": "Document: Algorithms for Supervised- and Unsupervised Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "R"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "k-nearest neighbour",
+      "Bayes' rule",
+      "Naive Bayes"
+    ],
+    "methodologies": [
+      "Supervised Learning",
+      "Unsupervised Learning"
+    ],
+    "tools_mentioned": [
+      "Scikit-learn",
+      "TensorFlow"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Supervised Learning",
+      "Unsupervised Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Algorithms for Supervised- and Unsupervised Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: k-nearest neighbour, Bayes' rule, Naive Bayes",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a418c754f86c59f22fe2b6674a8717d7",
