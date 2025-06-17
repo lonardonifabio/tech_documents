@@ -12656,31 +12656,81 @@
   {
     "id": "d1aea813d6dddce1a40c98b0d14d6e58",
     "filename": "Deep_Learning_with_Keras_1653087880.pdf",
-    "title": "Beginner's Guide To Deep Learning With Keras",
-    "authors": [
-      "Frank Millstein"
-    ],
+    "title": "Deep Learning with Keras",
+    "authors": [],
     "filepath": "documents/Deep_Learning_with_Keras_1653087880.pdf",
-    "upload_date": "2025-06-14T13:06:50.717945",
+    "upload_date": "2025-06-17T12:16:31.772922",
     "file_size": 515650,
-    "summary": "This document serves as a comprehensive guide for beginners to understand and apply deep learning concepts using the Keras library. It covers topics such as neural networks, convolutional neural networks (CNN), recurrent neural networks (RNN), and long short-term memory (LSTM). The author, Frank Millstein, provides practical examples and explanations that make complex concepts accessible to beginners. This guide is useful for those looking to start their journey in deep learning.",
+    "summary": "A beginner's guide to deep learning using the Keras library, covering various topics such as neural networks, convolutional and recurrent neural networks, activation functions, and more.",
     "keywords": [
       "Deep Learning",
       "Keras",
-      "Neural Networks",
-      "CNN",
-      "RNN"
+      "Neural Networks"
     ],
     "key_concepts": [
-      "Deep learning is a subset of machine learning that uses artificial neural networks with multiple layers to learn and make predictions.",
-      "Keras is an open-source Python library for building and training deep learning models.",
-      "Convolutional Neural Networks (CNN) are a type of neural network commonly used in image processing tasks, such as object recognition and classification.",
-      "Recurrent Neural Networks (RNN) are a type of neural network that can process sequential data, such as time series or natural language.",
-      "Long Short-Term Memory (LSTM) is a special kind of RNN designed to handle long-term dependencies in sequential data."
+      "Machine Learning",
+      "Convolutional Neural Networks",
+      "Recurrent Neural Networks"
     ],
-    "category": "Machine Learning",
-    "difficulty": "Beginner",
-    "content_preview": "A beginner's guide to deep learning with Keras"
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Deep Learning with Keras",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Computer Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Keras"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Deep Learning",
+      "Keras",
+      "Neural Networks"
+    ],
+    "methodologies": [
+      "Deep Learning"
+    ],
+    "tools_mentioned": [
+      "scikit-learn"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning with Keras",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Deep Learning, Keras, Neural Networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "0da6e1555b063c2be4cc09a2e6769281",
