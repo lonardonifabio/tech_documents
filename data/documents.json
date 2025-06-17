@@ -37598,25 +37598,99 @@
   {
     "id": "fab32f3bcbee783d85f89d8e4077a11c",
     "filename": "Unified_Data_Infrastructure_Architecture_1620762115.pdf",
-    "title": "A Unified Data Infrastructure Architecture",
+    "title": "Uni÷ed Data Infrastructure Architecture",
     "authors": [],
     "filepath": "documents/Unified_Data_Infrastructure_Architecture_1620762115.pdf",
-    "upload_date": "2025-06-14T13:06:59.818945",
+    "upload_date": "2025-06-17T12:16:41.026923",
     "file_size": 167799,
-    "summary": "This document discusses a comprehensive data infrastructure architecture, focusing on various components such as OLTP databases, dashboards, embedded analytics, augmented analytics, app frameworks, custom apps, ad hoc query engines, real-time analytics, applications/ERP, data modeling, Spark platforms, Python libraries, event streaming, stream processing, metadata management, quality and testing, entitlements and security, observability, batch query engine, event collectors, workflow manager, 3rd party APIs, file and object storage, logs, data lake, query and processing, data warehouse, data science platform, data science and ML libraries. The architecture includes tools like Fivetran, Lo...",
+    "summary": "A comprehensive overview of various data infrastructure components, including OLTP databases, dashboards, analytics tools, app frameworks, and more.",
     "keywords": [
-      "Technology"
+      "CDCConnectors",
+      "Dashboards",
+      "Embedded Analytics",
+      "Augmented Analytics",
+      "App Frameworks",
+      "Custom Apps",
+      "Real-time Analytics",
+      "Data Modeling",
+      "Spark Platform",
+      "Databricks"
     ],
     "key_concepts": [
-      "This document explores fundamental concepts related to a unified data infrastructure architecture providing theoretical foundations and practical insights for understanding the subject matter.",
-      "The methodology presented in this work demonstrates systematic approaches to data science with emphasis on evidence-based practices and proven techniques.",
-      "Key findings and applications discussed include real-world implementations and case studies that illustrate the practical value of the concepts presented in this document.",
-      "The theoretical framework underlying this work builds upon established principles in data science while introducing innovative perspectives and methodologies.",
-      "Practical implications of this research extend to various domains where data science principles can be applied to solve complex problems and improve outcomes."
+      "Uniﬁed Data Infrastructure Architecture",
+      "OLTP Databases",
+      "CDCConnectors",
+      "Dashboards",
+      "Embedded Analytics",
+      "Augmented Analytics",
+      "App Frameworks",
+      "Custom Apps",
+      "Real-time Analytics",
+      "Data Modeling"
     ],
-    "category": "Data Science",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Document: A Unified Data Infrastructure Architecture"
+    "content_preview": "Document: Uni÷ed Data Infrastructure Architecture",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Data Management"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Fivetran",
+      "Stitch",
+      "Matillion"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "CDCConnectors",
+      "Dashboards",
+      "Embedded Analytics"
+    ],
+    "methodologies": [
+      "Looker",
+      "Superset",
+      "Mode",
+      "Tableau"
+    ],
+    "tools_mentioned": [
+      "Sisense",
+      "Looker",
+      "cube.js"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Uni÷ed Data Infrastructure Architecture",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: CDCConnectors, Dashboards, Embedded Analytics",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "4d43492c747614a816c26ef9a4e34877",
