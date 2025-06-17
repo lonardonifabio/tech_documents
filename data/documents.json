@@ -43157,29 +43157,93 @@
   {
     "id": "cacef68f4e799a266e193190b283bbaa",
     "filename": "git cheat sheet.pdf",
-    "title": "Git Cheat Sheet",
+    "title": "Version control with Git",
     "authors": [],
     "filepath": "documents/git cheat sheet.pdf",
-    "upload_date": "2025-06-14T13:07:00.713945",
+    "upload_date": "2025-06-17T22:29:12.634771",
     "file_size": 259772,
-    "summary": "This document provides a comprehensive guide to using Git, a popular version control system. It covers topics such as cloning repositories, making local changes, committing and amending commits, viewing commit history, managing branches and tags, and updating and publishing changes. The document is presented by TOWER and can be accessed with a 30-day free trial at www.git-tower.com.",
+    "summary": "This document provides an overview of the basics of version control using Git, including how to create and manage local repositories, track changes, commit changes, and work with branches and tags. A 30-day free trial is available at www.git-tower.com.",
     "keywords": [
-      "Git",
-      "Version Control",
-      "Repository",
-      "Clone",
-      "Commit"
+      "git",
+      "version control",
+      "clone",
+      "init",
+      "status",
+      "diff",
+      "add",
+      "commit",
+      "log",
+      "branch"
     ],
     "key_concepts": [
-      "The document explains how to clone an existing repository using Git.",
-      "It provides steps for creating a new local repository and adding changes to be committed.",
-      "The document details the process of committing all local changes, amending commits, and viewing commit history.",
-      "It covers managing branches and tags in a Git repository.",
-      "The document also explains how to update and publish changes."
+      "Git version control workflow",
+      "Repository management",
+      "Branching and merging",
+      "Tagging and publishing"
     ],
-    "category": "Data Science",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Learn to use Git with this comprehensive cheat sheet."
+    "content_preview": "Document: Version control with Git",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Software Development"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "git"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "git",
+      "version control",
+      "clone"
+    ],
+    "methodologies": [
+      "version control"
+    ],
+    "tools_mentioned": [
+      "ssh",
+      "git init",
+      "git status",
+      "git diff",
+      "git add"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Version Control",
+      "Git Management"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Version control with Git",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: git, version control, clone",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "0ade4f6bb34e0254e2bac8d11269070f",
