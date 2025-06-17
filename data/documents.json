@@ -22331,30 +22331,88 @@
   {
     "id": "63f28fafcd2b3e1c0dd0787c307b36c7",
     "filename": "MongoDB_with_Python_1639905443.pdf",
-    "title": "MongoDB with Python Guide",
-    "authors": [
-      "Arjun Panwar"
-    ],
+    "title": "MongoDb with Python",
+    "authors": [],
     "filepath": "documents/MongoDB_with_Python_1639905443.pdf",
-    "upload_date": "2025-06-13T22:59:46.160932",
+    "upload_date": "2025-06-16T22:24:22.743302",
     "file_size": 58923,
-    "summary": "This document provides a comprehensive guide on using MongoDB with Python, emphasizing the use of Object-Oriented Programming (OOPs) concepts for code reusability. The author, Arjun Panwar, has created a custom logging class to log each step into a file. The document also includes the implementation of a MongoDB class for performing various tasks.",
+    "summary": "This document provides a guide on using MongoDB with Python. It covers the use of OOPs concepts to increase code reusability and logging every step into a file using a custom logging class. The document also includes examples of using the `pymongo` library and creating a `mongodb` class for performing various MongoDB tasks.",
     "keywords": [
-      "MongoDB",
+      "MongoDb",
       "Python",
       "OOPs",
-      "Logging",
-      "Custom Class"
+      "reusability",
+      "logging",
+      "custom logging class"
     ],
     "key_concepts": [
-      "The guide demonstrates how OOPs concepts are used to increase the reusability of code in MongoDB with Python.",
-      "A custom logging class is created to log each step into a file, enhancing transparency and traceability.",
-      "The document includes the implementation of a MongoDB class for performing various tasks such as data insertion, querying, and updating.",
-      "The theoretical framework revolves around using Python libraries like pymongo and pandas to interact with MongoDB."
+      "Extensive use of OOPs concepts for code reusability",
+      "Logging every step into a file using a custom logging class",
+      "Importing DateTime package and using it to log current time",
+      "Creating a MongoDB class for performing MongoDB tasks",
+      "Using Pandas library for data manipulation"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a guide on using MongoDB with Python, emphasizing OOPs concepts and custom logging."
+    "content_preview": "Document: MongoDb with Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Software Development"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "MongoDb",
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "MongoDb",
+      "Python",
+      "OOPs"
+    ],
+    "methodologies": [
+      "Object-Oriented Programming (OOPs)"
+    ],
+    "tools_mentioned": [
+      "Pymongo",
+      "pandas"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Database Management",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: MongoDb with Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: MongoDb, Python, OOPs",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "2c6c0a918d35fd886487f0bc923d3a52",
