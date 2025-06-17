@@ -37512,30 +37512,108 @@
     "id": "3749d8e8ab13d882352008b333652243",
     "filename": "iusmanmaqbool__1745404166.pdf",
     "title": "Master Machine Learning Algorithms",
-    "authors": [
-      "Jason Brownlee"
-    ],
+    "authors": [],
     "filepath": "documents/iusmanmaqbool__1745404166.pdf",
-    "upload_date": "2025-06-13T22:59:51.220953",
+    "upload_date": "2025-06-17T12:16:41.982923",
     "file_size": 1120234,
-    "summary": "This document provides a comprehensive guide to understanding and implementing various machine learning algorithms from scratch. It covers popular algorithms such as linear regression, logistic regression, decision trees, random forests, support vector machines, k-nearest neighbors, and neural networks. The author emphasizes practical applications and offers code examples in Python. The book is suitable for both beginners and intermediate learners.",
+    "summary": "Discover How They Work and Implement Them From Scratch i Master Machine Learning Algorithms is a book by Jason Brownlee that covers machine learning algorithms from scratch. The book provides an introduction to the field of machine learning, including data types, statistical learning perspective, computer science perspective, models, and algorithms. It also discusses how to implement these algorithms using Python.",
     "keywords": [
-      "Machine Learning",
-      "Algorithms",
-      "Python",
-      "Data Science",
-      "Artificial Intelligence"
+      "machine learning",
+      "algorithms",
+      "data",
+      "statistical learning",
+      "computer science",
+      "Linear Regression",
+      "Gradient Descent",
+      "Naive Bayes",
+      "Gaussian Naive Bayes",
+      "K-Nearest Neighbors"
     ],
     "key_concepts": [
-      "Learn the inner workings of popular machine learning algorithms",
-      "Implement these algorithms from scratch using Python",
-      "Understand practical applications and use cases for each algorithm",
-      "Gain a strong foundation in machine learning principles",
-      "Apply learned concepts to real-world problems"
+      "Master Machine Learning Algorithms",
+      "Discover How They Work and Implement Them From Scratch",
+      "Machine Learning Mastery",
+      "Simple Linear Regression",
+      "Stochastic Gradient Descent",
+      "Machine Learning",
+      "Supervised Learning",
+      "Probability Density Function",
+      "AdaBoost Ensemble",
+      "Making Predictions with AdaBoost"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn popular machine learning algorithms and implement them from scratch."
+    "content_preview": "Document: Master Machine Learning Algorithms",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning",
+      "Finance and Banking"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Naive Bayes",
+      "Gaussian Naive Bayes",
+      "K-Nearest Neighbors",
+      "AdaBoost"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "algorithms",
+      "data"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Gradient Descent",
+      "Ensemble"
+    ],
+    "tools_mentioned": [
+      "Scikit-learn",
+      "TensorFlow",
+      "Linear Regression",
+      "Python",
+      "AdaBoost Ensemble Tool"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Model Implementation",
+      "Predictive Maintenance",
+      "Risk Analysis",
+      "Text Classification"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Master Machine Learning Algorithms",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, algorithms, data",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "afe3766aaa1a67c462c8c627e6e63b63",
