@@ -29085,29 +29085,103 @@
   {
     "id": "18bbcbfda4368a4dad98ee3fdf6c8633",
     "filename": "Reading_and_Writing_Data_with_Pandas_1634107076.pdf",
-    "title": "Reading and Writing Data with Pandas",
+    "title": "Pandas Skills Mastery Workshop",
     "authors": [],
     "filepath": "documents/Reading_and_Writing_Data_with_Pandas_1634107076.pdf",
-    "upload_date": "2025-06-13T22:59:47.953939",
+    "upload_date": "2025-06-17T09:29:01.399231",
     "file_size": 914442,
-    "summary": "This document provides a comprehensive guide on using the Pandas library to read and write various types of data. It covers methods for reading data, such as pd.read_* where * is the file type, and saving DataFrames and Series to disk using their to_* method. The document also discusses usage patterns like parsing tables from the web, writing data structures to disk, reading text files into a DataFrame, and interacting with databases. It highlights the use of pd.read_clipboard() for one-off data extractions and other read_* methods in scripts for repeatable analyses.",
+    "summary": "A guide to reading and writing data with Pandas, including methods for parsing tables from the web and writing data structures to disk.",
     "keywords": [
-      "Pandas",
-      "DataFrame",
-      "Data Structures",
-      "Reading Data",
-      "Writing Data"
+      "pandas",
+      "data analysis",
+      "data reading",
+      "data writing",
+      "split",
+      "replace",
+      "extract",
+      "findall",
+      "lower",
+      "isupper"
     ],
     "key_concepts": [
-      "Methods to read data are all named pd.read_* where * is the file type.",
-      "Series and DataFrames can be saved to disk using their to_* method.",
-      "Usage patterns include parsing tables from the web, writing data structures to disk, reading text files into a DataFrame, and interacting with databases.",
-      "Colors highlight how different arguments map from the data file to a DataFrame.",
-      "The parse_dates argument can be used to parse columns as dates."
+      "DataFrames",
+      "Series",
+      "pd.read_* methods",
+      "to_* methods",
+      "Data parsing",
+      "Date parsing",
+      "Data manipulation",
+      "String operations",
+      "Date and time conversions",
+      "Indexing and filtering"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a guide on using Pandas to read and write data."
+    "content_preview": "Document: Pandas Skills Mastery Workshop",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science",
+      "Finance and Banking"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Pandas",
+      "pandas"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "pandas",
+      "data analysis",
+      "data reading"
+    ],
+    "methodologies": [
+      "Data Analysis",
+      "Data Manipulation",
+      "data manipulation",
+      "data analysis"
+    ],
+    "tools_mentioned": [
+      "Python",
+      "python",
+      "jupyter notebook"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Data Visualization",
+      "Data Cleaning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Pandas Skills Mastery Workshop",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: pandas, data analysis, data reading",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "4907ab19576676ef5d8da993f9224bc3",
