@@ -34356,31 +34356,93 @@
   {
     "id": "3ef0892fd66acd61cbbf088ea076b04c",
     "filename": "Visual_Introduction_to_Deep_Learning_1643132799.pdf",
-    "title": "Visual Introduction to Deep Learning",
-    "authors": [
-      "Author's Name"
-    ],
+    "title": "Deep Learning",
+    "authors": [],
     "filepath": "documents/Visual_Introduction_to_Deep_Learning_1643132799.pdf",
-    "upload_date": "2025-06-13T22:59:50.350950",
+    "upload_date": "2025-06-17T09:29:03.828270",
     "file_size": 5540276,
-    "summary": "This document provides a comprehensive introduction to deep learning, the current driving force behind artificial intelligence (AI). It discusses the potential economic impact of AI by 2030 and the exciting career opportunities it presents. However, deep learning can be daunting to learn due to the abundance of resources and the problem of information overload. This book aims to compress this knowledge and make the subject approachable. By the end of this book, you will be able to build a visual intuition about deep learning and neural networks.",
+    "summary": "Deep learning is the algorithm powering the current renaissance of artificial intelligence (AI). Its progress is not showing signs of slowing down. A McKinsey report estimates that by 2030, AI will potentially deliver $13 trillion to the global economy, or 16% of the world's current GDP. This opens up exciting career opportunities in the coming decade. However, deep learning can be daunting to learn. With the abundance of learning resources in recent years has emerged another problem - formation overload. This book aims to compress this knowledge and make the subject approachable. By the end of this book, you will be able to build a visual intuition about deep learning and neural networks.",
     "keywords": [
-      "Deep Learning",
       "Artificial Intelligence",
-      "Career Opportunities",
-      "Learning Resources",
-      "Visual Introduction"
+      "Machine Learning",
+      "Neural Networks",
+      "prediction",
+      "decision-making",
+      "uncertainty",
+      "experience",
+      "language translation",
+      "business experience"
     ],
     "key_concepts": [
-      "Deep learning is the algorithm powering the current revolution in artificial intelligence (AI).",
-      "By 2030, AI could potentially deliver $13 trillion to the global economy, or 16% of the world's current GDP.",
-      "This book aims to compress this knowledge and make the subject approachable for both beginners and those with some background in deep learning.",
-      "The author has a background in neurotechnology and has worked in the telecoms data analytics space, serving clients in over 15 countries.",
-      "The book is intended for those new to deep learning or those who already have some background but want to gain further intuition."
+      "Deep Learning",
+      "AI Renaissance",
+      "Career Opportunities",
+      "The role of prediction in decision-making under uncertainty",
+      "How experience affects prediction and decision-making",
+      "Examples of prediction in language translation, business, and driving"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This book aims to compress the knowledge of deep learning and make it approachable for both beginners and those with some background."
+    "content_preview": "Document: Deep Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence",
+      "Business"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Neural Networks"
+    ],
+    "methodologies": [
+      "method1"
+    ],
+    "tools_mentioned": [
+      "tool1"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Neural Networks",
+      "Language Translation",
+      "Customer Experience Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Artificial Intelligence, Machine Learning, Neural Networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "6476287a7d82ed2a31c6d5c385befcfa",
