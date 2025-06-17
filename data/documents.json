@@ -35817,29 +35817,92 @@
   {
     "id": "e9c8674dcf7f623a2b0a8edecd69f5b2",
     "filename": "_ 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐬 !_1741200192.pdf",
-    "title": "_ 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐬 !_1741200192.pdf",
-    "authors": [
-      "Piush Kumar Sharma"
-    ],
+    "title": "Basic Python Programs",
+    "authors": [],
     "filepath": "documents/_ 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐬 !_1741200192.pdf",
-    "upload_date": "2025-06-14T12:13:58.455144",
+    "upload_date": "2025-06-17T12:16:41.359923",
     "file_size": 4646138,
-    "summary": "This document provides over 140 basic Python programs for interview preparation, covering topics such as printing statements, arithmetical operations, and finding the area of a triangle using Jupyter Notebook. The programs include addition, division, and a program to find the area of a triangle.",
+    "summary": "A collection of basic Python programs for practicing and preparing for interviews, including arithmetic operations, geometric calculations, and user input.",
     "keywords": [
-      "Python",
-      "Programs",
-      "Interview Preparation",
-      "Jupyter Notebook"
+      "python",
+      "programming",
+      "interview",
+      "armstrong number",
+      "fibonacci sequence",
+      "python program"
     ],
     "key_concepts": [
-      "The document provides basic Python programs for interview preparation",
-      "The programs are presented in Jupyter Notebook format",
-      "The programs cover topics such as printing statements, arithmetical operations, and finding the area of a triangle",
-      "Users are required to input values for the programs to run"
+      "Basic Python Programs",
+      "Arithmetical Operations",
+      "Geometry (Triangle Area)",
+      "Armstrong Number: A number that is equal to the sum of its own digits, each raised to a power equal to the number of digits in the number.",
+      "Fibonacci Sequence: A series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1."
     ],
-    "category": "Technology",
-    "difficulty": "Beginner",
-    "content_preview": "This document provides basic Python programs for interview preparation"
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Basic Python Programs",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education",
+      "Computer Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "python",
+      "programming",
+      "interview"
+    ],
+    "methodologies": [
+      "procedural programming",
+      "input/output operations",
+      "Iterative",
+      "Recursive"
+    ],
+    "tools_mentioned": [
+      "Jupyter Notebook"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Programming tutorials",
+      "Interview preparation",
+      "Armstrong Number Detection",
+      "Fibonacci Sequence Generation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Basic Python Programs",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: python, programming, interview",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "cb096965ed93a6be32f0e58d1ebe7f37",
