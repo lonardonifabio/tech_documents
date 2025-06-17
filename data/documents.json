@@ -35323,25 +35323,93 @@
     "title": "Top 10 Machine Learning Algorithms",
     "authors": [],
     "filepath": "documents/Top_10_ML_Algorithm.pdf",
-    "upload_date": "2025-06-14T13:06:59.483945",
+    "upload_date": "2025-06-17T12:16:40.691923",
     "file_size": 3767043,
-    "summary": "This document provides an overview of the top 10 machine learning algorithms every engineer should know, including Naive Bayes Classifier, K Means Clustering, Support Vector Machine, Apriori, Linear Regression, Logistic Regression, Artificial Neural Networks, Random Forests, Decision Trees, and Nearest Neighbours. The document also discusses the increasing importance of machine learning in data science due to big data and programming tools like Python and R, and provides examples of real-world applications such as Netflix's recommendation algorithm.",
+    "summary": "This document provides an overview of the top machine learning algorithms, including Naéve Bayes Classifier, K Means Clustering Algorithm, and Support Vector Machine Algorithm. It discusses the importance of machine learning in data science and its applications, such as Netflix's recommendation algorithm. The document also highlights the need for beginners to understand the basics of machine learning.",
     "keywords": [
-      "Machine Learning Algorithms",
+      "Machine Learning",
+      "Algorithms",
       "Data Science",
-      "Python",
-      "R",
-      "Big Data"
+      "linear regression",
+      "machine learning",
+      "predictor",
+      "explanatory variables"
     ],
     "key_concepts": [
-      "Machine learning algorithms are essential for data scientists to know due to the rapid growth of big data and availability of programming tools like Python and R.",
-      "The document discusses 10 popular machine learning algorithms: Naive Bayes Classifier, K Means Clustering, Support Vector Machine, Apriori, Linear Regression, Logistic Regression, Artificial Neural Networks, Random Forests, Decision Trees, and Nearest Neighbours.",
-      "Real-world examples of machine learning applications are provided, such as Netflix's recommendation algorithm which learns more about a viewer's preferences based on the shows they watch.",
-      "The document explains that specialized machine learning algorithms have been developed to address complex real-world data problems."
+      "Artificial Neural Networks",
+      "Support Vector Machine",
+      "Decision Trees",
+      "dependent variable",
+      "independent variable",
+      "sales forecasting",
+      "risk assessment"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides an overview of the top 10 machine learning algorithms every engineer should know."
+    "content_preview": "Document: Top 10 Machine Learning Algorithms",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning",
+      "Business"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "R"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Algorithms",
+      "Data Science"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Data Science",
+      "Linear Regression"
+    ],
+    "tools_mentioned": [
+      "Netflix's recommendation algorithm",
+      "Kaggle"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Predictive Modeling",
+      "Sales Forecasting",
+      "Risk Assessment"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Top 10 Machine Learning Algorithms",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, Algorithms, Data Science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "5180f83cdda2a9147f2d6e8124c49f97",
