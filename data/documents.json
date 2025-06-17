@@ -12451,28 +12451,83 @@
   {
     "id": "c32c46f1ecfd79e4f5352a9159f495b1",
     "filename": "EDPB_A_1739522099.pdf",
-    "title": "Evaluating Bias in Algorithms (EDPB)",
+    "title": "Evaluating Bias in Algorithms",
     "authors": [],
     "filepath": "documents/EDPB_A_1739522099.pdf",
-    "upload_date": "2025-06-14T12:13:49.398164",
+    "upload_date": "2025-06-17T12:16:32.175922",
     "file_size": 488759,
-    "summary": "This document discusses the sources and reduction measures of bias in algorithms, focusing on social media and facial recognition technology. The European Data Protection Board clarifies that AI systems can reflect societal biases from historical data, and algorithmic choices can contribute to biased decisions. Evaluation bias is also addressed, which arises during assessments against non-representative datasets. Three methods for reducing bias - pre-processing, in-processing, and post-processing - are presented.",
+    "summary": "The document discusses sources of bias in algorithms, including historical data, algorithmic choices, and evaluation bias. It also highlights measures to address bias such as pre-processing, in-processing, and post-processing methods.",
     "keywords": [
-      "Bias",
-      "Algorithms",
-      "AI",
-      "Data Protection",
-      "Facial Recognition"
+      "bias evaluation",
+      "algorithmic bias",
+      "data bias",
+      "facial recognition technology"
     ],
     "key_concepts": [
-      "AI systems reflect societal biases from historical data",
-      "Algorithmic choices can contribute to biased decisions",
-      "Evaluation bias arises during assessments against non-representative datasets",
-      "Three methods for reducing bias - pre-processing, in-processing, and post-processing"
+      "Bias in algorithms",
+      "Sources of bias",
+      "Bias reduction measures"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses sources and reduction measures of bias in algorithms."
+    "content_preview": "Document: Evaluating Bias in Algorithms",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "Data Protection"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "bias evaluation",
+      "algorithmic bias",
+      "data bias"
+    ],
+    "methodologies": [
+      "Bias Evaluation",
+      "Algorithms"
+    ],
+    "tools_mentioned": [
+      "Facial Recognition Technology"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Bias evaluation in algorithms"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Evaluating Bias in Algorithms",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: bias evaluation, algorithmic bias, data bias",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "5d73f23cd5b955316ea6fcceeb2001ec",
