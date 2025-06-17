@@ -21967,32 +21967,112 @@
   {
     "id": "7e255cb8a17a7ea6c61cf95b76d7ba72",
     "filename": "MachineLearningCheatsheet_1617636712.pdf",
-    "title": "Machine Learning Cheatsheet",
-    "authors": [
-      "Afshine Amidi",
-      "Shervine Amidi"
-    ],
+    "title": "Machine Learning",
+    "authors": [],
     "filepath": "documents/MachineLearningCheatsheet_1617636712.pdf",
-    "upload_date": "2025-06-14T13:06:54.170945",
+    "upload_date": "2025-06-17T12:16:35.255923",
     "file_size": 1365616,
-    "summary": "This document is a comprehensive cheatsheet for CS 229 – Machine Learning, providing an overview of various machine learning concepts and methodologies. It covers supervised learning, unsupervised learning, linear models, support vector machines, generative learning, tree-based methods, other non-parametric approaches, and learning theory. Key topics include linear regression, classification, logistic regression, generalized linear models, Gaussian Discriminant Analysis, Naive Bayes, k-means clustering, and Expectation-Maximization.",
+    "summary": "A comprehensive guide to machine learning, covering supervised and unsupervised learning, linear models, support vector machines, generative learning, tree-based methods, non-parametric approaches, and more.",
     "keywords": [
       "Machine Learning",
       "Supervised Learning",
-      "Unsupervised Learning",
-      "Linear Models",
-      "Support Vector Machines"
+      "Linear Regression",
+      "Classification",
+      "Support Vector Machines",
+      "Generative Learning",
+      "Gaussian Discriminant Analysis",
+      "Naive Bayes",
+      "Tree-based methods",
+      "Ensemble methods"
     ],
     "key_concepts": [
-      "This cheatsheet provides an introduction to supervised learning, a machine learning approach where the model is trained on labeled data.",
-      "Linear regression and classification are discussed as linear models used for regression and classification tasks respectively.",
-      "Logistic regression is a specific type of linear model used for binary classification problems.",
-      "Support Vector Machines (SVM) are covered, which are a popular machine learning algorithm for both regression and classification tasks.",
-      "Generative Learning methods like Gaussian Discriminant Analysis and Naive Bayes are introduced as techniques to model the underlying distribution of data."
+      "Concept of Supervised Learning",
+      "Notions of Linear Models",
+      "Introduction to Unsupervised Learning",
+      "Clustering Methods",
+      "Expectation-Maximization Algorithm",
+      "k-means Clustering",
+      "Log-partition function",
+      "Normalization parameter",
+      "Assumptions of GLMs",
+      "Optimal margin classiﬁer"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Overview of machine learning concepts and methodologies, including supervised learning, unsupervised learning, linear models, support vector machines, generative learning, tree-based methods, and more."
+    "content_preview": "Document: Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education",
+      "Machine Learning",
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "R",
+      "Java",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Supervised Learning",
+      "Linear Regression"
+    ],
+    "methodologies": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Clustering",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning Education",
+      "Classification",
+      "Regression",
+      "Neural Network Training",
+      "Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, Supervised Learning, Linear Regression",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.9166666666666666
   },
   {
     "id": "42869719f3b69e84147927158ee6f7ec",
