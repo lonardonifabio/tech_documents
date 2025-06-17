@@ -35134,32 +35134,89 @@
   {
     "id": "1afc8587a8d6de62cab801e2e64eb705",
     "filename": "convolutional neural network.pdf",
-    "title": "Convolutional Neural Networks Cheatsheet",
-    "authors": [
-      "Afshine Amidi",
-      "Shervine Amidi"
-    ],
+    "title": "VIP Cheatsheet: Convolutional Neural Networks",
+    "authors": [],
     "filepath": "documents/convolutional neural network.pdf",
-    "upload_date": "2025-06-13T22:59:50.888952",
+    "upload_date": "2025-06-17T05:39:16.802779",
     "file_size": 2545508,
-    "summary": "This document provides an overview of Convolutional Neural Networks (CNNs), discussing their architecture, layers (convolution, pooling, and fully connected), hyperparameters, and common operations like max pooling and average pooling. The cheatsheet is part of a deep learning course offered by Stanford University.",
+    "summary": "Convolutional neural networks are a specific type of neural networks composed of convolution layer, pooling layer, and fully connected layers. The convolution layer uses filters to perform convolution operations on the input, while the pooling layer applies downsampling operation to reduce spatial invariance. Fully connected layers operate on flattened inputs.",
     "keywords": [
-      "Convolutional Neural Network",
-      "CNN",
+      "Convolutional Neural Networks",
+      "CNNs",
       "Deep Learning",
-      "Stanford",
-      "Cheatsheet"
+      "Neural Networks",
+      "Hyperparameters"
     ],
     "key_concepts": [
-      "Convolutional neural networks are composed of convolution and pooling layers, which can be fine-tuned with respect to hyperparameters.",
-      "The convolution layer uses filters that perform convolution operations on the input data.",
-      "Pooling is a downsampling operation applied after a convolution layer, preserving detected features and downsampling the feature map.",
-      "Max pooling selects the maximum value of the current view, while average pooling averages the values of the current view.",
-      "The fully connected layer operates on a flattened input where each input is connected to all neurons in the next layer."
+      "Architecture of a traditional CNN",
+      "Convolution layer (CONV)",
+      "Pooling layer (POOL)",
+      "Fully Connected (FC) layer",
+      "Filter size F and stride S",
+      "Feature map or activation map",
+      "Spatial invariance",
+      "Max pooling",
+      "Average pooling"
     ],
-    "category": "AI",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Overview of Convolutional Neural Networks (CNNs) and their layers."
+    "content_preview": "Document: VIP Cheatsheet: Convolutional Neural Networks",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Convolutional Neural Networks",
+      "Deep Learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Convolutional Neural Networks",
+      "CNNs",
+      "Deep Learning"
+    ],
+    "methodologies": [
+      "Convolutional layer (CONV)",
+      "Pooling (POOL)"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Image Recognition",
+      "Object Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: VIP Cheatsheet: Convolutional Neural Networks",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Convolutional Neural Networks, CNNs, Deep Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "0bb8d9031619fb90049aee3b3a65b169",
