@@ -31112,35 +31112,42 @@
   {
     "id": "f71aac83ad36a622a0dad754aac79249",
     "filename": "Top_Google_Questions_Part_1_1652423188.pdf",
-    "title": "Top Google Questions - Part 1",
+    "title": "Top Google Questions – Part 1",
     "authors": [],
     "filepath": "documents/Top_Google_Questions_Part_1_1652423188.pdf",
-    "upload_date": "2025-06-15T16:03:34.528625",
+    "upload_date": "2025-06-16T22:24:26.698337",
     "file_size": 10716910,
-    "summary": "This document presents a collection of frequently asked programming questions related to algorithms, data structures, and problem-solving on platforms like LeetCode and HackerRank. The questions cover topics such as arrays, strings, linked lists, binary trees, and dynamic programming, with solutions provided in Java, Python, and C++. The document is intended for programmers with an intermediate to advanced level of experience in algorithmic problem-solving.",
+    "summary": "A list of top Google questions, including problems such as Two Sum, Longest Substring Without Repeating Characters, Median of Two Sorted Arrays, and many others. These problems cover various topics like arrays, strings, linked lists, trees, and more.",
     "keywords": [
-      "algorithms",
-      "data structures",
-      "programming questions",
-      "LeetCode",
-      "HackerRank"
+      "Google",
+      "Algorithms",
+      "Data Structures",
+      "Arrays",
+      "Strings",
+      "Linked Lists",
+      "Trees",
+      "Graphs"
     ],
     "key_concepts": [
-      "The document presents a collection of frequently asked programming questions on platforms like LeetCode and HackerRank",
-      "The questions cover topics such as arrays, strings, linked lists, binary trees, and dynamic programming",
-      "Solutions are provided in Java, Python, and C++ for the presented problems",
-      "The document is intended for programmers with an intermediate to advanced level of experience in algorithmic problem-solving"
+      "Two Sum problem",
+      "Longest Substring Without Repeating Characters",
+      "Median of Two Sorted Arrays",
+      "Dynamic Programming",
+      "Greedy Algorithms",
+      "Divide and Conquer",
+      "Recursion",
+      "Backtracking"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Collection of frequently asked programming questions on LeetCode and HackerRank",
-    "target_audience": "Programmers with an intermediate to advanced level of experience in algorithmic problem-solving",
+    "content_preview": "Document: Top Google Questions – Part 1",
+    "target_audience": "Professionals in data science field",
     "industry": [
-      "Technology"
+      "Software Development"
     ],
     "business_functions": [
-      "Software Development",
-      "Algorithm Design"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
@@ -31149,34 +31156,53 @@
       "C++"
     ],
     "processes": [
-      "Algorithmic Problem Solving"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "Arrays",
-      "Strings",
-      "Linked Lists",
-      "Binary Trees",
-      "Dynamic Programming"
+      "Google",
+      "Algorithms",
+      "Data Structures"
     ],
     "methodologies": [
-      "Divide and Conquer",
+      "Dynamic Programming",
       "Greedy Algorithm",
-      "Backtracking",
-      "Recursion"
+      "Divide and Conquer"
     ],
-    "tools_mentioned": [],
+    "tools_mentioned": [
+      "LeetCode",
+      "GeeksforGeeks"
+    ],
     "prerequisites": [
-      "Intermediate to advanced level of programming experience"
+      "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Solve programming problems related to algorithms and data structures",
-      "Improve problem-solving skills in a competitive coding environment"
+      "Understand data science concepts"
     ],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "use_cases": [
+      "Problem-solving",
+      "Algorithm design",
+      "Data structure implementation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Top Google Questions – Part 1",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Google, Algorithms, Data Structures",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "6f321874c27b71395074431ceb0046ce",
