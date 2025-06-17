@@ -26777,30 +26777,80 @@
     "id": "8fd33c56e7968e6ebfb217929ca72f0b",
     "filename": "Python_Libraries_for_Interpretable_Machine_Learning_1569565987.pdf",
     "title": "Python Libraries for Interpretable Machine Learning",
-    "authors": [
-      "Rebecca Vickery"
-    ],
+    "authors": [],
     "filepath": "documents/Python_Libraries_for_Interpretable_Machine_Learning_1569565987.pdf",
-    "upload_date": "2025-06-13T22:59:47.498937",
+    "upload_date": "2025-06-17T05:39:13.316787",
     "file_size": 495246,
-    "summary": "This document discusses four Python libraries - yellowbrick, SHAP, LIME, and DALEX - that aid in the visualization, explanation, and interpretation of machine learning models. The libraries are pip installable, well-documented, and emphasize visual interpretation. They help businesses address concerns about bias in AI by providing insights into model predictions and workings.",
+    "summary": "As concerns regarding bias in artificial intelligence become more prominent it is becoming more and more important for businesses to be able to explain both the predictions their models are producing and how the models themselves work. Fortunately, there is an increasing number of python libraries being developed that attempt to solve this problem.",
     "keywords": [
-      "Python",
-      "Machine Learning",
-      "Interpretability",
-      "Libraries",
-      "AI"
+      "Interpretable Machine Learning",
+      "Python Libraries",
+      "Bias in Artificial Intelligence"
     ],
     "key_concepts": [
-      "The document discusses the importance of interpretable machine learning models for businesses, particularly in addressing concerns about bias.",
-      "It introduces four Python libraries - yellowbrick, SHAP, LIME, and DALEX - that provide visualizations and explanations for machine learning models.",
-      "These libraries are extensions or complements to scikit-learn and have a focus on visual interpretation.",
-      "The document highlights the benefits of these libraries in understanding model predictions and workings.",
-      "It mentions that these libraries are pip installable and come with good documentation."
+      "Explainability of machine learning models",
+      "Visual interpretation of models",
+      "Scikit-learn extension for visualisation and explanation"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Discusses four Python libraries for interpretable machine learning."
+    "content_preview": "Document: Python Libraries for Interpretable Machine Learning",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "scikit-learn"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Interpretable Machine Learning",
+      "Python Libraries",
+      "Bias in Artificial Intelligence"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [
+      "pip",
+      "Towards Data Science"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Bias detection",
+      "Model explanation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python Libraries for Interpretable Machine Learning",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Interpretable Machine Learning, Python Libraries, Bias in Artificial Intelligence",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "7d82e4206da2af1e9c6e6ffd50933852",
