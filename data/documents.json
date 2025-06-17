@@ -25891,29 +25891,86 @@
   {
     "id": "866d15be2d95df346c5a79c565275567",
     "filename": "Malware_Detection_1706860527.pdf",
-    "title": "Malware Detection Using MLP",
+    "title": "Malware Detection using MLP",
     "authors": [],
     "filepath": "documents/Malware_Detection_1706860527.pdf",
-    "upload_date": "2025-06-14T13:06:55.070945",
+    "upload_date": "2025-06-17T22:29:06.807710",
     "file_size": 157483,
-    "summary": "This document presents a Python script for malware detection using Multi-Layer Perceptron (MLP) on a dataset of dynamic API call sequences. The script imports necessary libraries, reads the data from a CSV file, preprocesses it by dropping unnecessary columns and handling missing values, plots the distribution of the 'malware' column, and finally trains and evaluates an MLP model using the preprocessed data.",
+    "summary": "This document excerpt describes a machine learning approach to detect malware using a multilayer perceptron (MLP). The dataset used is the dynamic API call sequence per malware, which contains 43876 entries and 102 features. The code snippet shows how to import necessary libraries, load the dataset, and plot the distribution of the 'malware' column.",
     "keywords": [
-      "Malware Detection",
-      "MLP",
-      "Python",
-      "Data Preprocessing",
-      "Machine Learning"
+      "machine learning",
+      "malware detection",
+      "MLP"
     ],
     "key_concepts": [
-      "The script imports necessary libraries such as numpy, pandas, matplotlib, seaborn, and sklearn.",
-      "The data is read from a CSV file and preprocessed by dropping unnecessary columns and handling missing values.",
-      "The distribution of the 'malware' column is plotted using seaborn's countplot function.",
-      "An MLP model is trained and evaluated on the preprocessed data using sklearn's classification_report and confusion_matrix functions.",
-      "The script demonstrates how to use MLP for malware detection on a specific dataset."
+      "Malware Detection using Multi-Layer Perceptron (MLP)",
+      "Data Preprocessing",
+      "Feature Extraction"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A Python script for malware detection using MLP is presented, which includes data preprocessing and model training."
+    "content_preview": "Document: Malware Detection using MLP",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Cybersecurity"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "malware detection",
+      "MLP"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Data Preprocessing"
+    ],
+    "tools_mentioned": [
+      "Kaggle",
+      "CSV Files"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Malware Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Malware Detection using MLP",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, malware detection, MLP",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "3019af41a2c5e4a337de079b20a08a9e",
