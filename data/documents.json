@@ -20299,29 +20299,89 @@
   {
     "id": "7aa4fab252ac6f0b0c12a1d6a924e56a",
     "filename": "Keras_Cheat_Sheet_1628263732.pdf",
-    "title": "Keras Cheat Sheet",
+    "title": "Keras Architecture and Tutorial",
     "authors": [],
     "filepath": "documents/Keras_Cheat_Sheet_1628263732.pdf",
-    "upload_date": "2025-06-14T13:06:53.273945",
+    "upload_date": "2025-06-17T12:16:34.350923",
     "file_size": 1770231,
-    "summary": "This document provides a comprehensive guide to using Keras, a powerful and easy-to-use deep learning library for Theano and TensorFlow. It offers high-level APIs to develop and evaluate deep learning models. The cheat sheet covers topics such as model architecture, inspecting models, compiling models, model training, evaluating model performance, saving/reloading models, fine-tuning models, preprocessing, and one-hot encoding. It also includes examples of binary and multi-class classification using MLP, CNN, RNN, and recurrent NN.",
+    "summary": "This document excerpt provides an overview of the Keras deep learning library, its features, and a basic example of how to create a neural network using Keras. The document also mentions the various datasets available for training and evaluating deep learning models.",
     "keywords": [
       "Keras",
       "Deep Learning",
-      "Theano",
-      "TensorFlow",
-      "Model Architecture"
+      "Machine Learning",
+      "Data Science"
     ],
     "key_concepts": [
-      "Keras is a powerful and easy-to-use deep learning library for Theano and TensorFlow.",
-      "The document provides APIs to develop and evaluate deep learning models.",
-      "The cheat sheet covers topics such as model architecture, inspecting models, compiling models, model training, evaluating model performance, saving/reloading models, fine-tuning models, preprocessing, and one-hot encoding.",
-      "Examples of binary and multi-class classification using MLP, CNN, RNN, and recurrent NN are included.",
-      "The document includes a basic example of binary classification using Keras."
+      "Keras API",
+      "Neural Networks",
+      "Sequence Models",
+      "Multilayer Perceptron",
+      "Convolutional Neural Networks",
+      "Recurrent Neural Networks"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Guide to using Keras, a deep learning library."
+    "content_preview": "Document: Keras Architecture and Tutorial",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Keras",
+      "TensorFlow"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Keras",
+      "Deep Learning",
+      "Machine Learning"
+    ],
+    "methodologies": [
+      "Deep Learning",
+      "Machine Learning"
+    ],
+    "tools_mentioned": [
+      "NumPy",
+      "Keras Models"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Model Training",
+      "Model Evaluation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Keras Architecture and Tutorial",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Keras, Deep Learning, Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "5bc212a13afec3057aa9edba8196c5f2",
