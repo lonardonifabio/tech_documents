@@ -26849,31 +26849,84 @@
   {
     "id": "7288e0308410c86d604b03f05b77ee54",
     "filename": "Python Data Visualization Bokeh Cheat Sheet.pdf",
-    "title": "Python Data Visualization Bokeh Cheat Sheet",
-    "authors": [
-      "Bryan Van de Ven"
-    ],
+    "title": "Bokeh Cheat Sheet",
+    "authors": [],
     "filepath": "documents/Python Data Visualization Bokeh Cheat Sheet.pdf",
-    "upload_date": "2025-06-13T22:59:47.385937",
+    "upload_date": "2025-06-17T09:29:00.756221",
     "file_size": 1363598,
-    "summary": "This document provides a comprehensive guide to using the Python data visualization library Bokeh for interactive visualization in modern web browsers. The cheat sheet covers key steps, rendering customizations, and various examples of plotting with Bokeh. It is centered around two main components: data and glyphs. The basic steps to create plots with Bokeh include preparing data, creating a new plot, adding renderers for your data with visual customizations, specifying where to generate the output, and showing or saving the results.",
+    "summary": "This document provides a comprehensive guide to using Bokeh for data science and visualization in Python. It covers the basics of creating plots with Bokeh, including preparing data, creating a new plot, adding renderers, specifying output, and saving results. The document also explains how to convert data to Column Data Sources and provides example code snippets.",
     "keywords": [
-      "Python",
-      "Data Visualization",
       "Bokeh",
-      "Cheat Sheet",
-      "Interactive"
+      "Python",
+      "Data Science",
+      "Plotting"
     ],
     "key_concepts": [
-      "Bokeh is a high-performance interactive visualization library for Python that provides a comprehensive way to create presentations of large datasets in modern web browsers.",
-      "The main components of Bokeh are data and glyphs, with the basic steps to create plots involving preparing data, creating a new plot, adding renderers for your data with visual customizations, specifying where to generate the output, and showing or saving the results.",
-      "The document provides examples of using Bokeh's plotting interface, including steps for preparing data, creating a new plot, adding renderers, specifying output locations, and displaying the results.",
-      "Under the hood, your data is converted to Column Data Source objects in Bokeh.",
-      "The document also includes manual methods for customizing various aspects of the plots."
+      "Data Visualization",
+      "Interactive Plots",
+      "Column Data Sources"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn Bokeh online at www.DataCamp.com for interactive data science"
+    "content_preview": "Document: Bokeh Cheat Sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Bokeh"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Bokeh",
+      "Python",
+      "Data Science"
+    ],
+    "methodologies": [
+      "Interactive Visualization",
+      "Data Science"
+    ],
+    "tools_mentioned": [
+      "Bokeh Plotting Library"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Visualization",
+      "Machine Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Bokeh Cheat Sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Bokeh, Python, Data Science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "e19c188c3a45d2520c634c37354f3538",
