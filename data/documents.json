@@ -42881,26 +42881,83 @@
   {
     "id": "2820239ca664bffe80d7e8ef9d1c2b87",
     "filename": "data_leakage_1639989680.pdf",
-    "title": "Data Leakage in Machine Learning Models",
+    "title": "Data Leakage in Machine Learning",
     "authors": [],
     "filepath": "documents/data_leakage_1639989680.pdf",
-    "upload_date": "2025-06-14T13:07:00.478945",
+    "upload_date": "2025-06-17T22:29:12.399768",
     "file_size": 626823,
-    "summary": "This document discusses the issue of data leakage in machine learning models when exposed to real-world data. It explains that data leakage occurs when information from outside the training dataset is used to create the model, leading to high performance on train and test datasets but poor results in real-world applications. The document provides a simple explanation of data leakage as using training data that contains the information you are trying to predict.",
+    "summary": "Data leakage is a significant problem in machine learning models when exposed to real-world data. It occurs when information from outside the training dataset is used to create the model, leading to poor performance on unseen data. This can happen due to accidental sharing of information between train and test data.",
     "keywords": [
-      "Data Leakage",
-      "Machine Learning",
-      "Model Training"
+      "data leakage",
+      "machine learning",
+      "model training"
     ],
     "key_concepts": [
-      "Data leakage is a problem in machine learning models when exposed to real-world data.",
-      "Data leakage occurs when information from outside the training dataset is used to create the model.",
-      "High performance on train and test datasets but poor results in real-world applications due to data leakage.",
-      "In simple terms, data leakage happens when the training data contains the information you are trying to predict."
+      "Data leakage in machine learning",
+      "Training data vs real-world data",
+      "Overfitting due to data leakage"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about data leakage in machine learning models and its impact on performance."
+    "content_preview": "Document: Data Leakage in Machine Learning",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machine learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "data leakage",
+      "machine learning",
+      "model training"
+    ],
+    "methodologies": [
+      "data leakage detection",
+      "model validation"
+    ],
+    "tools_mentioned": [
+      "data preprocessing",
+      "model evaluation"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Data leakage detection",
+      "Preventing data leakage in machine learning models"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Leakage in Machine Learning",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: data leakage, machine learning, model training",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "bdb1f8ca1c5b38eca88d999aaf208428",
