@@ -25270,29 +25270,74 @@
   {
     "id": "6fe72b52a6c0b2623548535b98d4a7bf",
     "filename": "Practical_MLOPS_1643132855.pdf",
-    "title": "Practical MLOPS: Getting Ready for Production Models",
+    "title": "HOW TO GET READY FOR PRODUCTION MODELS Practical MLOPS",
     "authors": [],
     "filepath": "documents/Practical_MLOPS_1643132855.pdf",
-    "upload_date": "2025-06-13T22:59:47.200936",
+    "upload_date": "2025-06-16T22:24:23.797312",
     "file_size": 1360735,
-    "summary": "This document provides a comprehensive guide on MLOps (Machine Learning Operations), emphasizing its importance, best practices, and practical applications. It covers topics such as using every project as an opportunity to educate the organization about machine learning, productionalization, feature stores, testing, and more. The authors discuss end-to-end pipelines, the critical role of MLOps in business, and offer insights into the authors themselves.",
+    "summary": "The document discusses the importance of MLOps (Machine Learning Operations) and its role in production models. It highlights the need to shift perspective from individual research projects to business-critical applications, making ML operations more accessible, efficient, and scalable. The authors share their experiences with data scientists, ML engineers, and project managers in a real-world setting.",
     "keywords": [
-      "MLOps",
-      "Machine Learning Operations",
-      "Production Model",
+      "Technology"
+    ],
+    "key_concepts": [],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: HOW TO GET READY FOR PRODUCTION MODELS Practical MLOPS",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Machine Learning",
+      "MLOps"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Technology"
+    ],
+    "methodologies": [
       "End-to-End Pipelines",
       "Feature Stores"
     ],
-    "key_concepts": [
-      "MLOps is critical to business success and requires a shift in perspective.",
-      "Every project can serve as an opportunity to educate the organization about machine learning.",
-      "Productionalization involves creating end-to-end pipelines for production models.",
-      "Feature Stores are essential for managing and organizing data used by machine learning models.",
-      "Testing is crucial in ensuring the accuracy and reliability of production models."
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
     ],
-    "category": "Machine Learning",
-    "difficulty": "Intermediate",
-    "content_preview": "This document provides a comprehensive guide on MLOps, emphasizing its importance, best practices, and practical applications."
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Productionalization - End-to-End Pipelines",
+      "Productionalization - Feature Stores",
+      "Testing"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: HOW TO GET READY FOR PRODUCTION MODELS Practical MLOPS",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Technology",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.75
   },
   {
     "id": "ce1a000b64a630a90139b5e1283c8036",
