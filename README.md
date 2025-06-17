@@ -131,7 +131,7 @@ Dynamic pages for individual documents with SEO and social sharing optimization.
 
 ## 📊 Analytics & Tracking
 
-- **Google Analytics 4**: Integrated tracking (ID: G-4EXW1VQ31D)
+- **Google Analytics 4**: Integrated tracking 
 - **Performance Monitoring**: Core Web Vitals tracking
 - **User Interaction**: Document views and search analytics
 
