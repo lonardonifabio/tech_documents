@@ -23769,27 +23769,102 @@
   {
     "id": "4c37ef8cc78d04662a9dbbdf1832c3cf",
     "filename": "Natural_Language_Processing_NLP_with_Python_1610184574.pdf",
-    "title": "Natural Language Processing with Python",
+    "title": "Language Processing and Python",
     "authors": [],
     "filepath": "documents/Natural_Language_Processing_NLP_with_Python_1610184574.pdf",
-    "upload_date": "2025-06-13T22:59:46.405933",
+    "upload_date": "2025-06-17T05:39:12.235790",
     "file_size": 21887374,
-    "summary": "This document introduces Natural Language Processing (NLP) using Python. It covers topics such as processing large quantities of text, automatic keyword and phrase extraction, tools and techniques in Python for NLP tasks, challenges in NLP, and provides a taste of both linguistically motivated programming tasks and key programming concepts. The document is divided into sections that alternate between 'computing with language' and 'closer look at Python'.",
+    "summary": "This chapter addresses questions on combining programming techniques with large quantities of text. It covers automatic extraction of key words and phrases, tools and techniques provided by Python for natural language processing, and interesting challenges of NLP. The chapter is divided into sections that alternate between computing with language and closer look at Python.",
     "keywords": [
-      "Natural Language Processing",
+      "Language Processing",
       "Python",
-      "Text Analysis",
-      "Keyword Extraction"
+      "Natural Language Processing",
+      "intensifier",
+      "common_contexts",
+      "similar",
+      "dispersion_plot",
+      "lists",
+      "concatenation"
     ],
     "key_concepts": [
-      "Combining simple programming techniques with large quantities of text can achieve various tasks.",
-      "Python provides tools and techniques for automatic keyword and phrase extraction from text.",
-      "NLP presents interesting challenges such as understanding context, sentiment analysis, and machine translation.",
-      "The document adopts a unique style of introduction that gives an authentic taste of what will come later while covering elementary concepts in linguistics and computer science."
+      "Combining programming techniques with large quantities of text",
+      "Automatically extracting key words and phrases from a text",
+      "Tools and techniques for natural language processing in Python",
+      "Challenges of natural language processing",
+      "Examining shared contexts between words",
+      "Determining word location in a text using positional information",
+      "Visualizing word usage patterns over time with dispersion plots",
+      "Indexing Lists",
+      "Concatenating Sentences",
+      "Appending to a List"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn NLP with Python: Combine programming techniques with large text quantities, automatic keyword extraction, and more."
+    "content_preview": "Document: Language Processing and Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education",
+      "Education/Research",
+      null
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "NLTK"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Language Processing",
+      "Python",
+      "Natural Language Processing"
+    ],
+    "methodologies": [
+      "text analysis",
+      "corpus linguistics"
+    ],
+    "tools_mentioned": [
+      "NLTK (Natural Language Toolkit)",
+      "dispersion plot",
+      "common_contexts() function",
+      "similar() function"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Language Processing",
+      "Natural Language Processing",
+      "Text Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Language Processing and Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Language Processing, Python, Natural Language Processing",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "3bc344744341eceae55e58be6e0093cf",
