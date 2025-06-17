@@ -37510,31 +37510,98 @@
   {
     "id": "71183edbe25998ae14f2d0c4e23d7b14",
     "filename": "The_Ultimate_Guide_To_Speech_Recognition_With_Python_1567265782.pdf",
-    "title": "The Ultimate Guide To Speech Recognition With Python",
-    "authors": [
-      "David Amos"
-    ],
+    "title": "Speech Recognition With Python",
+    "authors": [],
     "filepath": "documents/The_Ultimate_Guide_To_Speech_Recognition_With_Python_1567265782.pdf",
-    "upload_date": "2025-06-14T13:06:59.379945",
+    "upload_date": "2025-06-17T12:16:40.590923",
     "file_size": 1217188,
-    "summary": "This comprehensive guide provides a step-by-step approach for implementing speech recognition in Python projects. It covers the basics of how speech recognition works, choosing a suitable package, installation, working with audio files and microphones, handling noise, creating a 'Guess the Word' game, and recognizing speech in languages other than English.",
+    "summary": "This guide provides an overview of speech recognition using Python, including how it works, choosing a package, installing required libraries, and implementing speech recognition in a project. It also covers topics such as handling unrecognizable speech, capturing audio files, and recognizing speech in languages other than English.",
     "keywords": [
-      "Speech Recognition",
+      "speech recognition",
+      "python",
+      "machine learning",
+      "data science",
+      "Web Speech API",
+      "API key",
+      "SpeechRecognition",
       "Python",
-      "Machine Learning",
-      "Data Science",
-      "AI"
+      "AudioFile",
+      "AudioData"
     ],
     "key_concepts": [
-      "Explains how speech recognition works and its importance in modern technology",
-      "Guides the reader on choosing a Python speech recognition package and installation",
-      "Details working with audio files, microphones, and handling noise in speech recognition",
-      "Provides a practical example of creating a 'Guess the Word' game using speech recognition",
-      "Offers insights into recognizing speech in languages other than English"
+      "Speech Recognition",
+      "Python Programming",
+      "Machine Learning",
+      "Data Science",
+      "Transcribing audio files with Web Speech API",
+      "Capturing data from a file using record() method",
+      "Harvard Sentences for speech intelligibility testing"
     ],
-    "category": "Machine Learning",
-    "difficulty": "Advanced",
-    "content_preview": "Learn how to add speech recognition to your Python project with this comprehensive guide."
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Speech Recognition With Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science/Machine Learning",
+      "Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "speech recognition",
+      "python",
+      "machine learning"
+    ],
+    "methodologies": [
+      "machine-learning",
+      "SpeechRecognition"
+    ],
+    "tools_mentioned": [
+      "SpeechRecognition",
+      "PyAudio",
+      "Web Speech API",
+      "record() method"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Speech Recognition",
+      "Accessibility Improvements",
+      "Audio Processing"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Speech Recognition With Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: speech recognition, python, machine learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "ac992b24613623e2f8c29c67566fbfad",
