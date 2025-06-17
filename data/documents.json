@@ -15909,28 +15909,83 @@
   {
     "id": "e4919e56a68a2cbbdd4213ec060b37e7",
     "filename": "Graphics_Principles_Cheatsheet_1569391935.pdf",
-    "title": "Graphics Principles Cheatsheet v1.1",
+    "title": "Color for emphasis or distinction",
     "authors": [],
     "filepath": "documents/Graphics_Principles_Cheatsheet_1569391935.pdf",
-    "upload_date": "2025-06-13T22:59:42.658916",
+    "upload_date": "2025-06-17T12:16:33.285923",
     "file_size": 898823,
-    "summary": "This document provides guidelines for effective data visualization, emphasizing the importance of color usage, consistency, and grouping elements for comparison. It suggests using existing resources like Color Brewer or Munsell for palette selection, utilizing bold colors to highlight important details, and placing labels next to data instead of using legends. The document also advises against using color to differentiate between the same variable categories and encourages the use of reference lines and visual anchors.",
+    "summary": "Restrained use of color is highly effective in organizing a narrative and calling attention to certain elements. Utilize existing resources for selection of appropriate palettes such as Color Brewer or Munsell. Use bold, saturated or contrasting colors to emphasize important details.",
     "keywords": [
-      "Data Visualization",
-      "Color Theory",
-      "Graphic Design",
-      "Statistical Analysis"
+      "color",
+      "narrative",
+      "emphasis",
+      "organization",
+      "palettes",
+      "graphics",
+      "principles"
     ],
     "key_concepts": [
-      "Restrained use of color is effective in organizing a narrative and calling attention to certain elements.",
-      "Utilize existing resources for selection of appropriate palettes such as Color Brewer or Munsell.",
-      "Use colors or shades to represent meaningful differences like positive/negative values, treatments, or doses.",
-      "Be consistent, use the same color to mean the same thing in a series of graphs (e.g. treatment, dose).",
-      "Effective visualizations communicate complex statistical and quantitative information facilitating insight, understanding, and decision making."
+      "effective use of color",
+      "visual hierarchy",
+      "data representation",
+      "legend usage",
+      "comparison and contrast",
+      "reference lines",
+      "communication planning"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Guidelines for effective data visualization with color theory and consistency in mind."
+    "content_preview": "Document: Color for emphasis or distinction",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Visual Design"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "color",
+      "narrative",
+      "emphasis"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Visualization",
+      "Information Graphics"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Color for emphasis or distinction",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: color, narrative, emphasis",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "9588d752aae2670b12de0fd9aa2be70c",
