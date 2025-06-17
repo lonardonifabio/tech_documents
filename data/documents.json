@@ -23266,29 +23266,104 @@
   {
     "id": "3216e95b69e8c5f0f3090ba90a4678da",
     "filename": "Machine_Learning_in_EMOJI_1627285379 (1).pdf",
-    "title": "Machine Learning in Emoji",
+    "title": "Machine Learning Overview",
     "authors": [],
     "filepath": "documents/Machine_Learning_in_EMOJI_1627285379 (1).pdf",
-    "upload_date": "2025-06-14T13:06:54.873945",
+    "upload_date": "2025-06-17T12:16:35.952923",
     "file_size": 307015,
-    "summary": "This document provides an overview of machine learning concepts using emojis, covering supervised and unsupervised learning, basic regression (linear and logistic), clustering analysis (K-Means), anomaly detection, bias-variance tradeoff, various accuracy functions, classification methods (neural network, K-NN, decision tree, random forest, SVM, naive Bayes), and feature reduction techniques (T-Distributed Stochastic Neighbor Embedding).",
+    "summary": "A comprehensive overview of machine learning concepts, including supervised and unsupervised learning, regression, classification, clustering, anomaly detection, bias-variance tradeoff, accuracy function, precision function, specificity function, sensitivity function, neural networks, K-NN, decision trees, random forests, SVM, naive Bayes, feature reduction, T-Distribution, and Neib Embedding.",
     "keywords": [
       "Machine Learning",
-      "Emoji",
       "Supervised Learning",
       "Unsupervised Learning",
-      "Regression"
+      "Reinforcement Learning",
+      "Regression",
+      "Logistic Regression",
+      "Clustering",
+      "Anomaly Detection",
+      "Bias-Variance Tradeoff",
+      "Overfitting"
     ],
     "key_concepts": [
-      "Machine learning models are built based on input/output data, with human input and machine output iteratively refined until satisfactory.",
-      "Basic regression can be either linear or logistic, using the LinearRegression() and LogisticRegression() functions respectively.",
-      "Clustering analysis groups similar data points based on centroids using K-Means.",
-      "Anomaly detection finds outliers through grouping using covariance.EllipticalEnvelope().",
-      "Understanding the bias-variance tradeoff is crucial to avoid underfitting or overfitting in machine learning models."
+      "Machine Learning Overview",
+      "Types of Machine Learning",
+      "Regression Algorithms",
+      "Classification Algorithms",
+      "Clustering Algorithms",
+      "Anomaly Detection Methods",
+      "Bias-Variance Tradeoff",
+      "Overfitting and Underfitting",
+      "Evaluation Metrics",
+      "Neural Network Architectures"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Overview of machine learning concepts using emojis."
+    "content_preview": "Document: Machine Learning Overview",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "LinearRegression",
+      "LogisticRegression",
+      "KMeans",
+      "MLPClassiﬁer",
+      "KNeighborsClassiﬁer"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Supervised Learning",
+      "Unsupervised Learning"
+    ],
+    "methodologies": [
+      "BASIC REGRESSION",
+      "LOGISTIC",
+      "CLUSTER ANALYSIS",
+      "ANOMALY DETECTION",
+      "CLASSIFICATION"
+    ],
+    "tools_mentioned": [
+      "linear_model",
+      "cluster.KMeans()",
+      "manifold.TSNE()",
+      "neighbors.KNeighborsClassiﬁer()",
+      "tree.DecisionTreeClassiﬁer()"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning Overview",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, Supervised Learning, Unsupervised Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "4569350b71a55359a92042c37beab2b0",
