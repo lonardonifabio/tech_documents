@@ -35286,29 +35286,93 @@
     "id": "47081303f18bc17cbdfd62c92940d86b",
     "filename": "The_Little_Book_of_Deep_Learning_1747089513.pdf",
     "title": "The Little Book of Deep Learning",
-    "authors": [
-      "François Fleuret"
-    ],
+    "authors": [],
     "filepath": "documents/The_Little_Book_of_Deep_Learning_1747089513.pdf",
-    "upload_date": "2025-06-14T13:06:59.270945",
+    "upload_date": "2025-06-17T12:16:40.480923",
     "file_size": 4741389,
-    "summary": "This document is a comprehensive guide to deep learning, written by François Fleuret, a professor of computer science at the University of Geneva. The book covers foundations of machine learning, efficient computation, training methods, and more. It emphasizes the use of GPUs, TPUs, and batches for efficient computation, and discusses topics like losses, autoregressive models, and gradient descent. The book is formatted to fit on a phone screen.",
+    "summary": "A comprehensive guide to deep learning, covering the basics of machine learning, efficient computation, and deep models. The book is written by professor Francois Fleuret and covers topics such as neural networks, GPUs, TPUs, tensors, loss functions, autoregressive models, gradient descent, backpropagation, and more.",
     "keywords": [
-      "Deep Learning",
-      "Machine Learning",
-      "Computer Science",
-      "Neocognitron",
-      "François Fleuret"
+      "deep learning",
+      "machine learning",
+      "neural networks",
+      "GPU",
+      "TPU",
+      "batching",
+      "tensors",
+      "losses",
+      "gradient descent",
+      "backpropagation"
     ],
     "key_concepts": [
-      "The Neocognitron, an ancestor of deep neural networks, is a key concept in this document.",
-      "This book discusses efficient computation using GPUs, TPUs, and batches for deep learning.",
-      "Loss functions and gradient descent are important training methods covered in the book.",
-      "The book provides an overview of various categories of models used in machine learning."
+      "Deep Learning",
+      "Machine Learning",
+      "Neural Networks",
+      "Convolutional Neural Networks",
+      "Recurrent Neural Networks",
+      "Gradient Descent",
+      "Backpropagation"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A guide to deep learning, covering foundations, efficient computation, and training methods."
+    "content_preview": "Document: The Little Book of Deep Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Computer Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "GPU",
+      "TPU"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "deep learning",
+      "machine learning",
+      "neural networks"
+    ],
+    "methodologies": [
+      "Batching",
+      "Autoregressive models"
+    ],
+    "tools_mentioned": [
+      "TensorFlow"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: The Little Book of Deep Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: deep learning, machine learning, neural networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "fa6d2919e7438c54ae0b6ac9e8f7c800",
