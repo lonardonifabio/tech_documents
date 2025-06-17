@@ -17703,28 +17703,84 @@
   {
     "id": "853c02b0ed100522a8c1b18e30302b27",
     "filename": "LLM_Interview_Q_A_1746864405.pdf",
-    "title": "Tokenization and LoRa in LLM",
-    "authors": [
-      "Bhavishya Pandit"
-    ],
+    "title": "Interview Questions",
+    "authors": [],
     "filepath": "documents/LLM_Interview_Q_A_1746864405.pdf",
-    "upload_date": "2025-06-13T22:59:43.803921",
+    "upload_date": "2025-06-16T22:24:20.363281",
     "file_size": 7458198,
-    "summary": "This document discusses the importance of tokenization in Large Language Models (LLMs) and introduces LoRa, a technique to optimize fine-tuning of LLMs. Tokenization is the process of breaking text into smaller units like words or characters, which helps models handle various languages, manage rare words, and reduce vocabulary size for efficiency and performance. LoRa is a parameter-efficient fine-tuning method that reduces memory usage and enhances efficiency without compromising performance in Natural Language Processing tasks.",
+    "summary": "Tokenization is the process of splitting text into smaller units called tokens, which can be words, subwords, or even characters. Effective tokenization allows models to handle various languages, manage rare words, and reduce vocabulary size, improving efficiency and performance. LoRA (Low-Rank Adaptation) is a parameter-efficient fine-tuning method that introduces new trainable parameters to modify a model's behavior without increasing its overall size.",
     "keywords": [
-      "Tokenization",
+      "tokenization",
       "LLM",
-      "LoRa",
-      "Fine-tuning"
+      "LoRA",
+      "QLoRA",
+      "NLP"
     ],
     "key_concepts": [
-      "Tokenization is the process of splitting text into smaller units called tokens, which helps models handle various languages and manage rare words.",
-      "LoRa is a parameter-efficient fine-tuning method that introduces new trainable parameters to modify a model's behavior without increasing its overall size.",
-      "By adding low-rank matrix adaptations to the model's existing parameters, LoRa maintains the original parameter count, reducing the memory overhead typically associated with training large models."
+      "Tokenization is the process of splitting text into smaller units called tokens.",
+      "Effective tokenization allows models to handle various languages, manage rare words, and reduce vocabulary size.",
+      "LoRA is a parameter-efficient fine-tuning method that introduces new trainable parameters without increasing overall model size.",
+      "QLoRA is a technique designed to optimize the fine-tuning of Large Language Models (LLMs) by reducing memory usage and enhancing efficiency."
     ],
-    "category": "AI",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses tokenization and LoRa in Large Language Models (LLMs)."
+    "content_preview": "Document: Interview Questions",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tokenization",
+      "LLMs"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "tokenization",
+      "LLM",
+      "LoRA"
+    ],
+    "methodologies": [
+      "LoRA",
+      "QLoRA"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Natural Language Processing",
+      "Large Language Models"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Interview Questions",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: tokenization, LLM, LoRA",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "12814746ba07bcca0433173f368affd9",
