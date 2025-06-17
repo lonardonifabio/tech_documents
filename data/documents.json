@@ -10584,28 +10584,98 @@
   {
     "id": "7a2da97eddd3f97a7e90c9933ecc1684",
     "filename": "Decision_Tree_Tutorial_1572121663.pdf",
-    "title": "Decision Tree Tutorial",
+    "title": "Decision Trees",
     "authors": [],
     "filepath": "documents/Decision_Tree_Tutorial_1572121663.pdf",
-    "upload_date": "2025-06-13T22:59:40.794908",
+    "upload_date": "2025-06-17T09:28:54.112114",
     "file_size": 592022,
-    "summary": "This document provides an introductory guide on Decision Trees, a popular machine learning algorithm used in data analysis. It explains the concept of decision trees through everyday examples and demonstrates their application in predicting gender based on given characteristics. The tutorial also covers the structure of a decision tree and its use in making calculations.",
+    "summary": "A decision tree is a binary structure where each node best splits the data to classify a response variable. It starts with a root node and ends with final nodes known as leaves of the tree. A hypothetical tree can be designed based on characteristic information such as skin colour, hair length, weight, and height to determine whether a new person is male or female.",
     "keywords": [
-      "Decision Tree",
+      "Decision Trees",
       "Machine Learning",
-      "Data Analysis",
-      "Prediction"
+      "Classification",
+      "R",
+      "C50",
+      "Tree Building",
+      "Data Analysis"
     ],
     "key_concepts": [
-      "Decision trees are used in everyday life for making decisions based on given conditions.",
-      "Formally, a decision tree is a binary structure where each node best splits the data to classify a response variable.",
-      "The tutorial demonstrates how to predict gender based on given characteristics such as skin color, hair length, weight, and height.",
-      "A hypothetical decision tree is provided to illustrate the application of the concept.",
-      "Decision trees are useful in data analysis for making predictions and classifications."
+      "Binary Decision Tree",
+      "Root Node",
+      "Leaf Nodes",
+      "Data Preprocessing",
+      "Summary Function",
+      "Built Tree Structure",
+      "Accuracy and Confusion Matrix",
+      "Pruning Decision Trees"
     ],
-    "category": "Machine Learning",
-    "difficulty": "Beginner",
-    "content_preview": "Learn how decision trees work through everyday examples and predict gender based on given characteristics."
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Decision Trees",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Retail/Consumer Goods",
+      "Data Science/Analytics"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "R",
+      "C50"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Decision Trees",
+      "Machine Learning",
+      "Classification"
+    ],
+    "methodologies": [
+      "Decision Trees"
+    ],
+    "tools_mentioned": [
+      "binary structure",
+      "Root node",
+      "leaf nodes",
+      "R Session",
+      "install.packages"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Milk purchasing",
+      "Predicting gender based on physical characteristics",
+      "Classification",
+      "Regression"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Decision Trees",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Decision Trees, Machine Learning, Classification",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "2060ecbf690e0d71b8ebc6e34acc81d3",
