@@ -35966,64 +35966,80 @@
   {
     "id": "fde802f513f26b009fcae8227cbced5c",
     "filename": "umrict_1742720676.pdf",
-    "title": "Medical Image Classification Using Multi -Head Attention and LSTM",
+    "title": "Medical Image Classification Using Multi-Head Attention and LSTM",
     "authors": [],
     "filepath": "documents/umrict_1742720676.pdf",
-    "upload_date": "2025-06-15T16:03:36.106636",
+    "upload_date": "2025-06-16T22:24:28.271351",
     "file_size": 1378912,
-    "summary": "This document discusses a study on medical image classification using multi-head attention and Long Short-Term Memory (LSTM) neural networks. The research focuses on fetal head abnormalities classification, where the author collects and preprocesses data from various categories of images. The methodology involves loading necessary libraries, organizing the dataset, and applying data augmentation techniques. The key findings suggest that the proposed model outperforms traditional methods in terms of accuracy and efficiency. Practical applications include early detection and diagnosis of fetal abnormalities, improving healthcare outcomes.",
+    "summary": "This document appears to be a code snippet for medical image classification using multi-head attention and LSTM. It imports necessary libraries, defines categories of images, and creates a pandas DataFrame with image paths and labels.",
     "keywords": [
       "Medical Image Classification",
       "Multi-Head Attention",
       "LSTM",
-      "Fetal Head Abnormalities",
-      "Data Preprocessing"
+      "Deep Learning"
     ],
     "key_concepts": [
-      "The document presents a study on medical image classification using multi-head attention and LSTM neural networks.",
-      "The research focuses on fetal head abnormalities classification, where the author collects and preprocesses data from various categories of images.",
-      "The methodology involves loading necessary libraries, organizing the dataset, and applying data augmentation techniques.",
-      "The key findings suggest that the proposed model outperforms traditional methods in terms of accuracy and efficiency.",
-      "Practical applications include early detection and diagnosis of fetal abnormalities, improving healthcare outcomes."
+      "The use of multi-head attention in medical image classification tasks can improve model performance.",
+      "Long Short-Term Memory (LSTM) networks are used for sequential data processing and can be applied to medical imaging.",
+      "The dataset used is a collection of fetal head images with various abnormalities."
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses a study on medical image classification using multi-head attention and LSTM neural networks.",
-    "target_audience": "Data scientists, machine learning engineers, and researchers interested in medical imaging and deep learning.",
+    "content_preview": "Document: Medical Image Classification Using Multi-Head Attention and LSTM",
+    "target_audience": "Professionals in data science field",
     "industry": [
-      "Healthcare",
-      "Artificial Intelligence"
+      "Medical Imaging"
     ],
     "business_functions": [
-      "Research & Development",
-      "Data Science"
+      "Research and Development",
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "Python",
-      "Numpy",
-      "Pandas",
-      "OS"
+      "numpy",
+      "pandas"
     ],
     "processes": [
-      "Data Collection",
-      "Data Preprocessing",
-      "Model Training"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
+      "Medical Image Classification",
       "Multi-Head Attention",
-      "LSTM",
-      "Data Augmentation"
+      "LSTM"
     ],
     "methodologies": [],
-    "tools_mentioned": [],
-    "prerequisites": [],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "tools_mentioned": [
+      "os"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Fetal Head Abnormalities Classification"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Medical Image Classification Using Multi-Head Attention and LSTM",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Medical Image Classification, Multi-Head Attention, LSTM",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "c6f7b1efa627cfab5fd2c12177bb435d",
