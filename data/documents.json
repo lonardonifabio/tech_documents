@@ -29490,38 +29490,100 @@
     "id": "f4d69e75db926c05efa3f6b5e41d5e1c",
     "filename": "Simulating_Human_Behavior_with_AI_Agents_1749156192.pdf",
     "title": "Simulating Human Behavior with AI Agents",
-    "authors": [
-      "Joon Sung Park",
-      "Carolyn Q. Zou",
-      "Aaron Shaw",
-      "Benjamin Mako Hill",
-      "Carrie J. Cai",
-      "Meredith Ringel Morris",
-      "Robb Willer",
-      "Percy Liang",
-      "Michael S. Bernstein"
-    ],
+    "authors": [],
     "filepath": "documents/Simulating_Human_Behavior_with_AI_Agents_1749156192.pdf",
-    "upload_date": "2025-06-13T22:59:48.393941",
+    "upload_date": "2025-06-17T05:39:14.313785",
     "file_size": 292092,
-    "summary": "This document discusses an AI agent architecture capable of simulating human behavior more complexly than traditional methods. The agents, trained on LLM and interview transcripts, were tested against real participants' responses to social science surveys and experiments, replicating their answers 85% as accurately as the individuals did two weeks later. The paper emphasizes the need for policymakers and researchers to collaborate in ensuring appropriate monitoring and consent mechanisms are implemented to mitigate risks while harnessing potential benefits.",
+    "summary": "Researchers built an AI agent architecture that simulates human attitudes and behaviors by creating generative agents that mimic real people. These agents were tested against social science surveys and experiments, showing a high level of accuracy in replicating individual responses. The study highlights the potential benefits and risks of using AI agents to simulate human behavior, emphasizing the need for policymakers and researchers to work together to ensure appropriate monitoring and consent mechanisms are in place.",
     "keywords": [
-      "AI agents",
-      "human behavior simulation",
-      "social science surveys",
-      "interviews",
-      "consent mechanisms"
+      "AI",
+      "Simulation",
+      "Human Behavior",
+      "Generative Agents",
+      "LLM",
+      "Social Science Surveys",
+      "Policy",
+      "Consent Mechanisms",
+      "review process",
+      "generative agents"
     ],
     "key_concepts": [
-      "The AI agent architecture can simulate real people in complex ways beyond traditional approaches.",
-      "Generative agents were created to simulate 1,000 individuals using LLM and interview transcripts.",
-      "The generative agents' responses were evaluated against participants' responses on major social science surveys and experiments.",
-      "The agents replicated real participants’ responses 85% as accurately as the individuals did two weeks later on the General Social Survey.",
-      "Policymakers and researchers must collaborate to ensure appropriate monitoring and consent mechanisms are used for these generative agents."
+      "Simulating human attitudes and behaviors to test interventions and theories",
+      "AI agent architecture that can simulate real people in complex ways",
+      "Generative agents that mimic individual behavior and hold sensitive data",
+      "Ensuring accessibility of agents while minimizing risks",
+      "Replicating safeguards for similar systems and exploring individual data rights",
+      "Monitoring, consent mechanisms, and audit logs to enhance trust and protect individual rights"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "AI agents simulate human behavior, replicating real participants’ responses 85% as accurately on social science surveys."
+    "content_preview": "Document: Simulating Human Behavior with AI Agents",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Social Science Research",
+      "Research Settings"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "LLM",
+      "AI agent architecture",
+      "generative agents"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "Simulation",
+      "Human Behavior"
+    ],
+    "methodologies": [
+      "Generative agents",
+      "Simulation of human attitudes and behaviors",
+      "agent bank",
+      "audit log"
+    ],
+    "tools_mentioned": [
+      "In-depth interview transcript",
+      "Major social science surveys and experiments",
+      "in-depth interviews"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Testing interventions and theories",
+      "Gaining real-world insights",
+      "Human Behavioral Research",
+      "Personal Preference Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Simulating Human Behavior with AI Agents",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: AI, Simulation, Human Behavior",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "8360b7f582fd14e3ebcf12307f9d7bc5",
