@@ -12625,25 +12625,96 @@
     "title": "Excel Formulas Cheat Sheet",
     "authors": [],
     "filepath": "documents/Excel_Formulas_Cheat_Sheet_1642235838.pdf",
-    "upload_date": "2025-06-13T22:59:41.857913",
+    "upload_date": "2025-06-17T09:28:55.181131",
     "file_size": 237571,
-    "summary": "This document provides a comprehensive guide to various Excel functions, focusing on database and date/time functions. It explains the usage of functions like DAVERAGE, DCOUNT, DCOUNTA, DGET, DMAX, DMIN, DSTDEV, DPRODUCT, DSTDEVP, DSUM, DVAR, and DVARP for database operations, as well as DATE and DATEVALUE for date manipulation. The guide is useful for anyone looking to improve their Excel skills.",
+    "summary": "This document provides an overview of various database functions available in Excel, including average, count, maximum, minimum, standard deviation, product, and sum calculations. It also covers date and time functions such as serial number conversion, day conversion, and days 360 calculation.",
     "keywords": [
-      "Excel",
-      "Formulas",
-      "Database Functions",
-      "Date and Time Functions"
+      "DAVERAGE",
+      "DCOUNT",
+      "DCOUNTA",
+      "DGET",
+      "DMAX",
+      "DMIN",
+      "DSTDEV",
+      "DPRODUCT",
+      "DSTDEVP",
+      "DSUM"
     ],
     "key_concepts": [
-      "The DAVERAGE function returns the average of selected database entries.",
-      "The DCOUNT function counts the cells that contain numbers in a database.",
-      "The DCOUNTA function counts the nonblank cells in a database.",
-      "The DGET function extracts a single record from a database that matches specified criteria.",
-      "The DMAX and DMIN functions return the maximum and minimum values from selected database entries respectively."
+      "Database Functions in Excel",
+      "Excel Formulas Cheat Sheet",
+      "Statistical Functions",
+      "Date and Time Functions",
+      "Treasury bill yield calculation",
+      "Depreciation methods",
+      "Internal rate of return and net present value calculations",
+      "A sentence expressing a concept of statistical functions",
+      "A sentence expressing a concept of data analysis",
+      "A sentence expressing a concept of mathematical concepts"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Guide to various Excel functions for database and date/time operations."
+    "content_preview": "Document: Excel Formulas Cheat Sheet",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Finance",
+      "Finance and Analytics"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "DAVERAGE",
+      "DCOUNT",
+      "DCOUNTA"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [
+      "Excel",
+      "VDB",
+      "XIRR",
+      "XNPV",
+      "YIELD"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Database Management",
+      "Data Analysis",
+      "Financial Analysis",
+      "Risk Management",
+      "Predictive Modeling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Excel Formulas Cheat Sheet",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: DAVERAGE, DCOUNT, DCOUNTA",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.9166666666666666
   },
   {
     "id": "3ab74018481b202a7048be51cf718d28",
