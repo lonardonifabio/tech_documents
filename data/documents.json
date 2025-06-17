@@ -26429,29 +26429,89 @@
   {
     "id": "e19c188c3a45d2520c634c37354f3538",
     "filename": "Python For Data Science Cheat Sheet For Beginners.pdf",
-    "title": "Python For Data Science Cheat Sheet For Beginners",
+    "title": "Python Basics for Data Science Learn",
     "authors": [],
     "filepath": "documents/Python For Data Science Cheat Sheet For Beginners.pdf",
-    "upload_date": "2025-06-13T22:59:47.388937",
+    "upload_date": "2025-06-17T05:39:13.208787",
     "file_size": 1477784,
-    "summary": "This document provides a comprehensive cheat sheet for beginners learning Python for data science. It covers basic concepts such as variables, data types, libraries, calculations with variables, and type conversions. It also introduces string operations like concatenation, indexing, methods, and conversion to uppercase or lowercase. The document is available online at www.DataCamp.com.",
+    "summary": "This document provides an introduction to Python basics, covering variables and data types, calculations with variables, type conversion, libraries, data analysis, 2D plotting, scientific computing, machine learning, and importing libraries. It includes examples of string operations, indexing, and methods.",
     "keywords": [
       "Python",
-      "Data Science",
-      "Cheat Sheet",
+      "Variables",
+      "Data Types",
+      "Operators",
+      "Functions",
+      "Libraries",
+      "Data Analysis",
+      "Scientific Computing",
+      "Machine Learning"
+    ],
+    "key_concepts": [
+      "Variable assignment and data types in Python",
+      "Basic arithmetic operators (+, -, *, **, %)",
+      "String operations (indexing, slicing, concatenation)",
+      "Importing libraries (numpy, math)",
+      "Data analysis and scientific computing concepts",
+      "Machine learning basics"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Python Basics for Data Science Learn",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
       "Variables",
       "Data Types"
     ],
-    "key_concepts": [
-      "This cheat sheet provides a basic understanding of Python for data science.",
-      "It covers variables, their assignments, calculations with them, and type conversions.",
-      "The document also introduces string operations like concatenation, indexing, methods, and conversion to uppercase or lowercase.",
-      "Users can find important libraries such as numpy and math in this cheat sheet.",
-      "The document is designed for beginners and is available online."
+    "methodologies": [],
+    "tools_mentioned": [
+      "NumPy",
+      "Math"
     ],
-    "category": "Data Science",
-    "difficulty": "Beginner",
-    "content_preview": "This document provides a basic understanding of Python for data science, covering variables, data types, libraries, calculations with variables, and type conversions."
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Scientific Computing",
+      "Machine Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python Basics for Data Science Learn",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, Variables, Data Types",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "fa336fc62b9a4532dcaa84496514e2be",
