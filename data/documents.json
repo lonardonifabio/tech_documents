@@ -22968,31 +22968,104 @@
     "id": "5e01591549a7a59b6b2d6a7b39f33b2f",
     "filename": "Math_for_inference_and_ML_1740694642.pdf",
     "title": "Mathematics for Inference and Machine Learning",
-    "authors": [
-      "Marc Deisenroth",
-      "Stefanos Zafeiriou"
-    ],
+    "authors": [],
     "filepath": "documents/Math_for_inference_and_ML_1740694642.pdf",
-    "upload_date": "2025-06-13T22:59:45.660929",
+    "upload_date": "2025-06-17T09:28:59.024193",
     "file_size": 3482203,
-    "summary": "This document is a set of lecture notes from Imperial College London's Department of Computing, focusing on the mathematical foundations required for inference and machine learning. Topics covered include linear regression, probabilities, statistical independence, basic probability distributions, and probabilistic graphical models. The instructors are Marc Deisenroth and Stefanos Zafeiriou.",
+    "summary": "A comprehensive guide covering linear regression, probabilities, statistical independence, basic probability distributions, conjugacy, and probabilistic graphical models.",
     "keywords": [
-      "Mathematics",
-      "Inference",
-      "Machine Learning",
-      "Probability Distributions",
-      "Linear Regression"
+      "Linear Regression",
+      "Probabilities",
+      "Mathematics for Inference and Machine Learning",
+      "Support Vector Machines",
+      "Lagrangian Duality",
+      "Karush-Kuhn-Tucker Conditions",
+      "Bayes' theorem",
+      "machine learning",
+      "random variables",
+      "prior knowledge"
     ],
     "key_concepts": [
-      "The document provides the mathematical foundations necessary for understanding inference and machine learning, focusing on linear regression.",
-      "It covers various probability distributions such as uniform, Bernoulli, binomial, beta, Gaussian, gamma, Wishart, and their properties.",
-      "The document introduces probabilistic graphical models to represent complex relationships between variables.",
-      "Statistical independence is discussed in the context of probability theory.",
-      "Conjugacy is a concept that links prior and posterior distributions in Bayesian statistics."
+      "Probability distributions",
+      "Conjugacy in Bayesian inference",
+      "Probabilistic Graphical Models",
+      "Support Vector Classiﬁcation",
+      "Mapping Data to Higher Dimensional Spaces",
+      "Dual Problem",
+      "Inference of random variables",
+      "Bayesian statistics",
+      "Posterior probability distribution",
+      "Model selection"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Lecture notes on Mathematics for Inference and Machine Learning from Imperial College London."
+    "content_preview": "Document: Mathematics for Inference and Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education",
+      "Machine Learning",
+      "Bayesian statistics"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Linear Regression",
+      "Probabilities",
+      "Mathematics for Inference and Machine Learning"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "Mathematics",
+      "Probability",
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Mathematics for Inference and Machine Learning",
+      "Support Vector Machines",
+      "Support Vector Regression",
+      "Machine learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Mathematics for Inference and Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Linear Regression, Probabilities, Mathematics for Inference and Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "56a66499ebd950331ae96fb8e15e5e2b",
