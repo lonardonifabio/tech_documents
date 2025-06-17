@@ -37424,29 +37424,98 @@
   {
     "id": "8180e9bac611ba3365e342d9b7ac0722",
     "filename": "spaCy_Advanced_NLP_in_Python_1627300147.pdf",
-    "title": "Advanced NLP with spaCy in Python",
+    "title": "spaCy Cheat Sheet",
     "authors": [],
     "filepath": "documents/spaCy_Advanced_NLP_in_Python_1627300147.pdf",
-    "upload_date": "2025-06-13T22:59:51.535955",
+    "upload_date": "2025-06-17T05:39:17.454778",
     "file_size": 2519193,
-    "summary": "This document provides a comprehensive guide on using the spaCy library for Natural Language Processing (NLP) tasks in Python. It covers topics such as installing and validating the model, loading the model, working with Doc and Span objects, understanding part-of-speech tags, and utilizing word vectors. The document also explains how to use displacy for visualization and suggests installing large models for better performance.",
+    "summary": "This document provides a cheat sheet for using spaCy, a natural language processing library for Python. It covers loading models, tokenization, part-of-speech tagging, named entity recognition, and visualization. The document includes code examples and explanations of various spaCy functions and features.",
     "keywords": [
       "spaCy",
-      "NLP",
       "Python",
       "Data Science",
-      "Text Analysis"
+      "Natural Language Processing",
+      "NLP",
+      "Tokenization",
+      "Spacy",
+      "Matcher",
+      "Pattern"
     ],
     "key_concepts": [
-      "Explains how to install, validate, load the spaCy model in Python",
-      "Demonstrates working with Doc and Span objects in spaCy",
-      "Provides examples of part-of-speech tags and their usage",
-      "Introduces word vectors and their importance in NLP tasks",
-      "Explains how to use displacy for visualization in spaCy"
+      "Loading spaCy models",
+      "Part-of-speech tagging",
+      "Named Entity Recognition (NER)",
+      "Dependency parsing",
+      "Word vectors and embeddings",
+      "Part-of-Speech (POS) Tagging",
+      "Dependency Parsing",
+      "Semantic Role Labeling (SRL)",
+      "Text Preprocessing"
     ],
-    "category": "Technology",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a guide on using the spaCy library for NLP tasks in Python."
+    "content_preview": "Document: spaCy Cheat Sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science",
+      "relevant industry"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "spaCy",
+      "Python",
+      "NLTK"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "spaCy",
+      "Python",
+      "Data Science"
+    ],
+    "methodologies": [
+      "pattern matching",
+      "tokenization"
+    ],
+    "tools_mentioned": [
+      "spacy download",
+      "spacy validate",
+      "displacy.render",
+      "displacy.serve",
+      "NLTK library"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: spaCy Cheat Sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: spaCy, Python, Data Science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "1ce8bc1b4f115b62b11454473a366d74",
