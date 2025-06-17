@@ -21973,31 +21973,107 @@
   {
     "id": "ab0bba4d9a1223dbc65151a3c933ced1",
     "filename": "Machine_Learning_Mathematics_1743935287.pdf",
-    "title": "Mathematics for Machine Learning by Mohamed Aazi",
-    "authors": [
-      "Mohamed Aazi"
-    ],
+    "title": "Mathematics for Machine Learning",
+    "authors": [],
     "filepath": "documents/Machine_Learning_Mathematics_1743935287.pdf",
-    "upload_date": "2025-06-14T12:13:52.944156",
+    "upload_date": "2025-06-17T12:16:35.745923",
     "file_size": 1662575,
-    "summary": "This comprehensive guide, written by Mohamed Aazi, provides a beginner-level introduction to the mathematical foundations essential for AI and Data Science. The document covers topics such as linear algebra, calculus, probability, and statistics, offering practical examples and exercises throughout. It serves as an ideal resource for those seeking to build a strong foundation in mathematics for machine learning.",
+    "summary": "A comprehensive guide to building mathematical foundations for AI and data science, covering linear algebra and its applications.",
     "keywords": [
-      "Mathematics",
-      "Machine Learning",
-      "AI",
-      "Data Science",
-      "Linear Algebra"
+      "linear algebra",
+      "machine learning",
+      "mathematics",
+      "calculus",
+      "partial derivatives",
+      "gradient",
+      "hessian",
+      "directional derivative",
+      "Neural Networks",
+      "Regression Models"
     ],
     "key_concepts": [
-      "The book introduces the mathematical concepts necessary for understanding and applying machine learning algorithms.",
-      "It covers topics such as linear algebra, calculus, probability, and statistics, providing a solid foundation in these areas.",
-      "Practical examples and exercises are included throughout the guide to help readers apply their knowledge.",
-      "The book is structured in a way that allows beginners to easily grasp complex mathematical concepts related to machine learning.",
-      "It serves as an essential resource for anyone looking to build a strong foundation in mathematics for AI and Data Science."
+      "Vector Addition",
+      "Scalar Multiplication of a Vector",
+      "Dot Product",
+      "Fundamental Theorem of Calculus",
+      "Partial Derivatives",
+      "Gradient",
+      "Second Derivative (Hessian)",
+      "Directional Derivative",
+      "Perceptron Update Rule",
+      "Forward Propagation"
     ],
-    "category": "Machine Learning",
-    "difficulty": "Beginner",
-    "content_preview": "Comprehensive guide to building mathematical foundations for AI and Data Science."
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Mathematics for Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education",
+      "Mathematics and Engineering",
+      "Machine Learning",
+      "Data Science and Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "linear algebra"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "linear algebra",
+      "machine learning",
+      "mathematics"
+    ],
+    "methodologies": [
+      "comprehensive guide",
+      "mathematical",
+      "calculus",
+      "MDS",
+      "NMF"
+    ],
+    "tools_mentioned": [
+      "MATHEMATICS FOR MACHINE LEARNING",
+      "textbook",
+      "reference"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Online Course",
+      "Textbook",
+      "Calculus",
+      "Optimization",
+      "Neural Network Development"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Mathematics for Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: linear algebra, machine learning, mathematics",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.9375
   },
   {
     "id": "f9925279759292e439c79e63af82959e",
