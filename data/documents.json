@@ -1689,29 +1689,84 @@
   {
     "id": "1b0226c962d3f57b6bc7321e10632f4c",
     "filename": "AI_Data_Governance_Checklist_1749210443.pdf",
-    "title": "AI Data Governance Checklist - A Support to AI Implementation",
-    "authors": [
-      "Morgan signing House"
-    ],
+    "title": "AI Data Governance check list – A support to AI Implementation check List and Guide",
+    "authors": [],
     "filepath": "documents/AI_Data_Governance_Checklist_1749210443.pdf",
-    "upload_date": "2025-06-13T22:59:36.840891",
+    "upload_date": "2025-06-17T09:28:50.137050",
     "file_size": 344719,
-    "summary": "This document provides a comprehensive checklist for effective AI data governance, covering aspects such as data availability and quality, data classification and security, ethical AI and compliance, data stewardship and lineage, and continuous data governance. The guide includes instructions for questionnaire deployment and references.",
+    "summary": "This document provides a structured AI data governance framework with a focus on ensuring high-quality data, including an actionable checklist and deployment guide. Poor data quality isn't just a technical issue, it's a business risk. Inaccurate, incomplete, or biased data can distort model predictions, erode trust, and introduce regulatory exposure.",
     "keywords": [
+      "AI",
+      "Data Governance",
+      "Checklist"
+    ],
+    "key_concepts": [
       "AI Data Governance",
+      "Data Quality",
+      "Business Risk"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: AI Data Governance check list – A support to AI Implementation check List and Guide",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "Data Governance"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "Data Governance",
+      "Checklist"
+    ],
+    "methodologies": [
       "Checklist",
       "Implementation Guide"
     ],
-    "key_concepts": [
-      "The checklist serves as a support to AI implementation by ensuring proper data management.",
-      "Data Availability & Quality, Data Classification & Security, Ethical AI & Compliance, Data Stewardship & Lineage, and Continuous Data Governance are the main sections covered in this guide.",
-      "The guide includes instructions for deploying a questionnaire to facilitate the checklist process.",
-      "The document adheres to ethical principles and compliance regulations in AI data governance.",
-      "The checklist emphasizes the importance of continuous data governance for effective AI implementation."
+    "tools_mentioned": [
+      "ISO/IEC 42001",
+      "EU AI Act alignment",
+      "CAISO model"
     ],
-    "category": "AI",
-    "difficulty": "Intermediate",
-    "content_preview": "A guide offering an AI Data Governance checklist to support AI implementation."
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Governance"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: AI Data Governance check list – A support to AI Implementation check List and Guide",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: AI, Data Governance, Checklist",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "1a038965d1cb5bc0fb93a2a6af1bed26",
