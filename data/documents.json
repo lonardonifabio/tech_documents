@@ -20966,29 +20966,102 @@
   {
     "id": "18410fccf9f7d7eff405d16e5fe34918",
     "filename": "Machine_Learning_Part_02__1738571591.pdf",
-    "title": "Machine Learning Part 02 - NumPy and Pandas Fundamentals",
+    "title": "NumPy Fundamentals",
     "authors": [],
     "filepath": "documents/Machine_Learning_Part_02__1738571591.pdf",
-    "upload_date": "2025-06-13T22:59:45.159927",
+    "upload_date": "2025-06-17T09:28:58.514185",
     "file_size": 10649119,
-    "summary": "This document delves into the fundamentals of NumPy and Pandas, two essential libraries for data analysis and scientific computing in Python. Topics covered include NumPy attributes and operations, array functions, broadcasting, coding demonstrations, introduction to Pandas, working with Series and DataFrames, GroupBy object, joins, merges, MultiIndex, long vs wide format, pivot tables, vectorized string operations, and date and time manipulation in pandas. The document is useful for data scientists, engineers, and researchers working on numerical and scientific computing tasks.",
+    "summary": "NumPy is a fundamental Python library for scientific and numerical computing. It provides support for arrays (including multi-dimensional arrays) and a wide range of mathematical functions to operate on these arrays. NumPy is a crucial library in the Python scientific computing ecosystem and is often used in conjunction with other libraries like SciPy, Matplotlib, and pandas for various data analysis and scientific computing tasks.",
     "keywords": [
       "NumPy",
       "Pandas",
-      "Data Analysis",
+      "Python",
       "Scientific Computing",
-      "Arrays"
+      "Data Analysis",
+      "numpy",
+      "vector operations",
+      "array",
+      "mathematical operations"
     ],
     "key_concepts": [
-      "NumPy is a fundamental Python library for scientific and numerical computing.",
-      "NumPy provides support for arrays, including multi-dimensional arrays, and a wide range of mathematical functions to operate on these arrays.",
-      "Pandas is often used in conjunction with NumPy for various data analysis tasks.",
-      "The document covers topics like NumPy attributes and operations, array functions, broadcasting, coding demonstrations, introduction to Pandas, working with Series and DataFrames, GroupBy object, joins, merges, MultiIndex, long vs wide format, pivot tables, vectorized string operations, and date and time manipulation in pandas.",
-      "The document is useful for data scientists, engineers, and researchers working on numerical and scientific computing tasks."
+      "Array Functions",
+      "Broadcasting",
+      "Series Methods",
+      "DataFrame Operations",
+      "GroupBy object",
+      "NumPy arrays",
+      "vector operations",
+      "array manipulation",
+      "mathematical functions"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document delves into the fundamentals of NumPy and Pandas, two essential libraries for data analysis in Python."
+    "content_preview": "Document: NumPy Fundamentals",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science/Scientific Computing",
+      "Computing and Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "NumPy"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "NumPy",
+      "Pandas",
+      "Python"
+    ],
+    "methodologies": [
+      "Scientific Computing",
+      "vector operations"
+    ],
+    "tools_mentioned": [
+      "SciPy",
+      "Matplotlib",
+      "Pandas",
+      "array",
+      "mathematical operations"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Machine Learning",
+      "Scientific Computing",
+      "Numerical Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: NumPy Fundamentals",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: NumPy, Pandas, Python",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "9dfaaf26ba4dff682714ca7c1e7b7f83",
