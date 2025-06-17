@@ -1511,53 +1511,100 @@
   {
     "id": "a0159d379d938a22a29b0ba5b8294b10",
     "filename": "AI_Agents_1747070376.pdf",
-    "title": "IBM AI Ethics Board: Opportunities, Risks, and Mitigations",
-    "authors": [
-      "Christina Montgomery",
-      "Francesca Rossi",
-      "Kush Varshney",
-      "Manish Bhide",
-      "Rob Parkin",
-      "Saishruthi Swaminathan",
-      "Ambirsh Rawat",
-      "Chan Nasseb",
-      "Christopher Noessel",
-      "Daniel Karl I. Weidele",
-      "David Piorkowski",
-      "Heloísa Candello",
-      "Jamie VanDodick",
-      "John Richards",
-      "Matt Bellio",
-      "Michael Hind",
-      "Michael Muller",
-      "Mihaela Bornea",
-      "Milena Pribic",
-      "Phaedra Boinodris",
-      "Rogerio Abreu de Paula",
-      "Sara E Berger",
-      "Simon Rogers"
-    ],
+    "title": "AI Agents: Opportunities, Risks, and Mitigations",
+    "authors": [],
     "filepath": "documents/AI_Agents_1747070376.pdf",
-    "upload_date": "2025-06-14T13:06:46.315944",
+    "upload_date": "2025-06-17T12:16:27.342922",
     "file_size": 1226755,
-    "summary": "This document presents the findings of IBM's AI Ethics Board, focusing on opportunities, risks, and mitigation strategies for AI agents. The report discusses benefits, societal impacts, and governance, with contributions from various experts. It acknowledges the review and feedback from additional members.",
+    "summary": "This document discusses the opportunities, risks, and mitigations of AI agents, highlighting the benefits and challenges of using these agents in various fields. The authors acknowledge the contributions of multiple experts and express gratitude to the AI Ethics Board workstream's co-chairs and executive sponsors.",
     "keywords": [
       "AI",
       "Ethics",
-      "Board",
-      "Opportunities",
-      "Risks"
+      "Agents",
+      "attackers",
+      "system degradation",
+      "personalization",
+      "identity impersonation",
+      "feedback manipulation"
     ],
     "key_concepts": [
-      "The report discusses the opportunities that AI agents present, emphasizing their potential to revolutionize various industries.",
-      "It highlights the risks and challenges associated with AI agents, such as bias, privacy concerns, and security threats.",
-      "The document proposes mitigation strategies to address these risks, focusing on responsible AI development and governance.",
-      "The report also covers societal impacts of AI agents, including their potential effects on employment, society, and ethics.",
-      "The theoretical framework for the report is based on ethical principles and best practices in AI development."
+      "Artificial Intelligence",
+      "Moral Responsibility",
+      "Bias in AI Systems",
+      "Amplified Reason",
+      "Trust Mismatch",
+      "Function-calling hallucination"
     ],
-    "category": "AI",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses opportunities, risks, and mitigations for AI agents, with contributions from various experts."
+    "content_preview": "Document: AI Agents: Opportunities, Risks, and Mitigations",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Technology",
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2",
+      "AI"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "Ethics",
+      "Agents"
+    ],
+    "methodologies": [
+      "method1",
+      "method2",
+      "attack",
+      "exploit"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2",
+      "injection attacks",
+      "function-calling hallucination"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "AI Agent Attacks",
+      "System Degradation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: AI Agents: Opportunities, Risks, and Mitigations",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: AI, Ethics, Agents",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "776ef6947b0a8af159cf6d6be0362081",
