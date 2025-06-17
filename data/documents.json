@@ -24637,29 +24637,95 @@
   {
     "id": "ce3f48d26430855dce3ef168de2d4923",
     "filename": "Math_for_Machine_Learning_1636637683.pdf",
-    "title": "Math for Machine Learning",
-    "authors": [
-      "Philippe Rigollet"
-    ],
+    "title": "Mathematics of Machine Learning",
+    "authors": [],
     "filepath": "documents/Math_for_Machine_Learning_1636637683.pdf",
-    "upload_date": "2025-06-14T13:06:55.206945",
+    "upload_date": "2025-06-17T12:16:36.284923",
     "file_size": 3201484,
-    "summary": "This document focuses on statistical learning theory in machine learning, explaining the differences between statistics and machine learning. It delves into maximum likelihood estimation (MLE) as a systematic tool for statistical inference, emphasizing the importance of modeling, which can be driven by physics or prior knowledge of the problem. The document also discusses new types of datasets and their implications.",
+    "summary": "This course focuses on statistical learning theory, which roughly means understanding the amount of data required to achieve a certain prediction accuracy. The two fields of statistics and machine learning share common goals, but they have evolved differently. Statistics was already a fully developed scientific discipline by 1920, while machine learning emerged later. Machine learning requires knowing the probability distribution from which the data is drawn, often with unknown parameters that have physical meanings.",
     "keywords": [
       "Machine Learning",
       "Statistical Learning Theory",
+      "Data Analysis",
+      "Probability Distribution",
       "Maximum Likelihood Estimation",
-      "Data Modeling"
+      "estimation error",
+      "classifiers",
+      "statistical learning theory",
+      "concentration inequalities"
     ],
     "key_concepts": [
-      "This course focuses on understanding the amount of data required to achieve a certain prediction accuracy in statistical learning theory.",
-      "The document explains the differences between statistics and machine learning, highlighting that while they share common goals, they were at the beginning quite different.",
-      "Maximum likelihood estimation (MLE) is discussed as a systematic tool for statistical inference, requiring knowledge of the probability distribution from which the data is drawn.",
-      "Modeling is crucial for enabling MLE and requires domain knowledge. It can be driven by physics or prior knowledge of the problem."
+      "Difference between Statistics and Machine Learning",
+      "Understanding Data Requirements for Prediction Accuracy",
+      "Importance of Modeling in Machine Learning",
+      "partial knowledge of distribution",
+      "no-free-lunch theorem",
+      "trade-off between estimation and approximation"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document focuses on statistical learning theory in machine learning, explaining differences with statistics and discussing maximum likelihood estimation."
+    "content_preview": "Document: Mathematics of Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education",
+      "Machine Learning/AI"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "mathematics",
+      "statistics"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Statistical Learning Theory",
+      "Data Analysis"
+    ],
+    "methodologies": [
+      "statistical learning theory",
+      "Hoeﬀding's",
+      "Bernstein's"
+    ],
+    "tools_mentioned": [
+      "maximum likelihood estimation (MLE)",
+      "concentration inequalities"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Statistical Learning Theory"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Mathematics of Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, Statistical Learning Theory, Data Analysis",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "f1369dcaec6ea0b6a2878e5a262d4cc3",
