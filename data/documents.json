@@ -10252,29 +10252,101 @@
   {
     "id": "e7387252bc502e1801de3e72e4578aee",
     "filename": "DS_Archive_1701763444.pdf",
-    "title": "Data Science Archive: 320+ Posts and 580+ Pages",
+    "title": "Data Science",
     "authors": [],
     "filepath": "documents/DS_Archive_1701763444.pdf",
-    "upload_date": "2025-06-14T13:06:49.310945",
+    "upload_date": "2025-06-17T12:16:30.351922",
     "file_size": 25427663,
-    "summary": "This document is a comprehensive archive of over 320 Data Science blog posts, totaling approximately 580 pages. The topics covered range from the categorization of discriminative models, origins of regularization, creating moving bubbles charts in Python, gradient checkpointing for neural networks, Gaussian Mixture Models, the misleading nature of correlation statistics, MissForest imputation method, visual guides to bias-variance problem and speed-up techniques for Python, limitations of grid search and random search, an intuitive guide to generalized and discriminative models in Machine Learning, feature scaling, and the use of Sigmoid in Logistic Regression.",
+    "summary": "A collection of 60+ data science posts and pages covering various topics including discriminative models, regularization, machine learning algorithms, and more.",
     "keywords": [
-      "Data Science",
-      "Blog Posts",
-      "Machine Learning",
-      "Python",
-      "Discriminative Models"
+      "discriminative models",
+      "regularization",
+      "neural networks",
+      "Gaussian mixture models",
+      "correlation",
+      "summary statistics",
+      "MissForest",
+      "bias-variance problem",
+      "Python optimization",
+      "grid search"
     ],
     "key_concepts": [
-      "This document explores fundamental concepts related to data science archive: 320+ posts and 580+ pages providing theoretical foundations and practical insights for understanding the subject matter.",
-      "The methodology presented in this work demonstrates systematic approaches to technology with emphasis on evidence-based practices and proven techniques.",
-      "Key findings and applications discussed include real-world implementations and case studies that illustrate the practical value of the concepts presented in this document.",
-      "The theoretical framework underlying this work builds upon established principles in technology while introducing innovative perspectives and methodologies.",
-      "Practical implications of this research extend to various domains where technology principles can be applied to solve complex problems and improve outcomes."
+      "Regularization in machine learning",
+      "Bias-variance tradeoff",
+      "Feature scaling in machine learning",
+      "Logistic regression",
+      "Generative and discriminative models",
+      "A sentence expressing a concept of K-Means clustering",
+      "A sentence expressing a concept of Python Object-Oriented Programming",
+      "A sentence expressing a concept of interactive plots with Matplotlib",
+      "A sentence expressing a concept of using Box Plots correctly",
+      "A sentence expressing a concept of Xonsh shell for Python"
     ],
-    "category": "Technology",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Data Science Archive: 320+ Posts and 580+ Pages"
+    "content_preview": "Document: Data Science",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science",
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "KMeans"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "discriminative models",
+      "regularization",
+      "neural networks"
+    ],
+    "methodologies": [
+      "Machine Learning"
+    ],
+    "tools_mentioned": [
+      "Table of Contents",
+      "Gradient Checkpoin3ng",
+      "Gaussian Mixture Models"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Data Analysis",
+      "Python programming",
+      "Data science"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Science",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: discriminative models, regularization, neural networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "13beb634d7ee460d1f00527d19ef4398",
