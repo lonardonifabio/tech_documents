@@ -1478,33 +1478,90 @@
   {
     "id": "0cf1482087bbcbc8e1d43837da5b9027",
     "filename": "AI_Agents_by_Google_1742549472.pdf",
-    "title": "AI Agents by Google",
-    "authors": [
-      "Julia Wiesinger",
-      "Patrick Marlow",
-      "Vladimir Vuskovic"
-    ],
+    "title": "AI Agents",
+    "authors": [],
     "filepath": "documents/AI_Agents_by_Google_1742549472.pdf",
-    "upload_date": "2025-06-13T22:59:36.784890",
+    "upload_date": "2025-06-16T22:24:13.310215",
     "file_size": 4043800,
-    "summary": "This document discusses AI agents, their model, tools, and orchestration layer. It highlights the differences between agents and models, cognitive architectures, and extensions. The document also provides sample extensions, functions, use cases, and function sample code. Data stores and implementation are covered, along with enhancing model performance through targeted learning. The document concludes with a quick start guide for LangChain Production and applications with Vertex AI agents.",
+    "summary": "The document discusses AI agents and their capabilities to use tools to access real-time information or suggest actions. It explains how humans rely on tools for messy pattern recognition tasks and how generative AI models can be trained to do the same.",
     "keywords": [
       "AI Agents",
-      "Google",
-      "Cognitive Architectures",
-      "Extensions",
-      "Tools"
+      "Generative AI models",
+      "Tools",
+      "Cognitive architectures",
+      "Agent",
+      "Model",
+      "Orchestration layer"
     ],
     "key_concepts": [
-      "An agent is a software system that perceives its environment and takes actions to achieve goals.",
-      "The model refers to the underlying machine learning model used by the agent.",
-      "The tools section discusses various tools used for interacting with the outside world, such as TensorFlow and PyTorch.",
-      "Extensions allow users to customize the behavior of an agent.",
-      "Cognitive architectures explain how agents operate and make decisions based on their environment."
+      "Agents vs. models",
+      "How agents operate using cognitive architectures",
+      "Using tools to access real-time information or suggest actions",
+      "Training models to use tools for tasks like database retrieval",
+      "Enhancing model performance with targeted learning",
+      "Agent quick start with LangChain Production"
     ],
-    "category": "AI",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about AI agents, their tools, and applications with Google's guide."
+    "content_preview": "Document: AI Agents",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "AI and Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Generative AI",
+      "Database retrieval tool"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI Agents",
+      "Generative AI models",
+      "Tools"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [
+      "books",
+      "Google Search",
+      "calculator",
+      "database retrieval tool"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "generating tailored shopping recommendations",
+      "accessing real-time information or suggesting real-world actions"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: AI Agents",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: AI Agents, Generative AI models, Tools",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "b2cb06bf211e4a51c7ab1c2393914b13",
