@@ -30179,32 +30179,97 @@
   {
     "id": "1323723d4ea8fac658fd47f8fa5887cb",
     "filename": "Reinforcement_Learning__1638521618.pdf",
-    "title": "Reinforcement Learning: An Introduction (Second Edition)",
-    "authors": [
-      "Richard S. Sutton",
-      "Andrew G. Barto"
-    ],
+    "title": "Reinforcement Learning: An Introduction",
+    "authors": [],
     "filepath": "documents/Reinforcement_Learning__1638521618.pdf",
-    "upload_date": "2025-06-14T10:09:00.549610",
+    "upload_date": "2025-06-17T12:16:38.751923",
     "file_size": 1655090,
-    "summary": "This document provides an introduction to reinforcement learning, a machine learning technique that enables agents to learn from interactions with their environment. The book covers topics such as Markov decision processes, Q-learning, and deep reinforcement learning. It also includes practical applications and use cases, making it valuable for both beginners and advanced readers in the field of AI and Machine Learning.",
+    "summary": "A book on reinforcement learning, a type of machine learning, by Richard S. Sutton and Andrew G. Barto, published in 2018 by The MIT Press.",
     "keywords": [
       "Reinforcement Learning",
+      "Adaptive Computation",
       "Machine Learning",
-      "AI",
-      "Markov Decision Processes",
-      "Q-Learning"
+      "n-step",
+      "TD prediction",
+      "Sarsa",
+      "O-policy learning",
+      "control variates",
+      "tree backup algorithm"
     ],
     "key_concepts": [
-      "Reinforcement learning is a type of machine learning where an agent learns to make decisions by interacting with its environment.",
-      "The book covers the fundamental concepts and algorithms of reinforcement learning, including Q-learning and deep reinforcement learning.",
-      "Practical applications of reinforcement learning are discussed, showcasing its potential in areas such as robotics, gaming, and resource management.",
-      "The theoretical framework of reinforcement learning is based on Markov decision processes, which model the agent's environment and actions.",
-      "The second edition of this book includes updates to reflect recent advancements in reinforcement learning research."
+      "Trajectory-based design",
+      "Simulated bicycle",
+      "Creative Commons License",
+      "Double Learning",
+      "Games, Afterstates, and Other Special Cases",
+      "Planning and Learning with Tabular Methods"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "An introduction to reinforcement learning, a machine learning technique."
+    "content_preview": "Document: Reinforcement Learning: An Introduction",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Machine Learning",
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "TD Prediction",
+      "Sarsa",
+      "O-policy Learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Reinforcement Learning",
+      "Adaptive Computation",
+      "Machine Learning"
+    ],
+    "methodologies": [
+      "n-step TD Prediction",
+      "n-step Sarsa",
+      "n-step O-policy Learning"
+    ],
+    "tools_mentioned": [
+      "Tree Backup Algorithm",
+      "Dyna",
+      "Prioritized Sweeping"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Reinforcement Learning",
+      "Planning and Decision Making"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Reinforcement Learning: An Introduction",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Reinforcement Learning, Adaptive Computation, Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "5c263ccb69f542d3240acba819fad342",
