@@ -18601,27 +18601,95 @@
   {
     "id": "a45a2949074832a3c91a09e6609bedf9",
     "filename": "Introduction_to_Python_2019_Brown_University_1568054990.pdf",
-    "title": "Introduction to Python - 2019",
+    "title": "Introduction to Python",
     "authors": [],
     "filepath": "documents/Introduction_to_Python_2019_Brown_University_1568054990.pdf",
-    "upload_date": "2025-06-14T13:06:53.059945",
+    "upload_date": "2025-06-17T12:16:34.134923",
     "file_size": 216171,
-    "summary": "This document is an overview for the Introduction to Python course at Brown University. It covers the basics of Python, its similarities and differences with Java, and the benefits of using Python such as easy readability and experimentation. The course is due on February 14th.",
+    "summary": "This document introduces the basics of Python programming language, its resemblance to Java, variable types, and the environment that allows for easy experimentation and testing. It also highlights the readability of Python code.",
     "keywords": [
       "Python",
-      "Programming Language",
-      "Brown University",
-      "CS 16"
+      "programming language",
+      "Java",
+      "variables",
+      "types",
+      "python",
+      "programming",
+      "algorithms",
+      "data structures"
     ],
     "key_concepts": [
-      "Python is a programming language that you'll be learning this semester.",
-      "Unlike Java, Python doesn't require variable type declarations.",
-      "The Python environment allows for easy experimentation and testing.",
-      "One of the benefits of using Python is its easy readability."
+      "Introduction to Python",
+      "Variables in Python",
+      "Type inference in Python",
+      "Experimentation and testing in Python",
+      "function definition",
+      "main function",
+      "pseudocode",
+      "algorithm design"
     ],
     "category": "Technology",
-    "difficulty": "Beginner",
-    "content_preview": "This document is an overview for the Introduction to Python course at Brown University."
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Introduction to Python",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Education",
+      null
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "programming language",
+      "Java"
+    ],
+    "methodologies": [
+      "Algorithmic",
+      "Pseudocode"
+    ],
+    "tools_mentioned": [
+      "Terminal",
+      "Python Interpreter"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Programming",
+      "Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Introduction to Python",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Python, programming language, Java",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "de5af40c1ab2895fc346863c9bd495d9",
