@@ -25101,26 +25101,79 @@
     "title": "Nail Disease Detection using Deep Learning",
     "authors": [],
     "filepath": "documents/Nail_1725987884.pdf",
-    "upload_date": "2025-06-14T12:13:54.182153",
+    "upload_date": "2025-06-17T12:16:36.996923",
     "file_size": 855672,
-    "summary": "This document outlines a deep learning approach for detecting various nail diseases such as Acral Lentiginous Melanoma, pitting, Onychogryphosis, clubbing, and healthy nails. The project uses Python libraries like NumPy, Pandas, Matplotlib, and PIL to load, preprocess, and visualize the data. The dataset is divided into training and validation sets, with each set containing folders for each disease category.",
+    "summary": "A document about detecting nail diseases using deep learning techniques. The document provides information on preparing the dataset and displaying images from different folders.",
     "keywords": [
       "Deep Learning",
       "Nail Disease Detection",
-      "Python",
-      "NumPy",
-      "Pandas"
+      "Image Processing"
     ],
     "key_concepts": [
-      "The document describes a deep learning method for detecting nail diseases using Python libraries.",
-      "The project uses image files from a dataset, which is divided into training and validation sets.",
-      "Each set contains folders for different disease categories such as Acral Lentiginous Melanoma, pitting, Onychogryphosis, clubbing, and healthy nails.",
-      "The method involves loading, preprocessing, and visualizing the data using NumPy, Pandas, Matplotlib, and PIL.",
-      "The document provides a function to display up to 5 images from a specified folder for visual inspection."
+      "Dataset Preparation",
+      "Folder Organization",
+      "Image Display"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document outlines a deep learning approach for detecting nail diseases using Python libraries."
+    "content_preview": "Document: Nail Disease Detection using Deep Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Medical Imaging"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "pandas"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Deep Learning",
+      "Nail Disease Detection",
+      "Image Processing"
+    ],
+    "methodologies": [
+      "deep learning"
+    ],
+    "tools_mentioned": [
+      "matplotlib",
+      "PIL (Python Imaging Library)"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Nail Disease Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Nail Disease Detection using Deep Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Deep Learning, Nail Disease Detection, Image Processing",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "4c37ef8cc78d04662a9dbbdf1832c3cf",
