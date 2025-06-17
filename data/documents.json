@@ -28331,31 +28331,108 @@
   {
     "id": "423a1bb7b0daf8e1cc9cf606bbfd5864",
     "filename": "R_Programming_Quick_Reference_Sheet_1567265320.pdf",
-    "title": "R Programming Quick Reference Sheet",
-    "authors": [
-      "arianne Colton",
-      "Sean Chen"
-    ],
+    "title": "R Programming Cheat Sheet",
+    "authors": [],
     "filepath": "documents/R_Programming_Quick_Reference_Sheet_1567265320.pdf",
-    "upload_date": "2025-06-13T22:59:47.919939",
+    "upload_date": "2025-06-17T09:29:01.365231",
     "file_size": 607662,
-    "summary": "This document provides a quick reference sheet for basic R programming, focusing on data structure manipulation, string handling, and functions. It includes cheat sheets for common tasks such as pasting, splitting, substring extraction, and pattern matching. The document also covers essential concepts like data types, case sensitivity, indexing, and special characters in R.",
+    "summary": "A comprehensive guide to R programming, covering data structures, string manipulation, and more. Created by arianne Colton and Sean Chen.",
     "keywords": [
-      "R Programming",
-      "Cheat Sheet",
-      "Data Structure",
-      "String Manipulation"
+      "string manipulation",
+      "R programming",
+      "data types",
+      "R",
+      "SQL",
+      "ggplot2",
+      "data analysis",
+      "factors",
+      "attributes",
+      "data loading"
     ],
     "key_concepts": [
-      "The 'paste' function combines strings with a separator (default is space).",
-      "The 'str_split' function splits a string into a list based on a pattern.",
-      "The 'str_sub' function extracts a substring from a given position.",
-      "The 'str_detect' function checks if a pattern exists in a string (case-insensitive).",
-      "R version 3.0 and greater supports 64 bit integers."
+      "Data types in R",
+      "String manipulation functions",
+      "Package loading and naming conventions",
+      "connection management",
+      "table naming conventions",
+      "data manipulation",
+      "missing data handling",
+      "graphical visualization",
+      "function creation and calling",
+      "Character vectors vs. factors"
     ],
-    "category": "Data Science",
-    "difficulty": "Beginner",
-    "content_preview": "Quick reference sheet for R programming basics, including data structure manipulation and string handling."
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: R Programming Cheat Sheet",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Data Science",
+      "Finance",
+      "Software Development"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "R"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "string manipulation",
+      "R programming",
+      "data types"
+    ],
+    "methodologies": [
+      "string manipulation",
+      "data type management",
+      "data analysis",
+      "statistical modeling",
+      "generic-function OO"
+    ],
+    "tools_mentioned": [
+      "paste",
+      "str_split",
+      "str_sub",
+      "stringr",
+      "help"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Data Manipulation",
+      "Data Analysis",
+      "Data Visualization",
+      "Risk Management",
+      "Portfolio Optimization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: R Programming Cheat Sheet",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: string manipulation, R programming, data types",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "caf22e028d76cf9cb2a3985480b63a03",
