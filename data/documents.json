@@ -33490,64 +33490,87 @@
   {
     "id": "7e92a37552b21d9b33929f23fbd61217",
     "filename": "Udaya_Master_ML_in_30_days_plan_1711664023.pdf",
-    "title": "Udaya's Master Machine Learning in 30 Days Plan",
+    "title": "Machine Learning",
     "authors": [],
     "filepath": "documents/Udaya_Master_ML_in_30_days_plan_1711664023.pdf",
-    "upload_date": "2025-06-15T16:03:34.796627",
+    "upload_date": "2025-06-17T09:29:03.726269",
     "file_size": 5534062,
-    "summary": "This document provides a 30-day plan to master machine learning, focusing on developing problem-solving abilities rather than just learning the theory. It covers basics of machine learning, types of problems (classification, regression), supervised vs unsupervised learning vs reinforcement learning, and basic concepts like features, labels, models, etc. The document also addresses questions about real-world applications of machine learning and differentiating between supervised and unsupervised learning.",
+    "summary": "This document will help you develop problem-solving ability to solve new problems. It covers basics of machine learning, types of problems (classification, regression), supervised vs unsupervised learning, and basic concepts like features, labels, models.",
     "keywords": [
-      "Machine Learning",
-      "30 Days Plan",
-      "Problem Solving"
+      "machine learning",
+      "artificial intelligence",
+      "linear algebra",
+      "probability"
     ],
     "key_concepts": [
-      "This document aims to help readers develop problem-solving abilities in machine learning.",
-      "The document covers the basics of machine learning, including introduction, types of problems (classification, regression), and basic concepts like features, labels, models, etc.",
-      "The document differentiates between supervised learning, unsupervised learning, and reinforcement learning.",
-      "The theoretical framework for this document is based on the principles of machine learning and problem-solving.",
-      "Practical implications of this document are the development of skills to solve new problems in machine learning."
+      "Problem-solving ability",
+      "Types of problems (classification, regression)",
+      "Supervised vs. unsupervised learning",
+      "Linear algebra fundamentals",
+      "Probability fundamentals"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a 30-day plan to master machine learning.",
-    "target_audience": "Individuals with some prior knowledge of machine learning looking to improve their problem-solving skills in the field.",
+    "content_preview": "Document: Machine Learning",
+    "target_audience": "Professionals in data science field",
     "industry": [
-      "Technology",
-      "Data Science"
+      "Artificial Intelligence/Machine Learning"
     ],
     "business_functions": [
       "Research and Development",
-      "Machine Learning Engineering"
+      "Strategy"
     ],
     "companies": [],
     "technologies": [
-      "Machine Learning"
+      "Python",
+      "NumPy"
     ],
     "processes": [
-      "Problem Solving"
+      "Analysis",
+      "Implementation"
     ],
     "technical_terms": [
-      "Supervised Learning",
-      "Unsupervised Learning",
-      "Reinforcement Learning",
-      "Features",
-      "Labels",
-      "Models"
+      "machine learning",
+      "artificial intelligence",
+      "linear algebra"
     ],
     "methodologies": [
-      "Machine Learning Methodologies"
+      "Machine Learning",
+      "Probability Theory"
     ],
-    "tools_mentioned": [],
+    "tools_mentioned": [
+      "Linear Algebra",
+      "Statistics"
+    ],
     "prerequisites": [
-      "Some prior knowledge of machine learning"
+      "Basic understanding of the subject matter"
     ],
-    "learning_objectives": [],
-    "use_cases": [],
-    "benefits_mentioned": [],
-    "challenges_addressed": [],
-    "best_practices": [],
-    "questions_and_answers": []
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Problem-solving",
+      "Linear Algebra"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, artificial intelligence, linear algebra",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "2a43c4a84735b06ffb6ca17c56ca34d8",
