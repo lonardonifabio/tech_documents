@@ -4675,36 +4675,87 @@
   {
     "id": "2c5334041419e90fa983e2b098a44614",
     "filename": "Adversarial_Machine_Learning_1743431306.pdf",
-    "title": "Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations",
-    "authors": [
-      "Alina Oprea",
-      "Apostol Vassilev",
-      "Maia Hamin",
-      "Alie Fordyce",
-      "Hyrum Anderson",
-      "Xander Davies"
-    ],
+    "title": "NIST Trustworthy and Responsible AI NIST AI 100-2e2025 Adversarial Machine Learning A Taxonomy and Terminology of Attacks and Mitigations",
+    "authors": [],
     "filepath": "documents/Adversarial_Machine_Learning_1743431306.pdf",
-    "upload_date": "2025-06-13T22:59:38.104896",
+    "upload_date": "2025-06-16T22:24:14.629228",
     "file_size": 4184989,
-    "summary": "This document, published by NIST in March 2025, presents a comprehensive taxonomy and terminology for adversarial machine learning attacks and their mitigation strategies. The publication is authored by Alina Oprea, Apostol Vassilev, Maia Hamin, Alie Fordyce, Hyrum Anderson, and Xander Davies from various institutions including Northeastern University, U.S. AI Safety Institute, National Institute of Standards and Robust Intelligence (now part of Cisco), and the U.K. AI Security Institute. The document is available for free at https://doi.org/10.6028/NIST.AI.100-2e2025.",
+    "summary": "This publication is a taxonomy and terminology of attacks and mitigations in adversarial machine learning, available for free from https://doi.org/10.6028/NIST.AI.100-2e2025.",
     "keywords": [
       "Adversarial Machine Learning",
+      "Trustworthy AI",
+      "Responsible AI",
+      "Taxonomy",
+      "Terminology",
       "Attacks",
       "Mitigations",
-      "Taxonomy",
-      "Terminology"
+      "Attacker Capabilities",
+      "Supply Chain Attacks",
+      "Data Poisoning Attacks"
     ],
     "key_concepts": [
-      "The document provides a detailed taxonomy and terminology for various types of adversarial machine learning attacks.",
-      "It offers strategies for mitigating these attacks, providing practical guidance for improving the robustness of machine learning models.",
-      "The publication is based on collaborative efforts from multiple institutions in the field of AI and security.",
-      "The document follows the NIST AI 100-2e2025 standard for trustworthy and responsible AI.",
-      "The findings and recommendations in this document can be applied to improve the security and reliability of machine learning systems."
+      "A taxonomy and terminology of attacks and mitigations in Adversarial Machine Learning.",
+      "The importance of Trustworthy and Responsible AI in various applications.",
+      "Understanding the threats and vulnerabilities associated with Adversarial Machine Learning.",
+      "A chapter discussing attacker capabilities and their impact on AI systems.",
+      "Supply chain attacks can compromise AI model integrity, requiring mitigations to prevent data poisoning and model poisoning.",
+      "Direct prompting attacks involve manipulating input prompts to deceive AI models, while indirect prompt injection attacks target the availability, integrity, or privacy of AI systems."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a taxonomy and terminology for adversarial machine learning attacks and their mitigations."
+    "content_preview": "Document: NIST Trustworthy and Responsible AI NIST AI 100-2e2025 Adversarial Machine Learning A Taxonomy and Terminology of Attacks and Mitigations",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Computer Security",
+      "Cybersecurity"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Adversarial Machine Learning",
+      "Trustworthy AI",
+      "Responsible AI"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Supply Chain Attacks",
+      "Direct Prompting Attacks",
+      "Indirect Prompt Injection Attacks"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: NIST Trustworthy and Responsible AI NIST AI 100-2e2025 Adversarial Machine Learning A Taxonomy and Terminology of Attacks and Mitigations",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: Adversarial Machine Learning, Trustworthy AI, Responsible AI",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "449e9a419f84b3920f89ac18771b4c3a",
