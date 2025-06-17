@@ -20101,30 +20101,81 @@
   {
     "id": "fbc10355af382b1eca80f0cd0c62f290",
     "filename": "ML_Guide_1637572092.pdf",
-    "title": "Step-by-Step Guide to Implement Machine Learning Algorithms with Python",
-    "authors": [
-      "Rudolph Russell"
-    ],
+    "title": "Implementing Machine Learning Algorithms with Python",
+    "authors": [],
     "filepath": "documents/ML_Guide_1637572092.pdf",
-    "upload_date": "2025-06-13T22:59:44.572925",
+    "upload_date": "2025-06-17T09:28:57.924176",
     "file_size": 1658301,
-    "summary": "This document provides a comprehensive guide on implementing various machine learning algorithms using the Python programming language. It covers topics such as data preprocessing, model selection, training, and evaluation. The guide is suitable for both beginners and intermediate learners in machine learning. Key applications include predictive modeling, classification, regression, and clustering.",
+    "summary": "A step-by-step guide to implementing machine learning algorithms using Python, covering various topics such as supervised and unsupervised learning, reinforcement learning, batch and online learning, feature engineering, testing, and more. The book is written by Rudolph Russell and was published in 2018.",
     "keywords": [
-      "Machine Learning",
-      "Python",
-      "Guide",
-      "Algorithms"
+      "machine learning",
+      "python",
+      "supervised learning",
+      "unsupervised learning",
+      "reinforcement learning"
     ],
     "key_concepts": [
-      "The guide explains how to implement machine learning algorithms using Python, making it accessible for a wide range of learners.",
-      "It covers essential topics such as data preprocessing, model selection, training, and evaluation in the context of machine learning.",
-      "Practical examples and exercises are provided throughout the guide to help readers understand and apply the concepts learned.",
-      "The theoretical foundations of machine learning are briefly discussed to provide a solid understanding of the underlying principles.",
-      "Upon completion of this guide, readers will have gained valuable skills in implementing machine learning algorithms using Python."
+      "Machine Learning",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn to implement machine learning algorithms with Python in this comprehensive guide."
+    "content_preview": "Document: Implementing Machine Learning Algorithms with Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "python",
+      "supervised learning"
+    ],
+    "methodologies": [
+      "Step-by-Step Guide"
+    ],
+    "tools_mentioned": [
+      "Machine Learning Algorithms"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Implementing Machine Learning Algorithms with Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, python, supervised learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "f24712180d0377bf3bc058bef0e84581",
