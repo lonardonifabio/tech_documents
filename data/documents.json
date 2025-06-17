@@ -5803,30 +5803,112 @@
   {
     "id": "fc60ea57e881815a635d4a8b6047a202",
     "filename": "An_Introduction_to_Statistical_Learning_1628687530.pdf",
-    "title": "An Introduction to Statistical Learning",
-    "authors": [
-      "Gareth James",
-      "Daniela Witten",
-      "Trevor Hastie",
-      "Robert Tibshirani"
-    ],
+    "title": "An Introduction to Statistical Learning with Applications in R",
+    "authors": [],
     "filepath": "documents/An_Introduction_to_Statistical_Learning_1628687530.pdf",
-    "upload_date": "2025-06-14T10:08:50.843568",
+    "upload_date": "2025-06-17T12:16:28.893922",
     "file_size": 1538553,
-    "summary": "This document introduces statistical learning, a critical toolkit for understanding complex datasets, particularly relevant in today's data-driven world. It provides a less technical treatment of key topics compared to other resources, making it accessible to a broader audience. The book is written by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani.",
+    "summary": "Statistical learning refers to a set of tools for making sense of complex datasets. With the increase in data collection across science and industry, statistical learning has become a critical toolkit for understanding data. This book aims to provide a broader and less technical treatment of key topics in statistical learning.",
     "keywords": [
-      "Statistical Learning",
-      "Data Analysis",
-      "R Programming"
+      "statistical learning",
+      "data analysis",
+      "machine learning",
+      "Cross-Validation",
+      "Bootstrap",
+      "Linear Discriminant Analysis",
+      "Quadratic Discriminant Analysis",
+      "Naive Bayes",
+      "K-Nearest Neighbors",
+      "Poisson Regression"
     ],
     "key_concepts": [
-      "Statistical learning refers to a set of tools for making sense of complex datasets, particularly relevant in today's data-driven world.",
-      "The book provides a less technical treatment of key topics compared to other resources, making it accessible to a broader audience.",
-      "The document is written by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani, authors with significant expertise in the field."
+      "complex datasets",
+      "scale and scope of data collection",
+      "critical toolkit for understanding data",
+      "Resampling Methods",
+      "Classification Problems",
+      "Bias-Variance Trade-off",
+      "Model Selection and Regularization",
+      "Support Vector Machine",
+      "Convolutional Neural Networks",
+      "Recurrent Neural Networks"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document introduces statistical learning, a critical toolkit for understanding complex datasets."
+    "content_preview": "Document: An Introduction to Statistical Learning with Applications in R",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Statistics",
+      "Finance",
+      "Machine Learning/AI"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "R",
+      "tech1",
+      "tech2",
+      "Deep Learning",
+      "Single Layer Neural Networks"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "statistical learning",
+      "data analysis",
+      "machine learning"
+    ],
+    "methodologies": [
+      "Machine learning",
+      "Data analysis",
+      "method1",
+      "method2",
+      "Support Vector Classiﬁer"
+    ],
+    "tools_mentioned": [
+      "R",
+      "Python",
+      "tool1",
+      "tool2",
+      "Neural Networks"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data analysis",
+      "Machine learning",
+      "Predicting stock prices",
+      "Risk analysis",
+      "Document Classiﬁcation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: An Introduction to Statistical Learning with Applications in R",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: statistical learning, data analysis, machine learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "1757331f93ffebb62dbbe6460820dd62",
