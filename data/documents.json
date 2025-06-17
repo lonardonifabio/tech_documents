@@ -36893,30 +36893,96 @@
     "id": "bea52332df640ad493d51ac9392d48fe",
     "filename": "Survival_Analysis_Intuition_Implementation_in_Python_1572850729.pdf",
     "title": "Survival Analysis: Intuition & Implementation in Python",
-    "authors": [
-      "Anurag Pandey"
-    ],
+    "authors": [],
     "filepath": "documents/Survival_Analysis_Intuition_Implementation_in_Python_1572850729.pdf",
-    "upload_date": "2025-06-14T13:06:58.408945",
+    "upload_date": "2025-06-17T22:29:10.310747",
     "file_size": 734539,
-    "summary": "This document introduces survival analysis, a statistical technique used to answer questions about the duration until a specific event occurs. It covers topics such as Kaplan-Meier Estimate, Cox Proportional Hazard Model, and their applications in various business settings. The article aims to build an intuition for this technique, providing examples like customer retention, machine lifespan, marketing channel performance, and patient survival rates.",
+    "summary": "A statistical technique used to answer business questions such as customer churn time, machine lifespan, and marketing channel retention rates. It helps predict the likelihood of a patient surviving after diagnosis.",
     "keywords": [
+      "survival analysis",
+      "time to event",
+      "business intelligence",
+      "statistical modeling",
       "Survival Analysis",
-      "Time to Event",
-      "Kaplan-Meier Estimate",
-      "Cox Proportional Hazard Model",
-      "Python"
+      "Kaplan Meier Estimate",
+      "KM Curve",
+      "Censored Data"
     ],
     "key_concepts": [
-      "Survival analysis is a statistical technique used to determine the duration until a specific event occurs.",
-      "The Kaplan-Meier Estimate is a non-parametric method for estimating survival probabilities over time.",
-      "The Cox Proportional Hazard Model is a predictive model used in survival analysis to estimate the hazard rate at different times.",
-      "Survival analysis can be applied to various business questions, such as customer retention and machine lifespan.",
-      "This technique was primarily developed for medical research but has since been expanded to other fields."
+      "Kaplan-Meier Estimate",
+      "Cox Proportional Hazard Model",
+      "retention rate",
+      "survival probability",
+      "Event Time Estimation",
+      "Probability of Survival",
+      "Bias in Estimates"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about survival analysis, a statistical technique used to answer questions about the duration until a specific event occurs."
+    "content_preview": "Document: Survival Analysis: Intuition & Implementation in Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Statistics/Analytics",
+      "Software Development"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "survival analysis",
+      "time to event",
+      "business intelligence"
+    ],
+    "methodologies": [
+      "Survival Analysis"
+    ],
+    "tools_mentioned": [
+      "Kaplan-Meier Estimate",
+      "Cox Proportional Hazard Model",
+      "Kaplan Meier Estimate curve",
+      "KM Curve"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Customer Retention",
+      "Predicting Time-to-Event",
+      "Marketing Channel Analysis",
+      "Survival Analysis",
+      "Statistical Techniques"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Survival Analysis: Intuition & Implementation in Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: survival analysis, time to event, business intelligence",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "70d29064669ce40b856260221de27e71",
