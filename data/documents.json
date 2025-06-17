@@ -35189,32 +35189,103 @@
   {
     "id": "b55a7874226476147b8416a43d55336b",
     "filename": "Supervised_Learning_1567266643.pdf",
-    "title": "Supervised Machine Learning Lecture Notes",
-    "authors": [
-      "Andreas Lindholm",
-      "Niklas Wahlström",
-      "Fredrik Lindsten",
-      "Thomas B. Schön"
-    ],
+    "title": "Supervised Machine Learning",
+    "authors": [],
     "filepath": "documents/Supervised_Learning_1567266643.pdf",
-    "upload_date": "2025-06-14T13:06:58.351945",
+    "upload_date": "2025-06-17T12:16:39.564923",
     "file_size": 2080046,
-    "summary": "These lecture notes are for the Statistical Machine Learning course at Uppsala University, covering topics such as regression and classification in machine learning. The document is a work-in-progress towards becoming a textbook, with updates being released throughout the course. It includes an overview of the course content and encourages reader feedback.",
+    "summary": "Lecture notes for the Statistical Machine Learning course, written by Andreas Lindholm et al., covering topics such as regression and classification, with updates and corrections until March 12, 2019.",
     "keywords": [
-      "Machine Learning",
-      "Statistical Machine Learning",
-      "Lecture Notes",
-      "Uppsala University"
+      "machine learning",
+      "statistical machine learning",
+      "lecture notes",
+      "performance",
+      "estimation",
+      "cross-validation",
+      "ensemble methods",
+      "bagging",
+      "random forests",
+      "boosting"
     ],
     "key_concepts": [
-      "These lecture notes are for a Statistical Machine Learning course at Uppsala University, covering topics such as regression and classification.",
-      "The document is a work-in-progress towards becoming a textbook, with updates being released throughout the course.",
-      "The notes include an overview of the course content and encourage reader feedback for improvement.",
-      "The course covers the fundamental concepts of machine learning, focusing on statistical approaches."
+      "Supervised Machine Learning",
+      "Regression",
+      "Classification",
+      "Expected new data error",
+      "Generalization error",
+      "Bias",
+      "Variance",
+      "Irreducible error",
+      "Generalization in machine learning",
+      "Challenges of supervised learning"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Lecture notes for the Statistical Machine Learning course at Uppsala University."
+    "content_preview": "Document: Supervised Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education",
+      "Machine Learning",
+      "Healthcare"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "statistical machine learning",
+      "lecture notes"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Textbook creation",
+      "Commenting on educational content",
+      "Predictive Modeling",
+      "Data Analysis",
+      "ECG diagnosis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Supervised Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, statistical machine learning, lecture notes",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "d4f32a7867611cce57dec953e4bdef07",
