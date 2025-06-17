@@ -30391,31 +30391,90 @@
   {
     "id": "04e308975b76a62e36adac6da0a0539e",
     "filename": "Python_Code_for_AI_1628659580.pdf",
-    "title": "Python for Artificial Intelligence: Foundations of Computational Agents",
-    "authors": [
-      "David L. Poole",
-      "Alan K. Mackworth"
-    ],
+    "title": "Python for Artificial Intelligence",
+    "authors": [],
     "filepath": "documents/Python_Code_for_AI_1628659580.pdf",
-    "upload_date": "2025-06-14T13:06:57.000945",
+    "upload_date": "2025-06-17T12:16:38.103923",
     "file_size": 1782090,
-    "summary": "This document provides Python code and tutorials for implementing artificial intelligence algorithms. It covers the basics of Python, installation, and running the code, with a focus on AI applications. The book is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
+    "summary": "This document provides an introduction to Python programming for artificial intelligence, including its version, licensing, and contents. The authors have used their best efforts in preparing the book, but make no warranty regarding the effectiveness of the programs or documentation.",
     "keywords": [
       "Python",
       "Artificial Intelligence",
-      "AI",
-      "Computational Agents",
-      "Code"
+      "AIPython",
+      "matplotlib",
+      "pip"
     ],
     "key_concepts": [
-      "This book provides Python code and tutorials for implementing AI algorithms, focusing on the foundations of computational agents.",
-      "The document covers the basics of Python, including installation, running the code, and avoiding common pitfalls.",
-      "The book is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
-      "The authors make no warranty for incidental or consequential damages in connection with the furnishing, performance, or use of these programs."
+      "Computational Agents",
+      "Machine Learning",
+      "Getting started with Python",
+      "Installing Python and matplotlib",
+      "Running Python",
+      "Using pip for package installation"
     ],
-    "category": "AI",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Python code and tutorials for AI applications."
+    "content_preview": "Document: Python for Artificial Intelligence",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence",
+      "Education/Research"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Artificial Intelligence",
+      "AIPython"
+    ],
+    "methodologies": [
+      "Artificial Intelligence"
+    ],
+    "tools_mentioned": [
+      "AIPython",
+      "artint.info"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Natural Language Processing",
+      "Artificial Intelligence",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python for Artificial Intelligence",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Python, Artificial Intelligence, AIPython",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "0ccd8773cea193be91a28b2b30236beb",
