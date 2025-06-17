@@ -15080,29 +15080,100 @@
   {
     "id": "53d02c5d765aadc67158f1a416c97e7e",
     "filename": "Exploring_Netflix_Content_Patterns_Using_Metadata_1739292236.pdf",
-    "title": "Exploring Netflix Content Patterns Using Metadata",
+    "title": "Exploring Netflix Content Patterns: An Analytical Approach Using Metadata",
     "authors": [],
     "filepath": "documents/Exploring_Netflix_Content_Patterns_Using_Metadata_1739292236.pdf",
-    "upload_date": "2025-06-14T13:06:51.429945",
+    "upload_date": "2025-06-17T22:29:03.145672",
     "file_size": 1646501,
-    "summary": "This document presents an analytical approach to explore content patterns on Netflix using metadata. It focuses on various aspects such as show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, and description. The analysis is performed using Python libraries like pandas, numpy, and others. The findings can be useful for content recommendation systems, understanding viewer preferences, and improving Netflix's content strategy.",
+    "summary": "This document analyzes Netflix content patterns using metadata, providing insights into various TV shows and documentaries.",
     "keywords": [
       "Netflix",
-      "Metadata",
       "Content Analysis",
-      "Data Analysis",
-      "Python"
+      "Metadata",
+      "PCA",
+      "KMeans",
+      "Silhouette Score",
+      "Data Visualization"
     ],
     "key_concepts": [
-      "Important concept sentence: The document uses metadata to analyze patterns in Netflix content.",
-      "Another key concept sentence: It focuses on various aspects like show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, and description.",
-      "Third concept sentence: The analysis is performed using Python libraries like pandas, numpy, and others.",
-      "Fourth concept sentence: The findings can be useful for content recommendation systems, understanding viewer preferences, and improving Netflix's content strategy.",
-      "Fifth concept sentence: The document provides a comprehensive approach to explore content patterns on Netflix."
+      "Analytical Approach",
+      "Documentaries",
+      "TV Shows",
+      "Principal Component Analysis",
+      "Cluster Analysis",
+      "Evaluation Metrics",
+      "Data Representation"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document explores Netflix content patterns using metadata."
+    "content_preview": "Document: Exploring Netflix Content Patterns: An Analytical Approach Using Metadata",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Entertainment",
+      "Data Science/Analytics"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "pandas",
+      "numpy",
+      "matplotlib",
+      "seaborn",
+      "sklearn"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Netflix",
+      "Content Analysis",
+      "Metadata"
+    ],
+    "methodologies": [
+      "data analysis",
+      "data visualization",
+      "Data Preprocessing",
+      "Dimensionality Reduction",
+      "Clustering"
+    ],
+    "tools_mentioned": [
+      "python",
+      "Python",
+      "Jupyter Notebook"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Visualization",
+      "Clustering Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Exploring Netflix Content Patterns: An Analytical Approach Using Metadata",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Netflix, Content Analysis, Metadata",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a61f7b5f46f4423475c09c9749a36426",
