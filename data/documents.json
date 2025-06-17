@@ -24534,25 +24534,87 @@
     "title": "Machine Learning Methods for Malware Detection",
     "authors": [],
     "filepath": "documents/Machine_Learning_Methods_For_Malware_Detection__1598109652.pdf",
-    "upload_date": "2025-06-14T13:06:54.668945",
+    "upload_date": "2025-06-17T22:29:06.404706",
     "file_size": 498023,
-    "summary": "This document discusses the application of machine learning in malware detection, focusing on concepts such as unsupervised and supervised learning, deep learning, false positive rates, and adaptability to counteractions. It also covers specific applications like pre-execution detection with similarity hashing, two-stage pre-execution detection, deep learning against rare attacks, and post-execution behavior detection. The paper provides insights into the use of machine learning in cybersecurity infrastructure, including clustering incoming objects and distillation for updates.",
+    "summary": "This paper summarizes the extensive experience of Kaspersky in using machine learning to build advanced protection for customers, highlighting various approaches and techniques for malware detection.",
     "keywords": [
       "Machine Learning",
       "Malware Detection",
       "Cybersecurity",
-      "Deep Learning"
+      "machine learning",
+      "malware detection",
+      "data distribution",
+      "adversarial attacks"
     ],
     "key_concepts": [
-      "The paper discusses the use of machine learning to build advanced protection for customers against malware.",
-      "Unsupervised and supervised learning, deep learning are key concepts explained in this document.",
-      "Trained models in cybersecurity require large representative datasets, low false positive rates, interpretability, and quick adaptability.",
-      "The paper details specific applications of machine learning in malware detection such as pre-execution detection with similarity hashing and post-execution behavior detection.",
-      "The document provides insights into the use of machine learning in cybersecurity infrastructure, including clustering incoming objects and distillation for updates."
+      "Unsupervised learning",
+      "Supervised learning",
+      "Deep learning",
+      "Detection rate degradation",
+      "Model updates",
+      "Real-world malware detection challenges"
     ],
-    "category": "Machine Learning",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses the application of machine learning in malware detection."
+    "content_preview": "Document: Machine Learning Methods for Malware Detection",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Cybersecurity"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machine learning",
+      "deep learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Malware Detection",
+      "Cybersecurity"
+    ],
+    "methodologies": [
+      "unsupervised learning",
+      "supervised learning"
+    ],
+    "tools_mentioned": [
+      "similarity hashing",
+      "decision trees ensemble"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Malware Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning Methods for Malware Detection",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Machine Learning, Malware Detection, Cybersecurity",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.875
   },
   {
     "id": "8ac9fea5f6134f0e7232c1917f2aeda2",
