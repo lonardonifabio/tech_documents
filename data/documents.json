@@ -6944,29 +6944,99 @@
     "id": "bdab0853ad9e49130c83fc0df81ae27b",
     "filename": "Applied_Data_Science_1636566247.pdf",
     "title": "Applied Data Science",
-    "authors": [
-      "Ian Langmore",
-      "Daniel Krasner"
-    ],
+    "authors": [],
     "filepath": "documents/Applied_Data_Science_1636566247.pdf",
-    "upload_date": "2025-06-14T13:06:48.023944",
+    "upload_date": "2025-06-17T22:28:59.722636",
     "file_size": 3666927,
-    "summary": "This document provides an introduction to applied data science, covering essential programming prerequisites such as Unix and version control with Git. It delves into the history and culture of Unix, explaining key concepts like streams, standard streams, pipes, text handling, and philosophy. The document also introduces Git, its background, setup process, online materials, basic concepts, common workflows, and various operations such as moving from working to remote, discarding changes, erasing changes, and managing remotes.",
+    "summary": "A comprehensive guide to applied data science, covering topics such as programming prerequisites, Unix, streams, text, philosophy, version control with Git, and more.",
     "keywords": [
       "Unix",
       "Git",
-      "Data Science",
-      "Programming Prerequisites"
+      "Version Control",
+      "data science",
+      "machine learning",
+      "Python",
+      "accuracy",
+      "classification"
     ],
     "key_concepts": [
-      "The document covers the history and culture of Unix, explaining its importance in data science.",
-      "It provides an introduction to Git, a version control system essential for data science projects.",
-      "The text discusses key concepts related to Unix like streams, standard streams, pipes, text handling, and philosophy.",
-      "The document outlines common workflows and operations in Git, helping users manage their projects effectively."
+      "Programming Prerequisites",
+      "Data Science",
+      "Shell",
+      "Streams",
+      "Text",
+      "Philosophy",
+      "Error metrics",
+      "ROC Curves",
+      "Decision Trees",
+      "Random Forest"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Introduction to applied data science with Unix and Git prerequisites."
+    "content_preview": "Document: Applied Data Science",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Technology",
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Unix",
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Unix",
+      "Git",
+      "Version Control"
+    ],
+    "methodologies": [
+      "Machine Learning"
+    ],
+    "tools_mentioned": [
+      "Git",
+      "BLAS",
+      "Numba",
+      "Cython"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Learning Unix",
+      "Version Control with Git",
+      "Predictive Modeling",
+      "Machine Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Applied Data Science",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Unix, Git, Version Control",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "77143092f43515f6e86a7009279adbb6",
