@@ -16580,30 +16580,97 @@
     "id": "ecacd017040f663b7729cb3f9421ddd5",
     "filename": "Data_Science_from_scratch_1740320964.pdf",
     "title": "Data Science from Scratch",
-    "authors": [
-      "Steven Cooper"
-    ],
+    "authors": [],
     "filepath": "documents/Data_Science_from_scratch_1740320964.pdf",
-    "upload_date": "2025-06-14T22:31:36.511623",
+    "upload_date": "2025-06-18T20:37:52.959539",
     "file_size": 4155168,
-    "summary": "This comprehensive guide covers essential topics for aspiring data scientists, including Python, linear algebra, statistics, coding, applications, neural networks, and decision trees. It serves as a practical resource for those starting their journey in data science.",
+    "summary": "A comprehensive guide covering data science essentials, including Python, linear algebra, statistics, coding, neural networks, and decision trees.",
     "keywords": [
-      "Data Science",
       "Python",
       "Linear Algebra",
       "Statistics",
-      "Coding"
+      "Coding",
+      "Neural Networks",
+      "Decision Trees"
     ],
     "key_concepts": [
-      "This guide provides a comprehensive introduction to the field of data science, covering key topics from Python programming to machine learning algorithms.",
-      "The book emphasizes practical applications and includes exercises for readers to reinforce their understanding.",
-      "The author covers important concepts in linear algebra, statistics, and coding that are crucial for data analysis.",
-      "The guide delves into advanced topics like neural networks and decision trees, providing a solid foundation for further study.",
-      "The theoretical framework presented in the book is grounded in principles of mathematics and computer science."
+      "Data Science",
+      "Machine Learning",
+      "Big Data",
+      "Data Cleaning",
+      "Predictive Modeling"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Practical guide for data scientists covering Python, linear algebra, statistics, coding, applications, neural networks, and decision trees."
+    "content_preview": "Document: Data Science from Scratch",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Linear Algebra",
+      "Statistics",
+      "R",
+      "SAS"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Linear Algebra",
+      "Statistics"
+    ],
+    "methodologies": [
+      "Data Cleaning and Munging",
+      "Data Manipulation",
+      "Data Rescaling",
+      "Exploratory Analysis with Pandas",
+      "Machine Learning and Analytics"
+    ],
+    "tools_mentioned": [
+      "Apache Hadoop",
+      "Apache Storm",
+      "Apache Samza",
+      "Apache Spark",
+      "Apache Flink"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Science",
+      "Machine Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Science from Scratch",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, Linear Algebra, Statistics",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "2f5322d915383112d23e1a497d5ff7d4",
