@@ -22784,31 +22784,88 @@
   {
     "id": "bdb9fbf4df799f13a99c6a1fd1369e80",
     "filename": "Light_RAG_Neo4j_1740137060.pdf",
-    "title": "LightRAG with Neo4j: A Comprehensive Approach to AI-Powered Bug Tracking",
-    "authors": [
-      "Giorgi Kurtanidze"
-    ],
+    "title": "LightRAG with Neo4j",
+    "authors": [],
     "filepath": "documents/Light_RAG_Neo4j_1740137060.pdf",
-    "upload_date": "2025-06-14T13:06:53.660945",
+    "upload_date": "2025-06-17T22:29:05.399696",
     "file_size": 802079,
-    "summary": "This document introduces LightRAG, an enhanced Graph RAG system that leverages both Graph Databases (Neo4j) and Embeddings for efficient and scalable knowledge retrieval. The system is designed to quickly find answers by combining structured (graph) and unstructured (text) data, reducing cost and latency using a dual-level retrieval system. This approach is demonstrated through the example of an AI agent for a bug-tracking system, where it identifies the best developer to fix a critical bug by storing development data as a graph and embeddings.",
+    "summary": "LightRAG is an upgraded version of Graph RAG that combines graph databases (Neo4j) and embeddings (vector search) to find answers quickly by combining structured and unstructured knowledge. It reduces cost and latency using a dual-level retrieval system.",
     "keywords": [
       "LightRAG",
       "Neo4j",
       "Graph Databases",
       "Embeddings",
-      "AI"
+      "Vector Search"
     ],
     "key_concepts": [
-      "LightRAG is an optimized version of Graph RAG that uses both Graph Databases (Neo4j) and Embeddings for efficient knowledge retrieval.",
-      "The system combines structured (graph) and unstructured (text) data to find answers quickly and reduce cost and latency.",
-      "In the context of a bug-tracking system, LightRAG helps identify the best developer to fix a critical bug by storing development data as a graph and embeddings.",
-      "The document explains how to store development data (bug reports, developer skills, code repositories) in a structured graph while keeping the raw text for quick lookups.",
-      "The system converts bug descriptions and logs into embeddings for quick lookup, helping when no direct relationships are available."
+      "Dual-level retrieval system",
+      "Structured reasoning",
+      "Flexible text search",
+      "Graph databases",
+      "Embeddings"
     ],
-    "category": "AI",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document introduces LightRAG, an AI-powered system for bug tracking that uses both Graph Databases and Embeddings."
+    "content_preview": "Document: LightRAG with Neo4j",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Graph Databases",
+      "Embeddings",
+      "Vector Search"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "LightRAG",
+      "Neo4j",
+      "Graph Databases"
+    ],
+    "methodologies": [
+      "Structured reasoning",
+      "Flexible text search"
+    ],
+    "tools_mentioned": [
+      "Neo4j"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Bug-tracking system",
+      "AI agent"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: LightRAG with Neo4j",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: LightRAG, Neo4j, Graph Databases",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a7b7ca43b590fc3e931da0de593c7e44",
