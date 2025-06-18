@@ -33853,29 +33853,88 @@
   {
     "id": "d77e48af24bb19178ecccc023733519d",
     "filename": "RNN_LSTM_GRU_1710667782.pdf",
-    "title": "Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM)",
+    "title": "Recurrent Neural Network",
     "authors": [],
     "filepath": "documents/RNN_LSTM_GRU_1710667782.pdf",
-    "upload_date": "2025-06-14T13:06:57.399945",
+    "upload_date": "2025-06-17T22:29:09.262736",
     "file_size": 979514,
-    "summary": "This document discusses Recurrent Neural Networks (RNN) and their modified version, Long Short-Term Memory (LSTM). RNN is a type of neural network used in applications like Apple's Siri and Google's voice search. It has an internal memory that allows it to remember past inputs, making it useful for tasks such as predicting stock prices, generating text, and machine translation. However, RNN faces challenges like the vanishing gradient problem during training. LSTM, a modified version of RNN, addresses this issue and is more effective in remembering past data. Both RNN and LSTM find applications in language modeling, speech recognition, machine translation, image recognition, face detectio...",
+    "summary": "A type of neural network used in applications such as Siri, Google's voice search, and language modeling. It remembers past inputs due to an internal memory, making it useful for predicting stock prices, generating text, and machine translation. RNNs have advantages such as processing sequential data and preserving primary outcomes, but also face challenges like gradient vanishing and exploding problems, and difficulties in training.",
     "keywords": [
-      "Recurrent Neural Network",
-      "Long Short-Term Memory",
       "RNN",
-      "LSTM",
-      "Neural Network"
+      "Neural Network",
+      "Gradient Vanishing",
+      "LSTM"
     ],
     "key_concepts": [
-      "RNN is a type of neural network that remembers past inputs due to an internal memory.",
-      "The output in RNN is dependent on prior elements within the sequence.",
-      "LSTM networks are a modified version of recurrent neural networks that make it easier to remember past data in memory.",
-      "The vanishing gradient problem of RNN is resolved in LSTM.",
-      "RNN and LSTM find applications in various fields such as language modeling, speech recognition, machine translation, image recognition, face detection, and time series forecasting."
+      "Recurrent Neural Network",
+      "Internal Memory",
+      "Sequence Processing",
+      "Time Series Forecasting"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses Recurrent Neural Networks (RNN) and their modified version, Long Short-Term Memory (LSTM)."
+    "content_preview": "Document: Recurrent Neural Network",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "RNN",
+      "LSTM"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "RNN",
+      "Neural Network",
+      "Gradient Vanishing"
+    ],
+    "methodologies": [
+      "Recurrent Neural Network",
+      "Long Short-Term Memory"
+    ],
+    "tools_mentioned": [
+      "Neural Networks",
+      "Activation Functions (tanh, relu)"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Language Modelling and Generating Text",
+      "Speech Recognition",
+      "Machine Translation",
+      "Time series Forecasting"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Recurrent Neural Network",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: RNN, Neural Network, Gradient Vanishing",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "fcd06e1ff87f5dc5e30f81d5d2f75128",
