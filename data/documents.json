@@ -57914,29 +57914,90 @@
   {
     "id": "68c994ce98f79eb8276c0b0689aefe58",
     "filename": "Zara_Dataset_Analysis__1695102143.pdf",
-    "title": "Zara Dataset Analysis",
+    "title": "Sentiment Analysis in Zara Clothing Dataset",
     "authors": [],
     "filepath": "documents/Zara_Dataset_Analysis__1695102143.pdf",
-    "upload_date": "2025-06-14T22:31:46.310629",
+    "upload_date": "2025-06-18T20:38:02.909532",
     "file_size": 516473,
-    "summary": "This document provides a Python script for analyzing a dataset of Zara clothing items, separating them into men's and women's categories. The script uses various libraries such as pandas, seaborn, textblob, and wordcloud to load, process, and visualize the data. It performs basic information analysis, sentiment analysis on product descriptions, and generates a word cloud for each category.",
+    "summary": "This document excerpt describes the process of performing sentiment analysis on the Zara clothing dataset. The dataset consists of two CSV files, one for men's clothing and one for women's clothing, containing product descriptions. The code snippet provided loads the data, performs basic information about the dataset, and sets up a use case for sentiment analysis.",
     "keywords": [
-      "Zara",
-      "Dataset Analysis",
-      "Python",
-      "Pandas",
-      "Seaborn"
+      "nltk",
+      "pandas",
+      "seaborn",
+      "textblob",
+      "wordcloud",
+      "matplotlib"
     ],
     "key_concepts": [
-      "The script loads data from CSV files located in the specified directory",
-      "It separates the data into men's and women's clothing categories",
-      "Basic information about the dataset is displayed, including the number of rows and columns",
-      "Sentiment analysis is performed on product descriptions using TextBlob",
-      "A word cloud is generated for each category using WordCloud library"
+      "Sentiment Analysis",
+      "Data Preprocessing",
+      "Text Processing",
+      "Data Visualization"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Python script analyzes Zara clothing dataset, separates into men's and women's categories, performs basic info analysis, sentiment analysis, generates word clouds."
+    "content_preview": "Document: Sentiment Analysis in Zara Clothing Dataset",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Fashion"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "nltk",
+      "glob",
+      "os",
+      "pandas"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "nltk",
+      "pandas",
+      "seaborn"
+    ],
+    "methodologies": [
+      "Data Preprocessing",
+      "Sentiment Analysis"
+    ],
+    "tools_mentioned": [
+      "TextBlob",
+      "WordCloud"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Sentiment Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Sentiment Analysis in Zara Clothing Dataset",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: nltk, pandas, seaborn",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "bd577a8c55d9dafb9b3fea795315b25c",
