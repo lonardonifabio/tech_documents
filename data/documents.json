@@ -9193,29 +9193,101 @@
   {
     "id": "b26d298f03031586a1ebd1d5aa01365e",
     "filename": "CNN_1738571604.pdf",
-    "title": "CIFAR-10 Dataset Classification with Keras",
+    "title": "CIFAR-10 Dataset Analysis",
     "authors": [],
     "filepath": "documents/CNN_1738571604.pdf",
-    "upload_date": "2025-06-14T13:06:48.579944",
+    "upload_date": "2025-06-17T22:29:00.281642",
     "file_size": 183167,
-    "summary": "This document provides a step-by-step guide on how to classify the CIFAR-10 dataset using Keras, a popular deep learning library. The code loads and preprocesses the dataset, applies data augmentation (optional), visualizes the distribution of classes, and builds a Convolutional Neural Network (CNN) model for classification. Key findings include the importance of data preprocessing and the effectiveness of CNNs in image classification tasks.",
+    "summary": "This document excerpt analyzes the CIFAR-10 dataset, a popular image classification benchmark. The dataset is loaded and its shapes and data types are printed. A count plot is used to visualize the distribution of training and testing data across 10 classes. The analysis provides an overview of the dataset's characteristics.",
     "keywords": [
-      "CIFAR-10",
-      "Keras",
-      "Convolutional Neural Network",
-      "Data Augmentation",
-      "Image Classification"
+      "keras",
+      "tensorflow",
+      "cifar10",
+      "python",
+      "machine learning",
+      "loss",
+      "accuracy",
+      "validation_loss",
+      "validation_accuracy"
     ],
     "key_concepts": [
-      "This document demonstrates how to use Keras, a popular deep learning library, for image classification tasks.",
-      "The CIFAR-10 dataset is a widely used dataset in the field of computer vision, consisting of 60,000 32x32 color images in 10 classes.",
-      "Data augmentation is applied to increase the size and diversity of the training data, improving model performance.",
-      "The built CNN model consists of Conv2D, MaxPooling2D, Dense, Dropout, and Activation layers.",
-      "The findings suggest that preprocessing the data and using a CNN can lead to effective image classification."
+      "Deep Learning with Keras",
+      "Image Classification",
+      "Data Augmentation",
+      "Confusion Matrix",
+      "Classification Report",
+      "Training model performance metrics",
+      "Model training epochs",
+      "Hyperparameter optimization"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document guides on classifying CIFAR-10 dataset using Keras, loading and preprocessing data, applying data augmentation, building a CNN model, and visualizing the distribution of classes."
+    "content_preview": "Document: CIFAR-10 Dataset Analysis",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning",
+      "Machine Learning/AI"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tensorflow",
+      "keras",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "keras",
+      "tensorflow",
+      "cifar10"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "matplotlib",
+      "seaborn",
+      "numpy",
+      "scikit-learn",
+      "tool1"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Image Classification",
+      "Model Training and Validation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: CIFAR-10 Dataset Analysis",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: keras, tensorflow, cifar10",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "47417e4e9e532c0b8c4208cfc909bb33",
