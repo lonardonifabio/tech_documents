@@ -52208,27 +52208,84 @@
   {
     "id": "dbe6386f93b033da00b121c66f7eb9a9",
     "filename": "linear_models_1712649552.pdf",
-    "title": "Linear Models for NLP: Starter Guide",
+    "title": "Linear Models for NLP",
     "authors": [],
     "filepath": "documents/linear_models_1712649552.pdf",
-    "upload_date": "2025-06-14T19:41:15.366102",
+    "upload_date": "2025-06-18T06:08:39.104146",
     "file_size": 1117109,
-    "summary": "This document provides an introduction to linear models, their applications in Natural Language Processing (NLP), and the differences between linear and non-linear models. It emphasizes the interpretability, simplicity, and robustness of linear models, which are used in 70% of corporate machine learning models. The document includes illustrations for better understanding.",
+    "summary": "Linear models are a type of machine learning model that assumes data is linearly separable. They capture linear relationships between data points and are explainable, simple, and robust. 70% of corporate machine learning models are based on linear models. The edge cases are dealt with non-linear NN's.",
     "keywords": [
-      "Linear Models",
+      "linear models",
       "NLP",
-      "Machine Learning"
+      "machine learning"
     ],
     "key_concepts": [
-      "Linear models assume data is linearly separable and capture linear relationships between data points.",
-      "Linear operations are reversible, making linear models explainable and interpretable.",
-      "Linear models are simple, robust, and used in 70% of corporate machine learning models; non-linear Neural Networks (NN's) are used for edge cases.",
-      "The document includes a comparison between linear and non-linear models with an illustration.",
-      "The theoretical framework of this guide is based on the concept of linearly separable data and its application in NLP."
+      "Linear Regression",
+      "Naive Bayes Classifier",
+      "K-Nearest-Neighborhood Classifier",
+      "Support Vector Machines"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document introduces linear models for NLP, emphasizing their interpretability and robustness."
+    "content_preview": "Document: Linear Models for NLP",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Linear Regression",
+      "Naive Bayes Classifier",
+      "K-Nearest-Neighborhood Classifier",
+      "Support Vector Machines"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "linear models",
+      "NLP",
+      "machine learning"
+    ],
+    "methodologies": [
+      "Linear Models",
+      "Non-linear NN's"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Natural Language Processing",
+      "Machine Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Linear Models for NLP",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: linear models, NLP, machine learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "c7764ae50d4feef11aafb0460a5f84d4",
