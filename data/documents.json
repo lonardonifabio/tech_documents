@@ -42037,31 +42037,89 @@
   {
     "id": "13fb409096e7a6b02a71156b88ce4ddb",
     "filename": "Putting_AI_Governance_to_Work_ISO_NIST_GDPR_1744013107.pdf",
-    "title": "Putting AI Governance to Work: ISO 42001, NIST & GDPR",
-    "authors": [
-      "@1davidclarke"
-    ],
+    "title": "Operationalising AI Governance",
+    "authors": [],
     "filepath": "documents/Putting_AI_Governance_to_Work_ISO_NIST_GDPR_1744013107.pdf",
-    "upload_date": "2025-06-14T22:31:43.111625",
+    "upload_date": "2025-06-18T13:27:46.035805",
     "file_size": 979912,
-    "summary": "This document provides a practical guide on operationalizing AI governance using standards such as ISO 42001, NIST, and GDPR. It emphasizes the importance of mapping AI use cases to GDPR for identifying compliance pressure points, ensuring transparency, accountability, and mitigating risks associated with AI.",
+    "summary": "This document discusses the challenges and steps to implement AI governance using ISO 42001, NIST, and GDPR frameworks. It provides a roadmap for mapping AI use cases to GDPR, applying NIST AI RMF functions, building processes with ISO 42001, creating an AI oversight group, and testing and improving AI governance.",
     "keywords": [
-      "AI Governance",
+      "AI governance",
       "ISO 42001",
       "NIST",
       "GDPR",
-      "Compliance"
+      "operationalization",
+      "risk management"
     ],
     "key_concepts": [
-      "The document explains how to operationalize AI governance by aligning it with international standards like ISO 42001, NIST, and GDPR.",
-      "It highlights the need to map AI use cases to GDPR for identifying areas where personal data is involved, automated decisions are made, or there's a risk of profiling or surveillance.",
-      "The approach involves starting with existing systems to identify compliance pressure points.",
-      "The document underscores the importance of transparency and accountability in AI governance.",
-      "It discusses the risks associated with AI and how these standards can help mitigate them."
+      "Alignment of AI risk with ISO, NIST, and GDPR",
+      "Mapping AI use cases to GDPR",
+      "Application of NIST AI RMF functions",
+      "Use of ISO 42001 to build processes",
+      "Creation of an AI oversight group",
+      "Testing and improvement of AI governance"
     ],
-    "category": "AI",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Practical guide on operationalizing AI governance using ISO 42001, NIST & GDPR."
+    "content_preview": "Document: Operationalising AI Governance",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "data science"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI governance",
+      "ISO 42001",
+      "NIST"
+    ],
+    "methodologies": [
+      "ISO 42001",
+      "NIST AI RMF"
+    ],
+    "tools_mentioned": [
+      "GDPR"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "AI Governance",
+      "Compliance"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Operationalising AI Governance",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: AI governance, ISO 42001, NIST",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a63516b5836d7d9733a893f554ca665f",
