@@ -29084,26 +29084,88 @@
     "title": "Keras Cheat Sheet",
     "authors": [],
     "filepath": "documents/Keras_Cheat_Sheet_1621852628.pdf",
-    "upload_date": "2025-06-14T22:31:39.460617",
+    "upload_date": "2025-06-18T20:37:55.926537",
     "file_size": 307507,
-    "summary": "This document provides a comprehensive guide to using Keras, a powerful and user-friendly deep learning library for Theano and TensorFlow. It covers the basics of creating and evaluating deep learning models, including data preparation, model architecture, compilation, training, and prediction. The document also suggests using NumPy, Pandas, Scikit-Learn, and Keras' built-in datasets for various machine learning tasks.",
+    "summary": "A powerful and easy-to-use deep learning library for Theano and TensorFlow, providing a high-level neural networks API to develop and evaluate deep learning models.",
     "keywords": [
       "Keras",
-      "Deep Learning",
-      "Neural Networks",
+      "deep learning",
+      "neural networks",
+      "TensorFlow",
+      "Theano"
+    ],
+    "key_concepts": [
+      "High-level API for deep learning models",
+      "Neural network architecture",
+      "Data preprocessing and splitting",
+      "Model compilation and training",
+      "Data loading from datasets"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Keras Cheat Sheet",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
       "Theano",
       "TensorFlow"
     ],
-    "key_concepts": [
-      "Keras is a high-level neural networks API for Theano and TensorFlow.",
-      "Data in Keras should be stored as NumPy arrays or lists of NumPy arrays.",
-      "Ideally, data is split into training and test sets using sklearn.cross_validation's train_test_split module.",
-      "Keras provides built-in datasets like boston_housing, mnist, cifar10, and imdb for various machine learning tasks.",
-      "The document demonstrates a basic example of creating a deep learning model using Keras."
+    "processes": [
+      "Analysis",
+      "Implementation"
     ],
-    "category": "Machine Learning",
-    "difficulty": "Intermediate",
-    "content_preview": "This document provides a guide to using Keras, a deep learning library. It covers data preparation, model architecture, compilation, training, and prediction."
+    "technical_terms": [
+      "Keras",
+      "deep learning",
+      "neural networks"
+    ],
+    "methodologies": [
+      "Sequential",
+      "Dense"
+    ],
+    "tools_mentioned": [
+      "NumPy",
+      "Pandas",
+      "Scikit-Learn",
+      "Keras",
+      "urllib"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Deep learning model development and evaluation",
+      "Data preprocessing and loading"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Keras Cheat Sheet",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Keras, deep learning, neural networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "7aa4fab252ac6f0b0c12a1d6a924e56a",
