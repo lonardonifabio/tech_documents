@@ -26440,31 +26440,88 @@
   {
     "id": "db0f7ee28fc75ec24045cb0c52a0b4b4",
     "filename": "Machine_Learning_Data_Visualization_1738360065.pdf",
-    "title": "Python for Machine Learning Visualization Note Book",
-    "authors": [
-      "Syed Afroz Ali"
-    ],
+    "title": "Python for Machine Learning Visualization Part 01",
+    "authors": [],
     "filepath": "documents/Machine_Learning_Data_Visualization_1738360065.pdf",
-    "upload_date": "2025-06-14T13:06:54.635945",
+    "upload_date": "2025-06-17T22:29:06.372706",
     "file_size": 10860467,
-    "summary": "This document is a two-part guide on using Python for machine learning visualization by Kaggle Grand Master Syed Afroz Ali. It covers various data visualization techniques using libraries such as pandas, seaborn, and plotly. The guide provides practical examples using the heart_disease_uci dataset, demonstrating how to load, clean, and analyze the data, and visualize it effectively.",
+    "summary": "A Python code for machine learning visualization using Kaggle's Grand Master Syed Afroz Ali. The code loads the heart disease dataset from UCI and performs various visualizations to understand the data.",
     "keywords": [
       "Python",
       "Machine Learning",
       "Data Visualization",
-      "Kaggle",
-      "Seaborn"
+      "Kaggle"
     ],
     "key_concepts": [
-      "The guide is divided into two parts: Part 01 and Part 03, available on Kaggle.",
-      "The guide uses the heart_disease_uci dataset for practical examples.",
-      "The document demonstrates how to load, clean, and analyze data using pandas.",
-      "It shows various data visualization techniques using seaborn and plotly libraries.",
-      "The guide provides practical examples of effective data visualization in machine learning."
+      "Heart Disease Dataset",
+      "Data Preprocessing",
+      "Scatter Plot Analysis"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document is a two-part guide on using Python for machine learning visualization by Kaggle Grand Master Syed Afroz Ali."
+    "content_preview": "Document: Python for Machine Learning Visualization Part 01",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Healthcare"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "numpy",
+      "pandas",
+      "seaborn",
+      "plotly"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Machine Learning",
+      "Data Visualization"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Data Visualization"
+    ],
+    "tools_mentioned": [
+      "Kaggle",
+      "Kaggle Note Book"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Visualization",
+      "Machine Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python for Machine Learning Visualization Part 01",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, Machine Learning, Data Visualization",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "d852cd1b966f7a39786f916e6dd8e3e8",
