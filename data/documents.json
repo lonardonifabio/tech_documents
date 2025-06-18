@@ -31015,29 +31015,81 @@
   {
     "id": "74379587d97d73e9ef86213427a276f3",
     "filename": "ML_Public_Datasets_1692689001.pdf",
-    "title": "ML Public Datasets",
-    "authors": [
-      "Himanshu Ramchandani"
-    ],
+    "title": "Machine Learning Public Datasets",
+    "authors": [],
     "filepath": "documents/ML_Public_Datasets_1692689001.pdf",
-    "upload_date": "2025-06-14T22:31:40.339619",
+    "upload_date": "2025-06-18T13:27:43.237795",
     "file_size": 1337871,
-    "summary": "This document provides a comprehensive guide to various machine learning datasets available for data science and machine learning projects. The datasets cover domains such as agriculture, biology, finance, healthcare, and more. The author, Himanshu Ramchandani, offers insights into the use of these datasets in sectors like climate, education, government, and more. The document also includes a list of complementary collections for further exploration.",
+    "summary": "A collection of public datasets for machine learning and data science projects, covering various domains such as agriculture, biology, chemistry, and more. The dataset includes historical yields, hyperspectral benchmark, lemons quality control, optimized soil adjusted vegetation index, U.S. Department of Agriculture's nutrient database, and Swiss apartment models.",
     "keywords": [
-      "Machine Learning",
+      "MachineLearning",
       "Datasets",
-      "Data Science",
-      "Deep Learning"
+      "DataProcessing"
     ],
     "key_concepts": [
-      "This guide offers machine learning datasets suitable for various projects in data science and machine learning domains.",
-      "The document provides insights into the use of these datasets across sectors like climate, education, government, and more.",
-      "The guide includes a list of complementary collections for further exploration in related fields.",
-      "The author, Himanshu Ramchandani, is a professional with a LinkedIn profile linked in the document."
+      "Agriculture",
+      "DeepLearning",
+      "RemoteSensing"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Guide to machine learning datasets for data science and machine learning projects across various domains."
+    "content_preview": "Document: Machine Learning Public Datasets",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Machine Learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "MachineLearning",
+      "Datasets",
+      "DataProcessing"
+    ],
+    "methodologies": [
+      "Data Processing"
+    ],
+    "tools_mentioned": [
+      "Remote Sensing Tools"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning Public Datasets",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: MachineLearning, Datasets, DataProcessing",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "d63b60d936eee75779b24629b195cc42",
