@@ -28135,29 +28135,84 @@
   {
     "id": "1491ffc938e514039697bc126e628b9a",
     "filename": "Matplotlib Cheat Sheet Plotting in Python.pdf",
-    "title": "Matplotlib Cheat Sheet Plotting in Python",
+    "title": "M atp l o tlib Cheat Shee t",
     "authors": [],
     "filepath": "documents/Matplotlib Cheat Sheet Plotting in Python.pdf",
-    "upload_date": "2025-06-14T13:06:55.472945",
+    "upload_date": "2025-06-17T22:29:07.217715",
     "file_size": 1734765,
-    "summary": "This document provides a comprehensive guide to using Matplotlib, a popular Python library for 2D plotting. It covers topics such as 1D and 2D plots, data visualization, color maps, markers, lines types, text and annotations, mathematical limits, legends, axes, figures, distributions, and interactive environments. The guide also includes a section on creating custom plots.",
+    "summary": "A Python library for data science that produces publication-quality figures in various hard copy formats and interactive environments across platforms.",
     "keywords": [
       "Matplotlib",
       "Python",
-      "Plotting",
-      "Data Visualization",
-      "2D Plots"
+      "Data Science",
+      "Plotting Libraries"
     ],
     "key_concepts": [
-      "Matplotlib is a Python library for 2D plotting that produces high-quality figures in a variety of formats and interactive environments.",
-      "The guide covers topics such as 1D and 2D plots, data visualization, color maps, markers, lines types, text and annotations, mathematical limits, legends, axes, figures, distributions, and interactive environments.",
-      "The document includes a section on creating custom plots using Matplotlib.",
-      "Matplotlib provides public-quality figures in various formats and interactive environments across platforms.",
-      "The guide demonstrates how to create 2D plots using Matplotlib by importing necessary libraries, generating data, plotting the data, and customizing the plot."
+      "Creating plots with Matplotlib",
+      "Plotting libraries for Python",
+      "Data visualization in Python"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Guide to using Matplotlib for 2D plotting in Python"
+    "content_preview": "Document: M atp l o tlib Cheat Shee t",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Matplotlib",
+      "Python",
+      "Data Science"
+    ],
+    "methodologies": [
+      "Matplotlib",
+      "NumPy"
+    ],
+    "tools_mentioned": [
+      "Matplotlib",
+      "NumPy"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Visualization",
+      "Machine Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: M atp l o tlib Cheat Shee t",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Matplotlib, Python, Data Science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "43d511f2715eb5d1a54e68da113a0ec0",
