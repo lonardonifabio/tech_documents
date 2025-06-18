@@ -53166,29 +53166,107 @@
   {
     "id": "c4ac506cfd3c0ea82b23b44cb2dffd1f",
     "filename": "Towards_Auditable_AI_Systems_1635142947.pdf",
-    "title": "Towards Auditable AI Systems",
+    "title": "Auditing AI-Systems: From Basics to Applications",
     "authors": [],
     "filepath": "documents/Towards_Auditable_AI_Systems_1635142947.pdf",
-    "upload_date": "2025-06-14T22:31:45.735629",
+    "upload_date": "2025-06-18T13:27:48.775815",
     "file_size": 1223270,
-    "summary": "This whitepaper, published in May 2021, discusses the current status and future directions of auditable AI systems based on the workshop 'Auditing AI -Systems: From Basics to Applications' held on October 6th, 2020. The document is a collaborative effort by various authors from institutions such as Federal Office for Information Security, University of Cagliari, TÜV Association, and Fraunhofer Forum. The paper aims to establish guidelines for ensuring the audibility of AI systems, addressing topics like data integrity, explainability, and transparency.",
+    "summary": "The document reviews the current state of AI system auditability, summarizes open questions, and identifies the most urgently needed future work and promising approaches. It focuses on deep neural networks (DNNs) trained by machine learning (ML), considering IT security, safety, and robustness.",
     "keywords": [
-      "AI",
-      "Audit",
-      "Systems",
-      "Workshop",
-      "Berlin"
+      "Auditable AI",
+      "AI systems",
+      "Artificial Intelligence",
+      "AI auditing",
+      "deep neural networks",
+      "machine learning",
+      "IT security",
+      "robustness",
+      "transfer learning",
+      "few-shot learning"
     ],
     "key_concepts": [
-      "The paper presents a comprehensive approach to ensure the audibility of AI systems, focusing on aspects like data integrity, explainability, and transparency.",
-      "The authors propose future directions for research in auditable AI systems, emphasizing the need for standardization and interoperability.",
-      "The document discusses practical applications of auditable AI systems, such as in security, healthcare, and autonomous vehicles.",
-      "The theoretical framework of the paper is based on principles like accountability, reliability, and trustworthiness.",
-      "The whitepaper highlights the importance of collaboration between academia, industry, and regulatory bodies to advance the field of auditable AI systems."
+      "Auditing AI",
+      "AI auditing",
+      "Trustworthy AI",
+      "Auditable AI systems",
+      "Artificial intelligence life cycle",
+      "Training data quality",
+      "Attack and defense strategies",
+      "Adapting a parent model to a new task",
+      "Using pre-trained models for specific tasks",
+      "Coping with environmental changes in machine learning"
     ],
-    "category": "AI",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Towards Auditable AI Systems"
+    "content_preview": "Document: Auditing AI-Systems: From Basics to Applications",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence",
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "deep neural networks",
+      "machine learning",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Auditable AI",
+      "AI systems",
+      "Artificial Intelligence"
+    ],
+    "methodologies": [
+      "IT security",
+      "safety",
+      "robustness",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Auditing AI systems",
+      "AI system auditing",
+      "IT security",
+      "Image Classification",
+      "Online Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Auditing AI-Systems: From Basics to Applications",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Auditable AI, AI systems, Artificial Intelligence",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.9166666666666666
   },
   {
     "id": "b846d8417b0693434d30715ed001ba37",
