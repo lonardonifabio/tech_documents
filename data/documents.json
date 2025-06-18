@@ -26030,27 +26030,93 @@
   {
     "id": "de5af40c1ab2895fc346863c9bd495d9",
     "filename": "Introduction_to_Python_Programming_1567759981.pdf",
-    "title": "Introduction to Programming in Python: A Self-Study Course",
+    "title": "Introduction to Programming in Python",
     "authors": [],
     "filepath": "documents/Introduction_to_Python_Programming_1567759981.pdf",
-    "upload_date": "2025-06-14T22:31:39.248616",
+    "upload_date": "2025-06-18T13:27:42.141791",
     "file_size": 405008,
-    "summary": "This document is a self-study guide for learning Python programming, covering resources required, getting started with numbers and assignments, strings, and types. It includes sections on computer operating systems, additional libraries, editors, where to do the work, recommended books, and more.",
+    "summary": "A Self-Study Course (Version 2.2 – October 2009) covering topics such as resources required for the course, getting started with programming in Python.",
     "keywords": [
       "Python",
       "Programming",
-      "Self-Study",
-      "Course"
+      "Self-Study Course",
+      "python",
+      "interfaces",
+      "matplotlib",
+      "numpy",
+      "scipy"
     ],
     "key_concepts": [
-      "This document provides a self-study course for learning Python programming.",
-      "The resources required for the course include a programming language, computer operating systems, additional libraries (modules), editors, and recommended books.",
-      "The guide starts with getting started by covering numbers, assignments, strings, and types in Python.",
-      "The document is version 2.2, published in October 2009."
+      "Introduction to Programming",
+      "Computer Operating Systems",
+      "Additional Libraries",
+      "Python programming",
+      "modules",
+      "editing",
+      "scripting"
     ],
     "category": "Data Science",
-    "difficulty": "Beginner",
-    "content_preview": "Self-study guide for learning Python programming."
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Introduction to Programming in Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education",
+      "Scientific Computing"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Programming",
+      "Self-Study Course"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [
+      "Matplotlib",
+      "Pylab",
+      "NumPy",
+      "SciPy"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Self-Study Course",
+      "Data Analysis",
+      "Numerical Modeling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Introduction to Programming in Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, Programming, Self-Study Course",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "7e9cb547fc9ecc097989146d2fda4fbc",
