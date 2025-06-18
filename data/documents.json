@@ -45865,31 +45865,99 @@
   {
     "id": "e7c50d0c3474f89a35c5a2a108b163ba",
     "filename": "Stanford_MIT_on_AI_1737374742.pdf",
-    "title": "Probability Theory: Understanding Uncertainty",
-    "authors": [
-      "Nikhil Yadav"
-    ],
+    "title": "Probability",
+    "authors": [],
     "filepath": "documents/Stanford_MIT_on_AI_1737374742.pdf",
-    "upload_date": "2025-06-14T22:31:44.175627",
+    "upload_date": "2025-06-18T13:27:47.214809",
     "file_size": 7822644,
-    "summary": "This document provides an introduction to probability theory, covering key concepts such as sample spaces, events, probability axioms, conditioning, and Bayes' rule. It explains the science of uncertainty using examples like discrete uniform law. The document is compiled by Nikhil Yadav.",
+    "summary": "This document explains the science of uncertainty and data through probability models and axioms. It covers definitions, axioms, and corollaries related to probability, including nonnegativity, normalization, countable additivity, and more. An example is provided using a discrete uniform law.",
     "keywords": [
-      "Probability",
-      "Theory",
-      "Uncertainty",
-      "Sample Space",
-      "Event"
+      "probability",
+      "machine learning",
+      "deep learning",
+      "artificial intelligence",
+      "conditional expectation",
+      "jointly continuous random variables",
+      "independence",
+      "total probability theorem",
+      "total expectation theorem",
+      "Least squared"
     ],
     "key_concepts": [
-      "A sample space is the set of all possible outcomes, with elements being mutually exclusive, collectively exhaustive and at the right granularity.",
-      "An event is a subset of the sample space, to which probability is assigned.",
-      "Probability law assigns probabilities to events and satisfies the nonnegativity, normalization, countable additivity axioms, with their corollaries providing additional insights.",
-      "The discrete uniform law assumes a finite set with equally likely elements, and calculates the probability of an event based on its number of elements relative to the total number of elements in the set.",
-      "Conditioning refers to the calculation of probabilities given that another event has occurred, while Bayes' rule provides a method for updating beliefs when new evidence is available."
+      "sample space",
+      "event",
+      "probability axioms",
+      "conditional probability",
+      "bayes' rule",
+      "Definition of conditional expectation",
+      "Independence of jointly continuous random variables",
+      "Total probability theorem",
+      "Total expectation theorem",
+      "Expectation of product of independent r.v."
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document introduces probability theory, covering key concepts like sample spaces, events, and probability axioms. It also explains conditioning and Bayes' rule."
+    "content_preview": "Document: Probability",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Technology",
+      "Statistics and Probability",
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "probability",
+      "machine learning",
+      "deep learning"
+    ],
+    "methodologies": [
+      "probability"
+    ],
+    "tools_mentioned": [
+      "axioms",
+      "corollaries"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Deep Learning",
+      "Artificial Intelligence",
+      "Derivation of Conditional Expectation",
+      "Theorems on Total Probability and Total Expectation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Probability",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: probability, machine learning, deep learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.8333333333333334
   },
   {
     "id": "7a98c4d89ca3deaf179b571ed38bc645",
