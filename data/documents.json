@@ -40482,25 +40482,103 @@
     "title": "Python Cheat Sheet",
     "authors": [],
     "filepath": "documents/Python_Cheat_Sheet_1623881973.pdf",
-    "upload_date": "2025-06-14T22:31:43.184625",
+    "upload_date": "2025-06-18T13:27:46.109805",
     "file_size": 2463716,
-    "summary": "This document provides a comprehensive Python cheat sheet covering essential keywords, data types, logical operators, control structures, and object-oriented programming concepts. It includes code examples for each keyword and explains their usage in Python.",
+    "summary": "A comprehensive guide to Python programming, covering various topics such as data types, logical operators, loops, conditional statements, and classes. The document provides code examples and explanations for each concept.",
     "keywords": [
-      "Boolean",
-      "Logical Operators",
-      "Control Structures",
-      "Object Oriented Programming"
+      "Python",
+      "code",
+      "data types",
+      "logical operators",
+      "loop control",
+      "object-oriented programming",
+      "dictionary",
+      "looping",
+      "membership",
+      "list_comprehension"
     ],
     "key_concepts": [
-      "The Boolean data type has two values: True and False, used to represent logical states.",
-      "Logical operators (and, or, not) are used to combine Boolean expressions for more complex conditions.",
-      "Control structures like break, continue, and if-elif-else statements help manage program flow.",
-      "Object Oriented Programming is a programming paradigm that uses classes and objects to structure code.",
-      "Classes can be defined using the class keyword, and methods (functions associated with a class) are defined within them."
+      "Boolean data type",
+      "Logical operators (and, or, not)",
+      "Loop control statements (break, continue)",
+      "Object-oriented programming concepts (classes, methods, constructor)",
+      "Accessing dictionary elements",
+      "Looping over dictionary items",
+      "Membership testing in dictionaries and sets",
+      "List and set comprehensions",
+      "Finding pairs of integers with sum equal to x",
+      "Computing Fibonacci numbers"
     ],
     "category": "Technology",
-    "difficulty": "Beginner",
-    "content_preview": "This document provides essential Python keywords, data types, and concepts for beginners."
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Python Cheat Sheet",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Information Technology",
+      "Food and Beverage",
+      "Computer Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "code",
+      "data types"
+    ],
+    "methodologies": [
+      "object-oriented programming",
+      "class-based design",
+      "Recursion",
+      "Quicksort"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2",
+      "List",
+      "Set",
+      "Stack"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Learning Python",
+      "Coding and Playing",
+      "Algorithm Development",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python Cheat Sheet",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Python, code, data types",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "9917b39ec9fd37cf2fe74449cc72d2f9",
