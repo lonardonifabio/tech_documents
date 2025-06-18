@@ -42916,28 +42916,97 @@
   {
     "id": "fa336fc62b9a4532dcaa84496514e2be",
     "filename": "Python Seaborn Statistical Data Visualization.pdf",
-    "title": "Python Seaborn Statistical Data Visualization",
+    "title": "Seaborn Plotting with Python",
     "authors": [],
     "filepath": "documents/Python Seaborn Statistical Data Visualization.pdf",
-    "upload_date": "2025-06-14T22:31:43.150625",
+    "upload_date": "2025-06-18T13:27:46.075805",
     "file_size": 1669908,
-    "summary": "This document provides an introduction to using the Python library Seaborn for statistical data visualization. It covers the basic steps to create plots with Seaborn, including preparing data, controlling figure aesthetics, plotting, customizing the plot, and showing the plot. The document also includes tips on using whitegrid and total_bill aliases.",
+    "summary": "This document provides an introduction to using Seaborn for plotting data science projects. It covers the basics of creating plots, including preparing data, controlling figure aesthetics, and customizing plots. The document also includes examples of how to use Seaborn's visualization library to create high-level interfaces for statistical data visualization.",
     "keywords": [
-      "Python",
       "Seaborn",
-      "Data Visualization",
       "Matplotlib",
-      "Statistical Analysis"
+      "Python",
+      "Data Visualization",
+      "Plotting",
+      "matplotlib",
+      "plot",
+      "adjust limits",
+      "title",
+      "xlabel"
     ],
     "key_concepts": [
-      "Seaborn is a high-level interface for drawing statistical graphics based on matplotlib.",
-      "The basic steps to create plots with Seaborn are preparing data, controlling figure aesthetics, plotting, customizing the plot, and showing the plot.",
-      "Tips for using Seaborn include making use of the following aliases: whitegrid, tip, total_bill.",
-      "The document includes examples of using Seaborn to plot linear regression."
+      "Creating plots with Seaborn",
+      "Basic steps for plotting with Seaborn",
+      "Using Seaborn's visualization library",
+      "Customizing plots with Seaborn",
+      "Tips and tricks for using Seaborn",
+      "Adjusting plot limits and labels in matplotlib",
+      "Using matplotlib functions to customize plots"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn Seaborn online at www.DataCamp.com. The Python visualization library Seaborn provides high-level interfaces for drawing statistical graphics."
+    "content_preview": "Document: Seaborn Plotting with Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Matplotlib",
+      "Seaborn"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Seaborn",
+      "Matplotlib",
+      "Python"
+    ],
+    "methodologies": [
+      "Data Visualization",
+      "Machine Learning"
+    ],
+    "tools_mentioned": [
+      "Libraries",
+      "Packages",
+      "matplotlib"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Visualization",
+      "Statistical Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Seaborn Plotting with Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Seaborn, Matplotlib, Python",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.875
   },
   {
     "id": "eebb5fa3704b2f9add8979937438cf8b",
