@@ -40543,12 +40543,12 @@
   {
     "id": "f0dcc4356b62befc01a7e764011c7868",
     "filename": "Neural_Network_1707252305.pdf",
-    "title": "Neural Networks: Principles and Applications",
+    "title": "Neural Network",
     "authors": [],
     "filepath": "documents/Neural_Network_1707252305.pdf",
-    "upload_date": "2025-06-14T22:31:42.280623",
+    "upload_date": "2025-06-18T20:37:58.756536",
     "file_size": 562957,
-    "summary": "This document delves into the concept of Neural Networks, their structure, learning process, and applications. It explains how neural networks mimic brain processing, comprise interconnected nodes with adjustable weights, and undergo iterative updates during the training process. The trained network can solve specific problems efficiently, such as classification, pattern matching, data clustering, and more. Applications range from vision and speech recognition to healthcare, finance, personalization, robotics, and vehicles. Overall, neural networks are crucial due to their adaptive learning and problem-solving capabilities.",
+    "summary": "A neural network is inspired by the brain's processing and comprises interconnected nodes with associated weights in the links. It undergoes iterative updates based on input data during the learning process, forming a trained neural network that can solve specific problems defined in the given task.",
     "keywords": [
       "Neural Network",
       "Artificial Intelligence",
@@ -40556,15 +40556,75 @@
       "Deep Learning"
     ],
     "key_concepts": [
-      "Neural networks mimic the brain's information handling process.",
-      "The network comprises interconnected nodes with adjustable weights.",
-      "During the learning process, weights undergo iterative updates based on input data.",
-      "Trained neural networks can solve specific problems efficiently.",
-      "Applications of neural networks range from vision and speech recognition to healthcare, finance, personalization, robotics, and vehicles."
+      "Brain-inspired processing",
+      "Weighted links",
+      "Training process",
+      "Adaptive learning",
+      "Problem-solving capabilities"
     ],
-    "category": "AI",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about Neural Networks, their structure, learning process, and applications."
+    "content_preview": "Document: Neural Network",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Neural Network"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Neural Network",
+      "Artificial Intelligence",
+      "Machine Learning"
+    ],
+    "methodologies": [
+      "Machine Learning"
+    ],
+    "tools_mentioned": [
+      "Deep Learning",
+      "Artificial Intelligence"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Healthcare",
+      "Finance",
+      "Personalization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Neural Network",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Neural Network, Artificial Intelligence, Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "8275b597541a663ed3a196e1bd792886",
