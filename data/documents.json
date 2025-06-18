@@ -11869,29 +11869,87 @@
   {
     "id": "d6540b41f3595ee5a4e421022d9924e6",
     "filename": "Customer_Behavior_Analytics_1567265044.pdf",
-    "title": "Customer Behavior Analytics",
+    "title": "Customer Analytics_CustomerBehavior",
     "authors": [],
     "filepath": "documents/Customer_Behavior_Analytics_1567265044.pdf",
-    "upload_date": "2025-06-14T19:41:03.724063",
+    "upload_date": "2025-06-18T06:08:27.228055",
     "file_size": 263264,
-    "summary": "This document discusses the importance of customer analytics in today's competitive market. It provides a step-by-step guide on how to load and analyze a publicly available dataset from IBM, focusing on customer lifetime value, response coverage, education, employment status, gender, income, and other relevant factors. The analysis aims to help businesses understand and predict their customers' purchasing behavior.",
+    "summary": "The importance of customer analytics is rising due to easier access to customer data and information on similar products. Understanding customers is crucial for competitive power against competitors. This document uses a publicly available dataset from IBM to analyze customer behavior.",
     "keywords": [
-      "Customer Analytics",
-      "Data Analysis",
-      "IBM Dataset",
-      "Marketing",
-      "Competitive Advantage"
+      "customer analytics",
+      "data analysis",
+      "marketing",
+      "customer lifetime value"
     ],
     "key_concepts": [
-      "The importance of customer analytics for businesses in today's market",
-      "Guide on loading and analyzing a publicly available IBM dataset",
-      "Focus on customer lifetime value, response coverage, education, employment status, gender, income, etc.",
-      "Helping businesses understand and predict their customers' purchasing behavior",
-      "Improving competitive power against competitors"
+      "Understanding customer behavior",
+      "Predicting customer purchases",
+      "Competitive power",
+      "Data visualization"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a guide on loading and analyzing a customer dataset from IBM to understand and predict customer behavior."
+    "content_preview": "Document: Customer Analytics_CustomerBehavior",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Marketing and Analytics"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Matplotlib",
+      "Pandas"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "customer analytics",
+      "data analysis",
+      "marketing"
+    ],
+    "methodologies": [
+      "Data Analysis",
+      "Visualization"
+    ],
+    "tools_mentioned": [
+      "IBM Analytics",
+      "Watson Analytics"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Customer Behavior Analysis",
+      "Predictive Modeling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Customer Analytics_CustomerBehavior",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: customer analytics, data analysis, marketing",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "22f76f04508b3eef3ed84726ec866442",
