@@ -40930,32 +40930,98 @@
   {
     "id": "46f0832c803f651e2bca852cbae2e98b",
     "filename": "Privacy_Data_Protection_Risk_in_Large_Language_Models_1749157942.pdf",
-    "title": "Expert Report on Privacy and Data Protection Risks in Large Language Models",
-    "authors": [
-      "Isabel Barber",
-      "Muri elle Popa-Fabre"
-    ],
+    "title": "Privacy and Data Protection Risks in Large Language Models (LLMs)",
+    "authors": [],
     "filepath": "documents/Privacy_Data_Protection_Risk_in_Large_Language_Models_1749157942.pdf",
-    "upload_date": "2025-06-14T22:31:42.998625",
+    "upload_date": "2025-06-18T13:27:45.912805",
     "file_size": 1947539,
-    "summary": "This document is an expert report discussing privacy and data protection risks associated with large language models (LLMs). The report provides a landscape analysis of the tech ecosystem, explains how words are represented and compressed in LLMs, maps out privacy risks in LLM-based systems, and discusses the latest technological evolutions and their impact on privacy. The report is prepared for presentation to the 48th Plenary meeting.",
+    "summary": "This expert report examines the privacy and data protection risks associated with large language models (LLMs) and their impact on personal data. The authors analyze the current state of LLMs, their technological evolutions, and the methods used to extract personal data from them. They also discuss potential mitigations for these risks.",
     "keywords": [
+      "Large Language Models",
       "Privacy",
       "Data Protection",
-      "Large Language Models",
+      "Artificial Intelligence",
       "LLMs",
-      "Technology"
+      "data protection",
+      "AI compound systems",
+      "privacy risk analysis"
     ],
     "key_concepts": [
-      "The report discusses the privacy and data protection risks associated with large language models (LLMs) in the tech ecosystem.",
-      "It explains how words are represented and compressed in LLMs, focusing on their neural network architecture.",
-      "The document maps out privacy risks in LLM-based systems, including personal data extraction methods.",
-      "The report discusses the latest technological evolutions and new risks for privacy in LLMs.",
-      "It provides a background and context for the Committee's action on this topic."
+      "Privacy risks in LLMs",
+      "Personal data extraction methods",
+      "LLM ecosystem",
+      "AI lifecycle",
+      "Lifecycle/value-chain LLM-based systems",
+      "Data collection and pre-processing",
+      "Post-training adaptation and fine-tuning",
+      "Optimization for custom use cases"
     ],
-    "category": "Technology",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Expert Report on Privacy and Data Protection Risks in Large Language Models (LLMs)"
+    "content_preview": "Document: Privacy and Data Protection Risks in Large Language Models (LLMs)",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "LLMs",
+      "AI",
+      "LLM"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Large Language Models",
+      "Privacy",
+      "Data Protection"
+    ],
+    "methodologies": [
+      "neural network architecture",
+      "compound systems",
+      "customization methods"
+    ],
+    "tools_mentioned": [
+      "data compression",
+      "large language models",
+      "data augmentation"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Large Language Models",
+      "AI compound systems",
+      "LLM-based applications"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Privacy and Data Protection Risks in Large Language Models (LLMs)",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Large Language Models, Privacy, Data Protection",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "9d9586f6493043f472e682833f462565",
