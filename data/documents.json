@@ -43212,28 +43212,99 @@
   {
     "id": "e7e56040c24c697bb855af0d69573441",
     "filename": "The_Data_Scientist_s_Guide_to_Apache_Spark_1567887176.pdf",
-    "title": "The Data Scientist's Guide to Apache Spark",
+    "title": "The Dat a Scientist’ s Guide t o 22 Apache Spark",
     "authors": [],
     "filepath": "documents/The_Data_Scientist_s_Guide_to_Apache_Spark_1567887176.pdf",
-    "upload_date": "2025-06-14T19:41:13.733096",
+    "upload_date": "2025-06-18T06:08:37.459131",
     "file_size": 2685414,
-    "summary": "This document provides a gentle introduction to Apache Spark, covering its core architecture, Spark Application, and Structured APIs using DataFrames and SQL. The guide also touches on Spark's core terminology and concepts to empower readers to start using Spark right away.",
+    "summary": "A guide to using Apache Spark, covering its core architecture, applications, and APIs. The document provides an introduction to Spark's basic terminology and concepts, aiming to empower users to start using it immediately.",
     "keywords": [
       "Apache Spark",
-      "Data Science",
-      "Spark Application",
+      "Databricks",
       "DataFrames",
-      "SQL"
+      "SQL",
+      "Spark Architecture",
+      "partitioning",
+      "Spark",
+      "parallelism"
     ],
     "key_concepts": [
-      "The document introduces Apache Spark, a data processing engine that has seen significant growth over the years.",
-      "The guide covers the core architecture of a Spark cluster and explains how to create a Spark Application.",
-      "The reader will learn about using DataFrames and SQL within the context of Spark's Structured APIs.",
-      "The document provides an overview of key Spark terminology and concepts to help readers understand the technology better."
+      "Spark Cluster",
+      "Spark Application",
+      "Structured APIs",
+      "Core Terminology",
+      "Data Processing",
+      "data partitioning",
+      "DataFrame partitions",
+      "parallel processing in Spark"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document introduces Apache Spark, a data processing engine that has seen significant growth over the years. It covers the core architecture of a Spark cluster and explains how to create a Spark Application."
+    "content_preview": "Document: The Dat a Scientist’ s Guide t o 22 Apache Spark",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science",
+      "Data Science/Big Data"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Apache Spark",
+      "Databricks",
+      "Spark"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Apache Spark",
+      "Databricks",
+      "DataFrames"
+    ],
+    "methodologies": [
+      "DataFrames",
+      "SQL",
+      "partitioning",
+      "dataframe"
+    ],
+    "tools_mentioned": [
+      "Spark Summit 2017",
+      "Resilient Distributed Datasets interface"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Big Data Processing",
+      "Data Analysis",
+      "Data Processing"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: The Dat a Scientist’ s Guide t o 22 Apache Spark",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Apache Spark, Databricks, DataFrames",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "6b47a887d37513bec5a65e3156a9e937",
