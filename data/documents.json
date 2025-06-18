@@ -26356,28 +26356,103 @@
   {
     "id": "bc43f1e3265cdb98376f211d3faaf075",
     "filename": "ML_Cheat_Sheet_1653560861.pdf",
-    "title": "Linear Models Cheat Sheet",
+    "title": "Linear Regression",
     "authors": [],
     "filepath": "documents/ML_Cheat_Sheet_1653560861.pdf",
-    "upload_date": "2025-06-14T19:41:08.644081",
+    "upload_date": "2025-06-18T06:08:32.229097",
     "file_size": 3373797,
-    "summary": "This document provides a simple algorithm for linear regression modeling, focusing on predicting customer lifetime value using stock price predictions. It discusses the linear relationship between inputs and outputs, the use of K-Means clustering approach, assumptions, and potential issues such as varying cluster sizes and dimensionality. The document also suggests scaling to large datasets, simplicity in implementation, and interpreting results.",
+    "summary": "A simple algorithm that models a linear relationship between inputs and an output variable, used for predicting prices, customer lifetime value, and more.",
     "keywords": [
-      "Linear Regression",
-      "Stock Price Prediction",
-      "Customer Lifetime Value",
-      "K-Means Clustering"
+      "linear regression",
+      "machine learning",
+      "customer segmentation",
+      "document clustering",
+      "Machine Learning",
+      "Decision Trees",
+      "Classification",
+      "Regression",
+      "Customer churn prediction",
+      "Credit scoring"
     ],
     "key_concepts": [
-      "The linear regression algorithm models a linear relationship between inputs and outputs using a continuous numerical output variable.",
-      "K-Means clustering is the most widely used clustering approach, determining K clusters based on Euclidean distance.",
-      "Assumptions in linear regression include linearity between inputs and outputs, and independence of errors.",
-      "The document suggests scaling to large datasets for better performance and interpretability.",
-      "The 'bottom-up' approach is used where each data point is treated as its own cluster, and the closures of two clusters are merged interactively."
+      "Linear Models",
+      "Predictive Modeling",
+      "Customer Lifetime Value",
+      "Clustering Algorithms",
+      "The use of decision trees in machine learning for classification and regression tasks",
+      "The importance of explainability in decision tree models",
+      "The limitations of hyperparameter tuning in sparse data sets",
+      "The benefits of using gradient boosting models for efficient and flexible training"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses linear regression modeling for predicting customer lifetime value using stock price predictions."
+    "content_preview": "Document: Linear Regression",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Finance",
+      "Healthcare"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "linear regression",
+      "XGB",
+      "LightGBM"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "linear regression",
+      "machine learning",
+      "customer segmentation"
+    ],
+    "methodologies": [
+      "K-Means clustering",
+      "Tree-based decision models",
+      "Gradient boosting"
+    ],
+    "tools_mentioned": [
+      "Scalable tools",
+      "Scikit-learn",
+      "TensorFlow"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Customer Segmentation",
+      "Fraud Detection",
+      "Predictive Maintenance",
+      "Customer churn prediction",
+      "Disease prediction"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Linear Regression",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: linear regression, machine learning, customer segmentation",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "e3b3b090800fea0725ba85fedec85424",
