@@ -8119,31 +8119,97 @@
   {
     "id": "aa65edda85bbf435cf4b8c862f4b3b7d",
     "filename": "Awesome_Tutorial_to_Learn_Outlier_Detection_in_Python_1646945559.pdf",
-    "title": "Awesome Tutorial to Learn Outlier Detection in Python using PyOD",
-    "authors": [
-      "LAKSHAY ARORA"
-    ],
+    "title": "Outlier Detection in Python using PyOD",
+    "authors": [],
     "filepath": "documents/Awesome_Tutorial_to_Learn_Outlier_Detection_in_Python_1646945559.pdf",
-    "upload_date": "2025-06-14T13:06:48.362944",
+    "upload_date": "2025-06-17T22:29:00.062640",
     "file_size": 1037427,
-    "summary": "This tutorial guides readers on how to detect outliers in data using the PyOD library in Python. The author shares his experience of overlooking outliers during a data science project and emphasizes the importance of data exploration, particularly outlier detection. The article provides an overview of PyOD, its compatibility with both Python 2 and 3, and offers a step-by-step guide to detect outliers in data.",
+    "summary": "The author shares their experience with predicting sales data, realizing the importance of outlier detection, and introduces PyOD as a library to detect outliers in Python. The article aims to guide readers through the process of detecting outliers using PyOD.",
     "keywords": [
-      "Outlier Detection",
-      "Python",
+      "outlier detection",
       "PyOD",
-      "Data Science",
-      "Data Exploration"
+      "data science",
+      "machine learning",
+      "ABOD",
+      "KNN",
+      "outliers",
+      "inliers"
     ],
     "key_concepts": [
-      "Importance of data exploration and outlier detection in improving model accuracy",
-      "Introduction to PyOD library for outlier detection in Python",
-      "Explanation of how outliers can impact the quality of outputs in a data science project",
-      "Discussion on the role of outlier detection in the data exploration stage",
-      "Practical application of using PyOD to detect outliers in data"
+      "Data exploration",
+      "Outliers",
+      "Accuracy ceiling",
+      "Angle Based Outlier Detector",
+      "K Nearest Neighbors",
+      "outlier detection",
+      "simulated dataset"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn how to detect outliers in your data using the PyOD library in Python."
+    "content_preview": "Document: Outlier Detection in Python using PyOD",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science",
+      "Retail"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "PyOD",
+      "numpy",
+      "scipy",
+      "matplotlib"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "outlier detection",
+      "PyOD",
+      "data science"
+    ],
+    "methodologies": [
+      "Machine Learning"
+    ],
+    "tools_mentioned": [
+      "PyOD Library"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Outlier Detection",
+      "Predictive Analytics",
+      "Sales Forecasting",
+      "Anomaly Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Outlier Detection in Python using PyOD",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: outlier detection, PyOD, data science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "ce5c655a7196c95136b1ce511bb668aa",
