@@ -12128,28 +12128,78 @@
   {
     "id": "112436e8adcb638ed2fbb10a9bddec73",
     "filename": "Data_Analysis_with_python_1610184722.pdf",
-    "title": "Data Analysis with Python",
+    "title": "pandas",
     "authors": [],
     "filepath": "documents/Data_Analysis_with_python_1610184722.pdf",
-    "upload_date": "2025-06-14T13:06:49.566945",
+    "upload_date": "2025-06-17T22:29:01.274652",
     "file_size": 1961439,
-    "summary": "This document provides an in-depth guide on using the pandas library for data analysis in Python. It covers topics such as installation, basic usage, descriptive statistics, boolean indexing, categorical data, and computational tools. The document also includes examples and practical applications like quintile analysis, maximum drawdown calculation, and creating DataFrames.",
+    "summary": "A comprehensive guide to pandas, covering its features, usage, and applications in data analysis and manipulation. The document provides an overview of the library's capabilities, including data structures, data cleaning, and visualization.",
     "keywords": [
       "pandas",
-      "Python",
-      "Data Analysis",
-      "DataFrame"
+      "data analysis",
+      "data manipulation"
     ],
     "key_concepts": [
-      "Learn how to get started with pandas in Python",
-      "Understand the process of installing and setting up pandas",
-      "Explore various examples of using pandas for data analysis",
-      "Perform quintile analysis, calculate descriptive statistics, and visualize results",
-      "Learn about boolean indexing, working with categorical data, and computational tools in pandas"
+      "DataFrames",
+      "Boolean indexing",
+      "Categorical data",
+      "Computational Tools"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Guide on using pandas for data analysis in Python, including quintile analysis, descriptive statistics, and more."
+    "content_preview": "Document: pandas",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "pandas"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "pandas",
+      "data analysis",
+      "data manipulation"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Data Visualization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: pandas",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: pandas, data analysis, data manipulation",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "7bc40d3dfd372ed9f48ba16e6d95befb",
