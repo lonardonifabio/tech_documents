@@ -53569,31 +53569,79 @@
   {
     "id": "304bfc6c90f3df5c8fa2c37d1aff08ad",
     "filename": "Think_Like_a_Data_Scientist_1748958255.pdf",
-    "title": "Think Like a Data Scientist",
-    "authors": [
-      "Brian Godsey"
-    ],
+    "title": "Tackle the data science process step-by-step",
+    "authors": [],
     "filepath": "documents/Think_Like_a_Data_Scientist_1748958255.pdf",
-    "upload_date": "2025-06-14T22:31:45.623628",
+    "upload_date": "2025-06-18T20:38:02.226533",
     "file_size": 3272953,
-    "summary": "This book provides a comprehensive guide to the data science process, breaking it down into three phases: Preparation, Building, and Finishing. The first phase involves gathering information at the beginning of a project to avoid potential issues later. The second phase focuses on planning, executing, and using statistical tools to build the product. The final phase is about delivering the product, getting feedback, making revisions, supporting it, and wrapping up the project. Key concepts include understanding the data science process, setting goals, assessing, analyzing, engineering, optimizing, exploring, wrangling data, and revising.",
+    "summary": "This book is organized around the three phases of a data science project: preparation, building the product, and finishing. The author provides an overview of the data science process and how to tackle it step-by-step.",
     "keywords": [
-      "Data Science",
-      "Process",
-      "Book",
-      "Brian Godsey",
-      "Manning"
+      "data science",
+      "project lifecycle",
+      "preparation",
+      "building",
+      "finishing"
     ],
     "key_concepts": [
-      "Understanding the data science process involves three phases: Preparation, Building, and Finishing.",
-      "Preparation phase includes gathering information at the beginning of a project to avoid potential issues later.",
-      "Building phase focuses on planning, executing, and using statistical tools to build the product.",
-      "Finishing phase is about delivering the product, getting feedback, making revisions, supporting it, and wrapping up the project.",
-      "Key concepts in data science include setting goals, assessing, analyzing, engineering, optimizing, exploring, wrangling data, and revising."
+      "data science process",
+      "phases of a data science project",
+      "steps in the data science process"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn the data science process step-by-step in this book by Brian Godsey."
+    "content_preview": "Document: Tackle the data science process step-by-step",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "data science",
+      "project lifecycle",
+      "preparation"
+    ],
+    "methodologies": [
+      "step-by-step",
+      "data science process"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Science Project Management"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Tackle the data science process step-by-step",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: data science, project lifecycle, preparation",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "29551a99b761e0432a7050adaf919b72",
