@@ -34477,29 +34477,93 @@
   {
     "id": "a6ad25e859290029515f1e2fc04f8c63",
     "filename": "Pandas_Cheat_Sheet.pdf",
-    "title": "Pandas Cheat Sheet",
+    "title": "Reshaping Data with Pandas",
     "authors": [],
     "filepath": "documents/Pandas_Cheat_Sheet.pdf",
-    "upload_date": "2025-06-14T19:41:11.060086",
+    "upload_date": "2025-06-18T06:08:34.661113",
     "file_size": 396529,
-    "summary": "This document provides a comprehensive guide on creating, reshaping, and manipulating DataFrames using the Pandas library in Python. It covers topics such as melting data, pivoting, concatenating, sorting, reindexing, renaming columns, and resetting indexes. Additionally, it explains how to specify values for each column or row, create a DataFrame with a MultiIndex, and the concept of method chaining for improved readability.",
+    "summary": "This document excerpt provides an overview of various pandas methods for reshaping and manipulating data, including creating DataFrames, melting, pivoting, concatenating, sorting, renaming, dropping columns, and using method chaining. The examples demonstrate how to use these methods to reshape data from a variety of formats.",
     "keywords": [
-      "Pandas",
+      "pandas",
       "DataFrames",
-      "Reshaping",
-      "Sorting",
-      "Reindexing"
+      "melt",
+      "pivot",
+      "concat",
+      "sort_values",
+      "rename",
+      "sort_index",
+      "reset_index",
+      "drop"
     ],
     "key_concepts": [
-      "Creating DataFrames by specifying values for each column or row",
-      "Reshaping data using melt, pivot, and concat functions",
-      "Manipulating DataFrames through sorting, reindexing, renaming columns, and resetting indexes",
-      "Using method chaining to improve code readability",
-      "Creating a DataFrame with a MultiIndex"
+      "Reshaping Data",
+      "Data Manipulation",
+      "Data Analysis",
+      "Pivot Tables",
+      "Data Concatenation",
+      "Sorting and Filtering",
+      "Column Renaming",
+      "Index Management"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn how to create, reshape, and manipulate DataFrames using Pandas in Python."
+    "content_preview": "Document: Reshaping Data with Pandas",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "pandas",
+      "DataFrames",
+      "melt"
+    ],
+    "methodologies": [
+      "melt",
+      "pivot",
+      "concat",
+      "sort_values",
+      "rename"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Cleaning",
+      "Data Transformation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Reshaping Data with Pandas",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: pandas, DataFrames, melt",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "aff5347bb883c797453b909cc3388867",
