@@ -28685,29 +28685,87 @@
   {
     "id": "56df26a903e1f6d4748ef7b956a57c53",
     "filename": "Learn_SQL_1610184435.pdf",
-    "title": "Learn SQL: A Comprehensive Guide",
+    "title": "SQL",
     "authors": [],
     "filepath": "documents/Learn_SQL_1610184435.pdf",
-    "upload_date": "2025-06-14T22:31:39.751617",
+    "upload_date": "2025-06-18T13:27:42.636793",
     "file_size": 1209096,
-    "summary": "This document provides an in-depth tutorial on SQL, covering topics such as ALTER TABLE, AND & OR Operators, Cascading Delete, CASE, Clean Code practices, and Common Table Expressions. It includes syntax, examples, and practical applications for each concept. The guide also emphasizes proper formatting and commenting in SQL code.",
+    "summary": "A comprehensive guide covering various aspects of SQL including table management, operators, cascading delete, case statements, clean code, comments, and common table expressions.",
     "keywords": [
       "SQL",
       "ALTER TABLE",
-      "AND & OR Operators",
+      "AND",
+      "OR",
       "Cascading Delete",
-      "CASE"
+      "CASE",
+      "Clean Code",
+      "Comments",
+      "Common Table Expressions"
     ],
     "key_concepts": [
-      "This guide introduces SQL, a powerful language for managing and manipulating databases.",
-      "The document covers the ALTER TABLE command, which allows you to modify the structure of existing tables.",
-      "It explains the AND & OR Operators, essential tools for combining conditions in SQL queries.",
-      "The Cascading Delete feature is discussed, allowing you to delete related records when a primary key is deleted.",
-      "The CASE statement is introduced as a versatile tool for handling conditional logic in SQL."
+      "Database Management",
+      "Data Manipulation",
+      "Logical Operators",
+      "Data Retrieval",
+      "Code Quality",
+      "Commenting in SQL",
+      "Recursive Queries"
     ],
-    "category": "Data Science",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This guide covers SQL essentials like ALTER TABLE, AND & OR Operators, Cascading Delete, CASE, and Common Table Expressions. It emphasizes clean code practices."
+    "content_preview": "Document: SQL",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "SQL"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "SQL",
+      "ALTER TABLE",
+      "AND"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Database Administration",
+      "SQL Query Optimization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: SQL",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: SQL, ALTER TABLE, AND",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "48d0625f2b7d4842b109b60048c08438",
