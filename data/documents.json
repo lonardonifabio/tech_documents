@@ -39472,28 +39472,96 @@
     "id": "b77e71799ea48b9eec97faa84b3d3972",
     "filename": "Python_code_for_Artificial_Intelligence_1637920407.pdf",
     "title": "Python for Artificial Intelligence",
-    "authors": [
-      "David L. Poole",
-      "Alan K. Mackworth"
-    ],
+    "authors": [],
     "filepath": "documents/Python_code_for_Artificial_Intelligence_1637920407.pdf",
-    "upload_date": "2025-06-14T22:31:43.342625",
+    "upload_date": "2025-06-18T06:08:35.371117",
     "file_size": 2307062,
-    "summary": "This document provides Python code and foundations for creating computational agents in artificial intelligence. It covers the reasons for using Python, installation, running Python scripts, and common pitfalls. The content is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
+    "summary": "This document provides an introduction to Python programming for artificial intelligence, including its version 0.9.3 released on November 23, 2021. The code is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
     "keywords": [
       "Python",
       "Artificial Intelligence",
       "Computational Agents",
-      "Code"
+      "Planning",
+      "Robotics",
+      "Machine Learning",
+      "CSP",
+      "Heuristics",
+      "Collaborative Filtering"
     ],
     "key_concepts": [
-      "This document provides Python code and foundations for creating computational agents in artificial intelligence.",
-      "The document covers the reasons for using Python, installation, running Python scripts, and common pitfalls.",
-      "The content is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
+      "Foundations of Computational Agents",
+      "AI programming",
+      "Forward Planning",
+      "Regression Planning",
+      "Partial-Order Planning",
+      "Supervised Machine Learning",
+      "Decision Tree Learning",
+      "Multiagent Learning",
+      "Relational Learning",
+      "Experience Replay"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides Python code and foundations for creating computational agents in artificial intelligence."
+    "content_preview": "Document: Python for Artificial Intelligence",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Java"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Artificial Intelligence",
+      "Computational Agents"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "tools_mentioned": [
+      "TensorFlow",
+      "PyTorch"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Robotics"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python for Artificial Intelligence",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: Python, Artificial Intelligence, Computational Agents",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "66821a59a4d6f454a31d18d370919179",
