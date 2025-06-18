@@ -4233,39 +4233,82 @@
   {
     "id": "e7aea33c26ce3309671fde330fb8eedb",
     "filename": "AI_Supply_Chain_1743591689.pdf",
-    "title": "Securing AI Software Supply Chain",
-    "authors": [
-      "Shamik Chaudhuri",
-      "Kingshuk Dasgupta",
-      "Isaac Hepworth",
-      "Michael Le",
-      "Mark Lodato",
-      "Mihai Maruseac",
-      "Sarah Meiklejohn",
-      "Tehila Minkus",
-      "Kara Olive"
-    ],
+    "title": "Secure AI Framework",
+    "authors": [],
     "filepath": "documents/AI_Supply_Chain_1743591689.pdf",
-    "upload_date": "2025-06-14T22:31:32.952618",
+    "upload_date": "2025-06-18T06:08:24.809037",
     "file_size": 2048825,
-    "summary": "This document discusses the challenges and solutions for securing AI software supply chains, using provenance information and building on existing methods like Binary Authorization for Borg (BAB), Supply-chain Levels for Software Artifacts (SLSA), and Sigstore. It provides guidance for organizations to improve their AI supply chain security in a relatively short time.",
+    "summary": "As AI-powered features gain traction in software applications, we see many of the same problems we've faced with traditional software—but at an accelerated pace. The threat landscape continues to expand as AI is further integrated into everyday products, so we can expect more attacks. Given the expense of building models, there is a clear need for supply chain solutions.",
     "keywords": [
       "AI",
-      "Software Supply Chain",
-      "Security",
-      "Provenance Information",
-      "Borg"
+      "Supply Chain",
+      "Security"
     ],
     "key_concepts": [
-      "The integration of AI into everyday products increases the threat landscape and the likelihood of attacks.",
-      "This paper proposes an approach to securing the AI supply chain using provenance information and adapting existing solutions like BAB, SLSA, and Sigstore.",
-      "Organizations should focus on areas where they can improve their AI supply chain security in a relatively short time.",
-      "The paper provides guidance for organizations to secure their AI software supply chains, emphasizing the need for continuous improvement.",
-      "The first part of the paper offers a broad overview of development lifecycles and their relevance to securing the AI supply chain."
+      "Provenance information",
+      "Binary Authorization for Borg (BAB)",
+      "Supply-chain Levels for Software Artifacts (SLSA)"
     ],
-    "category": "AI",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This paper explains an approach to securing the AI supply chain using provenance information and existing solutions."
+    "content_preview": "Document: Secure AI Framework",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Software"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Binary Authorization for Borg",
+      "Supply-chain Levels for Software Artifacts"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "Supply Chain",
+      "Security"
+    ],
+    "methodologies": [
+      "provenance information",
+      "next-generation cryptographic signing solutions"
+    ],
+    "tools_mentioned": [
+      "Sigstore"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Supply Chain Security"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Secure AI Framework",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: AI, Supply Chain, Security",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "5ce3fc47f3825ec5215a3a5eb210a1fd",
