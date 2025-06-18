@@ -21084,31 +21084,97 @@
   {
     "id": "e0421ab4e9731d1e986fc091c2e9d5ea",
     "filename": "GANs_A_deep_introduction_with_PyTorch_and_TensorFlow_1567265758.pdf",
-    "title": "GANs from Scratch 1: A deep introduction with PyTorch and TensorFlow",
-    "authors": [
-      "Diego Gomez Mosquera"
-    ],
+    "title": "GANs from Scratch",
+    "authors": [],
     "filepath": "documents/GANs_A_deep_introduction_with_PyTorch_and_TensorFlow_1567265758.pdf",
-    "upload_date": "2025-06-14T22:31:37.835619",
+    "upload_date": "2025-06-18T13:27:40.703786",
     "file_size": 1821189,
-    "summary": "This document provides a comprehensive introduction to Generative Adversarial Networks (GANs), a popular deep learning concept that has been widely used in various applications such as text/image/video generation, drug discovery, and text-to-image synthesis. The author offers code examples in PyTorch and TensorFlow for readers to follow along.",
+    "summary": "This blog post explores Generative Adversarial Networks (GANs), a deep learning technique that has gained popularity in recent years for its versatility and outstanding results in generating data. The author provides an introduction to GANs, including their application in real-life projects such as text/image/video generation, drug discovery, and text-to-image synthesis.",
     "keywords": [
       "GANs",
       "PyTorch",
       "TensorFlow",
-      "Deep Learning",
-      "Artificial Intelligence"
+      "Generative Adversarial Networks",
+      "GAN",
+      "Generative Adversarial Network",
+      "Minimax Game",
+      "Log Loss",
+      "Stochastic Gradient Descent"
     ],
     "key_concepts": [
-      "Generative Adversarial Networks (GANs) are a powerful deep learning concept that have been widely used in various applications.",
-      "The author provides code examples in PyTorch and TensorFlow for readers to learn GANs from scratch.",
-      "GANs have been used in real-life applications such as text/image/video generation, drug discovery, and text-to-image synthesis.",
-      "The potential of GANs is demonstrated through a list of incredible projects created with the technology.",
-      "The author encourages readers to explore the potential of GANs by following along with the provided code examples."
+      "Generative Adversarial Networks (GANs)",
+      "Deep learning",
+      "Artificial intelligence",
+      "Machine learning",
+      "Generator",
+      "Discriminator",
+      "Neural Networks",
+      "Value Function",
+      "Optimization Algorithm"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about Generative Adversarial Networks (GANs) from scratch with code examples in PyTorch and TensorFlow."
+    "content_preview": "Document: GANs from Scratch",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence",
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "PyTorch",
+      "TensorFlow"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "GANs",
+      "PyTorch",
+      "TensorFlow"
+    ],
+    "methodologies": [
+      "Stochastic Gradient Descent"
+    ],
+    "tools_mentioned": [
+      "medium.com",
+      "GANs"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Text/image/video generation",
+      "Drug discovery",
+      "Text-to-image synthesis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: GANs from Scratch",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: GANs, PyTorch, TensorFlow",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a41a2219d62dee316f93e1b8bd4893df",
