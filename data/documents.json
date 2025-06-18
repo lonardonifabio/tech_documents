@@ -32143,25 +32143,96 @@
     "title": "Machine Learning",
     "authors": [],
     "filepath": "documents/Machine_Learning_1731405951.pdf",
-    "upload_date": "2025-06-14T22:31:40.550619",
+    "upload_date": "2025-06-18T20:37:57.025537",
     "file_size": 2531986,
-    "summary": "This document discusses machine learning, a subset of artificial intelligence that enables computers to learn and improve from data without explicit programming. It is widely applied in various fields such as face recognition, chatbots, disease diagnosis, and fraud detection. The document explains the three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. Supervised learning is further broken down into regression and classification tasks.",
+    "summary": "Machine learning is a subset of artificial intelligence that focuses on developing computer systems capable of learning and improving from data without being explicitly programmed. It is widely used in various fields and applications such as face recognition, object detection, chatbots, recommendation systems, autonomous vehicles, disease diagnosis, fraud detection, and many more.",
     "keywords": [
       "Machine Learning",
       "Artificial Intelligence",
-      "Data Science",
-      "AI",
-      "Supervised Learning"
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning",
+      "residual",
+      "threshold",
+      "averages",
+      "drug dosage",
+      "tree building"
     ],
     "key_concepts": [
-      "Machine learning is a method of teaching computers to learn from data and make decisions or predictions based on that learning.",
-      "The three main types of machine learning are supervised learning, unsupervised learning, and reinforcement learning.",
-      "Supervised learning involves training an algorithm on labeled data with input-output pairs to learn the mapping from input to output.",
-      "Regression is a type of supervised learning task where the goal is to predict a continuous numerical output or target variable."
+      "Teaching computers to learn from data",
+      "Types of Machine Learning",
+      "Regression",
+      "Classification",
+      "Object Detection",
+      "Decision Tree Building",
+      "Squared Sum Residual",
+      "Feature Selection",
+      "Node Splitting"
     ],
-    "category": "AI",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses machine learning, its applications, and types. It focuses on supervised learning, explaining regression as a type of supervised learning task."
+    "content_preview": "Document: Machine Learning",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence",
+      "Pharmaceuticals"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Supervised Learning"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "AI",
+      "Predicting optimal drug dosage"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Machine Learning, Artificial Intelligence, Supervised Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.875
   },
   {
     "id": "bc0c0d2027c05b8dabc6623fe47ec890",
