@@ -59693,32 +59693,86 @@
   {
     "id": "855b43ad44b127e8a2a1d36168899a05",
     "filename": "probablity and statistics.pdf",
-    "title": "CS 229 – Machine Learning: VIP Refresher: Probabilities and Statistics",
-    "authors": [
-      "Afshine Amidi",
-      "Shervine Amidi"
-    ],
+    "title": "Probabilities and Statistics",
+    "authors": [],
     "filepath": "documents/probablity and statistics.pdf",
-    "upload_date": "2025-06-14T22:31:47.106630",
+    "upload_date": "2025-06-18T13:27:50.169819",
     "file_size": 339277,
-    "summary": "This document provides an introduction to probability and combinatorics, covering key concepts such as sample space, events, axioms of probability, permutations, combinations, conditional probability, and Bayes' rule. The authors, Afshine Amidi and Shervini Amidi, offer a refresher for students in the field of machine learning.",
+    "summary": "This document provides an introduction to probability and combinatorics, covering key concepts such as sample space, events, axioms of probability, permutations, combinations, conditional probability, Bayes' rule, and partition.",
     "keywords": [
-      "Probability",
-      "Statistics",
-      "Machine Learning",
-      "Sample Space",
-      "Event"
+      "probability",
+      "statistics",
+      "combinatorics",
+      "permutation",
+      "combination"
     ],
     "key_concepts": [
-      "The sample space is the set of all possible outcomes of an experiment.",
-      "An event is a subset of the sample space, representing possible outcomes of the experiment.",
-      "The axioms of probability define the properties of probabilities for events.",
-      "A permutation is an arrangement of objects from a pool in a given order.",
-      "A combination is an arrangement of objects from a pool where the order does not matter."
+      "sample space",
+      "event",
+      "axioms of probability",
+      "conditional probability",
+      "Bayes' rule"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document introduces probability and combinatorics, covering key concepts such as sample space, events, axioms of probability, permutations, combinations, conditional probability, and Bayes' rule."
+    "content_preview": "Document: Probabilities and Statistics",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "probability",
+      "statistics",
+      "combinatorics"
+    ],
+    "methodologies": [
+      "probability",
+      "combinatorics"
+    ],
+    "tools_mentioned": [
+      "axioms",
+      "permutation",
+      "combination"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Probability and Statistics"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Probabilities and Statistics",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: probability, statistics, combinatorics",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "51b08a5faefaf4b6a45096c30d79a6f1",
