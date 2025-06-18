@@ -48,31 +48,84 @@
   {
     "id": "bee33b529eb4d85f5e00dd5050a80ee6",
     "filename": "100_essential_concepts_for_data_science__1710060188.pdf",
-    "title": "100 Essential Concepts for Data Scientists",
-    "authors": [
-      "Waleed Mousa"
-    ],
+    "title": "Data Science Concepts",
+    "authors": [],
     "filepath": "documents/100_essential_concepts_for_data_science__1710060188.pdf",
-    "upload_date": "2025-06-14T22:31:31.699615",
+    "upload_date": "2025-06-18T13:27:34.558763",
     "file_size": 119337,
-    "summary": "This document provides a comprehensive guide to essential concepts every data scientist should know, including data loading, cleaning, wrangling, visualization, descriptive and inferential statistics, probability, sampling, Bayesian thinking, regular expressions, data structures, complexity analysis, Python OOP, and more. The document is written by Waleed Mousa.",
+    "summary": "A comprehensive guide to data science concepts, covering data loading, cleaning, wrangling, visualization, descriptive statistics, inferential statistics, probability, sampling, Bayesian thinking, regular expressions, data structures, complexity analysis, and Python OOP.",
     "keywords": [
       "Data Science",
-      "Python",
       "Statistics",
-      "Data Manipulation",
-      "Data Analysis"
+      "Machine Learning",
+      "Probability",
+      "Regular Expressions"
     ],
     "key_concepts": [
-      "Use pandas to load data from different formats like CSV, Excel, SQL databases, etc.",
-      "Techniques to handle missing data, outliers, or inconsistent entries",
-      "Transform raw data into a suitable format for analysis by reshaping data, merging datasets, handling missing values, and converting data types",
-      "Use libraries like Matplotlib and Seaborn to create graphs and charts to understand data patterns and relationships",
-      "Basic statistical concepts like mean, median, mode, standard deviation, variance, correlation, etc. which are crucial for exploratory data analysis"
+      "Data Wrangling",
+      "Descriptive Statistics",
+      "Inferential Statistics",
+      "Bayesian Thinking",
+      "Complexity Analysis"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Essential concepts for data scientists: data loading, cleaning, wrangling, visualization, statistics, probability, sampling, Bayesian thinking, regular expressions, data structures, complexity analysis, Python OOP."
+    "content_preview": "Document: Data Science Concepts",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "python",
+      "regular_expressions"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Data Science",
+      "Statistics",
+      "Machine Learning"
+    ],
+    "methodologies": [
+      "data_science"
+    ],
+    "tools_mentioned": [
+      "pandas",
+      "matplotlib"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Science Concepts",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Data Science, Statistics, Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "1b1fd9de07ae8419609661f8bb595879",
