@@ -25109,28 +25109,88 @@
   {
     "id": "1c600a9e4ae59ebb3eec1e6bb1c3a5f8",
     "filename": "Machine_Learning_Basic_Concepts_1652422220.pdf",
-    "title": "The Digital Universe of Opportunities: Rich Data and the Increasing Value of the Internet of Things",
+    "title": "Machine Learning",
     "authors": [],
     "filepath": "documents/Machine_Learning_Basic_Concepts_1652422220.pdf",
-    "upload_date": "2025-06-14T13:06:54.463945",
+    "upload_date": "2025-06-17T22:29:06.200704",
     "file_size": 2845429,
-    "summary": "This document discusses the vast amount of data generated daily by various platforms such as Google, Facebook, Youtube, Twitter, and Astronomy. It highlights the growing digital universe, expected to reach 44 zettabytes by 2020, emphasizing the potential value of this data in the context of the Internet of Things (IoT).",
+    "summary": "Machine learning is a subset of artificial intelligence that involves the use of algorithms and statistical models to enable machines to learn from data, make decisions, and improve their performance over time. The digital universe is generating vast amounts of data, with Google processing 24 peta bytes per day, Facebook uploading 10 million photos every hour, and YouTube uploading 1 hour of video every second. This data comes in different sizes and types, including texts, numbers, clickstreams, graphs, tables, images, transactions, and videos. The increasing value of the internet of things is creating a rich data landscape that offers numerous opportunities for businesses and individuals alike.",
     "keywords": [
-      "Data",
-      "Internet of Things",
       "Machine Learning",
       "Data Science",
-      "Big Data"
+      "Data Mining",
+      "Data Analysis",
+      "Statistical Learning",
+      "Knowledge Discovery in Databases",
+      "Pattern Discovery"
     ],
     "key_concepts": [
-      "The digital universe refers to the total amount of data created and replicated in the world, which is expected to reach 44 zettabytes by 2020.",
-      "The Internet of Things (IoT) refers to the network of physical devices, vehicles, buildings, and other items embedded with electronics, software, sensors, and connectivity which enables these objects to collect and exchange data.",
-      "The value of the IoT lies in the rich data it generates, which can be analyzed for insights, trends, and patterns.",
-      "Data from various sources such as Google, Facebook, Youtube, Twitter, and Astronomy is growing at an unprecedented rate, offering immense opportunities for data analysis and knowledge discovery."
+      "Feature extraction",
+      "Data types (text, numbers, clickstreams, graphs, tables, images, transactions, videos)",
+      "The Digital Universe of Opportunities",
+      "Data collection and preparation",
+      "Machine learning process",
+      "Privacy and data protection"
     ],
-    "category": "Data Science",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses the vast amount of data generated daily by various platforms..."
+    "content_preview": "Document: Machine Learning",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Data Science",
+      "Data Mining"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Machine Learning, Data Science, Data Mining",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "b047dd30bd1c2e599c57ac14d334ac4d",
