@@ -32549,33 +32549,100 @@
   {
     "id": "f000f649668fadeab989fa4a138e460a",
     "filename": "Mathematics_for_Machine_Learning_1621954313.pdf",
-    "title": "Mathematics for Machine Learning",
-    "authors": [
-      "Marc Peter Deisenroth",
-      "A. Aldo Faisal",
-      "Cheng Soon On"
-    ],
+    "title": "MATHEMATICS FOR MACHINE LEARNING",
+    "authors": [],
     "filepath": "documents/Mathematics_for_Machine_Learning_1621954313.pdf",
-    "upload_date": "2025-06-14T22:31:41.544621",
+    "upload_date": "2025-06-18T06:08:33.483107",
     "file_size": 14989280,
-    "summary": "This self-contained textbook bridges the gap between mathematical and machine learning texts, introducing fundamental mathematical tools needed for understanding machine learning such as linear algebra, analytic geometry, matrix decompositions, vector calculus, optimization, probability and statistics. It derives four central machine learning methods: linear regression, principal component analysis, Gaussian mixture models, and support vector machines. The book includes worked examples, exercises, and programming tutorials.",
+    "summary": "A self-contained textbook that bridges the gap between mathematical and machine learning texts, introducing fundamental mathematical tools needed to understand machine learning. It uses these concepts to derive four central machine learning methods: linear regression, principal component analysis, Gaussian mixture models and support vector machines.",
     "keywords": [
-      "Machine Learning",
-      "Mathematics",
-      "Linear Algebra",
-      "Analytic Geometry",
-      "Matrix Decompositions"
+      "machine learning",
+      "linear algebra",
+      "analytic geometry",
+      "matrix decompositions",
+      "vector calculus",
+      "optimization",
+      "probability",
+      "statistics",
+      "online courses",
+      "open-source software"
     ],
     "key_concepts": [
-      "This textbook introduces mathematical concepts with a minimum of prerequisites, making it accessible to both students and professionals.",
-      "The book derives four central machine learning methods: linear regression, principal component analysis, Gaussian mixture models, and support vector machines, providing a starting point for further study in the field.",
-      "Every chapter includes worked examples and exercises to test understanding and build practical experience with applying mathematical concepts.",
-      "Programming tutorials are offered on the book’s web site, allowing readers to apply their knowledge in a practical setting.",
-      "The textbook is written by Marc Peter Deisenroth, A. Aldo Faisal, and Cheng Soon On, experts in the field of machine learning."
+      "mathematical tools for machine learning",
+      "central machine learning methods",
+      "derivation of linear regression and other methods",
+      "Astute Listener",
+      "Experienced Artist",
+      "Certification and Risk Management"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This textbook bridges the gap between mathematical and machine learning texts."
+    "content_preview": "Document: MATHEMATICS FOR MACHINE LEARNING",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "linear algebra",
+      "analytic geometry",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "linear algebra",
+      "analytic geometry"
+    ],
+    "methodologies": [
+      "optimization",
+      "probability and statistics",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning Education",
+      "Data Science",
+      "Data Analysis",
+      "Predictive Modeling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: MATHEMATICS FOR MACHINE LEARNING",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, linear algebra, analytic geometry",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "4344e67bc2d0762445e1ada012e6d74e",
