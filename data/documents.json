@@ -19178,28 +19178,100 @@
   {
     "id": "3ab74018481b202a7048be51cf718d28",
     "filename": "Exercises_in_Machine_Learning__1706087235.pdf",
-    "title": "Exercises in Machine Learning",
-    "authors": [
-      "Michael U. Gutmann"
-    ],
+    "title": "Pen & Paper Exercises in Machine Learning",
+    "authors": [],
     "filepath": "documents/Exercises_in_Machine_Learning__1706087235.pdf",
-    "upload_date": "2025-06-14T22:31:37.619620",
+    "upload_date": "2025-06-18T13:27:40.486785",
     "file_size": 2981502,
-    "summary": "This document provides exercises on Linear Algebra and Optimization, essential for understanding Machine Learning concepts. It also covers Directed Graphical Models, with topics including directed graph concepts and canonical connections. The work is licensed under Creative Commons Attribution 4.0 International License.",
+    "summary": "A document providing exercises and examples on various topics in machine learning, including linear algebra, optimization, and directed graphical models.",
     "keywords": [
       "Machine Learning",
       "Linear Algebra",
       "Optimization",
-      "Directed Graphical Models"
+      "Directed Graphs",
+      "Monte Carlo Integration",
+      "Importance Sampling",
+      "Markov Chain Monte Carlo",
+      "Variational Inference"
     ],
     "key_concepts": [
-      "The document covers exercises on Linear Algebra, including Gram–Schmidt orthogonalisation, linear transforms, eigenvalue decomposition, trace, determinants, and eigenvalues.",
-      "It also includes exercises on Optimization, such as gradient of vector-valued functions, Newton’s method, gradient of matrix-valued functions, gradient of the log-determinant, descent directions for matrix-valued functions.",
-      "The document provides exercises on Directed Graphical Models, focusing on directed graph concepts and canonical connections."
+      "Gram-Schmidt orthogonalisation",
+      "Eigenvalue decomposition",
+      "Newton's method",
+      "Gradient of vector-valued functions",
+      "Parameter estimation for unnormalised models",
+      "Sampling and Monte Carlo Integration",
+      "Basic Markov chain Monte Carlo inference"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Exercises in Machine Learning covers Linear Algebra, Optimization, and Directed Graphical Models."
+    "content_preview": "Document: Pen & Paper Exercises in Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning",
+      "Statistics and Data Analysis"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Linear Algebra",
+      "Optimisation",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Linear Algebra",
+      "Optimization"
+    ],
+    "methodologies": [
+      "Gram–Schmidt orthogonalisation",
+      "Newton’s method",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "Power method",
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Pen & Paper Exercises in Machine Learning",
+      "Machine Learning",
+      "Data Integration"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Pen & Paper Exercises in Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, Linear Algebra, Optimization",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "53d02c5d765aadc67158f1a416c97e7e",
