@@ -14896,27 +14896,88 @@
   {
     "id": "aaa71ffde47832f3b470d86f77b93004",
     "filename": "Difference_b_w_Neural_Network_and_Deep_Learning_1628528320.pdf",
-    "title": "Difference between Neural Network and Deep Learning",
+    "title": "Neural Networks vs Deep Learning",
     "authors": [],
     "filepath": "documents/Difference_b_w_Neural_Network_and_Deep_Learning_1628528320.pdf",
-    "upload_date": "2025-06-14T13:06:51.046945",
+    "upload_date": "2025-06-17T22:29:02.755668",
     "file_size": 687425,
-    "summary": "This document provides a clear distinction between Neural Networks and Deep Learning, explaining that while both are machine learning techniques, the latter is a specific type of neural network with multiple hidden layers. The text covers the basic structure and function of each, their differences, and the role of deep learning in modern AI applications.",
+    "summary": "A document explaining the differences and similarities between neural networks and deep learning models, covering their structure, architecture, time taken for training, interpretability, and performance.",
     "keywords": [
       "Neural Network",
       "Deep Learning",
-      "Machine Learning"
+      "Architecture",
+      "Time Taken",
+      "Interpretability",
+      "Performance"
     ],
     "key_concepts": [
-      "A Neural Network is a collection of interconnected processing units (neurons) that work together to solve specific problems.",
-      "Deep Learning refers to a deep neural network, characterized by multiple hidden layers and numerous nodes in each layer.",
-      "The main difference between Neural Networks and Deep Learning lies in the number of hidden layers and their complexity.",
-      "Deep Learning has become crucial for modern AI applications due to its ability to learn complex patterns from large datasets.",
-      "Understanding the distinction between these two concepts is essential for anyone interested in machine learning and AI."
+      "Definition of Neural Networks and Deep Learning",
+      "Components of Neural Networks and Deep Learning Models",
+      "Types of Neural Network Architectures",
+      "Comparison between Neural Networks and Deep Learning"
     ],
-    "category": "Machine Learning",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about Neural Networks and Deep Learning, their differences, and the role of deep learning in modern AI applications."
+    "content_preview": "Document: Neural Networks vs Deep Learning",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Neural Network",
+      "Deep Learning",
+      "Architecture"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Neural Networks vs Deep Learning",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Neural Network, Deep Learning, Architecture",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "e3d9b54950e2bf749091eb3a5085a803",
