@@ -24592,33 +24592,102 @@
   {
     "id": "3edbafc2f7fa36a15c66a5ece474a799",
     "filename": "MLOps_1630831226.pdf",
-    "title": "Practitioners guide to MLOps: A framework for continuous delivery and automation of machine learning",
-    "authors": [
-      "Khalid Salama",
-      "Jarek Kazmierczak",
-      "Donna Schut"
-    ],
+    "title": "Practitioners Guide to MLOps",
+    "authors": [],
     "filepath": "documents/MLOps_1630831226.pdf",
-    "upload_date": "2025-06-14T13:06:53.769945",
+    "upload_date": "2025-06-17T22:29:05.509697",
     "file_size": 7972504,
-    "summary": "This white paper from May 2021 presents a comprehensive guide on MLOps, an end-to-end workflow that aims to improve the quality and reduce time-to-market of ML systems. The document discusses the MLOps lifecycle, core capabilities, processes, and practical implementation aspects such as dataset and feature management, model governance, and continuous monitoring. Key concepts include the MLOps lifecycle, MLOps capabilities, and practical implications for building an ML-enabled system.",
+    "summary": "A framework for continuous delivery and automation of machine learning, covering the MLOps lifecycle, core capabilities, and additional resources.",
     "keywords": [
       "MLOps",
       "Machine Learning",
-      "Continuous Delivery",
-      "Automation",
-      "DevOps"
+      "DevOps",
+      "DataOps",
+      "Data Science",
+      "CI/CD",
+      "Continuous Integration",
+      "Continuous Deployment"
     ],
     "key_concepts": [
-      "The MLOps lifecycle is a workflow that addresses the unique complexities of ML engineering.",
-      "MLOps capabilities include experimentation, data processing, model training, evaluation, serving, online experimentation, monitoring, and more.",
-      "Practical implementation aspects covered in the document include dataset and feature management, model governance, and continuous monitoring.",
-      "Theoretical framework or principles discussed in the paper revolve around adopting DevOps and DataOps methodologies for ML systems.",
-      "Practical implications of MLOps include improved quality and reduced time-to-market of ML systems."
+      "Continuous Delivery",
+      "Automation",
+      "End-to-end Workflow",
+      "ML Pipelines",
+      "Model Serving",
+      "Agile workflow",
+      "Reusability of ML artifacts",
+      "Model training and deployment",
+      "Continuous retraining of models"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This white paper presents a guide on MLOps, an end-to-end workflow for ML systems."
+    "content_preview": "Document: Practitioners Guide to MLOps",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "DevOps",
+      "DataOps",
+      "CI/CD",
+      "data preprocessing",
+      "model architecture"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "MLOps",
+      "Machine Learning",
+      "DevOps"
+    ],
+    "methodologies": [
+      "MLOps",
+      "continuous training"
+    ],
+    "tools_mentioned": [
+      "ML pipelines",
+      "Model registry",
+      "training pipeline",
+      "model management process"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Continuous Delivery",
+      "Automation of Machine Learning",
+      "Model Development",
+      "Continuous Training"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Practitioners Guide to MLOps",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: MLOps, Machine Learning, DevOps",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "b8a59d65a2059d0d1d1bfd2dac089e51",
