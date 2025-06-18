@@ -50848,30 +50848,82 @@
   {
     "id": "0b446d94706c1f0cd228b7b5ce641587",
     "filename": "Think_stats_data_analysis_in_Python_1610184593.pdf",
-    "title": "Think Stats: Exploratory Data Analysis in Python",
-    "authors": [
-      "Allen B. Downey"
-    ],
+    "title": "Exploratory Data Analysis in Python",
+    "authors": [],
     "filepath": "documents/Think_stats_data_analysis_in_Python_1610184593.pdf",
-    "upload_date": "2025-06-14T22:31:45.638628",
+    "upload_date": "2025-06-18T13:27:48.678814",
     "file_size": 2120489,
-    "summary": "This document is a practical guide to exploratory data analysis (EDA) using the Python programming language. It covers various statistical concepts and techniques, such as probability distributions, hypothesis testing, and regression analysis. The book emphasizes the importance of visualization and interactive exploration of data. Key applications include data preprocessing, outlier detection, and model selection.",
+    "summary": "This book is an introduction to the practical tools of exploratory data analysis. It follows a process for working with datasets, including importing and cleaning, single variable explorations, and pair-wise explorations.",
     "keywords": [
       "Python",
       "Data Analysis",
-      "Exploratory Data Analysis",
-      "Statistics"
+      "Exploratory Data Analysis"
     ],
     "key_concepts": [
-      "The book introduces readers to the concept of exploratory data analysis, which involves understanding the structure and properties of a dataset through visualization and statistical techniques.",
-      "It provides an in-depth look at various Python libraries for data manipulation and visualization, such as NumPy, pandas, and Matplotlib.",
-      "The book covers key statistical concepts like probability distributions, hypothesis testing, and regression analysis, with a focus on their practical applications in EDA.",
-      "It emphasizes the importance of interactive exploration of data through code examples and exercises.",
-      "Throughout the book, readers will learn how to preprocess data, detect outliers, and select appropriate models for further analysis."
+      "Data Cleaning",
+      "Summary Statistics",
+      "Relationships Between Variables"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Exploratory Data Analysis in Python guide using Python libraries for data manipulation and visualization."
+    "content_preview": "Document: Exploratory Data Analysis in Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education/Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Data Analysis",
+      "Exploratory Data Analysis"
+    ],
+    "methodologies": [
+      "Exploratory Data Analysis"
+    ],
+    "tools_mentioned": [
+      "L ATEX source code",
+      "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Exploratory Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Exploratory Data Analysis in Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, Data Analysis, Exploratory Data Analysis",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "6a956b7ca2b9dd291b6e34a5c07af5c5",
