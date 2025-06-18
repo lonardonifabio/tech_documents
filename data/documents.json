@@ -31006,31 +31006,84 @@
   {
     "id": "a8ba8e959fd504361d30395f5c0bd2cc",
     "filename": "NLP_1735469065.pdf",
-    "title": "Natural Language Processing Explained",
-    "authors": [
-      "M. Mohana"
-    ],
+    "title": "Natural Language Processing",
+    "authors": [],
     "filepath": "documents/NLP_1735469065.pdf",
-    "upload_date": "2025-06-14T13:06:55.767945",
+    "upload_date": "2025-06-17T22:29:07.533718",
     "file_size": 5041074,
-    "summary": "This document provides an overview of Natural Language Processing (NLP), a branch of artificial intelligence that focuses on the interaction between computers and human language. It explains how NLP works, its applications such as auto-correct in Google's keyboard, and the use of complex algorithms to break down text content for meaningful information extraction. The document also discusses the role of syntactic and semantic analysis in guiding machines by identifying data patterns.",
+    "summary": "NLP stands for Natural Language Processing, a branch of artificial intelligence that focuses on the interaction between computers and human language. It helps computers understand human language and allows machines to communicate with us. Algorithms and models enable computers to understand, interpret, and generate human language in a meaningful way.",
     "keywords": [
       "Natural Language Processing",
       "Artificial Intelligence",
-      "Computer Language",
-      "Human Language",
-      "Machine Learning"
+      "Human-Computer Interaction"
     ],
     "key_concepts": [
-      "NLP stands for Natural Language Processing, a branch of artificial intelligence that focuses on the interaction between computers and human language.",
-      "NLP helps computers understand human language and allows machines to communicate with us through algorithms and models.",
-      "Google’s keyboard suggests auto-corrects and word predicts in email writing are examples of NLP applications.",
-      "Complex algorithms break down any text content to extract meaningful information from it, which is then used to teach machines the logic of natural language.",
-      "Syntactic and semantic analysis guide machines by identifying and recognizing data patterns in NLP."
+      "NLP definition",
+      "How NLP works",
+      "Importance of NLP"
     ],
-    "category": "AI",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document explains Natural Language Processing, a branch of artificial intelligence that helps computers understand human language."
+    "content_preview": "Document: Natural Language Processing",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "NLP",
+      "AI"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Natural Language Processing",
+      "Artificial Intelligence",
+      "Human-Computer Interaction"
+    ],
+    "methodologies": [
+      "Algorithms",
+      "Models"
+    ],
+    "tools_mentioned": [
+      "Google's keyboard",
+      "Translation systems"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Human-Computer Interaction",
+      "Text Understanding and Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Natural Language Processing",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Natural Language Processing, Artificial Intelligence, Human-Computer Interaction",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "e57ff78cc634979694033eabe794ba51",
