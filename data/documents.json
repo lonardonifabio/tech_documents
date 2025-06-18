@@ -11724,28 +11724,105 @@
   {
     "id": "527493349c097147614b01f1a2a4f57c",
     "filename": "CheatSheet_Web_Scraping_1705418948.pdf",
-    "title": "CheatSheet_Web_Scraping_1705418948.pdf",
+    "title": "HTML for Web Scraping",
     "authors": [],
     "filepath": "documents/CheatSheet_Web_Scraping_1705418948.pdf",
-    "upload_date": "2025-06-14T22:31:34.820622",
+    "upload_date": "2025-06-18T06:08:26.687051",
     "file_size": 140874,
-    "summary": "This document provides an introduction to web scraping using HTML and XPath, focusing on the structure of HTML elements, the concept of nodes, and the use of XPath for locating specific elements in a webpage. It also introduces Beautiful Soup, a Python library used for web scraping, and explains its workflow. The document is recommended for beginners who want to learn web scraping.",
+    "summary": "This document explains the HTML element syntax, nodes, and XPath. It covers how to locate elements using tag names, attribute names, and attribute values. The document also discusses Beautiful Soup workflow, including importing libraries, fetching pages, and parsing HTML content.",
     "keywords": [
       "HTML",
       "Web Scraping",
       "XPath",
-      "Beautiful Soup"
+      "Selenium",
+      "Scrapy",
+      "Python",
+      "JavaScript",
+      "Web scraping",
+      "Chrome driver"
     ],
     "key_concepts": [
-      "HTML elements are structured with 'nodes' and each rectangle represents a node (element, attribute, and text nodes)",
-      "To scrape with Selenium or Scrapy, you need to learn XPath",
-      "XPath usually contains a tag name, attribute name, and attribute value",
-      "Beautiful Soup is a Python library used for web scraping",
-      "The workflow of Beautiful Soup involves importing the libraries, fetching pages, extracting page content, and creating soup"
+      "Node",
+      "Element",
+      "Attribute",
+      "Text Node",
+      "XPath Syntax",
+      "Beautiful Soup",
+      "Workflow",
+      "Importing Libraries",
+      "Fetching Pages",
+      "Parsing HTML"
     ],
     "category": "Data Science",
-    "difficulty": "Beginner",
-    "content_preview": "Learn web scraping using HTML and XPath with this document. It introduces Beautiful Soup, a Python library for web scraping."
+    "difficulty": "Intermediate",
+    "content_preview": "Document: HTML for Web Scraping",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Web Scraping",
+      "Software Testing"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Selenium",
+      "Scrapy",
+      "Beautiful Soup",
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "HTML",
+      "Web Scraping",
+      "XPath"
+    ],
+    "methodologies": [
+      "Web Scraping",
+      "Page Object Model",
+      "Test-Driven Development"
+    ],
+    "tools_mentioned": [
+      "XPath",
+      "HTML",
+      "ChromeDriver",
+      "Webdriver"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Extraction",
+      "Content Retrieval",
+      "Automated Web Scraping",
+      "Selenium WebDriver"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: HTML for Web Scraping",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: HTML, Web Scraping, XPath",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "ce510d2e7e6ecac5948dc51fafeb6cf4",
