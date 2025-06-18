@@ -54662,29 +54662,90 @@
   {
     "id": "6a956b7ca2b9dd291b6e34a5c07af5c5",
     "filename": "Tidyverse Cheat Sheet For Beginners.pdf",
-    "title": "Tidyverse Cheat Sheet For Beginners",
+    "title": "Data Manipulation and Visualization with R",
     "authors": [],
     "filepath": "documents/Tidyverse Cheat Sheet For Beginners.pdf",
-    "upload_date": "2025-06-14T22:31:45.644629",
+    "upload_date": "2025-06-18T20:38:02.247533",
     "file_size": 2650821,
-    "summary": "This document provides a comprehensive guide for beginners on using the Tidyverse package in R, focusing on essential functions such as filter(), scatter plots, arrange(), mutate(), summarize(), and group_by(). The guide demonstrates how to select subsets of rows, compare variables within a data frame, sort observations based on one or more variables, combine multiple pipe verbs (e.g., %>%), update or create new columns, turn many observation points into a single data point, and summarize multiple variables at once.",
+    "summary": "This document excerpt provides an overview of data manipulation and visualization techniques using the dplyr library in R. It covers various functions such as filter(), arrange(), mutate(), summarize(), group_by(), and ggplot(). The examples demonstrate how to select, sort, update, and summarize datasets, as well as create scatter plots and visualize median GDP per capita by year.",
     "keywords": [
-      "Tidyverse",
-      "R",
-      "Data Frame",
-      "Filter",
-      "Scatter Plot"
+      "ggplot2",
+      "dplyr",
+      "filter",
+      "arrange",
+      "mutate",
+      "summarize",
+      "group_by"
     ],
     "key_concepts": [
-      "The filter() function allows you to select a subset of rows in a data frame based on specific conditions.",
-      "The scatter plot is used to compare two variables within your data frame with ggplot2, using geom_point().",
-      "The arrange() function sorts the base data ation set in ascending or descending order based on one of its variables.",
-      "Combining multiple pipe verbs (e.g., %>%) in a row allows you to chain commands together for easier and more efficient data manipulation.",
-      "The mutate() function is used to update or create new columns within a data frame."
+      "Data filtering and manipulation",
+      "Data visualization with ggplot2",
+      "Data analysis with dplyr",
+      "Grouping data for summary statistics"
     ],
     "category": "Data Science",
-    "difficulty": "Beginner",
-    "content_preview": "Learn how to use Tidyverse in R for data manipulation with essential functions like filter(), scatter plots, arrange(), mutate(), summarize(), and group_by."
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Data Manipulation and Visualization with R",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science/Analytics"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "R",
+      "ggplot2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "ggplot2",
+      "dplyr",
+      "filter"
+    ],
+    "methodologies": [
+      "Data Wrangling",
+      "Visualization",
+      "Statistical Analysis"
+    ],
+    "tools_mentioned": [
+      "Dplyr",
+      "Tidyverse"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Data Visualization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Manipulation and Visualization with R",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: ggplot2, dplyr, filter",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "694a52ece46190905059b1f1606c02c5",
