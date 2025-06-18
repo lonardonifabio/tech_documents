@@ -52052,30 +52052,93 @@
     "id": "cab18c4f9e4571b25b1906ad883c4cb0",
     "filename": "Types_of_Machine_Learning_1622540952.pdf",
     "title": "Machine Learning: A Review of Learning Types",
-    "authors": [
-      "Shagan Sah"
-    ],
+    "authors": [],
     "filepath": "documents/Types_of_Machine_Learning_1622540952.pdf",
-    "upload_date": "2025-06-14T22:31:45.885629",
+    "upload_date": "2025-06-18T13:27:48.926815",
     "file_size": 765908,
-    "summary": "This document provides an overview of various machine learning techniques, their applications in data classification, prediction, and pattern recognition. It discusses supervised, unsupervised, and reinforcement learning, as well as hybrid approaches. The paper serves as a reference for machine learning terminology.",
+    "summary": "This paper discusses various machine learning techniques used in data classification, prediction, and pattern recognition. Machine learning aims to automate human assistance by training algorithms on relevant data. The primary goal is to enable systems to make decisions autonomously without external support. The paper categorizes machine learning into supervised, unsupervised, and reinforcement learning, with brief descriptions of each approach.",
     "keywords": [
-      "Machine Learning",
-      "Supervised Learning",
-      "Unsupervised Learning",
-      "Reinforcement Learning",
-      "Data Classification"
+      "machine learning",
+      "algorithms",
+      "artificial intelligence",
+      "meta-learning",
+      "few-shot learning",
+      "metric learning"
     ],
     "key_concepts": [
-      "Machine learning is the study of computer algorithms that allow systems to learn and improve from experience, a subfield of artificial intelligence.",
-      "There are three primary categories of machine learning algorithms: supervised, unsupervised, and reinforcement learning.",
-      "Supervised learning algorithms learn from labeled data, while unsupervised learning algorithms find patterns in unlabeled data.",
-      "Reinforcement learning algorithms learn through trial and error by receiving rewards or punishments for their actions.",
-      "The paper serves as a collection of various machine learning terminology for easy reference."
+      "Automated decision-making",
+      "Pattern recognition",
+      "Supervised and unsupervised learning",
+      "Learning from scratch",
+      "Improving the learning algorithm",
+      "Dimensionality reduction"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Overview of machine learning techniques and their applications in data classification, prediction, and pattern recognition."
+    "content_preview": "Document: Machine Learning: A Review of Learning Types",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence",
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machine learning",
+      "meta-learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "algorithms",
+      "artificial intelligence"
+    ],
+    "methodologies": [
+      "algorithms",
+      "artificial intelligence",
+      "few-shot learning",
+      "metric learning",
+      "targeted learning"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Data classification",
+      "Prediction",
+      "Pattern recognition",
+      "Few-shot learning",
+      "Metric learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning: A Review of Learning Types",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: machine learning, algorithms, artificial intelligence",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "df23ce136756250189b726fce9f42ad3",
