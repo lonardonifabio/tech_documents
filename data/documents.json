@@ -45235,29 +45235,108 @@
   {
     "id": "d06ba19bc61b6440df7ec116069f503c",
     "filename": "Python_Cheatsheet_1568873680.pdf",
-    "title": "Python Cheatsheet",
+    "title": "Programming Basics",
     "authors": [],
     "filepath": "documents/Python_Cheatsheet_1568873680.pdf",
-    "upload_date": "2025-06-14T22:31:43.202625",
+    "upload_date": "2025-06-18T20:37:59.677535",
     "file_size": 1785862,
-    "summary": "This document provides a comprehensive guide on Python basics, focusing on variables, strings, lists, tuples, and if statements. It covers creating, modifying, and accessing variables, concatenating strings, working with lists including loops, list comprehensions, slicing, copying, and adding items. Additionally, it explains how to create and use tuples, and testing conditions using if statements.",
+    "summary": "This document excerpt covers the basics of programming, including variables, data types (strings, lists, tuples), control structures (if statements), and operations (concatenation, looping, slicing). It explains how to store values, access items in a list, loop through a list, add items to a list, create numerical lists, use list comprehensions, slice a list, copy a list, test conditions with if statements, and assign boolean values.",
     "keywords": [
-      "Python",
-      "Variables",
-      "Strings",
-      "Lists",
-      "Tuples"
+      "variables",
+      "strings",
+      "lists",
+      "tuples",
+      "if statements",
+      "list",
+      "copy",
+      "min",
+      "max",
+      "sum"
     ],
     "key_concepts": [
-      "Variables are used to store values in Python. Strings are a series of characters enclosed by single or double quotes.",
-      "Concatenation (combining strings) can be achieved using the '+' operator or list comprehensions.",
-      "A list stores a series of items in a particular order and can be accessed using an index or within a loop. Lists can also be modified by adding, removing, or changing items.",
-      "Tuples are similar to lists but their items cannot be modified once created.",
-      "If statements are used to test for specific conditions and respond appropriately."
+      "storing values",
+      "string concatenation",
+      "list indexing and looping",
+      "list comprehensions",
+      "tuple creation",
+      "conditional testing",
+      "Creating a copy of a list",
+      "Finding minimum and maximum values in a list",
+      "Calculating the sum of a list",
+      "Using loops to generate lists"
     ],
     "category": "Technology",
-    "difficulty": "Beginner",
-    "content_preview": "This document provides a Python cheatsheet covering variables, strings, lists, tuples, and if statements."
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Programming Basics",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Software Development",
+      "Food Service"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "variables",
+      "strings",
+      "lists"
+    ],
+    "methodologies": [
+      "Object-Oriented Programming",
+      "Functional Programming",
+      "loop",
+      "comprehension",
+      "Iterative Programming"
+    ],
+    "tools_mentioned": [
+      "print() function",
+      "range() function",
+      "range",
+      "append",
+      "While Loops"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Web Development",
+      "Scripting",
+      "Data Analysis",
+      "List Manipulation",
+      "Voting System"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Programming Basics",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: variables, strings, lists",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "04e308975b76a62e36adac6da0a0539e",
