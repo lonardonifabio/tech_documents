@@ -17320,31 +17320,84 @@
   {
     "id": "e61eeaa462fe19dd68303a2116c09685",
     "filename": "Evaluation_of_Machine_Learning_Models_1568114694.pdf",
-    "title": "Evaluation of Machine Learning Models: A Beginner's Guide",
-    "authors": [
-      "Alice Zheng"
-    ],
+    "title": "Evaluating Machine Learning Models",
+    "authors": [],
     "filepath": "documents/Evaluation_of_Machine_Learning_Models_1568114694.pdf",
-    "upload_date": "2025-06-14T19:41:05.949072",
+    "upload_date": "2025-06-18T06:08:29.485073",
     "file_size": 3829480,
-    "summary": "This guide, presented by O'Reilly and Cloudera at Strata + Hadoop World, introduces beginners to key concepts and pitfalls in evaluating machine learning models. It covers business applications, skill development, and networking opportunities within the international data community.",
+    "summary": "This document provides a beginner's guide to key concepts and pitfalls in evaluating machine learning models. It covers topics such as making data work, presented by O'Reilly and Cloudera at Strata + Hadoop World, and is written by Alice Zheng.",
     "keywords": [
-      "Machine Learning",
-      "Evaluation",
-      "Beginner's Guide",
-      "Data Science",
-      "Strata + Hadoop World"
+      "machine learning",
+      "data science",
+      "business applications",
+      "data technologies"
     ],
     "key_concepts": [
-      "This guide provides an introduction to evaluating machine learning models, a crucial step in ensuring the accuracy and effectiveness of these models.",
-      "The guide focuses on key concepts that are essential for beginners to understand when working with machine learning models.",
-      "It highlights common pitfalls that can occur during the evaluation process and offers strategies to avoid them.",
-      "The guide is part of Strata + Hadoop World, a conference where data science and business fundamentals intersect, providing opportunities for skill development, networking, and learning about new technologies.",
-      "By attending this event or reading this guide, individuals can learn about the latest trends in machine learning evaluation and apply these concepts to their own projects."
+      "Evaluating Machine Learning Models",
+      "Key Concepts and Pitfalls",
+      "Data Science and Business Fundamentals"
     ],
-    "category": "Machine Learning",
-    "difficulty": "Beginner",
-    "content_preview": "Learn key concepts and pitfalls in evaluating machine learning models. Part of Strata + Hadoop World, this guide offers opportunities for skill development, networking, and learning about new technologies."
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Evaluating Machine Learning Models",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "data science",
+      "business applications"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Evaluating Machine Learning Models"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Evaluating Machine Learning Models",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, data science, business applications",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "7b9a43527877520ef87d4822d2464c0b",
