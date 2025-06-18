@@ -32260,27 +32260,104 @@
   {
     "id": "77324223896c3050b1b94b42c28a61f4",
     "filename": "Machine_Learning_CheatSheet_1642679779.pdf",
-    "title": "Machine Learning Cheat Sheet",
+    "title": "Deep Learning Course",
     "authors": [],
     "filepath": "documents/Machine_Learning_CheatSheet_1642679779.pdf",
-    "upload_date": "2025-06-14T22:31:40.723619",
+    "upload_date": "2025-06-18T13:27:43.624796",
     "file_size": 15159441,
-    "summary": "This document provides a comprehensive guide on deep learning, a cutting-edge AI technology highly sought after in the industry. The course covers the foundations of deep learning, including understanding major trends, building and training neural networks, implementing efficient neural network architectures, and key parameters. It also delves into how deep learning works, preparing learners for job opportunities in AI and interview questions. Keywords: Deep Learning, Artificial Intelligence, Neural Networks.",
+    "summary": "This course teaches the foundations of deep learning, enabling students to build, train, and apply fully connected deep neural networks. Upon completion, students will understand major technology trends driving deep learning, be able to implement efficient neural networks, and know key parameters in a neural network's architecture. The course also covers how deep learning works and allows students to apply it to their own applications.",
     "keywords": [
+      "AI",
       "Deep Learning",
-      "Artificial Intelligence",
-      "Neural Networks"
+      "Neural Networks",
+      "vectorization",
+      "NumPy",
+      "GPU",
+      "Logistic Regression",
+      "SIMD",
+      "sigmoid",
+      "tanh"
     ],
     "key_concepts": [
-      "Deep learning is a new 'superpower' that allows building AI systems not possible a few years ago.",
-      "The course covers the foundations of deep learning, including understanding major trends and applying it to own applications.",
-      "Learners will be able to build, train, and apply fully connected deep neural networks after completing this class.",
-      "The course teaches efficient (vectorized) neural network implementation and understanding key parameters in a neural network's architecture.",
-      "Upon completion, learners will be prepared for job opportunities in AI and able to answer basic interview questions."
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Neural Network Architecture",
+      "Vectorization",
+      "Broadcasting",
+      "Gradient Output",
+      "Reshape",
+      "SIMD operations",
+      "Symmetry breaking problem",
+      "Saturated activation functions"
     ],
-    "category": "AI",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Learn deep learning foundations, build neural networks, and prepare for AI jobs."
+    "content_preview": "Document: Deep Learning Course",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence",
+      "Machine Learning/AI"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "Deep Learning",
+      "NumPy"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "Deep Learning",
+      "Neural Networks"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "vectorization",
+      "GPU acceleration"
+    ],
+    "tools_mentioned": [
+      "Neural Networks",
+      "SIMD operations"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Career Development",
+      "Job Preparation",
+      "Logistic Regression",
+      "Vectorization",
+      "Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning Course",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: AI, Deep Learning, Neural Networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.9166666666666666
   },
   {
     "id": "287f5fd8fbd995c500abee03c024b10b",
