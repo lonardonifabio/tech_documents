@@ -33057,32 +33057,112 @@
   {
     "id": "e3a6ef8e71ce38c9f21daa1fab7dff66",
     "filename": "Mathematics_Introduction_for_Deep_Learning_1741216032.pdf",
-    "title": "Mathematics Introduction for Deep Learning",
-    "authors": [
-      "Arnulf Jentzen",
-      "Benno Kuckuck",
-      "Philippe von Wurstemberger"
-    ],
+    "title": "Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory",
+    "authors": [],
     "filepath": "documents/Mathematics_Introduction_for_Deep_Learning_1741216032.pdf",
-    "upload_date": "2025-06-14T22:31:41.472621",
+    "upload_date": "2025-06-18T06:08:33.412106",
     "file_size": 2159935,
-    "summary": "This document offers a comprehensive introduction to deep learning, focusing on methods, implementations, and theoretical foundations. It covers topics such as artificial neural networks, stochastic gradient descent, and optimization. The book is suitable for both beginners and advanced learners in the field of data science and machine learning. All Python source codes can be downloaded from GitHub.",
+    "summary": "This document provides a mathematical introduction to deep learning, covering methods, implementations, and theory. It is written by Arnulf Jentzen, Benno Kuckuck, and Philippe von Wurstemberger and aims to provide an in-depth understanding of the subject. The book covers topics such as stochastic gradient descent, optimization, and artificial neural networks. It also includes Python source codes that can be downloaded from the arXiv page or GitHub repository.",
     "keywords": [
       "deep learning",
       "artificial neural network",
       "stochastic gradient descent",
-      "optimization"
+      "optimization",
+      "activation functions",
+      "neural networks",
+      "convexity",
+      "monotonicity",
+      "subgradients",
+      "strong convexity"
     ],
     "key_concepts": [
-      "The book provides an introduction to deep learning, a subset of machine learning that uses artificial neural networks with multiple layers for learning complex patterns.",
-      "It explains the methodology of using stochastic gradient descent (SGD), an optimization algorithm used in training deep neural networks.",
-      "Key findings from the book include practical implementations and applications of deep learning concepts, as well as insights into the theoretical underpinnings of these methods.",
-      "The document is grounded in a solid understanding of mathematical principles, particularly those relevant to data science and machine learning.",
-      "Practical implications of this knowledge are discussed, with examples of how deep learning can be applied to real-world problems."
+      "Mathematical Introduction to Deep Learning",
+      "Methods",
+      "Implementations",
+      "Theory",
+      "Leaky ReLU",
+      "Exponential Linear Unit (ELU)",
+      "Rectified Power Unit (RePU)",
+      "Lyapunov-type functions",
+      "Gronwall differential inequalities",
+      "ODEs"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This book aims to provide an introduction to deep learning, focusing on methods, implementations, and theoretical foundations."
+    "content_preview": "Document: Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Applied Mathematics",
+      "Artificial Intelligence",
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "ANNs",
+      "CNNs",
+      "ResNets",
+      "RNNs"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "deep learning",
+      "artificial neural network",
+      "stochastic gradient descent"
+    ],
+    "methodologies": [
+      "Stochastic Gradient Descent",
+      "Optimization",
+      "structured description",
+      "realizations",
+      "GD"
+    ],
+    "tools_mentioned": [
+      "GitHub",
+      "arXiv",
+      "vectorized description",
+      "GF",
+      "ODEs"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Deep Learning",
+      "Artificial Neural Network",
+      "Neural Networks",
+      "Optimization",
+      "Training of Artificial Neural Networks"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: deep learning, artificial neural network, stochastic gradient descent",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "d2eca671776d51a3d85aaad59d770b74",
