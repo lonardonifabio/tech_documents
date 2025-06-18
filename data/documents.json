@@ -30426,25 +30426,91 @@
     "title": "Machine Learning",
     "authors": [],
     "filepath": "documents/Machine_Learning_1720252114.pdf",
-    "upload_date": "2025-06-14T22:31:40.462619",
+    "upload_date": "2025-06-18T13:27:43.362795",
     "file_size": 3214213,
-    "summary": "This document discusses machine learning, a subset of artificial intelligence that enables computers to learn and improve from data without explicit programming. It is widely used in various fields such as face recognition, chatbots, disease diagnosis, and autonomous vehicles. The document covers the three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. Supervised learning is further explained with examples like image classification and email spam detection.",
+    "summary": "Machine learning is a subset of artificial intelligence that focuses on developing computer systems capable of learning and improving from data without being explicitly programmed. Machine learning is widely used in various fields and applications such as face recognition, object detection, chatbots, recommendation systems, autonomous vehicles, disease diagnosis, fraud detection, and many more.",
     "keywords": [
       "Machine Learning",
       "Artificial Intelligence",
-      "Data Science",
-      "AI",
-      "Supervised Learning"
+      "Data Analysis",
+      "Computer Vision",
+      "average",
+      "effectiveness",
+      "residual",
+      "threshold",
+      "splitting",
+      "tree"
     ],
     "key_concepts": [
-      "Machine learning is a method to teach computers to learn from data and make decisions or predictions.",
-      "Supervised learning is a type of machine learning where the algorithm is trained on labeled data with input-output pairs.",
-      "Examples of supervised learning tasks include regression (predicting a continuous numerical output) and classification.",
-      "Machine learning is used in various sectors including healthcare, education, business, construction, astronomy, etc."
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning",
+      "Decision Tree Construction",
+      "Feature Selection",
+      "Residual Analysis"
     ],
-    "category": "AI",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses machine learning and its applications."
+    "content_preview": "Document: Machine Learning",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Data Analysis"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "AI"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Machine Learning, Artificial Intelligence, Data Analysis",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.875
   },
   {
     "id": "d8c24d958e140f6686e1b2904d5e250a",
