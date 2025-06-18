@@ -25362,29 +25362,85 @@
   {
     "id": "df9b7135ecd0e1555b2268f1c2ac7ff9",
     "filename": "Machine_Learning_for_ANY_Professional_1638059386.pdf",
-    "title": "Machine Learning for Any Professional",
+    "title": "Data Analytics on Black Friday",
     "authors": [],
     "filepath": "documents/Machine_Learning_for_ANY_Professional_1638059386.pdf",
-    "upload_date": "2025-06-14T13:06:54.771945",
+    "upload_date": "2025-06-17T22:29:06.506707",
     "file_size": 1258669,
-    "summary": "This document provides information about personalized 1-on-1 coaching services offered by DaveOnData for professionals looking to enhance their data analysis skills, focusing on R programming, R & Excel data analysis, and Machine Learning. The coaching aims to help professionals apply data analytics to business problems. The document also introduces Classification Trees (CART) as a machine learning technique.",
+    "summary": "This document excerpt discusses the application of data analytics to business problems, specifically using R programming and machine learning techniques. It provides an example of how a classification tree algorithm arrives at rules to assign labels based on features such as occupation and relationship. The goal is to minimize impurity in the data by splitting it into the largest collections of purest labels possible.",
     "keywords": [
-      "Data Analysis",
-      "Machine Learning",
-      "Coaching",
-      "R Programming",
-      "Excel"
+      "data analytics",
+      "R programming",
+      "machine learning",
+      "classification trees"
     ],
     "key_concepts": [
-      "The coaching services offer personalized guidance to professionals who want to improve their data analysis skills.",
-      "The coaching covers three main areas: R programming, R & Excel data analysis, and Machine Learning.",
-      "The goal of the coaching is to help professionals apply data analytics to business problems effectively.",
-      "Classification Trees (CART) is a machine learning technique introduced in this document.",
-      "These services are available for students of DaveOnData's online and live courses."
+      "Classification Trees",
+      "Impurity",
+      "Decision Making with Classification Trees"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Personalized 1-on-1 coaching services offered for data analysis skills enhancement."
+    "content_preview": "Document: Data Analytics on Black Friday",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "R",
+      "Excel"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "data analytics",
+      "R programming",
+      "machine learning"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Classification Trees"
+    ],
+    "tools_mentioned": [
+      "CART",
+      "R programming"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analytics Coaching",
+      "Business Problem Solving"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Analytics on Black Friday",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: data analytics, R programming, machine learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "cdf82085e4d6a1fc2f298db1888d6f3e",
