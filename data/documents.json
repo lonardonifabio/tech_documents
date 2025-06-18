@@ -15560,29 +15560,83 @@
   {
     "id": "c9a41b17ad5a88ab2c23aa71d2626e3d",
     "filename": "Data_Science_Data_Prep_with_SQL_Quick_Reference_1635925530.pdf",
-    "title": "Data Science - Data Preparation with SQL Quick Reference",
+    "title": "Data Science - Data Prep with SQL - Quick Reference",
     "authors": [],
     "filepath": "documents/Data_Science_Data_Prep_with_SQL_Quick_Reference_1635925530.pdf",
-    "upload_date": "2025-06-14T22:31:36.307623",
+    "upload_date": "2025-06-18T13:27:39.164780",
     "file_size": 172440,
-    "summary": "This document provides a quick reference guide for data scientists on various SQL commands and techniques used in data preparation, including dataset profiling, validating attributes, standardizing attributes, cleaning attributes, and deriving new attributes. The guide covers topics such as volume, velocity, attribute selection, incomplete records, domain, missing values, range, data type, outliers, distribution, scaling, formatting, and incorrect values.",
+    "summary": "A quick reference guide for data science tasks involving SQL, including dataset profiling, attribute selection, validation, standardization, and cleaning.",
     "keywords": [
-      "Data Science",
-      "SQL",
-      "Data Preparation",
-      "Quick Reference",
-      "Dataset Profiling"
+      "sql",
+      "data science",
+      "dataset profiling",
+      "data preparation"
     ],
     "key_concepts": [
-      "This guide explains how to use SQL commands for dataset profiling, such as SELECT COUNT (*) FROM t; and SELECT t.date1, COUNT(*) FROM t GROUP by t.date1 ORDER BY t.date1 desc;",
-      "The document demonstrates methods for validating attributes using SQL, like SELECT DISTINCT (attr1) FROM t; and SELECT * FROM t WHERE t.attr1 IS NULL;",
-      "It provides techniques for standardizing attributes with commands such as SELECT CAST (attr1 AS DATE), CAST(attr2 AS INT) FROM t; and SELECT CASE WHEN attr1 = …, REPLACE (attr2,’Street’,’St’) FROM t;",
-      "The guide offers strategies for cleaning attributes, including outlier detection with WITH dev_cte AS (SELECT STDDEV (attr1) sdev FROM t) SELECT attr1, attr2 FROM t CROSS JOIN dev_cte c WHERE t.attr1 > c.sdev * 2; and handling missing values using COALESCE(attr1,AVG(attr1) OVER ()), COALESCE (attr1,’Unknown’) FROM t;",
-      "The document also covers deriving new attributes with SQL commands like SELECT attr1, attr2/( MAX (attr2) OVER (PARTITION BY attr1)) FROM t;"
+      "Data Preprocessing",
+      "SQL Queries for Data Analysis",
+      "Data Cleaning",
+      "Data Transformation"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Data Science - Data Preparation with SQL Quick Reference"
+    "content_preview": "Document: Data Science - Data Prep with SQL - Quick Reference",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "SQL"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "sql",
+      "data science",
+      "dataset profiling"
+    ],
+    "methodologies": [
+      "Data Science",
+      "Data Prep"
+    ],
+    "tools_mentioned": [
+      "information_schema.columns"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Prep with SQL"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Science - Data Prep with SQL - Quick Reference",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: sql, data science, dataset profiling",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "e924d2b29ef7f84dee5220f624cbee15",
