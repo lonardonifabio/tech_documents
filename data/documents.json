@@ -14677,29 +14677,97 @@
   {
     "id": "92b96bd03d983dad69a16fc33173f426",
     "filename": "Daily_Dose_of_Data_Science_Archive_1683457307.pdf",
-    "title": "200+ Python & Data Science Tips Archive",
+    "title": "Python & DataScience Tips",
     "authors": [],
     "filepath": "documents/Daily_Dose_of_Data_Science_Archive_1683457307.pdf",
-    "upload_date": "2025-06-14T22:31:35.680624",
+    "upload_date": "2025-06-18T13:27:38.545778",
     "file_size": 46415018,
-    "summary": "This document is a comprehensive archive of tips on various topics in Python and Data Science, including Stochastic Gradient Descent, Mini-batch and Batch Gradient Descent, PCA limitations, MagicMethods in Python OOP, Regression Algorithms, analyzing Pandas DataFrames, creating professional Matplotlib plots, indexing a DataFrame, command line flags for running Python scripts, KMeans clustering, dimensionality reduction using PCA, Mito just got supercharged with AI, and caution when drawing conclusions using summary statistics.",
+    "summary": "A collection of tips and techniques for Python and data science, covering various topics such as gradient descent, list comprehensions, PCA, and more.",
     "keywords": [
       "Python",
-      "Data Science",
-      "Tips",
-      "Stochastic Gradient Descent",
-      "Mini-batch"
+      "DataScience",
+      "GradientDescent",
+      "ListComprehensions",
+      "PCA",
+      "OOP",
+      "RegressionAlgorithms",
+      "Pandas",
+      "SQL",
+      "Sklearn"
     ],
     "key_concepts": [
-      "This document explores fundamental concepts related to 200+ python & data science tips archive providing theoretical foundations and practical insights for understanding the subject matter.",
-      "The methodology presented in this work demonstrates systematic approaches to ai with emphasis on evidence-based practices and proven techniques.",
-      "Key findings and applications discussed include real-world implementations and case studies that illustrate the practical value of the concepts presented in this document.",
-      "The theoretical framework underlying this work builds upon established principles in ai while introducing innovative perspectives and methodologies.",
-      "Practical implications of this research extend to various domains where ai principles can be applied to solve complex problems and improve outcomes."
+      "Stochastic Gradient Descent",
+      "For loops vs List comprehensions",
+      "Limitations of PCA",
+      "Magic methods in Python OOP",
+      "Taxonomy of regression algorithms",
+      "Analysing Pandas dataframes",
+      "Bump charts",
+      "Inplace operations in Pandas",
+      "Jupyter Notebook web apps",
+      "Pandas to SQL translations"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Document: 200+ Python & Data Science Tips Archive"
+    "content_preview": "Document: Python & DataScience Tips",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "DataScience"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "DataScience",
+      "GradientDescent"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [
+      "Substack",
+      "Pandas",
+      "Sklearn",
+      "Matplotlib"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Python programming",
+      "Data analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python & DataScience Tips",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, DataScience, GradientDescent",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "95d1b68ca673083067055c8fbfd82607",
