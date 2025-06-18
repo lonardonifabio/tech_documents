@@ -23864,25 +23864,89 @@
     "title": "Digit Recognizer using LeNet",
     "authors": [],
     "filepath": "documents/LeNet__1711185582.pdf",
-    "upload_date": "2025-06-14T19:41:08.011079",
+    "upload_date": "2025-06-17T22:29:05.202693",
     "file_size": 89978,
-    "summary": "This document provides a Python code implementation of a digit recognizer using the LeNet architecture. The code reads and preprocesses the dataset, normalizes the inputs, splits the data into training and testing sets, and trains a Convolutional Neural Network (CNN) model using Keras. The model is then evaluated on the test set.",
+    "summary": "This document provides a step-by-step guide to building a digit recognizer model using the LeNet architecture. The model is trained on the MNIST dataset and uses a combination of convolutional and fully connected layers to recognize handwritten digits. The document also includes code snippets in Python, including data preprocessing, normalization, and training the model.",
     "keywords": [
-      "LeNet",
-      "digit recognizer",
-      "Convolutional Neural Network",
-      "Keras",
-      "Python"
+      "digit-recognizer-lenet",
+      "keras",
+      "numpy",
+      "pandas",
+      "matplotlib",
+      "seaborn"
     ],
     "key_concepts": [
-      "The LeNet architecture is a deep convolutional neural network that was introduced in 1998 for handwritten digit recognition.",
-      "The code uses the Keras library to define and train the CNN model, which consists of Conv2D, Dense, MaxPool2D, Dropout, Flatten, and other layers.",
-      "The dataset is preprocessed by normalizing the pixel values to be between 0 and 1.",
-      "The data is split into training and testing sets using the train_test_split function from sklearn.model_selection."
+      "Data Preprocessing",
+      "Convolutional Neural Networks (CNNs)",
+      "Digit Recognition",
+      "Image Classification"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a Python code implementation of a digit recognizer using the LeNet architecture."
+    "content_preview": "Document: Digit Recognizer using LeNet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Computer Vision"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "pandas",
+      "keras",
+      "sklearn",
+      "matplotlib"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "digit-recognizer-lenet",
+      "keras",
+      "numpy"
+    ],
+    "methodologies": [
+      "data preprocessing",
+      "model training",
+      "model evaluation"
+    ],
+    "tools_mentioned": [
+      "Keras",
+      "Matplotlib",
+      "Seaborn"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Image Classification"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Digit Recognizer using LeNet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: digit-recognizer-lenet, keras, numpy",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "9e152e8a5c8e6e717e2439904933fbe7",
