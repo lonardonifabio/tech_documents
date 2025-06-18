@@ -55678,24 +55678,80 @@
     "title": "Alzheimer Disease Detection using Novel Continuous Neural Network",
     "authors": [],
     "filepath": "documents/alzheimer_1748645981.pdf",
-    "upload_date": "2025-06-14T22:31:46.573629",
+    "upload_date": "2025-06-18T13:27:49.619817",
     "file_size": 567338,
-    "summary": "This document presents a study on Alzheimer's disease detection using a novel continuous neural network. The researcher collects and preprocesses data from the IraqiAD dataset, which contains images labeled as 'AD' (Alzheimer's Disease) or 'CN' (Control). The data is then used to train a neural network for classification purposes.",
+    "summary": "A document detailing the process of creating a neural network for detecting Alzheimer's disease from images. The document includes code snippets and explanations of how to load and preprocess image data, create a pandas DataFrame, and view the first few rows of the dataset.",
     "keywords": [
-      "Alzheimer's disease",
-      "neural network",
-      "IraqiAD dataset",
-      "image classification"
+      "Alzheimer Disease",
+      "Neural Network",
+      "Deep Learning"
     ],
     "key_concepts": [
-      "The study aims to detect Alzheimer's Disease using a novel continuous neural network.",
-      "Data is collected and preprocessed from the IraqiAD dataset, which contains images labeled as 'AD' or 'CN'.",
-      "The data is used to train a neural network for classification purposes.",
-      "The document provides Python code for loading, processing, and preparing the data for model training."
+      "Image Classification",
+      "Data Preprocessing",
+      "Machine Learning Model"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "The study collects and preprocesses data from the IraqiAD dataset for Alzheimer's Disease detection using a novel continuous neural network."
+    "content_preview": "Document: Alzheimer Disease Detection using Novel Continuous Neural Network",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Medical Imaging"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "pandas",
+      "os"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Alzheimer Disease",
+      "Neural Network",
+      "Deep Learning"
+    ],
+    "methodologies": [
+      "data loading",
+      "data preprocessing"
+    ],
+    "tools_mentioned": [
+      "Kaggle input"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Alzheimer Disease Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Alzheimer Disease Detection using Novel Continuous Neural Network",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Alzheimer Disease, Neural Network, Deep Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "2a3ce02c973d3c9fad3103025e374855",
