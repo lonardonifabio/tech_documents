@@ -473,34 +473,90 @@
   {
     "id": "375fd049b3a3dfdfb7383500f37923ca",
     "filename": "2004_Book_AllOfStatistics.pdf",
-    "title": "2004_Book_AllOfStatistics.pdf",
-    "authors": [
-      "George Casella",
-      "Stephen Fienberg",
-      "Ingram Olkin",
-      "Other contributors"
-    ],
+    "title": "Springer Texts in Statistics",
+    "authors": [],
     "filepath": "documents/2004_Book_AllOfStatistics.pdf",
-    "upload_date": "2025-06-14T22:31:31.934615",
+    "upload_date": "2025-06-18T13:27:34.795763",
     "file_size": 24441936,
-    "summary": "This document is a compilation of various books on statistics, covering topics such as probability theory, time series analysis, graphical modeling, and experimental design. It includes works by renowned statisticians like George Casella, Stephen Fienberg, Ingram Olkin, and others. The books provide comprehensive theoretical foundations and practical applications in statistics, making it a valuable resource for students, researchers, and professionals in the field.",
+    "summary": "A list of Springer texts in statistics with various authors and titles.",
     "keywords": [
-      "Statistics",
-      "Probability Theory",
-      "Time Series Analysis",
-      "Graphical Modeling",
-      "Experimental Design"
+      "statistics",
+      "probability",
+      "multivariate statistics",
+      "times series",
+      "forecasting",
+      "linear modeling",
+      "logistic regression"
     ],
     "key_concepts": [
-      "This collection provides a comprehensive overview of statistical theory and methodology.",
-      "The books cover various aspects of probability theory, including independence, interchangeability, and martingales.",
-      "The texts offer practical applications in areas such as time series analysis and graphical data exploration.",
-      "The works emphasize the importance of experimental design in statistical research.",
-      "The collection includes a variety of books that cater to different levels of understanding, from introductory to advanced."
+      "statistical inference",
+      "data analysis",
+      "experimental design",
+      "stochastic processes",
+      "graphical modelling"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A collection of books on statistics, covering probability theory, time series analysis, graphical modeling, and experimental design."
+    "content_preview": "Document: Springer Texts in Statistics",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Statistics"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "statistics",
+      "probability",
+      "multivariate statistics"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Statistical analysis",
+      "Data analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Springer Texts in Statistics",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: statistics, probability, multivariate statistics",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "389dc0567c1532a8c682f782e8125efd",
