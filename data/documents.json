@@ -38067,29 +38067,107 @@
   {
     "id": "776dac8656c767665c7067fa9a7b9d78",
     "filename": "Practical_Text_Classification_With_Python_and_Keras_1635839460.pdf",
-    "title": "Practical Text Classification With Python and Keras",
+    "title": "Practical Text Classification with Python and Keras",
     "authors": [],
     "filepath": "documents/Practical_Text_Classification_With_Python_and_Keras_1635839460.pdf",
-    "upload_date": "2025-06-14T22:31:42.969625",
+    "upload_date": "2025-06-18T06:08:34.922115",
     "file_size": 1044235,
-    "summary": "This document provides a practical guide on performing text classification using Python and Keras, focusing on sentiment analysis as a use case. It discusses the process of choosing a dataset, loading data with Pandas, preprocessing text data, building a neural network model using Keras, training the model, and evaluating its performance. The document also highlights the importance of natural language processing (NLP) in text classification and mentions other common use cases such as spam detection and auto tagging.",
+    "summary": "This tutorial aims to equip readers with the skills to analyze the mood of people on social media platforms using machine learning and deep neural networks. The document covers sentiment analysis, a prominent use case in text classification, and provides guidance on how to apply this technique using Python and Keras.",
     "keywords": [
-      "Text Classification",
-      "Sentiment Analysis",
       "Python",
       "Keras",
-      "Deep Learning"
+      "Sentiment Analysis",
+      "Natural Language Processing",
+      "Text Classification",
+      "neural networks",
+      "artificial neural network",
+      "deep learning",
+      "Keras library",
+      "computer vision"
     ],
     "key_concepts": [
-      "Text classification is a prominent use case in natural language processing (NLP) and involves reading the mood or sentiment from text.",
-      "The document provides a step-by-step guide on performing text classification using Python and Keras, with sentiment analysis as an example.",
-      "The data set used for this tutorial can be downloaded from the UCI Machine Learning Repository and includes labeled reviews from IMDb, Amazon, and Yelp.",
-      "The document explains how to load the data into a Pandas DataFrame for further processing.",
-      "The text data is preprocessed by removing punctuation, converting all text to lowercase, and tokenizing the text."
+      "Deep Neural Networks",
+      "Machine Learning",
+      "NLP",
+      "Text Classification",
+      "Data Sets",
+      "Neural Network Formula",
+      "Convolutional Neural Networks (CNN)",
+      "Artificial Neural Networks (ANN)",
+      "Feedforward Neural Networks",
+      "Model training and validation"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn how to perform text classification using Python and Keras for sentiment analysis. Download the data set from the UCI Machine Learning Repository, load it with Pandas, preprocess the text data, build a neural network model, train it, and evaluate its performance."
+    "content_preview": "Document: Practical Text Classification with Python and Keras",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning",
+      "Artificial Intelligence",
+      "Data Science/Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Keras",
+      "matplotlib"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Keras",
+      "Sentiment Analysis"
+    ],
+    "methodologies": [
+      "Pandas",
+      "convolutional neural network",
+      "feedforward neural network",
+      "plotting library"
+    ],
+    "tools_mentioned": [
+      "UCI Machine Learning Repository",
+      "ImageNet Challenge",
+      "Python"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Sentiment Analysis",
+      "Text Classification",
+      "Computer Vision",
+      "Voice Recognition",
+      "Natural Language Processing"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Practical Text Classification with Python and Keras",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, Keras, Sentiment Analysis",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "bdb9c7280dd18dd80b583a4ee18f3c20",
