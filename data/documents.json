@@ -26204,29 +26204,108 @@
   {
     "id": "ba3c729d692e42dfe18b4998330ded70",
     "filename": "Machine_Learning_cheat_sheet_1674679807.pdf",
-    "title": "Machine Learning Cheat Sheet",
+    "title": "Machine Learning Cheat sheet",
     "authors": [],
     "filepath": "documents/Machine_Learning_cheat_sheet_1674679807.pdf",
-    "upload_date": "2025-06-14T13:06:54.767945",
+    "upload_date": "2025-06-17T22:29:06.502707",
     "file_size": 115429,
-    "summary": "This document provides a comprehensive overview of machine learning, covering key concepts such as linear regression, logistic regression, decision trees, random forests, gradient boosting, k-means clustering, PCA, neural networks, and deep learning concepts like Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN). It also discusses popular libraries such as NumPy, pandas, scikit-learn, TensorFlow, and Keras. The document delves into data preprocessing techniques, model evaluation metrics, hyperparameter tuning methods, and common functions like fit(), predict(), score(), confusion_matrix(), and classification_report().",
+    "summary": "A comprehensive guide covering various machine learning concepts, including linear regression, logistic regression, decision trees, and more. It also touches upon popular libraries, data preprocessing techniques, model evaluation metrics, hyperparameter tuning methods, and commonly used functions.",
     "keywords": [
       "Machine Learning",
       "Linear Regression",
       "Logistic Regression",
       "Decision Trees",
-      "Random Forests"
+      "Random Forests",
+      "Gradient Boosting",
+      "K-means Clustering",
+      "PCA",
+      "Neural Networks",
+      "Gated Recurrent Unit"
     ],
     "key_concepts": [
-      "Linear Regression: A statistical method for modeling the relationship between a dependent variable and one or more independent variables.",
-      "Logistic Regression: A classification algorithm that predicts a binary outcome given a set of independent variables.",
-      "Decision Trees: A flowchart-like tree structure where an internal node represents a feature, the branch represents a decision rule, and each leaf node represents the outcome.",
-      "Deep learning concepts: Convolutional neural networks, recurrent neural networks, LSTM, GRU",
-      "Model evaluation: Metrics such as accuracy, precision, recall, F1 score, ROC AUC, k-fold cross-validation"
+      "Basic concepts in Machine Learning",
+      "Data preprocessing techniques",
+      "Model evaluation metrics",
+      "Hyperparameter tuning methods",
+      "Deep learning concepts",
+      "GRU vs LSTM",
+      "Model training functions"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Overview of machine learning concepts and techniques."
+    "content_preview": "Document: Machine Learning Cheat sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning",
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "NumPy",
+      "pandas",
+      "scikit-learn",
+      "TensorFlow",
+      "Keras"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Linear Regression",
+      "Logistic Regression"
+    ],
+    "methodologies": [
+      "Linear Regression",
+      "Logistic Regression",
+      "Decision Trees",
+      "Random Forests",
+      "Gradient Boosting"
+    ],
+    "tools_mentioned": [
+      "Grid search",
+      "Random search",
+      "Bayesian optimization",
+      "Keras",
+      "TensorFlow"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Model Development",
+      "Predictive Modeling",
+      "Classification",
+      "Regression"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning Cheat sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, Linear Regression, Logistic Regression",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "df9b7135ecd0e1555b2268f1c2ac7ff9",
