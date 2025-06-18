@@ -20403,29 +20403,79 @@
     "id": "62159e07cb77ccd2685e86287c2f8e5e",
     "filename": "Feature_Selection_Techniques_in_ML_with_Python_1574617954.pdf",
     "title": "Feature Selection Techniques in Machine Learning with Python",
-    "authors": [
-      "Raheel Shaikh"
-    ],
+    "authors": [],
     "filepath": "documents/Feature_Selection_Techniques_in_ML_with_Python_1574617954.pdf",
-    "upload_date": "2025-06-14T22:31:37.641620",
+    "upload_date": "2025-06-18T13:27:40.508785",
     "file_size": 528833,
-    "summary": "This document discusses various feature selection techniques used in machine learning, emphasizing their importance for improving model performance and reducing overfitting. The author provides a brief overview of the process, its benefits, and how to apply these techniques using Python.",
+    "summary": "Feature selection is a core concept in machine learning that impacts model performance. Irrelevant or partially relevant features can negatively impact model performance. Feature selection and data cleaning should be the first step of model designing.",
     "keywords": [
-      "Feature Selection",
-      "Machine Learning",
-      "Python",
-      "Data Analysis"
+      "feature selection",
+      "machine learning",
+      "data cleaning",
+      "model performance",
+      "overfitting"
     ],
     "key_concepts": [
-      "Feature selection is a crucial step in machine learning that impacts model performance significantly.",
-      "The process involves selecting features that contribute most to the prediction variable or output.",
-      "Irrelevant features can negatively impact model performance and should be removed before modeling data.",
-      "Reducing overfitting and improving accuracy are key benefits of performing feature selection.",
-      "This document provides techniques for feature selection that can be applied using Python."
+      "selecting relevant features",
+      "reducing irrelevant features",
+      "improving model accuracy"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn feature selection techniques in machine learning with Python to improve model performance and reduce overfitting."
+    "content_preview": "Document: Feature Selection Techniques in Machine Learning with Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "feature selection",
+      "machine learning",
+      "data cleaning"
+    ],
+    "methodologies": [
+      "feature selection"
+    ],
+    "tools_mentioned": [
+      "python"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Feature Selection in Machine Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Feature Selection Techniques in Machine Learning with Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: feature selection, machine learning, data cleaning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "24c7e6098794b29ec51949bc6692e902",
