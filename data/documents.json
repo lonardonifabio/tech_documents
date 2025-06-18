@@ -16434,26 +16434,82 @@
   {
     "id": "2060ecbf690e0d71b8ebc6e34acc81d3",
     "filename": "DeepLearning_UseCases.pdf",
-    "title": "Deep Learning Use Cases in Natural Language Processing",
+    "title": "Deep Learning Project Ideas",
     "authors": [],
     "filepath": "documents/DeepLearning_UseCases.pdf",
-    "upload_date": "2025-06-14T22:31:36.553623",
+    "upload_date": "2025-06-18T13:27:39.411781",
     "file_size": 397845,
-    "summary": "This document presents a comprehensive list of deep learning project ideas for Natural Language Processing (NLP). Topics covered include machine translation, question answering, representation learning, language modeling, sentiment analysis, text classification, data augmentation, text generation, named entity recognition, text summarization, image captioning, chatbot, emotion recognition, table-to-text generation, zero-shot machine translation, and more. Additional ideas include sentence embeddings, topic models, question generation, language identification, grammatical error correction, text matching, fake news detection, text-to-speech synthesis, question similarity, humor detection, c...",
+    "summary": "A list of deep learning project ideas for machine learning and computer vision applications.",
     "keywords": [
-      "Deep Learning",
+      "Machine Learning",
       "Natural Language Processing",
-      "Project Ideas"
+      "Computer Vision",
+      "Deep Learning"
     ],
     "key_concepts": [
-      "This document provides a list of deep learning project ideas for Natural Language Processing (NLP).",
-      "Topics covered include machine translation, question answering, representation learning, language modeling, sentiment analysis, text classification, data augmentation, text generation, named entity recognition, text summarization, image captioning, chatbot, emotion recognition, table-to-text generation, zero-shot machine translation, and more.",
-      "Additional ideas include sentence embeddings, topic models, question generation, language identification, grammatical error correction, text matching, fake news detection, text-to-speech synthesis, question similarity, humor detection, clickbait detection, web page tagging, meme classification, automated writing evaluation, and many more.",
-      "These project ideas can be used for research, development, or practical applications in the field of NLP."
+      "NLP Project Ideas",
+      "CV Project Ideas"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Deep Learning Use Cases in Natural Language Processing"
+    "content_preview": "Document: Deep Learning Project Ideas",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Natural Language Processing",
+      "Computer Vision"
+    ],
+    "methodologies": [
+      "Representation Learning",
+      "Text Classification"
+    ],
+    "tools_mentioned": [
+      "Python",
+      "TensorFlow",
+      "PyTorch"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning Project Ideas",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Machine Learning, Natural Language Processing, Computer Vision",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "eda8a362af4c5840c17e4a1bcb7e64c9",
