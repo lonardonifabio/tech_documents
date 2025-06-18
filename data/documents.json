@@ -30975,29 +30975,84 @@
   {
     "id": "ce4a86e499783cfa0dcc13131433951f",
     "filename": "ML.pdf",
-    "title": "Understanding Machine Learning",
+    "title": "Machine Learning",
     "authors": [],
     "filepath": "documents/ML.pdf",
-    "upload_date": "2025-06-14T22:31:39.939618",
+    "upload_date": "2025-06-18T20:37:56.403537",
     "file_size": 5126830,
-    "summary": "This document provides an overview of machine learning, a subset of artificial intelligence that allows computers to learn from data and improve their performance over time. It discusses the three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning, with examples of real-world applications for each. The document also briefly touches upon the concept of an agent learning decision-making through interaction with an environment.",
+    "summary": "Machine learning is a subset of artificial intelligence that focuses on the development of algorithms and statistical models that enable computers to perform tasks without being explicitly programmed. The fundamental idea behind machine learning is to allow computers to learn from data and improve their performance over time.",
     "keywords": [
+      "machine learning",
+      "artificial intelligence",
+      "algorithms",
+      "statistical models"
+    ],
+    "key_concepts": [
       "Machine Learning",
-      "Artificial Intelligence",
       "Supervised Learning",
       "Unsupervised Learning",
       "Reinforcement Learning"
     ],
-    "key_concepts": [
-      "Machine learning is a subset of artificial intelligence that focuses on the development of algorithms and statistical models to enable computers to perform tasks without being explicitly programmed.",
-      "There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning.",
-      "Supervised learning involves training algorithms on labeled datasets where input data is paired with corresponding output labels. Real-world applications include Risk Assessment, Image Classification, Fraud Detection, and Spam Filtering.",
-      "Unsupervised learning operates on unlabeled data to inherent patterns or structures. Real-world applications include Customer Segmentation, Principal Component Analysis (PCA), Anomaly Detection.",
-      "Reinforcement learning involves an agent learning decision-making by interacting with an environment and receiving feedback in the form of rewards or penalties."
-    ],
-    "category": "Machine Learning",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document explains machine learning, its types, and real-world applications."
+    "content_preview": "Document: Machine Learning",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machine learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "artificial intelligence",
+      "algorithms"
+    ],
+    "methodologies": [
+      "artificial intelligence"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Risk Assessment",
+      "Image Classification",
+      "Fraud Detection",
+      "Spam Filtering",
+      "Customer Segmentation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: machine learning, artificial intelligence, algorithms",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "3edbafc2f7fa36a15c66a5ece474a799",
