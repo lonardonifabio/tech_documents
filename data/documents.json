@@ -20792,31 +20792,94 @@
   {
     "id": "7356925064482a8a19e35881a0879f27",
     "filename": "Fundamentals_of_Data_Analysis_1610184409.pdf",
-    "title": "Data Mining and Analysis: Fundamental Concepts and Algorithms",
-    "authors": [
-      "Mohammed J. Zaki",
-      "Wagner Meira Jr."
-    ],
+    "title": "Data Mining and Analysis",
+    "authors": [],
     "filepath": "documents/Fundamentals_of_Data_Analysis_1610184409.pdf",
-    "upload_date": "2025-06-14T22:31:37.824619",
+    "upload_date": "2025-06-18T13:27:40.693786",
     "file_size": 137882,
-    "summary": "This book provides a comprehensive introduction to data mining, covering fundamental concepts, algorithms, and applications. It is written by Mohammed J. Zaki from Rensselaer Polytechnic Institute and Wagner Meira Jr. from Universidade Federal de Minas Gerais. The book is divided into several sections, including preliminaries, data mining models, data mining techniques, and advanced topics in data mining. It also includes case studies and practical examples to illustrate the concepts discussed. The book is suitable for both beginners and more advanced readers interested in data mining.",
+    "summary": "This document provides an overview of fundamental concepts and algorithms in data mining and analysis, covering topics such as data preprocessing, clustering, classification, regression, and more. It is written by Mohammed J. Zaki and Wagner Meira Jr., and published by Cambridge University Press in 2014.",
     "keywords": [
       "Data Mining",
+      "Analysis",
       "Algorithms",
-      "Fundamental Concepts",
-      "Case Studies"
+      "data mining",
+      "dataminingbook",
+      "course",
+      "roadmap"
     ],
     "key_concepts": [
-      "The book covers fundamental concepts of data mining, including preprocessing, data modeling, and evaluation.",
-      "It introduces various algorithms used in data mining, such as clustering, classification, association rule mining, and sequence mining.",
-      "The book includes case studies and practical examples to illustrate the concepts discussed and demonstrate their application in real-world scenarios.",
-      "The theoretical framework of the book is based on statistical learning theory, machine learning, and database systems.",
-      "The book provides practical implications for data mining, including its use in business intelligence, market research, and fraud detection."
+      "Fundamental Concepts in Data Mining",
+      "Data Analysis Techniques",
+      "Machine Learning Algorithms",
+      "Data Analysis",
+      "Machine Learning",
+      "Data Mining Algorithms"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This book provides a comprehensive introduction to data mining, covering fundamental concepts and algorithms."
+    "content_preview": "Document: Data Mining and Analysis",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Technology",
+      "Computer Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "datamining",
+      "data analysis"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Data Mining",
+      "Analysis",
+      "Algorithms"
+    ],
+    "methodologies": [
+      "exploratory data analysis",
+      "frequent pattern mining",
+      "clustering",
+      "classiﬁcation"
+    ],
+    "tools_mentioned": [
+      "graphs",
+      "kernels"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Mining",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Mining and Analysis",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Data Mining, Analysis, Algorithms",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "5893c3606ecb35a41429e66c7006f298",
