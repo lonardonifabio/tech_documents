@@ -5000,29 +5000,86 @@
   {
     "id": "d887e9647a0c74a846c82402ae5c0751",
     "filename": "AI_for_DATA_SCIENCE__1746427935.pdf",
-    "title": "AI for Data Science",
+    "title": "Deep Learning Frameworks",
     "authors": [],
     "filepath": "documents/AI_for_DATA_SCIENCE__1746427935.pdf",
-    "upload_date": "2025-06-14T22:31:33.241618",
+    "upload_date": "2025-06-18T06:08:25.099039",
     "file_size": 2009336,
-    "summary": "This document explores the integration of AI and data science, focusing on deep learning frameworks such as MXNet and TensorFlow. It delves into the workings of these systems, their main programming languages, and how to leverage them effectively. Additionally, it discusses optimization, fuzzy inference systems, artificial creativity, and other AI methodologies beyond deep learning. The document concludes with practical guides on building a DL network using MXNet and TensorFlow.",
+    "summary": "This document provides an overview of deep learning frameworks, including their functionality, programming languages, and methodologies for leveraging them. It covers various aspects of deep learning systems, AI methodologies beyond deep learning, building DL networks using MXNet, TensorFlow, and Keras, as well as optimizing models using particle swarm optimization and genetic algorithms.",
     "keywords": [
+      "deep learning",
       "AI",
-      "Data Science",
-      "Deep Learning",
-      "MXNet",
-      "TensorFlow"
+      "machine learning",
+      "optimization"
     ],
     "key_concepts": [
-      "AI facilitates data science by automating complex tasks, enabling faster insights and predictions.",
-      "Deep learning systems are a type of artificial neural network designed to learn from large amounts of data, improving performance on tasks such as image recognition and natural language processing.",
-      "The book provides comprehensive guides on using popular deep learning frameworks like MXNet and TensorFlow for various applications.",
-      "Optimization techniques in AI help improve the efficiency and effectiveness of machine learning models by reducing computational costs and improving accuracy.",
-      "Fuzzy inference systems are a type of AI system that uses 'fuzzy logic' to make decisions based on vague or uncertain data."
+      "Deep Learning Frameworks",
+      "Artificial Intelligence Methodologies",
+      "Particle Swarm Optimization",
+      "Genetic Algorithms"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Exploring the integration of AI and data science, focusing on deep learning frameworks like MXNet and TensorFlow."
+    "content_preview": "Document: Deep Learning Frameworks",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "MXNet",
+      "TensorFlow",
+      "Keras"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "deep learning",
+      "AI",
+      "machine learning"
+    ],
+    "methodologies": [
+      "Particle Swarm Optimization",
+      "Genetic Algorithms"
+    ],
+    "tools_mentioned": [
+      "Julia"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Deep Learning Frameworks",
+      "AI Methodologies Beyond Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning Frameworks",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: deep learning, AI, machine learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "97135726dd603b520a4c045727d6f924",
