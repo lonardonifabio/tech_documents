@@ -5581,24 +5581,76 @@
     "title": "Activation Functions in Neural Networks",
     "authors": [],
     "filepath": "documents/Activation_Function_1707252212.pdf",
-    "upload_date": "2025-06-14T13:06:47.619944",
+    "upload_date": "2025-06-17T22:28:59.320632",
     "file_size": 1505676,
-    "summary": "This document discusses the role and importance of activation functions in neural networks. Activation functions determine whether a neuron should be activated based on its weighted input and bias, introducing non-linearity into the network to enable it to learn complex patterns. The choice of activation function is crucial for optimizing network performance, with different functions having different properties suitable for various tasks. Linear activation functions are also covered, which apply only a direct scaling to the input without adding non-linearity.",
+    "summary": "Activation functions decide whether a neuron should be fired based on its weighted input and bias, introducing non-linearity into the network to learn complex patterns. Without activation functions, networks become simple linear models, limiting their capability. Different activation functions have different properties and are suitable for different tasks.",
     "keywords": [
-      "Activation Function",
-      "Neural Networks",
-      "Non-Linearity"
+      "activation function",
+      "neural network",
+      "non-linearity"
     ],
     "key_concepts": [
-      "Activation functions decide whether a neuron should be activated or not based on its weighted input and bias.",
-      "The purpose of activation functions is to introduce non-linearity into the output of a neuron, enabling the network to learn complex patterns.",
-      "Choosing the right activation function is crucial for optimizing network performance.",
-      "Different activation functions have different properties and are suitable for different tasks.",
-      "Linear activation functions apply only a direct scaling to the input without adding non-linearity."
+      "Activation Functions in Neural Networks",
+      "Linear Activation Function"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about activation functions in neural networks and their importance for optimizing network performance."
+    "content_preview": "Document: Activation Functions in Neural Networks",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "activation function",
+      "neural network",
+      "non-linearity"
+    ],
+    "methodologies": [
+      "linear",
+      "non-linear"
+    ],
+    "tools_mentioned": [
+      "neural networks"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Neural Network Training",
+      "Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Activation Functions in Neural Networks",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: activation function, neural network, non-linearity",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "99b194286b415374c158ef4101ee6a1d",
