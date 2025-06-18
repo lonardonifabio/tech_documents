@@ -25830,31 +25830,99 @@
   {
     "id": "9aed94cc77a9928b3a4090b737e5f1bc",
     "filename": "Interview_800_Data_Science_Questions__1632985294.pdf",
-    "title": "Interview_800_Data_Science_Questions",
-    "authors": [
-      "Steve Nouri"
-    ],
+    "title": "Data Science Q&A",
+    "authors": [],
     "filepath": "documents/Interview_800_Data_Science_Questions__1632985294.pdf",
-    "upload_date": "2025-06-14T22:31:38.961616",
+    "upload_date": "2025-06-18T13:27:41.845790",
     "file_size": 17447004,
-    "summary": "This document is a Q&A interview organized by Steve Nouri on Data Science, covering topics such as the Central Limit Theorem, Sampling methods, Type I and II errors, Linear Regression, its components P-value, Coefficient, and R-squared value, assumptions required for Linear Regression, Statistical Interaction, Selection Bias, and examples of non-Gaussian distributions. It is aimed at an Intermediate level audience.",
+    "summary": "A document excerpt containing questions and answers on various data science topics, including the Central Limit Theorem, sampling methods, linear regression, statistical assumptions, and more. The document is organized by Steve Nouri and was published in September 2021.",
     "keywords": [
-      "Data Science",
-      "Statistics",
-      "Central Limit Theorem",
-      "Sampling",
-      "Type I Error"
+      "central limit theorem",
+      "sampling methods",
+      "type i error",
+      "linear regression",
+      "p-value",
+      "coefficient",
+      "r-squared value",
+      "machine learning",
+      "model performance",
+      "entropy"
     ],
     "key_concepts": [
-      "The Central Limit Theorem is a fundamental theorem in probability theory that describes the probability distribution of the sum of a large number of independent random variables, each having a common mean and variance.",
-      "Sampling refers to the process of selecting a subset (a sample) from a larger population to estimate characteristics of the entire population. There are various sampling methods such as simple random sampling, stratified sampling, cluster sampling, etc.",
-      "Type I error (false positive) occurs when we incorrectly reject the null hypothesis, while Type II error (false negative) occurs when we fail to reject the null hypothesis when it is actually false.",
-      "Linear Regression is a statistical model used to analyze the linear relationship between two continuous variables. The P-value indicates the probability that the observed difference could have occurred by chance, Coefficient represents the strength and direction of the relationship between the independent and dependent variables, and R-squared value measures the proportion of the variance in the dependent variable that is predictable from the independent variable.",
-      "Linear Regression assumes that the errors are normally distributed, independent, and have constant variance. It also assumes that there is a linear relationship between the independent and dependent variables."
+      "statistical concepts",
+      "data analysis",
+      "error types",
+      "regression analysis",
+      "algorithm selection",
+      "clustering",
+      "pattern discovery"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Interview_800_Data_Science_Questions"
+    "content_preview": "Document: Data Science Q&A",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science",
+      "Data Science and Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "central limit theorem",
+      "sampling methods",
+      "type i error"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Q&A",
+      "Statistics",
+      "Predicting probability of death from heart disease",
+      "Identifying similar users based on individual types",
+      "Association rule analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Science Q&A",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: central limit theorem, sampling methods, type i error",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "8903e00cc8b2c64d7a2e4ad3143f3f85",
