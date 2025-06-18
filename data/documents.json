@@ -12027,29 +12027,91 @@
   {
     "id": "f7b2b7fffd849dba1c67b0053cc9a45a",
     "filename": "Brain_Tumor_1710062790.pdf",
-    "title": "Brain Tumor MRI Classification using TensorFlow and Scikit-Learn",
+    "title": "Brain Tumor MRI Classification",
     "authors": [],
     "filepath": "documents/Brain_Tumor_1710062790.pdf",
-    "upload_date": "2025-06-14T22:31:34.714622",
+    "upload_date": "2025-06-18T20:37:51.173540",
     "file_size": 1085538,
-    "summary": "This document outlines a project that aims to classify brain tumors in MRIs using deep learning techniques with TensorFlow and machine learning algorithms from Scikit-Learn. The project involves data preprocessing, model building, training, and evaluation. The dataset used is the Brain Tumor MRI Dataset from Kaggle.",
+    "summary": "A document detailing the process of classifying brain tumors using MRI images. The document includes code snippets and error messages related to TensorFlow and cuDNN registration.",
     "keywords": [
-      "Brain Tumor",
-      "MRI",
-      "Deep Learning",
-      "TensorFlow",
-      "Scikit-Learn"
+      "tensorflow",
+      "keras",
+      "python",
+      "machine learning",
+      "brain tumor MRI classification"
     ],
     "key_concepts": [
-      "The project involves classifying brain tumors in MRIs using deep learning techniques with TensorFlow.",
-      "Data preprocessing is performed on the dataset before model building and training.",
-      "A Convolutional Neural Network (CNN) model is built using TensorFlow's Sequential API.",
-      "The trained model is evaluated using confusion matrix and classification report from Scikit-Learn.",
-      "The project uses various layers such as Conv2D, MaxPooling2D, Flatten, Dense, Dropout, and optimizers like Adamax."
+      "Deep learning models for medical image analysis",
+      "Convolutional Neural Networks (CNNs) for image classification",
+      "Data preprocessing and splitting for machine learning tasks"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "The document outlines a project that classifies brain tumors in MRIs using deep learning techniques with TensorFlow and Scikit-Learn."
+    "content_preview": "Document: Brain Tumor MRI Classification",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Medical Imaging"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "TensorFlow",
+      "PIL",
+      "NumPy",
+      "Pandas"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "tensorflow",
+      "keras",
+      "python"
+    ],
+    "methodologies": [
+      "Deep Learning",
+      "Image Processing"
+    ],
+    "tools_mentioned": [
+      "Keras",
+      " cuDNN",
+      "cuFFT",
+      "cuBLAS",
+      "scikit-learn"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Brain Tumor MRI Classification"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Brain Tumor MRI Classification",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: tensorflow, keras, python",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "5e3d90766381f332773150ece72a0752",
