@@ -8970,31 +8970,87 @@
   {
     "id": "4915af8573a6c7f139e9898354ffca27",
     "filename": "Bishop_Pattern_Recognition_and_Machine_Learning_1630562271.pdf",
-    "title": "Pattern Recognition and Machine Learning",
-    "authors": [
-      "Bishop"
-    ],
+    "title": "Information Science and Statistics",
+    "authors": [],
     "filepath": "documents/Bishop_Pattern_Recognition_and_Machine_Learning_1630562271.pdf",
-    "upload_date": "2025-06-14T13:06:48.498945",
+    "upload_date": "2025-06-17T22:29:00.199641",
     "file_size": 4947633,
-    "summary": "This document is a comprehensive guide on pattern recognition and machine learning, covering various methodologies such as Bayesian networks, neural networks, and sequential Monte Carlo methods. Key findings include the importance of cross-entropy methods in combinatorial optimization, Monte Carlo simulation, and machine learning. Practical applications range from time series analysis to computer intrusion detection and network monitoring.",
+    "summary": "A collection of books on information science and statistics, including time series analysis, machine learning, probabilistic networks, and more. The document lists the editors and contributors, including notable figures such as Christopher M. Bishop, Michael Jordan, and Jon Kleinberg.",
     "keywords": [
-      "Pattern Recognition",
+      "Information Science",
+      "Statistics",
       "Machine Learning",
-      "Bayesian Networks",
-      "Neural Networks",
-      "Sequential Monte Carlo Methods"
+      "Pattern Recognition"
     ],
     "key_concepts": [
-      "This book provides a comprehensive introduction to pattern recognition and machine learning, covering both theoretical foundations and practical applications.",
-      "The book emphasizes the importance of Bayesian networks in modeling complex systems and making probabilistic predictions.",
-      "Neural networks are another key topic, with an emphasis on feedforward neural network methodology.",
-      "Sequential Monte Carlo methods are presented as a powerful tool for dealing with sequential data and non-linear models.",
-      "The book discusses the cross-entropy method, a unified approach to combinatorial optimization, Monte Carlo simulation, and machine learning."
+      "Time Series Analysis",
+      "Probabilistic Networks",
+      "Neural Network Methodology",
+      "Computer Intrusion Detection"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Comprehensive guide on pattern recognition and machine learning, covering Bayesian networks, neural networks, sequential Monte Carlo methods, and more."
+    "content_preview": "Document: Information Science and Statistics",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Information Science",
+      "Statistics",
+      "Machine Learning"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Research",
+      "Education",
+      "Professional development"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Information Science and Statistics",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Information Science, Statistics, Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "7ac7d221973e28f757d40df8f64e8f5b",
