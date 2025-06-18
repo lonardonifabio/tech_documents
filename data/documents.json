@@ -36477,26 +36477,80 @@
     "title": "Machine Learning with Limited Data",
     "authors": [],
     "filepath": "documents/Machine_learning_with_limited_data_1641974562.pdf",
-    "upload_date": "2025-06-14T22:31:41.234621",
+    "upload_date": "2025-06-18T20:37:57.710536",
     "file_size": 1499051,
-    "summary": "This document discusses the challenges and solutions for machine learning with limited data, focusing on the Defense Science and Technology Lab's Future of AI for Defence Project's Autonomy Programme. It covers topics such as human ability to learn with limited data, problems associated with limited data, various approaches like zero-shot learning, traditional machine learning, meta-learning, and few-shot learning. The document provides insights into the selection of appropriate methods when dealing with small amounts of unlabelled or labelled data.",
+    "summary": "A document discussing the challenges and approaches to machine learning with limited data, particularly in the context of defence applications.",
     "keywords": [
       "Machine Learning",
       "Limited Data",
-      "Defense Science and Technology Lab",
-      "Future of AI for Defence Project",
-      "Autonomy Programme"
+      "Autonomy",
+      "Defence Science and Technology Lab"
     ],
     "key_concepts": [
-      "The document explores the challenges of machine learning with limited data, particularly in the context of the Defense Science and Technology Lab's Future of AI for Defence Project.",
-      "It discusses the human ability to learn effectively with limited data and compares it to machine learning algorithms.",
-      "The document outlines problems associated with working with limited data and suggests potential solutions.",
-      "Various approaches such as zero-shot learning, traditional machine learning, meta-learning, and few-shot learning are discussed in the context of dealing with small amounts of unlabelled or labelled data.",
-      "The theoretical framework of these methods is presented, along with their practical implications for real-world applications."
+      "Concept of Machine Learning with Limited Data",
+      "Human Ability to Learn with Limited Data",
+      "Zero-Shot Learning",
+      "Meta-Learning"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses the challenges and solutions for machine learning with limited data."
+    "content_preview": "Document: Machine Learning with Limited Data",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Defence Science and Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Machine Learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Limited Data",
+      "Autonomy"
+    ],
+    "methodologies": [
+      "Autonomy Programme",
+      "Zero-shot learning",
+      "Few-shot learning",
+      "Meta-learning"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Future of AI for Defence Project"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning with Limited Data",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, Limited Data, Autonomy",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "c1f54f397408497726ccb290303a30a3",
