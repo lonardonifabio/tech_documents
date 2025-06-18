@@ -19859,30 +19859,87 @@
     "id": "9588d752aae2670b12de0fd9aa2be70c",
     "filename": "Guide_to_Machine_Learning_Pipelines_1635584372.pdf",
     "title": "A Guide to Machine Learning Pipelines and Orchest",
-    "authors": [
-      "Abid Ali Awan"
-    ],
+    "authors": [],
     "filepath": "documents/Guide_to_Machine_Learning_Pipelines_1635584372.pdf",
-    "upload_date": "2025-06-14T13:06:52.225945",
+    "upload_date": "2025-06-17T22:29:03.951680",
     "file_size": 1903990,
-    "summary": "This document provides a comprehensive guide on the use of machine learning pipelines in production, with a practical example of disaster tweets classification. It covers installation and usage of the Orchest platform, data ingestion, preprocessing, training, and evaluation. The article emphasizes the importance of ML pipelines for flexibility, scalability, tracking changes, and maintaining similar versions in an ecosystem.",
+    "summary": "This article explains the importance of machine learning pipelines and how to install and use the Orchest platform for data science tasks such as disaster tweets classification. It covers the benefits of using pipelines, including flexibility in scaling, tracking changes, and maintaining similar versions across an ecosystem.",
     "keywords": [
-      "Machine Learning Pipelines",
-      "Orchest",
-      "Data Science",
-      "Natural Language Processing",
-      "Disaster Tweets Classification"
+      "machine learning",
+      "pipelines",
+      "orchest",
+      "natural language processing",
+      "data science"
     ],
     "key_concepts": [
-      "ML pipelines are independently executable code to run multiple tasks including data preparation and training machine learning models.",
-      "The Orchest platform is used for installing and using ML pipelines, providing flexibility and reproducibility in workflows.",
-      "The document demonstrates a practical example of disaster tweets classification using ML pipelines.",
-      "The importance of using ML pipelines for deploying models into production is highlighted due to the need for flexibility, scalability, tracking changes, and maintaining similar versions across the ecosystem.",
-      "The article is part of the Data Science Blogathon."
+      "Machine Learning pipelines",
+      "Data preparation",
+      "Model training",
+      "Reproducibility",
+      "Flexibility in scaling"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn how to design your first machine learning pipeline using simple steps on disaster tweets classification datasets."
+    "content_preview": "Document: A Guide to Machine Learning Pipelines and Orchest",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Orchest",
+      "Azure Machine Learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "pipelines",
+      "orchest"
+    ],
+    "methodologies": [
+      "Machine Learning Pipelines"
+    ],
+    "tools_mentioned": [
+      "Kaggle",
+      "Pipelines"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Preprocessing",
+      "Model Training",
+      "Model Deployment"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: A Guide to Machine Learning Pipelines and Orchest",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, pipelines, orchest",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "f888b19ce23ff3dca6ed510d99c2da04",
