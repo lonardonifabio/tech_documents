@@ -31451,28 +31451,103 @@
     "id": "6491e6fb3cbbe7bfb970f9d9c050010d",
     "filename": "Machine_Learning_Cheat_Sheet_1648669263.pdf",
     "title": "Machine Learning Cheat Sheet",
-    "authors": [
-      "soulmachine"
-    ],
+    "authors": [],
     "filepath": "documents/Machine_Learning_Cheat_Sheet_1648669263.pdf",
-    "upload_date": "2025-06-14T22:31:40.740620",
+    "upload_date": "2025-06-18T13:27:43.641796",
     "file_size": 2130186,
-    "summary": "This document is a condensed version of a machine learning manual, providing classical equations and diagrams for quick knowledge recall in the field. It standardizes symbols for clarity and includes important intermediary steps in mathematical proof processes to aid understanding.",
+    "summary": "A condensed version of machine learning manual, providing classical equations and diagrams on machine learning to help quickly recall knowledge and ideas. The cheat sheet aims to standardize symbol usage and include intermediary steps in mathematical proofs.",
     "keywords": [
-      "Machine Learning",
-      "Cheat Sheet",
-      "Mathematical Formulas",
-      "Symbol Standardization"
+      "machine learning",
+      "classical equations",
+      "diagrams",
+      "tricks",
+      "Bayesian statistics",
+      "Wishart distribution",
+      "MVN",
+      "Sensor fusion",
+      "mixture models",
+      "Gaussians"
     ],
     "key_concepts": [
-      "This cheat sheet aims to help readers quickly recall knowledge and ideas in machine learning by providing a standardized usage of symbols for mathematical formulas.",
-      "The document includes important intermediary steps in mathematical proof processes, making it easier for readers to understand the derivation process.",
-      "The cheat sheet is a condensed version of a larger machine learning manual, focusing on classical equations and diagrams.",
-      "The document is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA3.0) license."
+      "Machine Learning Cheat Sheet",
+      "Classical Equations in Machine Learning",
+      "Standardized Symbols",
+      "Intermediary Steps in Mathematical Proofs",
+      "Posterior distribution of m and S*",
+      "MAP estimation",
+      "Credible intervals",
+      "Bayesian model selection",
+      "Priors",
+      "Mixture of Gaussians"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A condensed version of a machine learning manual, providing classical equations and diagrams for quick knowledge recall."
+    "content_preview": "Document: Machine Learning Cheat Sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education/Research",
+      "Machine Learning/AI",
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "classical equations",
+      "diagrams"
+    ],
+    "methodologies": [
+      "method1",
+      "method2",
+      "Bayesian statistics"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Cheat Sheet Development",
+      "Sensor Fusion",
+      "Bayesian Statistics",
+      "Clustering"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning Cheat Sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, classical equations, diagrams",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "daa0aafcf2b237186fe1221dacaccb5e",
