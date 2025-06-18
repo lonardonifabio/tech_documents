@@ -31579,31 +31579,105 @@
   {
     "id": "a714eed1344881e2bf16f46558131e5b",
     "filename": "NMT_1710661662.pdf",
-    "title": "Neural Machine Translation (English-Portuguese) using LSTM Networks with Attention",
-    "authors": [
-      "Houssem Zelmat"
-    ],
+    "title": "Neural Machine Translation",
+    "authors": [],
     "filepath": "documents/NMT_1710661662.pdf",
-    "upload_date": "2025-06-14T19:41:10.454085",
+    "upload_date": "2025-06-17T22:29:07.665719",
     "file_size": 605302,
-    "summary": "This document outlines the process of building an English-to-Portuguese Neural Machine Translation (NMT) model using Long Short-Term Memory (LSTM) networks with attention. The methodology involves implementing an encoder-decoder system, building the NMT model from scratch using Tensorflow, and generating translations using greedy and Minimum Bayes Risk (MBR) decoding. Data preparation steps include text pre-processing, splitting into training and validation sets, tokenizing sentences, and creating a Tensorflow dataset.",
+    "summary": "This document discusses building an English-to-Portuguese neural machine translation model using Long Short-Term Memory (LSTM) networks with attention. The goal is to improve machine translation for short to medium length sentences and enable word sense disambiguation.",
     "keywords": [
       "Neural Machine Translation",
-      "LSTM Networks",
-      "Attention Mechanism",
-      "Natural Language Processing",
-      "Recurrent Neural Network"
+      "Long Short-Term Memory",
+      "Attention",
+      "Recurrent Neural Network",
+      "Tensorflow",
+      "neural network",
+      "encoder",
+      "lstm",
+      "crossattention",
+      "NMT"
     ],
     "key_concepts": [
-      "The document describes the process of building an English-to-Portuguese NMT model using LSTM networks with attention.",
-      "An encoder-decoder system is implemented to facilitate translation.",
-      "The NMT model is built from scratch using Tensorflow for generating translations.",
-      "Greedy and Minimum Bayes Risk (MBR) decoding are used for translation.",
-      "Data preparation steps include text pre-processing, splitting into training and validation sets, tokenizing sentences, and creating a Tensorflow dataset."
+      "Machine translation",
+      "Word sense disambiguation",
+      "Encoder-decoder system",
+      "Attention mechanism",
+      "Minimum Bayes Risk decoding",
+      "Encoder class",
+      "Bidirectional LSTM",
+      "Mask Zero parameter",
+      "Functional API",
+      "Sequence-to-Sequence Model"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Building an English-to-Portuguese NMT model using LSTM networks with attention."
+    "content_preview": "Document: Neural Machine Translation",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Natural Language Processing",
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Tensorflow",
+      "LSTM",
+      "PyTorch",
+      "Keras"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Neural Machine Translation",
+      "Long Short-Term Memory",
+      "Attention"
+    ],
+    "methodologies": [
+      "encoder-decoder system",
+      "attention mechanism",
+      "Recurrent Neural Networks",
+      "Attention Mechanism"
+    ],
+    "tools_mentioned": [
+      "Python",
+      "TensorFlow",
+      "NumPy"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Translation",
+      "Word Sense Disambiguation",
+      "Natural Language Processing"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Neural Machine Translation",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Neural Machine Translation, Long Short-Term Memory, Attention",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "5b7330a49193861c91cd4af45c03be54",
