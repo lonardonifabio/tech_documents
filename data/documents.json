@@ -5999,30 +5999,95 @@
     "id": "b311146e7f2564349ab8f5111d2b4cba",
     "filename": "A_Guide_for_Ethical_Data_Science_1640082762.pdf",
     "title": "A Guide for Ethical Data Science",
-    "authors": [
-      "Royal Statistical Society (RSS)",
-      "Institute and Faculty of Actuaries (IFoA)"
-    ],
+    "authors": [],
     "filepath": "documents/A_Guide_for_Ethical_Data_Science_1640082762.pdf",
-    "upload_date": "2025-06-14T19:41:02.099057",
+    "upload_date": "2025-06-18T06:08:25.596043",
     "file_size": 1265255,
-    "summary": "This document, a collaboration between the Royal Statistical Society (RSS) and the Institute and Faculty of Actuaries (IFoA), provides a comprehensive guide on ethical data science. It outlines five key themes: enhancing societal value, avoiding harm, applying professional competence, preserving trustworthiness, maintaining accountability, and offers an implementation checklist. The guide is not obligatory but aims to promote ethical practices in the field.",
+    "summary": "A collaboration between the Royal Statistical Society (RSS) and the Institute and Faculty of Actuaries (IFoA) aims to enhance the value of data science for society while avoiding harm, maintaining professional competence, preserving trustworthiness, and ensuring accountability and oversight.",
     "keywords": [
-      "Ethical Data Science",
-      "RSS",
-      "IFoA",
-      "Guidance"
+      "data science",
+      "ethics",
+      "society",
+      "harm",
+      "competence",
+      "trustworthiness",
+      "accountability",
+      "ethically sourced data",
+      "data privacy",
+      "big data"
     ],
     "key_concepts": [
-      "The guide seeks to enhance the value of data science for society by promoting ethical practices.",
-      "To avoid harm, the guide emphasizes the importance of understanding and mitigating potential negative impacts of data science on individuals and society.",
-      "Professional competence is crucial in ethical data science, as outlined in the guide's sections on applying and maintaining it.",
-      "The guide stresses the need to preserve or increase trustworthiness by ensuring transparency, fairness, and accuracy in data science practices.",
-      "Accountability and oversight are essential for ethical data science, as detailed in the implementation checklist provided."
+      "ethical data science",
+      "professional responsibility",
+      "social impact",
+      "Minimising harm in data science work",
+      "Considering individual dignity and fair treatment",
+      "Linking privacy and ethics into work",
+      "Embedding ethical risk management"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This guidance promotes ethical practices in data science."
+    "content_preview": "Document: A Guide for Ethical Data Science",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      null
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "data science",
+      "ethics",
+      "society"
+    ],
+    "methodologies": [
+      null,
+      "data science"
+    ],
+    "tools_mentioned": [
+      null,
+      "data security",
+      "ethical assessment checkpoints"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Ethical Data Science",
+      "Minimizing harm in data science work",
+      "Linking privacy and ethics into work"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: A Guide for Ethical Data Science",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: data science, ethics, society",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "3646155f79bb5bb8d29d813f7090ee2a",
