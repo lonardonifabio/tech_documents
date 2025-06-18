@@ -10381,25 +10381,77 @@
     "title": "Binary Classification Confusion Matrix",
     "authors": [],
     "filepath": "documents/Binary_Classification_Confusion_Matrix_1627285552.pdf",
-    "upload_date": "2025-06-14T22:31:34.662622",
+    "upload_date": "2025-06-18T06:08:26.524050",
     "file_size": 3025361,
-    "summary": "This document explains the concept of a binary classification confusion matrix, a table used to evaluate the performance of a binary classifier. It discusses various measures derived from this matrix, such as Error Rate (ERR) and Accuracy (ACC), and provides formulas for their calculation. The document is useful for data scientists, machine learning engineers, and researchers working on classification problems.",
+    "summary": "A confusion matrix of binary classification is a two by two table formed by counting of the number of the four outcomes of a binary classifier. Various measures can be derived from a confusion matrix, including error rate, accuracy, sensitivity, specificity, precision, and false positive rate.",
     "keywords": [
-      "Binary Classification",
-      "Confusion Matrix",
-      "Error Rate",
-      "Accuracy"
+      "confusion matrix",
+      "binary classification",
+      "error rate",
+      "accuracy",
+      "sensitivity",
+      "specificity",
+      "precision",
+      "false positive rate"
     ],
     "key_concepts": [
-      "A confusion matrix of binary classification is a two by two table formed by counting the number of the four outcomes of a binary classifier.",
-      "Various measures can be derived from a confusion matrix, such as Error Rate (ERR) and Accuracy (ACC).",
-      "Error rate (ERR) is calculated as the number of all incorrect predictions divided by the total number of the dataset. The best error rate is 0.0, whereas the worst is 1.0.",
-      "Accuracy (ACC) is calculated as the number of all correct predictions divided by the total number of the dataset. It can also be calculated by 1 – ERR.",
-      "First two basic measures from the confusion matrix are discussed in detail."
+      "A two by two table for counting outcomes in binary classification",
+      "Measures derived from a confusion matrix",
+      "Error rate and accuracy calculations",
+      "Sensitivity, specificity, precision, and false positive rate definitions"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document explains binary classification confusion matrices and their derived measures, such as Error Rate (ERR) and Accuracy (ACC)."
+    "content_preview": "Document: Binary Classification Confusion Matrix",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning/AI"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "confusion matrix",
+      "binary classification",
+      "error rate"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Binary Classification"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Binary Classification Confusion Matrix",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: confusion matrix, binary classification, error rate",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.75
   },
   {
     "id": "4915af8573a6c7f139e9898354ffca27",
