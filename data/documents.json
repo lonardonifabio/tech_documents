@@ -33871,26 +33871,83 @@
     "title": "Machine Learning on Retail",
     "authors": [],
     "filepath": "documents/Machine_Learning_on_Retail_1567264066.pdf",
-    "upload_date": "2025-06-14T22:31:41.077620",
+    "upload_date": "2025-06-18T13:27:43.977798",
     "file_size": 969899,
-    "summary": "This document explores five business cases of applying Machine Learning in the retail industry, focusing on Demand Forecasting, Customer Segmentation, Customer Targeting, Product Bundling, and Order Recommendation. The main objective is to minimize understock and overstock phenomena by using restocking strategies based on forecasted demand. The document also discusses adjusting forecasting time units to other time frames.",
+    "summary": "This document excerpt discusses various business cases related to machine learning and retail, including demand forecasting, customer segmentation, customer targeting, product bundling, and order recommendation.",
     "keywords": [
-      "Machine Learning",
-      "Retail",
+      "Demand Forecasting",
+      "Customer Segmentation",
+      "Customer Targeting",
+      "Product Bundling",
+      "Order Recommendation"
+    ],
+    "key_concepts": [
+      "Predicting demand for future periods",
+      "Segmenting customers based on characteristics",
+      "Targeting promotions to specific customer groups"
+    ],
+    "category": "Business",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Machine Learning on Retail",
+    "target_audience": "Professionals in business field",
+    "industry": [
+      "Retail"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Machine Learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
       "Demand Forecasting",
       "Customer Segmentation",
       "Customer Targeting"
     ],
-    "key_concepts": [
-      "Machine Learning is applied in retail to forecast demand, minimize understock and overstock phenomena by restocking when necessary.",
-      "The document discusses a methodology for customer segmentation using Machine Learning techniques.",
-      "Customer Targeting strategies are presented using Machine Learning algorithms in this document.",
-      "Product Bundling is another application of Machine Learning in retail, as discussed in the document.",
-      "Order Recommendation is covered in the document, demonstrating how Machine Learning can be used to suggest products."
+    "methodologies": [
+      "Demand Forecasting",
+      "Customer Segmentation",
+      "Customer Targeting",
+      "Product Bundling",
+      "Order Recommendation"
     ],
-    "category": "Business",
-    "difficulty": "Intermediate",
-    "content_preview": "This document explores business cases of applying Machine Learning in retail."
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand business concepts"
+    ],
+    "use_cases": [
+      "Demand Forecasting",
+      "Customer Segmentation",
+      "Customer Targeting"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning on Retail",
+      "Q: What category? A: Business",
+      "Q: Key concepts? A: Demand Forecasting, Customer Segmentation, Customer Targeting",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "556edfeddd3fd3281ab1cba2889af0d6",
