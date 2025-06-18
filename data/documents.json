@@ -19081,32 +19081,102 @@
   {
     "id": "47a99baf837e233f5df8f587f5cd97a7",
     "filename": "Efficient_Learning_Machines_1637754210.pdf",
-    "title": "Efﬁcient Learning Machines",
-    "authors": [
-      "Mariette Awad",
-      "Rahul Khanna"
-    ],
+    "title": "Efﬁ cient Learning Machines",
+    "authors": [],
     "filepath": "documents/Efficient_Learning_Machines_1637754210.pdf",
-    "upload_date": "2025-06-14T22:31:37.546620",
+    "upload_date": "2025-06-18T13:27:40.414785",
     "file_size": 8514501,
-    "summary": "This document explores the major topics of machine learning, including knowledge discovery, classifications, genetic algorithms, neural networking, kernel methods, and biologically-inspired techniques. The authors, Mariette Awad and Rahul Khanna, present a synthetic approach that weaves together theoretical exposition, design principles, and practical applications of efﬁcient machine learning. The book aims to equip engineers, students of engineering, and system designers to design and create new and more efﬁcient machine learning systems.",
+    "summary": "Machine learning techniques provide cost-effective alternatives to traditional methods for extracting underlying relationships between information and data and for predicting future events by processing existing information to train models. Efﬁ cient Learning Machines explores major topics of machine learning, including knowledge discovery, classiﬁ cations, genetic algorithms, neural networking, kernel methods, and biologically-inspired techniques.",
     "keywords": [
-      "Machine Learning",
-      "Efficient Learning Machines",
-      "Knowledge Discovery",
-      "Classifications",
-      "Genetic Algorithms"
+      "machine learning",
+      "efﬁ cient learning machines",
+      "knowledge discovery",
+      "classiﬁ cations",
+      "genetic algorithms",
+      "neural networking",
+      "nonparametric",
+      "online analytical processing",
+      "OLAP",
+      "schema"
     ],
     "key_concepts": [
-      "The document discusses the cost-effective alternatives of machine learning techniques for extracting underlying relationships between information and data and predicting future events.",
-      "Mariette Awad and Rahul Khanna's synthetic approach combines theoretical exposition, design principles, and practical applications of efﬁcient machine learning.",
-      "The experiential emphasis in the book is to equip engineers, students of engineering, and system designers to design and create new and more efﬁcient machine learning systems.",
-      "Readers will learn how to recognize and analyze problems that machine learning technology can solve for them, implement and deploy standard solutions to sample problems, and design new systems and solutions.",
-      "Advances in computing performance, storage, memory, unstructured information retrieval, and cloud computing have coevolved with a new generation of machine learning paradigms and big data analytics."
+      "Efﬁ cient Learning Machines",
+      "Machine learning techniques",
+      "Knowledge discovery in machine learning",
+      "independent assumptions",
+      "multidimensional data",
+      "precalculated results",
+      "complex queries"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about the major topics of machine learning, including knowledge discovery, classifications, genetic algorithms, neural networking, kernel methods, and biologically-inspired techniques."
+    "content_preview": "Document: Efﬁ cient Learning Machines",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning",
+      "Business Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machine learning",
+      "kernel methods",
+      "online analytical processing"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "efﬁ cient learning machines",
+      "knowledge discovery"
+    ],
+    "methodologies": [
+      "knowledge discovery",
+      "classiﬁ cations",
+      "schema",
+      "supervised learning"
+    ],
+    "tools_mentioned": [
+      "genetic algorithms",
+      "neural networking",
+      "relational OLAP"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Predicting future events",
+      "Extracting underlying relationships between information and data",
+      "Data Analysis",
+      "Predictive Modeling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Efﬁ cient Learning Machines",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, efﬁ cient learning machines, knowledge discovery",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "65ea10191533c245483c2fea95aef16b",
