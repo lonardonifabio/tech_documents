@@ -37006,32 +37006,83 @@
   {
     "id": "032a413ec01bb2c35aac36a20a96f928",
     "filename": "Power_BI_for_Intermediates_A_step_by_step_training_guide_1632487784.pdf",
-    "title": "Power BI for Intermediates: A Step-by-Step Training Guide",
-    "authors": [
-      "Soheil Bakhshi (Microsoft MVP)",
-      "Bruce Anderson"
-    ],
+    "title": "Power BI for Intermediates",
+    "authors": [],
     "filepath": "documents/Power_BI_for_Intermediates_A_step_by_step_training_guide_1632487784.pdf",
-    "upload_date": "2025-06-14T22:31:42.935624",
+    "upload_date": "2025-06-18T06:08:34.887114",
     "file_size": 8350339,
-    "summary": "This document provides an in-depth guide on using Power BI for intermediates, covering topics such as connecting to data sources, data preparation with Power Query, modeling the data, and relationships in data modelling. The guide uses best practice methodologies and is written by Microsoft MVP Soheil Bakhshi and Bruce Anderson.",
+    "summary": "A step-by-step training guide covering Power BI Desktop, data preparation with Power Query, and data modelling.",
     "keywords": [
       "Power BI",
-      "Intermediate",
+      "Data Sources",
       "Data Preparation",
-      "Data Modelling",
-      "Power Query"
+      "Best Practice Methodologies"
     ],
     "key_concepts": [
-      "This guide is designed for intermediates who have some experience with Power BI and want to improve their skills.",
-      "The document covers connecting to various data sources, including importing, direct query, mixed mode, and connect live.",
-      "Data preparation techniques such as splitting columns, renaming columns, adding columns, removing columns, changing data types, and transformation steps are explained in detail.",
-      "Relationships in data modelling are discussed, including identifying key columns in Power Query and understanding primary keys and foreign keys.",
-      "The guide provides practical examples and best practices for using Power BI effectively."
+      "Data Modelling",
+      "Relationships in Data Modelling",
+      "Key Columns in Power Query"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This guide provides an in-depth look at using Power BI for intermediates, covering topics such as connecting to data sources and data preparation with Power Query."
+    "content_preview": "Document: Power BI for Intermediates",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Business Intelligence and Data Analysis"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Power BI"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Power BI",
+      "Data Sources",
+      "Data Preparation"
+    ],
+    "methodologies": [
+      "Best Practice Methodologies"
+    ],
+    "tools_mentioned": [
+      "Power Query",
+      "Power BI Desktop"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Visualization",
+      "Data Modeling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Power BI for Intermediates",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Power BI, Data Sources, Data Preparation",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "de7519aece43bf9135409202bae2bad6",
