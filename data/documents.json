@@ -2,28 +2,87 @@
   {
     "id": "dc20fa1bf3e5917ffbd4688d8e36397a",
     "filename": "100_Days_of_Machine_Learning_1570648747.pdf",
-    "title": "100_Days_of_Machine_Learning_1570648747.pdf",
+    "title": "100DaysOfML",
     "authors": [],
     "filepath": "documents/100_Days_of_Machine_Learning_1570648747.pdf",
-    "upload_date": "2025-06-14T22:31:31.671615",
+    "upload_date": "2025-06-18T20:37:48.130542",
     "file_size": 11610635,
-    "summary": "This document is a part of a 100-day series on Machine Learning, focusing on Regression models. It covers Simple Linear Regression (Day 2) and Multiple Linear Regression (Day 3), providing code examples for each. The series continues with Logistic Regression on Day 4. The document is useful for Intermediate level learners interested in Machine Learning.",
+    "summary": "A document detailing the author's journey through machine learning concepts, including Logistic Regression, Support Vector Machines, and K-Nearest Neighbors. The author shares code snippets and references external resources.",
     "keywords": [
+      "Logistic Regression",
       "Machine Learning",
-      "Regression",
-      "Simple Linear Regression",
-      "Multiple Linear Regression",
-      "Logistic Regression"
+      "K-Nearest Neighbors",
+      "Support Vector Machines"
     ],
     "key_concepts": [
-      "Simple Linear Regression is a statistical model used to analyze the relationship between two continuous variables.",
-      "Multiple Linear Regression extends Simple Linear Regression by allowing for more than one independent variable.",
-      "Logistic Regression is a classification algorithm used when the dependent variable is categorical.",
-      "The document provides code examples for implementing these regression models in Machine Learning."
+      "Math behind Logistic Regression",
+      "Gradient Descent Algorithm",
+      "Cost Function",
+      "Classification Problem",
+      "SVM and KNN"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn Regression models: Simple Linear, Multiple Linear, and Logistic. Code examples provided."
+    "content_preview": "Document: 100DaysOfML",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "R"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Logistic Regression",
+      "Machine Learning",
+      "K-Nearest Neighbors"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "tools_mentioned": [
+      "Scikit-Learn",
+      "TensorFlow"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Regression",
+      "Classification"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: 100DaysOfML",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Logistic Regression, Machine Learning, K-Nearest Neighbors",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "8c24105595ada0885c2b8957435a244f",
