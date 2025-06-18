@@ -649,29 +649,102 @@
   {
     "id": "b0ff459a009ec4dd9f0887abb3424492",
     "filename": "2025_Edge_AI_Technology_Report_1746129743.pdf",
-    "title": "2025 Edge AI Technology Report",
+    "title": "Edge AI Technology Report",
     "authors": [],
     "filepath": "documents/2025_Edge_AI_Technology_Report_1746129743.pdf",
-    "upload_date": "2025-06-14T19:41:00.516051",
+    "upload_date": "2025-06-18T06:08:23.998029",
     "file_size": 8811437,
-    "summary": "This document provides an in-depth analysis of the current state of Edge AI technology, focusing on industry trends driving its adoption, such as safety imperatives, supply chain resilience, manufacturing, smart agriculture, healthcare, and retail. It discusses the role of real-time Edge AI in transforming these industries, showcasing case studies from Stream Analyze and Amazon Go. The report also highlights the benefits of localized AI, including faster decisions, stronger security, and smarter operations. Lastly, it touches upon scalability, flexibility, and the future of Edge AI in 2025.",
+    "summary": "The guide to understanding the current state of the art in hardware & software for Edge AI, covering industry trends, challenges, and applications.",
     "keywords": [
       "Edge AI",
+      "Autonomous Systems",
+      "IoT",
       "Industry Trends",
-      "Real-Time Decision Making",
+      "Smart Agriculture",
+      "Healthcare",
+      "Manufacturing",
+      "Retail",
+      "edge AI",
+      "sustainability"
+    ],
+    "key_concepts": [
+      "Real-Time Decision-Making",
+      "Supply Chain Resilience",
+      "Personalized Medicine",
+      "Predictive Maintenance",
+      "Localized AI",
+      "Digital Health",
+      "Edge Computing",
+      "industrial imperative",
+      "latency constraints",
+      "environmental costs"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Edge AI Technology Report",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence",
+      "Industrial/Manufacturing"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Edge AI",
       "Autonomous Systems",
       "IoT"
     ],
-    "key_concepts": [
-      "Edge AI is a technology that enables real-time decision making in autonomous systems, enhancing safety and efficiency.",
-      "The Internet of Things (IoT) plays a crucial role in supply chain resilience by providing real-time optimization opportunities.",
-      "Edge AI is transforming manufacturing from automated to predictive, enabling faster and smarter operations.",
-      "Real-Time Edge AI is essential for advanced healthcare applications, moving from reactive to predictive and personalized care.",
-      "Localized AI allows for faster decisions, stronger security, and smarter operations in various industries."
+    "methodologies": [
+      "method1",
+      "method2"
     ],
-    "category": "AI",
-    "difficulty": "Intermediate",
-    "content_preview": "This document provides an analysis of the current state of Edge AI technology and its impact on various industries."
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Autonomous Systems",
+      "Manufacturing",
+      "Healthcare",
+      "Retail",
+      "Autonomous Vehicles"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Edge AI Technology Report",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Edge AI, Autonomous Systems, IoT",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "82e1533fb09e488e307aa6bb883c173c",
