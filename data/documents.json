@@ -31254,26 +31254,104 @@
     "title": "Medical Hallucination in Foundation Models and Their Impact on Healthcare",
     "authors": [],
     "filepath": "documents/Medical_Hallucination_in_Foundation_Models_1741937625.pdf",
-    "upload_date": "2025-06-14T19:41:10.074084",
+    "upload_date": "2025-06-18T06:08:33.670108",
     "file_size": 6617059,
-    "summary": "This document explores the issue of hallucinations in foundation models used in medicine, their impact on clinical decisions and patient safety. It defines medical hallucination as any instance where a model generates misleading medical content. The paper delves into the unique characteristics, causes, and implications of these errors, focusing on real-world clinical scenarios. Contributions include a taxonomy for understanding and addressing medical hallucinations, benchmarking models using a medical hallucination dataset, and physician-annotated LLM responses to real medical cases.",
+    "summary": "This paper examines the unique characteristics, causes, and implications of medical hallucinations in foundation models, which can impact clinical decisions and patient safety. The authors define medical hallucination as any instance where a model generates misleading medical content.",
     "keywords": [
-      "Medical Hallucination",
-      "Foundation Models",
-      "AI in Medicine",
-      "Clinical Decisions",
-      "Patient Safety"
+      "medical hallucination",
+      "foundation models",
+      "AI in medicine",
+      "AI Systems",
+      "Code of Ethics",
+      "Liability",
+      "Legal Frameworks",
+      "medical hallucinations",
+      "LLMs",
+      "cognitive biases"
     ],
     "key_concepts": [
-      "Foundation Models that process multi-modal data have transformed AI's role in medicine, but their reliability is limited by hallucinations.",
-      "Medical hallucination refers to instances where a model generates misleading medical content that can impact clinical decisions and patient safety.",
-      "The paper examines the unique characteristics, causes, and implications of medical hallucinations, with a focus on how these errors manifest in real-world clinical scenarios.",
-      "Contributions include a taxonomy for understanding and addressing medical hallucinations, benchmarking models using a medical hallucination dataset, and physician-annotated LLM responses to real medical cases.",
-      "The study provides insights into the challenges and potential solutions for mitigating medical hallucinations in AI models used in healthcare."
+      "hallucination",
+      "multi-modal data",
+      "clinical decision-making",
+      "LLM Hallucinations",
+      "Research and Healthcare",
+      "Annotation Tool for Physicians",
+      "Medical Hallucinations in LLMs",
+      "Confirmation Bias in Clinical Decision Making",
+      "Model Obsolescence in Medical Applications"
     ],
-    "category": "AI",
+    "category": "Research",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Medical Hallucination in Foundation Models and Their Impact on Healthcare"
+    "content_preview": "Document: Medical Hallucination in Foundation Models and Their Impact on Healthcare",
+    "target_audience": "Professionals in research field",
+    "industry": [
+      "Artificial Intelligence/Medical",
+      "Healthcare"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "Machine Learning",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "medical hallucination",
+      "foundation models",
+      "AI in medicine"
+    ],
+    "methodologies": [
+      "Deep Learning",
+      "Natural Language Processing",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "Python",
+      "TensorFlow",
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand research concepts"
+    ],
+    "use_cases": [
+      "Medical Diagnosis",
+      "Clinical Decision Support",
+      "Research",
+      "Medical Case Records",
+      "Clinical Decision Making"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Medical Hallucination in Foundation Models and Their Impact on Healthcare",
+      "Q: What category? A: Research",
+      "Q: Key concepts? A: medical hallucination, foundation models, AI in medicine",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "42e8bda9650a9f1f549abcce7c6a6fdc",
