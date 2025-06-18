@@ -14033,30 +14033,87 @@
   {
     "id": "5d7e0f5e785bbd0ecfcfd1ce98f65ee6",
     "filename": "Deploying_Machine_Learning_models_as_a_Microservice_1648708858.pdf",
-    "title": "Deploying Machine Learning models as a Microservice using FastAPI",
-    "authors": [
-      "Ashutosh Tripathi"
-    ],
+    "title": "Deploying Machine Learning Models as Microservices using FastAPI",
+    "authors": [],
     "filepath": "documents/Deploying_Machine_Learning_models_as_a_Microservice_1648708858.pdf",
-    "upload_date": "2025-06-14T13:06:51.034945",
+    "upload_date": "2025-06-17T22:29:02.743668",
     "file_size": 585648,
-    "summary": "This document provides a step-by-step guide on deploying Machine Learning models as microservices using FastAPI, a popular web framework for building microservices with Python 3.6+ versions. The approach emphasizes reusability, maintenance, testing, and quick response times. It utilizes the data validation system of FastAPI to detect invalid data types at runtime, freeing developers from managing exceptions explicitly.",
+    "summary": "This document explains how to deploy machine learning models as microservices using FastAPI, a popular web framework for building microservices with Python 3.6+ versions. It discusses the benefits of this approach, including reusability, ease of testing, and quick response times. The author also highlights the advantages of using FastAPI over Flask-based APIs, such as its faster performance and built-in data validation system.",
     "keywords": [
       "FastAPI",
-      "Machine Learning",
-      "Microservice",
-      "Deployment"
+      "microservices",
+      "machine learning models",
+      "ASGI",
+      "WSGI"
     ],
     "key_concepts": [
-      "FastAPI is a popular web framework for building microservices with Python 3.6+ versions.",
-      "By deploying Machine Learning models as microservice-based architecture, we make code components reusable and maintainable.",
-      "FastAPI has a data validation system that detects invalid data types at runtime.",
-      "This document focuses on the deployment of Machine Learning models as microservices, not on model training.",
-      "The complete source code is available in the GitHub repository."
+      "Microservice architecture",
+      "Reusable code components",
+      "Asynchronous server gateway interface",
+      "Data validation system",
+      "Model deployment as microservices"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn to deploy Machine Learning models as microservices using FastAPI."
+    "content_preview": "Document: Deploying Machine Learning Models as Microservices using FastAPI",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Software Development"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "FastAPI",
+      "Python 3.6+"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "FastAPI",
+      "microservices",
+      "machine learning models"
+    ],
+    "methodologies": [
+      "Microservice-based architecture"
+    ],
+    "tools_mentioned": [
+      "ASGI",
+      "WSGI"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning Model Deployment",
+      "Microservice Implementation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deploying Machine Learning Models as Microservices using FastAPI",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: FastAPI, microservices, machine learning models",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "57b4bee3974bbebe55e5f281d4ae8f5d",
