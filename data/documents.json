@@ -10335,29 +10335,90 @@
   {
     "id": "02e98738a6b7734f9f54f1a174594f0a",
     "filename": "C_Programming_1627300169 (1).pdf",
-    "title": "C Programming Cheatsheet",
+    "title": "C Programming Cheatsheet String Format Specifiers",
     "authors": [],
     "filepath": "documents/C_Programming_1627300169 (1).pdf",
-    "upload_date": "2025-06-14T19:41:03.138061",
+    "upload_date": "2025-06-18T06:08:26.637051",
     "file_size": 171799,
-    "summary": "This document provides a comprehensive guide to C programming format specifiers, arithmetic operators, and character escapes. It covers string formatting using %[flags][width][.precision][length]specifier, various data types like char, int, float, and long, and their respective format specifiers. The document also explains width and precision, flags, and integer and string input/output operations.",
+    "summary": "A comprehensive list of format specifiers for C programming, including character, integer, floating-point, and pointer types, along with flags, widths, precisions, and character escapes.",
     "keywords": [
-      "C Programming",
-      "Format Specifiers",
-      "String Formatting",
-      "Arithmetic Operators",
-      "Character Escapes"
+      "C programming",
+      "string format specifiers",
+      "printf",
+      "scanf",
+      "machine modes",
+      "integers",
+      "float-point",
+      "complex numbers",
+      "condition code",
+      "block"
     ],
     "key_concepts": [
-      "Format specifiers in C programming are used to print or scan various data types like char, int, float, and long.",
-      "Width and precision can be specified in format specifiers to control the display width and number of digits after the decimal point respectively.",
-      "Flags such as left-justify, right-justify, blank space, zero padding, and hexadecimal notation can be used with format specifiers for custom formatting.",
-      "Arithmetic operators in C programming include addition, subtraction, multiplication, division, modulus, increment, decrement, and pre/post increment.",
-      "Character escapes are used to represent special characters like NULL, backspace, newline, carriage return, tab, vertical tab, and form feed."
+      "Format specifiers",
+      "Data types in C",
+      "String manipulation",
+      "Arithmetic operators",
+      "Extended Complex",
+      "Tetra Complex",
+      "Quarter-Fractional",
+      "Half-Fractional",
+      "Single-Fractional",
+      "Double-Fractional"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document covers C programming format specifiers, arithmetic operators, and character escapes."
+    "content_preview": "Document: C Programming Cheatsheet String Format Specifiers",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Computer Programming",
+      "Computer Hardware"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "C programming",
+      "string format specifiers",
+      "printf"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Software Development",
+      "Numerical Computing"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: C Programming Cheatsheet String Format Specifiers",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: C programming, string format specifiers, printf",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.75
   },
   {
     "id": "3edba52c1958cf07d9b1bcf4dd9dc483",
