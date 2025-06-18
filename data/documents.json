@@ -46142,32 +46142,91 @@
   {
     "id": "4b89999084f22838a865dc16e8c4bebd",
     "filename": "Supervised Learning - Quick Refresher.pdf",
-    "title": "Supervised Learning - Quick Refresher",
-    "authors": [
-      "Afshine Amidi",
-      "Shervine Amidi"
-    ],
+    "title": "Supervised Learning",
+    "authors": [],
     "filepath": "documents/Supervised Learning - Quick Refresher.pdf",
-    "upload_date": "2025-06-14T22:31:44.537627",
+    "upload_date": "2025-06-18T13:27:47.577810",
     "file_size": 656642,
-    "summary": "This document provides a concise overview of supervised learning, discussing the types of predictive models (regression and classifier), models (discriminative and generative), and common loss functions (least squared, logistic, hinge, cross-entropy). It also introduces key concepts such as hypothesis, loss function, cost function, and provides examples for each model.",
+    "summary": "Given a set of data points associated to a set of outcomes, we want to build a classifier that learns how to predict the outcome from the input data. Supervised learning involves different types of predictive models such as regression and classification, with various loss functions and cost functions used to estimate the probability distributions of the data.",
     "keywords": [
       "Supervised Learning",
       "Machine Learning",
       "Regression",
-      "Classifier",
-      "Discriminative Model"
+      "Classification",
+      "Logistic Regression",
+      "SVM",
+      "Naive Bayes"
     ],
     "key_concepts": [
-      "The document discusses supervised learning, where a set of data points are associated with outcomes and a classifier is built to predict the outcome from the input.",
-      "It explains two types of predictive models: regression for continuous outcomes and classifiers for categorical outcomes, with examples like linear regression and logistic regression.",
-      "The document also introduces two types of models: discriminative models that directly estimate P(y|x) and generative models that estimate P(x|y) to deduce P(y|x).",
-      "Examples of models discussed include SVMs, GDA, Naive Bayes, and Neural Networks.",
-      "The document provides notations and general concepts such as hypothesis, loss function, and cost function."
+      "Predictive models",
+      "Decision boundary",
+      "Probability distributions",
+      "Loss functions",
+      "Cost function"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document offers a quick refresher on supervised learning, discussing types of predictive models and models."
+    "content_preview": "Document: Supervised Learning",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Linear regression",
+      "Logistic regression",
+      "SVM",
+      "Naive Bayes"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Supervised Learning",
+      "Machine Learning",
+      "Regression"
+    ],
+    "methodologies": [
+      "Discriminative model",
+      "Generative model"
+    ],
+    "tools_mentioned": [
+      "GDA",
+      "Neural Network"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Supervised Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Supervised Learning",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Supervised Learning, Machine Learning, Regression",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "b55a7874226476147b8416a43d55336b",
