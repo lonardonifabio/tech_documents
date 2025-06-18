@@ -2069,30 +2069,84 @@
   {
     "id": "b2cb06bf211e4a51c7ab1c2393914b13",
     "filename": "AI_Algorithms_Explained_To_Kids_1716490252.pdf",
-    "title": "AI Algorithms Explained to Kids",
-    "authors": [
-      "Denis Panjuta"
-    ],
+    "title": "AI ALGORITHMS",
+    "authors": [],
     "filepath": "documents/AI_Algorithms_Explained_To_Kids_1716490252.pdf",
-    "upload_date": "2025-06-14T19:41:00.928052",
+    "upload_date": "2025-06-18T06:08:24.411033",
     "file_size": 10094030,
-    "summary": "This document simplifies complex AI algorithms, Linear Regression and Decision Trees, for children using relatable examples. The author, Denis Panjuta, explains Linear Regression as a method of predicting the number of weeks needed to save for a toy based on past savings, while Decision Trees are likened to making choices like deciding what to wear based on weather conditions.",
+    "summary": "This document explains various AI algorithms, including Linear Regression, Decision Trees, K-Means Clustering, Neural Networks, Naive Bayes, and Support Vector Machines (SVM), in an easy-to-understand format.",
     "keywords": [
-      "AI Algorithms",
-      "Linear Regression",
-      "Decision Trees",
-      "Children",
-      "Explanation"
+      "AI",
+      "Algorithms",
+      "Machine Learning"
     ],
     "key_concepts": [
-      "Linear regression is a method of predicting the number of weeks needed to save for a toy based on past savings.",
-      "Decision trees help computers make choices by asking a series of 'yes or no' questions, similar to deciding what to wear based on weather conditions.",
-      "This document aims to explain complex AI algorithms in a simplified manner for children.",
-      "The author uses relatable examples to explain the concepts of Linear Regression and Decision Trees."
+      "Linear Regression",
+      "Decision Trees",
+      "K-Means Clustering",
+      "Neural Networks",
+      "Naive Bayes",
+      "Support Vector Machines"
     ],
-    "category": "AI",
-    "difficulty": "Beginner",
-    "content_preview": "Simplifies AI algorithms for kids using relatable examples"
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: AI ALGORITHMS",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Linear Regression",
+      "Decision Trees",
+      "K-Means Clustering",
+      "Neural Networks",
+      "Naive Bayes"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "Algorithms",
+      "Machine Learning"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Predictive Analytics"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: AI ALGORITHMS",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: AI, Algorithms, Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "22dabe9feddf381ce9bf9ac3601ce48c",
