@@ -8888,32 +8888,105 @@
   {
     "id": "6192c89f339914e48a2a92863161008e",
     "filename": "Artificial_Intelligence_A_Modern_Approach_1749638462.pdf",
-    "title": "Artificial Intelligence: A Modern Approach",
-    "authors": [
-      "S.J.R. Loy, Gordon, Lucy, George, Isaac",
-      "P.N. Kris, Isabella, Juliet"
-    ],
+    "title": "Artificial Intelligence",
+    "authors": [],
     "filepath": "documents/Artificial_Intelligence_A_Modern_Approach_1749638462.pdf",
-    "upload_date": "2025-06-14T22:31:34.336621",
+    "upload_date": "2025-06-18T06:08:26.198048",
     "file_size": 3166813,
-    "summary": "This comprehensive book explores the full breadth of Artificial Intelligence (AI), covering logic, probability, continuous mathematics, perception, reasoning, learning, action, fairness, trust, social good, and safety. The focus has shifted from hand-crafted knowledge engineering to machine learning due to increased data availability and computing resources. New chapters have been added on deep learning, probabilistic programming, and multiagent systems, while the coverage of natural language understanding, robotics, and computer vision has been revised to reflect the impact of deep learning. The book also includes robots that interact with humans and the application of reinforcement lear...",
+    "summary": "This book explores the full breadth of Artificial Intelligence, encompassing logic, probability, continuous mathemat-ics, perception, reasoning, learning, and action; fairness, trust, social good, and safety; and applications ranging from microelectronic devices to robotic planetary explorers. The subtitle is \"A Modern Approach,\" reflecting a current perspective with a focus on machine learning, deep learning, probabilistic programming, and multiagent systems.",
     "keywords": [
       "Artificial Intelligence",
       "Machine Learning",
       "Deep Learning",
-      "Probabilistic Programming",
-      "Multiagent Systems"
+      "Natural Language Understanding",
+      "Robotics",
+      "Rationality",
+      "Knowledge Representation",
+      "Ontological Engineering",
+      "Planning",
+      "Automated Planning"
     ],
     "key_concepts": [
-      "The book explores the full breadth of Artificial Intelligence, including logic, probability, continuous mathematics, perception, reasoning, learning, action, fairness, trust, social good, and safety.",
-      "The focus has shifted from hand-crafted knowledge engineering to machine learning due to increased data availability and computing resources.",
-      "New chapters have been added on deep learning, probabilistic programming, and multiagent systems.",
-      "The coverage of natural language understanding, robotics, and computer vision has been revised to reflect the impact of deep learning.",
-      "The book includes robots that interact with humans and the application of reinforcement learning to robotics."
+      "A Modern Approach",
+      "Current Perspective",
+      "Synthesis of AI Knowledge",
+      "Changes in AI since 2010",
+      "Agents and Environments",
+      "Problem-Solving Agents",
+      "Search Algorithms",
+      "Categories and Objects",
+      "Events",
+      "Mental Objects and Modal Logic"
     ],
     "category": "AI",
-    "difficulty": "Advanced",
-    "content_preview": "This book explores the full breadth of Artificial Intelligence, focusing more on machine learning."
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Artificial Intelligence",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machine learning",
+      "deep learning",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "methodologies": [
+      "probabilistic programming",
+      "multiagent systems",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Understanding",
+      "Problem-solving",
+      "Intelligent Agents"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Artificial Intelligence",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: Artificial Intelligence, Machine Learning, Deep Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "2fe02997a66c25f4b5cbcdfbbd6adabb",
