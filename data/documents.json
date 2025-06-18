@@ -11295,31 +11295,82 @@
     "id": "62d4e98266172bdd2f29604ab0196526",
     "filename": "Create_GUI_with_Python_1635584169.pdf",
     "title": "Create Graphical User Interfaces with Python",
-    "authors": [
-      "Laura Sach",
-      "Martin O’Hanlon"
-    ],
+    "authors": [],
     "filepath": "documents/Create_GUI_with_Python_1635584169.pdf",
-    "upload_date": "2025-06-14T19:41:03.708063",
+    "upload_date": "2025-06-17T22:29:00.865648",
     "file_size": 12333301,
-    "summary": "This book guides users on creating Python desktop applications using the guizero library. Suitable for beginners to experienced programmers, it offers ten fun projects such as a painting program and emoji match game. The focus is on creating windows, text boxes, buttons, images, and learning event-based programming.",
+    "summary": "This book teaches you how to create Python desktop applications using the guizero library, suitable for beginners and experienced programmers. It includes ten fun projects, such as a painting program and an emoji match game.",
     "keywords": [
       "Python",
-      "GUI",
-      "guizero",
-      "desktop applications",
-      "projects"
+      "graphical user interfaces",
+      "GUIs",
+      "guizero library"
     ],
     "key_concepts": [
-      "Learn how to create your own graphical user interfaces using the guizero library in Python",
-      "Explore event-based programming and good (and bad) user interface design",
-      "Create various projects like a painting program, emoji match game, and stop-motion animation creator",
-      "Understand the basics of creating windows, text boxes, buttons, images, and more in Python programs",
-      "Gain practical experience in designing effective graphical user interfaces"
+      "creating GUIs",
+      "event-based programming",
+      "user interface design"
     ],
     "category": "Technology",
-    "difficulty": "Beginner",
-    "content_preview": "Learn to create Python desktop applications using the guizero library."
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Create Graphical User Interfaces with Python",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Computer Software"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "guizero"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "graphical user interfaces",
+      "GUIs"
+    ],
+    "methodologies": [
+      "event-based programming"
+    ],
+    "tools_mentioned": [
+      "Raspberry Pi Trading Ltd"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Desktop Applications",
+      "Graphical User Interfaces"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Create Graphical User Interfaces with Python",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Python, graphical user interfaces, GUIs",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "2de844a7aab4aef1bd6775b1be65633c",
