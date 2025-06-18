@@ -26811,31 +26811,82 @@
     "id": "9d4befb45d44254cf6b8a32ebbe2abd3",
     "filename": "Introduction_to_ML_1627021014.pdf",
     "title": "Introduction to Machine Learning",
-    "authors": [
+    "authors": [],
+    "filepath": "documents/Introduction_to_ML_1627021014.pdf",
+    "upload_date": "2025-06-18T13:27:42.115791",
+    "file_size": 10782206,
+    "summary": "This document is an introduction to machine learning, a field of study that focuses on the use of algorithms and statistical models to enable machines to perform tasks that typically require human intelligence. The book was written by Alex Smola and S.V.N. Vishwanathan and published by Cambridge University Press in 2008. It covers various topics related to machine learning, including supervised and unsupervised learning, neural networks, and more.",
+    "keywords": [
+      "machine learning",
       "Alex Smola",
       "S.V.N. Vishwanathan"
     ],
-    "filepath": "documents/Introduction_to_ML_1627021014.pdf",
-    "upload_date": "2025-06-14T22:31:39.222616",
-    "file_size": 10782206,
-    "summary": "This document provides an overview of machine learning, its methodologies, key concepts, and practical applications. It covers supervised and unsupervised learning, neural networks, decision trees, reinforcement learning, and support vector machines. The authors also discuss the theoretical foundations of machine learning and its potential use cases in various industries.",
-    "keywords": [
-      "Machine Learning",
-      "Supervised Learning",
-      "Unsupervised Learning",
-      "Neural Networks",
-      "Decision Trees"
-    ],
     "key_concepts": [
-      "Machine learning is a subset of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.",
-      "Supervised learning involves training a model using labeled data, where the correct output (label) is provided for each input.",
-      "Unsupervised learning deals with unlabeled data, where the goal is to find hidden patterns or structure in the data.",
-      "Neural networks are a type of machine learning algorithm inspired by the structure and function of the human brain.",
-      "Decision trees are a popular machine learning model used for both classification and regression tasks."
+      "Introduction to Machine Learning",
+      "Machine Learning"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Overview of Machine Learning: Supervised, Unsupervised, Neural Networks, Decision Trees, Reinforcement Learning, SVM."
+    "content_preview": "Document: Introduction to Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "Alex Smola",
+      "S.V.N. Vishwanathan"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning Development",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Introduction to Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, Alex Smola, S.V.N. Vishwanathan",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "9dea4e33fb75f6601096fe9a8d0ac6b8",
