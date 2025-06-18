@@ -10038,28 +10038,89 @@
   {
     "id": "7fddaea68fb115da7b546a0a5a6d7bea",
     "filename": "BT_1745563456.pdf",
-    "title": "Brain Tumor Classification using DenseNet with Attention Mechanism",
+    "title": "Brain Tumor Classification using DenseNet with Attention Mechanism and visual-explanations",
     "authors": [],
     "filepath": "documents/BT_1745563456.pdf",
-    "upload_date": "2025-06-14T22:31:34.578622",
+    "upload_date": "2025-06-18T06:08:26.440049",
     "file_size": 3805953,
-    "summary": "This document outlines a machine learning approach for brain tumor classification using the DenseNet architecture with an attention mechanism. The code provided uses TensorFlow, Keras, and other libraries to preprocess and augment the dataset, which consists of brain scan images. The model is trained on this data, and visual explanations are provided using grad-CAM. The key findings include improved accuracy in tumor classification compared to traditional methods.",
+    "summary": "A document detailing the use of DenseNet with an attention mechanism for brain tumor classification, including data preprocessing and visualization techniques.",
     "keywords": [
-      "Brain Tumor",
       "DenseNet",
       "Attention Mechanism",
-      "TensorFlow",
-      "Keras"
+      "Grad-CAM",
+      "Brain Tumor Classification"
     ],
     "key_concepts": [
-      "The document describes a method for classifying brain tumors using the DenseNet architecture with an attention mechanism.",
-      "The code provided uses TensorFlow and Keras to preprocess, augment, and train the model on a dataset of brain scan images.",
-      "Visual explanations are provided using grad-CAM to help interpret the model's predictions.",
-      "Improved accuracy in tumor classification compared to traditional methods is achieved with this approach."
+      "Deep learning model for brain tumor classification",
+      "Image augmentation techniques",
+      "Data preprocessing and loading"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document outlines a machine learning approach for brain tumor classification using DenseNet and Attention Mechanism."
+    "content_preview": "Document: Brain Tumor Classification using DenseNet with Attention Mechanism and visual-explanations",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Medical Imaging"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tensorflow",
+      "keras",
+      "numpy",
+      "pandas",
+      "cv2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "DenseNet",
+      "Attention Mechanism",
+      "Grad-CAM"
+    ],
+    "methodologies": [
+      "Deep Learning",
+      "Data Augmentation"
+    ],
+    "tools_mentioned": [
+      "DenseNet",
+      "Attention Mechanism",
+      "Grad-CAM",
+      "ImageDataGenerator"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Brain Tumor Classification"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Brain Tumor Classification using DenseNet with Attention Mechanism and visual-explanations",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: DenseNet, Attention Mechanism, Grad-CAM",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "4f706ca2143e3e8b81f152a44fb0ab03",
