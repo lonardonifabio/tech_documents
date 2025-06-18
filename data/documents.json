@@ -5843,31 +5843,100 @@
   {
     "id": "4716cf8c3ec25996d01716b70112c4f6",
     "filename": "A_Brief_Introduction_to_Neural_Networks_by_David_Kriesel_1639038946.pdf",
-    "title": "A Brief Introduction to Neural Networks by David Kriesel",
-    "authors": [
-      "David Kriesel"
-    ],
+    "title": "A Brief Introduction to Neural Networks",
+    "authors": [],
     "filepath": "documents/A_Brief_Introduction_to_Neural_Networks_by_David_Kriesel_1639038946.pdf",
-    "upload_date": "2025-06-14T19:41:02.014057",
+    "upload_date": "2025-06-18T06:08:25.510042",
     "file_size": 6347523,
-    "summary": "This document provides a comprehensive introduction to neural networks, written by David Kriesel. It covers the basics of neural networks, their applications in programming, and includes a link to download a scalable and efficient neural network framework written in Java. The document is available on dkriesel.com.",
+    "summary": "This document provides a comprehensive overview of neural networks, written by David Kriesel, with the intention of making it accessible to a wide audience. The work was originally prepared for a seminar at the University of Bonn in Germany and has since been extended and published online. It includes illustrations and is written in an effort to make complex concepts memorable and easy to understand.",
     "keywords": [
-      "Neural Networks",
-      "Introduction",
-      "David Kriesel",
-      "Java",
-      "Programming"
+      "neural networks",
+      "java",
+      "latex",
+      "Dr. Goerke",
+      "Prof. Eckmill",
+      "AndreasHuber",
+      "TobiasTreutler",
+      "Mr. Wilfried Hartmann",
+      "Mr. Hubert Peters",
+      "Mr. Frank Nökel"
     ],
     "key_concepts": [
-      "This document offers a brief overview of neural networks, explaining their fundamental principles and structure.",
-      "The author provides a link to download a scalable and efficient neural network framework written in Java, which is particularly useful for programmers.",
-      "The document serves as an excellent starting point for those interested in learning about neural networks and their applications.",
-      "The theoretical foundations of neural networks are discussed, providing a strong understanding of the underlying principles.",
-      "Practical implications of neural networks are touched upon, demonstrating their potential use cases."
+      "A Brief Introduction to Neural Networks",
+      "Scalable NN framework",
+      "L ATEX",
+      "Neural Networks",
+      "Notary's Office",
+      "School Days",
+      "Scientific Knowledge",
+      "Printing Costs"
     ],
-    "category": "AI",
-    "difficulty": "Beginner",
-    "content_preview": "A Brief Introduction to Neural Networks by David Kriesel offers a comprehensive overview of neural networks, including a downloadable Java framework."
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: A Brief Introduction to Neural Networks",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Computer Science",
+      null
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "java",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "neural networks",
+      "java",
+      "latex"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "latex",
+      "xy-pic",
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Education",
+      "Research"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: A Brief Introduction to Neural Networks",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: neural networks, java, latex",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "fe63597291f84f2bcd5acc97c4be231a",
