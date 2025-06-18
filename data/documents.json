@@ -38380,29 +38380,81 @@
   {
     "id": "2fad250f1812dea475ff5fb8a9b517fe",
     "filename": "Pivot_table_1644221271.pdf",
-    "title": "Pivot Table 101: A Comprehensive Guide to Data Analysis",
+    "title": "PIVOT TABLE 101",
     "authors": [],
     "filepath": "documents/Pivot_table_1644221271.pdf",
-    "upload_date": "2025-06-14T22:31:42.834624",
+    "upload_date": "2025-06-18T13:27:45.746804",
     "file_size": 2578208,
-    "summary": "This document provides an introduction to Pivot Tables, a powerful tool in Microsoft Excel for organizing, summarizing, and analyzing raw data. The guide covers the basics of creating a Pivot Table, filtering data, and performing calculations such as sums, counts, and averages. It also discusses how Pivot Tables can help answer complex questions about data, even when you're not sure what you're looking for. The document includes practical examples and tips for effective use of Pivot Tables.",
+    "summary": "A guide on creating and using pivot tables for data analysis, including benefits, structure, and inserting a pivot table.",
     "keywords": [
-      "Pivot Table",
-      "Data Analysis",
-      "Microsoft Excel",
-      "Raw Data",
-      "Filtering"
+      "pivot tables",
+      "data analysis",
+      "data visualization"
     ],
     "key_concepts": [
-      "Pivot Tables allow you to easily organize, filter, summarize, and analyze raw data",
-      "Creating a Pivot Table involves selecting the data range, choosing the layout, and adding fields to the Rows, Columns, and Values areas",
-      "Filtering data in a Pivot Table can help focus on specific subsets of data",
-      "Calculations such as sums, counts, and averages can be performed on the values in a Pivot Table",
-      "Pivot Tables can help answer complex questions about data, even when you're not sure what you're looking for"
+      "PIVOT TABLE 101",
+      "data summarization",
+      "data filtering"
     ],
     "category": "Data Science",
-    "difficulty": "Beginner",
-    "content_preview": "Learn how to use Pivot Tables in Microsoft Excel to analyze raw data."
+    "difficulty": "Intermediate",
+    "content_preview": "Document: PIVOT TABLE 101",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Analysis"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "pivot tables",
+      "data analysis",
+      "data visualization"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Visualization",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: PIVOT TABLE 101",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: pivot tables, data analysis, data visualization",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "73114bd3ba40a6045a3a374754fc76fe",
