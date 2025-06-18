@@ -29560,27 +29560,112 @@
   {
     "id": "9dfc226de3dfb54baf03d33f06aebd41",
     "filename": "Learn_Python_The_Right_Way_1647503826.pdf",
-    "title": "Learn Python The Right Way",
+    "title": "Introduction to Programming with Python",
     "authors": [],
     "filepath": "documents/Learn_Python_The_Right_Way_1647503826.pdf",
-    "upload_date": "2025-06-14T22:31:39.747617",
+    "upload_date": "2025-06-18T20:37:56.208537",
     "file_size": 1838340,
-    "summary": "This document is a guide for learning Python programming, explaining the reasons for using Python, introducing programming with Python, building a community, and providing a contributor list. It also includes chapters on understanding the Python programming language, what a program is, debugging, and more. This book aims to help beginners understand the basics of programming and Python.",
+    "summary": "This document provides an overview of the Python programming language, its history, and its applications. It also covers the basics of programming, debugging, and building a community around Python.",
     "keywords": [
       "Python",
-      "Programming",
-      "Guide",
-      "Learning"
+      "programming",
+      "community",
+      "turtle",
+      "loop",
+      "function",
+      "tables",
+      "encapsulation",
+      "local variables",
+      "event-driven programming"
     ],
     "key_concepts": [
-      "The document provides a guide for learning Python programming, explaining the reasons for using Python.",
-      "It introduces programming with Python and building a community to support learners.",
-      "The book covers topics such as understanding the Python programming language, what a program is, debugging, and more.",
-      "The document aims to help beginners understand the basics of programming and Python."
+      "Introduction to programming with Python",
+      "Building a community around Python",
+      "Turtle graphics",
+      "Looping and iteration",
+      "Functions in programming",
+      "Tracing a program",
+      "Counting digits",
+      "Abbreviated assignment",
+      "Help and meta-notation",
+      "state machines"
     ],
-    "category": "Technology",
-    "difficulty": "Beginner",
-    "content_preview": "This document is a guide for learning Python programming."
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Introduction to Programming with Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      null,
+      "Computer Science",
+      "Software Development",
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2",
+      "Python",
+      "LinkedQueue",
+      "Priorityqueue"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "programming",
+      "community"
+    ],
+    "methodologies": [
+      "method1",
+      "method2",
+      "Object-Oriented Programming",
+      "ImprovedLinkedQueue",
+      "Expressiontrees"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2",
+      "IDEs",
+      "Golferclass"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Turtle Graphics",
+      "Programming",
+      "Tracing a program",
+      "Counting digits",
+      "Abbreviated assignment"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Introduction to Programming with Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, programming, community",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "56df26a903e1f6d4748ef7b956a57c53",
