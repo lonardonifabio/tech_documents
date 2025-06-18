@@ -40894,57 +40894,83 @@
     "id": "33b61b90fe3fb28a5cfa54893ced041e",
     "filename": "Taxonomy_of_Failure_Mode_in_Agentic_AI_Systems_Microsoft_1746774160.pdf",
     "title": "Taxonomy of Failure Mode in Agentic AI Systems",
-    "authors": [
-      "Pete Bryan",
-      "Giorgio Severi",
-      "Joris de Gruyter",
-      "Daniel Jones",
-      "Blake Bullwinkel",
-      "Amanda Minnich",
-      "Shiven Chawla",
-      "Gary Lopez",
-      "Martin Pouliot",
-      "Adam Fourney",
-      "Whitney Maxwell",
-      "Katherine Pratt",
-      "Saphir Qi",
-      "Nina Chikanov",
-      "Roman Lutz",
-      "Raja Sekhar Rao Dheekonda",
-      "Bolor -Erdene Jagdagdorj",
-      "Eugenia Kim",
-      "Justin Song",
-      "Keegan Hines",
-      "Daniel Jones",
-      "Richard Lundeen",
-      "Sam Vaughan",
-      "Victoria Westerhoff",
-      "Yonatan Zunger",
-      "Chang Kawaguchi",
-      "Mark Russinovich",
-      "Ram Shankar Siva Kumar"
-    ],
+    "authors": [],
     "filepath": "documents/Taxonomy_of_Failure_Mode_in_Agentic_AI_Systems_Microsoft_1746774160.pdf",
-    "upload_date": "2025-06-14T19:41:13.163094",
+    "upload_date": "2025-06-17T22:29:10.508749",
     "file_size": 2192581,
-    "summary": "This document presents a taxonomy of failure modes in agentic AI systems, discussing common patterns, potential effects, and mitigations. The research emphasizes the importance of design considerations to ensure safe and effective operation of these systems. Key topics include functionalities of agentic systems, various failure modes, their impacts, suggested mitigations, and design principles.",
+    "summary": "A document discussing the taxonomy of failure modes in agentic AI systems, including their effects and potential mitigations.",
     "keywords": [
-      "AI",
-      "Agentic Systems",
-      "Failure Modes",
-      "Mitigation",
-      "Design Considerations"
+      "Agentic AI Systems",
+      "Failure Mode",
+      "Taxonomy",
+      "Agent action abuse",
+      "Agent denial of service",
+      "Incorrect decision-making",
+      "User trust erosion",
+      "Impact outside intended environment"
     ],
     "key_concepts": [
-      "Agentic systems are AI systems that can make decisions autonomously and adapt to their environment.",
-      "The document presents a taxonomy of failure modes in agentic AI systems, including misconfiguration, data corruption, and system failures.",
-      "Potential effects of these failure modes include safety risks, reduced performance, and unintended consequences.",
-      "Mitigations and design considerations for preventing or minimizing failure modes include robustness testing, monitoring, and human oversight.",
-      "The theoretical framework for this research is based on the principles of safe and reliable AI system operation."
+      "Agentic systems",
+      "Failure modes",
+      "Design considerations",
+      "AI alignment issues",
+      "Adversarial attacks",
+      "Agentic AI systems",
+      "Decision-making flaws"
     ],
-    "category": "AI",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Taxonomy of Failure Mode in Agentic AI Systems"
+    "content_preview": "Document: Taxonomy of Failure Mode in Agentic AI Systems",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Agentic AI Systems",
+      "Failure Mode",
+      "Taxonomy"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Agentic AI Systems",
+      "AI system vulnerabilities"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Taxonomy of Failure Mode in Agentic AI Systems",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Agentic AI Systems, Failure Mode, Taxonomy",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "c591507a302c09baf7d99fd1103234d8",
