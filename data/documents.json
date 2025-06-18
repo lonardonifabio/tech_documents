@@ -6471,32 +6471,95 @@
   {
     "id": "6506473c3ed4e11535c1fb08792d3462",
     "filename": "A_Taxonomy_of_Trustworthiness_for_Artificial_Intelligence_1743855981.pdf",
-    "title": "A Taxonomy of Trustworthiness for Artificial Intelligence",
-    "authors": [
-      "Jessica Newman",
-      "UC Berkeley Center for Long-Term Cybersecurity"
-    ],
+    "title": "Taxonomy of Trustworthiness for Artificial Intelligence",
+    "authors": [],
     "filepath": "documents/A_Taxonomy_of_Trustworthiness_for_Artificial_Intelligence_1743855981.pdf",
-    "upload_date": "2025-06-14T22:31:33.750620",
+    "upload_date": "2025-06-18T06:08:25.616043",
     "file_size": 4096600,
-    "summary": "This document presents a taxonomy of trustworthiness for AI, connecting properties of trustworthiness with risk management and the AI lifecycle. The paper discusses the term 'trustworthy AI', compares multiple existing frameworks, introduces the concept of properties of trustworthiness for AI, and provides connections to international AI standards. The taxonomy is detailed in the full paper available at cltc.berkeley.edu.",
+    "summary": "This document discusses the Taxonomy of Trustworthiness for Artificial Intelligence, connecting properties of trustworthiness with risk management and the AI lifecycle. It introduces a framework for trustworthy AI, compares existing frameworks, and includes international AI standards.",
     "keywords": [
       "Artificial Intelligence",
       "Trustworthiness",
       "Risk Management",
-      "AI Lifecycle",
-      "NIST"
+      "bias",
+      "trustworthiness",
+      "solidarity",
+      "justice"
     ],
     "key_concepts": [
-      "The document presents a taxonomy of trustworthiness for AI, connecting properties of trustworthiness with risk management and the AI lifecycle.",
-      "The paper discusses the term 'trustworthy AI', compares multiple existing frameworks, and introduces the concept of properties of trustworthiness for AI.",
-      "The taxonomy is detailed in the full paper available at cltc.berkeley.edu.",
-      "The document aims to promote trustworthy artificial intelligence (AI) through the NIST's AI Risk Management Framework (RMF).",
-      "The taxonomy provides connections to international AI standards."
+      "Taxonomy of Trustworthiness",
+      "Properties of Trustworthiness",
+      "AI Lifecycle",
+      "Assessing and mitigating systemic and human bias in AI systems",
+      "Ensuring justice in AI system design and use",
+      "Respecting solidarity of groups and communities in AI development"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This resource presents a taxonomy of trustworthiness for Artificial Intelligence, connecting properties of trustworthiness with risk management and the AI lifecycle."
+    "content_preview": "Document: Taxonomy of Trustworthiness for Artificial Intelligence",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Artificial Intelligence",
+      "Trustworthiness",
+      "Risk Management"
+    ],
+    "methodologies": [
+      "method1",
+      "method2",
+      "AI"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2",
+      "NIST AI RMF"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Risk Management",
+      "Trustworthy AI",
+      "Design and development of AI systems",
+      "Deployment and use of AI systems"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Taxonomy of Trustworthiness for Artificial Intelligence",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: Artificial Intelligence, Trustworthiness, Risk Management",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "61be08d28f0a4b1e2c4e99addd044294",
