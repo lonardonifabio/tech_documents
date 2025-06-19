@@ -70651,20 +70651,72 @@
   {
     "id": "8d7d5ef75d0cd48f08b6a82a4917a767",
     "filename": "Vision_Transformer__1741240992.pdf",
-    "title": "Vision Transformer Assignment 1",
+    "title": "Unzipping Hymenoptera Data",
     "authors": [],
     "filepath": "documents/Vision_Transformer__1741240992.pdf",
-    "upload_date": "2025-06-06T03:10:15.673916",
+    "upload_date": "2025-06-19T22:44:00.074190",
     "file_size": 788830,
-    "summary": "This document provides instructions on how to unzip and prepare a dataset of images of ants for training a Vision Transformer model.",
+    "summary": "A tutorial on unzipping the provided hymenoptera data .zip file, which contains images of ants. The process involves using the !unzip command in Google Colab.",
     "keywords": [
-      "Vision Transformer",
-      "Dataset Preparation",
-      "Image Classification"
+      "unzip",
+      "hymenoptera_data"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Data Unzipping",
+      "File Extraction"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Unzip these files: !unzip /content/hymenoptera_data .zip"
+    "content_preview": "Document: Unzipping Hymenoptera Data",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Entomology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "unzip",
+      "hymenoptera_data"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Image classification",
+      "Data augmentation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Unzipping Hymenoptera Data",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: unzip, hymenoptera_data",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.75
   },
   {
     "id": "b9e4eae249eb54439dc86beee6c19d75",
