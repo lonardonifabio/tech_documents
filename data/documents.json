@@ -61699,19 +61699,94 @@
     "title": "Types of Machine Learning Algorithms",
     "authors": [],
     "filepath": "documents/Types_of_Machine_Learning_Algorithms_1627454712.pdf",
-    "upload_date": "2025-06-06T15:45:50.594686",
+    "upload_date": "2025-06-19T06:13:39.199358",
     "file_size": 1348222,
-    "summary": "This document discusses the three main types of machine learning algorithms: supervised, unsupervised, and reinforcement learning. It provides examples of common algorithms within each category such as Nearest Neighbor, Naive Bayes, Decision Trees, Linear Regression, Support Vector Machines (SVM), and Neural Networks.",
+    "summary": "This document provides an overview of three types of machine learning algorithms: supervised, unsupervised, and reinforcement learning. It explains the purpose and common algorithms used in each type.",
     "keywords": [
       "Machine Learning",
       "Supervised Learning",
       "Unsupervised Learning",
       "Reinforcement Learning",
-      "Nearest Neighbor"
+      "Neural Networks",
+      "Decision Trees",
+      "Linear Regression",
+      "Support Vector Machines",
+      "K-means clustering",
+      "Hierarchal clustering"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Learning algorithms",
+      "Types of machine learning",
+      "Machine learning purposes",
+      "Pattern recognition",
+      "Data analysis"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "TYPES OF MACHINE LEARNING ALGORITHMS"
+    "content_preview": "Document: Types of Machine Learning Algorithms",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Nearest Neighbor",
+      "Naive Bayes",
+      "Decision Trees",
+      "Linear Regression",
+      "Support Vector Machines (SVM)"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Supervised Learning",
+      "Unsupervised Learning"
+    ],
+    "methodologies": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning"
+    ],
+    "tools_mentioned": [
+      "K-means clustering",
+      "KNN (k-nearest neighbours)",
+      "Hierarchal clustering",
+      "Anomaly detection",
+      "Principle Component Analysis"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Types of Machine Learning Algorithms",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, Supervised Learning, Unsupervised Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "520243b0f5cf0497b37fa9575e5c0e5d",
