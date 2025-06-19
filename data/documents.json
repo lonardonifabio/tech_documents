@@ -16102,28 +16102,89 @@
   {
     "id": "d8c0722d31b72dee7e3df20d86b9ceee",
     "filename": "Data Exploration using Pandas.pdf",
-    "title": "Data Exploration using Pandas Cheat Sheet",
+    "title": "Data Exploration using Pandas",
     "authors": [],
     "filepath": "documents/Data Exploration using Pandas.pdf",
-    "upload_date": "2025-06-15T10:33:56.090567",
+    "upload_date": "2025-06-19T06:13:28.805325",
     "file_size": 1288192,
-    "summary": "This document provides a comprehensive guide on data exploration using the popular Python library, Pandas. It covers reading and writing various data formats (CSV, Excel), previewing dataframes, renaming columns, selecting rows or columns, handling missing values, and more. Practical applications include data cleaning, analysis, and visualization.",
+    "summary": "This document provides a cheatsheet on data exploration using pandas, covering topics such as reading and writing data, getting previews of dataframes, renaming columns, selecting columns or rows, and handling missing values.",
     "keywords": [
       "Pandas",
       "Data Exploration",
-      "Data Cleaning",
-      "Data Analysis",
-      "Python"
+      "CSV",
+      "Excel",
+      "DataFrames",
+      "Renaming Columns",
+      "Selecting Columns",
+      "Filtering Records",
+      "Handling Missing Values"
     ],
     "key_concepts": [
-      "This document provides a comprehensive guide on data exploration using the popular Python library, Pandas.",
-      "It covers reading and writing various data formats (CSV, Excel) using functions like read_csv(), read_excel(), to_csv(), and to_excel().",
-      "The guide also includes methods for previewing dataframes, renaming columns, selecting rows or columns, and handling missing values.",
-      "Practical applications of this knowledge include data cleaning, analysis, and visualization."
+      "Data Manipulation",
+      "Data Analysis",
+      "Data Cleaning",
+      "Data Visualization"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a guide on data exploration using Pandas, covering reading/writing data, previewing dataframes, renaming columns, selecting rows/columns, and handling missing values."
+    "content_preview": "Document: Data Exploration using Pandas",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Pandas"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Pandas",
+      "Data Exploration",
+      "CSV"
+    ],
+    "methodologies": [
+      "Data Exploration",
+      "Data Cleaning"
+    ],
+    "tools_mentioned": [
+      "Python"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Data Visualization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Exploration using Pandas",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Pandas, Data Exploration, CSV",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "c8eeb0f7868b4fe47da3a79118affa6b",
