@@ -21482,25 +21482,104 @@
   {
     "id": "266c4196e59137d11700dcd1890bafe7",
     "filename": "Deep_Learning_Cheat_Sheet_1633334100.pdf",
-    "title": "Deep Learning Cheat Sheet",
-    "authors": [
-      "Afshine Amidi",
-      "Shervine Amidi"
-    ],
+    "title": "Deep Learning",
+    "authors": [],
     "filepath": "documents/Deep_Learning_Cheat_Sheet_1633334100.pdf",
-    "upload_date": "2025-06-04T21:18:51.112014",
+    "upload_date": "2025-06-19T14:50:36.978703",
     "file_size": 4736767,
-    "summary": "This document is a cheatsheet for deep learning, covering topics such as Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs). It includes details on filter hyperparameters, tuning hyperparameters, commonly used activation functions, object detection, neural style transfer, architectures using computational tricks for CNNs, ...",
+    "summary": "A comprehensive guide to deep learning, covering convolutional neural networks and recurrent neural networks, including their applications in object detection, face verification, neural style transfer, and machine translation.",
     "keywords": [
       "Deep Learning",
       "Convolutional Neural Networks",
       "Recurrent Neural Networks",
-      "CNN",
-      "RNN"
+      "Activation Functions",
+      "IoU",
+      "Anchor boxes",
+      "Non-max suppression",
+      "YOLO",
+      "perplexity",
+      "machine translation"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Convolutional Neural Networks",
+      "Recurrent Neural Networks",
+      "Object Detection",
+      "Language Models",
+      "Bounding box",
+      "Object detection",
+      "CNN",
+      "Grid cell",
+      "inverse probability",
+      "conditional language model"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "CS 230 – Deep Learning Shervine Amidi & Afshine Amidi\nSuper VIP Cheatsheet: Deep Learning"
+    "content_preview": "Document: Deep Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning",
+      "Computer Vision",
+      "Natural Language Processing"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Deep Learning",
+      "YOLO"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Deep Learning",
+      "Convolutional Neural Networks",
+      "Recurrent Neural Networks"
+    ],
+    "methodologies": [
+      "Convolutional Neural Networks",
+      "Recurrent Neural Networks",
+      "non-max suppression",
+      "anchor boxing"
+    ],
+    "tools_mentioned": [
+      "CNN"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Deep Learning",
+      "Object Detection",
+      "Face Verification and Recognition",
+      "Machine Translation",
+      "Language Modeling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Deep Learning, Convolutional Neural Networks, Recurrent Neural Networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.9166666666666666
   },
   {
     "id": "69a9e8f975e479d757ab836a39ff3693",
