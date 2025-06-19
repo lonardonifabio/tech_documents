@@ -19441,25 +19441,91 @@
   {
     "id": "648437a3a6d6d3f758fa66a3f3467780",
     "filename": "Deep_Learning_1711871430.pdf",
-    "title": "Deep Learning Cheatsheet",
-    "authors": [
-      "Afshine Amidi",
-      "Shervine Amidi"
-    ],
+    "title": "Neural Networks",
+    "authors": [],
     "filepath": "documents/Deep_Learning_1711871430.pdf",
-    "upload_date": "2025-06-03T22:07:04.153525",
+    "upload_date": "2025-06-19T14:50:36.902702",
     "file_size": 355922,
-    "summary": "This document is a cheatsheet for deep learning, covering topics such as neural networks, their architecture, activation functions, cross-entropy loss, learning rate, and backpropagation. It was created by Afshine Amidi and Shervine Amidi.",
+    "summary": "Neural networks are a class of models that are built with layers, commonly used types include convolutional and recurrent neural networks. The architecture of a neural network is described by the equation z[i] = w[i]*j + b[i], where w,b,z represent weight, bias, and output respectively.",
     "keywords": [
-      "Deep Learning",
       "Neural Networks",
-      "Activation Function",
+      "Convolutional Neural Networks",
+      "Recurrent Neural Networks",
+      "Activation Functions",
       "Cross-Entropy Loss",
-      "Learning Rate"
+      "Learning Rate",
+      "Backpropagation"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Neural Network Architecture",
+      "Weight and Bias Update",
+      "Activation Function Selection",
+      "Cross-Entropy Loss Calculation",
+      "Learning Rate Optimization",
+      "Backpropagation Algorithm"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "CS 229 – Machine Learning, Neural networks are a class of models..."
+    "content_preview": "Document: Neural Networks",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "TensorFlow"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Neural Networks",
+      "Convolutional Neural Networks",
+      "Recurrent Neural Networks"
+    ],
+    "methodologies": [
+      "Supervised Learning",
+      "Unsupervised Learning"
+    ],
+    "tools_mentioned": [
+      "Keras",
+      "PyTorch"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Neural Network Development",
+      "Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Neural Networks",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Neural Networks, Convolutional Neural Networks, Recurrent Neural Networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "b9c5de40ea3511c65e6738ff3740040e",
