@@ -54399,22 +54399,109 @@
   {
     "id": "0a2749b02ce77530d29c819458035181",
     "filename": "Python_for_Data_Science_1592378029.pdf",
-    "title": "Python For Data Science Cheat Sheet",
+    "title": "Python for Data Science",
     "authors": [],
     "filepath": "documents/Python_for_Data_Science_1592378029.pdf",
-    "upload_date": "2025-06-03T17:53:43.216127",
+    "upload_date": "2025-06-19T14:50:43.763745",
     "file_size": 1497850,
-    "summary": "This document provides a cheat sheet for Python basics, variables, data types, lists, and some operations on them. It also mentions NumPy arrays.",
+    "summary": "A comprehensive guide to Python programming, focusing on data science applications. It covers basic syntax, data types, variable assignment, strings, lists, and list operations, as well as NumPy arrays.",
     "keywords": [
-      "Python",
-      "Data Science",
-      "Cheat Sheet",
-      "Variables",
-      "Lists"
+      "numpy",
+      "python",
+      "data science",
+      "variables",
+      "lists",
+      "arrays",
+      "data types",
+      "I/O operations",
+      "saving and loading",
+      "sorting"
+    ],
+    "key_concepts": [
+      "Variable assignment",
+      "String manipulation",
+      "List operations",
+      "Indexing and slicing",
+      "Data types",
+      "NumPy arrays",
+      "Array creation",
+      "Data manipulation",
+      "File input/output",
+      "Sorting algorithms"
     ],
     "category": "Data Science",
-    "difficulty": "Beginner",
-    "content_preview": "Import libraries\n>>> import numpy\n>>> import numpy as np"
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Python for Data Science",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science",
+      "Data Visualization"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "sklearn",
+      "pandas"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "numpy",
+      "python",
+      "data science"
+    ],
+    "methodologies": [
+      "selective import",
+      "help function",
+      "array manipulation",
+      "data loading",
+      "data saving"
+    ],
+    "tools_mentioned": [
+      "math library",
+      "string functions",
+      "np.array",
+      "np.loadtxt",
+      "np.genfromtxt"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Machine Learning",
+      "Data Preprocessing",
+      "Model Training",
+      "Feature Engineering"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python for Data Science",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: numpy, python, data science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a5a498b11fb49789a8f652e92aa91a0b",
