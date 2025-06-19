@@ -18018,30 +18018,96 @@
     "id": "b9c5de40ea3511c65e6738ff3740040e",
     "filename": "Deep_Learning_1720595406.pdf",
     "title": "Deep Learning for Computer Vision with Python Practitioner Bundle",
-    "authors": [
-      "Dr. Adrian Rosebrock"
-    ],
+    "authors": [],
     "filepath": "documents/Deep_Learning_1720595406.pdf",
-    "upload_date": "2025-06-15T08:35:00.083536",
+    "upload_date": "2025-06-18T20:37:53.096539",
     "file_size": 10172976,
-    "summary": "This document provides a comprehensive guide to deep learning for computer vision using Python, authored by Dr. Adrian Rosebrock. It covers topics such as convolutional neural networks (CNNs), image augmentation, transfer learning, and more. The book is divided into several parts, each focusing on a specific aspect of deep learning for computer vision. Key concepts include understanding the basics of deep learning, implementing CNNs from scratch, and applying these techniques to real-world problems such as object detection and image segmentation. The book also includes practical applications, code examples, and exercises to help readers solidify their understanding.",
+    "summary": "A book about deep learning and computer vision using Python, covering topics such as data augmentation, aspect-aware preprocessing, and more.",
     "keywords": [
       "Deep Learning",
       "Computer Vision",
       "Python",
-      "Convolutional Neural Networks",
-      "CNN"
+      "Data Augmentation",
+      "Kaggle",
+      "AlexNet",
+      "ResNet",
+      "GoogLeNet",
+      "Inception Module"
     ],
     "key_concepts": [
-      "Understanding the basics of deep learning for computer vision",
-      "Implementing Convolutional Neural Networks (CNNs) from scratch",
-      "Applying deep learning techniques to real-world problems such as object detection and image segmentation",
-      "Exploring various aspects of deep learning, including transfer learning and image augmentation",
-      "Solving practical problems using the knowledge gained from the book"
+      "Convolutional Neural Networks",
+      "Transfer Learning",
+      "Object Detection",
+      "Competing in Kaggle: Dogs vs. Cats",
+      "Image Preprocessing",
+      "Dataset Generation",
+      "Deep Learning Models"
     ],
-    "category": "Machine Learning",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Learn deep learning for computer vision with Python and solve real-world problems."
+    "content_preview": "Document: Deep Learning for Computer Vision with Python Practitioner Bundle",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Computer Vision"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Kaggle",
+      "AlexNet",
+      "ResNet",
+      "Logistic Regression",
+      "GoogLeNet"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Deep Learning",
+      "Computer Vision",
+      "Python"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "tools_mentioned": [
+      "HDF5",
+      "Python"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Deep Learning",
+      "Kaggle Competition"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning for Computer Vision with Python Practitioner Bundle",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Deep Learning, Computer Vision, Python",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "27f98f98e473fbab7fd68f87f4a7a04b",
