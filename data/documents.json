@@ -59264,22 +59264,97 @@
   {
     "id": "fc704dd37f376a34c257cbd8cb5642a0",
     "filename": "ScikitLearn.pdf",
-    "title": "Python for Data Science with Scikit-Learn",
+    "title": "Python For Data Science Cheat Sheet",
     "authors": [],
     "filepath": "documents/ScikitLearn.pdf",
-    "upload_date": "2025-06-04T21:18:55.075039",
+    "upload_date": "2025-06-19T14:50:44.520750",
     "file_size": 149176,
-    "summary": "This document provides a cheat sheet for learning Python for data science using the open-source library, Scikit-Learn. It covers topics such as loading and preprocessing data, creating models, fitting models, prediction, evaluation, and various machine learning algorithms like Linear Regression, Support Vector Machines (SVM), Naive Bayes, KNN, a...",
+    "summary": "Scikit-learn is an open source Python library that implements a range of machine learning, preprocessing, cross-validation and visualization algorithms using a unified interface. Learn Python for data science interactively at www.DataCamp.com.",
     "keywords": [
-      "Python",
-      "Data Science",
-      "Scikit-Learn",
-      "Machine Learning",
-      "Cheat Sheet"
+      "scikit-learn",
+      "python",
+      "data science",
+      "machine learning",
+      "linear regression",
+      "support vector machines",
+      "naive bayes",
+      "knn"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "Machine Learning Algorithms",
+      "Data Preprocessing",
+      "Model Fitting",
+      "Prediction",
+      "Evaluation",
+      "Supervised Learning",
+      "Unsupervised Learning"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a cheat sheet for learning Python for data science using the open-source library, Scikit-Learn."
+    "content_preview": "Document: Python For Data Science Cheat Sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Scikit-Learn"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "scikit-learn",
+      "python",
+      "data science"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Preprocessing",
+      "Cross-validation",
+      "Visualization"
+    ],
+    "tools_mentioned": [
+      "NumPy",
+      "Pandas",
+      "SciPy",
+      "DataCamp"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python For Data Science Cheat Sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: scikit-learn, python, data science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "318593c4c5d0a8b52195a65d52f155b9",
