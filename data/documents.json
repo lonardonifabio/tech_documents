@@ -51113,29 +51113,81 @@
   {
     "id": "771db36b568a863df817eb65b1e95d54",
     "filename": "SQL_Guide__1641285345.pdf",
-    "title": "SQL Guide for Beginners",
+    "title": "SQL Tutorial",
     "authors": [],
     "filepath": "documents/SQL_Guide__1641285345.pdf",
-    "upload_date": "2025-06-15T08:35:07.396556",
+    "upload_date": "2025-06-18T20:38:00.487535",
     "file_size": 526134,
-    "summary": "This guide introduces SQL, a widely-used language for managing and manipulating databases. It provides step-by-step instructions on how to download and install Microsoft SSMS (SQL Server Management Studio) and a free database for practice (Northwind). The document covers the basics of tables, rows, columns, relationships, and technical terms in SQL.",
+    "summary": "A comprehensive guide to learning SQL, covering its uses, benefits, and practical applications. The tutorial includes information on Microsoft SSMS, Northwind database, and various SQL commands such as SELECT, WHERE, AND, OR, NOT, etc.",
     "keywords": [
       "SQL",
-      "Database",
-      "Management Studio",
-      "SSMS",
-      "Northwind"
+      "database",
+      "programming",
+      "coding"
     ],
     "key_concepts": [
-      "Learning SQL is simple and beneficial due to its wide usage and transferable skills.",
-      "This guide explains how to download and install Microsoft SSMS for free.",
-      "The document provides instructions on how to get a free database (Northwind) for practice.",
-      "It introduces the concepts of tables, rows, columns, relationships, and technical terms in SQL.",
-      "The theoretical framework is based on understanding the structure and manipulation of databases using SQL."
+      "Learning SQL",
+      "Database Management",
+      "Querying Data",
+      "Data Analysis"
     ],
     "category": "Data Science",
-    "difficulty": "Beginner",
-    "content_preview": "Learn SQL with this beginner's guide, download free SSMS and a practice database (Northwind)."
+    "difficulty": "Intermediate",
+    "content_preview": "Document: SQL Tutorial",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "SQL"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "SQL",
+      "database",
+      "programming"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [
+      "Microsoft SSMS"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Learning SQL",
+      "Database Management"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: SQL Tutorial",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: SQL, database, programming",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "157d316ac5eba4db62349a03ce35c016",
