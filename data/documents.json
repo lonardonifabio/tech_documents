@@ -42367,27 +42367,114 @@
   {
     "id": "ea162c1e8fb15994bd2a8f79a600289b",
     "filename": "Machine_Learning_Plus_1623066146.pdf",
-    "title": "The Building Blocks of Machine Learning",
+    "title": "Machine Learning Methodologies",
     "authors": [],
     "filepath": "documents/Machine_Learning_Plus_1623066146.pdf",
-    "upload_date": "2025-06-14T22:31:40.936620",
+    "upload_date": "2025-06-19T22:43:54.840151",
     "file_size": 1135109,
-    "summary": "This book covers the most common methods in machine learning, serving as a toolbox for machine learning engineers. It aims to provide derivations of these methods from both theory and code. Each chapter focuses on a single machine learning method or group of methods within the ML toolbox.",
+    "summary": "This book covers the building blocks of the most common machine learning methods, providing a toolbox for engineers. The book is designed to be comfortable with these methods, allowing readers to tackle a variety of tasks. Each chapter focuses on a single machine learning method or group of methods, and provides derivations from scratch, both in theory and in code. The purpose of this book is to provide these derivations.",
     "keywords": [
-      "Machine Learning",
-      "Methods",
-      "Toolbox",
-      "Derivation"
+      "machine learning",
+      "building blocks",
+      "methodologies",
+      "algorithms",
+      "understanding",
+      "modeling",
+      "data sets",
+      "validation data",
+      "testing data",
+      "vector"
     ],
     "key_concepts": [
-      "The book provides a comprehensive set of methods in machine learning, acting as a toolbox for engineers.",
-      "Each chapter corresponds to a single machine learning method or group of methods within the ML toolbox.",
-      "The best way to become comfortable with these methods is to see their derivations, both in theory and code.",
-      "The purpose of this book is to provide these derivations."
+      "Introduction to machine learning methods",
+      "Understanding the building blocks of machine learning",
+      "Deriving concepts and results mathematically",
+      "Understanding the basics of algorithms",
+      "Learning to model and understand different algorithms",
+      "Identifying advantages and disadvantages of each algorithm",
+      "dependent and independent variables",
+      "observation as a collection of predictors and target variables",
+      "multiple observations with the same variable are combined to form a data set",
+      "Vector representation"
     ],
-    "category": "AI",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This book covers the most common methods in machine learning."
+    "content_preview": "Document: Machine Learning Methodologies",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence",
+      "Mathematics and Statistics",
+      "Data Science/Artificial Intelligence",
+      "Finance",
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machine learning",
+      "tech1",
+      "tech2",
+      "numpy",
+      "scikit-learn"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "building blocks",
+      "methodologies"
+    ],
+    "methodologies": [
+      "derivation",
+      "construction",
+      "basic",
+      "intermediate",
+      "method1"
+    ],
+    "tools_mentioned": [
+      "tool box",
+      "linear algebra",
+      "tool1",
+      "tool2",
+      "Python"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Deep Learning",
+      "Modeling",
+      "Decision Making",
+      "Predictive Modeling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning Methodologies",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: machine learning, building blocks, methodologies",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "7c5ed2e6b6003940ce741bb76d36edb3",
