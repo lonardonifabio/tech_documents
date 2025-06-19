@@ -21993,18 +21993,80 @@
     "title": "Deep Learning with MATLAB",
     "authors": [],
     "filepath": "documents/Deep_Learning_eBook_1636962260.pdf",
-    "upload_date": "2025-06-03T22:07:04.278526",
+    "upload_date": "2025-06-19T14:50:37.119704",
     "file_size": 5641209,
-    "summary": "This document introduces deep learning, a type of machine learning that uses neural networks to perform classification tasks directly from images, text, or sound. It highlights various applications such as self-driving vehicles, ATM fraud detection, and smartphone translations.",
+    "summary": "Deep learning is a type of machine learning that uses neural networks to perform classification tasks directly from images, text, or sound. It is well-suited for identification applications such as face recognition, text translation, and voice recognition.",
     "keywords": [
       "Deep Learning",
       "Machine Learning",
       "Neural Networks",
+      "Artificial Intelligence"
+    ],
+    "key_concepts": [
+      "A type of machine learning that uses neural networks to perform classification tasks",
+      "The use of deep learning in identification applications such as face recognition and voice recognition",
+      "The state-of-the-art accuracy of deep learning algorithms"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Deep Learning with MATLAB",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
       "MATLAB"
     ],
-    "category": "AI",
-    "difficulty": "Intermediate",
-    "content_preview": "Introducing Deep Learning with MATLAB"
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Deep Learning",
+      "Machine Learning",
+      "Neural Networks"
+    ],
+    "methodologies": [
+      "neural network architecture"
+    ],
+    "tools_mentioned": [
+      "MATLAB"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Face recognition",
+      "Text translation",
+      "Voice recognition"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning with MATLAB",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Deep Learning, Machine Learning, Neural Networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "fd5f0649982b61329cd369c1f94e8dc1",
