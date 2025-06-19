@@ -46217,28 +46217,75 @@
   {
     "id": "6e1a8aef2ffe183c6e47d065a36648d0",
     "filename": "Python_Cheat_Sheet_1622661095.pdf",
-    "title": "Python Basics: Getting Started with IDLE",
+    "title": "Python Basics: Getting Started",
     "authors": [],
     "filepath": "documents/Python_Cheat_Sheet_1622661095.pdf",
-    "upload_date": "2025-06-15T08:35:06.632555",
+    "upload_date": "2025-06-18T20:37:59.650535",
     "file_size": 245352,
-    "summary": "This document provides an introduction to Python programming, focusing on the use of IDLE (Integrated Development and Learning Environment) for writing and running Python code. It explains the advantages of using IDLE over other text editors, describes the Shell mode of operation in IDLE, and lists the three most common data types in Python: integers, strings, and objects.",
+    "summary": "This document provides an introduction to Python, its installation, and the IDLE environment. It explains how to write and run Python code using a text editor or Command Line, and introduces the concept of data types in Python. The document also covers the basics of the Python shell and its uses.",
     "keywords": [
-      "Python",
+      "Python"
+    ],
+    "key_concepts": [],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Python Basics: Getting Started",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Software Development"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python"
+    ],
+    "methodologies": [
+      "text editor",
+      "IDE"
+    ],
+    "tools_mentioned": [
       "IDLE",
-      "Data Types",
-      "Integers",
-      "Strings"
+      "Command Line"
     ],
-    "key_concepts": [
-      "IDLE is a pre-installed IDE on many Windows and Mac computers that comes with every Python installation.",
-      "IDLE's advantage over other text editors lies in its ability to highlight important keywords, making it easier for users to interpret code.",
-      "The Shell mode of operation in IDLE follows four steps: reads a Python statement, evaluates the results, prints the result on the screen, and loops back to read the next statement.",
-      "Python shell is useful for testing small code snippets."
+    "prerequisites": [
+      "Basic understanding of the subject matter"
     ],
-    "category": "Technology",
-    "difficulty": "Beginner",
-    "content_preview": "Learn about IDLE, a pre-installed IDE on many computers that comes with Python. Discover its advantages and how to use the Shell mode for testing code."
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Learning Python",
+      "Data Science"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python Basics: Getting Started",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.75
   },
   {
     "id": "defec14980d29ef48a02e0afa0250de7",
