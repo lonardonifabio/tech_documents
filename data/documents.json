@@ -57240,22 +57240,107 @@
   {
     "id": "b558599b8a8be70f46e9009898e150db",
     "filename": "Resources_for_Data_Scientists_1635584288.pdf",
-    "title": "Resources for Data Scientists",
+    "title": "Machine Learning Advancements",
     "authors": [],
     "filepath": "documents/Resources_for_Data_Scientists_1635584288.pdf",
-    "upload_date": "2025-06-03T22:07:07.980556",
+    "upload_date": "2025-06-19T14:50:44.226748",
     "file_size": 237274,
-    "summary": "This document provides a comprehensive guide to various topics in Machine Learning, including Data Quality, Data Engineering, Data Discovery, Classification, Regression, Forecasting, Recommendation, Search & Ranking, Embeddings, Natural Language Processing, Sequence Modelling, Computer Vision, Reinforcement Learning, Anomaly Detection, Graph, Op...",
+    "summary": "A summary of recent advancements in machine learning, including various topics such as data quality, engineering, discovery, and more. The document provides an overview of different research papers and projects related to these topics.",
     "keywords": [
       "Machine Learning",
-      "Data Science",
       "Data Quality",
       "Data Engineering",
-      "Data Discovery"
+      "Natural Language Processing",
+      "Computer Vision",
+      "Reinforcement Learning",
+      "computer vision",
+      "deep learning",
+      "machine learning",
+      "neural networks"
+    ],
+    "key_concepts": [
+      "Advancements in Machine Learning",
+      "Data Quality and Management",
+      "Data Engineering and Discovery",
+      "NLP and Computer Vision Applications",
+      "Artificial intelligence",
+      "Deep reinforcement learning",
+      "Computer vision metrics",
+      "Image captioning",
+      "Natural language processing"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "P.S., W ant a summary of ML advancements? 👉ml-surveys"
+    "content_preview": "Document: Machine Learning Advancements",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Technology",
+      "Computer Vision"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "ml",
+      "data engineering",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Data Quality",
+      "Data Engineering"
+    ],
+    "methodologies": [
+      "machine learning",
+      "data science",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "zipline",
+      "sputnik",
+      "feast",
+      "metaflow",
+      "aws step functions"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Data Engineering",
+      "Image Recognition",
+      "Natural Language Processing"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning Advancements",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, Data Quality, Data Engineering",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a88f33e2c9547e77468d10fb34b86ff3",
