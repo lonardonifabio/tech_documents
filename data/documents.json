@@ -4654,28 +4654,99 @@
   {
     "id": "4cea72e04c8d97c244e25b2cf14a1c2c",
     "filename": "AI_NIST_Report_1743720199.pdf",
-    "title": "NIST Trustworthy and Responsible AI - Adversarial Machine Learning",
-    "authors": [
-      "Alina Oprea Apostol Vassilev",
-      "Maia Hamin",
-      "Alie Fordyce",
-      "Hyrum Anderson",
-      "Xander Davies"
-    ],
+    "title": "Adversarial Machine Learning A Taxonomy and Terminology of Attacks and Mitigations",
+    "authors": [],
     "filepath": "documents/AI_NIST_Report_1743720199.pdf",
-    "upload_date": "2025-06-05T20:14:15.896626",
+    "upload_date": "2025-06-19T06:13:25.877317",
     "file_size": 4184989,
-    "summary": "This document, NIST AI 100-2e2025, presents a taxonomy and terminology of attacks and mitigations for Adversarial Machine Learning. It is a collaborative work by Alina Oprea Apostol Vassilev, Maia Hamin, Alie Fordyce, Hyrum Anderson, Xander Davies from various institutions including Northeastern University, U.S. AI Safety Institute, National Ins...",
+    "summary": "This publication provides a taxonomy and terminology of attacks and mitigations related to adversarial machine learning. It is available for free from https://doi.org/10.6028/NIST.AI.100-2e2025.",
     "keywords": [
       "Adversarial Machine Learning",
-      "Taxonomy",
-      "Terminology",
-      "Attacks",
-      "Mitigations"
+      "Taxonomy and Terminology",
+      "Computer Security",
+      "Supply Chain Attacks",
+      "Data Poisoning",
+      "Model Poisoning",
+      "Direct Prompting",
+      "Indirect Prompt Injection"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Trustworthy AI",
+      "Responsible AI",
+      "AI Safety",
+      "Attacker Capabilities",
+      "Mitigations",
+      "Security of Agents",
+      "Benchmarks for AML Vulnerabilities"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "NIST Trustworthy and Responsible AI, NIST AI 100-2e2025, Adversarial Machine Learning"
+    "content_preview": "Document: Adversarial Machine Learning A Taxonomy and Terminology of Attacks and Mitigations",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Computer Security",
+      "Cybersecurity"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Adversarial Machine Learning",
+      "Taxonomy and Terminology",
+      "Computer Security"
+    ],
+    "methodologies": [
+      "method1",
+      "method2",
+      "Supply Chain Attacks",
+      "Model Poisoning Attacks"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2",
+      "Data Poisoning",
+      "Direct Prompting",
+      "Indirect Prompt Injection"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Supply Chain Attacks",
+      "Model Poisoning Attacks"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Adversarial Machine Learning A Taxonomy and Terminology of Attacks and Mitigations",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Adversarial Machine Learning, Taxonomy and Terminology, Computer Security",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "1d3c777a4c54d4186ebca8b70feb7441",
