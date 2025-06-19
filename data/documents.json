@@ -47156,30 +47156,89 @@
     "id": "3a812fa80159ac872a32c581e74a247c",
     "filename": "Python_for_Data_Analysis_1568023000.pdf",
     "title": "Python for Data Analysis",
-    "authors": [
-      "Katia Oleinik (koleinik@bu.edu)"
-    ],
+    "authors": [],
     "filepath": "documents/Python_for_Data_Analysis_1568023000.pdf",
-    "upload_date": "2025-06-15T08:35:06.810555",
+    "upload_date": "2025-06-18T20:37:59.907535",
     "file_size": 1141119,
-    "summary": "This document provides a comprehensive tutorial on using Python for data analysis, covering topics such as reading and filtering data, data manipulation, plotting, descriptive and inferential statistics, and introducing popular libraries like NumPy, SciPy, Pandas, SciKit-Learn, matplotlib, and Seaborn. All these libraries are installed on the SCC.",
+    "summary": "This document provides an overview of Python libraries for data scientists, including NumPy, SciPy, and Pandas. It covers topics such as data manipulation, plotting, descriptive statistics, and inferential statistics. The document also mentions visualization libraries like matplotlib and Seaborn.",
     "keywords": [
       "Python",
       "Data Analysis",
-      "Data Science",
       "NumPy",
-      "SciPy"
+      "SciPy",
+      "Pandas",
+      "Data Science"
     ],
     "key_concepts": [
-      "This tutorial introduces Python as a powerful tool for data analysis.",
-      "The document covers various libraries such as NumPy, SciPy, Pandas, and SciKit-Learn that are essential for data scientists.",
-      "Key topics include reading, filtering, manipulating, plotting, and performing descriptive and inferential statistics using Python.",
-      "Visualization libraries like matplotlib and Seaborn are also discussed in the tutorial.",
-      "All these libraries are installed on the SCC for easy access."
+      "Data manipulation",
+      "Data visualization",
+      "Statistical operations",
+      "Linear algebra",
+      "Numerical integration"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn Python for Data Analysis with popular libraries like NumPy, SciPy, Pandas, and more."
+    "content_preview": "Document: Python for Data Analysis",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Research Computing Services"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "NumPy",
+      "SciPy",
+      "Pandas"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Data Analysis",
+      "NumPy"
+    ],
+    "methodologies": [
+      "Data Analysis",
+      "Research Computing"
+    ],
+    "tools_mentioned": [
+      "matplotlib",
+      "Seaborn"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python for Data Analysis",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, Data Analysis, NumPy",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "0a2749b02ce77530d29c819458035181",
