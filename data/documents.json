@@ -50721,22 +50721,87 @@
   {
     "id": "1508e1d88f59d1fdb50589a7c584f0a5",
     "filename": "PySpark Cheat Sheet Spark DataFrames in Python.pdf",
-    "title": "PySpark Cheat Sheet Spark DataFrames in Python",
+    "title": "PySpark SQL Basic Example",
     "authors": [],
     "filepath": "documents/PySpark Cheat Sheet Spark DataFrames in Python.pdf",
-    "upload_date": "2025-06-05T20:14:25.954772",
+    "upload_date": "2025-06-19T14:50:43.452743",
     "file_size": 1749790,
-    "summary": "This document provides a cheat sheet for using PySpark SQL, focusing on creating, manipulating, and querying DataFrames in Python. It also includes examples of reading data from files and configuring options.",
+    "summary": "This document provides a basic example of using PySpark SQL to work with structured data. It covers initializing a SparkSession, creating a DataFrame from a text file, and transforming the data using various operations.",
     "keywords": [
       "PySpark",
-      "SQL",
-      "DataFrame",
+      "Spark SQL",
+      "Apache Spark",
       "Python",
-      "Apache Spark"
+      "Data Science"
+    ],
+    "key_concepts": [
+      "Creating a Spark Session",
+      "Registering DataFrames as Tables",
+      "Executing SQL Queries",
+      "Caching Tables and Reading Parquet Files"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Initalizing SparkSession\nDuplicate Values\nQueries\nCreating DataFrames\nAdd, Update & Remove Columns\nOutput\nStopping SparkSession"
+    "content_preview": "Document: PySpark SQL Basic Example",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "PySpark"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "PySpark",
+      "Spark SQL",
+      "Apache Spark"
+    ],
+    "methodologies": [
+      "Data Science",
+      "Machine Learning"
+    ],
+    "tools_mentioned": [
+      "Apache Spark",
+      "SQL"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Machine Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: PySpark SQL Basic Example",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: PySpark, Spark SQL, Apache Spark",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "7a92bfe9949855ecefca7f11438eea8b",
