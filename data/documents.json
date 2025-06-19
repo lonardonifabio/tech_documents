@@ -44423,30 +44423,106 @@
     "id": "4e2dafbd3a6bb026c4d6c6272c28b040",
     "filename": "Optimization_for_Machine_Learning_1630616567.pdf",
     "title": "Optimization for Machine Learning",
-    "authors": [
-      "Gabriel Peyr\u0013 e"
-    ],
+    "authors": [],
     "filepath": "documents/Optimization_for_Machine_Learning_1630616567.pdf",
-    "upload_date": "2025-06-15T10:34:03.162551",
+    "upload_date": "2025-06-19T06:13:35.838346",
     "file_size": 9282151,
-    "summary": "This document presents first order optimization methods and their applications to machine learning, focusing on scalable methods that can handle large datasets and models with many parameters. The course covers basic theoretical properties of optimization problems, gradient descent, stochastic gradient method, automatic differentiation, shallow and deep networks.",
+    "summary": "This document presents rst order optimization methods and their applications to machine learning, focusing on cheap methods that can scale to large datasets and models with lots of parameters. The course covers basic theoretical properties of optimization problems, gradient descent, stochastic gradient method, automatic differentiation, shallow and deep networks.",
     "keywords": [
-      "Optimization",
-      "Machine Learning",
-      "Gradient Descent",
-      "Stochastic Gradient Method",
-      "Automatic Differentiation"
+      "optimization",
+      "machine learning",
+      "gradient descent",
+      "convex analysis",
+      "automatic differentiation",
+      "feed-forward compositions",
+      "feed-forward architecture",
+      "recurrent architectures",
+      "unconstrained optimization",
+      "Moore-Penrose pseudo-inverse"
     ],
     "key_concepts": [
-      "This document presents first order optimization methods and their applications to machine learning.",
-      "The course covers basic theoretical properties of optimization problems, including convex analysis and first order differential calculus.",
-      "The focus is on scalable methods that can handle large datasets and models with many parameters.",
-      "The methods discussed are variations around the notion of gradient descent.",
-      "The course covers shallow and deep networks."
+      "rst order optimization methods",
+      "unconstrained optimization",
+      "regression",
+      "classification",
+      "convexity",
+      "Reverse Mode of Automatic Differentiation",
+      "Feed-Forward Compositions",
+      "Feed-Forward Architecture",
+      "Recurrent Architectures",
+      "Unconstrained Optimization"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document presents first order optimization methods for machine learning."
+    "content_preview": "Document: Optimization for Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning",
+      "Data Analysis"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "gradient descent",
+      "stochastic gradient method",
+      "gradient information"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "optimization",
+      "machine learning",
+      "gradient descent"
+    ],
+    "methodologies": [
+      "optimization methods",
+      "automatic differentiation",
+      "unconstrained optimization",
+      "convex optimization",
+      "Moore-Penrose pseudo-inverse"
+    ],
+    "tools_mentioned": [
+      "algorithms with low computational cost per iteration",
+      "linear operator",
+      "ortho-basis"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Optimization for Machine Learning",
+      "Regression",
+      "Classification",
+      "Data Compression",
+      "Feature Extraction"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Optimization for Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: optimization, machine learning, gradient descent",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "6579a1523eb65017587277277c3ea9dd",
