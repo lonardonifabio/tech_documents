@@ -16832,30 +16832,86 @@
   {
     "id": "1f49eb1af173185e56aaa1bf0e76663c",
     "filename": "Data_Science_Cheat_sheet_1667650280.pdf",
-    "title": "Data Science Cheatsheets to Rule the World",
-    "authors": [
-      "FavioV azquez"
-    ],
+    "title": "Data Science Cheatsheets",
+    "authors": [],
     "filepath": "documents/Data_Science_Cheat_sheet_1667650280.pdf",
-    "upload_date": "2025-06-15T08:34:59.730534",
+    "upload_date": "2025-06-19T06:13:29.389326",
     "file_size": 10871964,
-    "summary": "This document is a comprehensive list of cheat sheets for various aspects of data science, including Python, R, and business science problem framework. It covers topics such as data import, transformation, regular expressions, package development, and big data tools like Pyspark and Dask. The resource is available on GitHub under the MIT license.",
+    "summary": "A list of data science cheatsheets covering various topics such as Python, R, pandas, and more, with over 11k stars and 3.3k forks on GitHub.",
     "keywords": [
-      "Data Science",
-      "Python",
-      "R",
-      "Cheat Sheets",
-      "GitHub"
+      "data science",
+      "cheatsheets",
+      "python",
+      "r",
+      "machine learning"
     ],
     "key_concepts": [
-      "The document provides a list of cheat sheets for various aspects of data science.",
-      "It covers topics such as data import, transformation, regular expressions, and package development in Python and R.",
-      "The resource is available on GitHub under the MIT license.",
-      "The document serves as a quick reference guide for data scientists."
+      "Data Science with Python Workflow",
+      "Business Science Problem Framework",
+      "Data Transformation with Dplyr"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A list of Data Science Cheatsheets available on GitHub."
+    "content_preview": "Document: Data Science Cheatsheets",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "R"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "data science",
+      "cheatsheets",
+      "python"
+    ],
+    "methodologies": [
+      "Data Science with Python Workflow",
+      "Data Science with R Workflow"
+    ],
+    "tools_mentioned": [
+      "Jupyter",
+      "Pandas",
+      "NumPy",
+      "data.table",
+      "xts"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Science Cheatsheets",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: data science, cheatsheets, python",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "4fd7ed5c56e6c9de0e7ca6e23a63ef25",
