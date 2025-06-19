@@ -5422,37 +5422,95 @@
     "id": "5608498b23c043df4bb7ef92dc3763c3",
     "filename": "AI_Security_Risk_Assessment_1749414876.pdf",
     "title": "AI Security Risk Assessment",
-    "authors": [
-      "Will Pearce",
-      "Hyrum Anderson",
-      "Ram Shankar Siva Kumar",
-      "Neil Coles",
-      "Andrew Paverd",
-      "Andrew Marshall",
-      "Aashish Bhateja",
-      "Alex Sutton"
-    ],
+    "authors": [],
     "filepath": "documents/AI_Security_Risk_Assessment_1749414876.pdf",
-    "upload_date": "2025-06-12T09:23:35.292492",
+    "upload_date": "2025-06-19T06:13:26.032317",
     "file_size": 510946,
-    "summary": "This document provides best practices and guidance for securing AI systems. It covers topics such as data collection, processing, model training, deployment, system monitoring, incident management, and business continuity planning. The suggested approach includes severity, likelihood, impact assessment, security testing, and compliance review. Key contributors include Will Pearce, Hyrum Anderson, Ram Shankar Siva Kumar, Neil Coles, Andrew Paverd, Andrew Marshall, Aashish Bhateja, and Alex Sutton.",
+    "summary": "Best practices and guidance to secure AI systems. The document provides a comprehensive framework for assessing and mitigating security risks in AI systems, covering data collection, processing, model training, deployment, and system monitoring. It also includes suggested severity, likelihood, and impact matrices, as well as guidelines for roles and responsibilities, business continuity planning, and incident management.",
     "keywords": [
       "AI Security",
       "Risk Assessment",
-      "Data Collection",
-      "Model Training",
-      "System Monitoring"
+      "Best Practices",
+      "control",
+      "risk assessment",
+      "data collection",
+      "machine learning",
+      "artificial intelligence",
+      "security",
+      "compliance"
     ],
     "key_concepts": [
-      "The document offers a comprehensive approach to securing AI systems by assessing severity, likelihood, and impact.",
-      "Data collection is an essential step in the security assessment process, involving data sources, sensitive data types, storage, access, integrity, and more.",
-      "Model training is crucial for ensuring the security of AI systems. The document discusses model design, selection, versioning, and other aspects related to this stage.",
-      "Security testing and compliance review are vital components of the approach outlined in the document.",
-      "The document emphasizes the importance of system monitoring, incident management, business continuity planning, and log reviews."
+      "Machine Learning Security",
+      "Data Protection",
+      "Model Training and Deployment",
+      "Risk Management",
+      "Data Integrity",
+      "Threat Assessment",
+      "Control Implementation",
+      "Trusted Data Sources"
     ],
-    "category": "AI",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "AI Security Risk Assessment Best practice s and guidance to secure AI systems"
+    "content_preview": "Document: AI Security Risk Assessment",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI Security",
+      "Risk Assessment",
+      "Best Practices"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "AI Security Risk Assessment",
+      "Machine Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: AI Security Risk Assessment",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: AI Security, Risk Assessment, Best Practices",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "e7aea33c26ce3309671fde330fb8eedb",
