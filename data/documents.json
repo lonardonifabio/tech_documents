@@ -16477,22 +16477,88 @@
   {
     "id": "6e18ade58d8f3d053896ff95ea7b8dad",
     "filename": "Data Wrangling Pandas.pdf",
-    "title": "Python For Data Science Cheat Sheet - Pandas",
+    "title": "Python For Data Science Cheat Sheet",
     "authors": [],
     "filepath": "documents/Data Wrangling Pandas.pdf",
-    "upload_date": "2025-06-03T17:53:39.181077",
+    "upload_date": "2025-06-19T06:13:28.808325",
     "file_size": 190372,
-    "summary": "This document provides a cheat sheet for using the Pandas library in Python for data science, covering topics such as reshaping data, advanced indexing, reindexing, pivot tables, stack/unstack, melt, and handling missing data.",
+    "summary": "A comprehensive guide to Python for data science, covering topics such as Pandas, reshaping data, advanced indexing, and more. The document also includes examples of using the DataCamp platform to learn Python for data science interactively.",
     "keywords": [
-      "Python",
-      "Data Science",
-      "Pandas",
-      "Cheat Sheet",
-      "Reshaping Data"
+      "pandas",
+      "python",
+      "data science",
+      "reshaping data",
+      "advanced indexing"
+    ],
+    "key_concepts": [
+      "reindexing",
+      "forward filling",
+      "backward filling",
+      "pivot",
+      "unstack",
+      "melt",
+      "combining data"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Python For Data Science Cheat Sheet\nPandas\nLearn Python for Data Science Interactively  at  www.DataCamp.com"
+    "content_preview": "Document: Python For Data Science Cheat Sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science and Analytics"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "pandas",
+      "python",
+      "data science"
+    ],
+    "methodologies": [
+      "Data Science"
+    ],
+    "tools_mentioned": [
+      "Pandas",
+      "NumPy"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Preprocessing",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python For Data Science Cheat Sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: pandas, python, data science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "606386721b30d98b67e1bf8ee3051aa0",
