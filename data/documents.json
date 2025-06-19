@@ -34567,21 +34567,87 @@
   {
     "id": "a8ddc8ec522d25c006abfb94f6a6da7a",
     "filename": "Israel_Palestine_Conflict_1696917403.pdf",
-    "title": "Human Cost of Israel-Palestine Conflict (2000 - 2021) Analysis",
+    "title": "Human Cost of Israel-Palestine Conflict (2000-2021) Analysis",
     "authors": [],
     "filepath": "documents/Israel_Palestine_Conflict_1696917403.pdf",
-    "upload_date": "2025-06-04T21:18:52.390023",
+    "upload_date": "2025-06-19T14:50:39.670719",
     "file_size": 1396634,
-    "summary": "This document presents a statistical analysis of the number of injuries and deaths among Palestinians and Israelis during the conflict from 2000 to 2021, using Python libraries such as pandas, matplotlib, seaborn, and plotly.",
+    "summary": "The document provides an analysis of the human cost of the Israel-Palestine conflict from 2000 to 2021, including injury and fatality numbers for Palestinians and Israelis.",
     "keywords": [
       "Israel-Palestine Conflict",
-      "Data Analysis",
-      "Statistics",
-      "Python Libraries"
+      "Human Cost",
+      "Conflict Analysis"
     ],
-    "category": "Data Science",
+    "key_concepts": [
+      "Palestinian Injuries",
+      "Israeli Injuries",
+      "Palestinian and Israeli Fatalities"
+    ],
+    "category": "Research",
     "difficulty": "Intermediate",
-    "content_preview": "Year Month Palestinians Injur ies Israelis Injur ies Palestinians Killed Israelis Killed\n02000 DECEMBER 781 NaN 51 8"
+    "content_preview": "Document: Human Cost of Israel-Palestine Conflict (2000-2021) Analysis",
+    "target_audience": "Professionals in research field",
+    "industry": [
+      "Conflict Resolution"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "pandas",
+      "matplotlib",
+      "seaborn",
+      "plotly"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Israel-Palestine Conflict",
+      "Human Cost",
+      "Conflict Analysis"
+    ],
+    "methodologies": [
+      "data analysis",
+      "data visualization"
+    ],
+    "tools_mentioned": [
+      "Python",
+      "CSV file"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand research concepts"
+    ],
+    "use_cases": [
+      "Humanitarian Analysis",
+      "Peacekeeping"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Human Cost of Israel-Palestine Conflict (2000-2021) Analysis",
+      "Q: What category? A: Research",
+      "Q: Key concepts? A: Israel-Palestine Conflict, Human Cost, Conflict Analysis",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "50cf6a6ca95a5f78b667498c76b5513b",
