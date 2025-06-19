@@ -32503,24 +32503,100 @@
   {
     "id": "4b304f21f0297f250678964fc6800749",
     "filename": "Intro_to_Deep_Learning_HUJI_1638274642.pdf",
-    "title": "Intro to Deep Learning - HUJI",
-    "authors": [
-      "Hadar Sharvit"
-    ],
+    "title": "Intro to Deep Learning",
+    "authors": [],
     "filepath": "documents/Intro_to_Deep_Learning_HUJI_1638274642.pdf",
-    "upload_date": "2025-06-04T21:18:52.102021",
+    "upload_date": "2025-06-19T14:50:39.296717",
     "file_size": 15105642,
-    "summary": "This document is a set of lecture notes on Introduction to Deep Learning, written by Hadar Sharvit based on the lectures given by Raanan Fattal and recitations by Matan Halfon. The content covers topics such as Information Theory, Neural Network Model, Perceptron, Multi Layer Perceptron (MLP), Activation Function, Loss Function, Regression Loss,...",
+    "summary": "This document provides a summary of the lectures given by Raanan Fattal and Matan Halfon on deep learning, covering topics such as information theory, neural networks, activation functions, loss functions, and network training. The course is informal and not intended to be formal.",
     "keywords": [
       "Deep Learning",
       "Neural Networks",
+      "Entropy",
+      "Cross-Entropy",
       "Perceptron",
       "Multi Layer Perceptron",
-      "Activation Function"
+      "Activation Function",
+      "Loss Function",
+      "Gradient Descent",
+      "maximum likelihood principle"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Introduction to Deep Learning",
+      "Neural Network Models",
+      "Information Theory",
+      "Machine Learning Optimization",
+      "Maximum Likelihood Estimation",
+      "Log-Likelihood Function",
+      "Conditional Probability",
+      "Hyper-plane",
+      "Half-plane",
+      "Supervised Learning"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document is a set of lecture notes on Introduction to Deep Learning..."
+    "content_preview": "Document: Intro to Deep Learning",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Neural Networks",
+      "Deep Learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Deep Learning",
+      "Neural Networks",
+      "Entropy"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Gradient Descent"
+    ],
+    "tools_mentioned": [
+      "Python",
+      "TensorFlow"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Deep Learning",
+      "Neural Networks",
+      "Binary Classification",
+      "Supervised Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Intro to Deep Learning",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Deep Learning, Neural Networks, Entropy",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.875
   },
   {
     "id": "8dee35d284a168ecc1d0070ef6994da6",
