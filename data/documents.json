@@ -47265,31 +47265,102 @@
   {
     "id": "af95da018218b5dfa286f4a10a471188",
     "filename": "Python_1747291020.pdf",
-    "title": "How to Think Like a Computer Scientist (Python 3rd Edition)",
-    "authors": [
-      "Allen B. Downey"
-    ],
+    "title": "Think Python HOW TO THINK LIKE A COMPUTER SCIENTIST",
+    "authors": [],
     "filepath": "documents/Python_1747291020.pdf",
-    "upload_date": "2025-06-15T10:34:03.642550",
+    "upload_date": "2025-06-19T06:13:36.320348",
     "file_size": 1949867,
-    "summary": "This document provides an introduction to programming and computer science concepts using the Python programming language. It covers topics such as data structures, algorithms, and problem-solving strategies. The book emphasizes practical applications and encourages readers to write code and solve problems on their own. This edition has been updated for Python 3.",
+    "summary": "A comprehensive guide to programming with Python, covering the basics of programming, data types, control structures, functions, and more. Updated for Python 3.",
     "keywords": [
-      "Python",
-      "Programming",
-      "Computer Science",
-      "Algorithms",
-      "Data Structures"
+      "python",
+      "programming",
+      "computer science",
+      "runtime errors",
+      "semantic errors",
+      "algorithms",
+      "order of growth",
+      "basic python operations",
+      "search algorithms",
+      "hashtables"
     ],
     "key_concepts": [
-      "Learn programming concepts using the Python language",
-      "Understand problem-solving strategies and write code to solve problems",
-      "Gain practical experience by writing and debugging code",
-      "Explore data structures such as lists, dictionaries, and classes",
-      "Implement algorithms for common tasks like sorting and searching"
+      "variables",
+      "functions",
+      "data types",
+      "program hangs",
+      "exception",
+      "print statements",
+      "big hairy expression",
+      "function not returning expected result"
     ],
-    "category": "Technology",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn Python programming with practical applications and problem-solving strategies."
+    "content_preview": "Document: Think Python HOW TO THINK LIKE A COMPUTER SCIENTIST",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Computer Science",
+      "Software Development"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "python",
+      "programming",
+      "computer science"
+    ],
+    "methodologies": [
+      "Object-Oriented Programming",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "turtle",
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Learning Python",
+      "Understanding Programming Concepts",
+      "Debugging",
+      "Testing"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Think Python HOW TO THINK LIKE A COMPUTER SCIENTIST",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: python, programming, computer science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "eed162373d4b10f64d64180d72053a0c",
