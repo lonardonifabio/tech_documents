@@ -1456,31 +1456,109 @@
   {
     "id": "56868df24fba211a58040667a5985069",
     "filename": "50_Years_of_Data_Science_1629784379.pdf",
-    "title": "50 Years of Data Science",
-    "authors": [
-      "David Donoho"
-    ],
+    "title": "50 years of Data Science",
+    "authors": [],
     "filepath": "documents/50_Years_of_Data_Science_1629784379.pdf",
-    "upload_date": "2025-06-15T08:34:55.702518",
+    "upload_date": "2025-06-18T20:37:48.721541",
     "file_size": 459090,
-    "summary": "This document discusses the evolution of data science over the past 50 years, starting with John Tukey's call for a reformation in academic statistics. It highlights the works of John Chambers, Bill Cleveland, and Leo Breiman who emphasized the importance of data preparation, prediction, and expanding the boundaries of traditional statistics. The paper also touches upon the emergence of Data Science programs at major universities and their curricular overlap with traditional statistics courses.",
+    "summary": "More than 50 years ago, John Tukey called for a reformation of academic statistics. In recent years, there has been an emergence of Data Science programs at major universities, including UC Berkeley and NYU. These programs have led to a growing phenomenon in the field of Data Science, with some overlap in curricular subject matter with traditional statistics courses.",
     "keywords": [
+      "data science",
+      "statistics",
+      "academic reform",
       "Data Science",
+      "Acronyms",
       "Statistics",
-      "Academic Statistics",
-      "John Tukey",
-      "John Chambers"
+      "big data",
+      "data analysis",
+      "information technology",
+      "job market"
     ],
     "key_concepts": [
-      "The emergence of Data Science as a distinct field from traditional statistics",
-      "The call for academic statistics to expand its boundaries beyond theoretical statistics",
-      "The importance of data preparation and prediction in Data Science",
-      "The growth of Data Science programs at major universities",
-      "The overlap between Data Science and traditional statistics curricula"
+      "The emergence of Data Science as a distinct field",
+      "The evolution of academic statistics",
+      "The growing phenomenon of Data Science programs",
+      "Data Analysis",
+      "Computing with data",
+      "Scientific Discovery",
+      "The impact of big data on job markets",
+      "The importance of computing and database skills in data science",
+      "The limitations of traditional statistics degrees in the age of big data"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document reviews some ingredients of the current Data Science moment, including recent commentary about data science in the popular media."
+    "content_preview": "Document: 50 years of Data Science",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Academic Statistics",
+      "Data Science",
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2",
+      "R",
+      "SAS",
+      "SPSS"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "data science",
+      "statistics",
+      "academic reform"
+    ],
+    "methodologies": [
+      "method1",
+      "method2",
+      "Exploratory Data Analysis",
+      "Quantitative Programming Environment",
+      "data analysis strategies"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2",
+      "IBM Corp.",
+      "NSF",
+      "computing"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Prediction",
+      "Predictive Modeling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: 50 years of Data Science",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: data science, statistics, academic reform",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "044f4d8f3fae25611a3a5d32e952abb1",
