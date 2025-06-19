@@ -43242,26 +43242,94 @@
   {
     "id": "134d10b9c32b70f0925cc8df5197fbdc",
     "filename": "Machine_learning_comprehensive_guide__1610184484.pdf",
-    "title": "A Comprehensive Guide to Machine Learning",
-    "authors": [
-      "Soroush Nasiriany",
-      "Garrett Thomas",
-      "William Wang",
-      "Alex Yang"
-    ],
+    "title": "Machine Learning",
+    "authors": [],
     "filepath": "documents/Machine_learning_comprehensive_guide__1610184484.pdf",
-    "upload_date": "2025-06-03T22:07:06.448544",
+    "upload_date": "2025-06-19T14:50:41.503731",
     "file_size": 20808099,
-    "summary": "This document is a comprehensive guide to the Machine Learning course at UC Berkeley, created by CS 189 TAs. It covers various topics and notations used in machine learning.",
+    "summary": "A comprehensive guide to machine learning created by Soroush Nasiriany, Garrett Thomas, William Wang, and Alex Yang for CS 189 at UC Berkeley. The guide aims to share knowledge with students and the general public, while drawing interest from other universities.",
     "keywords": [
       "Machine Learning",
       "CS 189",
-      "UC Berkeley",
-      "Notation"
+      "University of California, Berkeley",
+      "machine learning",
+      "regression",
+      "function approximation",
+      "dataset",
+      "hypothesis class",
+      "parametric model"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Comprehensive course guide",
+      "Machine learning curriculum",
+      "Notation and terminology",
+      "Relationship extraction from data",
+      "Function y=f(x)",
+      "Recovery of true relationship",
+      "Approximation of function f with hypothesis h(x)"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This guide was started by CS 189 TAs Soroush Nasiriany and Garrett Thomas in Fall 2017..."
+    "content_preview": "Document: Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Computer Science",
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "CS 189",
+      "University of California, Berkeley"
+    ],
+    "methodologies": [
+      "method1",
+      "method2",
+      "parametric model"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning course",
+      "Education",
+      "Regression Tasks"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, CS 189, University of California, Berkeley",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "6cf5ef7992cff79d1e79a06fae5d0d59",
