@@ -75333,22 +75333,81 @@
   {
     "id": "c7764ae50d4feef11aafb0460a5f84d4",
     "filename": "lr1_1622445218.pdf",
-    "title": "Linear Regression Introduction",
+    "title": "Linear Regression",
     "authors": [],
     "filepath": "documents/lr1_1622445218.pdf",
-    "upload_date": "2025-06-03T17:21:46.050985",
+    "upload_date": "2025-06-19T14:50:47.484767",
     "file_size": 794617,
-    "summary": "This document introduces Linear Regression, a linear model used to find the relationship between two continuous variables. It explains the equation Y = W1*X + b for one input variable.",
+    "summary": "Linear regression is a linear model that assumes a linear relationship between input variables and a single output variable. It calculates the best fit line to minimize error, using methods such as ordinary least squares or gradient descent.",
     "keywords": [
-      "Linear Regression",
-      "Machine Learning",
-      "Regression Analysis",
-      "Gradient",
-      "Slope"
+      "linear regression",
+      "machine learning",
+      "regression analysis"
+    ],
+    "key_concepts": [
+      "Linear model",
+      "Linear relationship",
+      "Ordinary least squares method"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document introduces Linear Regression, a linear model used to find the relationship between two continuous variables."
+    "content_preview": "Document: Linear Regression",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machine learning",
+      "linear regression"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "linear regression",
+      "machine learning",
+      "regression analysis"
+    ],
+    "methodologies": [
+      "ordinary least squares",
+      "gradient descent"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Predictive Modeling",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Linear Regression",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: linear regression, machine learning, regression analysis",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "17b6589ec0a35e1991b66bfbaa72add5",
