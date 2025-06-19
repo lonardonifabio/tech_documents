@@ -17362,24 +17362,95 @@
     "title": "10 Useful Ways to Visualize Your Data (With Examples)",
     "authors": [],
     "filepath": "documents/Data_Visualization.pdf",
-    "upload_date": "2025-06-15T08:34:59.963535",
+    "upload_date": "2025-06-18T20:37:52.978539",
     "file_size": 591693,
-    "summary": "This document provides a comprehensive guide on effective data visualization techniques for various types of data measurements. It covers 10 different data visualization examples, including Line Chart, Column Chart, Bar Chart, Pie Chart, Area Chart, Pivot Table, Scatter Chart, Scatter Map/Area Map, Treemap, and Indicator. The Indicator data visualization is explained in detail, showcasing its use for presenting changes in data using gauges or tic-markers, and demonstrating one or two numeric values with additional titles and color-coded icons.",
+    "summary": "This guide provides 10 effective data visualization examples to incorporate into dashboards, including indicators, line charts, column charts, and more. It explains how to choose the right visualization type for your data and emphasizes the importance of transforming data into powerful KPI dashboards.",
     "keywords": [
-      "Data Visualization",
-      "Line Chart",
-      "Column Chart",
-      "Bar Chart",
-      "Pie Chart"
+      "data visualization",
+      "KPI dashboards",
+      "column chart",
+      "line chart",
+      "bar chart",
+      "pie chart",
+      "area chart",
+      "pivot table",
+      "scatter chart",
+      "treemap"
     ],
     "key_concepts": [
-      "Indicator data visualization is a vivid way to present changes in data using gauges or tic-markers.",
-      "Indicators allow you to display one or two numeric values with additional titles and color-coded icons for clarity.",
-      "Choose the appropriate data visualization type based on what measurement you are trying to emphasize and what information you are trying to reveal."
+      "data transformation",
+      "data analysis",
+      "data presentation",
+      "indicator data visualization",
+      "data visualization types",
+      "Simplifying and summarizing data",
+      "Creating unweighted cross tabulations",
+      "Visualizing large amounts of data"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn 10 effective data visualization examples for your dashboards today, including Line Chart, Column Chart, Bar Chart, Pie Chart, Area Chart, Pivot Table, Scatter Chart, Scatter Map/Area Map, Treemap."
+    "content_preview": "Document: 10 Useful Ways to Visualize Your Data (With Examples)",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Business Intelligence",
+      "Asset Management"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Excel"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "data visualization",
+      "KPI dashboards",
+      "column chart"
+    ],
+    "methodologies": [
+      "data visualization",
+      "Pivot Table"
+    ],
+    "tools_mentioned": [
+      "Sisense.com",
+      "Tableau"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Visualization",
+      "KPI Dashboards",
+      "Asset Management",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: 10 Useful Ways to Visualize Your Data (With Examples)",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: data visualization, KPI dashboards, column chart",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "9059d281c6df63b1d5edfe2a83374466",
