@@ -51180,29 +51180,86 @@
   {
     "id": "7a98c4d89ca3deaf179b571ed38bc645",
     "filename": "Stat_101_1721194656.pdf",
-    "title": "STATISTICS 101",
+    "title": "Statistics 101",
     "authors": [],
     "filepath": "documents/Stat_101_1721194656.pdf",
-    "upload_date": "2025-06-15T08:35:07.665558",
+    "upload_date": "2025-06-18T20:38:00.791534",
     "file_size": 8031743,
-    "summary": "This document provides an introductory guide to statistics, covering topics such as data collection, descriptive and inferential statistics, probability distributions, hypothesis testing, and regression analysis. The document emphasizes the importance of statistical analysis in making informed decisions and solving real-world problems. It includes practical examples and exercises to help readers understand key concepts.",
+    "summary": "An essential guide to statistics, covering data analysis and predictive modeling, distribution, and probability.",
     "keywords": [
       "Statistics",
       "Data Analysis",
-      "Descriptive Statistics",
-      "Inferential Statistics",
-      "Probability Distributions"
+      "Predictive Modeling",
+      "Distribution",
+      "Probability",
+      "statistics",
+      "data analysis",
+      "data interpretation"
     ],
     "key_concepts": [
-      "Statistics is a mathematical discipline that deals with the collection, analysis, interpretation, and presentation of data.",
-      "Descriptive statistics are used to summarize and describe the main features of a dataset, while inferential statistics are used to make predictions or draw conclusions about a population based on a sample.",
-      "Probability distributions are mathematical models that describe the likelihood of different outcomes in a random experiment.",
-      "Hypothesis testing is a statistical method used to determine whether there is evidence to reject a null hypothesis, which assumes no relationship between variables.",
-      "Regression analysis is a statistical technique used to model the relationship between a dependent variable and one or more independent variables."
+      "Statistical concepts",
+      "Data analysis techniques",
+      "Predictive modeling methods",
+      "What is statistics?",
+      "Types of statistical analysis",
+      "Applications of statistics"
     ],
     "category": "Data Science",
-    "difficulty": "Beginner",
-    "content_preview": "Learn the basics of statistics with practical examples and exercises."
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Statistics 101",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education",
+      "Mathematics/Statistics"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Statistics",
+      "Data Analysis",
+      "Predictive Modeling"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Textbooks",
+      "Training",
+      "Data analysis",
+      "Research"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Statistics 101",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Statistics, Data Analysis, Predictive Modeling",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "52e0d61717679510d72f28a2e48a8445",
