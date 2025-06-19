@@ -31035,22 +31035,102 @@
   {
     "id": "9dce2114d880780ee46a6a5c69bed02d",
     "filename": "Introduction_to_Text_Analysis_1632472565.pdf",
-    "title": "Introduction to Text Analysis",
+    "title": "Digital Text Analysis",
     "authors": [],
     "filepath": "documents/Introduction_to_Text_Analysis_1632472565.pdf",
-    "upload_date": "2025-06-03T22:07:05.466536",
+    "upload_date": "2025-06-19T06:13:32.470334",
     "file_size": 15176151,
-    "summary": "A comprehensive guide on digital text analysis, covering topics like close reading, topic modeling, sentiment analysis, and distant reading using tools such as Google NGram Viewer, Voyant, and Zotero.",
+    "summary": "A comprehensive guide to digital text analysis, covering topics such as close reading, crowdsourcing, data cleaning, and sentiment analysis. The book provides an introduction to various tools and techniques used in digital humanities, including Google NGram Viewer, Voyant, and Zotero.",
     "keywords": [
-      "Text Analysis",
+      "digital text analysis",
+      "close reading",
+      "crowdsourcing",
+      "data cleaning",
+      "cyborg readers",
+      "distant reading",
+      "topic modeling",
+      "sentiment analysis",
+      "big data",
+      "humansities"
+    ],
+    "key_concepts": [
       "Digital Text Analysis",
-      "Google NGram Viewer",
-      "Voyant",
-      "Zotero"
+      "Close Reading in the Digital Age",
+      "Crowdsourced Research Methods",
+      "Data Cleaning and Quality Control",
+      "The Intersection of Humans and Machines in Reading",
+      "Reading at Scale",
+      "Topic Modeling Techniques",
+      "Sentiment Analysis Applications",
+      "human behavior",
+      "text analysis"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Table of Contents: Preface, Acknowledgements, Introduction, For Instructors, For Students, Schedule, Issues in Digital Text Analysis, Why Read with a Computer?"
+    "content_preview": "Document: Digital Text Analysis",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education Technology",
+      "Education"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Google NGram Viewer",
+      "Zotero"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "digital text analysis",
+      "close reading",
+      "crowdsourcing"
+    ],
+    "methodologies": [
+      "textual analysis"
+    ],
+    "tools_mentioned": [
+      "Voyant",
+      "NINES",
+      "statistical models",
+      "charts and graphs"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Digital Text Analysis",
+      "Data Cleaning",
+      "Critical thinking",
+      "Data analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Digital Text Analysis",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: digital text analysis, close reading, crowdsourcing",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "20b968238b14d74f5615d0885f2ecade",
