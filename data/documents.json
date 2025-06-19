@@ -38880,22 +38880,114 @@
   {
     "id": "56129510cb12e532ac77baffb0aea6e4",
     "filename": "Machine_Learning_from_Scratch_1621492679.pdf",
-    "title": "Machine Learning from Scratch",
+    "title": "Machine Learning Methodologies",
     "authors": [],
     "filepath": "documents/Machine_Learning_from_Scratch_1621492679.pdf",
-    "upload_date": "2025-06-03T17:53:41.834100",
+    "upload_date": "2025-06-19T06:13:34.205340",
     "file_size": 1135109,
-    "summary": "This book covers the building blocks of the most common methods in machine learning, serving as a toolbox for machine learning engineers. It aims to provide derivations from scratch, both in theory and code.",
+    "summary": "This book covers the building blocks of the most common machine learning methods, providing a toolbox for engineers. The book is designed to be comfortable with these methodologies, allowing users to tackle a variety of tasks. Each chapter focuses on a single machine learning method or group of methods, focusing on a single tool within the ML toolbox.",
     "keywords": [
-      "Machine Learning",
-      "Toolbox",
-      "Derivation",
-      "Theory",
-      "Code"
+      "machine learning",
+      "building blocks",
+      "methodologies",
+      "algorithms",
+      "understanding",
+      "modeling",
+      "data sets",
+      "validation data",
+      "testing data",
+      "vector"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Introduction to Machine Learning",
+      "Building Blocks of Machine Learning",
+      "Common Methodologies in Machine Learning",
+      "Understanding algorithms and their applications",
+      "Modeling and understanding different types of algorithms",
+      "Advantages and disadvantages of each algorithm",
+      "dependent and independent variables",
+      "observation as a collection of predictors and target variables",
+      "multiple observations with the same variable are combined to form a data set",
+      "Vector and matrix properties"
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This book covers the building blocks of the most common methods in machine learning..."
+    "content_preview": "Document: Machine Learning Methodologies",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence",
+      "Mathematics and Statistics",
+      "Data Science/Artificial Intelligence",
+      "Finance",
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machine learning",
+      "tech1",
+      "tech2",
+      "numpy",
+      "scikit-learn"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "building blocks",
+      "methodologies"
+    ],
+    "methodologies": [
+      "derivation",
+      "construction",
+      "basic",
+      "intermediate",
+      "method1"
+    ],
+    "tools_mentioned": [
+      "tool box",
+      "linear algebra",
+      "tool1",
+      "tool2",
+      "LinearRegression class"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Deep Learning",
+      "Modeling",
+      "Decision Making",
+      "Predictive Modeling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning Methodologies",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: machine learning, building blocks, methodologies",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "df1100a370a62a3fcd32816def65d442",
