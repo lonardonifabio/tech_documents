@@ -9690,30 +9690,83 @@
     "id": "24a0ca33de1dd616fe7728ddc9d795e5",
     "filename": "Andrew_Ng_Machine_Learning_Yearning_1588404160.pdf",
     "title": "Machine Learning Yearning",
-    "authors": [
-      "Andrew Ng"
-    ],
+    "authors": [],
     "filepath": "documents/Andrew_Ng_Machine_Learning_Yearning_1588404160.pdf",
-    "upload_date": "2025-06-15T10:33:54.514570",
+    "upload_date": "2025-06-19T06:13:27.237321",
     "file_size": 4206689,
-    "summary": "This document is a draft of Andrew Ng's Machine Learning Yearning project, offering insights on effective machine learning strategies. It discusses the importance of scale in driving progress, setting up development and test sets, error analysis, bias and variance, and their impact on machine learning models. The document also provides practical advice on optimizing metrics, iterating quickly, and cleaning mislabeled data.",
+    "summary": "A book by Andrew Ng on machine learning strategy, covering topics such as development and test sets, evaluation metrics, error analysis, and bias and variance.",
     "keywords": [
-      "Machine Learning",
-      "Andrew Ng",
-      "Strategy",
-      "Development Sets",
-      "Test Sets"
+      "machine learning",
+      "yearning",
+      "deeplearning.ai",
+      "andrew ng"
     ],
     "key_concepts": [
-      "The importance of scale in driving machine learning progress",
-      "Setting up development and test sets for effective iterations",
-      "Error analysis to evaluate ideas and optimize models",
-      "Addressing Bias and Variance for improved model performance",
-      "Practical advice on optimizing metrics, iterating quickly, and cleaning mislabeled data"
+      "Machine Learning Strategy",
+      "Development and Test Sets",
+      "Evaluation Metrics",
+      "Bias and Variance",
+      "Error Analysis"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A draft of Andrew Ng's Machine Learning Yearning project offers insights on effective machine learning strategies."
+    "content_preview": "Document: Machine Learning Yearning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "deeplearning.ai"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "yearning",
+      "deeplearning.ai"
+    ],
+    "methodologies": [
+      "machine learning strategy"
+    ],
+    "tools_mentioned": [
+      "Andrew Ng's Machine Learning Yearning-Draft"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Developing and optimizing machine learning models",
+      "Evaluating model performance"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning Yearning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, yearning, deeplearning.ai",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "0d91a02a31534a55110c312b15024a8c",
