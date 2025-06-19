@@ -28425,29 +28425,86 @@
   {
     "id": "ae615c79590ca4648a585b14cf5ae5eb",
     "filename": "Image_Processing_1705858028.pdf",
-    "title": "Image Processing Techniques Using Morphological Analysis",
+    "title": "Morphological Analysis in Image Processing",
     "authors": [],
     "filepath": "documents/Image_Processing_1705858028.pdf",
-    "upload_date": "2025-06-15T10:33:59.214560",
+    "upload_date": "2025-06-19T06:13:31.906332",
     "file_size": 375421,
-    "summary": "This document provides a practical guide on using morphological analysis for image processing. It demonstrates the use of OpenCV library to perform erosion, dilation, and combined erosion and dilation operations on an input image. The code snippets provided show how to create kernels, apply these operations, and visualize the results.",
+    "summary": "This document excerpt discusses morphological analysis techniques for image processing, including erosion, dilation, and rotation. It provides examples of applying these techniques to an input image using OpenCV library.",
     "keywords": [
-      "Image Processing",
-      "Morphological Analysis",
-      "OpenCV",
-      "Erosion",
-      "Dilation"
+      "image-processing",
+      "morphological-analysis",
+      "erosion",
+      "dilation",
+      "rotation"
     ],
     "key_concepts": [
-      "Morphological analysis is a technique used in image processing to analyze and modify images by considering their shapes and sizes.",
-      "Erosion is an operation that removes pixels from the edges of an image, reducing its size.",
-      "Dilation is an operation that adds pixels on the edges of an image, increasing its size.",
-      "Combining erosion and dilation can help to enhance the edges of an image while preserving its overall structure.",
-      "The OpenCV library is a popular open-source computer vision and machine learning software library."
+      "Removing noise from images",
+      "Morphological analysis techniques",
+      "Erosion and Dilation operations",
+      "Image rotation and flipping"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document demonstrates image processing techniques using morphological analysis with the OpenCV library."
+    "content_preview": "Document: Morphological Analysis in Image Processing",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Computer Vision"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "cv2",
+      "matplotlib"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "image-processing",
+      "morphological-analysis",
+      "erosion"
+    ],
+    "methodologies": [
+      "image processing"
+    ],
+    "tools_mentioned": [
+      "kernel"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Image Processing",
+      "Noise Removal"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Morphological Analysis in Image Processing",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: image-processing, morphological-analysis, erosion",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "195540dda6bd0ade86bbe769aaf00ef1",
