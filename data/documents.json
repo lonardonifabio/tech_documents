@@ -32125,18 +32125,80 @@
     "title": "Kubernetes Cheat Sheet",
     "authors": [],
     "filepath": "documents/Kubernetes_Cheat_Sheet_1626084556.pdf",
-    "upload_date": "2025-06-05T20:14:22.399724",
+    "upload_date": "2025-06-19T06:13:32.625335",
     "file_size": 167707,
-    "summary": "A comprehensive guide to managing containerized workloads using Kubernetes, including commands for viewing resource information, deployments, services, and more.",
+    "summary": "A comprehensive guide to managing containerized workloads with Kubernetes, covering nodes, pods, namespaces, deployments, services, and more. Learn how to orchestrate computing, networking, and storage for seamless portability across infrastructure providers.",
     "keywords": [
       "Kubernetes",
-      "containerization",
-      "workload management",
-      "orchestration"
+      "containerized workloads",
+      "orchestrating computing"
+    ],
+    "key_concepts": [
+      "Resource management",
+      "Node management",
+      "Pod management",
+      "Namespace management",
+      "Deployment management",
+      "Service management"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Kubernetes is a platform for managing containerized workloads."
+    "content_preview": "Document: Kubernetes Cheat Sheet",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Cloud Computing"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Kubernetes"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Kubernetes",
+      "containerized workloads",
+      "orchestrating computing"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [
+      "Cheat Sheet",
+      "kubectl"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Container Management",
+      "Orchestration"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Kubernetes Cheat Sheet",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Kubernetes, containerized workloads, orchestrating computing",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "5fe2f38412a0c8d8dc7c0c160acd3e30",
