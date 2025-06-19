@@ -49083,23 +49083,95 @@
   {
     "id": "a9d8c53078701236ae339faffcf7119f",
     "filename": "Programming Computer Vision with Python-2012.pdf",
-    "title": "Programming Computer Vision with Python-2012",
-    "authors": [
-      "Jan Erik Solem"
-    ],
+    "title": "Programming Computer Vision with Python",
+    "authors": [],
     "filepath": "documents/Programming Computer Vision with Python-2012.pdf",
-    "upload_date": "2025-06-03T17:21:44.917983",
+    "upload_date": "2025-06-19T14:50:43.427743",
     "file_size": 14290070,
-    "summary": "This document is a pre-production draft of 'Programming Computer Vision with Python' by Jan Erik Solem, covering topics such as basic image handling and processing, local image descriptors, and image to image mappings. It is available under the Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License.",
+    "summary": "A book on programming computer vision using Python, covering topics such as image handling and processing, local image descriptors, and image-to-image mappings.",
     "keywords": [
-      "Computer Vision",
       "Python",
+      "Computer Vision",
       "Image Processing",
-      "Jan Erik Solem"
+      "graph",
+      "Simplejson",
+      "PySQLite",
+      "CherryPy"
+    ],
+    "key_concepts": [
+      "Programming",
+      "Image Handling",
+      "Feature Detection",
+      "Computer Vision",
+      "Image Datasets",
+      "Image Credits"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Programming Computer Vision with Python"
+    "content_preview": "Document: Programming Computer Vision with Python",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Computer Vision"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "NumPy",
+      "Simplejson",
+      "PySQLite",
+      "CherryPy"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Computer Vision",
+      "Image Processing"
+    ],
+    "methodologies": [
+      "PIL",
+      "Matplotlib"
+    ],
+    "tools_mentioned": [
+      "SciPy"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Image Processing",
+      "Feature Detection",
+      "Image Search",
+      "Robot Navigation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Programming Computer Vision with Python",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Python, Computer Vision, Image Processing",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "d8d46aafc84e62d1fed3511b9c9be7f0",
