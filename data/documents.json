@@ -68659,29 +68659,101 @@
   {
     "id": "90e933469deaaafe97435cdc51b65bbf",
     "filename": "spaCy_Advanced_NLP_in_Python_1627300147 (1).pdf",
-    "title": "Advanced NLP with spaCy in Python",
+    "title": "spaCy Cheat Sheet",
     "authors": [],
     "filepath": "documents/spaCy_Advanced_NLP_in_Python_1627300147 (1).pdf",
-    "upload_date": "2025-06-15T10:34:08.028539",
+    "upload_date": "2025-06-19T06:13:40.552361",
     "file_size": 2519193,
-    "summary": "This document provides a comprehensive guide on using the spaCy library for Natural Language Processing (NLP) tasks in Python. It covers topics such as installing and validating the model, loading the model, working with Doc and Span objects, understanding part-of-speech tags, and utilizing word vectors. The document also introduces displacy for visualizing the data and suggests using larger models for better performance.",
+    "summary": "A guide to using spaCy, a modern natural language processing library for Python. The document covers installation, model loading, and usage of spaCy's features such as entity recognition, part-of-speech tagging, and dependency parsing.",
     "keywords": [
       "spaCy",
-      "NLP",
       "Python",
-      "Data Science",
-      "Text Processing"
+      "Natural Language Processing",
+      "NLP",
+      "natural language processing",
+      "text matching",
+      "span class",
+      "lemmatization"
     ],
     "key_concepts": [
-      "This guide explains how to use spaCy, a popular NLP library in Python.",
-      "The document demonstrates the installation and validation of the spaCy model, as well as loading it into memory.",
-      "It shows how to work with Doc and Span objects, which are essential for text analysis tasks.",
-      "The guide explains part-of-speech tags, including coarse-grained and fine-grained tags.",
-      "Lastly, the document introduces displacy for visualizing NLP data."
+      "Entity Recognition",
+      "Part-of-Speech Tagging",
+      "Named Entity Recognition",
+      "Dependency Parsing",
+      "Tokenization",
+      "Part-of-speech tagging",
+      "Named entity recognition",
+      "Text matching algorithms"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This guide explains how to use spaCy, a popular NLP library in Python."
+    "content_preview": "Document: spaCy Cheat Sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Natural Language Processing"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "spaCy",
+      "NLTK"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "spaCy",
+      "Python",
+      "Natural Language Processing"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Tokenization",
+      "Part-of-speech tagging",
+      "Named Entity Recognition"
+    ],
+    "tools_mentioned": [
+      "displacy",
+      "spacy",
+      "Python",
+      "Spacy"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Text Analysis",
+      "Entity Recognition",
+      "Named Entity Recognition",
+      "Part-of-Speech Tagging"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: spaCy Cheat Sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: spaCy, Python, Natural Language Processing",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "8180e9bac611ba3365e342d9b7ac0722",
