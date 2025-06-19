@@ -10330,26 +10330,112 @@
   {
     "id": "1757331f93ffebb62dbbe6460820dd62",
     "filename": "An_Introduction_to_Statistical_Learning_Second_Edition_1635872677.pdf",
-    "title": "An Introduction to Statistical Learning Second Edition",
-    "authors": [
-      "Gareth James",
-      "Daniela Witte",
-      "Trevor Hastie",
-      "Robert Tibshirani"
-    ],
+    "title": "Introduction to Statistical Learning",
+    "authors": [],
     "filepath": "documents/An_Introduction_to_Statistical_Learning_Second_Edition_1635872677.pdf",
-    "upload_date": "2025-06-03T17:53:38.259066",
+    "upload_date": "2025-06-19T14:50:34.356686",
     "file_size": 6516639,
-    "summary": "This document introduces statistical learning, a critical toolkit for anyone dealing with complex data sets in recent years due to the scaling and scope of data collection across various fields. The book 'The Elements of Statistical Learning' (ESL) by Hastie, Tibshirani, and Friedman was first published in 2001, with a second edition in 2009. ES...",
+    "summary": "Statistical learning refers to a set of tools for making sense of complex data sets. In recent years, we have seen an increasing scale and scope of data collection across virtually all areas of science and industry. As a result, statistical learning has become a critical toolkit for anyone who wants to understand data — and as more and more of today's jobs involve worked with data, this means that statistical learning is fast becoming a critical tool for everyone.",
     "keywords": [
+      "statistical learning",
+      "data analysis",
+      "machine learning",
+      "prediction accuracy",
+      "model interpretability",
+      "Logistic Regression",
+      "Linear Discriminant Analysis",
+      "Quadratic Discriminant Analysis",
+      "Naive Bayes",
+      "K-Nearest Neighbors"
+    ],
+    "key_concepts": [
       "Statistical Learning",
       "Data Analysis",
       "Machine Learning",
-      "R Programming"
+      "Prediction Accuracy",
+      "Model Interpretability",
+      "Cross-validation",
+      "Bootstrapping",
+      "Validation set approach",
+      "A sentence expressing the concept of Decision Trees in machine learning",
+      "A sentence expressing the concept of Regression Trees and their applications"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Statistical learning refers to a set of tools for making sense of complex data sets."
+    "content_preview": "Document: Introduction to Statistical Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Science",
+      "Data Science",
+      "Geospatial",
+      "Decision Trees",
+      "relevant industry"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "R",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "statistical learning",
+      "data analysis",
+      "machine learning"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Deep Learning",
+      "Statistical Learning",
+      "Regression vs Classification Problems",
+      "Cros s-V a lidation"
+    ],
+    "tools_mentioned": [
+      "Python",
+      "NumPy",
+      "SciPy",
+      "Graphical",
+      "Indexing Data"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data analysis",
+      "Machine learning",
+      "Predictive Modeling",
+      "Machine Learning",
+      "Location-based services"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Introduction to Statistical Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: statistical learning, data analysis, machine learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "68263d9ee095cf4c92a33ea43875ef9d",
