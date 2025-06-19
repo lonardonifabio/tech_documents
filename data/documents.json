@@ -33597,29 +33597,90 @@
   {
     "id": "42869719f3b69e84147927158ee6f7ec",
     "filename": "Machine_Learning_1625334359.pdf",
-    "title": "Machine Learning History",
+    "title": "History of Machine Learning",
     "authors": [],
     "filepath": "documents/Machine_Learning_1625334359.pdf",
-    "upload_date": "2025-06-15T08:35:03.879551",
+    "upload_date": "2025-06-18T20:37:56.908537",
     "file_size": 22415524,
-    "summary": "This document provides an overview of the major milestones in the history of machine learning and artificial intelligence, from Bayes Theorem in 1763 to the invention of Perceptron in 1957 and Nearest Neighbor in 1967. The article discusses the intellectual underpinnings of the idea of a 'thinking machine' and highlights key discoveries that have shaped modern machine learning.",
+    "summary": "The history of machine learning and artificial intelligence is intertwined, with major milestones including Bayes Theorem, Least Square Theory, Markov Chains, Perceptron, and others. These discoveries have underpinned advances in deep learning and other areas of AI.",
     "keywords": [
-      "Machine Learning",
-      "Artificial Intelligence",
-      "History",
+      "machine learning",
+      "artificial intelligence",
       "Bayes Theorem",
-      "Least Square Theory"
+      "Least Square Theory",
+      "Markov Chains",
+      "Perceptron"
     ],
     "key_concepts": [
-      "The history of artificial intelligence and machine learning is intertwined, with significant algorithmic, statistical, mathematical, computational, and technical discoveries predating the 1950s.",
-      "Bayes Theorem (1763) and its applications underlie inference, describing the probability of an event occurring based on prior knowledge.",
-      "Least Square Theory (1805), developed by Adrien-Marie Legendre, helps in data fitting and is crucial for regression analysis.",
-      "Markov Chains (1913), named after Russian mathematician Andrey Markov, are used to describe a sequence of possible events based on a previous state.",
-      "Perceptron (1957), invented by American psychologist Frank Rosenblatt, is a type of linear classifier that has contributed to advances in deep learning."
+      "History of Machine Learning",
+      "History of Artificial Intelligence",
+      "Algorithms and Computational Advances",
+      "Thinking Machines",
+      "Sequence of Events",
+      "Linear Classifiers"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Overview of major milestones in machine learning history from Bayes Theorem to Perceptron."
+    "content_preview": "Document: History of Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Bayes Theorem",
+      "Least Square Theory",
+      "Markov Chains",
+      "Perceptron"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "artificial intelligence",
+      "Bayes Theorem"
+    ],
+    "methodologies": [
+      "Regression"
+    ],
+    "tools_mentioned": [
+      "Regression unit"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: History of Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, artificial intelligence, Bayes Theorem",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "52ead2adf0bb3d550afbc25645599233",
