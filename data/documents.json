@@ -20966,32 +20966,96 @@
   {
     "id": "6fbc44fa1405f35b5c56d1db3d589408",
     "filename": "Easy_Things_are_Hard_in_Vision_1639839129.pdf",
-    "title": "Easy things are hard in Vision - Computer Vision (Master the fundamentals of Convolutional Neural Network-Phase 1)",
-    "authors": [
-      "Vivek Chaudhary",
-      "Deepanshu Dashora"
-    ],
+    "title": "Master the fundamentals of Convolutional Neural Network-Phase 1",
+    "authors": [],
     "filepath": "documents/Easy_Things_are_Hard_in_Vision_1639839129.pdf",
-    "upload_date": "2025-06-15T08:35:00.951539",
+    "upload_date": "2025-06-18T20:37:53.968539",
     "file_size": 3571142,
-    "summary": "This book explores the challenges in computer vision, using the analogy of identifying fruits. It discusses how humans classify objects based on previous experiences and explains how computers approach similar problems differently. The focus is on understanding the fundamentals of Convolutional Neural Networks (CNN) in Phase 1. The authors are Vivek Chaudhary and Deepanshu Dashora.",
+    "summary": "The document discusses how computers classify objects based on stored information, similar to human perspective. It explains how convolutional neural networks (CNNs) work and their application in recognizing apples from different fruits.",
     "keywords": [
       "Computer Vision",
       "Convolutional Neural Network",
-      "Phase 1",
-      "Vivek Chaudhary",
-      "Deepanshu Dashora"
+      "Vision",
+      "Machine Learning",
+      "image processing",
+      "rule-based system",
+      "pixel detection",
+      "background colors",
+      "watermarks"
     ],
     "key_concepts": [
-      "Computers classify objects in a different manner than humans, focusing on specific features like shapes and sizes.",
-      "The book uses the analogy of identifying fruits to explain the challenges in computer vision.",
-      "The focus is on mastering the fundamentals of Convolutional Neural Networks (CNN) in Phase 1 of this book.",
-      "Understanding how humans classify objects based on previous experiences is crucial for developing effective computer vision systems.",
-      "The book provides insights into the process of training a system to recognize specific objects like apples."
+      "Object Classification",
+      "Pattern Recognition",
+      "Biological Perspective",
+      "Deep Learning",
+      "Solving image recognition problems with rule-based systems",
+      "Limitations of pixel-wise solutions",
+      "Importance of considering background colors and watermarks in image processing"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This book explores the challenges in computer vision using the analogy of identifying fruits."
+    "content_preview": "Document: Master the fundamentals of Convolutional Neural Network-Phase 1",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Computer Vision",
+      "Document Scanning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Computer Vision",
+      "Convolutional Neural Network",
+      "Vision"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Object Recognition",
+      "Image Processing",
+      "Text Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Master the fundamentals of Convolutional Neural Network-Phase 1",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Computer Vision, Convolutional Neural Network, Vision",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "47a99baf837e233f5df8f587f5cd97a7",
