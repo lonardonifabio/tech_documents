@@ -28548,31 +28548,107 @@
   {
     "id": "8dee35d284a168ecc1d0070ef6994da6",
     "filename": "Intro_to_Deep_Learning_Notes_by_Hadar_Sharvit_1642754732.pdf",
-    "title": "Intro to Deep Learning Notes by Hadar Sharvit",
-    "authors": [
-      "Hadar Sharvit"
-    ],
+    "title": "Intro to Deep Learning",
+    "authors": [],
     "filepath": "documents/Intro_to_Deep_Learning_Notes_by_Hadar_Sharvit_1642754732.pdf",
-    "upload_date": "2025-06-15T08:35:02.477545",
+    "upload_date": "2025-06-18T20:37:55.489538",
     "file_size": 10949194,
-    "summary": "This document provides an introduction to deep learning, covering topics such as information theory, neural network models (Perceptron, Multi Layer Perceptron), activation functions, loss functions, and network training using gradient descent optimization and mini-batching. The document is based on lectures given by Raanan Fattal and Matan Halfon.",
+    "summary": "This document provides an introduction to deep learning, covering topics such as information theory, neural networks, activation functions, loss functions, and network training. It is based on lectures by Raanan Fattal and Matan Halfon, and is intended for informal study.",
     "keywords": [
       "Deep Learning",
       "Neural Networks",
+      "Entropy",
+      "Cross-Entropy",
       "Perceptron",
       "Multi Layer Perceptron",
-      "Activation Function"
+      "Activation Function",
+      "Loss Function",
+      "Gradient Descent",
+      "SGD"
     ],
     "key_concepts": [
-      "The document explains deep learning through the lens of information theory, using entropy and cross-entropy to minimize the cost function.",
-      "It discusses various types of neural network models, including Perceptron and Multi Layer Perceptron, and their role in machine learning.",
-      "The activation functions used in these networks are also covered, with an explanation of their importance in shaping the output of the network.",
-      "The document delves into loss functions, specifically regression and classification loss, which help measure the error between predicted and actual values.",
-      "Lastly, it discusses network training methods, focusing on gradient descent optimization and mini-batching for efficient learning."
+      "Introduction to Deep Learning",
+      "Information Theory",
+      "Neural Network Models",
+      "Perceptron and Multi Layer Perceptron",
+      "Activation Functions and Loss Functions",
+      "Network Training and Optimization",
+      "Image-To-Image Translation",
+      "Generative Model Evaluation",
+      "Conditional GAN generator",
+      "Generative Latent Optimization"
     ],
-    "category": "Machine Learning",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document introduces deep learning through information theory, neural network models, activation functions, loss functions, and training methods."
+    "content_preview": "Document: Intro to Deep Learning",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence",
+      "Computer Vision"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Neural Networks",
+      "Deep Learning",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Deep Learning",
+      "Neural Networks",
+      "Entropy"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Gradient Descent Optimization",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "Python",
+      "TensorFlow",
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Deep Learning",
+      "Neural Networks",
+      "Image-to-Image Translation",
+      "Generative Model Evaluation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Intro to Deep Learning",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Deep Learning, Neural Networks, Entropy",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "0a85633dba8710b8fdcf0dd82077d067",
