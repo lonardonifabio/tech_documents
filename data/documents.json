@@ -56762,30 +56762,101 @@
   {
     "id": "86dc48b246573554e53f29fdd69cd59c",
     "filename": "The_Quest_for_Artificial_Intelligence_1636616186.pdf",
-    "title": "The Quest for Artificial Intelligence",
-    "authors": [
-      "Nils J. Nilsson"
-    ],
+    "title": "Natural Language Processing",
+    "authors": [],
     "filepath": "documents/The_Quest_for_Artificial_Intelligence_1636616186.pdf",
-    "upload_date": "2025-06-15T08:35:08.953564",
+    "upload_date": "2025-06-18T20:38:02.086533",
     "file_size": 6569577,
-    "summary": "This document is a comprehensive history of ideas and achievements in the field of artificial intelligence (AI). It traces the origins of AI from philosophy, logic, life itself, engineering, and psychology. The book covers key figures like Alan Turing, John von Neumann, Marvin Minsky, and others who have contributed significantly to the development of AI. It also delves into the methodologies used in AI research, such as automata theory, neural networks, and machine learning. The book concludes with discussions on practical applications, ethical considerations, and future directions for AI.",
+    "summary": "A document excerpt from Nils J. Nilsson's book, covering various topics in natural language processing, including machine translation, understanding, and speech recognition.",
     "keywords": [
       "Artificial Intelligence",
-      "History",
-      "AI Development",
-      "Key Figures",
-      "Methodologies"
+      "Machine Learning",
+      "Machine Translation",
+      "Understanding",
+      "ShRDLU",
+      "LUNAR",
+      "Augmented Transition Networks",
+      "GUS",
+      "Speech Recognition",
+      "Dendral Project"
     ],
     "key_concepts": [
-      "The quest for artificial intelligence began as an extension of philosophical inquiries into the nature of intelligence and consciousness.",
-      "The development of AI was influenced by the study of neurons, the brain, psychology, cognitive science, evolution, development, maturation, and bionics.",
-      "Engineering approaches to AI involved the creation of automata, sensing mechanisms, and feedback systems.",
-      "Key figures in AI research include Alan Turing, John von Neumann, Marvin Minsky, and others who have contributed significantly to the field."
+      "History of AI",
+      "Philosophy and Logic in AI",
+      "Neural Networks and Brain Function",
+      "Natural Language Processing",
+      "Artificial Intelligence",
+      "Computer Vision",
+      "Human-Computer Interaction",
+      "Nonmonotonic reasoning",
+      "Qualitative reasoning",
+      "Semantic networks"
     ],
-    "category": "AI",
+    "category": "Research",
     "difficulty": "Intermediate",
-    "content_preview": "A history of ideas and achievements in artificial intelligence (AI). Traces origins from philosophy, logic, life itself, engineering, psychology."
+    "content_preview": "Document: Natural Language Processing",
+    "target_audience": "Professionals in research field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "speech processing",
+      ""
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Machine Translation"
+    ],
+    "methodologies": [
+      "method1",
+      ""
+    ],
+    "tools_mentioned": [
+      "BBN",
+      "CMU",
+      ""
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand research concepts"
+    ],
+    "use_cases": [
+      "Machine Translation",
+      "Speech Recognition",
+      "Reasoning and Representation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Natural Language Processing",
+      "Q: What category? A: Research",
+      "Q: Key concepts? A: Artificial Intelligence, Machine Learning, Machine Translation",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.9166666666666666
   },
   {
     "id": "e2ebdceef4440e5bee05ccc8901e788b",
