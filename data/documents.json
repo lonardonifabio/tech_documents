@@ -49205,29 +49205,103 @@
   {
     "id": "256825878448dda8f9dc65808b88a695",
     "filename": "Probability_Cheat_Sheet_1624429207.pdf",
-    "title": "Probability Cheatsheet v2.0",
-    "authors": [
-      "William Chen",
-      "Joe Blitzstein",
-      "Sebastian Chiu",
-      "Yuan Jiang",
-      "Yuqi Hou",
-      "Jessy Hwang"
-    ],
+    "title": "Probability Cheatsheet",
+    "authors": [],
     "filepath": "documents/Probability_Cheat_Sheet_1624429207.pdf",
-    "upload_date": "2025-06-05T14:25:32.743247",
+    "upload_date": "2025-06-19T14:50:43.334743",
     "file_size": 854613,
-    "summary": "This document is a cheatsheet for probability concepts, compiled by William Chen and Joe Blitzstein with contributions from others. It covers topics such as counting, the multiplication rule, sampling tables, and definitions of probability and independence.",
+    "summary": "A probability cheatsheet compiled by William Chen and Joe Blitzstein, with contributions from several individuals, based on lectures and a textbook. The document is licensed under CC BY-NC-SA 4.0 and can be found at http://wzchen.com/probability_cheatsheet. It was last updated on September 4, 2015.",
     "keywords": [
-      "Probability",
-      "Cheatsheet",
-      "Counting",
-      "Multiplication Rule",
-      "Sampling Table"
+      "probability",
+      "cheatsheet",
+      "statistics",
+      "Covariance",
+      "Correlation",
+      "Transformation",
+      "Jacobian",
+      "Convolution",
+      "exponential distribution",
+      "memoryless property"
+    ],
+    "key_concepts": [
+      "compound experiment",
+      "sampling table",
+      "conditional independence",
+      "independent events",
+      "Location-invariant property of correlation",
+      "Scale-invariant property of correlation",
+      "Inverse transformation and Jacobian",
+      "Two-variable transformations",
+      "Convolution integral for PDFs",
+      "Exponential Distribution"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document is a cheatsheet for probability concepts, compiled by William Chen and Joe Blitzstein with contributions from others. It covers topics such as counting, the multiplication rule, sampling tables, and definitions of probability and independence."
+    "content_preview": "Document: Probability Cheatsheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Statistics and Probability",
+      "Finance",
+      "Insurance",
+      "Operations Research"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "R"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "probability",
+      "cheatsheet",
+      "statistics"
+    ],
+    "methodologies": [
+      "Statistical Analysis",
+      "Probability Theory"
+    ],
+    "tools_mentioned": [
+      "R Studio",
+      "LaTeX File"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Teaching probability concepts",
+      "Calculating probabilities in compound experiments",
+      "Risk Analysis",
+      "Portfolio Optimization",
+      "Risk assessment"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Probability Cheatsheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: probability, cheatsheet, statistics",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.95
   },
   {
     "id": "5eb5bc5d3db69ce0df13e5a93bae372e",
