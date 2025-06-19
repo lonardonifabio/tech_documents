@@ -62144,31 +62144,83 @@
   {
     "id": "2e67d16b466cf3eb86801cf7f51d6e82",
     "filename": "deep learning cheat sheet.pdf",
-    "title": "Deep Learning Cheat Sheet",
-    "authors": [
-      "Afshine Amidi",
-      "Shervine Amidi"
-    ],
+    "title": "Deep Learning",
+    "authors": [],
     "filepath": "documents/deep learning cheat sheet.pdf",
-    "upload_date": "2025-06-15T08:35:10.254570",
+    "upload_date": "2025-06-18T20:38:03.424532",
     "file_size": 1857752,
-    "summary": "This document provides a cheatsheet for deep learning, focusing on data processing techniques like data augmentation and batch normalization. It offers tips and tricks for CS230 course by Stanford University, authored by Afshine Amidi and Shervine Amidi. The main data augmentation techniques discussed are original, flip, rotation, random crop, color shift, noise addition, information loss, contrast change, and batch normalization.",
+    "summary": "This document excerpt discusses data augmentation techniques for deep learning models, including image processing methods such as flipping, rotation, random cropping, color shifting, noise addition, and contrast changes. It also introduces batch normalization, a step in hyperparameter tuning that normalizes the batch to correct for mean and variance.",
     "keywords": [
-      "Deep Learning",
-      "Data Augmentation",
-      "Batch Normalization",
-      "CS230",
-      "Stanford University"
+      "data augmentation",
+      "deep learning",
+      "CS 230"
     ],
     "key_concepts": [
-      "Deep learning models often require a large amount of data to be properly trained. Data augmentation techniques can help generate more data from the existing ones.",
-      "The main data augmentation techniques include original, flip, rotation, random crop, color shift, noise addition, information loss, contrast change.",
-      "Batch normalization is a step that normalizes the batch {xi} using hyperparameters γ,β. It aims at allowing higher learning rates and reducing internal covariate shift.",
-      "Data augmentation techniques can simulate incorrect horizon calibration, random focus on one part of the image, several random crops in a row, color shifts, noise addition, information loss, contrast changes, and luminosity changes."
+      "Data augmentation techniques",
+      "Batch normalization",
+      "Hyperparameter tuning"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document offers tips and tricks for deep learning using data augmentation techniques like original, flip, rotation, random crop, color shift, noise addition, information loss, contrast change, and batch normalization."
+    "content_preview": "Document: Deep Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Deep Learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "data augmentation",
+      "deep learning",
+      "CS 230"
+    ],
+    "methodologies": [
+      "Data augmentation",
+      "Batch normalization"
+    ],
+    "tools_mentioned": [
+      "rDataaugmentation",
+      "Deeplearningmodels"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data augmentation",
+      "Deep learning model training"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: data augmentation, deep learning, CS 230",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "5921dda615c2ff7c0be0d4a4b516116b",
