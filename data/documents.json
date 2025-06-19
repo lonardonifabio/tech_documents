@@ -20863,24 +20863,86 @@
   {
     "id": "1c40cae820eac8c6db47f3b232fa1631",
     "filename": "Deep_Unsupervised_Learning_in_Nutshell_1710247427.pdf",
-    "title": "Deep Unsupervised Learning in Nutshell",
-    "authors": [
-      "Russ Salakhutdinov"
-    ],
+    "title": "Unsupervised Learning",
+    "authors": [],
     "filepath": "documents/Deep_Unsupervised_Learning_in_Nutshell_1710247427.pdf",
-    "upload_date": "2025-06-03T22:07:04.351527",
+    "upload_date": "2025-06-19T14:50:37.232704",
     "file_size": 6025792,
-    "summary": "This document is a tutorial roadmap on Deep Unsupervised Learning, covering Part 1: Supervised (Discriminative) Learning: Deep Networks, Part 2: Unsupervised Learning: Deep Generative Models, and Part 3: Open Research Questions in Unsupervised Learning. It discusses various models such as Sparse Coding, Autoencoders, Boltzmann Machines, Variatio...",
+    "summary": "This document excerpt provides an overview of unsupervised learning, including deep learning models and techniques. It covers various topics such as sparse coding, autoencoders, generative models, and adversarial networks. The document also includes a tutorial roadmap with basic building blocks and advanced topics.",
     "keywords": [
       "Deep Learning",
       "Unsupervised Learning",
-      "Tutorial",
-      "Roadmap",
-      "Research"
+      "Machine Learning",
+      "Carnegie Mellon University"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Generative Models",
+      "Autoencoders",
+      "Boltzmann Machines",
+      "Sparse Coding"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Deep\tLearning\tUnsupervised\tLearning"
+    "content_preview": "Document: Unsupervised Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Deep Learning",
+      "Unsupervised Learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Deep Learning",
+      "Unsupervised Learning",
+      "Machine Learning"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Sparse Coding"
+    ],
+    "tools_mentioned": [
+      "Autoencoders",
+      "Boltzmann Machines"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Unsupervised Learning",
+      "Generative Models"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Unsupervised Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Deep Learning, Unsupervised Learning, Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "8067c7da13ea765a1810a5e68f880574",
