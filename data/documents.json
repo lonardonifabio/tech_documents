@@ -30804,22 +30804,94 @@
   {
     "id": "7a7955185816874f4c07e12bca3b737b",
     "filename": "Human_in_the_LoopMachine_Learning_1741096149.pdf",
-    "title": "Human_in_the_LoopMachine_Learning",
+    "title": "Active Learning for Uncertainty",
     "authors": [],
     "filepath": "documents/Human_in_the_LoopMachine_Learning_1741096149.pdf",
-    "upload_date": "2025-06-05T20:14:21.541715",
+    "upload_date": "2025-06-19T14:50:38.889714",
     "file_size": 13274209,
-    "summary": "This document is a quick reference guide for understanding and managing model uncertainty in machine learning, focusing on recruiting annotators, managing annotation quality, and creating a complete active learning strategy. Key topics include Softmax Base/Temperature, Least Confidence, Margin of Confidence, Ratio of Confidence, Entropy, Ensembl...",
+    "summary": "A guide to active learning strategies for uncertainty in machine learning models, including annotator recruitment, model-based outliers, cluster-based sampling, representative sampling, real-world diversity, and quality control.",
     "keywords": [
-      "Machine Learning",
-      "Model Uncertainty",
-      "Annotation",
       "Active Learning",
-      "Data Annotation"
+      "Uncertainty Sampling",
+      "Diversity Sampling",
+      "Annotation Quality",
+      "Model-based Outliers",
+      "Cluster-based Sampling",
+      "Representative Sampling"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Understanding Model Uncertainty",
+      "Recruiting Annotators",
+      "Active Transfer Learning",
+      "Aggregating Annotations",
+      "Quality Control",
+      "Expected Error Reduction"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Quick reference guide for this book Understand a model’s uncertainty Recruit annotators Softmax Base/Temperature (3.1.2, A.1-A.2)"
+    "content_preview": "Document: Active Learning for Uncertainty",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "AI/ML"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Active Learning",
+      "Uncertainty Sampling",
+      "Diversity Sampling"
+    ],
+    "methodologies": [
+      "Active Transfer Learning",
+      "Aleatoric & Epistemic Uncertainty",
+      "Cluster-based Sampling",
+      "Combining Uncertainty Sampling and Diversity Sampling",
+      "Entropy"
+    ],
+    "tools_mentioned": [
+      "Crowdsourced workers",
+      "Dataset reliability with Krippendorff's alpha",
+      "End users",
+      "Ensembles of Models",
+      "Ground truth data"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Uncertainty estimation in machine learning models",
+      "Active learning for model improvement"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Active Learning for Uncertainty",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Active Learning, Uncertainty Sampling, Diversity Sampling",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "189d2bb7a5dabd865945848892cd0af2",
