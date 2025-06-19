@@ -63752,29 +63752,84 @@
     "id": "1beee84b1b4e5b5af4a8cf09d596cbeb",
     "filename": "cheatsheet_murenei_nlp_nltk.pdf",
     "title": "Natural Language Processing with Python & nltk Cheat Sheet",
-    "authors": [
-      "RJ Murray (murenei)"
-    ],
+    "authors": [],
     "filepath": "documents/cheatsheet_murenei_nlp_nltk.pdf",
-    "upload_date": "2025-06-15T08:35:10.070569",
+    "upload_date": "2025-06-19T06:13:39.917359",
     "file_size": 55454,
-    "summary": "This document provides a comprehensive guide to Natural Language Processing (NLP) using Python and the NLTK library. It covers topics such as handling text, tokenization, lemmatization, stemming, part-of-speech tagging, and sentence parsing. The cheat sheet also includes examples of using alternative taggers to illustrate ambiguity and provides a brief introduction to data loading for further exploration.",
+    "summary": "A comprehensive guide to Natural Language Processing (NLP) using Python and the NLTK library, covering topics such as text handling, tokenization, lemmatization, POS tagging, and sentence parsing.",
     "keywords": [
-      "NLP",
+      "nltk",
+      "Natural Language Processing",
       "Python",
-      "NLTK",
-      "Text Handling",
-      "Tokenization"
+      "text processing"
     ],
     "key_concepts": [
-      "The document provides a cheat sheet for Natural Language Processing using Python and the NLTK library.",
-      "It covers text handling, tokenization, lemmatization, stemming, part-of-speech tagging, and sentence parsing.",
-      "Examples are given to illustrate the use of alternative taggers to demonstrate ambiguity in POS tagging.",
-      "The cheat sheet also provides a brief introduction to data loading for further exploration."
+      "Tokenization",
+      "Lemmatization",
+      "Stemming",
+      "Part of Speech Tagging",
+      "Sentence Parsing"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a cheat sheet for Natural Language Processing using Python and the NLTK library."
+    "content_preview": "Document: Natural Language Processing with Python & nltk Cheat Sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Natural Language Processing"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "nltk",
+      "Natural Language Processing",
+      "Python"
+    ],
+    "methodologies": [
+      "Natural Language Processing"
+    ],
+    "tools_mentioned": [
+      "nltk",
+      "Corpus Reader object"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Text Analysis",
+      "Sentiment Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Natural Language Processing with Python & nltk Cheat Sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: nltk, Natural Language Processing, Python",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "00c466ad4a315f48835c6a615016cd97",
