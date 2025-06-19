@@ -67386,19 +67386,82 @@
     "title": "Breast Cancer Segmentation using HCMA - Unet Novel Architecture",
     "authors": [],
     "filepath": "documents/breast_cancer_1738538343.pdf",
-    "upload_date": "2025-06-05T14:25:36.097231",
+    "upload_date": "2025-06-19T06:13:39.908359",
     "file_size": 983338,
-    "summary": "This document provides a Python script for loading and organizing breast ultrasound images and their corresponding masks from a dataset, with the aim of using them for Breast Cancer Segmentation using a novel Unet architecture.",
+    "summary": "A document detailing the process of breast cancer segmentation using a novel architecture called HCMA-UNet, which is applied to a dataset of ultrasound images with corresponding ground truth masks.",
     "keywords": [
       "Breast Cancer",
-      "Segmentation",
-      "Unet Architecture",
-      "Python",
-      "Pandas"
+      "HCMA",
+      "Unet Novel Architecture",
+      "Kaggle Dataset"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Image Segmentation",
+      "Deep Learning",
+      "Python Code",
+      "Data Preprocessing"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "import numpy as np\nimport pandas as pd\nbase_path = \"/kaggle/input/breast -ultrasound -images-"
+    "content_preview": "Document: Breast Cancer Segmentation using HCMA - Unet Novel Architecture",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Medical Imaging"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "pandas"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Breast Cancer",
+      "HCMA",
+      "Unet Novel Architecture"
+    ],
+    "methodologies": [
+      "data loading",
+      "image processing"
+    ],
+    "tools_mentioned": [
+      "os",
+      "sorted"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Breast Cancer Segmentation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Breast Cancer Segmentation using HCMA - Unet Novel Architecture",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Breast Cancer, HCMA, Unet Novel Architecture",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "d7b5197351cd006a6b4cab533f0452a7",
