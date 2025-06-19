@@ -45992,21 +45992,103 @@
   {
     "id": "50398c85509b03f1ddb39b7e2499d621",
     "filename": "OpenAI_Guide__1745051067.pdf",
-    "title": "Practical Guide to Building Agents",
+    "title": "Building Agents",
     "authors": [],
     "filepath": "documents/OpenAI_Guide__1745051067.pdf",
-    "upload_date": "2025-06-05T20:14:25.375740",
+    "upload_date": "2025-06-19T06:13:35.650345",
     "file_size": 7335065,
-    "summary": "This guide provides practical insights for product and engineering teams exploring how to build their first agents, drawing on numerous customer deployment experiences. It includes framework work for identifying promising use cases, clear patterns for designing agent logic and architecture, and best practices to ensure agents run safely, predict...",
+    "summary": "Large language models are becoming increasingly capable of handling complex, multi-step tasks. This guide is designed for product and engineering teams exploring how to build their first agents, distilling insights from numerous customer deployments into practical and actionable best practices.",
     "keywords": [
-      "AI",
-      "Language Model",
-      "Agents",
-      "Guide"
+      "agent",
+      "LLM",
+      "natural language processing",
+      "machine learning",
+      "artificial intelligence",
+      "model selection",
+      "accuracy targeting",
+      "cost optimization",
+      "API integration",
+      "tool standardization"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "What is an agent?",
+      "Building first agents",
+      "Agent design foundations",
+      "Guardrails",
+      "Practical guide to building agents",
+      "agent tools",
+      "performance baseline",
+      "openai models",
+      "computer-use models"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A practical guide to building agents, exploring how to build first agen ts, distilling insights from numerous cust omer deplo ymen ts."
+    "content_preview": "Document: Building Agents",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "large language models",
+      "reasoning",
+      "multimodality",
+      "tool use"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "agent",
+      "LLM",
+      "natural language processing"
+    ],
+    "methodologies": [
+      "designing agent logic",
+      "orchestration",
+      "ensuring safety and effectiveness"
+    ],
+    "tools_mentioned": [
+      "frame works for identifying promising use cases",
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Content Generation",
+      "Language Translation",
+      "agent building",
+      "tool development"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Building Agents",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: agent, LLM, natural language processing",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "4e4615973c1254398b0f21d36eee044d",
