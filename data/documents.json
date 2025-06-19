@@ -25979,23 +25979,80 @@
   {
     "id": "24c7e6098794b29ec51949bc6692e902",
     "filename": "Feature_Selection_Techniques_in_Machine_Learning_1636121392.pdf",
-    "title": "Feature Selection Techniques in Machine Learning",
-    "authors": [
-      "Raheel Shaikh"
-    ],
+    "title": "Feature Selection Techniques in Machine Learning with Python",
+    "authors": [],
     "filepath": "documents/Feature_Selection_Techniques_in_Machine_Learning_1636121392.pdf",
-    "upload_date": "2025-06-03T17:53:40.255084",
+    "upload_date": "2025-06-19T14:50:37.934709",
     "file_size": 527223,
-    "summary": "Learn about feature selection techniques for improving model performance and reducing overfitting in machine learning with Python.",
+    "summary": "Feature selection is a core concept in machine learning that impacts model performance. Irrelevant or partially relevant features can negatively impact model performance. Feature selection and data cleaning should be the first step of model designing.",
     "keywords": [
-      "Machine Learning",
       "Feature Selection",
-      "Python",
-      "Data Analysis"
+      "Machine Learning",
+      "Data Cleaning",
+      "Overfitting"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Identifying relevant features",
+      "Removing irrelevant features",
+      "Improving model performance"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about feature selection techniques for improving model performance and reducing overfitting in machine learning with Python."
+    "content_preview": "Document: Feature Selection Techniques in Machine Learning with Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Feature Selection",
+      "Machine Learning",
+      "Data Cleaning"
+    ],
+    "methodologies": [
+      "machine learning"
+    ],
+    "tools_mentioned": [
+      "python"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Feature Selection",
+      "Data Cleaning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Feature Selection Techniques in Machine Learning with Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Feature Selection, Machine Learning, Data Cleaning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a905c46fe9669e0ad7e7ae77bbe45338",
