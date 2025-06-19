@@ -71317,21 +71317,86 @@
   {
     "id": "5ee748a9c5343e727c0808219757a599",
     "filename": "data_viz_1608274838.pdf",
-    "title": "Data Visualizations Techniques for Data Analysis",
+    "title": "Data Visualization Techniques for Data Analysis",
     "authors": [],
     "filepath": "documents/data_viz_1608274838.pdf",
-    "upload_date": "2025-06-04T21:18:56.014045",
+    "upload_date": "2025-06-19T14:50:47.278766",
     "file_size": 24159443,
-    "summary": "This document discusses the importance of data visualization in identifying patterns and trends, making it easier to conduct analyses such as predictive analysis. It emphasizes that data visualization is crucial for communicating insights derived from data.",
+    "summary": "Data visualization is the representation of data or information in a graph, chart, or other visual format. It communicates relationships of the data with images. This allows trends and patterns to be more easily seen. Machine learning makes it easier to conduct analyses such as predictive analysis, which can then serve as helpful visualizations to present.",
     "keywords": [
-      "Data Visualization",
-      "Data Analysis",
-      "Machine Learning",
-      "Predictive Analysis"
+      "data visualization",
+      "machine learning",
+      "histograms",
+      "bar plots"
+    ],
+    "key_concepts": [
+      "representation of data in visual format",
+      "identification of patterns and trends",
+      "predictive analysis",
+      "central tendency",
+      "skewness in data"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "MUST KNOW DATA VISUALIZATIONS TECHNIQUES FOR DATA ANALYSIS"
+    "content_preview": "Document: Data Visualization Techniques for Data Analysis",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Analysis"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machinelearning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "data visualization",
+      "machine learning",
+      "histograms"
+    ],
+    "methodologies": [
+      "data analysis",
+      "visualization"
+    ],
+    "tools_mentioned": [
+      "histograms",
+      "bar plots"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Predictive Analysis",
+      "Pattern Identification"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Visualization Techniques for Data Analysis",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: data visualization, machine learning, histograms",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "18ea01edf1a3cf79d028d831dc71aeaa",
