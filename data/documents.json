@@ -9089,22 +9089,83 @@
   {
     "id": "e1233603832699850e5e81ea02d5bb6c",
     "filename": "Advantages_and_Disadvantages_of_Decision_Trees_1640625849.pdf",
-    "title": "Advantages and Disadvantages of Decision Trees",
+    "title": "Decision Trees",
     "authors": [],
     "filepath": "documents/Advantages_and_Disadvantages_of_Decision_Trees_1640625849.pdf",
-    "upload_date": "2025-06-02T17:58:11.982183",
+    "upload_date": "2025-06-19T14:50:34.122684",
     "file_size": 3061429,
-    "summary": "This document discusses the advantages and disadvantages of using Decision Trees in machine learning, including their simplicity, visualization capabilities, and ability to handle both numerical and categorical data. However, it also highlights that they require little data preparation and have a logarithmic cost for prediction.",
+    "summary": "Decision Trees (DTs) are a non-parametric supervised learning method used for classification and regression. The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features.",
     "keywords": [
       "Decision Trees",
-      "Machine Learning",
       "Classification",
       "Regression",
-      "Data Preparation"
+      "Supervised Learning"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Non-parametric Method",
+      "Piecewise Constant Approximation",
+      "Simple to Understand and Interpret",
+      "Handling Numerical and Categorical Data"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Decision Trees are a non-parametric supervised learning method..."
+    "content_preview": "Document: Decision Trees",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Decision Trees"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Decision Trees",
+      "Classification",
+      "Regression"
+    ],
+    "methodologies": [
+      "non-parametric supervised learning",
+      "classification",
+      "regression"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Classification",
+      "Regression"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Decision Trees",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Decision Trees, Classification, Regression",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "2c5334041419e90fa983e2b098a44614",
