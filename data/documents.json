@@ -25318,23 +25318,99 @@
     "id": "f56bd0205212c1a5d6eaedf72914c334",
     "filename": "Generative_AI_Glossary_v1_1680427249.pdf",
     "title": "Generative AI & Large Language Models Glossary",
-    "authors": [
-      "Faisal Alsrheed"
-    ],
+    "authors": [],
     "filepath": "documents/Generative_AI_Glossary_v1_1680427249.pdf",
-    "upload_date": "2025-06-03T17:53:40.356085",
+    "upload_date": "2025-06-19T06:13:31.168331",
     "file_size": 152125,
-    "summary": "This document provides definitions and explanations for various terms related to Generative AI, large language models, and foundation models. It includes descriptions of concepts like GPT (Generative Pre-trained Transformer) and pre-trained models.",
+    "summary": "A document gathering terms and definitions related to Generative AI and Large Language Models, including foundation models, GPT variants, pre-trained models, and embedding vectors.",
     "keywords": [
       "Generative AI",
       "Large Language Models",
-      "Foundation Models",
+      "Foundation models",
       "GPT",
-      "Pre-trained Model"
+      "Transformer-based models",
+      "vector database",
+      "search engine",
+      "embeddings store"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "A foundation model is a large artificial intelligence model trained on unlabeled data",
+      "A pre-trained model or component that has been already trained",
+      "Embedding vector",
+      "retrieval augmented generation",
+      "language models",
+      "dialogue applications"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Generative AI & Large Language Models Glossary Version 1 Gathered by Faisal Alsrheed"
+    "content_preview": "Document: Generative AI & Large Language Models Glossary",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "GPT",
+      "Transformer",
+      "Weaviate",
+      "Redis",
+      "Qdrant"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Generative AI",
+      "Large Language Models",
+      "Foundation models"
+    ],
+    "methodologies": [
+      "self-supervised learning",
+      "vector search engine",
+      "vector database",
+      "scalable similarity search"
+    ],
+    "tools_mentioned": [
+      "BERT",
+      "OpenAI",
+      "database",
+      "embeddings store"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Natural Language Processing",
+      "Image Generation",
+      "Dialogue Systems"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Generative AI & Large Language Models Glossary",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Generative AI, Large Language Models, Foundation models",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "0864cf76a79d69f0d70e81806bd30de8",
