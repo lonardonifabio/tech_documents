@@ -47977,21 +47977,83 @@
   {
     "id": "4cebeafec224730ee2ea1b56beddb43c",
     "filename": "NumPy Cheat Sheet Data Analysis in Python.pdf",
-    "title": "NumPy Cheat Sheet Data Analysis in Python",
+    "title": "NumPy Cheat Sheet",
     "authors": [],
     "filepath": "documents/NumPy Cheat Sheet Data Analysis in Python.pdf",
-    "upload_date": "2025-06-06T03:10:12.233913",
+    "upload_date": "2025-06-19T14:50:42.697738",
     "file_size": 5019107,
-    "summary": "This document provides a cheat sheet for NumPy, a popular library for data analysis in Python. It covers topics such as saving and loading data, basic types, operations like subtraction, addition, multiplication, division, exponentiation, square root, sine, cosine, logarithm, and dot product.",
+    "summary": "A comprehensive guide to NumPy, a library for efficient numerical computation in Python. It covers various topics such as data types, saving and loading data, mathematical operations, and more.",
     "keywords": [
       "NumPy",
       "Python",
-      "Data Analysis",
-      "Cheat Sheet"
+      "Data Science",
+      "Array Operations"
+    ],
+    "key_concepts": [
+      "NumPy Array Data Types",
+      "Basic Arithmetic Operations",
+      "Advanced Mathematical Functions"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Nump y Cheat Shee t Python F o r D at a Sci e n ce Learn N umPy o nlin e at  www .D at aCamp.co m"
+    "content_preview": "Document: NumPy Cheat Sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "NumPy"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "NumPy",
+      "Python",
+      "Data Science"
+    ],
+    "methodologies": [
+      "Online Learning"
+    ],
+    "tools_mentioned": [
+      "Python",
+      "DataCamp"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: NumPy Cheat Sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: NumPy, Python, Data Science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "850fc59c15202700d95a346ed057d14e",
