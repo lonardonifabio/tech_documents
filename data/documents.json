@@ -61415,22 +61415,97 @@
   {
     "id": "eb33748e10dff4426a27a1d61af60b50",
     "filename": "Statistics__1738609758.pdf",
-    "title": "Statistics Interview Questions and Answers",
+    "title": "Coefficient of Variation",
     "authors": [],
     "filepath": "documents/Statistics__1738609758.pdf",
-    "upload_date": "2025-06-06T03:10:14.207915",
+    "upload_date": "2025-06-19T14:50:44.817751",
     "file_size": 2637280,
-    "summary": "This document provides a list of important statistics topics, explanations for Exploratory Data Analysis (EDA), differences between quantitative and qualitative data, and types of each. It also briefly explains the meaning of some statistical terms.",
+    "summary": "The coefficient of variation (CV) is a measure of relative variability calculated as the ratio of the standard deviation to the mean of a dataset. It is expressed as a percentage to make it more interpretable. The formula for calculating CV is: CV = σ / μ × 100",
     "keywords": [
-      "Statistics",
-      "Interview Questions",
-      "Data Analysis",
-      "Quantitative Data",
-      "Qualitative Data"
+      "statistics",
+      "data analysis",
+      "eda",
+      "quantitative data",
+      "qualitative data",
+      "kpi",
+      "coefficient of variation",
+      "standard deviation",
+      "mean",
+      "dataset"
+    ],
+    "key_concepts": [
+      "central tendency",
+      "measure of dispersion",
+      "covariance and correlation",
+      "probability distribution function",
+      "standardization and normalization",
+      "central limit theorem",
+      "population and sample",
+      "hypothesis testing",
+      "exploratory data analysis",
+      "Interquartile range"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Important topics in statistics are: Measure of central tendency, Measure of dispersion, Covariance and Correlation, Probability Distribution Function, Standardization and normalization, Central limit theorem, Population and sample, Hypothesis Testing."
+    "content_preview": "Document: Coefficient of Variation",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education/Statistics",
+      "Statistics/Data Analysis"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "statistics",
+      "data analysis",
+      "eda"
+    ],
+    "methodologies": [
+      "statistical analysis"
+    ],
+    "tools_mentioned": [
+      "data visualization",
+      "mathematical formulas"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Interview Preparation",
+      "Calculating Variance",
+      "Comparing Data Sets"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Coefficient of Variation",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: statistics, data analysis, eda",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.875
   },
   {
     "id": "a29de32051e230f88fd125bab7a22d31",
