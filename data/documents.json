@@ -38921,29 +38921,84 @@
   {
     "id": "43d511f2715eb5d1a54e68da113a0ec0",
     "filename": "Matplotlib_Cheat_Sheet_1630696160.pdf",
-    "title": "Matplotlib Cheat Sheet for Data Science",
+    "title": "MPLotlib Cheat Sheet",
     "authors": [],
     "filepath": "documents/Matplotlib_Cheat_Sheet_1630696160.pdf",
-    "upload_date": "2025-06-15T08:35:05.118556",
+    "upload_date": "2025-06-18T20:37:58.141536",
     "file_size": 1769292,
-    "summary": "This document provides a comprehensive guide to using Matplotlib, a Python library for creating 2D plots with public quality figures in various formats and interactive environments across platforms. It covers topics such as plotting customizations, plot anatomy, workflow, creating plots, data distribution, and scatter plots.",
+    "summary": "A comprehensive guide to Matplotlib's plotting library, covering various aspects such as data types, plot styles, and interactive features. The document provides examples of how to create different types of plots, including line plots, scatter plots, and 3D plots.",
     "keywords": [
-      "Matplotlib",
-      "Python",
-      "Data Science",
-      "Plotting",
-      "2D"
+      "matplotlib",
+      "python",
+      "data science"
     ],
     "key_concepts": [
-      "Matplotlib is a Python library for producing high-quality 2D plots in various formats and interactive environments across platforms.",
-      "The document provides a step-by-step guide to creating customized plots using Matplotlib, including setting axes, plotting data, and adding labels and annotations.",
-      "The document also covers the creation of scatter plots, which are useful for visualizing multivariate data.",
-      "Matplotlib uses NumPy for handling data, making it easy to manipulate and visualize large datasets.",
-      "The theoretical principles behind Matplotlib's plotting functions are explained, providing a solid foundation for understanding how the library works."
+      "Data visualization",
+      "Plotting libraries",
+      "Python programming"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Guide to using Matplotlib, a Python library for creating 2D plots with public quality figures in various formats and interactive environments across platforms."
+    "content_preview": "Document: MPLotlib Cheat Sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "NumPy"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "matplotlib",
+      "python",
+      "data science"
+    ],
+    "methodologies": [
+      "Matplotlib",
+      "Plotly"
+    ],
+    "tools_mentioned": [
+      "Matplotlib",
+      "Plotly"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Visualization",
+      "Scientific Computing"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: MPLotlib Cheat Sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: matplotlib, python, data science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "76722918b5dd277448bf9fe887a8f06a",
