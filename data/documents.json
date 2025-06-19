@@ -20732,23 +20732,94 @@
     "id": "27f98f98e473fbab7fd68f87f4a7a04b",
     "filename": "Deep_Learning_1739806859.pdf",
     "title": "The Little Book of Deep Learning",
-    "authors": [
-      "François Fleuret"
-    ],
+    "authors": [],
     "filepath": "documents/Deep_Learning_1739806859.pdf",
-    "upload_date": "2025-06-05T20:14:19.608677",
+    "upload_date": "2025-06-19T14:50:36.946702",
     "file_size": 4984493,
-    "summary": "A concise ebook on deep learning by François Fleuret, a professor at the University of Geneva. The book covers topics such as machine learning, efficient computation, training, and more. It is formatted for mobile screens.",
+    "summary": "A comprehensive guide to deep learning by Francois Fleuret, a professor at the University of Geneva, Switzerland. The book covers the foundations of machine learning, efficient computation, and deep models, including layer types, activation functions, pooling, dropout, normalizing layers, skip connections, attention layers, token embedding, and positional encoding. It also explores multi-layer perceptrons and convolutional architectures.",
     "keywords": [
+      "deep learning",
+      "machine learning",
+      "neural networks",
+      "gpu",
+      "tpu",
+      "batch",
+      "tensor",
+      "loss function",
+      "autoregressive model",
+      "gradient descent"
+    ],
+    "key_concepts": [
       "Deep Learning",
       "Machine Learning",
-      "Artificial Intelligence",
-      "Computer Science",
-      "University of Geneva"
+      "Neural Networks",
+      "Convolutional Neural Networks",
+      "Recurrent Neural Networks",
+      "Gradient Descent",
+      "Backpropagation",
+      "Autoregressive Models"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A concise ebook on deep learning by François Fleuret, a professor at the University of Geneva."
+    "content_preview": "Document: The Little Book of Deep Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Computer Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "GPU",
+      "TPU"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "deep learning",
+      "machine learning",
+      "neural networks"
+    ],
+    "methodologies": [
+      "Batching",
+      "Autoregressive models"
+    ],
+    "tools_mentioned": [
+      "TensorFlow"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: The Little Book of Deep Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: deep learning, machine learning, neural networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "b3b5ff2e3127d8fca306ada10479e885",
