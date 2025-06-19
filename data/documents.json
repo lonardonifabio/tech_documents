@@ -51398,22 +51398,86 @@
   {
     "id": "6db08c83a7b48141c008a801546c4654",
     "filename": "Regulating_Machine_Learning_Where_do_we_stand__1567265646.pdf",
-    "title": "Regulating Machine Learning: Where do we stand?",
+    "title": "Regulating Machine Learning",
     "authors": [],
     "filepath": "documents/Regulating_Machine_Learning_Where_do_we_stand__1567265646.pdf",
-    "upload_date": "2025-06-04T21:18:54.869038",
+    "upload_date": "2025-06-19T06:13:36.992350",
     "file_size": 5352078,
-    "summary": "This document discusses the current state and challenges of regulating Machine Learning, focusing on the General Data Protection Regulation (GDPR) in the EU. It highlights the unique risks associated with ML algorithms at scale, such as fairness, reliability, and explainability.",
+    "summary": "The document discusses the state of machine learning and its regulation in various industries, particularly in the EU where it is indirectly regulated by the General Data Protection Regulation (GDPR). It aims to encourage stakeholders to understand the fundamental risks introduced by ML usage and anticipate future changes in regulation.",
     "keywords": [
       "Machine Learning",
+      "Artificial Intelligence",
       "Regulation",
-      "GDPR",
       "Data Protection",
-      "AI"
+      "GDPR"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "State of the Art in Machine Learning",
+      "Challenges Ahead in Regulation",
+      "Fairness in ML",
+      "Reliability in ML",
+      "Explainability in ML"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Regulating Machine Learning: where do we stand? State of the Art and Challenges Ahead"
+    "content_preview": "Document: Regulating Machine Learning",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Insurance"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Artificial Intelligence",
+      "Machine Learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Regulation"
+    ],
+    "methodologies": [
+      "regulation"
+    ],
+    "tools_mentioned": [
+      "General Data Protection Regulation (GDPR)"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Risk Management",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Regulating Machine Learning",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Machine Learning, Artificial Intelligence, Regulation",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "8746b364f15a1a7a7d71f13022a2b95d",
