@@ -20715,22 +20715,98 @@
   {
     "id": "a3eb178bea3d8181602c95959bdc0bf6",
     "filename": "Data_Visualization_1625053714.pdf",
-    "title": "Data Visualization with ggplot2 Cheat Sheet",
+    "title": "Data Visualization with ggplot2",
     "authors": [],
     "filepath": "documents/Data_Visualization_1625053714.pdf",
-    "upload_date": "2025-06-06T03:10:06.553906",
+    "upload_date": "2025-06-19T14:50:36.816701",
     "file_size": 264734,
-    "summary": "This document provides a cheat sheet for using ggplot2, a popular R package for data visualization. It explains the grammar of graphics concept and introduces various graphical primitives such as geom_curve, geom_path, geom_polygon, geom_rect, and geom_ribbon. The document also demonstrates how to create a plot using ggplot2 with an example usin...",
+    "summary": "ggplot2 is based on the grammar of graphics, allowing users to build graphs from components such as a dataset, coordinate system, and geoms (visual marks). The document provides an overview of graphical primitives, including geom_blank(), geom_curve(), geom_path(), geom_polygon(), geom_rect(), and geom_ribbon(). It also explains how to complete a template to build a graph using ggplot2.",
     "keywords": [
-      "Data Visualization",
       "ggplot2",
-      "R",
-      "Cheat Sheet",
-      "Graphical Primitives"
+      "data visualization",
+      "grammar of graphics",
+      "geom_point",
+      "geom_label",
+      "geom_bar",
+      "position_adjustment",
+      "faceting",
+      "theme",
+      "position_dodge"
+    ],
+    "key_concepts": [
+      "Geoms",
+      "Aesthetics",
+      "Coordinate system",
+      "Graphical primitives",
+      "Plotting with ggplot2",
+      "Customizing plot elements",
+      "Faceting plots",
+      "Adjusting axis limits",
+      "Setting theme and layout"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "ggplot(data = mpg, aes(x = cty, y = hwy)) Begins a plot that you finish by adding layers to."
+    "content_preview": "Document: Data Visualization with ggplot2",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Visualization",
+      "Finance/Transportation"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "ggplot2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "ggplot2",
+      "data visualization",
+      "grammar of graphics"
+    ],
+    "methodologies": [
+      "data visualization",
+      "faceting"
+    ],
+    "tools_mentioned": [
+      "R"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Business Intelligence",
+      "Data Visualization",
+      "Faceting"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Visualization with ggplot2",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: ggplot2, data visualization, grammar of graphics",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "b514de2e35dab9305ae14f8a1e0dadcf",
