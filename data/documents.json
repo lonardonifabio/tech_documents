@@ -72507,22 +72507,77 @@
   {
     "id": "eac5233ed929a48da013844372986a01",
     "filename": "pandas_1621791580.pdf",
-    "title": "Getting Started with pandas",
+    "title": "pandas",
     "authors": [],
     "filepath": "documents/pandas_1621791580.pdf",
-    "upload_date": "2025-06-04T21:18:56.180046",
+    "upload_date": "2025-06-19T14:50:47.542768",
     "file_size": 1965997,
-    "summary": "This document provides an in-depth guide on using the pandas library for data manipulation, analysis, and visualization. Topics covered include installation, basic usage, dataframe operations, boolean indexing, categorical data handling, and computational tools.",
+    "summary": "A comprehensive guide to the pandas library, covering its features, usage, and applications in data analysis and manipulation.",
     "keywords": [
       "pandas",
-      "data manipulation",
       "data analysis",
-      "data visualization",
-      "python"
+      "data manipulation"
+    ],
+    "key_concepts": [
+      "DataFrames",
+      "Quintile Analysis",
+      "Boolean indexing"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Getting started with pandas 2"
+    "content_preview": "Document: pandas",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "pandas"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "pandas",
+      "data analysis",
+      "data manipulation"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Data Visualization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: pandas",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: pandas, data analysis, data manipulation",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "2e3715c023135e648c7517f91e98abe2",
