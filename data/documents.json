@@ -42406,27 +42406,86 @@
     "id": "6c2165a772d9953922457219587dd978",
     "filename": "ML_projects_1567264901.pdf",
     "title": "Python Machine Learning Projects",
-    "authors": [
-      "Lisa Tagliaferri",
-      "Michelle Morales",
-      "Ellie Birbeck",
-      "Alvin Wan",
-      "Brian Hogan",
-      "Mark Drake"
-    ],
+    "authors": [],
     "filepath": "documents/ML_projects_1567264901.pdf",
-    "upload_date": "2025-06-04T21:18:52.899027",
+    "upload_date": "2025-06-19T22:43:54.266151",
     "file_size": 2095530,
-    "summary": "This document is a collection of machine learning projects written in Python. It is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License and has ISBN 978-0-9997730-2-4. The authors are Lisa Tagliaferri, Michelle Morales, Ellie Birbeck, Alvin Wan, with editing by Brian Hogan and Mark Drake.",
+    "summary": "A book on Python projects for machine learning, covering topics such as setting up a programming environment, introduction to machine learning, and building machine learning classifiers and neural networks.",
     "keywords": [
-      "Machine Learning",
       "Python",
-      "Projects",
-      "Creative Commons"
+      "Machine Learning",
+      "Scikit-learn",
+      "TensorFlow",
+      "OpenAI Gym"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Machine Learning",
+      "Python Programming Environment",
+      "Deep Reinforcement Learning",
+      "Neural Networks"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This work is licensed under a Creative Commons..."
+    "content_preview": "Document: Python Machine Learning Projects",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Scikit-learn",
+      "TensorFlow",
+      "OpenAI Gym"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Machine Learning",
+      "Scikit-learn"
+    ],
+    "methodologies": [
+      "Machine Learning"
+    ],
+    "tools_mentioned": [
+      "DigitalOcean"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python Machine Learning Projects",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, Machine Learning, Scikit-learn",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "6eae0bf6e3b54c479d448288fdf08bc8",
