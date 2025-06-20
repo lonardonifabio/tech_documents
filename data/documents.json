@@ -51712,22 +51712,82 @@
   {
     "id": "417eb1103ce3a5f14de8991085102ba9",
     "filename": "NLP_Cheatsheet_1637758785.pdf",
-    "title": "NLP Cheatsheet",
+    "title": "Natural Language Processing",
     "authors": [],
     "filepath": "documents/NLP_Cheatsheet_1637758785.pdf",
-    "upload_date": "2025-06-05T20:14:24.910738",
+    "upload_date": "2025-06-19T22:43:55.944159",
     "file_size": 122076,
-    "summary": "This document provides a cheatsheet for Natural Language Processing (NLP) in Python using TextBlob and Sumy. It covers text processing, tokenization, noun phrase extraction, sentiment analysis, summarization, and spelling correction.",
+    "summary": "This section provides tools for processing and working with text in Python, including TextBlob and sumy. TextBlob offers one-line code solutions for tasks such as sentiment analysis, tokenization, noun phrase extraction, word frequencies, spelling correction, and more. Sumy is another tool that allows users to summarize text using Python or the command line.",
     "keywords": [
-      "Natural Language Processing",
-      "TextBlob",
-      "Sumy",
-      "Python",
-      "Text Processing"
+      "textblob",
+      "sumy",
+      "python",
+      "natural language processing"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "TextBlob",
+      "Summarization",
+      "Sentiment Analysis",
+      "Tokenization"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This section some tools to process and work with text in Python. TextBlob: Processing Text in One Line of Code"
+    "content_preview": "Document: Natural Language Processing",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Natural Language Processing"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "pip"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "textblob",
+      "sumy",
+      "python"
+    ],
+    "methodologies": [
+      "Natural Language Processing"
+    ],
+    "tools_mentioned": [
+      "TextBlob",
+      "sumy"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Natural Language Processing",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: textblob, sumy, python",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "0029e71ef7325d9cd0adb1c8c2c68c6b",
