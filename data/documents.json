@@ -76398,6 +76398,89 @@
     "confidence_score": 1.0
   },
   {
+    "id": "764bc5992c67af91dbae568daa863e14",
+    "filename": "bc_1749898539.pdf",
+    "title": "Multimodal Breast Cancer Analysis",
+    "authors": [],
+    "filepath": "documents/bc_1749898539.pdf",
+    "upload_date": "2025-06-19T22:44:00.621194",
+    "file_size": 2026400,
+    "summary": "A document detailing the analysis of breast cancer using multimodal images (X-ray, histopathological, and ultrasound) from the MultiModel Breast Cancer MSI Dataset.",
+    "keywords": [
+      "Breast Cancer Analysis",
+      "Multimodal Image Dataset",
+      "Image Processing"
+    ],
+    "key_concepts": [
+      "Data Collection",
+      "Data Preprocessing",
+      "Machine Learning Applications"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Multimodal Breast Cancer Analysis",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Healthcare"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "pandas",
+      "os"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Breast Cancer Analysis",
+      "Multimodal Image Dataset",
+      "Image Processing"
+    ],
+    "methodologies": [
+      "data loading",
+      "data preprocessing"
+    ],
+    "tools_mentioned": [
+      "kaggle input",
+      "python libraries"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Cancer Diagnosis",
+      "Medical Imaging Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Multimodal Breast Cancer Analysis",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Breast Cancer Analysis, Multimodal Image Dataset, Image Processing",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
+  },
+  {
     "id": "a1712ddd01bd80ab100390f5209044eb",
     "filename": "best_machine_learning_book_for_beginner_s__1710247053.pdf",
     "title": "Machine Learning for Beginners",
