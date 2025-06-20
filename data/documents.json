@@ -90862,19 +90862,82 @@
     "title": "CT KIDNEY DATASET: Normal -Cyst -Tumor and Stone Prediction using Vision Transformer and Swin Transformer",
     "authors": [],
     "filepath": "documents/kidney_1741265371.pdf",
-    "upload_date": "2025-06-05T14:25:36.446230",
+    "upload_date": "2025-06-20T13:01:48.260818",
     "file_size": 895790,
-    "summary": "This document provides a Python script for loading and preprocessing a kidney dataset, which includes images labeled as 'Normal', 'Cyst', 'Stone', and 'Tumor'. The goal is to predict these categories using Vision Transformer and Swin Transformer.",
+    "summary": "A document detailing the preparation of a dataset for image classification tasks, specifically predicting cysts, normal kidney tissue, stones, and tumors in CT scans. The dataset is created by organizing images from different categories into a pandas DataFrame.",
     "keywords": [
-      "Python",
-      "Kidney Dataset",
-      "Image Classification",
+      "CT KIDNEY DATASET",
       "Vision Transformer",
       "Swin Transformer"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Image classification",
+      "Medical imaging",
+      "Deep learning"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "import numpy as np\nimport pandas as pd\nimport os\nbase_path = '/kaggle/input/ct -kidney-dataset-normal-cyst-tumor-and-stone/"
+    "content_preview": "Document: CT KIDNEY DATASET: Normal -Cyst -Tumor and Stone Prediction using Vision Transformer and Swin Transformer",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Medical Imaging"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "pandas",
+      "os"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "CT KIDNEY DATASET",
+      "Vision Transformer",
+      "Swin Transformer"
+    ],
+    "methodologies": [
+      "data loading",
+      "data preprocessing"
+    ],
+    "tools_mentioned": [
+      "Kaggle input directory",
+      "Python libraries"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Cyst Detection",
+      "Tumor Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: CT KIDNEY DATASET: Normal -Cyst -Tumor and Stone Prediction using Vision Transformer and Swin Transformer",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: CT KIDNEY DATASET, Vision Transformer, Swin Transformer",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "af6a11fc2674db0518666262f99b76a3",
