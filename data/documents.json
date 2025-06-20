@@ -36160,24 +36160,84 @@
   {
     "id": "4b5602174d0b3c998e6ce9e3137fec99",
     "filename": "Graph_Algorithms_1638059535.pdf",
-    "title": "Graph Algorithms: Practical Examples in Apache Spark and Neo4j",
-    "authors": [
-      "Mark Needham",
-      "Amy E. Hodler"
-    ],
+    "title": "Graph Algorithms",
+    "authors": [],
     "filepath": "documents/Graph_Algorithms_1638059535.pdf",
-    "upload_date": "2025-06-03T17:53:40.469085",
+    "upload_date": "2025-06-20T13:01:39.544834",
     "file_size": 10503134,
-    "summary": "This document provides practical examples of graph algorithms using Apache Spark and Neo4j. It is intended for readers with some programming background, focusing on real-world applications.",
+    "summary": "This document is a book about graph algorithms, written by Mark Needham and Amy E. Hodler, published by O'Reilly Media in 2019. It provides practical examples of graph algorithms using Apache Spark and Neo4j.",
     "keywords": [
-      "Graph Algorithms",
-      "Apache Spark",
-      "Neo4j",
-      "Practical Examples"
+      "graph algorithms",
+      "apache spark",
+      "neo4j"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Mark Needham",
+      "Amy E. Hodler",
+      "Graph Algorithms"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides practical examples of graph algorithms using Apache Spark and Neo4j."
+    "content_preview": "Document: Graph Algorithms",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "graph algorithms",
+      "apache spark",
+      "neo4j"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Learning Graph Algorithms",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Graph Algorithms",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: graph algorithms, apache spark, neo4j",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "895f81c6479f8545c8b09e31d6e79d87",
