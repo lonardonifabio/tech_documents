@@ -46460,23 +46460,81 @@
   {
     "id": "723fc20c2edb5632afdf3641878f6b6c",
     "filename": "Machine_Learning_1658043939.pdf",
-    "title": "Machine Learning Guide to Implement Algorithms with Python",
-    "authors": [
-      "Rudolph Russell"
-    ],
+    "title": "Implementing Machine Learning Algorithms with Python",
+    "authors": [],
     "filepath": "documents/Machine_Learning_1658043939.pdf",
-    "upload_date": "2025-06-03T17:53:41.581095",
+    "upload_date": "2025-06-20T13:01:41.616833",
     "file_size": 1658301,
-    "summary": "Step-by-step guide for implementing Machine Learning algorithms using Python by Rudolph Russell.",
+    "summary": "A step-by-step guide to implementing machine learning algorithms using Python, covering various topics such as supervised and unsupervised learning, reinforcement learning, batch and online learning, feature engineering, testing, and more. The book is written by Rudolph Russell and was published in 2018.",
     "keywords": [
-      "Machine Learning",
-      "Python",
-      "Algorithm",
-      "Guide"
+      "machine learning",
+      "python",
+      "supervised learning",
+      "unsupervised learning",
+      "reinforcement learning"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Machine Learning",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Step-by-Step Guide To Implement Machine Learning Algorithms with Python"
+    "content_preview": "Document: Implementing Machine Learning Algorithms with Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "python",
+      "supervised learning"
+    ],
+    "methodologies": [
+      "Step-by-Step Guide"
+    ],
+    "tools_mentioned": [
+      "Machine Learning Algorithms"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Implementing Machine Learning Algorithms with Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, python, supervised learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "57d0f2807cd1614b4d0ff25a968b6459",
