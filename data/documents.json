@@ -20639,22 +20639,89 @@
   {
     "id": "8f2a585e3d2cb7f208fea5c59c4184c5",
     "filename": "DS_1613979660.pdf",
-    "title": "DS_1613979660.pdf - Data Pre-processing and Transformation in Machine Learning",
+    "title": "Data Pre-processing",
     "authors": [],
     "filepath": "documents/DS_1613979660.pdf",
-    "upload_date": "2025-06-03T22:07:03.341519",
+    "upload_date": "2025-06-20T13:01:36.520836",
     "file_size": 120665,
-    "summary": "This document discusses various data pre-processing and transformation techniques for machine learning problems, including handling missing values, removing noisy data, feature encoding, normalization, attribute selection, discretization, dimensionality reduction, and more.",
+    "summary": "A list of tasks to perform on data before training a machine learning model, including data cleaning, transformation, feature engineering, and selection.",
     "keywords": [
-      "Data Pre-processing",
-      "Machine Learning",
-      "Data Transformation",
-      "Feature Engineering",
-      "Missing Values"
+      "pre-processing",
+      "machine learning",
+      "data cleaning",
+      "feature engineering"
     ],
-    "category": "Data Science",
+    "key_concepts": [
+      "Data Preprocessing",
+      "Machine Learning Techniques",
+      "Feature Engineering",
+      "Data Cleaning"
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "DATA PRE-PROCESSING DIFFERENT THINGS TO DO IN STEP"
+    "content_preview": "Document: Data Pre-processing",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Machine Learning/AI"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machine learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "pre-processing",
+      "machine learning",
+      "data cleaning"
+    ],
+    "methodologies": [
+      "data preprocessing",
+      "feature engineering",
+      "modeling"
+    ],
+    "tools_mentioned": [
+      "binning method",
+      "regression",
+      "clustering",
+      "normalization",
+      "attribute selection"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Data Pre-Processing",
+      "Feature Engineering"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Pre-processing",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: pre-processing, machine learning, data cleaning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "4d0e4ea16cbf0e6b3665b57994894456",
