@@ -66090,25 +66090,96 @@
     "id": "a63516b5836d7d9733a893f554ca665f",
     "filename": "Putting_Explainable_AI_to_the_Test_1742808028.pdf",
     "title": "Putting Explainable AI to the Test",
-    "authors": [
-      "Minna Narayan",
-      "Christian Schoeberl",
-      "Tim G. Rudner"
-    ],
+    "authors": [],
     "filepath": "documents/Putting_Explainable_AI_to_the_Test_1742808028.pdf",
-    "upload_date": "2025-06-05T20:14:25.949771",
+    "upload_date": "2025-06-20T20:21:46.937694",
     "file_size": 1184892,
-    "summary": "This document examines the evaluation methods of explainability and interpretability in AI-enabled recommendation systems. It finds that researchers describe these concepts variably and do not clearly differentiate them. Five evaluation approaches are identified: case studies, comparative evaluations, parameter tuning, surveys, and others.",
+    "summary": "Policymakers frequently invoke explainability and interpretability as key principles for responsible and safe AI systems. However, it is unclear how evaluations of these methods are conducted in practice. This document analyzes literature reviews on explainability and interpretability of recommendation systems, identifying variable descriptions and evaluation approaches.",
     "keywords": [
-      "AI",
       "Explainable AI",
       "Interpretability",
+      "AI Evaluation",
       "Recommendation Systems",
-      "Evaluation"
+      "explainable AI",
+      "interpretable AI",
+      "transparency in AI systems",
+      "AI system validation",
+      "failure modes of AI"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Concept of Explainability in AI",
+      "Importance of Interpretability in AI",
+      "Evaluation Approaches for Explainability and Interpretability",
+      "The importance of explainability in AI decision-making",
+      "The role of transparency in building trust in AI systems",
+      "The limitations and challenges of implementing explainable AI"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document examines the evaluation methods of explainability and interpretability in AI-enabled recommendation systems."
+    "content_preview": "Document: Putting Explainable AI to the Test",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence",
+      "Healthcare"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "recommendation systems"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Explainable AI",
+      "Interpretability",
+      "AI Evaluation"
+    ],
+    "methodologies": [
+      "literature review",
+      "evaluation approaches",
+      "explanable",
+      "interpretable"
+    ],
+    "tools_mentioned": [
+      "data analysis",
+      "AI models"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Recommendation Systems",
+      "Medical Diagnosis",
+      "Purchasing Decisions"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Putting Explainable AI to the Test",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Explainable AI, Interpretability, AI Evaluation",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "52b3d3d148311bc10d73fe27b444d4c8",
