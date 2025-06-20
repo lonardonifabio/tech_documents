@@ -39814,23 +39814,108 @@
   {
     "id": "3ba6b813d0f59597c41b407dd3ff9493",
     "filename": "Learning_Python_1647089711.pdf",
-    "title": "Learning Python the Hard Way",
-    "authors": [
-      "Zed A. Shaw"
-    ],
+    "title": "Learn Python The Hard Way",
+    "authors": [],
     "filepath": "documents/Learning_Python_1647089711.pdf",
-    "upload_date": "2025-06-03T17:53:41.219090",
+    "upload_date": "2025-06-19T22:43:53.751152",
     "file_size": 3561336,
-    "summary": "A simple introduction to programming with Python, covering variables, strings, and basic concepts. Third edition by Zed A. Shaw.",
+    "summary": "A Very Simple Introduction to the Terrifyingly Beautiful World of Computers and Code Third Edition by Zed A. Shaw",
     "keywords": [
       "Python",
       "Programming",
-      "Introduction",
-      "Code"
+      "Variables",
+      "Names",
+      "Study Drills",
+      "Common Student Questions",
+      "Exercise",
+      "else",
+      "if",
+      "making decisions"
     ],
-    "category": "Machine Learning",
-    "difficulty": "Beginner",
-    "content_preview": "Learn Python the Hard Way, Third Edition"
+    "key_concepts": [
+      "Introduction to Python programming",
+      "Basic variables and names in Python",
+      "String manipulation in Python",
+      "Reading Files",
+      "Writing Files",
+      "More Files",
+      "Loops and Lists",
+      "Else and If",
+      "Making Decisions",
+      "What is an object in OOP?"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Learn Python The Hard Way",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      null,
+      "Education",
+      "Software Development"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Programming",
+      "Variables"
+    ],
+    "methodologies": [
+      "Learning by Doing",
+      "Writing Code",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "Text Editor",
+      "IDLE",
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      null,
+      "Study Drills",
+      "Common Student Questions",
+      "Learning to code",
+      "Understanding programming concepts"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Learn Python The Hard Way",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, Programming, Variables",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "01e5924d7872932ae603b5fccc8bbe5a",
