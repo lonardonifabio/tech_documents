@@ -44971,24 +44971,87 @@
   {
     "id": "5af86b12cb991c781abc54530d19f035",
     "filename": "MAchineLearning_GiocoScacchi.pdf",
-    "title": "Machine Learning in Chess: A Thesis by Benedetto Toni",
-    "authors": [
-      "Benedetto Toni"
-    ],
+    "title": "Machine Learning in Scacchi",
+    "authors": [],
     "filepath": "documents/MAchineLearning_GiocoScacchi.pdf",
-    "upload_date": "2025-06-04T21:18:52.672025",
+    "upload_date": "2025-06-20T13:01:41.079833",
     "file_size": 451175,
-    "summary": "This document is a thesis on Machine Learning applied to chess games, written by Benedetto Toni for the University of Pisa. It discusses the basics of machine learning, databases, and AI in chess, as well as various algorithms like MiniMax, NegaMax, and AlphaBeta.",
+    "summary": "This document is a thesis on Machine Learning applied to the game of Scacchi, covering topics such as games and Artificial Intelligence, knowledge in chess-playing artificial players, machine learning basics, data bases in ML for games, objectives of the thesis, structure of the thesis, programs of play, analysis of the tree of game, algorithms MiniMax, NegaMax, AlphaBeta.",
     "keywords": [
       "Machine Learning",
-      "Chess",
-      "AI",
-      "Thesis",
-      "University of Pisa"
+      "Scacchi",
+      "Intelligenza Artificiale",
+      "Giochi",
+      "Basi di dati"
     ],
-    "category": "AI",
-    "difficulty": "Advanced",
-    "content_preview": "Università degli Studi di Pisa, Facoltà di Scienze Matematiche, Fisiche e Naturali, Corso di Laurea in Scienze dell’Informazione, Machine Learning basato su analisi di database. Il caso del gioco degli Scacchi."
+    "key_concepts": [
+      "A sentence expressing the concept of Machine Learning in Scacchi",
+      "A sentence expressing the concept of Intelligenza Artificiale in Giochi",
+      "A sentence expressing the concept of Basi di dati nel ML applicato ai giochi"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Machine Learning in Scacchi",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Computer Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machine learning",
+      "database analysis"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Scacchi",
+      "Intelligenza Artificiale"
+    ],
+    "methodologies": [
+      "game playing",
+      "artificial intelligence"
+    ],
+    "tools_mentioned": [
+      "mini-max algorithm",
+      "negamax algorithm",
+      "alphabeta algorithm"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Game Development"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning in Scacchi",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, Scacchi, Intelligenza Artificiale",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "8b8cfd886eac185554f6796ecbd1595d",
