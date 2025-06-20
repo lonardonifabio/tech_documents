@@ -23724,22 +23724,90 @@
   {
     "id": "2db4b7b371af7514ae79f235d3e51528",
     "filename": "Data_Wrangling_Pandas_1622809452.pdf",
-    "title": "Data Wrangling with Pandas Cheat Sheet",
+    "title": "FMAData Wrangling with pandas",
     "authors": [],
     "filepath": "documents/Data_Wrangling_Pandas_1622809452.pdf",
-    "upload_date": "2025-06-03T22:07:04.085525",
+    "upload_date": "2025-06-20T13:01:37.679835",
     "file_size": 491020,
-    "summary": "This document provides a cheat sheet for data wrangling using the pandas library, covering topics such as creating DataFrames, tidy data, reshaping data, and manipulating DataFrames.",
+    "summary": "This document excerpt provides an overview of data wrangling techniques using the pandas library, including creating DataFrames, reshaping data, renaming columns, sorting rows and index, and dropping columns. It explains how to use various pandas functions such as melt(), pivot(), concat(), sort_values(), rename(), sort_index(), reset_index(), drop(), subset(), and specify values for each column or row.",
     "keywords": [
-      "Data Wrangling",
-      "Pandas",
-      "Cheat Sheet",
-      "Syntax",
-      "Tidy Data"
+      "pandas",
+      "data wrangling",
+      "tidy data",
+      "reshaping data",
+      "sorting data",
+      "renaming columns"
+    ],
+    "key_concepts": [
+      "Tidy data format",
+      "Melt and pivot operations",
+      "Concatenating DataFrames",
+      "Sorting and indexing DataFrames"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "FMAData Wrangling with pandas Cheat Sheet"
+    "content_preview": "Document: FMAData Wrangling with pandas",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "pandas"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "pandas",
+      "data wrangling",
+      "tidy data"
+    ],
+    "methodologies": [
+      "tidy data",
+      "vectorized operations"
+    ],
+    "tools_mentioned": [
+      "pd.melt",
+      "df.pivot",
+      "pd.concat",
+      "df.sort_values",
+      "df.rename"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Wrangling",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: FMAData Wrangling with pandas",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: pandas, data wrangling, tidy data",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "7a2da97eddd3f97a7e90c9933ecc1684",
