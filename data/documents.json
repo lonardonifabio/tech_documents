@@ -64278,22 +64278,93 @@
   {
     "id": "be75ac035bfd2495e089c0e955453cca",
     "filename": "RPA-Cheat-Sheet.pdf",
-    "title": "RPA Cheat Sheet",
+    "title": "RPA Basics",
     "authors": [],
     "filepath": "documents/RPA-Cheat-Sheet.pdf",
-    "upload_date": "2025-06-05T14:25:33.342244",
+    "upload_date": "2025-06-20T06:11:11.810227",
     "file_size": 306918,
-    "summary": "This document provides a cheat sheet for Robotic Process Automation (RPA), explaining its basics, architecture, and key considerations such as technology compatibility, scalability, security, total cost, ease of use, and vendor experience.",
+    "summary": "Robotic Process Automation (RPA) is used for automating current workflows with robots to reduce human intervention. RPA mimics human activities and actions, replicates user activity, and provides high accuracy. It is built on a simple concept by replicating user activity using tools like SQL Server Blue Prism.",
     "keywords": [
-      "Robotic Process Automation",
       "RPA",
       "Automation",
-      "Technology",
-      "Scalability"
+      "Robotics",
+      "SQL Server",
+      "Blue Prism"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Robotic Process Automation",
+      "Automation",
+      "Machines mimicking human activities",
+      "Sequence of steps",
+      "High degree of accuracy"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Robotic Process Automation (RPA) is a tool used for automating workflows with robots to reduce human intervention."
+    "content_preview": "Document: RPA Basics",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Business Process Management"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Virtual Machines",
+      "Citrix"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "RPA",
+      "Automation",
+      "Robotics"
+    ],
+    "methodologies": [
+      "Platform independent",
+      "Scalability",
+      "Security",
+      "Total Cost",
+      "Ease of use and control"
+    ],
+    "tools_mentioned": [
+      "SQL Server",
+      "Blue Prism",
+      "Automation Anywhere",
+      "SQL Express"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Automation",
+      "Process Optimization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: RPA Basics",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: RPA, Automation, Robotics",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "241cf230425c136032abd4bef6269189",
