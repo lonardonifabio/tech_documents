@@ -40955,22 +40955,106 @@
     "id": "fdef873ae7576dfd140993f6b39300f8",
     "filename": "Linear_Regression_in_Python_1568836757.pdf",
     "title": "Linear Regression in Python",
-    "authors": [
-      "Mirko Stojiljkovic"
-    ],
+    "authors": [],
     "filepath": "documents/Linear_Regression_in_Python_1568836757.pdf",
-    "upload_date": "2025-06-04T21:18:52.643025",
+    "upload_date": "2025-06-20T06:11:08.015209",
     "file_size": 3430623,
-    "summary": "This document provides a comprehensive guide on Linear Regression in Python using various packages such as scikit-learn and statsmodels. It covers topics like Simple Linear Regression, Multiple Linear Regression, Polynomial Regression, Underfitting and Overfitting, and more.",
+    "summary": "This document provides an overview of linear regression, its importance in data science and machine learning, and how to implement it using Python. Linear regression is a fundamental statistical technique used for predicting continuous outcomes based on one or more predictor variables. It is widely used in various fields such as finance, healthcare, and social networks. The document covers different types of linear regression, including simple linear regression, multiple linear regression, polynomial regression, and advanced techniques like underfitting and overfitting. It also discusses how to implement linear regression using Python packages such as scikit-learn and statsmodels.",
     "keywords": [
-      "Linear Regression",
-      "Python",
-      "Data Science",
-      "Machine Learning"
+      "linear regression",
+      "python",
+      "machine learning",
+      "data science",
+      "polynomial regression",
+      "underfitting",
+      "overfitting",
+      "LinearRegression",
+      "scikit-learn",
+      "multiple linear regression"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Regression",
+      "Linear Regression",
+      "Machine Learning",
+      "Data Science",
+      "regression function",
+      "degree of polynomial",
+      "SSR",
+      "optimal degree",
+      "model simplicity",
+      "Simple Linear Regression"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "8/20/2019 Linear Regression in Python – Real Python"
+    "content_preview": "Document: Linear Regression in Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning",
+      "Data Science/Artificial Intelligence",
+      "Finance/Statistics"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "scikit-learn",
+      "statsmodels",
+      "numpy"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "linear regression",
+      "python",
+      "machine learning"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Data Science",
+      "Linear Regression"
+    ],
+    "tools_mentioned": [
+      "Real Python",
+      "scikit-learn",
+      "numpy"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Predictive Modeling",
+      "Polynomial Regression",
+      "Linear Regression",
+      "Predicting continuous outcomes"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Linear Regression in Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: linear regression, python, machine learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "81721e853f354184309013807365aa8a",
