@@ -51981,21 +51981,85 @@
   {
     "id": "36738dc7ab45bb944f5b37947a43c062",
     "filename": "Pandas Cheat Sheet for Data Science in Python.pdf",
-    "title": "Pandas Cheat Sheet for Data Science in Python",
+    "title": "Python for Data Science",
     "authors": [],
     "filepath": "documents/Pandas Cheat Sheet for Data Science in Python.pdf",
-    "upload_date": "2025-06-06T15:45:47.525681",
+    "upload_date": "2025-06-19T22:43:56.610164",
     "file_size": 1293098,
-    "summary": "This document provides a cheat sheet for using the Pandas library, built on NumPy and offering easy-to-use data structures and analysis tools for the Python programming language. It includes sections on I/O, selection, dropping, applying functions, asking for help, and more.",
+    "summary": "The Pandas library is built on NumPy and provides easy-to-use data structures and data analysis tools for the Python programming language. It allows holding any data type, including integer, float, string, boolean, etc. The library also supports two-dimensional labeled arrays with columns of potentially different types.",
     "keywords": [
-      "Pandas",
-      "Data Science",
-      "Python",
-      "Cheat Sheet"
+      "pandas",
+      "python",
+      "data analysis",
+      "data science"
+    ],
+    "key_concepts": [
+      "Series data structure",
+      "Data alignment",
+      "Data frame creation"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "P and as Basi cs Cheat Shee tPyth o n F o r D at a Sci e n ce L earn P an d as Basi cs o nlin e at www .D at aCamp.co m >P and as D ata Struct ur es"
+    "content_preview": "Document: Python for Data Science",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "pandas",
+      "python",
+      "data analysis"
+    ],
+    "methodologies": [
+      "Data Analysis",
+      "Machine Learning"
+    ],
+    "tools_mentioned": [
+      "NumPy",
+      "pandas",
+      "Excel"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Data Visualization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python for Data Science",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: pandas, python, data analysis",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a6ad25e859290029515f1e2fc04f8c63",
