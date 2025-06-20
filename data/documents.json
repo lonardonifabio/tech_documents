@@ -69122,29 +69122,112 @@
   {
     "id": "30d25e776d2b50348c5dd28c2c50126a",
     "filename": "Schlegel_Sommer_Mortillaro_2025_Nature__1749710065.pdf",
-    "title": "Large Language Models and Emotional Intelligence Tests",
-    "authors": [
-      "Katja Schlegel1,2, Nils R. Sommere1& Marcello Mortillaro3"
-    ],
+    "title": "Large Language Models in Emotional Intelligence Tests",
+    "authors": [],
     "filepath": "documents/Schlegel_Sommer_Mortillaro_2025_Nature__1749710065.pdf",
-    "upload_date": "2025-06-12T09:23:46.387600",
+    "upload_date": "2025-06-20T13:01:45.330825",
     "file_size": 552299,
-    "summary": "This research investigates the emotional intelligence capabilities of large language models (LLMs) by examining their performance on standard emotional intelligence tests. The study found that LLMs, specifically ChatGPT-4, outperformed humans with an average accuracy of 81%, compared to human averages of 56% in original validation studies. The research also shows that LLMs can generate new test items for emotional intelligence tests, which were administered to human participants across five studies.",
+    "summary": "This research examined whether large language models can solve and generate performance-based emotional intelligence tests. Results showed that LLMs outperformed humans on five standard emotional intelligence tests, achieving an average accuracy of 81%. The study also found that the original and ChatGPT-generated tests demonstrated statistically equivalent test difficulty, but with some differences in perceived item clarity and realism.",
     "keywords": [
       "Large Language Models",
-      "Emotional Intelligence Tests",
-      "ChatGPT-4"
+      "Emotional Intelligence",
+      "ChatGPT",
+      "LLMs",
+      "STEM",
+      "STEU",
+      "Emotion Understanding",
+      "Validation Sample",
+      "development",
+      "emotional situations"
     ],
     "key_concepts": [
-      "LLMs demonstrate expertise in diverse domains but their emotional intelligence is uncertain.",
-      "Research examines LLMs' ability to solve and generate performance-based emotional intelligence tests.",
-      "ChatGPT-4 outperformed humans on five standard emotional intelligence tests with an average accuracy of 81%.",
-      "ChatGPT-4 generated new test items for each emotional intelligence test, which were administered to human participants across five studies.",
-      "Original and ChatGPT-generated tests demonstrated statistically equivalent test difficulty but differences in other factors such as clarity, realism, diversity, internal consistency, correlations with vocabulary and external ability emotional intelligence tests were smaller than Cohen's d ± 0.25."
+      "Emotional Intelligence Tests",
+      "Performance-Based Testing",
+      "Natural Language Processing",
+      "Situational Test of Emotion Understanding",
+      "Validation Process",
+      "Emotion Recognition",
+      "Children's development",
+      "Emotional similarity in scenarios",
+      "Rating task",
+      "Vocabulary test"
     ],
-    "category": "AI",
-    "difficulty": "Advanced",
-    "content_preview": "Large language models are pro ﬁcient in solving and creating emotional intelligence tests"
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Large Language Models in Emotional Intelligence Tests",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence",
+      "Psychology",
+      "Education/Research"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Large Language Models",
+      "ChatGPT-4",
+      "Gemini 1.5",
+      "Copilot 365",
+      "Claude 3.5"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Large Language Models",
+      "Emotional Intelligence",
+      "ChatGPT"
+    ],
+    "methodologies": [
+      "performance-based emotional intelligence tests",
+      "expert-defined",
+      "scored",
+      "random assignment",
+      "rating scale"
+    ],
+    "tools_mentioned": [
+      "LLMs",
+      "vocabulary test",
+      "external ability emotional intelligence test",
+      "STEU validation sample",
+      " parcels"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Emotional Intelligence Testing",
+      "Emotion Understanding",
+      "Emotion Recognition",
+      "Cognitive Testing",
+      "Personality Assessment"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Large Language Models in Emotional Intelligence Tests",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Large Language Models, Emotional Intelligence, ChatGPT",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.9583333333333334
   },
   {
     "id": "6d44d62055c5a4f2838879ca3bf85f99",
