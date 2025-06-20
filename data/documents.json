@@ -23248,24 +23248,84 @@
   {
     "id": "e01a37d04a647a8f94e008fb8e8cf987",
     "filename": "Data_Science_A_Z_RoadMap__1738493650.pdf",
-    "title": "Data Science A-Z RoadMap",
-    "authors": [
-      "Avi Chawla"
-    ],
+    "title": "DATASCIENCEFREE2024 EDITION",
+    "authors": [],
     "filepath": "documents/Data_Science_A_Z_RoadMap__1738493650.pdf",
-    "upload_date": "2025-06-06T15:45:41.210670",
+    "upload_date": "2025-06-20T13:01:37.412835",
     "file_size": 36803622,
-    "summary": "This document provides a roadmap for Data Science, focusing on four well-adopted and essential training methodologies that rely on model interaction to improve performance. These include Transfer Learning, Knowledge Distillation, Multi-Task Learning, and Ensemble Learning.",
+    "summary": "Most ML models are trained independently without any interaction with other models. However, in the realm of real-world ML, there are many powerful learning techniques that rely on model interaction to improve performance.",
     "keywords": [
-      "Data Science",
-      "Machine Learning",
-      "Model Interaction",
-      "Transfer Learning",
-      "Knowledge Distillation"
+      "transfer learning",
+      "fine-tuning",
+      "distillation"
+    ],
+    "key_concepts": [
+      "Model interaction for improving performance",
+      "Training on related tasks",
+      "Adapting pre-trained models to new tasks"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a roadmap for Data Science, focusing on four well-adopted and essential training methodologies..."
+    "content_preview": "Document: DATASCIENCEFREE2024 EDITION",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "ML",
+      "Deep Learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "transfer learning",
+      "fine-tuning",
+      "distillation"
+    ],
+    "methodologies": [
+      "Transfer Learning",
+      "Fine-Tuning",
+      "Distillation"
+    ],
+    "tools_mentioned": [
+      "Neural Networks"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Fine-tuning",
+      "Transfer learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: DATASCIENCEFREE2024 EDITION",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: transfer learning, fine-tuning, distillation",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "1f49eb1af173185e56aaa1bf0e76663c",
