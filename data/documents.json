@@ -38556,23 +38556,103 @@
     "id": "8486c4a2490bcf72a2d651894d346eeb",
     "filename": "LLM_from_Scratch_1740948185.pdf",
     "title": "Large Language Models from Scratch",
-    "authors": [
-      "Victor Dantas"
-    ],
+    "authors": [],
     "filepath": "documents/LLM_from_Scratch_1740948185.pdf",
-    "upload_date": "2025-06-05T20:14:22.521725",
+    "upload_date": "2025-06-19T22:43:53.525152",
     "file_size": 6870063,
-    "summary": "This document provides an in-depth exploration of Large Language Models (LLMs), focusing on their architecture, training methods, and various techniques like Self-Attention, Transformers, and Sequence-to-Sequence models. It also covers the Attention Mechanism, Recurrent Neural Networks, Deep Learning, Gradient Descent, Backpropagation, and more.",
+    "summary": "This document provides an introduction to large language models, focusing on the transformer architecture and its components, including attention mechanisms, sequence-to-sequence models, recurrent neural networks, and self-supervised learning. It also covers topics such as tuning, fine-tuning, and parameter-efficient tuning.",
     "keywords": [
       "Large Language Models",
       "Transformers",
       "Attention Mechanism",
-      "Seq2Seq Models",
-      "Recurrent Neural Networks"
+      "Neural Networks",
+      "Deep Learning",
+      "Recurrent Neural Networks",
+      "Long Short-Term Memory",
+      "Seq2Seq Models"
     ],
-    "category": "AI",
-    "difficulty": "Advanced",
-    "content_preview": "To learn how large language models (like GPT, LamDA, and others) work, it’s useful to understand how transformers work. To understand how transformers work..."
+    "key_concepts": [
+      "Transformer Model Architecture",
+      "Self-Attention",
+      "Multi-Headed Attention",
+      "Positional Encoding",
+      "Seq2Seq Models",
+      "RNNs",
+      "Hidden State",
+      "LSTM",
+      "Sequence-to-Sequence Models",
+      "Image Captioning"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Large Language Models from Scratch",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Neural Networks",
+      "Deep Learning",
+      "Gradient Descent",
+      "Backpropagation",
+      "RNNs"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Large Language Models",
+      "Transformers",
+      "Attention Mechanism"
+    ],
+    "methodologies": [
+      "Recurrent Neural Networks",
+      "Seq2Seq Models",
+      "Transformers",
+      "Attention Mechanism"
+    ],
+    "tools_mentioned": [
+      "Transformers",
+      "LSTM"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Natural Language Processing",
+      "Machine Learning",
+      "Image Captioning",
+      "Text Summarization",
+      "Translation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Large Language Models from Scratch",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Large Language Models, Transformers, Attention Mechanism",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "4b9351b8518c28d11340a3cccf0b32cd",
