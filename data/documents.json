@@ -71489,24 +71489,82 @@
   {
     "id": "fcd06e1ff87f5dc5e30f81d5d2f75128",
     "filename": "RNN_cheatsheet_1617105914.pdf",
-    "title": "RNN Cheatsheet",
-    "authors": [
-      "Afshine Amidi",
-      "Shervine Amidi"
-    ],
+    "title": "Recurrent Neural Networks",
+    "authors": [],
     "filepath": "documents/RNN_cheatsheet_1617105914.pdf",
-    "upload_date": "2025-06-06T15:45:48.416682",
+    "upload_date": "2025-06-20T20:21:47.509694",
     "file_size": 857922,
-    "summary": "This document is a cheatsheet for Recurrent Neural Networks (RNNs), covering their architecture, advantages and disadvantages, applications, and loss function. It was created by Afshine Amidi and Shervine Amidi in 2018.",
+    "summary": "Recurrent neural networks (RNNs) are a class of neural networks that allow previous outputs to be used as inputs while having hidden states. They have several advantages, including the ability to process input of any length and computation taking into account historical information. However, they also have some drawbacks, such as slow computation and difficulty in accessing information from long ago. RNNs are commonly used in natural language processing and speech recognition.",
     "keywords": [
       "Recurrent Neural Networks",
-      "Deep Learning",
-      "CS 230",
-      "Stanford University"
+      "RNNs",
+      "Deep Learning"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "Architecture of RNNs",
+      "Pros and Cons of RNNs",
+      "Applications of RNNs"
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "CS 230 – Deep Learning ... RNNs, are a class of neural networks..."
+    "content_preview": "Document: Recurrent Neural Networks",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Deep Learning",
+      "Recurrent Neural Networks"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Recurrent Neural Networks",
+      "RNNs",
+      "Deep Learning"
+    ],
+    "methodologies": [
+      "RNNs"
+    ],
+    "tools_mentioned": [
+      "Stanford CS 230"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Natural Language Processing",
+      "Speech Recognition"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Recurrent Neural Networks",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Recurrent Neural Networks, RNNs, Deep Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "be75ac035bfd2495e089c0e955453cca",
