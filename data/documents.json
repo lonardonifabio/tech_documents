@@ -41468,22 +41468,106 @@
     "id": "daa0aafcf2b237186fe1221dacaccb5e",
     "filename": "Machine_Learning_Cheat_Sheet__1606226458.pdf",
     "title": "Machine Learning Cheat Sheet",
-    "authors": [
-      "soulmachine"
-    ],
+    "authors": [],
     "filepath": "documents/Machine_Learning_Cheat_Sheet__1606226458.pdf",
-    "upload_date": "2025-06-05T20:14:23.653731",
+    "upload_date": "2025-06-19T22:43:54.653151",
     "file_size": 1959957,
-    "summary": "A condensed version of a machine learning manual containing classical equations, diagrams, and tricks aimed at quick knowledge recall in the field. The document standardizes symbols for clarity and includes important intermediary steps in mathematical proof processes.",
+    "summary": "A condensed version of machine learning manual containing classical equations and diagrams, aiming to help quickly recall knowledge and ideas in machine learning. The cheat sheet has two significant advantages: clearer symbols and less thinking jumps.",
     "keywords": [
+      "machine learning",
+      "classical equations",
+      "diagrams",
+      "tricks",
+      "Bayesian statistics",
+      "MVN",
+      "Wishart distribution",
+      "Sensor fusion",
+      "Posterior distributions",
+      "MAP estimation"
+    ],
+    "key_concepts": [
+      "Machine Learning Cheat Sheet",
+      "Classical Equations in Machine Learning",
+      "Standardized Symbols",
+      "Intermediary Steps in Mathematical Proofs",
+      "A Bayesian approach to statistical inference",
+      "The use of posterior distributions in decision-making",
+      "The importance of prior knowledge in Bayesian statistics",
+      "The role of sensor fusion in uncertainty quantification",
+      "Mixture of Gaussians",
+      "Mixtures of multinomials"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Machine Learning Cheat Sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education/Research",
+      "Statistics and Machine Learning",
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "classical equations",
+      "diagrams"
+    ],
+    "methodologies": [
+      "method1",
+      "method2",
+      "Bayesian statistics",
+      "GMMs",
+      "K-means"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2",
+      "EM algorithm"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
       "Machine Learning",
       "Cheat Sheet",
-      "Mathematics",
-      "Symbols"
+      "Bayesian statistics",
+      "Sensor fusion",
+      "Clustering"
     ],
-    "category": "AI",
-    "difficulty": "Intermediate",
-    "content_preview": "A condensed version of a machine learning manual..."
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning Cheat Sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, classical equations, diagrams",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "5f5910a60ddcfb500616ef3933a00f49",
