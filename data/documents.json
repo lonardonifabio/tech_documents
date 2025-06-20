@@ -69668,21 +69668,85 @@
   {
     "id": "50f459170bb06e4aa0ad213f2c055598",
     "filename": "Road_Lane_Detection_1706087199.pdf",
-    "title": "Road Lane Detection",
+    "title": "Lane Detection Using CV",
     "authors": [],
     "filepath": "documents/Road_Lane_Detection_1706087199.pdf",
-    "upload_date": "2025-06-03T17:53:43.513132",
+    "upload_date": "2025-06-20T13:01:45.147825",
     "file_size": 955178,
-    "summary": "This document demonstrates a road lane detection algorithm using computer vision techniques such as grayscale conversion, Gaussian blur, and Canny edge detection.",
+    "summary": "This document excerpt describes a lane detection algorithm using OpenCV. It starts by importing necessary libraries and loading an image. The image is then converted to different color spaces (BGR, XYZ, HSV) and grayscale. A Gaussian blur is applied to reduce noise, followed by the Canny edge detection method. The code also includes functions for converting colors and finding regions of interest. The final step involves applying a bitwise operation to select the region of interest.",
     "keywords": [
-      "Computer Vision",
-      "Lane Detection",
-      "Image Processing",
+      "lane detection",
+      "computer vision",
       "OpenCV"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Image processing",
+      "Color conversion",
+      "Edge detection",
+      "Region of interest"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Imports necessary libraries, loads an image, and converts it to grayscale."
+    "content_preview": "Document: Lane Detection Using CV",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Computer Vision"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "OpenCV"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "lane detection",
+      "computer vision",
+      "OpenCV"
+    ],
+    "methodologies": [
+      "Image Processing",
+      "Computer Vision"
+    ],
+    "tools_mentioned": [
+      "Python",
+      "NumPy",
+      "Matplotlib",
+      "IPython"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Lane Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Lane Detection Using CV",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: lane detection, computer vision, OpenCV",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "56d89768885d73b3b6bf0facd17aed1a",
