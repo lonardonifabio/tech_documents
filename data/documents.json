@@ -40401,22 +40401,97 @@
   {
     "id": "72a24805030388475b99fefea7d6ae5d",
     "filename": "ML_1710964491.pdf",
-    "title": "Top 10 Complete Study Plan Inside Machine Learning Algorithms",
+    "title": "Linear Regression Overview",
     "authors": [],
     "filepath": "documents/ML_1710964491.pdf",
-    "upload_date": "2025-06-03T17:53:41.385092",
+    "upload_date": "2025-06-19T22:43:54.132152",
     "file_size": 3448514,
-    "summary": "This document provides a comprehensive study plan for understanding and implementing popular machine learning algorithms such as Linear Regression and Logistic Regression. It covers the theory behind these algorithms, their differences, and practical implementation in Python.",
+    "summary": "Linear regression is a foundational algorithm in machine learning used for predicting continuous variables. The theory behind linear regression and its implementation in Python are covered. Practice questions include implementing linear regression to predict housing prices using given data and evaluating the performance of a linear regression model.",
     "keywords": [
+      "linear regression",
+      "logistic regression",
+      "machine learning",
+      "predictive modeling",
+      "KNN",
+      "Naive Bayes",
+      "Classification",
+      "Machine Learning"
+    ],
+    "key_concepts": [
+      "Linear Regression: A Foundational Algorithm in Machine Learning for Predicting Continuous Variables",
+      "Logistic Regression: Used for Binary Classification Problems, Such as Spam Detection or Predicting Customer Purchases",
+      "Simple Instance-Based Learning Algorithm",
+      "Majority Class Determined by Nearest Neighbors",
+      "Application of KNN and Naive Bayes in Classification Problems"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Linear Regression Overview",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
       "Machine Learning",
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "KNN"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "linear regression",
+      "logistic regression",
+      "machine learning"
+    ],
+    "methodologies": [
+      "Implementation",
+      "Evaluation",
+      "instance-based learning",
+      "Naive Bayes"
+    ],
+    "tools_mentioned": [
       "Linear Regression",
       "Logistic Regression",
-      "Python",
-      "Study Plan"
+      "Bayes' theorem"
     ],
-    "category": "AI",
-    "difficulty": "Intermediate",
-    "content_preview": "Top 10 Complete Study Plan Inside Machine Learning Algorithms, Linear Regression is a foundational algorithm in machine learning used for predicting continuous variables."
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Predicting continuous values",
+      "Binary classification problems",
+      "Text Classification",
+      "Natural Language Processing"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Linear Regression Overview",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: linear regression, logistic regression, machine learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "43584061f58eae4a74230564746799a9",
