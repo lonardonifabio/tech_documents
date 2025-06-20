@@ -66430,28 +66430,108 @@
   {
     "id": "630402a4919cb6bc79922113ed56916d",
     "filename": "Rag_1748125553.pdf",
-    "title": "SubGCache: Accelerating Graph-based RAG with Subgraph-level KV Cache",
-    "authors": [
-      "Qiuyu Zhu",
-      "Liang Zhang",
-      "Qianxiong Xu",
-      "Cheng Long",
-      "Jie Zhang"
-    ],
+    "title": "SubGCache: Accelerating Graph-based RAG",
+    "authors": [],
     "filepath": "documents/Rag_1748125553.pdf",
-    "upload_date": "2025-06-05T14:25:33.435243",
+    "upload_date": "2025-06-20T13:01:44.949826",
     "file_size": 2418731,
-    "summary": "This document proposes SubGCache, a method to reduce inference latency for graph-based Retrieval-augmented Generation (RAG) by reusing computation across queries with similar structural prompts. The approach clusters queries based on subgraph embeddings and pre-computes key-value caches for each cluster, achieving up to 6.68x reduction in time-t...",
+    "summary": "Graph-based retrieval-augmented generation (RAG) enables large language models to incorporate structured knowledge via graph retrieval as contextual input, enhancing accurate and context-aware reasoning. SubGCache reduces inference latency by reusing computation across queries with similar structural prompts.",
     "keywords": [
-      "Graph-based RAG",
       "SubGCache",
-      "Inference Latency",
-      "Retrieval-augmented Generation",
-      "Key-Value Cache"
+      "Graph-based RAG",
+      "KV Cache",
+      "Latency Reduction",
+      "query clustering",
+      "subgraph-level cache reuse",
+      "graph embedding",
+      "pretrained GNN",
+      "SentenceBERT",
+      "clustering"
+    ],
+    "key_concepts": [
+      "Accelerating Graph-based RAG with Subgraph-level KV Cache",
+      "Reducing Inference Latency",
+      "Context-Aware Reasoning",
+      "Structured Knowledge",
+      "representative subgraph construction",
+      "cluster-wise query processing",
+      "in-batch query overlap",
+      "graph-based RAG",
+      "high-quality response generation",
+      "Cluster processing time"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "arXiv:2505.10951v1  [cs.LG]  16 May 2025SubGCache: Accelerating Graph-based RAG with Subgraph-level KV Cache"
+    "content_preview": "Document: SubGCache: Accelerating Graph-based RAG",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence",
+      "Natural Language Processing",
+      "Computer Vision"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "graph",
+      "natural_language_processing",
+      "GNN",
+      "SentenceBERT"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "SubGCache",
+      "Graph-based RAG",
+      "KV Cache"
+    ],
+    "methodologies": [
+      "subgraph_level_kv_cache",
+      "clustering",
+      "query clustering",
+      "subgraph-level cache reuse"
+    ],
+    "tools_mentioned": [
+      "arXiv",
+      "LLMs",
+      "pretrained GNN model"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Natural Language Processing",
+      "Graph-based RAG",
+      "Graph-based Response Generation",
+      "Query Clustering",
+      "Object Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: SubGCache: Accelerating Graph-based RAG",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: SubGCache, Graph-based RAG, KV Cache",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.9166666666666666
   },
   {
     "id": "18bbcbfda4368a4dad98ee3fdf6c8633",
