@@ -69823,36 +69823,102 @@
     "id": "4907ab19576676ef5d8da993f9224bc3",
     "filename": "Real_GenAI_risks_1749710097.pdf",
     "title": "A Closer Look at the Existing Risks of Generative AI",
-    "authors": [
-      "MEGAN LI",
-      "WENDY BICKERSTETH",
-      "NINGJING TANG",
-      "JASON HONG",
-      "LORRIE CRANOR",
-      "HONG SHEN",
-      "HODA HEIDARI"
-    ],
+    "authors": [],
     "filepath": "documents/Real_GenAI_risks_1749710097.pdf",
-    "upload_date": "2025-06-12T09:23:46.007596",
+    "upload_date": "2025-06-20T13:01:44.953826",
     "file_size": 769205,
-    "summary": "This document presents a comprehensive analysis of real-world incidents related to Generative AI, mapping the causes, effects, and stakeholders involved. The study builds on prior taxonomies of AI risks and harms, focusing specifically on Generative AI failures and their associated impacts. Through an examination of 499 publicly reported incidents, the paper describes the prevalence of each type of harm, underlying failure mode, and affected parties, revealing that most incidents are caused by user-related issues but impact parties beyond the immediate users of the faulty system.",
+    "summary": "This paper analyzes 499 publicly reported incidents of Generative AI failures and maps them to the harms they precipitate. The authors construct a taxonomy specifically for Generative AI failures, describing what harms are reported, how they arose, and who they impact. They find that most reported incidents are caused by use-related issues but bring harm to parties beyond the end user(s) of the Generative AI system at fault.",
     "keywords": [
       "Generative AI",
-      "Risks",
-      "Incidents",
-      "Harms",
-      "Taxonomy"
+      "AI risks",
+      "harm",
+      "incidents",
+      "taxonomy",
+      "machine learning",
+      "FMEA",
+      "STPA",
+      "sociotechnical contexts",
+      "reporting bias"
     ],
     "key_concepts": [
-      "Explains the general-purpose nature of Generative AI and its expanding set of risks due to diverse applications.",
-      "Describes the construction of a taxonomy for Generative AI failures, mapping them to the harms they cause.",
-      "Reports on the prevalence of each type of harm, underlying failure mode, and affected stakeholders in 499 publicly reported incidents.",
-      "Highlights that most reported incidents are caused by user-related issues but impact parties beyond the immediate users of the faulty system.",
-      "Discusses the importance of understanding and addressing the risks associated with Generative AI to ensure its safe and responsible development, deployment, and use."
+      "General-purpose nature of Generative AI",
+      "Domain applications of Generative AI",
+      "Taxonomy of AI failures",
+      "Harms precipitated by Generative AI failures",
+      "failure modes",
+      "postmortem risk assessment",
+      "system theoretic process analysis",
+      "Harms of Generative AI",
+      "Incident reporting",
+      "Data collection and analysis"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "arXiv:2505.22073v1  [cs.CY]  28 May 2025A Closer Look at the Existing Risks of Generative AI:"
+    "content_preview": "Document: A Closer Look at the Existing Risks of Generative AI",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence",
+      "Software Engineering"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Generative AI",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Generative AI",
+      "AI risks",
+      "harm"
+    ],
+    "methodologies": [
+      "Taxonomy construction",
+      "Systematic analysis",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "Publicly reported incidents database",
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Generative AI",
+      "Machine Learning Failure Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: A Closer Look at the Existing Risks of Generative AI",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: Generative AI, AI risks, harm",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "cb530d14e293aa7cbd2de9d5a03b8372",
