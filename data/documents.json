@@ -52529,22 +52529,94 @@
   {
     "id": "f35118416fd4dff2bf670179c678b902",
     "filename": "Maths_behind_ML_Algos_1705501581.pdf",
-    "title": "Maths behind ML Algorithms",
+    "title": "Bayesian Methods and Statistical Analysis",
     "authors": [],
     "filepath": "documents/Maths_behind_ML_Algos_1705501581.pdf",
-    "upload_date": "2025-06-04T21:18:53.696032",
+    "upload_date": "2025-06-20T06:11:09.790218",
     "file_size": 22797832,
-    "summary": "This document discusses various machine learning algorithms such as Naive Bayes, Optimal Classifier, MAP, Mixture Models, and Bayesian Networks. It also covers topics like maximum likelihood, anomaly detection, Laplace estimate, derivatives, product rule, chain rule, variance, standard deviation, covariance, confidence interval, etc.",
+    "summary": "This document provides an overview of Bayesian methods, including Naive Bayes, Bayes classifier, maximum a posteriori, likelihood, mixture models, anomaly detection, EM algorithm, Laplace estimate, Bayesian networks, limits, derivatives, product rule, chain rule, variance, standard deviation, and covariance.",
     "keywords": [
-      "Machine Learning",
-      "Algorithms",
-      "Naive Bayes",
-      "Optimal Classifier",
+      "BAYES",
+      "CLASSIFIER",
+      "MAP",
+      "LIKELIHOOD",
+      "MIXTURE",
+      "GAUSSIANS",
+      "ANOMALY",
+      "DETECTION",
+      "EM ALGORITHM",
+      "DERIVATIVES"
+    ],
+    "key_concepts": [
+      "Naive Bayes classifier",
+      "Maximum a posteriori (MAP) estimation",
+      "Likelihood-based classification",
+      "Mixture models of Gaussians for anomaly detection",
+      "Expectation-Maximization (EM) algorithm",
+      "Derivatives and product rule in calculus",
+      "Variance and standard deviation in probability theory"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Bayesian Methods and Statistical Analysis",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Bayes"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "BAYES",
+      "CLASSIFIER",
       "MAP"
     ],
-    "category": "Machine Learning",
-    "difficulty": "Intermediate",
-    "content_preview": "NAÏVE\t BAYES\t     𝑃𝑎𝑐=𝑃𝑐𝑎.𝑃(𝑎)𝑃(𝑐)"
+    "methodologies": [
+      "Naive Bayes",
+      "Maximum a posteriori",
+      "Likelihood",
+      "EM algorithm",
+      "Laplace estimate"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Anomaly Detection",
+      "Classification"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Bayesian Methods and Statistical Analysis",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: BAYES, CLASSIFIER, MAP",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "1491ffc938e514039697bc126e628b9a",
