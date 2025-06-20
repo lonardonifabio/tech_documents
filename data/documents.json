@@ -44630,22 +44630,98 @@
   {
     "id": "52044a4a67346bc1621f3292c1dbdc50",
     "filename": "ML_Cheat_Sheet_1619300985.pdf",
-    "title": "ML Cheat Sheet 1619300985.pdf",
+    "title": "Regression",
     "authors": [],
     "filepath": "documents/ML_Cheat_Sheet_1619300985.pdf",
-    "upload_date": "2025-06-06T15:45:45.167676",
+    "upload_date": "2025-06-20T13:01:41.448833",
     "file_size": 1215245,
-    "summary": "This document provides a cheat sheet for both Regression and Classification in Machine Learning, covering various regressors like Linear, Lasso, ElasticNet, Ridge, SVR, Ensemble Regressors, and Neural Networks. It also discusses classifiers such as KNeighbours, SVM, Naive Bayes, Decision Tree/Forest, Neural Network, Boosted Decision Tree, DenseN...",
+    "summary": "A document about regression analysis techniques for predicting quantities, including linear regression, Lasso, Elastic Net, and more. It also discusses ensemble regressors, reference models, and characteristics of each method.",
     "keywords": [
-      "Machine Learning",
       "Regression",
+      "Poisson Regression",
+      "Polynomial Regression",
+      "Bayesian Linear Regression",
+      "Decision Forest Regression",
+      "Neural Network Regression",
+      "Boosted Decision Tree Regression",
       "Classification",
-      "Scikit-learn",
-      "Microsoft Documentation"
+      "Logistic Regression",
+      "Support Vector Machine"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Predicting a quantity",
+      "Predicting a category",
+      "Dimensionality reduction",
+      "Ensemble regressors",
+      "Transfer learning",
+      "Kernel methods",
+      "Non-parametric models"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Makes forecasts by estimating the relationship b/w variables Answers questions like: How much or how many?"
+    "content_preview": "Document: Regression",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Finance/Insurance"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "scikit-learn",
+      "Microsoft documentation"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Regression",
+      "Poisson Regression",
+      "Polynomial Regression"
+    ],
+    "methodologies": [
+      "PCA",
+      "Transfer Learning"
+    ],
+    "tools_mentioned": [
+      "NYSGD",
+      "Linear Regression",
+      "SVR",
+      "Decision Tree/Forest",
+      "Neural Network"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Predicting a quantity",
+      "Predicting a category"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Regression",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Regression, Poisson Regression, Polynomial Regression",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "bc43f1e3265cdb98376f211d3faaf075",
