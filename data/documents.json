@@ -36124,21 +36124,104 @@
   {
     "id": "72da412d396c72e62eac05dfb993aa20",
     "filename": "Introduction_to_Deep_Learning__1610184449.pdf",
-    "title": "Introduction to Deep Learning",
+    "title": "Deep Learning Course",
     "authors": [],
     "filepath": "documents/Introduction_to_Deep_Learning__1610184449.pdf",
-    "upload_date": "2025-06-03T17:53:40.820087",
+    "upload_date": "2025-06-19T22:43:53.039153",
     "file_size": 15170865,
-    "summary": "This course provides an in-depth understanding of deep learning, its trends, and applications. Upon completion, you will be able to build, train, and apply fully connected neural networks, understand key parameters in a neural network's architecture, and explain the major trends driving the rise of deep learning. The course also covers how Deep ...",
+    "summary": "This course teaches the foundations of deep learning, enabling students to build, train, and apply fully connected deep neural networks. Upon completion, students will understand major technology trends driving deep learning, be able to implement efficient neural networks, and know key parameters in a neural network's architecture. The course also covers how deep learning works and allows students to apply it to their own applications.",
     "keywords": [
+      "AI",
       "Deep Learning",
-      "Artificial Intelligence",
       "Neural Networks",
-      "Machine Learning"
+      "vectorization",
+      "NumPy",
+      "GPU",
+      "Logistic Regression",
+      "SIMD",
+      "sigmoid",
+      "tanh"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Neural Network Architecture",
+      "Vectorization",
+      "Broadcasting",
+      "Gradient Output",
+      "Reshape",
+      "SIMD Operation",
+      "Symmetry breaking problem",
+      "Saturated activation functions"
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This course will help you break into cutting-edge AI. You'll learn the foundations of deep learning..."
+    "content_preview": "Document: Deep Learning Course",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence",
+      "Machine Learning/AI"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "Deep Learning",
+      "NumPy"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "Deep Learning",
+      "Neural Networks"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "vectorization",
+      "SIMD"
+    ],
+    "tools_mentioned": [
+      "Neural Networks",
+      "GPU"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Career Development",
+      "Job Preparation",
+      "Logistic Regression",
+      "Vectorization",
+      "Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning Course",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: AI, Deep Learning, Neural Networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.9166666666666666
   },
   {
     "id": "93385f0421f4154f14f036fba15e9d9e",
