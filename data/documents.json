@@ -53564,29 +53564,110 @@
     "id": "a50985adf60b6baa9a6e30e1bcf07cd9",
     "filename": "One_Model_To_Learn_Them_All_1627196795.pdf",
     "title": "One Model To Learn Them All",
-    "authors": [
-      "Łukasz Kaiser",
-      "Aidan N. Gomez",
-      "Noam Shazeer",
-      "Ashish Vaswani",
-      "Niki Parmar",
-      "Llion Jones",
-      "Jakob Uszkoreit"
-    ],
+    "authors": [],
     "filepath": "documents/One_Model_To_Learn_Them_All_1627196795.pdf",
-    "upload_date": "2025-06-03T22:07:07.144549",
+    "upload_date": "2025-06-20T06:11:10.588222",
     "file_size": 1200245,
-    "summary": "A single model that yields good results across various problems in multiple domains, including image classification, translation, and speech recognition. The model architecture incorporates building blocks from multiple domains such as convolutional layers, an attention mechanism, and sparsely-gated layers.",
+    "summary": "A single model trained concurrently on multiple domains (ImageNet, translation tasks, image captioning, speech recognition, and English parsing) achieves good results across various problems with a novel architecture incorporating convolutional layers, attention mechanism, and sparsely-gated layers.",
     "keywords": [
-      "Deep Learning",
-      "Multi-task Learning",
-      "Convolutional Layers",
-      "Attention Mechanism",
-      "Sparse Gating"
+      "deep learning",
+      "model architecture",
+      "attention mechanism",
+      "mixture-of-experts",
+      "sparsely-gated",
+      "feed-forward neural networks",
+      "load-balancing",
+      "MultiModel",
+      "encoder",
+      "mixer"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Multi-domain model",
+      "Concurrent training",
+      "Transfer learning",
+      "Architecture of the MultiModel",
+      "Sequence to sequence models",
+      "Convolutional blocks",
+      "Autoregressive part",
+      "Recurrent Continuous Translation Models",
+      "Linear Time Neural Machine Translation",
+      "Stochastic Optimization"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Deep learning yields great results across many fields, from speech recognition, image classification, to translation. But for each problem..."
+    "content_preview": "Document: One Model To Learn Them All",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence",
+      "Artificial Intelligence/Machine Learning",
+      "Natural Language Processing (NLP)"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "convolutional layers",
+      "attention mechanism",
+      "sparsely-gated layers",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "deep learning",
+      "model architecture",
+      "attention mechanism"
+    ],
+    "methodologies": [
+      "joint training",
+      "data augmentation",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "ImageNet",
+      "COCO dataset",
+      "speech recognition corpus",
+      "English parsing task",
+      "tool1"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Deep Learning",
+      "Natural Language Processing",
+      "Text Generation",
+      "Machine Translation",
+      "Neural Machine Translation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: One Model To Learn Them All",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: deep learning, model architecture, attention mechanism",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.9166666666666666
   },
   {
     "id": "d71e0b30fb082bf0bbaabaf166ebb254",
