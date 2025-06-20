@@ -78499,28 +78499,111 @@
     "id": "6476287a7d82ed2a31c6d5c385befcfa",
     "filename": "Visualization_of_Thought_Eliciting_LLM_Spatial_Reasoning_1712488524.pdf",
     "title": "Visualization-of-Thought Elicits Spatial Reasoning in Large Language Models",
-    "authors": [
-      "Wenshan Wu",
-      "Shaoguang Mao",
-      "Yadong Zhang",
-      "Yan Xia Li",
-      "Dong Lei Cui",
-      "Furu Wei"
-    ],
+    "authors": [],
     "filepath": "documents/Visualization_of_Thought_Eliciting_LLM_Spatial_Reasoning_1712488524.pdf",
-    "upload_date": "2025-06-04T19:59:44.747607",
+    "upload_date": "2025-06-20T06:11:14.356238",
     "file_size": 13325912,
-    "summary": "This document explores the use of Visualization-of-Thought (VoT) prompting to enhance spatial reasoning abilities of large language models. The study demonstrates that VoT significantly improves LLMs' performance in multi-hop spatial reasoning tasks, outperforming existing multimodal large language models.",
+    "summary": "Large language models have shown impressive performance in language comprehension and reasoning tasks, but their abilities in spatial reasoning remain unexplored. A new prompting method called Visualization-of-Thought (VoT) aims to elicit spatial reasoning by visualizing reasoning traces, guiding subsequent steps. Experimental results demonstrate that VoT significantly enhances the spatial reasoning abilities of large language models.",
     "keywords": [
-      "Large Language Models",
-      "Spatial Reasoning",
       "Visualization-of-Thought",
-      "Multi-hop Reasoning",
-      "2D Grid Worlds"
+      "Spatial Reasoning",
+      "Large Language Models",
+      "Mind's Eye",
+      "spatial reasoning",
+      "language model",
+      "visualization sequence",
+      "Compliance",
+      "Accuracy",
+      "Spatial Understanding"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Eliciting spatial reasoning in LLMs",
+      "Visualizing reasoning traces",
+      "Multi-hop spatial reasoning tasks",
+      "Multimodal large language models",
+      "interleaved reasoning traces",
+      "multi-hop spatial reasoning task",
+      "polyominoes",
+      "Tetromino T",
+      "visual navigation",
+      "Manipulation requirements"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Visualization-of-Thought (VoT) aims to elicit spatial reasoning of LLMs by visualizing their reasoning traces..."
+    "content_preview": "Document: Visualization-of-Thought Elicits Spatial Reasoning in Large Language Models",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence",
+      "Artificial Intelligence/Machine Learning",
+      "Computer Vision"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Large Language Models",
+      "Multimodal Large Language Models",
+      "LM",
+      "pθ",
+      "LLMs"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Visualization-of-Thought",
+      "Spatial Reasoning",
+      "Large Language Models"
+    ],
+    "methodologies": [
+      "Visualization-of-Thought prompting",
+      "CoT prompting",
+      "Visualization-of-Thought (VoT) prompting",
+      "multi-hop visualization",
+      "logical reasoning"
+    ],
+    "tools_mentioned": [
+      "Mind's Eye process",
+      "pre-trained LM",
+      "text form",
+      "visualization sequence",
+      "VoT prompting"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Spatial Reasoning",
+      "Natural Language Navigation",
+      "Visual Navigation",
+      "Visual Tiling",
+      "Visual Tilling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Visualization-of-Thought Elicits Spatial Reasoning in Large Language Models",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Visualization-of-Thought, Spatial Reasoning, Large Language Models",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "f0a21bfc566a7dba08a83fb9edc44979",
