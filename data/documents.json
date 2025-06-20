@@ -18007,22 +18007,87 @@
   {
     "id": "3f4a5e2178d2745340e423919e4b8da5",
     "filename": "Card_Classification_with_Keras_Transfer_Learning_1741676361.pdf",
-    "title": "Card Classification with Keras Transfer Learning",
+    "title": "Image Classification using TensorFlow",
     "authors": [],
     "filepath": "documents/Card_Classification_with_Keras_Transfer_Learning_1741676361.pdf",
-    "upload_date": "2025-06-05T14:25:24.722284",
+    "upload_date": "2025-06-20T06:11:02.936189",
     "file_size": 1378613,
-    "summary": "This document provides a tutorial on using transfer learning to classify card images using Keras in Python. It includes data preprocessing, model building, and evaluation metrics.",
+    "summary": "This document excerpt describes the process of loading and visualizing image data for a classification task using TensorFlow. It covers loading images from a dataset, comparing class lengths in the training and validation sets, and plotting a bar chart to display the distribution of images per class.",
     "keywords": [
-      "Keras",
-      "Transfer Learning",
-      "Image Classification",
-      "Python",
-      "TensorFlow"
+      "tensorflow",
+      "keras",
+      "seaborn",
+      "matplotlib",
+      "sklearn",
+      "pandas"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Image classification",
+      "Data visualization",
+      "Class distribution analysis"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "import tensorflow as tf\nfrom tensorflow import keras"
+    "content_preview": "Document: Image Classification using TensorFlow",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Computer Vision"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tensorflow",
+      "keras",
+      "seaborn",
+      "numpy",
+      "matplotlib"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "tensorflow",
+      "keras",
+      "seaborn"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [
+      "PIL",
+      "pandas"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Image Classification",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Image Classification using TensorFlow",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: tensorflow, keras, seaborn",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "57f2edc398c93d9f88824835fd0f38a0",
