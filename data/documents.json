@@ -14945,22 +14945,78 @@
   {
     "id": "0e0b6f9f8980030815fdef09c945df4f",
     "filename": "Autoencoder_1749191959.pdf",
-    "title": "Autoencoder_1749191959.pdf",
+    "title": "Autoencoder",
     "authors": [],
     "filepath": "documents/Autoencoder_1749191959.pdf",
-    "upload_date": "2025-06-09T20:06:45.611279",
+    "upload_date": "2025-06-20T13:01:35.634836",
     "file_size": 694395,
-    "summary": "This document discusses the implementation of an autoencoder using Python and popular libraries such as NumPy, Pandas, and Matplotlib. The data used is MNIST dataset for image recognition. The code includes functions for data preprocessing, Leaky ReLU activation function, softmax function, cross-entropy loss, mean squared error loss, binary cros...",
+    "summary": "An autoencoder is a type of neural network that learns to compress and reconstruct input data. In this document, an autoencoder is implemented using the MNIST dataset. The autoencoder takes in 28x28 grayscale images and outputs a lower-dimensional representation. The latent shape is 16x16x1, which is half the size of the original input shape. The output shape is also 28x28x1, indicating that the reconstructed image will have the same dimensions as the original input. The autoencoder uses leaky ReLU activation and softmax activation for classification tasks.",
     "keywords": [
       "Autoencoder",
-      "Python",
-      "NumPy",
-      "Pandas",
-      "Matplotlib"
+      "MNIST",
+      "Neural Networks",
+      "Deep Learning"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Convolutional Neural Networks (CNNs)",
+      "Recurrent Neural Networks (RNNs)",
+      "Leaky ReLU Activation Function",
+      "Cross Entropy Loss",
+      "Mean Squared Error (MSE) Loss"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Autoencoder •Input Shape: 28, 28, 1"
+    "content_preview": "Document: Autoencoder",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Autoencoder",
+      "MNIST",
+      "Neural Networks"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Image Classification",
+      "Data Compression"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Autoencoder",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Autoencoder, MNIST, Neural Networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "d4bb66c5f99492770c08484afdf7728d",
