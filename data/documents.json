@@ -60738,24 +60738,87 @@
   {
     "id": "73b8a7e293a7c9510fcf96270c1718eb",
     "filename": "O_riley_Introducing_MLOps_1649400857.pdf",
-    "title": "Introducing MLOps: How to Scale Machine Learning in the Enterprise",
-    "authors": [
-      "Mark Treveil and the Dataiku Team"
-    ],
+    "title": "MLOps",
+    "authors": [],
     "filepath": "documents/O_riley_Introducing_MLOps_1649400857.pdf",
-    "upload_date": "2025-06-03T22:07:07.133549",
+    "upload_date": "2025-06-20T13:01:43.613830",
     "file_size": 15482832,
-    "summary": "This document introduces MLOps and discusses key features for a scalable MLOps strategy, such as model input drift detection, validation feedback loops, and dashboard interfaces. It emphasizes Dataiku's unique ability to handle data connection, wrangling, visualization, machine learning, deployment, and model monitoring at enterprise scale.",
+    "summary": "The document discusses MLOps, a platform that provides a simple and consistent UI for data connection, wrangling, mining, visualization, machine learning, deployment, and model monitoring at enterprise scale. It highlights key features such as model input drift detection, validation feedback loops, and dashboard interfaces.",
     "keywords": [
       "MLOps",
       "Machine Learning",
       "Dataiku",
-      "Scalability",
-      "Enterprise"
+      "Model Monitoring",
+      "Scalable Strategy"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Model input drift detection",
+      "Validation feedback loops",
+      "Dashboard interfaces"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document introduces MLOps and discusses key features for a scalable MLOps strategy..."
+    "content_preview": "Document: MLOps",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Data Science and Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "MLOps",
+      "Machine Learning",
+      "Dataiku"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Model deployment",
+      "Data wrangling",
+      "Machine learning model monitoring"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: MLOps",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: MLOps, Machine Learning, Dataiku",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "955e6da8732f580290f2138992882717",
