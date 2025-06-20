@@ -62147,22 +62147,80 @@
   {
     "id": "157d316ac5eba4db62349a03ce35c016",
     "filename": "SQL_Hero_to_Zero_1682237015.pdf",
-    "title": "SQL Hero to Zero",
+    "title": "SQL Query Analysis",
     "authors": [],
     "filepath": "documents/SQL_Hero_to_Zero_1682237015.pdf",
-    "upload_date": "2025-06-03T22:07:08.038556",
+    "upload_date": "2025-06-19T22:43:57.921174",
     "file_size": 728729,
-    "summary": "This document provides a guide on SQL syntax and functions, including SELECT, GROUP BY, JOINs, ORDER BY, and conditions. It is intended for intermediate to advanced level readers.",
+    "summary": "This document excerpt contains a SQL query that performs various operations such as selecting data from tables, joining tables, grouping data, and sorting results. The query is complex and appears to be used for data analysis or reporting purposes.",
     "keywords": [
       "SQL",
-      "Syntax",
-      "Guide",
-      "Intermediate",
-      "Advanced"
+      "SELECT",
+      "FROM",
+      "WHERE",
+      "GROUP BY",
+      "JOIN"
+    ],
+    "key_concepts": [
+      "SQL syntax",
+      "Table selection",
+      "Column selection",
+      "Joining tables",
+      "Sorting and ordering data"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "FROM table ... GROUP BY Sy =) (GttooP sy cotuM tJI"
+    "content_preview": "Document: SQL Query Analysis",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Finance and Banking"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "SQL",
+      "SELECT",
+      "FROM"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Loan Processing",
+      "Risk Management"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: SQL Query Analysis",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: SQL, SELECT, FROM",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "c3339ce0446ae1c0873c3c19b2cc8a7d",
