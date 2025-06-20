@@ -78070,21 +78070,84 @@
   {
     "id": "5b084107b51774dae564d4e54196449d",
     "filename": "plotly_cheat_sheet.pdf",
-    "title": "Plotly Cheat Sheet",
+    "title": "Plotting with Plotly",
     "authors": [],
     "filepath": "documents/plotly_cheat_sheet.pdf",
-    "upload_date": "2025-06-06T03:10:16.649917",
+    "upload_date": "2025-06-19T22:44:01.119197",
     "file_size": 2964120,
-    "summary": "This document provides a cheat sheet for using Plotly, a popular open-source plotting library in Python. It includes examples of creating scatter plots and geographical plots.",
+    "summary": "This document excerpt demonstrates how to create a scatter plot using Plotly, a popular Python library for data visualization. The code shows three different ways to display the plot: in the terminal using py.iplot(), in an IPython notebook using py.iplot() and go.Scatter(), and as a geospatial scatter plot using marker = dict(type='scattergeo').",
     "keywords": [
-      "Plotly",
-      "Python",
-      "Scatter Plots",
-      "Geographical Plots"
+      "plot_url",
+      "py.plot",
+      "py.iplot",
+      "go.Scatter"
+    ],
+    "key_concepts": [
+      "Plotting in Python",
+      "Geospatial plots",
+      "Scatter plots"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "plot_url = py.plot ( ﬁg )In the terminal:py.iplot ( ﬁg )"
+    "content_preview": "Document: Plotting with Plotly",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Visualization"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "PyPlot"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "plot_url",
+      "py.plot",
+      "py.iplot"
+    ],
+    "methodologies": [
+      "Data Visualization"
+    ],
+    "tools_mentioned": [
+      "IPython",
+      "Plotly"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Visualization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Plotting with Plotly",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: plot_url, py.plot, py.iplot",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "11966a62241d872f77ab90fde63c138b",
