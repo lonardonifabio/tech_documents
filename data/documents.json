@@ -45840,24 +45840,90 @@
     "id": "7d19690cb23848b054f45ac9ef8b0bf7",
     "filename": "Machine_Learning_Basics_1641238053.pdf",
     "title": "Machine Learning Basics",
-    "authors": [
-      "Ian Goodfellow",
-      "m.n."
-    ],
+    "authors": [],
     "filepath": "documents/Machine_Learning_Basics_1641238053.pdf",
-    "upload_date": "2025-06-03T22:07:06.119541",
+    "upload_date": "2025-06-20T06:11:08.811213",
     "file_size": 6158208,
-    "summary": "This document provides lecture slides for Chapter 5 of Deep Learning, discussing the concept of machine learning and its performance improvement through experience. It includes examples of classification tasks such as object recognition and medical diagnosis.",
+    "summary": "A computer program learns from experience to improve its performance on tasks with respect to some class of tasks and performance measure, if its performance improves with experience.",
     "keywords": [
       "Machine Learning",
-      "Deep Learning",
       "Classification",
-      "Performance Measure",
-      "Example"
+      "Regression",
+      "Task",
+      "Performance measure"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "A computer program learns from experience",
+      "Tasks are described in terms of how the machine learning should process an example",
+      "Machine Translation",
+      "Sequence to sequence",
+      "Structured output"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Machine Learning BasicsLecture slides for Chapter 5 of Deep Learning"
+    "content_preview": "Document: Machine Learning Basics",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "R"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Classification",
+      "Regression"
+    ],
+    "methodologies": [
+      "Supervised Learning",
+      "Unsupervised Learning"
+    ],
+    "tools_mentioned": [
+      "Scikit-learn",
+      "TensorFlow"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Object recognition",
+      "Medical diagnosis",
+      "Predict claim amount",
+      "Optical character recognition",
+      "Speech recognition"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning Basics",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, Classification, Regression",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "77324223896c3050b1b94b42c28a61f4",
