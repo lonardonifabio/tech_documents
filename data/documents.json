@@ -24821,21 +24821,91 @@
   {
     "id": "d8b18b98fe99878ca2aaf03084e00549",
     "filename": "DenseNet_1711269290.pdf",
-    "title": "Brain Tumor Detection using DenseNet",
+    "title": "Brain Tumor Detection using Densenet",
     "authors": [],
     "filepath": "documents/DenseNet_1711269290.pdf",
-    "upload_date": "2025-06-03T22:07:04.633529",
+    "upload_date": "2025-06-20T06:11:05.365196",
     "file_size": 1574210,
-    "summary": "This document describes a project on brain tumor detection using DenseNet, a convolutional neural network architecture. The project involves preparing and splitting the dataset, preprocessing images, and building a deep learning model for classification.",
+    "summary": "A document detailing the process of brain tumor detection using the Densenet architecture, including data preparation and splitting into training, testing, and validation sets.",
     "keywords": [
-      "Brain Tumor Detection",
       "DenseNet",
-      "Convolutional Neural Network",
-      "Deep Learning"
+      "TensorFlow",
+      "Keras",
+      "Image Processing",
+      "Data Splitting"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "Deep Learning Model",
+      "Convolutional Neural Networks",
+      "MRI Image Analysis"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "The document imports necessary libraries and creates new folders for the dataset."
+    "content_preview": "Document: Brain Tumor Detection using Densenet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Medical Imaging"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "pandas",
+      "matplotlib",
+      "cv2",
+      "PIL"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "DenseNet",
+      "TensorFlow",
+      "Keras"
+    ],
+    "methodologies": [
+      "data preprocessing",
+      "model training",
+      "model evaluation"
+    ],
+    "tools_mentioned": [
+      "IPython",
+      "pip",
+      "apt-get",
+      "shutil"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Brain Tumor Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Brain Tumor Detection using Densenet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: DenseNet, TensorFlow, Keras",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "5d7e0f5e785bbd0ecfcfd1ce98f65ee6",
