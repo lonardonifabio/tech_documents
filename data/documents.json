@@ -22087,22 +22087,110 @@
   {
     "id": "6e6564fe02e7dba2e1d7bc36f46f2d2f",
     "filename": "Deep_Learning_Notes_Andrew_Ng_1640850528.pdf",
-    "title": "Deep Learning Notes by Andrew Ng",
+    "title": "Deep Learning Course",
     "authors": [],
     "filepath": "documents/Deep_Learning_Notes_Andrew_Ng_1640850528.pdf",
-    "upload_date": "2025-06-03T22:07:04.233526",
+    "upload_date": "2025-06-19T22:43:50.638140",
     "file_size": 15159441,
-    "summary": "This document provides notes for a course on deep learning, focusing on understanding the foundations and trends driving this technology. The course covers building, training, and applying fully connected neural networks, implementing efficient neural networks, and understanding key parameters in a neural network's architecture. It also delves i...",
+    "summary": "This course teaches the foundations of deep learning, enabling students to build, train, and apply fully connected deep neural networks. Upon completion, students will understand major technology trends driving deep learning, be able to implement efficient neural networks, and know key parameters in a neural network's architecture. The course also covers how deep learning works and provides practical applications.",
     "keywords": [
+      "AI",
       "Deep Learning",
-      "Artificial Intelligence",
       "Neural Networks",
-      "Andrew Ng",
-      "Course Notes"
+      "vectorization",
+      "NumPy",
+      "GPU",
+      "Logistic Regression",
+      "SIMD",
+      "sigmoid",
+      "tanh"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Neural Network Architecture",
+      "Vectorization",
+      "Broadcasting",
+      "Gradient Output",
+      "Reshape",
+      "SIMD Operation",
+      "Symmetry breaking problem",
+      "Saturated activation functions"
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides notes for a course on deep learning, focusing on understanding the foundations and trends driving this technology."
+    "content_preview": "Document: Deep Learning Course",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence",
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "Deep Learning",
+      "NumPy",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "Deep Learning",
+      "Neural Networks"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "vectorization",
+      "GPU acceleration",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "Neural Networks",
+      "SIMD operation",
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Career Development",
+      "Job Preparation",
+      "Logistic Regression",
+      "Vectorization",
+      "Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning Course",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: AI, Deep Learning, Neural Networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "716c76a3b02c570ad641f32ce1b52b27",
