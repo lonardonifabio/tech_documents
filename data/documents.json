@@ -19551,24 +19551,86 @@
   {
     "id": "408e461d633fd87df547c89ce2dd4519",
     "filename": "Data Science methodology - Lonardoni Fabio.pdf",
-    "title": "Data Science methodology - CRISP-DM by Fabio Lonardoni",
-    "authors": [
-      "Fabio Lonardoni"
-    ],
+    "title": "CRISP-DM",
+    "authors": [],
     "filepath": "documents/Data Science methodology - Lonardoni Fabio.pdf",
-    "upload_date": "2025-06-04T21:18:50.586011",
+    "upload_date": "2025-06-19T22:43:49.562132",
     "file_size": 227428,
-    "summary": "This document outlines the CRISP-DM (Cross-Industry Standard Process for Data Mining) methodology in data science, emphasizing its iterative nature and key stages: Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, Deployment. The process is never-ending.",
+    "summary": "The CRISP-DM methodology outlines a structured approach to data science projects, including business understanding, data understanding, data preparation, modeling, evaluation, and deployment. The process is iterative and never-ending.",
     "keywords": [
       "CRISP-DM",
       "Data Science",
-      "Methodology",
       "Business Understanding",
-      "Data Mining"
+      "Modeling",
+      "Evaluation",
+      "Deployment"
+    ],
+    "key_concepts": [
+      "Iterative Process",
+      "Problem-Solving",
+      "Machine Learning",
+      "Data Mining",
+      "Statistical Analysis"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "DATA SCIENCE METHODOLOGY CRISP-DM Fabio Lonardoni ITERATIVE PROCESS"
+    "content_preview": "Document: CRISP-DM",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "data science",
+      "machine learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "CRISP-DM",
+      "Data Science",
+      "Business Understanding"
+    ],
+    "methodologies": [
+      "CRISP-DM",
+      "iterative process"
+    ],
+    "tools_mentioned": [
+      "statistical analysis",
+      "forecasting"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: CRISP-DM",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: CRISP-DM, Data Science, Business Understanding",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "6e18ade58d8f3d053896ff95ea7b8dad",
