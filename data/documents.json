@@ -55298,24 +55298,110 @@
   {
     "id": "aff5347bb883c797453b909cc3388867",
     "filename": "Part_1_Eisenstein_NLP_Notes_1632903722.pdf",
-    "title": "Part_1_Eisenstein_NLP_Notes_1632903722.pdf",
-    "authors": [
-      "Jacob Eisenstein"
-    ],
+    "title": "Natural Language Processing",
+    "authors": [],
     "filepath": "documents/Part_1_Eisenstein_NLP_Notes_1632903722.pdf",
-    "upload_date": "2025-06-03T22:07:07.263550",
+    "upload_date": "2025-06-20T06:11:10.857223",
     "file_size": 6625857,
-    "summary": "This document is a book on Natural Language Processing by Jacob Eisenstein, published in 2018. It covers topics such as linear text classification, Naive Bayes, and discriminative learning. The book also discusses the bag of words, types and tokens, prediction, estimation, smoothing, setting hyperparameters, and perceptron.",
+    "summary": "A book on Natural Language Processing by Jacob Eisenstein, covering topics such as learning and knowledge, search and learning, relational, compositional, and distributional perspectives.",
     "keywords": [
       "Natural Language Processing",
-      "Jacob Eisenstein",
-      "2018",
-      "Linear text classification",
-      "Naive Bayes"
+      "Machine Learning",
+      "Text Classification",
+      "machine learning",
+      "unsupervised learning",
+      "expectation-maximization",
+      "regular languages",
+      "formal language theory",
+      "context-free languages",
+      "finite state acceptors"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Linear Text Classification",
+      "Bag of Words",
+      "Naive Bayes",
+      "K-means clustering",
+      "Semi-supervised learning",
+      "Multi-component modeling",
+      "A sentence expressing the concept of regular languages",
+      "A sentence expressing the concept of context-free languages",
+      "A sentence expressing the concept of finite state acceptors",
+      "Classification"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document is a book on Natural Language Processing by Jacob Eisenstein, published in 2018. It covers topics such as linear text classification, Naive Bayes, and discriminative learning."
+    "content_preview": "Document: Natural Language Processing",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Natural Language Processing",
+      "Machine Learning",
+      null
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Naive Bayes",
+      "Perceptron",
+      "K-means clustering",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Natural Language Processing",
+      "Machine Learning",
+      "Text Classification"
+    ],
+    "methodologies": [
+      "Discriminative learning",
+      "Linear text classification",
+      "Expectation-Maximization (EM)",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2",
+      "Word Embeddings"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Text Classification",
+      "Sentiment Analysis",
+      "Unsupervised learning",
+      "Semi-supervised learning",
+      "Text Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Natural Language Processing",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Natural Language Processing, Machine Learning, Text Classification",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "62ccdf3d680390cf0821174b599ad5df",
