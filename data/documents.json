@@ -52169,66 +52169,101 @@
     "id": "2c6c0a918d35fd886487f0bc923d3a52",
     "filename": "Multi_Agent_Risks_from_Advanced_AI_1740903712.pdf",
     "title": "Multi-Agent Risks from Advanced AI",
-    "authors": [
-      "Lewis Hammond",
-      "Alan Chan",
-      "Jesse Clifton",
-      "Jason Hoelscher-Obermaier",
-      "Akbir Khan",
-      "Euan McLean",
-      "Chandler Smith",
-      "Wolfram Barfuss",
-      "Jakob Foerster",
-      "Tomáš Gavenčiak",
-      "The Anh Han",
-      "Edward Hughes",
-      "Vojtěch Kovařík",
-      "Jan Kulveit",
-      "Joel Z. Leibo",
-      "Caspar Oesterheld",
-      "Christian Schroeder de Witt",
-      "Nisarg Shah",
-      "Michael Wellman",
-      "Paolo Bova",
-      "Theodor Cimpeanu",
-      "Carson Ezell",
-      "Quentin Feuillade-Montixi",
-      "Matija Franklin",
-      "Esben Kran",
-      "Igor Krawczuk",
-      "Max Lamparth",
-      "Niklas Lauffer",
-      "Alexander Meinke",
-      "Sumeet Motwani",
-      "Anka Reuel",
-      "Vincent Conitzer",
-      "Michael Dennis",
-      "Iason Gabriel",
-      "Adam Gleave",
-      "Gillian Hadﬁeld",
-      "Nika Haghtalab",
-      "Atoosa Kasirzadeh",
-      "Sébastien Krier",
-      "Kate Larson",
-      "Joel Lehman",
-      "David C. Parkes",
-      "Georgios Piliouras",
-      "Iyad Rahwan"
-    ],
+    "authors": [],
     "filepath": "documents/Multi_Agent_Risks_from_Advanced_AI_1740903712.pdf",
-    "upload_date": "2025-06-05T14:25:31.724251",
+    "upload_date": "2025-06-20T06:11:10.068219",
     "file_size": 3861115,
-    "summary": "This technical report explores the risks associated with advanced multi-agent AI. It was published by the Cooperative AI Foundation in February 2025 and authored by a team of experts including Lewis Hammond, Alan Chan, Jesse Clifton, and others.",
+    "summary": "A technical report discussing the risks associated with advanced artificial intelligence (AI) in multi-agent systems. The authors examine various scenarios and challenges that arise when multiple AI agents interact with each other.",
     "keywords": [
-      "Multi-Agent AI",
-      "Risks",
-      "Advanced AI",
-      "Technical Report",
-      "Cooperative AI Foundation"
+      "Multi-Agent Systems",
+      "Artificial Intelligence",
+      "Cooperative AI",
+      "AI",
+      "multi-agent risks",
+      "advanced AI",
+      "risk mitigation",
+      "multi-agent systems",
+      "catastrophic risks",
+      "existential risks"
+    ],
+    "key_concepts": [
+      "Advanced AI Risks",
+      "Multi-Agent Risks",
+      "Cooperative Multi-Agent Systems",
+      "agent collusion",
+      "emergent phenomena",
+      "AI safety",
+      "AI governance",
+      "AI ethics",
+      "Multi-Agent Security",
+      "Emergent Agency"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This technical report explores the risks associated with advanced multi-agent AI."
+    "content_preview": "Document: Multi-Agent Risks from Advanced AI",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "Machine Learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Multi-Agent Systems",
+      "Artificial Intelligence",
+      "Cooperative AI"
+    ],
+    "methodologies": [
+      "Cooperative Multi-Agent Systems",
+      "Game Theory",
+      "Multi-Agent Systems"
+    ],
+    "tools_mentioned": [
+      "Python",
+      "Java",
+      "C++",
+      "Programming Languages",
+      "Simulation Software"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "AI development",
+      "Risk management"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Multi-Agent Risks from Advanced AI",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: Multi-Agent Systems, Artificial Intelligence, Cooperative AI",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "4f5946ee0cf50f5c53131930edf08913",
