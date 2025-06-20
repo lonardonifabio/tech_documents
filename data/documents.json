@@ -93936,22 +93936,81 @@
   {
     "id": "d9303648be800c78fc0b038329cdb1f0",
     "filename": "spotify_1626959420.pdf",
-    "title": "Spotify's Use of Machine Learning",
+    "title": "How Spotify Uses Machine Learning",
     "authors": [],
     "filepath": "documents/spotify_1626959420.pdf",
-    "upload_date": "2025-06-03T17:53:44.934160",
+    "upload_date": "2025-06-20T13:01:48.581817",
     "file_size": 949286,
-    "summary": "This document discusses how Spotify uses machine learning, particularly in their 'Discover Weekly' feature, which generates personalized playlists based on user's search and listening history. It also explains the combination of three models used: Collaborative Filtering, Natural Language Processing, and Audio Models.",
+    "summary": "This document explains how Spotify uses machine learning algorithms to generate personalized music recommendations for its users, including the Discover Weekly playlist. It discusses the data flow, recommendation engine, and collaborative filtering techniques used by Spotify.",
     "keywords": [
-      "Spotify",
-      "Machine Learning",
-      "Discover Weekly",
-      "Collaborative Filtering",
-      "Natural Language Processing"
+      "machine learning",
+      "recommendation engine",
+      "collaborative filtering"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Discover Weekly",
+      "Spotify's recommendation engine",
+      "natural language processing"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses how Spotify uses machine learning, particularly in their 'Discover Weekly' feature..."
+    "content_preview": "Document: How Spotify Uses Machine Learning",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Music"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machine learning",
+      "natural language processing"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "recommendation engine",
+      "collaborative filtering"
+    ],
+    "methodologies": [
+      "collaborative filtering"
+    ],
+    "tools_mentioned": [
+      "audio models"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Personalized Music Recommendations"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: How Spotify Uses Machine Learning",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: machine learning, recommendation engine, collaborative filtering",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "2740b833c82e84d6b2723caf56861dbe",
