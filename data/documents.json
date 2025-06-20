@@ -72043,24 +72043,100 @@
     "id": "c06c2c76bba04ad6b67f027a9eeb2d1a",
     "filename": "Statistics_ML_Python_1674429886.pdf",
     "title": "Statistics and Machine Learning in Python",
-    "authors": [
-      "Edouard Duchesnay",
-      "Tommy Löfstedt",
-      "Feki Younes"
-    ],
+    "authors": [],
     "filepath": "documents/Statistics_ML_Python_1674429886.pdf",
-    "upload_date": "2025-06-04T21:18:55.233040",
+    "upload_date": "2025-06-20T13:01:45.635824",
     "file_size": 9098763,
-    "summary": "This document is a guide on Statistics and Machine Learning using Python, covering topics such as Python ecosystem for data-science, basic operations, data types, execution control statements, list comprehensions, functions, regular expressions, system programming, scripts and argument parsing, networking, modules and packages, and object orient...",
+    "summary": "This document provides an introduction to the Python ecosystem for data science, including machine learning, data analysis methodology, and various aspects of the Python language such as libraries, basic operations, data types, execution control statements, functions, regular expressions, system programming, scripts, networking, modules, and packages.",
     "keywords": [
       "Python",
-      "Statistics",
       "Machine Learning",
-      "Data Science"
+      "Data Science",
+      "conda",
+      "anaconda",
+      "python",
+      "pip",
+      "ipython",
+      "spyder"
+    ],
+    "key_concepts": [
+      "Introduction to Machine Learning",
+      "Data analysis methodology",
+      "Python language",
+      "Data Science with Python",
+      "Statistics and Machine Learning",
+      "Package Management",
+      "Integrated Development Environment (IDE)"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Statistics and Machine Learning in Python Release 0.5"
+    "content_preview": "Document: Statistics and Machine Learning in Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "scipy",
+      "pandas",
+      "matplotlib",
+      "statsmodels"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Machine Learning",
+      "Data Science"
+    ],
+    "methodologies": [
+      "Data analysis methodology"
+    ],
+    "tools_mentioned": [
+      "Python language",
+      "Import libraries",
+      "conda",
+      "pip",
+      "python"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Data Analysis",
+      "Python ecosystem for data-science",
+      "Statistics and Machine Learning in Python"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Statistics and Machine Learning in Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, Machine Learning, Data Science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "eb33748e10dff4426a27a1d61af60b50",
