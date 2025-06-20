@@ -25850,22 +25850,109 @@
     "id": "aeac1e1edcd76b388555e9aae883ef39",
     "filename": "Deep_Learning_in_Production_1641658950.pdf",
     "title": "Deep Learning in Production",
-    "authors": [
-      "Sergios Karagiannakos"
-    ],
+    "authors": [],
     "filepath": "documents/Deep_Learning_in_Production_1641658950.pdf",
-    "upload_date": "2025-06-04T21:18:51.247015",
+    "upload_date": "2025-06-20T13:01:38.041835",
     "file_size": 1927804,
-    "summary": "This book guides readers through the process of designing, implementing, and maintaining a machine learning system. It covers topics such as data engineering, model engineering, DevOps engineering, and setting up a deep learning workstation.",
+    "summary": "This book provides an introduction to deep learning and its applications in production environments, covering topics such as machine learning, data engineering, model engineering, DevOps engineering, and setting up a deep learning workstation.",
     "keywords": [
-      "Deep Learning",
+      "deep learning",
+      "production",
+      "machine learning",
+      "system design",
+      "devops",
+      "cloud computing",
+      "Tensorboard",
+      "model validation",
       "Machine Learning",
-      "Production",
-      "System Design"
+      "Data Validation"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Designing a Machine Learning System",
+      "Setting up a Deep Learning Workstation",
+      "Distributed training",
+      "Data vs model parallelism",
+      "MLOps",
+      "TFX Pipeline",
+      "Vertex AI",
+      "Google Cloud",
+      "Deep Learning in Production"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "DEEP LEARNING IN PRODUCTION Sergios Karagiannakos"
+    "content_preview": "Document: Deep Learning in Production",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Computer Science",
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2",
+      "Tensorboard",
+      "TFX",
+      "Vertex AI"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "deep learning",
+      "production",
+      "machine learning"
+    ],
+    "methodologies": [
+      "method1",
+      "method2",
+      "cloud computing",
+      "distributed training",
+      "MLOps"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2",
+      "VM instance",
+      "model parallelism",
+      "Google Cloud"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Data Engineering",
+      "Deep Learning Training",
+      "Predictive Maintenance",
+      "Anomaly Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning in Production",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: deep learning, production, machine learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "36a74355004ab30b6ffa28badd0e5799",
