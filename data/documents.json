@@ -16393,22 +16393,89 @@
   {
     "id": "47417e4e9e532c0b8c4208cfc909bb33",
     "filename": "CNN_Image_Classification_Real_time_Food_recognition__1747069667.pdf",
-    "title": "CNN Image Classification for Real-time Food Recognition",
+    "title": "Fruits_Project_AI",
     "authors": [],
     "filepath": "documents/CNN_Image_Classification_Real_time_Food_recognition__1747069667.pdf",
-    "upload_date": "2025-06-06T03:10:04.806904",
+    "upload_date": "2025-06-19T22:43:48.618125",
     "file_size": 3482384,
-    "summary": "This document outlines a project that utilizes Convolutional Neural Networks (CNN) to classify images of fruits and vegetables, with applications in food logging, grocery automation, and educational tools. The project requires the use of various libraries such as TensorFlow, Pandas, and Matplotlib.",
+    "summary": "This project uses a Convolutional Neural Network (CNN) to classify images of fruits and vegetables, supporting fast, real-time predictions for applications like food logging, grocery automation, and educational tools.",
     "keywords": [
       "Convolutional Neural Network",
-      "CNN",
-      "Image Classification",
-      "Fruits and Vegetables Recognition",
-      "Real-time Predictions"
+      "Fruits and Vegetables Recognition System",
+      "Food Logging",
+      "Grocery Automation"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Image classification",
+      "Real-time predictions",
+      "Deep learning",
+      "Machine learning applications"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This project uses a Convolutional Neural Network (CNN) to classify images of fruits and vegetables."
+    "content_preview": "Document: Fruits_Project_AI",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Agriculture"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tensorflow",
+      "numpy",
+      "matplotlib",
+      "seaborn",
+      "cv2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Convolutional Neural Network",
+      "Fruits and Vegetables Recognition System",
+      "Food Logging"
+    ],
+    "methodologies": [
+      "Convolutional Neural Network"
+    ],
+    "tools_mentioned": [
+      "google colab",
+      "zip file"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Food logging",
+      "Grocery automation",
+      "Educational tools"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Fruits_Project_AI",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Convolutional Neural Network, Fruits and Vegetables Recognition System, Food Logging",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "894712a546f2e281ac00faa3458fe908",
