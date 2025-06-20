@@ -90372,22 +90372,95 @@
   {
     "id": "d7b5197351cd006a6b4cab533f0452a7",
     "filename": "cheatsheet_datasciencepythonworkflow.pdf",
-    "title": "cheatsheet_datasciencepythonworkflow.pdf",
+    "title": "Python for Data Science Automation",
     "authors": [],
     "filepath": "documents/cheatsheet_datasciencepythonworkflow.pdf",
-    "upload_date": "2025-06-06T03:10:16.173916",
+    "upload_date": "2025-06-20T20:21:50.548695",
     "file_size": 2034811,
-    "summary": "This document provides a cheat sheet for data science workflow using Python, including Jupyter Notebook, VSCode, PyCharm, RStudio, and more. It covers topics like Pandas, Numpy, Matplotlib, seaborn, TensorFlow, Keras, Dash, Streamlit, Flask, FastAPI, Time Series Forecasting, and web scraping with beautifulsoup, requests-html, and Scrappy.",
+    "summary": "Learn Python and automate data science tasks with our course, including visualization, modeling, and communication of results.",
     "keywords": [
       "Python",
       "Data Science",
-      "Cheat Sheet",
-      "Jupyter Notebook",
-      "Pandas"
+      "Automation",
+      "TidyTransform",
+      "Pandas",
+      "SQLAlchemy",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "Jupyter"
+    ],
+    "key_concepts": [
+      "Data Science with Python",
+      "Time Series Forecasting",
+      "Business Science University",
+      "Machine Learning",
+      "Deep Learning",
+      "Web Scraping",
+      "EDA",
+      "Data Visualization"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Jupyter VSCode Pycharm RStudio Import TidyTransform Data Science with Python Workflow"
+    "content_preview": "Document: Python for Data Science Automation",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "R",
+      "SQLAlchemy"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Data Science",
+      "Automation"
+    ],
+    "methodologies": [
+      "Data Science Automation",
+      "Time Series Forecasting"
+    ],
+    "tools_mentioned": [
+      "Pandas",
+      "NumPy",
+      "Matplotlib"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python for Data Science Automation",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, Data Science, Automation",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "1beee84b1b4e5b5af4a8cf09d596cbeb",
