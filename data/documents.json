@@ -81077,21 +81077,100 @@
   {
     "id": "2a50460c04270029ebc618d88f7657a3",
     "filename": "spaCy Cheat Sheet Advanced NLP in Python.pdf",
-    "title": "spaCy Cheat Sheet Advanced NLP in Python",
+    "title": "spaCy Cheat Sheet",
     "authors": [],
     "filepath": "documents/spaCy Cheat Sheet Advanced NLP in Python.pdf",
-    "upload_date": "2025-06-05T20:14:29.976866",
+    "upload_date": "2025-06-19T22:44:01.277199",
     "file_size": 2455343,
-    "summary": "This document provides a guide to learning spaCy, an advanced Natural Language Processing (NLP) library in Python. It covers topics such as loading the model, working with Spans and Dependency Trees, and using word vectors.",
+    "summary": "A guide to using spaCy, a modern natural language processing library for Python. The document covers installation, model loading, and usage of spaCy's features such as entity recognition, part-of-speech tagging, and dependency parsing.",
     "keywords": [
-      "spaCy",
-      "NLP",
-      "Python",
-      "Data Science"
+      "spacy",
+      "python",
+      "nlp",
+      "natural language processing",
+      "text matching",
+      "span class",
+      "lemmatization"
     ],
-    "category": "Technology",
-    "difficulty": "Advanced",
-    "content_preview": "Learn spaCy online at www .D at aCamp.com\n$>>> python -m spacy download en_core_web_sm"
+    "key_concepts": [
+      "spaCy model installation",
+      "text analysis",
+      "part-of-speech tagging",
+      "named entity recognition",
+      "Tokenization",
+      "Part-of-speech tagging",
+      "Named entity recognition",
+      "Text matching algorithms"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: spaCy Cheat Sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Natural Language Processing"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "spaCy",
+      "NLTK"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "spacy",
+      "python",
+      "nlp"
+    ],
+    "methodologies": [
+      "Natural Language Processing",
+      "Tokenization",
+      "Part-of-speech tagging",
+      "Named Entity Recognition"
+    ],
+    "tools_mentioned": [
+      "displacy",
+      "spacy",
+      "Python",
+      "spaCy"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Text Analysis",
+      "Entity Recognition",
+      "Named Entity Recognition",
+      "Part-of-Speech Tagging"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: spaCy Cheat Sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: spacy, python, nlp",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "90e933469deaaafe97435cdc51b65bbf",
