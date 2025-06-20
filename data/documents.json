@@ -19707,22 +19707,88 @@
   {
     "id": "c8eeb0f7868b4fe47da3a79118affa6b",
     "filename": "Data Science for Business Leaders.pdf",
-    "title": "Data Science for Business Leaders",
+    "title": "Data Science Cheat Sheet for Business Leaders",
     "authors": [],
     "filepath": "documents/Data Science for Business Leaders.pdf",
-    "upload_date": "2025-06-03T22:07:03.653521",
+    "upload_date": "2025-06-20T06:11:03.863192",
     "file_size": 398211,
-    "summary": "This document provides a cheat sheet for business leaders on data science, including team organization models, types of data science (descriptive analytics and predictive analytics), and the skills required for different roles such as Data Engineer, Data Analyst, Machine Learning Engineer, and Data Scientist.",
+    "summary": "A document providing an overview of data science concepts, skills, and best practices for business leaders, including descriptive analytics, predictive analytics, machine learning, and data visualization.",
     "keywords": [
       "Data Science",
-      "Business Leaders",
-      "Team Organization",
+      "Business Intelligence",
+      "Machine Learning",
+      "Predictive Analytics"
+    ],
+    "key_concepts": [
+      "Data Science Team Models",
+      "Types of Data Science",
       "Descriptive Analytics",
       "Predictive Analytics"
     ],
-    "category": "Data Science",
+    "category": "Business",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a cheat sheet for business leaders on data science, including team organization models..."
+    "content_preview": "Document: Data Science Cheat Sheet for Business Leaders",
+    "target_audience": "Professionals in business field",
+    "industry": [
+      "Business Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "SQL",
+      "Java",
+      "Scala",
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Data Science",
+      "Business Intelligence",
+      "Machine Learning"
+    ],
+    "methodologies": [
+      "Visualize and describe data",
+      "Data analysis"
+    ],
+    "tools_mentioned": [
+      "BI Tools",
+      "Spreadsheets"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand business concepts"
+    ],
+    "use_cases": [
+      "Descriptive Analytics",
+      "Predictive Analytics"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Science Cheat Sheet for Business Leaders",
+      "Q: What category? A: Business",
+      "Q: Key concepts? A: Data Science, Business Intelligence, Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "408e461d633fd87df547c89ce2dd4519",
