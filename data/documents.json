@@ -73441,25 +73441,94 @@
     "title": "AI Impact Assessment",
     "authors": [],
     "filepath": "documents/The_AI_Impact_Assessment_1738484989.pdf",
-    "upload_date": "2025-06-14T22:31:45.123628",
+    "upload_date": "2025-06-20T13:01:46.424822",
     "file_size": 978730,
-    "summary": "This document presents Version 2.0 of the AI Impact Assessment, a tool designed for responsible AI project management. It provides guidelines on using the AIIA in all phases of an AI project, covering topics such as system purpose and necessity, impact assessment, technical robustness, data governance, risk management, and accountability. The document is a collaborative effort between various departments within the Ministry of Infrastructure and Water Management.",
+    "summary": "The AI Impact Assessment helps in ensuring responsible AI by design, covering all phases of an AI project, including assessment, implementation, and use of the AI system.",
     "keywords": [
       "AI Impact Assessment",
       "Responsible AI",
-      "AI project",
+      "Data Governance",
+      "Risk Management",
+      "AI",
       "Assessment",
-      "Impact"
+      "Data governance",
+      "Risk management"
     ],
     "key_concepts": [
-      "The AI Impact Assessment helps ensure responsible AI by design, guiding users through all phases of an AI project.",
-      "The document provides guidelines on using the AIIA in technical robustness, data governance, risk management, and accountability aspects of an AI system.",
-      "The assessment covers potential impacts on fundamental rights, sustainability, and other effects when deciding whether or not to use an AI system.",
-      "The AI Impact Assessment emphasizes transparency towards users, communication with involved parties, and verifiability in the accountability section."
+      "Assessing AI systems for impact and responsibility",
+      "Ensuring transparency and accountability in AI decision-making",
+      "Managing data quality and privacy in AI applications",
+      "Artificial Intelligence Impact Assessment",
+      "Proportionality of AI deployment",
+      "Ethical considerations in AI development"
     ],
-    "category": "AI",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides guidelines for responsible AI project management using the AI Impact Assessment tool."
+    "content_preview": "Document: AI Impact Assessment",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Infrastructure and Water Management",
+      "Healthcare"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI Impact Assessment",
+      "Responsible AI",
+      "Data Governance"
+    ],
+    "methodologies": [
+      "AI Impact Assessment",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "AIIA",
+      "CDIB",
+      "ILT IDlab and analysis department",
+      "RWS Datalab",
+      "tool1"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Medical Diagnosis",
+      "Personalized Medicine"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: AI Impact Assessment",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: AI Impact Assessment, Responsible AI, Data Governance",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "0588e6c67cbdbdda7c2f9557072d9675",
