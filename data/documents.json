@@ -22656,24 +22656,74 @@
   {
     "id": "356a0d08e950eb090f15a4d00ca62bf0",
     "filename": "Data_Cleaning_1642427768.pdf",
-    "title": "Data Cleaning: A Brief Guide for The Artists of Data Science",
-    "authors": [
-      "Harpreet Sahota"
-    ],
+    "title": "A Brief Guide to Data Cleaning",
+    "authors": [],
     "filepath": "documents/Data_Cleaning_1642427768.pdf",
-    "upload_date": "2025-06-03T17:53:39.264078",
+    "upload_date": "2025-06-20T20:21:39.581691",
     "file_size": 929607,
-    "summary": "This guide offers a practical approach to data cleaning, emphasizing its importance for efficient analysis and accurate conclusions. It covers three steps of the process, including finding, scrubbing, and repeating the cleaning process.",
+    "summary": "This guide provides a 3-step process for cleaning data, including finding dirt, scrubbing the dirt, and rinsing and repeating. It emphasizes the importance of proper data cleaning to prevent wasting time on faulty analysis and making wrong conclusions.",
     "keywords": [
-      "Data Cleaning",
-      "Data Science",
-      "Guide",
-      "Analysis",
-      "Efficiency"
+      "data cleaning",
+      "data science",
+      "data analysis"
+    ],
+    "key_concepts": [
+      "Data quality",
+      "Data preprocessing",
+      "Data visualization"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "DATA CLEANING A BRIEF GUIDE TO"
+    "content_preview": "Document: A Brief Guide to Data Cleaning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "data cleaning",
+      "data science",
+      "data analysis"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Cleaning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: A Brief Guide to Data Cleaning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: data cleaning, data science, data analysis",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "81cf787f684ae464b4a6740147e07eeb",
