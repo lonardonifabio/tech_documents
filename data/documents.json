@@ -51493,22 +51493,90 @@
   {
     "id": "42e8bda9650a9f1f549abcce7c6a6fdc",
     "filename": "Medicare_Fraud_Detection_With_Python_1638059218.pdf",
-    "title": "Medicare Fraud Detection With Python",
+    "title": "Medicare F raud Detection",
     "authors": [],
     "filepath": "documents/Medicare_Fraud_Detection_With_Python_1638059218.pdf",
-    "upload_date": "2025-06-03T17:53:42.312109",
+    "upload_date": "2025-06-20T06:11:09.863219",
     "file_size": 779721,
-    "summary": "This document is a Python script for Medicare fraud detection using various machine learning algorithms such as Logistic Regression, DecisionTreeClassifier, RandomForestClassifier, GradientBoostingClassifier, SVC, GaussianNB, and more. It also uses libraries like numpy, pandas, scipy, seaborn, matplotlib, and sklearn for data preprocessing, mode...",
+    "summary": "A document related to Medicare fraud detection, including code snippets and dataset loading for a machine learning project.",
     "keywords": [
-      "Medicare Fraud Detection",
-      "Python",
+      "Medicare",
+      "Fraud Detection",
       "Machine Learning",
-      "Data Analysis",
-      "Sklearn"
+      "Data Analysis"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Anomaly detection in healthcare data",
+      "Supervised learning algorithms",
+      "Data preprocessing and feature engineering"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "import numpy as np\nimport pandas as pd"
+    "content_preview": "Document: Medicare F raud Detection",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Healthcare"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "pandas",
+      "scipy",
+      "seaborn",
+      "matplotlib"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Medicare",
+      "Fraud Detection",
+      "Machine Learning"
+    ],
+    "methodologies": [
+      "SMOTETomek",
+      "OneHotEncoder",
+      "GridSearchCV",
+      "KFold"
+    ],
+    "tools_mentioned": [
+      "Python",
+      "Jupyter Notebook"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Fraud Detection",
+      "Medical Billing"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Medicare F raud Detection",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Medicare, Fraud Detection, Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "73828dbf658410059025673a5207827d",
