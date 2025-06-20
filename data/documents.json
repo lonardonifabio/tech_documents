@@ -21693,24 +21693,105 @@
   {
     "id": "739712a4f78170dd17f18cdce34b3a00",
     "filename": "Data_Science_Cheatsheet_1567887210.pdf",
-    "title": "Data Science Cheatsheet",
-    "authors": [
-      "Maverick Lin"
-    ],
+    "title": "Data Science",
+    "authors": [],
     "filepath": "documents/Data_Science_Cheatsheet_1567887210.pdf",
-    "upload_date": "2025-06-05T14:25:26.241277",
+    "upload_date": "2025-06-20T06:11:04.451194",
     "file_size": 1106778,
-    "summary": "A multi-disciplinary field that combines concepts from computer science, statistics/machine learning, and data analysis to understand and extract insights from the ever-increasing amounts of data. The document provides a brief overview of data science, its paradigms, types of data, common data formats, and sources.",
+    "summary": "A multi-disciplinary field that combines concepts from computer science, statistics/machine learning, and data analysis to extract insights from large amounts of data. It involves two paradigms: hypothesis-driven and data-driven approaches. The heart of data science is to ask questions and be curious about the world.",
     "keywords": [
       "Data Science",
-      "Statistics",
-      "Machine Learning",
-      "Data Analysis",
-      "Computer Science"
+      "Big Data",
+      "Quantitative Data",
+      "Categorical Data",
+      "Structured Data",
+      "Unstructured Data",
+      "black box",
+      "inference",
+      "error term",
+      "reducible error"
+    ],
+    "key_concepts": [
+      "Multi-disciplinary field",
+      "Hypothesis-Driven approach",
+      "Data-Driven approach",
+      "Data Sources/Fomats",
+      "3 Vs of Big Data",
+      "Understanding relationships between variables",
+      "Minimizing reducible error",
+      "Balancing model flexibility and interpretability",
+      "Occam's Razor philosophy",
+      "Predicting probabilities with logistic regression"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A multi-disciplinary field that combines concepts from computer science, statistics/machine learning, and data analysis to understand and extract insights from the ever-increasing amounts of data."
+    "content_preview": "Document: Data Science",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science",
+      "Machine Learning/AI",
+      "Finance",
+      "Machine Learning",
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Data Science",
+      "Big Data",
+      "Quantitative Data"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Hypothesis-Driven",
+      "Data-Driven",
+      "Predictive Modeling",
+      "Forecasting",
+      "Credit Risk Assessment"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Science",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Data Science, Big Data, Quantitative Data",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.85
   },
   {
     "id": "c9a41b17ad5a88ab2c23aa71d2626e3d",
