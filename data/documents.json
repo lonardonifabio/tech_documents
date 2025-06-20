@@ -42249,19 +42249,90 @@
     "title": "Keyboard Shortcuts for Data Scientists",
     "authors": [],
     "filepath": "documents/Keyboard_Shortcuts_for_Data_Scientists_1639908601.pdf",
-    "upload_date": "2025-06-03T22:07:05.495536",
+    "upload_date": "2025-06-20T13:01:40.650834",
     "file_size": 5374686,
-    "summary": "A comprehensive guide to keyboard shortcuts for various IDEs used in data science such as Jupyter, Spyder, PyCharm, Atom, RStudio, MATLAB, SQL Workbench, and Tableau. Covers Windows/Linux and Mac platforms.",
+    "summary": "A comprehensive guide to keyboard shortcuts for various data science and programming IDEs, including Jupyter, Spyder, Rodeo, PyCharm, Atom, RStudio, MATLAB, SQL, PostgreSQL, DB2, and Tableau.",
     "keywords": [
-      "Data Science",
-      "Keyboard Shortcuts",
+      "keyboard shortcuts",
+      "data scientists",
+      "python",
+      "ide",
+      "r",
+      "matlab",
+      "sql"
+    ],
+    "key_concepts": [
+      "Keyboard Shortcuts for Data Scientists",
+      "Data Science Tools",
+      "Programming Languages",
       "IDEs",
-      "Python",
-      "R"
+      "SQL Databases"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A comprehensive guide to keyboard shortcuts for various IDEs used in data science such as Jupyter, Spyder, PyCharm, Atom, RStudio, MATLAB, SQL Workbench, and Tableau."
+    "content_preview": "Document: Keyboard Shortcuts for Data Scientists",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Software Development"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "R",
+      "MATLAB",
+      "SQL"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "keyboard shortcuts",
+      "data scientists",
+      "python"
+    ],
+    "methodologies": [
+      "IDEs (Jupyter, Spyder, Rodeo, PyCharm, Atom)"
+    ],
+    "tools_mentioned": [
+      "Keyboard Shortcuts for Data Scientists",
+      "Microsoft SQL Server IDE Keyboard Shortcuts",
+      "PostgreSQL",
+      "DB2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Science",
+      "Programming"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Keyboard Shortcuts for Data Scientists",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: keyboard shortcuts, data scientists, python",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "69a995094e795bda707ce7a67f2a6e92",
