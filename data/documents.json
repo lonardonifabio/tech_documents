@@ -18212,18 +18212,83 @@
     "title": "Churn Prediction Using ANN",
     "authors": [],
     "filepath": "documents/Churn_Prediction_1706860615.pdf",
-    "upload_date": "2025-06-03T22:07:03.150517",
+    "upload_date": "2025-06-20T06:11:03.265190",
     "file_size": 365147,
-    "summary": "This document discusses a churn prediction model using Artificial Neural Networks (ANN) on a dataset containing customer information. The data is preprocessed, split into training and testing sets, and an ANN model is trained to predict customer churn.",
+    "summary": "This document provides a step-by-step guide on how to use Artificial Neural Networks (ANN) for churn prediction using the Churn_Modelling dataset from Kaggle. The dataset contains information about customers who have either chosen to continue their service or left it, and the goal is to predict whether a customer will leave or not based on various features such as credit score, age, tenure, balance, and more. The document explains how to import necessary libraries, load the dataset, and perform data preprocessing before building and training an ANN model.",
     "keywords": [
-      "Churn Prediction",
-      "Artificial Neural Networks",
-      "Data Preprocessing",
-      "Machine Learning"
+      "pandas",
+      "numpy",
+      "matplotlib",
+      "seaborn",
+      "kaggle"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Data Preprocessing",
+      "Churn Prediction",
+      "Machine Learning",
+      "Data Analysis"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "churn-prediction-using-ann, Data columns (total 14 columns):"
+    "content_preview": "Document: Churn Prediction Using ANN",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Telecommunications"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "pandas",
+      "numpy",
+      "matplotlib",
+      "seaborn"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "pandas",
+      "numpy",
+      "matplotlib"
+    ],
+    "methodologies": [
+      "data analysis"
+    ],
+    "tools_mentioned": [
+      "Python"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Customer Churn Prediction"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Churn Prediction Using ANN",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: pandas, numpy, matplotlib",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "8e92780b0c97bd75b8fac115e1650041",
