@@ -10658,24 +10658,109 @@
   {
     "id": "b788ee195b6eb0d10da1398ab950c68d",
     "filename": "Algorithms_of_Reinforcement_Learning_1642754745.pdf",
-    "title": "Algorithms of Reinforcement Learning",
-    "authors": [
-      "Csaba Szepesvari"
-    ],
+    "title": "Reinforcement Learning",
+    "authors": [],
     "filepath": "documents/Algorithms_of_Reinforcement_Learning_1642754745.pdf",
-    "upload_date": "2025-06-03T22:07:02.693513",
+    "upload_date": "2025-06-19T22:43:47.863120",
     "file_size": 1832212,
-    "summary": "This document is a draft of a lecture on Algorithms for Reinforcement Learning, published in the Synthesis Lectures on Artificial Intelligence and Machine Learning series by Morgan & Claypool Publishers. The content covers topics such as Markov decision processes, value functions, dynamic programming algorithms, temporal difference learning, fun...",
+    "summary": "A comprehensive overview of the tools and techniques of dynamic programming/optimal control, including recent books on reinforcement learning algorithms such as Bertsekas (2007a,b), Gosavi (2003), Cao (2007) and Powell (2007).",
     "keywords": [
+      "Markov decision processes",
       "Reinforcement Learning",
-      "Algorithms",
-      "Artificial Intelligence",
-      "Machine Learning",
-      "Markov Decision Processes"
+      "Dynamic programming",
+      "Temporal difference learning",
+      "Barto",
+      "Bertsekas",
+      "Gosavi",
+      "Cao",
+      "Powell",
+      "Markov Decision Process"
     ],
-    "category": "AI",
-    "difficulty": "Advanced",
-    "content_preview": "This document is a draft of a lecture on Algorithms for Reinforcement Learning, published in the Synthesis Lectures on Artificial Intelligence and Machine Learning series by Morgan & Claypool Publishers."
+    "key_concepts": [
+      "Value functions",
+      "MDPs (Markov Decision Processes)",
+      "TD(0) algorithm",
+      "Function approximation",
+      "Dynamic Programming",
+      "Optimal Control",
+      "Reinforcement Learning",
+      "Neuro-Dynamic Programming",
+      "Approximate Dynamic Programming",
+      "MDP"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Reinforcement Learning",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence",
+      "Operations Research"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "RL",
+      "optimal control",
+      "neuro-dynamic programming",
+      "approximate dynamic programming",
+      "tech1"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Markov decision processes",
+      "Reinforcement Learning",
+      "Dynamic programming"
+    ],
+    "methodologies": [
+      "dynamic programming",
+      "reinforcement learning",
+      "policy gradient methods",
+      "average cost problems",
+      "operations research"
+    ],
+    "tools_mentioned": [
+      "artificial neural networks",
+      "simulation-based performance optimization",
+      "function approximation",
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Reinforcement Learning",
+      "Inventory Control",
+      "Supply Chain Management"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Reinforcement Learning",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Markov decision processes, Reinforcement Learning, Dynamic programming",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.9166666666666666
   },
   {
     "id": "bc9a7357de8f5f510497e4661825a2e3",
