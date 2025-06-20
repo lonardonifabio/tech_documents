@@ -61962,18 +61962,90 @@
     "title": "SQL Tutorial",
     "authors": [],
     "filepath": "documents/SQL_Tutorial_1635790346.pdf",
-    "upload_date": "2025-06-03T17:53:43.548133",
+    "upload_date": "2025-06-19T22:43:57.924174",
     "file_size": 853915,
-    "summary": "This tutorial provides a quick start guide to SQL, designed for beginners. It covers basic and advanced concepts related to SQL languages with suitable examples.",
+    "summary": "This tutorial provides a quick start to SQL, covering basic and advanced concepts for beginners. It includes examples and suitable explanations to help understand the various components of SQL.",
     "keywords": [
       "SQL",
-      "Database",
-      "Computer Language",
-      "Tutorial"
+      "database",
+      "relational database",
+      "Relational Database Management System",
+      "RDBMS"
+    ],
+    "key_concepts": [
+      "Structured Query Language",
+      "database management",
+      "computer programming language",
+      "SQL Architecture",
+      "Data Definition Language",
+      "Data Manipulation Language"
     ],
     "category": "Data Science",
-    "difficulty": "Beginner",
-    "content_preview": "This tutorial will give you a quick start to SQL. It covers most of the topics required for a basic understanding of SQL and to get a feel of how it works."
+    "difficulty": "Intermediate",
+    "content_preview": "Document: SQL Tutorial",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "SQL",
+      "SQL Query Engine"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "SQL",
+      "database",
+      "relational database"
+    ],
+    "methodologies": [
+      "tutorial",
+      "Relational Database Management System (RDBMS)"
+    ],
+    "tools_mentioned": [
+      "Oracle 11g RDBMS",
+      "Coding Ground",
+      "SQL Commands",
+      "Data Definition Language (DDL)",
+      "Data Manipulation Language (DML)"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Learning SQL",
+      "Database Management",
+      "SQL Query Optimization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: SQL Tutorial",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: SQL, database, relational database",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "390df4c4612efd9b24ed06bb6448058a",
