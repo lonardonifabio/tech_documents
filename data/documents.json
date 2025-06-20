@@ -38205,24 +38205,107 @@
   {
     "id": "ff49e7fcf8e53a0e0faab71098100b45",
     "filename": "Learn_Apache_Spark_with_Python_1639723938.pdf",
-    "title": "Learn Apache Spark with Python",
-    "authors": [
-      "Wenqiang Feng"
-    ],
+    "title": "Learning Apache Spark with Python",
+    "authors": [],
     "filepath": "documents/Learn_Apache_Spark_with_Python_1639723938.pdf",
-    "upload_date": "2025-06-03T22:07:05.599537",
+    "upload_date": "2025-06-19T22:43:53.634152",
     "file_size": 16163588,
-    "summary": "This document provides a tutorial on learning Apache Spark using Python, including setting up the platform, configuring for various operating systems, and using PySpark with Text Editor or IDE. It also covers PySparkling Water and setting up Spark on Cloud.",
+    "summary": "This document provides a tutorial on learning Apache Spark with Python, covering topics such as motivation, copyright notice, acknowledgement, and configuration for running Spark on various platforms including Databricks Community Cloud, Mac, Ubuntu, Windows, and Colaboratory.",
     "keywords": [
       "Apache Spark",
       "Python",
-      "Pyspark",
-      "Tutorial",
-      "Data Processing"
+      "PySpark",
+      "Machine Learning",
+      "Classification",
+      "Clustering",
+      "RFM Analysis",
+      "Text Mining",
+      "JDBC",
+      "Databricks"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "Learning Apache Spark with Python",
+      "Data processing",
+      "Big data analytics",
+      "Multinomial logistic regression",
+      "Decision tree Classiﬁcation",
+      "Random forest Classiﬁcation",
+      "Gradient-boosted tree Classiﬁcation",
+      "XGBoost",
+      "Naive Bayes Classiﬁcation",
+      "K-Means Model"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learning Apache Spark with Python"
+    "content_preview": "Document: Learning Apache Spark with Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science",
+      "Marketing/Analytics"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Apache Spark",
+      "R",
+      "PySpark"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Apache Spark",
+      "Python",
+      "PySpark"
+    ],
+    "methodologies": [
+      "PySpark",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Data Science"
+    ],
+    "tools_mentioned": [
+      "Databricks Community Cloud",
+      "Mac",
+      "Ubuntu",
+      "Windows",
+      "Text Editor"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Big Data Analytics",
+      "Machine Learning",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Learning Apache Spark with Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Apache Spark, Python, PySpark",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "382d28651a8b9fb1ad9f61ce71a16eb3",
