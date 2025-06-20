@@ -39915,22 +39915,86 @@
   {
     "id": "8903e00cc8b2c64d7a2e4ad3143f3f85",
     "filename": "Intro_to_Deep_Learning_1706429341.pdf",
-    "title": "Intro_to_Deep_Learning_1706429341.pdf",
+    "title": "Deep Learning",
     "authors": [],
     "filepath": "documents/Intro_to_Deep_Learning_1706429341.pdf",
-    "upload_date": "2025-06-04T21:18:52.072021",
+    "upload_date": "2025-06-20T13:01:40.131834",
     "file_size": 564135,
-    "summary": "This document introduces deep learning, a branch of machine learning that uses artificial neural networks (ANNs) to learn complex patterns in data. It discusses the advantages of deep learning such as robustness, flexibility, high dimensionality, unsupervised learning, fast insights, and efficient information retention. Popular architectures lik...",
+    "summary": "Deep learning is a branch of machine learning using artificial neural networks to learn complex patterns and relationships in data. ANNs are inspired by the human brain and learn from large amounts of data without explicit programming. Deep learning uses deep neural networks with multiple layers, enabling them to discover intricate data patterns. Unlike traditional machine learning, deep learning automatically learns and improves through data, reducing manual feature engineering. Deep learning has achieved success in areas like image recognition, natural language processing, speech recognition, and recommendation systems.",
     "keywords": [
+      "deep learning",
+      "artificial neural networks",
+      "machine learning",
+      "cloud computing",
+      "GPU"
+    ],
+    "key_concepts": [
       "Deep Learning",
       "Artificial Neural Networks",
       "Machine Learning",
-      "CNNs",
-      "RNNs"
+      "Cloud Computing",
+      "GPU"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Deep learning is a branch of machine learning using artificial neural networks (ANNs) to learn complex patterns and relationships in data."
+    "content_preview": "Document: Deep Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "artificial neural networks"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "deep learning",
+      "artificial neural networks",
+      "machine learning"
+    ],
+    "methodologies": [
+      "machine learning"
+    ],
+    "tools_mentioned": [
+      "cloud computing",
+      "GPUs"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Image recognition",
+      "Natural language processing"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: deep learning, artificial neural networks, machine learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "4b304f21f0297f250678964fc6800749",
