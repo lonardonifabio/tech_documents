@@ -18322,22 +18322,92 @@
   {
     "id": "12282d98e3593d9051bbd7c2c857d2c1",
     "filename": "CNN_1710062959.pdf",
-    "title": "Convolutional Neural Network",
+    "title": "Convolutional Neural Network (CNN)",
     "authors": [],
     "filepath": "documents/CNN_1710062959.pdf",
-    "upload_date": "2025-06-03T22:07:03.137517",
+    "upload_date": "2025-06-20T13:01:35.904836",
     "file_size": 1003594,
-    "summary": "This document discusses Convolutional Neural Networks (CNN), a type of deep learning neural network, extended from Artificial Neural Networks. CNN is used for image or pixel-based data analysis tasks such as image/video analysis, classification, computer vision, object detection, image segmentation, and face recognition. The architecture consist...",
+    "summary": "A type of Deep Learning neural network used for extracting features from grid-like matrix datasets, particularly images or pixel-based data. CNNs capture spatial information better than other models and perform well in image and video analysis, classification tasks, computer vision, object detection, image segmentation, and face recognition.",
     "keywords": [
       "Convolutional Neural Network",
-      "CNN",
       "Deep Learning",
-      "Neural Network",
-      "Image Analysis"
+      "Artificial Neural Network",
+      "Image Analysis",
+      "Computer Vision"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "CNN architecture",
+      "Convolution Layer",
+      "Pooling Layer",
+      "Fully Connected Layer",
+      "Feature Extraction"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "CNN is a type of Deep Learning neural network...CNN performs well for an image or pixel-based data..."
+    "content_preview": "Document: Convolutional Neural Network (CNN)",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Computer Vision"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Deep Learning",
+      "Artificial Neural Network"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Convolutional Neural Network",
+      "Deep Learning",
+      "Artificial Neural Network"
+    ],
+    "methodologies": [
+      "Convolutional Neural Network",
+      "Feed Forward Network"
+    ],
+    "tools_mentioned": [
+      "ReLU",
+      "Tanh",
+      "Sigmoid"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Image/Video Analysis",
+      "Classification tasks",
+      "Object detection",
+      "Image segmentation",
+      "Face recognition"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Convolutional Neural Network (CNN)",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Convolutional Neural Network, Deep Learning, Artificial Neural Network",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "b26d298f03031586a1ebd1d5aa01365e",
