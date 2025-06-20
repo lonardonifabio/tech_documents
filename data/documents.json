@@ -55955,22 +55955,84 @@
   {
     "id": "ce1a000b64a630a90139b5e1283c8036",
     "filename": "Practical_MLOPs_1642235759.pdf",
-    "title": "Practical MLOPs",
+    "title": "MLOps",
     "authors": [],
     "filepath": "documents/Practical_MLOPs_1642235759.pdf",
-    "upload_date": "2025-06-04T21:18:54.321035",
+    "upload_date": "2025-06-19T22:43:56.867166",
     "file_size": 1773316,
-    "summary": "This document discusses the importance of MLOps (MLOps Operations) for production models. It covers topics like the MLOps workflow, risk management, time to market, best practices, and real-world examples. The document also introduces the concept of an MLOps toolchain, including model exploration, metrics optimization, pipeline productionalizati...",
+    "summary": "A guide on how to get ready for production models with practical MLOps, covering chapters on workflow, best practices, metrics, and more.",
     "keywords": [
-      "MLOps",
       "Machine Learning",
-      "Production Models",
-      "Workflow",
-      "Toolchain"
+      "MLOps",
+      "Production Models"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Collaborative Approach to Machine Learning",
+      "Accessible and Reproducible Scientific Principles",
+      "End-to-End Pipelines"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses the importance of MLOps (MLOps Operations) for production models."
+    "content_preview": "Document: MLOps",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "MLOps",
+      "Production Models"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Predictive Maintenance",
+      "Customer Segmentation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: MLOps",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, MLOps, Production Models",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "776dac8656c767665c7067fa9a7b9d78",
