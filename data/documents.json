@@ -13994,22 +13994,82 @@
   {
     "id": "ce5c655a7196c95136b1ce511bb668aa",
     "filename": "BC_1746561151.pdf",
-    "title": "Breast Cancer Detection using Thermography",
+    "title": "Breast Cancer Detection using Thermography DMR-IR",
     "authors": [],
     "filepath": "documents/BC_1746561151.pdf",
-    "upload_date": "2025-06-05T20:14:17.509636",
+    "upload_date": "2025-06-20T06:11:02.705189",
     "file_size": 754591,
-    "summary": "This document provides a Python script for loading and preparing a dataset for breast cancer detection using thermography. The script reads images from three categories (Sick, Unknown_class, normal) and stores them in a pandas DataFrame.",
+    "summary": "This document excerpt describes a breast cancer detection project using thermography and DMR-IR. It imports necessary libraries, sets up the dataset path and categories, and creates a pandas DataFrame to store image paths and labels.",
     "keywords": [
-      "Breast Cancer",
-      "Thermography",
-      "Python",
-      "Pandas",
-      "Data Preparation"
+      "breast cancer",
+      "thermography",
+      "DMR-IR"
+    ],
+    "key_concepts": [
+      "Breast Cancer Detection",
+      "Thermography in Breast Cancer Diagnosis"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "import numpy as np   import pandas as pd   import os  base_path = \\"
+    "content_preview": "Document: Breast Cancer Detection using Thermography DMR-IR",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Medical Imaging"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "pandas",
+      "os"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "breast cancer",
+      "thermography",
+      "DMR-IR"
+    ],
+    "methodologies": [
+      "data preprocessing",
+      "data loading"
+    ],
+    "tools_mentioned": [
+      "Kaggle input folder"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Breast Cancer Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Breast Cancer Detection using Thermography DMR-IR",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: breast cancer, thermography, DMR-IR",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "43efecd29c88fa14f1376a8f322029ed",
