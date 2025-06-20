@@ -56014,21 +56014,87 @@
   {
     "id": "835275818e15ffa15e7b57d3ff251675",
     "filename": "Neural_Network_1706429375.pdf",
-    "title": "Neural Networks: A Comprehensive Guide",
+    "title": "Neural Network",
     "authors": [],
     "filepath": "documents/Neural_Network_1706429375.pdf",
-    "upload_date": "2025-06-03T17:53:42.587115",
+    "upload_date": "2025-06-20T06:11:10.411221",
     "file_size": 562957,
-    "summary": "This document provides an overview of Neural Networks, their structure, learning process, and applications in various fields such as Vision & Speech, Language Understanding, Healthcare, Finance, Personalization, Robotics & Vehicles.",
+    "summary": "A neural network is inspired by the brain's processing and comprises interconnected nodes with associated weights in the links. It undergoes iterative updates based on input data during the learning process, forming a trained neural network that can solve specific problems.",
     "keywords": [
       "Neural Network",
-      "Artificial Intelligence",
       "Machine Learning",
+      "Artificial Intelligence",
       "Deep Learning"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Artificial Neural Networks",
+      "Training Process",
+      "Adaptive Learning",
+      "Problem-Solving Capabilities"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Neural Networks mimic brain's processing, comprising interconnected nodes with associated weights."
+    "content_preview": "Document: Neural Network",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Neural Network"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Neural Network",
+      "Machine Learning",
+      "Artificial Intelligence"
+    ],
+    "methodologies": [
+      "Machine Learning"
+    ],
+    "tools_mentioned": [
+      "Deep Learning",
+      "Artificial Intelligence"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Computer Vision",
+      "Natural Language Processing",
+      "Healthcare",
+      "Finance",
+      "Personalization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Neural Network",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Neural Network, Machine Learning, Artificial Intelligence",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "f0dcc4356b62befc01a7e764011c7868",
