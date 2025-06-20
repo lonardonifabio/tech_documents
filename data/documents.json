@@ -27772,21 +27772,104 @@
   {
     "id": "c0d0eaf831570c9ae5256b2550a47ca7",
     "filename": "Deep_learning_by_Andrew_Ng_1620761894.pdf",
-    "title": "Deep Learning by Andrew Ng",
+    "title": "Deep Learning Course",
     "authors": [],
     "filepath": "documents/Deep_learning_by_Andrew_Ng_1620761894.pdf",
-    "upload_date": "2025-06-03T22:07:04.518528",
+    "upload_date": "2025-06-20T20:21:40.895692",
     "file_size": 15159441,
-    "summary": "This course provides foundations for deep learning, enabling learners to build, train, and apply fully connected neural networks. Upon completion, you will understand the major trends driving Deep Learning, implement efficient neural networks, and be able to answer basic AI interview questions.",
+    "summary": "This course teaches the foundations of deep learning, enabling students to build, train, and apply fully connected deep neural networks. Upon completion, students will understand major technology trends driving deep learning, be able to implement efficient neural networks, and know key parameters in a neural network's architecture. The course also covers how deep learning works and allows students to apply it to their own applications.",
     "keywords": [
+      "AI",
       "Deep Learning",
-      "Artificial Intelligence",
       "Neural Networks",
-      "Andrew Ng"
+      "vectorization",
+      "NumPy",
+      "GPU",
+      "Logistic Regression",
+      "SIMD",
+      "sigmoid",
+      "tanh"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Neural Networks",
+      "Vectorization",
+      "Broadcasting",
+      "Gradient Output",
+      "Reshape",
+      "SIMD operations",
+      "Symmetry breaking problem",
+      "Saturated activation functions"
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "This course provides foundations for deep learning, enabling learners to build, train, and apply fully connected neural networks."
+    "content_preview": "Document: Deep Learning Course",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence",
+      "Machine Learning/AI"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "Deep Learning",
+      "NumPy"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "Deep Learning",
+      "Neural Networks"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "vectorization",
+      "SIMD operation"
+    ],
+    "tools_mentioned": [
+      "Neural Networks",
+      "GPU"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Career Development",
+      "Job Preparation",
+      "Logistic Regression",
+      "Vectorization",
+      "Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning Course",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: AI, Deep Learning, Neural Networks",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.9166666666666666
   },
   {
     "id": "8babeef9e3ade1c75e932b8ed7b9c11a",
