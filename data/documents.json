@@ -75019,22 +75019,85 @@
     "id": "ceacec8541e12314265f27434bb6b62e",
     "filename": "Scalable_AI_Incident_Classification_1746604484.pdf",
     "title": "Scalable AI Incident Classification",
-    "authors": [
-      "Simon Mylius"
-    ],
+    "authors": [],
     "filepath": "documents/Scalable_AI_Incident_Classification_1746604484.pdf",
-    "upload_date": "2025-06-06T15:45:48.892683",
+    "upload_date": "2025-06-20T20:21:47.982694",
     "file_size": 1435862,
-    "summary": "Simon Mylius developed a tool that uses an LLM to classify reported incidents according to risk taxonomies and visualizes the analysis through interactive dashboards. The work is based on the MIT AI Risk Taxonomies and CSET Taxonomy of AI Harm.",
+    "summary": "This work is a collaboration with Simon Mylius, who developed a tool using an LLM to classify reported incidents according to risk taxonomies and visualizes the analysis through interactive dashboards. The raw incident reports from the full AIID dataset have been processed by an LLM-based tool, classifying risks according to the MIT AI Risk Taxonomies and harm severities according to a severity rating scale based on the CSET Taxonomy of AI Harm.",
     "keywords": [
-      "AI Incident Database",
-      "LLM",
+      "AI Incident Classification",
+      "Automated Incident Classification",
+      "LLM-based tool",
       "Risk Taxonomies",
-      "Interactive Dashboards"
+      "Severity Rating Scale"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Scalable AI Incident Classification",
+      "Collaboration with GovAI",
+      "Proof-of-concept for Automated Analysis"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Scalable AI Incident Classification... This work is a collaboration..."
+    "content_preview": "Document: Scalable AI Incident Classification",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "LLM"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI Incident Classification",
+      "Automated Incident Classification",
+      "LLM-based tool"
+    ],
+    "methodologies": [
+      "automated incident classification",
+      "risk taxonomies"
+    ],
+    "tools_mentioned": [
+      "AI Incident Database",
+      "GovAI",
+      "LLM-based tool"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Incident Classification",
+      "Risk Assessment"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Scalable AI Incident Classification",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: AI Incident Classification, Automated Incident Classification, LLM-based tool",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "30d25e776d2b50348c5dd28c2c50126a",
