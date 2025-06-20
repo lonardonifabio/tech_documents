@@ -45545,24 +45545,82 @@
   {
     "id": "06ed2b832a15536240c02374a44f9018",
     "filename": "LSTM_with_Batch_Normalization_from_Scratch_in_Python_1716746753.pdf",
-    "title": "LSTM with Batch Normalization from Scratch in Python",
-    "authors": [
-      "Cristian Leo"
-    ],
+    "title": "Batch Normalization From Scratch in Python",
+    "authors": [],
     "filepath": "documents/LSTM_with_Batch_Normalization_from_Scratch_in_Python_1716746753.pdf",
-    "upload_date": "2025-06-03T22:07:05.512536",
+    "upload_date": "2025-06-20T20:21:43.446693",
     "file_size": 2248915,
-    "summary": "This document provides a step-by-step guide on implementing Batch Normalization from scratch for an LSTM model in Python. The code includes custom classes for WeightInitializer, Trainer, and TimeSeriesDataset.",
+    "summary": "This document provides a detailed implementation of batch normalization from scratch using Python. It covers the custom classes and methods required for the process, including initialization, forward pass, backward pass, and plotting.",
     "keywords": [
-      "LSTM",
       "Batch Normalization",
       "Python",
-      "Deep Learning",
-      "Custom Classes"
+      "Deep Learning"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Batch Normalization from Scratch",
+      "LSTM Trainer",
+      "Time Series Dataset"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "import numpy as np\nimport matplotlib .pyplot as plt\n# Custom classes (built from scratch)"
+    "content_preview": "Document: Batch Normalization From Scratch in Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "numpy",
+      "matplotlib"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Batch Normalization",
+      "Python",
+      "Deep Learning"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [
+      "LSTMTrainer",
+      "PlotManager"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Deep Learning",
+      "Neural Network Training"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Batch Normalization From Scratch in Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Batch Normalization, Python, Deep Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "74e5c8e58033f104feac903798b7fe1e",
