@@ -44930,24 +44930,106 @@
   {
     "id": "df1100a370a62a3fcd32816def65d442",
     "filename": "Machine_Learning_in_5_Pages__1619874114.pdf",
-    "title": "Machine Learning in 5 Pages",
-    "authors": [
-      "Rémi Canard"
-    ],
+    "title": "Machine Learning Cheatsheet",
+    "authors": [],
     "filepath": "documents/Machine_Learning_in_5_Pages__1619874114.pdf",
-    "upload_date": "2025-06-06T15:45:45.956678",
+    "upload_date": "2025-06-19T22:43:54.968152",
     "file_size": 1309589,
-    "summary": "This document provides a cheatsheet on machine learning algorithms, their descriptions, advantages, and use cases. Inspired by MachineLearningMastery and ML Pros & Cons of HackingNote, with added math. Written by Rémi Canard.",
+    "summary": "A summary of machine learning algorithms, their descriptions, advantages, and use cases. The document provides an overview of linear and nonlinear algorithms, supervised and unsupervised learning methods, and the bias-variance trade-off.",
     "keywords": [
       "Machine Learning",
       "Algorithms",
-      "Cheat Sheet",
-      "Data Science",
-      "AI"
+      "Linear Regression",
+      "Nonlinear Regression",
+      "Parametric",
+      "Nonparametric",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Bias-Variance Trade-off",
+      "kernel"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Target Function",
+      "Error",
+      "Generalization",
+      "Overfitting",
+      "Underfitting",
+      "Hyperplane learning",
+      "Linear kernel",
+      "Polynomial kernel",
+      "Radial kernel",
+      "Support vector machines"
+    ],
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "MACHINE LEARNING CHEATSHEET  Summary of Machine Learning Algorithms descriptions, advantages and use cases."
+    "content_preview": "Document: Machine Learning Cheatsheet",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "math",
+      "linear kernel",
+      "polynomial kernel",
+      "radial kernel"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Algorithms",
+      "Linear Regression"
+    ],
+    "methodologies": [
+      "parametric",
+      "non-parametric",
+      "hyperplane learning",
+      "bootstrap aggregation"
+    ],
+    "tools_mentioned": [
+      "linear",
+      "nonlinear",
+      "linear algebra",
+      "categorical feature transformation"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Predictive Modeling",
+      "Data Analysis",
+      "Face detection from images",
+      "Target Audience Classification from tweets"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning Cheatsheet",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Machine Learning, Algorithms, Linear Regression",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "3216e95b69e8c5f0f3090ba90a4678da",
