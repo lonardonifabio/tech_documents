@@ -58046,23 +58046,84 @@
     "id": "73114bd3ba40a6045a3a374754fc76fe",
     "filename": "Planning_for_Big_Data_1630926404.pdf",
     "title": "Planning for Big Data",
-    "authors": [
-      "O’Reilly Radar Team"
-    ],
+    "authors": [],
     "filepath": "documents/Planning_for_Big_Data_1630926404.pdf",
-    "upload_date": "2025-06-04T21:18:54.217035",
+    "upload_date": "2025-06-20T06:11:10.981223",
     "file_size": 8205710,
-    "summary": "This document is about Strata + Hadoop World, an event where data science and new business fundamentals intersect. It offers learning opportunities through trainings, tutorials, and networking with an international community of data professionals. The focus is on the business applications of data technologies.",
+    "summary": "This document is a guide to planning for big data, covering topics such as data management, storage, and processing. It provides an overview of the key concepts and strategies involved in planning for big data, including data governance, data quality, and data security. The document also discusses the importance of data analytics and business intelligence in making informed decisions about big data. With its comprehensive coverage of the subject, this guide is a valuable resource for anyone looking to learn more about big data planning.",
     "keywords": [
-      "Data Science",
       "Big Data",
+      "Data Science",
+      "Planning",
+      "O'Reilly"
+    ],
+    "key_concepts": [
       "Strata + Hadoop World",
-      "O'Reilly",
-      "Cloudera"
+      "Business Applications",
+      "Data Technologies"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Make Data Work, Strataconf.com"
+    "content_preview": "Document: Planning for Big Data",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Big Data",
+      "Data Science",
+      "Planning"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Science",
+      "Business Applications"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Planning for Big Data",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Big Data, Data Science, Planning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "0a1c7cba40275b450d83775c4d6f9ab6",
