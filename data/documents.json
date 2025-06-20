@@ -74520,23 +74520,85 @@
   {
     "id": "1ac42963fa057cddc7dd2448846802ed",
     "filename": "SQL_CheatSheet.pdf",
-    "title": "SQL Cheat Sheet",
-    "authors": [
-      "Steve Stedman"
-    ],
+    "title": "SQL Join Types",
+    "authors": [],
     "filepath": "documents/SQL_CheatSheet.pdf",
-    "upload_date": "2025-06-05T20:14:26.762816",
+    "upload_date": "2025-06-20T20:21:47.830694",
     "file_size": 489885,
-    "summary": "This document provides a cheat sheet for various SQL join types, including LEFT OUTER JOIN, INNER JOIN, FULL OUTER JOIN, SEMI JOIN, ANTI SEMI JOIN, RIGHT OUTER JOIN, and NON-EQUI INNER JOIN.",
+    "summary": "This document provides an overview of different SQL join types, including LEFT OUTER JOIN, RIGHT OUTER JOIN, FULL OUTER JOIN, and others. It explains the differences between these joins and how to use them in various scenarios.",
     "keywords": [
       "SQL",
-      "Join Types",
-      "Database",
-      "Cheat Sheet"
+      "JOIN",
+      "T-SQL"
+    ],
+    "key_concepts": [
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "FULL OUTER JOIN",
+      "INNER JOIN",
+      "EXISTS",
+      "NOT EXISTS"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "SELECT * FROM Table1 t1 LEFT OUTER JOIN Table2 t2 ON t1.fk = t2.id;"
+    "content_preview": "Document: SQL Join Types",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Database Management"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "SQL"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "SQL",
+      "JOIN",
+      "T-SQL"
+    ],
+    "methodologies": [
+      "T-SQL",
+      "JOIN TYPES"
+    ],
+    "tools_mentioned": [
+      "SQL Server"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Integration",
+      "Query Optimization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: SQL Join Types",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: SQL, JOIN, T-SQL",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "df00ce3c9cee39242adb5891b7ec5bbb",
