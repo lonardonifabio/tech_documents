@@ -32397,22 +32397,84 @@
   {
     "id": "6b7a457f5add22878a2abd78e449af78",
     "filename": "How_you_can_master_Pandas_as_a_Pro_in_2_9_hours__1695192300.pdf",
-    "title": "Mastering Pandas as a Pro in 2.9 hours",
+    "title": "Pandas Advance Part 2",
     "authors": [],
     "filepath": "documents/How_you_can_master_Pandas_as_a_Pro_in_2_9_hours__1695192300.pdf",
-    "upload_date": "2025-06-03T17:53:40.562086",
+    "upload_date": "2025-06-19T22:43:52.433153",
     "file_size": 4033023,
-    "summary": "This document provides an advanced tutorial on using the Pandas library in Python, with practical examples and exercises using the Titanic dataset.",
+    "summary": "A document excerpt from a Pandas Advance Part 2 notebook, detailing the structure and statistics of the Titanic dataset.",
     "keywords": [
-      "Pandas",
+      "pandas",
+      "data analysis",
+      "python"
+    ],
+    "key_concepts": [
+      "Dataframe",
+      "Data cleaning",
+      "Data visualization"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Pandas Advance Part 2",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
       "Python",
-      "Titanic",
+      "pandas"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "pandas",
+      "data analysis",
+      "python"
+    ],
+    "methodologies": [
+      "Data Analysis",
+      "Data Visualization"
+    ],
+    "tools_mentioned": [
+      "Jupyter Notebook",
+      "nbconvert"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
       "Data Analysis",
       "Machine Learning"
     ],
-    "category": "Data Science",
-    "difficulty": "Advanced",
-    "content_preview": "In [1]:import pandas as ..."
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Pandas Advance Part 2",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: pandas, data analysis, python",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "caff05864620699bce50e1858a0dedfe",
