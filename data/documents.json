@@ -89005,25 +89005,77 @@
   {
     "id": "cb2b60de1bd8b9e70712c33460339cd2",
     "filename": "machine_learning_1706087224.pdf",
-    "title": "Machine Learning in Python: Course Notes",
-    "authors": [
-      "Iliya Valchanov",
-      "Ivan Manov"
-    ],
+    "title": "Machine Learning in Python",
+    "authors": [],
     "filepath": "documents/machine_learning_1706087224.pdf",
-    "upload_date": "2025-06-03T22:07:09.261567",
+    "upload_date": "2025-06-20T13:01:48.318818",
     "file_size": 1063628,
-    "summary": "This document provides notes on a Machine Learning course focusing on Linear Regression, including its model, correlation, geometrical representation, implementation in Python, interpreting regression tables, OLS, R-squared, multiple linear regression, adjusted R-squared, and F-test.",
+    "summary": "Course notes for Machine Learning in Python, covering topics such as linear regression, correlation vs regression, and more.",
     "keywords": [
       "Machine Learning",
       "Python",
-      "Linear Regression",
-      "Regression Analysis",
+      "Linear Regression"
+    ],
+    "key_concepts": [
+      "Regression in Python",
+      "OLS",
+      "R-squared"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Machine Learning in Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
       "Data Science"
     ],
-    "category": "Machine Learning",
-    "difficulty": "Intermediate",
-    "content_preview": "Machine Learning in Python: Course Notes ..."
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Python",
+      "Linear Regression"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Python-based Course Development"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning in Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, Python, Linear Regression",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "50185136268b141512a6c9e749379e39",
