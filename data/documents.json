@@ -59612,22 +59612,87 @@
   {
     "id": "efd4fbb6505be72ab9bc141da0c93315",
     "filename": "Python_Seaborn_Cheat_Sheet.pdf",
-    "title": "Python Seaborn Cheat Sheet",
+    "title": "Python For Data Science Cheat Sheet",
     "authors": [],
     "filepath": "documents/Python_Seaborn_Cheat_Sheet.pdf",
-    "upload_date": "2025-06-06T03:10:13.100914",
+    "upload_date": "2025-06-20T06:11:11.488225",
     "file_size": 638942,
-    "summary": "This document provides a cheat sheet for using the Python visualization library Seaborn, which is based on matplotlib and offers attractive statistical graphics. It includes basic steps to creating plots with Seaborn, examples of data preparation, figure aesthetics control, and further customizations.",
+    "summary": "This document provides an overview of the Python library Seaborn, which is used for statistical data visualization. It covers the basic steps to creating plots with Seaborn and offers examples using built-in datasets such as tips and titanic. The document also discusses figure aesthetics and further customizations.",
     "keywords": [
-      "Python",
-      "Seaborn",
-      "Data Visualization",
-      "Data Science",
-      "Cheat Sheet"
+      "seaborn",
+      "matplotlib",
+      "data visualization",
+      "python for data science"
+    ],
+    "key_concepts": [
+      "Statistical Data Visualization With Seaborn",
+      "Figure Aesthetics",
+      "Plotting With Seaborn",
+      "DataThe Python visualization library"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Python For Data Science  Cheat Sheet\nSeaborn"
+    "content_preview": "Document: Python For Data Science Cheat Sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "matplotlib",
+      "seaborn"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "seaborn",
+      "matplotlib",
+      "data visualization"
+    ],
+    "methodologies": [
+      "Statistical Data Visualization"
+    ],
+    "tools_mentioned": [
+      "DataCamp",
+      "pandas",
+      "numpy"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Statistical Data Visualization",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python For Data Science Cheat Sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: seaborn, matplotlib, data visualization",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "c1fdf7cf79a4900ce06cadf689a73d17",
