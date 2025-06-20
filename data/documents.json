@@ -69034,22 +69034,101 @@
   {
     "id": "a784b29d994f0311ee451b97646dde6b",
     "filename": "RAG_Evaluation_Metrics_1741093433.pdf",
-    "title": "RAG Evaluation Metrics",
+    "title": "RAG System Evaluation Metrics",
     "authors": [],
     "filepath": "documents/RAG_Evaluation_Metrics_1741093433.pdf",
-    "upload_date": "2025-06-05T14:25:33.326244",
+    "upload_date": "2025-06-20T13:01:44.831826",
     "file_size": 2343340,
-    "summary": "Comprehensive guide to the RAG System Evaluation Metrics, focusing on Retriever, Contextual Precision, Contextual Recall, Contextual Relevancy, Generator, Answer Relevancy, and Faithfulness. The document explains how these metrics are used to evaluate the performance of a Language Model for input queries and retrieved context.",
+    "summary": "This document provides an overview of the RAG system evaluation metrics, including retrieval, contextual precision, contextual recall, generator, answer relevance, and faithfulness. The metrics are used to evaluate the performance of a Retrieval-Augmented Generator (RAG) system in natural language processing tasks.",
     "keywords": [
-      "RAG System",
-      "Evaluation Metrics",
-      "Language Model",
-      "Input Queries",
-      "Context"
+      "LLM",
+      "RAG",
+      "Standard RAG Evaluation Metrics",
+      "Retriever",
+      "Contextual Precision",
+      "Contextual Recall",
+      "Contextual Relevance",
+      "Generator",
+      "Answer Reliability",
+      "Faithfulness"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "System Evaluation Metrics",
+      "Natural Language Processing (NLP)",
+      "Information Retrieval",
+      "Semantic Similarity",
+      "Contextual Recall",
+      "Metric Computation for Relevance Measure",
+      "LLM-based Answer Generation",
+      "Semantic Similarity between Generated and Input Queries"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Comprehensive guide to the RAG System Evaluation M..."
+    "content_preview": "Document: RAG System Evaluation Metrics",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Natural Language Processing",
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "LLM",
+      "RAG"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "LLM",
+      "RAG",
+      "Standard RAG Evaluation Metrics"
+    ],
+    "methodologies": [
+      "standard evaluation metrics",
+      "Generator Metrics",
+      "Similarity Based"
+    ],
+    "tools_mentioned": [
+      "vector DB",
+      "contextual precision",
+      "Dipanjan (DJ)"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "LLM Evaluation",
+      "RAG System Development",
+      "Natural Language Processing",
+      "Machine Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: RAG System Evaluation Metrics",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: LLM, RAG, Standard RAG Evaluation Metrics",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "6f4c7b3716d9e7d81346dca40375a9d9",
