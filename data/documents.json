@@ -43854,22 +43854,93 @@
   {
     "id": "3dfe0ffc1134fe6907c75a49a8ea4a8c",
     "filename": "Learning_ML_1740906503.pdf",
-    "title": "Learning Machine Learning",
+    "title": "Machine Learning",
     "authors": [],
     "filepath": "documents/Learning_ML_1740906503.pdf",
-    "upload_date": "2025-06-06T15:45:44.683675",
+    "upload_date": "2025-06-20T13:01:40.967834",
     "file_size": 2773184,
-    "summary": "This document provides a comprehensive guide to machine learning, covering topics such as installation using Python and R, classification using Weka, deep learning, evaluation metrics, Apache Spark MLib, supervised and unsupervised learning, natural language processing, and neural networks. It also includes examples and explanations for each topic.",
+    "summary": "A comprehensive guide to machine learning, covering various topics such as classification, deep learning, evaluation metrics, and more. The document provides an overview of the field, its applications, and techniques for building and evaluating machine learning models.",
     "keywords": [
-      "Machine Learning",
+      "machine-learning",
+      "classification",
+      "deep learning",
+      "Apache Spark",
+      "Java",
+      "Natural Language Processing",
+      "Neural Networks"
+    ],
+    "key_concepts": [
+      "Supervised Learning",
+      "Unsupervised Learning",
       "Classification",
       "Deep Learning",
-      "Evaluation Metrics",
-      "Apache Spark MLib"
+      "Machine Learning",
+      "Neural Networks"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learning Machine Learning: Getting started with machine-learning 2"
+    "content_preview": "Document: Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "R",
+      "Weka",
+      "Apache Spark"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine-learning",
+      "classification",
+      "deep learning"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "tools_mentioned": [
+      "ZeroR",
+      "Naive Bayes",
+      "kNN",
+      "Tree",
+      "Logistic Regression"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine-learning, classification, deep learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a8f1aec93b3771dfbd43fc14f1e73f27",
