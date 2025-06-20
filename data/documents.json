@@ -51719,22 +51719,93 @@
   {
     "id": "a2982d8a8bcb3f1b66dd2758396564bb",
     "filename": "Machine_learning_Cheat_Sheet_�_1658665224.pdf",
-    "title": "Machine_learning_Cheat_Sheet",
+    "title": "ML Cheatsheet Documentation",
     "authors": [],
     "filepath": "documents/Machine_learning_Cheat_Sheet_�_1658665224.pdf",
-    "upload_date": "2025-06-04T21:18:53.290029",
+    "upload_date": "2025-06-20T13:01:42.283832",
     "file_size": 3725102,
-    "summary": "A comprehensive guide to various concepts in machine learning, including Linear Regression, Gradient Descent, Logistic Regression, Calculus, Linear Algebra, Probability, Statistics, Notation, Concepts, Forwardpropagation, Backpropagation, Activation Functions, Layers, Loss Functions, Optimizers, Regularization, Architectures, Classification Algo...",
+    "summary": "A documentation for machine learning concepts with diagrams, code examples, and links to resources for learning more. The document is under early stage development and welcomes contributions.",
     "keywords": [
       "Machine Learning",
-      "Cheatsheet",
       "Linear Regression",
       "Gradient Descent",
-      "Logistic Regression"
+      "Logistic Regression",
+      "Probability",
+      "Statistics",
+      "Neural Networks",
+      "Deep Learning"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Supervised learning",
+      "Regression algorithms",
+      "Optimization techniques",
+      "Activation functions",
+      "Layers",
+      "Loss functions",
+      "Regularization",
+      "Classification algorithms",
+      "Clustering algorithms"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "ML Cheatsheet Documentation, Team, Jan 20, 2022"
+    "content_preview": "Document: ML Cheatsheet Documentation",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Linear Regression",
+      "Gradient Descent"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Linear Regression",
+      "Gradient Descent"
+    ],
+    "methodologies": [
+      "Supervised Learning"
+    ],
+    "tools_mentioned": [
+      "Matrices"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Predictive Modeling",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: ML Cheatsheet Documentation",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, Linear Regression, Gradient Descent",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "134d10b9c32b70f0925cc8df5197fbdc",
