@@ -47316,24 +47316,104 @@
   {
     "id": "742b69f04778342be7580a7e6c34726b",
     "filename": "Machine_Learning_Questions_and_Answers_1596283339.pdf",
-    "title": "Machine Learning Questions and Answers",
-    "authors": [
-      "Steve Nouri"
-    ],
+    "title": "Top 100 Machine Learning Questions & Answers",
+    "authors": [],
     "filepath": "documents/Machine_Learning_Questions_and_Answers_1596283339.pdf",
-    "upload_date": "2025-06-03T22:07:06.211542",
+    "upload_date": "2025-06-20T06:11:09.074215",
     "file_size": 170521,
-    "summary": "This document provides answers to top 100 machine learning questions, covering topics such as supervised vs unsupervised learning, parametric models, non-parametric models, classification, and regression.",
+    "summary": "This document provides explanations on various machine learning concepts including supervised vs unsupervised learning, parametric and non-parametric models, classification and regression, and overfitting. It aims to clarify the differences between these concepts and provide examples for better understanding.",
     "keywords": [
-      "Machine Learning",
-      "Supervised Learning",
-      "Unsupervised Learning",
-      "Parametric Models",
-      "Non-parametric Models"
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "parametric models",
+      "non-parametric models",
+      "classification",
+      "regression",
+      "overfitting",
+      "k-folds cross-validation",
+      "LASSO"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Difference between supervised and unsupervised machine learning",
+      "Parametric vs non-parametric models",
+      "Classification vs regression",
+      "Overfitting in machine learning",
+      "Belongingness of data points in explicit categories",
+      "Avoiding overfitting",
+      "Simplifying models",
+      "Regularization techniques"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Top 100 Machine Learning Questions & Answers"
+    "content_preview": "Document: Top 100 Machine Learning Questions & Answers",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machine learning",
+      "linear regression",
+      "logistic regression",
+      "SVMs",
+      "decision trees"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning"
+    ],
+    "methodologies": [
+      "parametric models",
+      "non-parametric models",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "latent Dirichlet analysis",
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Stock Market Prediction",
+      "Email Classification",
+      "Classification",
+      "Regression"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Top 100 Machine Learning Questions & Answers",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, supervised learning, unsupervised learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "3e65a5429586c3714b3415f2ba505caf",
