@@ -94679,19 +94679,80 @@
     "title": "MRANet with SE Block for Lung Colon Cancer Classification",
     "authors": [],
     "filepath": "documents/lung_1738689795.pdf",
-    "upload_date": "2025-06-05T20:14:29.726865",
+    "upload_date": "2025-06-20T20:21:50.935695",
     "file_size": 931726,
-    "summary": "This document discusses the implementation of MRANet with SE Block for classifying lung and colon cancer using histopathological images. The code provided reads image paths and labels from specified directories, organizes them into a DataFrame, and displays the first and last few rows.",
+    "summary": "A document about a deep learning model for classifying lung and colon cancer images. The model uses the MRANet architecture with a SE block to improve performance.",
     "keywords": [
       "MRANet",
       "SE Block",
-      "Lung Cancer",
-      "Colon Cancer",
-      "Histopathological Images"
+      "Lung Colon Cancer Classification"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Deep Learning",
+      "Image Classification",
+      "Cancer Diagnosis"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "import numpy as np\nimport pandas as pd\nbase_path = \"/kaggle/input/lung -and-colon-cancer-histopathological -"
+    "content_preview": "Document: MRANet with SE Block for Lung Colon Cancer Classification",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Medical Imaging"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "pandas"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "MRANet",
+      "SE Block",
+      "Lung Colon Cancer Classification"
+    ],
+    "methodologies": [
+      "data loading",
+      "data preprocessing"
+    ],
+    "tools_mentioned": [
+      "os",
+      "pathlib"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Image classification for cancer diagnosis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: MRANet with SE Block for Lung Colon Cancer Classification",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: MRANet, SE Block, Lung Colon Cancer Classification",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "f9a9997c112012923fce2ccf3563b1e4",
