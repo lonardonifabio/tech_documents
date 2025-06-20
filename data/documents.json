@@ -50800,20 +50800,84 @@
   {
     "id": "b047dd30bd1c2e599c57ac14d334ac4d",
     "filename": "Machine_Learning_Basic_Terminology_1567264124.pdf",
-    "title": "Machine Learning Basic Terminology",
+    "title": "Machine Learning for Non Data Scientist (Key Terminology)",
     "authors": [],
     "filepath": "documents/Machine_Learning_Basic_Terminology_1567264124.pdf",
-    "upload_date": "2025-06-04T21:18:53.014027",
+    "upload_date": "2025-06-20T20:21:44.469693",
     "file_size": 444072,
-    "summary": "This document provides an overview of machine learning for non-data scientists, focusing on key terminology and the process of training computers to learn autonomously. The choice of algorithm depends on the problem and type of data obtained.",
+    "summary": "A branch of science that enables computers to learn on their own without special programming. Machine learning involves creating models using different algorithms and testing them with various datasets.",
     "keywords": [
       "Machine Learning",
-      "Terminology",
-      "Non Data Scientist"
+      "Algorithms",
+      "Training Data",
+      "Validation Data",
+      "Testing Data"
     ],
-    "category": "AI",
-    "difficulty": "Beginner",
-    "content_preview": "Machine Learning for Non  Data Scientist (Key Terminology)"
+    "key_concepts": [
+      "What is Machine Learning",
+      "Machine Learning Process",
+      "Types of Data in Machine Learning"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Machine Learning for Non Data Scientist (Key Terminology)",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "machine learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Algorithms",
+      "Training Data"
+    ],
+    "methodologies": [
+      "machine learning process",
+      "training data",
+      "validation data",
+      "testing data"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Automating tasks without specialized programming",
+      "Improving accuracy with unbiased evaluations"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning for Non Data Scientist (Key Terminology)",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Machine Learning, Algorithms, Training Data",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "7d19690cb23848b054f45ac9ef8b0bf7",
