@@ -15401,18 +15401,96 @@
     "title": "Big Data Analytics",
     "authors": [],
     "filepath": "documents/Big_Data_Analytics_1638521602.pdf",
-    "upload_date": "2025-06-04T21:18:49.954006",
+    "upload_date": "2025-06-20T06:11:02.784189",
     "file_size": 1457922,
-    "summary": "Explores the rise of big data and its challenges, focusing on Big Data Analytics as a solution. Discusses the process of converting raw data into useful products for organizations, using a cyclical approach similar to CRISP-DM methodology.",
+    "summary": "The volume of data has exploded, and the price of storage has reduced. Big Data Analytics involves collecting, munging, and delivering useful data products to organizations. The process converts raw data into a product useful for businesses.",
     "keywords": [
-      "Big Data",
-      "Analytics",
+      "Big Data Analytics",
+      "Data Storage",
       "Data Mining",
-      "CRISP-DM"
+      "CRISP-DM",
+      "big data analytics",
+      "SQL API",
+      "data cleaning",
+      "statistical techniques",
+      "data preparation",
+      "modeling"
+    ],
+    "key_concepts": [
+      "Big Data Analytics",
+      "Data Life Cycle",
+      "Traditional Data Mining",
+      "Cross Industry Standard Process for Data Mining",
+      "Exploratory Data Analysis",
+      "Data Preparation for Modeling and Assessment",
+      "Modelling",
+      "Real-time data processing"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Explores the rise of big data and its challenges, focusing on Big Data Analytics as a solution."
+    "content_preview": "Document: Big Data Analytics",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Technology",
+      "Big Data Analytics"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Big Data Analytics",
+      "Data Storage",
+      "Data Mining"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Business Insights",
+      "Predictive Modeling",
+      "Data Exploration"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Big Data Analytics",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Big Data Analytics, Data Storage, Data Mining",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "48d5661ab4466df5011d21d17166ded7",
