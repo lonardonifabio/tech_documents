@@ -39160,24 +39160,82 @@
   {
     "id": "a68f901728734eae3a0b87d3835e8bb2",
     "filename": "Introduction_to_Statistics_for_Data_Science_EDA_in_Python_1569909078.pdf",
-    "title": "Introduction to Statistics for Data Science: Exploratory Data Analysis in Python",
-    "authors": [
-      "Allen B. Downey"
-    ],
+    "title": "Exploratory Data Analysis in Python",
+    "authors": [],
     "filepath": "documents/Introduction_to_Statistics_for_Data_Science_EDA_in_Python_1569909078.pdf",
-    "upload_date": "2025-06-03T22:07:05.397535",
+    "upload_date": "2025-06-20T06:11:07.412206",
     "file_size": 2179543,
-    "summary": "This document is a guide on exploratory data analysis (EDA) using Python, version 2.0.38, by Allen B. Downey. It focuses on statistics for data science.",
+    "summary": "This document is an introduction to practical tools of exploratory data analysis. It follows the process of importing and cleaning data, single variable explorations, and pair-wise explorations. The book provides a device-independent representation of a textbook that can be converted to other formats and printed.",
     "keywords": [
-      "Data Science",
-      "Statistics",
       "Python",
-      "Exploratory Data Analysis",
-      "Allen B. Downey"
+      "Data Analysis",
+      "Exploratory Data Analysis"
+    ],
+    "key_concepts": [
+      "Data Cleaning",
+      "Summary Statistics",
+      "Relationships Between Variables"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Think Stats Exploratory Data Analysis in Python Version 2.0.38"
+    "content_preview": "Document: Exploratory Data Analysis in Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education/Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Data Analysis",
+      "Exploratory Data Analysis"
+    ],
+    "methodologies": [
+      "Exploratory Data Analysis"
+    ],
+    "tools_mentioned": [
+      "L ATEX",
+      "http://thinkstats2.com"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Exploratory Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Exploratory Data Analysis in Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, Data Analysis, Exploratory Data Analysis",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "9dce2114d880780ee46a6a5c69bed02d",
