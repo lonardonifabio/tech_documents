@@ -68153,22 +68153,89 @@
   {
     "id": "96577656fe55553910b8ccf9e89e20ac",
     "filename": "Scikit-Learn Cheat Sheet Python Machine Learning.pdf",
-    "title": "Scikit-Learn Cheat Sheet Python Machine Learning",
+    "title": "Scikit-Learn Cheat Sheet",
     "authors": [],
     "filepath": "documents/Scikit-Learn Cheat Sheet Python Machine Learning.pdf",
-    "upload_date": "2025-06-05T20:14:26.958827",
+    "upload_date": "2025-06-20T06:11:12.309229",
     "file_size": 1687639,
-    "summary": "This document provides a cheatsheet for Scikit-Learn, an open source Python library that implements various machine learning algorithms, preprocessing, cross-validation, and visualization algorithms using a unified interface. It includes a basic example of normalization, binarization, encoding categorical features, imputing missing values, clust...",
+    "summary": "This document provides a comprehensive overview of Scikit-Learn, an open-source Python library for machine learning. It covers various algorithms and techniques such as data preprocessing, feature extraction, classification, regression, clustering, cross-validation, and optimization. The example code demonstrates how to use Scikit-Learn's K-Nearest Neighbors (KNN) classifier on the Iris dataset.",
     "keywords": [
       "Scikit-Learn",
       "Python",
       "Machine Learning",
-      "Cheat Sheet",
       "Data Science"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Classification",
+      "Regression",
+      "Clustering"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Sciki t-L earn CheatShee tPyth o n F or D at a Sci e n ce  Scikit-l earn o nlin e at www .D at aCamp.co m"
+    "content_preview": "Document: Scikit-Learn Cheat Sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning/AI"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Scikit-learn"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Scikit-Learn",
+      "Python",
+      "Machine Learning"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Data Preprocessing"
+    ],
+    "tools_mentioned": [
+      "scikit-learn",
+      "NumPy",
+      "pandas"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Preprocessing",
+      "Model Training",
+      "Model Evaluation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Scikit-Learn Cheat Sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Scikit-Learn, Python, Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "fc704dd37f376a34c257cbd8cb5642a0",
