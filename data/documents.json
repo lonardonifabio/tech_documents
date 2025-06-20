@@ -22265,22 +22265,88 @@
   {
     "id": "716c76a3b02c570ad641f32ce1b52b27",
     "filename": "Deep_Learning_Roadmap_1628687841.pdf",
-    "title": "Deep Learning Roadmap 2021",
+    "title": "Deep Learning Roadmap",
     "authors": [],
     "filepath": "documents/Deep_Learning_Roadmap_1628687841.pdf",
-    "upload_date": "2025-06-04T21:18:51.161015",
+    "upload_date": "2025-06-19T22:43:50.639140",
     "file_size": 282091,
-    "summary": "This document provides a comprehensive roadmap for learning deep learning, covering topics such as applied mathematics, linear algebra, probability and information theory, machine learning basics, modern practices, deep feedforward networks, regularization, optimization, convolutional neural networks (CNNs), recurrent neural networks (RNNs), dee...",
+    "summary": "A roadmap for deep learning covering various topics including linear algebra, probability and information theory, machine learning basics, and more.",
     "keywords": [
+      "deep learning",
+      "machine learning",
+      "linear algebra",
+      "probability",
+      "numerical computation"
+    ],
+    "key_concepts": [
       "Deep Learning",
       "Machine Learning",
-      "Applied Mathematics",
       "Linear Algebra",
-      "Probability"
+      "Probability and Information Theory"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "DEEP LEARNING ROADMAP 2021"
+    "content_preview": "Document: Deep Learning Roadmap",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Linear Algebra",
+      "Probability and Information Theory",
+      "Numerical Computation for Machine Learning",
+      "Machine Learning Basics",
+      "Deep Learning Modern"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "deep learning",
+      "machine learning",
+      "linear algebra"
+    ],
+    "methodologies": [
+      "Deep Learning Methodology",
+      "Deep Learning Applications",
+      "Deep Learning Research Topics"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Deep Learning Roadmap",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: deep learning, machine learning, linear algebra",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "f96180feba1e67e462aa5647503084f7",
