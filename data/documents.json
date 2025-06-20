@@ -63968,22 +63968,85 @@
   {
     "id": "80d7611181b40da03608efde1c7a6736",
     "filename": "Pandas Cheat Sheet Data Wrangling in Python.pdf",
-    "title": "Pandas Cheat Sheet Data Wrangling in Python",
+    "title": "Data Science and Machine Learning",
     "authors": [],
     "filepath": "documents/Pandas Cheat Sheet Data Wrangling in Python.pdf",
-    "upload_date": "2025-06-06T15:45:47.522681",
+    "upload_date": "2025-06-20T20:21:46.523694",
     "file_size": 1384294,
-    "summary": "Advanced indexing, data wrangling techniques using Pandas cheat sheet for data science learners. Topics include advanced indexing, reshaping data, merging dataframes, and more. For detailed learning visit www.DataCamp.com.",
+    "summary": "A document excerpt detailing various data science and machine learning concepts, including indexing, data manipulation, and visualization. It provides examples of using Python libraries such as Pandas and NumPy to perform tasks like pivoting, melting, and merging data.",
     "keywords": [
-      "Pandas",
-      "Python",
-      "Data Wrangling",
-      "Data Science",
-      "Cheat Sheet"
+      "data science",
+      "pandas",
+      "python",
+      "data analysis",
+      "machine learning"
+    ],
+    "key_concepts": [
+      "Data manipulation",
+      "Pivot tables",
+      "Melt and unpivot",
+      "Data transformation",
+      "Data visualization"
     ],
     "category": "Data Science",
-    "difficulty": "Advanced",
-    "content_preview": "Advanced indexing, data wrangling techniques using Pandas cheat sheet for data science learners."
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Data Science and Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "data science",
+      "pandas",
+      "python"
+    ],
+    "methodologies": [
+      "Data Science",
+      "Machine Learning"
+    ],
+    "tools_mentioned": [
+      "NumPy",
+      "Pandas",
+      "SciPy"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Science and Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: data science, pandas, python",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "36738dc7ab45bb944f5b37947a43c062",
