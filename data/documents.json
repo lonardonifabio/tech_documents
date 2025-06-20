@@ -96082,25 +96082,80 @@
   {
     "id": "c6f7b1efa627cfab5fd2c12177bb435d",
     "filename": "unsupervised learning cheat sheet.pdf",
-    "title": "unsupervised learning cheat sheet.pdf",
-    "authors": [
-      "Afshine Amidi",
-      "Shervine Amidi"
-    ],
+    "title": "Unsupervised Learning",
+    "authors": [],
     "filepath": "documents/unsupervised learning cheat sheet.pdf",
-    "upload_date": "2025-06-05T20:14:30.019867",
+    "upload_date": "2025-06-20T20:21:51.229696",
     "file_size": 456557,
-    "summary": "This document is a cheatsheet for unsupervised learning, covering topics such as Jensen's inequality, Expectation-Maximization algorithm, latent variables, and k-means clustering. It was created by Afshine Amidi and Shervine Amidi on September 9, 2018.",
+    "summary": "The document provides an introduction to unsupervised learning, including motivation, Jensen's inequality, latent variables, and the Expectation-Maximization algorithm. It explains how latent variables make estimation problems difficult and introduces common settings where latent variables are used, such as mixture of kGaussians and factor analysis. The EM algorithm is described as a method for estimating parameters through maximum likelihood estimation by repeatedly constructing a lower-bound on the likelihood.",
     "keywords": [
-      "Unsupervised Learning",
-      "Cheatsheet",
-      "Expectation-Maximization",
-      "Latent Variables",
-      "k-means Clustering"
+      "unsupervised learning",
+      "machine learning",
+      "expectation-maximization",
+      "latent variables"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "hidden patterns in unlabeled data",
+      "jensen's inequality",
+      "mixture of kGaussians",
+      "factor analysis",
+      "k-means clustering"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "CS 229 – Machine Learning https://stanford.edu/~shervine VIP Cheatsheet: Unsupervised Learning"
+    "content_preview": "Document: Unsupervised Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "unsupervised learning",
+      "machine learning",
+      "expectation-maximization"
+    ],
+    "methodologies": [
+      "Expectation-Maximization",
+      "EM algorithm"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Unsupervised Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Unsupervised Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: unsupervised learning, machine learning, expectation-maximization",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "49d9e63c54837103385bfd5ba7395dbd",
