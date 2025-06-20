@@ -54998,21 +54998,97 @@
   {
     "id": "c1f54f397408497726ccb290303a30a3",
     "filename": "Major_Type_of_Machine_Learning_1567490772.pdf",
-    "title": "Major Types of Machine Learning",
+    "title": "Algorithm",
     "authors": [],
     "filepath": "documents/Major_Type_of_Machine_Learning_1567490772.pdf",
-    "upload_date": "2025-06-03T17:53:41.972103",
+    "upload_date": "2025-06-20T20:21:45.046694",
     "file_size": 242412,
-    "summary": "This document explains two major types of machine learning: Supervised Learning and Unsupervised Learning, with examples and steps for each. It also briefly touches upon Reinforcement Learning.",
+    "summary": "An algorithm uses training data and feedback from humans to learn the relationship between given inputs and outputs. It can be used to classify input data or explore patterns in unlabeled data.",
     "keywords": [
-      "Machine Learning",
+      "machine learning",
+      "algorithm",
+      "training data",
+      "feedback",
+      "classification",
+      "pattern recognition",
+      "artificial intelligence",
+      "neural networks",
+      "natural language processing"
+    ],
+    "key_concepts": [
       "Supervised Learning",
       "Unsupervised Learning",
-      "Reinforcement Learning"
+      "Reinforcement Learning",
+      "Recurrent Neural Networks (RNNs)",
+      "Convergence of algorithmic advances",
+      "Machine Learning Timeline",
+      "Astronomical observations"
     ],
-    "category": "Machine Learning",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "An algorithm explores input data without being given an explicit output variable (eg, explores customer demographic data to identify patterns)"
+    "content_preview": "Document: Algorithm",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning",
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "algorithm",
+      "training data"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Predictive Modeling",
+      "Pattern Recognition",
+      "Natural Language Processing",
+      "Image Classification"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Algorithm",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, algorithm, training data",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a52c4cd2566766fa33d54c0b096400ba",
