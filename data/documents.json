@@ -79492,22 +79492,86 @@
   {
     "id": "0645592bc50baa71f526c56296df90f2",
     "filename": "VGG_1711726956.pdf",
-    "title": "VGG_1711726956.pdf",
+    "title": "x-ray-images-pneumonia-1",
     "authors": [],
     "filepath": "documents/VGG_1711726956.pdf",
-    "upload_date": "2025-06-03T22:07:08.787563",
+    "upload_date": "2025-06-20T06:11:14.238237",
     "file_size": 555732,
-    "summary": "This document appears to be a Python script for training a deep learning model to classify x-ray images as either 'PNEUMONIA' or 'NORMAL'. The script uses libraries such as TensorFlow, Keras, and scikit-learn, and it seems to encounter some errors related to cuDNN, cuFFT, and cuBLAS registration.",
+    "summary": "A document excerpt containing Python code for image processing and machine learning tasks, including data loading, preprocessing, and model training.",
     "keywords": [
-      "Python",
-      "Deep Learning",
-      "X-ray Images",
-      "Pneumonia",
-      "TensorFlow"
+      "numpy",
+      "pandas",
+      "matplotlib",
+      "tensorflow",
+      "sklearn"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Image processing",
+      "Machine learning",
+      "Deep learning",
+      "Data preprocessing"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Importing libraries\nimport numpy as np\nimport pandas as pd\nimport matplotlib .pyplot as plt\nimport matplotlib .image as mpimg\nimport seaborn as sns\n\n"
+    "content_preview": "Document: x-ray-images-pneumonia-1",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Medical Imaging"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "pandas",
+      "matplotlib",
+      "seaborn",
+      "sklearn"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "numpy",
+      "pandas",
+      "matplotlib"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [
+      "image_dataset_from_directory",
+      "ImageDataGenerator"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Pneumonia Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: x-ray-images-pneumonia-1",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: numpy, pandas, matplotlib",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "5d50b665ded269dc623e39e9d27ebb9e",
