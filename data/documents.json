@@ -9705,25 +9705,93 @@
     "id": "35b3e72a3e0cfdf18c6ea7a62b3ce228",
     "filename": "A_Comprehensive_Guide_to_Machine_Learning__1578986100.pdf",
     "title": "A Comprehensive Guide to Machine Learning",
-    "authors": [
-      "Soroush Nasiriany",
-      "Garrett Thomas",
-      "William Wang",
-      "Alex Yang"
-    ],
+    "authors": [],
     "filepath": "documents/A_Comprehensive_Guide_to_Machine_Learning__1578986100.pdf",
-    "upload_date": "2025-06-02T17:58:11.946183",
+    "upload_date": "2025-06-20T13:01:34.870836",
     "file_size": 20923692,
-    "summary": "This is a comprehensive guide to the Machine Learning course at UC Berkeley, created by CS 189 TAs and inspired by lectures from professors. The latest version can be found at http://www.eecs189.org/ or http://snasiriany.me/cs189/.",
+    "summary": "This guide is a comprehensive course guide for the Machine Learning course at UC Berkeley, created by CS 189 TAs Soroush Nasiriany and Garrett Thomas, with assistance from William Wang and Alex Yang. It aims to share knowledge with students and the general public, while drawing interest from other universities.",
     "keywords": [
       "Machine Learning",
-      "UC Berkeley",
       "CS 189",
-      "Guide"
+      "University of California, Berkeley",
+      "machine learning",
+      "regression",
+      "function approximation",
+      "dataset",
+      "hypothesis class",
+      "parametric model"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Comprehensive course guide",
+      "Machine learning curriculum",
+      "Notation and terminology",
+      "Relationship extraction from data",
+      "Function y=f(x)",
+      "Recovery of true relationship",
+      "Approximation of function f with hypothesis h(x)"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This guide was started by CS 189 TAs Soroush Nasiriany and Garrett Thomas in Fall 2017, with the assistance of William Wang and Alex Yang."
+    "content_preview": "Document: A Comprehensive Guide to Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Computer Science",
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "CS 189",
+      "University of California, Berkeley"
+    ],
+    "methodologies": [
+      "method1",
+      "method2",
+      "parametric model"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning course",
+      "Education",
+      "Regression Tasks"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: A Comprehensive Guide to Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, CS 189, University of California, Berkeley",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "b311146e7f2564349ab8f5111d2b4cba",
