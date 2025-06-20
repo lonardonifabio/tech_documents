@@ -65072,22 +65072,111 @@
   {
     "id": "0e64e26654c2b421a8ee773b6212b811",
     "filename": "Python Cheatsheet.pdf",
-    "title": "Python Cheatsheet",
+    "title": "Programming Basics",
     "authors": [],
     "filepath": "documents/Python Cheatsheet.pdf",
-    "upload_date": "2025-06-05T20:14:25.973773",
+    "upload_date": "2025-06-20T13:01:44.305828",
     "file_size": 1785862,
-    "summary": "This document provides a quick reference guide for Python variables, lists, tuples, and if statements. It covers topics such as string manipulation, list access and modification, list comprehensions, slicing, copying, and conditional tests.",
+    "summary": "This document excerpt covers the basics of programming, including variables, data types (strings, lists, tuples), control structures (if statements), and operations (concatenation, looping, slicing). It explains how to store values, access items in a list, loop through a list, add items to a list, create numerical lists, use list comprehensions, slice a list, copy a list, test for conditions with if statements, and assign boolean values.",
     "keywords": [
-      "Python",
-      "Cheatsheet",
-      "Variables",
-      "Lists",
-      "Tuples"
+      "variables",
+      "strings",
+      "lists",
+      "tuples",
+      "if statements",
+      "list",
+      "copying",
+      "statistics",
+      "min",
+      "max"
+    ],
+    "key_concepts": [
+      "storing values",
+      "string concatenation",
+      "list indexing and looping",
+      "list comprehensions",
+      "tuple creation",
+      "conditional testing",
+      "Creating a copy of a list",
+      "Finding minimum and maximum values in a list",
+      "Calculating the sum of a list",
+      "Using loops to generate lists"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Variables are used to store values. A string is a series of characters, surrounded by single or double quotes."
+    "content_preview": "Document: Programming Basics",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Programming",
+      "Software Development",
+      "Food Service"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "tech1",
+      "tech2",
+      "python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "variables",
+      "strings",
+      "lists"
+    ],
+    "methodologies": [
+      "Object-Oriented Programming",
+      "Functional Programming",
+      "loop",
+      "comprehension",
+      "method1"
+    ],
+    "tools_mentioned": [
+      "print() function",
+      "range() function",
+      "range",
+      "append",
+      "tool1"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Scripting",
+      "Coding",
+      "Data Analysis",
+      "List Manipulation",
+      "Voting System"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Programming Basics",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: variables, strings, lists",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "7288e0308410c86d604b03f05b77ee54",
