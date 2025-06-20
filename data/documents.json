@@ -46694,25 +46694,111 @@
   {
     "id": "56a66499ebd950331ae96fb8e15e5e2b",
     "filename": "Mathematical_Introduction_to_Deep_Learning_1717413206.pdf",
-    "title": "Mathematical Introduction to Deep Learning",
-    "authors": [
-      "Arnulf Jentzen",
-      "Benno Kuckuck",
-      "Philippe von Wurstemberger"
-    ],
+    "title": "Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory",
+    "authors": [],
     "filepath": "documents/Mathematical_Introduction_to_Deep_Learning_1717413206.pdf",
-    "upload_date": "2025-06-03T22:07:06.614545",
+    "upload_date": "2025-06-19T22:43:55.331155",
     "file_size": 5296163,
-    "summary": "An introductory book on deep learning, covering methods, implementations, and theory. It includes Python source codes that can be downloaded from GitHub.",
+    "summary": "This document provides a mathematical introduction to deep learning, covering methods, implementations, and theory. It is written by Arnulf Jentzen, Benno Kuckuck, and Philippe von Wurstemberger and aims to provide an in-depth understanding of the subject. The book covers topics such as stochastic gradient descent, optimization, and artificial neural networks. It also includes Python source codes that can be downloaded from the arXiv page or GitHub repository.",
     "keywords": [
       "deep learning",
       "artificial neural network",
       "stochastic gradient descent",
-      "optimization"
+      "optimization",
+      "activation functions",
+      "neural networks",
+      "ODEs",
+      "GFs",
+      "GD",
+      "Gradient Descent"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Mathematical Introduction to Deep Learning",
+      "Methods",
+      "Implementations",
+      "Theory",
+      "Leaky ReLU",
+      "Exponential Linear Unit (ELU)",
+      "Rectified Power Unit (RePU)",
+      "Optimization through flows of ODEs",
+      "Approximation of local minimum points",
+      "Existence and uniqueness of solutions"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory"
+    "content_preview": "Document: Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Applied Mathematics",
+      "Artificial Intelligence/Machine Learning",
+      "Optimization",
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "ANNs",
+      "CNNs",
+      "ResNets",
+      "RNNs"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "deep learning",
+      "artificial neural network",
+      "stochastic gradient descent"
+    ],
+    "methodologies": [
+      "Stochastic Gradient Descent",
+      "Optimization",
+      "structured description",
+      "realizations",
+      "empirical risk minimization"
+    ],
+    "tools_mentioned": [
+      "GitHub",
+      "arXiv",
+      "vectorized description"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Deep Learning",
+      "Artificial Neural Network",
+      "Deep learning models",
+      "Neural network architectures",
+      "Machine Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: deep learning, artificial neural network, stochastic gradient descent",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "5fc88da4c330104381882ac515cfbdfc",
