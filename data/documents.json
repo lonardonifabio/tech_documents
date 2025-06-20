@@ -44820,25 +44820,99 @@
   {
     "id": "4b9351b8518c28d11340a3cccf0b32cd",
     "filename": "LLM_risks_1749247611.pdf",
-    "title": "Expert Report on Privacy and Data Protection Risks in Large Language Models (LLMs)",
-    "authors": [
-      "Isabel Barberá",
-      "Murielle Popa -Fabre"
-    ],
+    "title": "Privacy and Data Protection Risks in Large Language Models (LLMs)",
+    "authors": [],
     "filepath": "documents/LLM_risks_1749247611.pdf",
-    "upload_date": "2025-06-08T13:28:11.387771",
+    "upload_date": "2025-06-20T20:21:43.440693",
     "file_size": 2251754,
-    "summary": "This document is an expert report discussing privacy and data protection risks associated with Large Language Models (LLMs). It was prepared for presentation to the 48th Plenary meeting, June 2025. The report covers background context, landscape analysis, unpacking privacy inside LLMs, mapping privacy risks in LLM-based systems, and more.",
+    "summary": "This expert report examines the privacy and data protection risks associated with large language models (LLMs) and their impact on personal data. The authors, Isabel Barberá and Murielle Popa, provide an analysis of the LLM ecosystem, including the representation of words and data compression in neural networks. They also identify various privacy risks, such as personal data extraction methods and model vs. system risks, and discuss technological mitigations.",
     "keywords": [
       "Large Language Models",
       "Privacy",
       "Data Protection",
-      "Expert Report",
-      "Council of Europe"
+      "Artificial Intelligence",
+      "LLM-based systems",
+      "data protection",
+      "privacy risks"
     ],
-    "category": "Research",
+    "key_concepts": [
+      "Risk Analysis",
+      "Personal Data Extraction",
+      "Neural Network Architecture",
+      "AI Lifecycle",
+      "Lifecycle/value-chain of LLM-based systems",
+      "Types of data used in LLM development",
+      "Data pre-processing",
+      "Customization methods"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Expert Report on Privacy and Data Protection Risks in Large Language Models (LLMs)"
+    "content_preview": "Document: Privacy and Data Protection Risks in Large Language Models (LLMs)",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence and Data Protection",
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "LLMs",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Large Language Models",
+      "Privacy",
+      "Data Protection"
+    ],
+    "methodologies": [
+      "neural network architecture",
+      "data compression",
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "Large Language Models",
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Large Language Models (LLMs)",
+      "AI compound systems",
+      "LLM-based applications"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Privacy and Data Protection Risks in Large Language Models (LLMs)",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Large Language Models, Privacy, Data Protection",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "9a009c937faf67653dab0b156d9ca2e2",
