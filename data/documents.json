@@ -67370,22 +67370,85 @@
   {
     "id": "52b3d3d148311bc10d73fe27b444d4c8",
     "filename": "PySpark Cheat Sheet Python.pdf",
-    "title": "PySpark Cheat Sheet Python.pdf",
+    "title": "PySpark - RDD Basics",
     "authors": [],
     "filepath": "documents/PySpark Cheat Sheet Python.pdf",
-    "upload_date": "2025-06-05T14:25:32.856246",
+    "upload_date": "2025-06-20T20:21:46.940694",
     "file_size": 676800,
-    "summary": "This document provides a cheat sheet for using PySpark, the Spark Python API, for data science tasks. It covers basic operations such as initializing SparkContext, loading data, and applying functions to RDDs.",
+    "summary": "This document excerpt provides an introduction to PySpark and its RDD (Resilient Distributed Dataset) basics. It covers initializing Spark, loading data, applying functions to RDD elements, and retrieving SparkContext version and Python version.",
     "keywords": [
       "PySpark",
       "RDD",
-      "Data Science",
-      "Python",
-      "SparkContext"
+      "Python for Data Science",
+      "DataCamp"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Spark Python API",
+      "Parallelize data",
+      "Map and flatMap functions",
+      "SparkContext version"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "PySpark - RDD Basics\nLearn Python for data science Interactively  at  www.DataCamp.com"
+    "content_preview": "Document: PySpark - RDD Basics",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Education/Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "PySpark"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "PySpark",
+      "RDD",
+      "Python for Data Science"
+    ],
+    "methodologies": [
+      "RDD Basics"
+    ],
+    "tools_mentioned": [
+      "SparkContext",
+      "SparkPythonAPI"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Science",
+      "Python Programming"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: PySpark - RDD Basics",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: PySpark, RDD, Python for Data Science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "1508e1d88f59d1fdb50589a7c584f0a5",
