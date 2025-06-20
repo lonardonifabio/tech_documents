@@ -44850,24 +44850,109 @@
   {
     "id": "3e65a5429586c3714b3415f2ba505caf",
     "filename": "Machine_Learning_Rulebook_1632378979.pdf",
-    "title": "Machine Learning Rulebook",
-    "authors": [
-      "Martin Zinkevich"
-    ],
+    "title": "Rules of Machine Learning",
+    "authors": [],
     "filepath": "documents/Machine_Learning_Rulebook_1632378979.pdf",
-    "upload_date": "2025-06-04T21:18:53.124028",
+    "upload_date": "2025-06-19T22:43:54.848151",
     "file_size": 463006,
-    "summary": "This document provides best practices for ML Engineering, focusing on Google's approach to machine learning. It covers topics such as terminology, pipeline setup, heuristics, and monitoring.",
+    "summary": "This document provides best practices for machine learning engineering from Google, aiming to help those with basic knowledge of machine learning get the most out of these guidelines. It presents a style similar to the Google C++ Style Guide and other popular guides to practical programming. The document assumes readers have taken a class in machine learning or built/worked on a machine-learned model.",
     "keywords": [
+      "machine learning",
+      "best practices",
+      "ml engineering",
+      "heuristics",
+      "data metrics",
+      "pipeline development",
+      "data refresh",
+      "feature columns",
+      "data quality",
+      "spam"
+    ],
+    "key_concepts": [
       "Machine Learning",
       "Best Practices",
       "ML Engineering",
-      "Google",
-      "Terminology"
+      "The importance of experimentation in gathering statistics",
+      "Choosing between simple and complex heuristics for machine learning",
+      "The role of infrastructure in pipeline development",
+      "Regularly updating data to prevent model degradation",
+      "Importance of tracking data statistics and manual inspection",
+      "Maintaining feature column ownership and documentation",
+      "dynamic content generation"
     ],
-    "category": "AI",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Rules of Machine Learning: Best Practices for ML Engineering"
+    "content_preview": "Document: Rules of Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning",
+      "Software Engineering",
+      "Machine Learning",
+      "Social Media"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2",
+      "machine learning",
+      "heuristics"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "best practices",
+      "ml engineering"
+    ],
+    "methodologies": [
+      "method1",
+      "method2",
+      "aggregation statistics",
+      "pipeline development"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2",
+      "data analysis tools"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Model Development",
+      "Product Launch",
+      "Product Development",
+      "Data Analysis",
+      "Data Refresh"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Rules of Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, best practices, ml engineering",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "be63443562a34e3ecef02c01c6fe4dc5",
