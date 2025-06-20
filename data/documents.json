@@ -2488,25 +2488,83 @@
   {
     "id": "1db8c6acbc5db747f1f07d3a84e84ead",
     "filename": "AI_1746271228.pdf",
-    "title": "Understanding Artificial Intelligence: Fundamentals, Use Cases and Methods for a Corporate AI Journey",
-    "authors": [
-      "Ralf T. Kreutzer",
-      "Marie Sirrenberg"
-    ],
+    "title": "Understanding Artificial Intelligence",
+    "authors": [],
     "filepath": "documents/AI_1746271228.pdf",
-    "upload_date": "2025-06-06T03:10:02.591900",
+    "upload_date": "2025-06-20T06:11:00.544180",
     "file_size": 4356868,
-    "summary": "This document provides an overview of artificial intelligence (AI), its fundamentals, use cases, and methods for corporate implementation. It covers topics such as natural language processing, computer vision, expert systems, robotics, global economic effects, and more. The book also discusses the basics and drivers of AI, including Moore's Law,...",
+    "summary": "This document provides an overview of artificial intelligence, its fundamentals, use cases, and methods for a corporate AI journey. It covers various aspects of AI, including natural language processing, computer vision, expert systems, robotics, and the global economic effects of AI. The document also discusses the drivers of AI, such as Moore's Law, digitalization, and big data.",
     "keywords": [
       "Artificial Intelligence",
-      "AI",
-      "Corporate AI Journey",
-      "Fundamentals",
-      "Use Cases"
+      "Machine Learning"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "AI fundamentals",
+      "Applications of AI"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides an overview of artificial intelligence (AI), its fundamentals, use cases, and methods for corporate implementation."
+    "content_preview": "Document: Understanding Artificial Intelligence",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "NLP",
+      "Computer Vision"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Artificial Intelligence",
+      "Machine Learning"
+    ],
+    "methodologies": [
+      "Expert Systems",
+      "Robotics"
+    ],
+    "tools_mentioned": [
+      "Moore's Law",
+      "Digitalization"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Natural Language Processing",
+      "Natural Image Processing/Computer Vision/Image Processing",
+      "Expert Systems",
+      "Robotics"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Understanding Artificial Intelligence",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Artificial Intelligence, Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "ac101ca11abad73f41a7957e778023db",
