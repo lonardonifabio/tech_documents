@@ -42904,22 +42904,102 @@
   {
     "id": "bf5cac97c8890480117db35ec7f46e04",
     "filename": "LLM_Exploit_Generation_1743591605.pdf",
-    "title": "LLM Exploit Generation: An Analysis of GPT-4o on Cybench Included Tasks",
+    "title": "OWASP Juice Shop Project",
     "authors": [],
     "filepath": "documents/LLM_Exploit_Generation_1743591605.pdf",
-    "upload_date": "2025-06-05T20:14:22.435724",
+    "upload_date": "2025-06-20T13:01:40.700834",
     "file_size": 814524,
-    "summary": "This document discusses the experimental design, results, and key observations of using GPT-4o on Cybench for various tasks in LLM exploit generation. It also covers infrastructure setup, new tasks, installation loops, fallback behavior, economics, implications, domain knowledge requirements, tool-specific performance variations, operational cha...",
+    "summary": "The document discusses the OWASP Juice Shop project, which focuses on testing and evaluating Large Language Models (LLMs) in a controlled environment. The project aims to identify vulnerabilities and weaknesses in LLM-based systems, with a focus on offensive LLM agents. The document provides an overview of the experimental design, results, and key findings, as well as information on infrastructure setup, task selection, and operational challenges.",
     "keywords": [
+      "OWASP",
+      "Juice Shop",
       "LLM",
-      "exploit generation",
-      "GPT-4o",
       "Cybench",
-      "tasks"
+      "GPT-4",
+      "JuiceShop",
+      "GPT-4o",
+      "XSS",
+      "Capture the Flag"
     ],
-    "category": "AI",
-    "difficulty": "Advanced",
-    "content_preview": "This document discusses the experimental design, results, and key observations of using GPT-4o on Cybench for various tasks in LLM exploit generation."
+    "key_concepts": [
+      "Experimental Design and Results",
+      "Infrastructure Setup for Juice Shop Testing",
+      "Economics of Offensive LLM Agents",
+      "Domain Knowledge Requirements",
+      "Task completion rates",
+      "Robust attacks",
+      "Collaboration through GitHub and AWS AMI",
+      "Specialized LLMs for exploit instructions"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: OWASP Juice Shop Project",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Cybersecurity"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2",
+      "GPT-4o",
+      "Claude-3-5-Sonnet"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "OWASP",
+      "Juice Shop",
+      "LLM"
+    ],
+    "methodologies": [
+      "method1",
+      "method2",
+      "hand-coding",
+      "LLM assistance"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2",
+      "Cybench",
+      "JuiceShop",
+      "GitHub"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Cybench",
+      "Capture the Flag"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: OWASP Juice Shop Project",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: OWASP, Juice Shop, LLM",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "853c02b0ed100522a8c1b18e30302b27",
