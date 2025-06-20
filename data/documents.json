@@ -65581,22 +65581,89 @@
   {
     "id": "8cbb910ea97623f9e8f7a60462d4f273",
     "filename": "Statistics_Cheatsheet_for_Data_Scientists_1569139913.pdf",
-    "title": "Statistics Cheatsheet for Data Scientists",
+    "title": "Population Sampling",
     "authors": [],
     "filepath": "documents/Statistics_Cheatsheet_for_Data_Scientists_1569139913.pdf",
-    "upload_date": "2025-06-06T15:45:49.149684",
+    "upload_date": "2025-06-19T22:43:58.328177",
     "file_size": 4630824,
-    "summary": "This document provides a comprehensive guide to statistics, covering topics such as population, sampling methods, observational and experimental studies, descriptive statistics, and summary measures like mean, median, quartiles, range, interquartile range, variance, and standard deviation.",
+    "summary": "This document excerpt explains the concepts of population, sample, and various statistical methods such as descriptive statistics, observational studies, experimental studies, and more. It highlights the importance of controlling for lurking variables in experimental studies and avoiding extreme values in data analysis.",
     "keywords": [
-      "Statistics",
-      "Data Science",
-      "Descriptive Statistics",
-      "Sample Size",
-      "Outliers"
+      "population",
+      "sample",
+      "sampling",
+      "observational study",
+      "experimental study",
+      "descriptive statistics",
+      "mean",
+      "median",
+      "quartiles",
+      "range"
+    ],
+    "key_concepts": [
+      "A sample is a part of the population that is selected for analysis",
+      "Observational studies can be affected by lurking variables",
+      "Experimental studies can provide evidence for causation if lurking variables are controlled",
+      "Descriptive statistics measures summarize data values",
+      "Mean is susceptible to extreme values (outliers)",
+      "Median is not affected by extreme values",
+      "Quartiles divide the ranked data into 4 equal groups",
+      "Range is the difference between maximum and minimum values",
+      "Interquartile Range (IQR) is a measure of variability",
+      "Variance measures the average distance squared from the mean"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Population ­  entire collection of objects or individuals about which information is desired."
+    "content_preview": "Document: Population Sampling",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Statistics and Data Analysis"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "population",
+      "sample",
+      "sampling"
+    ],
+    "methodologies": [
+      "Observational Study",
+      "Experimental Study"
+    ],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Population Sampling",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: population, sample, sampling",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "f94e8600505ce98b03f9098066eb962d",
