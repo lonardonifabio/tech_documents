@@ -94101,21 +94101,83 @@
   {
     "id": "5e2bec023786d6f4cd00c21db5e0de29",
     "filename": "xts Cheat Sheet Time Series in R.pdf",
-    "title": "xts Cheat Sheet Time Series in R",
+    "title": "xts Cheat Sheet for Data Science",
     "authors": [],
     "filepath": "documents/xts Cheat Sheet Time Series in R.pdf",
-    "upload_date": "2025-06-05T14:25:36.759228",
+    "upload_date": "2025-06-20T13:01:48.609818",
     "file_size": 1805248,
-    "summary": "This document provides a cheatsheet for working with the xts object in R, which is used for time series analysis. It covers topics such as creating and manipulating xts objects, handling missing values, applying functions, and calculating differences and aggregations.",
+    "summary": "A comprehensive guide to working with the xts package in R, covering topics such as creating and exporting xts objects, handling missing values, applying functions, and performing various operations.",
     "keywords": [
-      "R",
-      "Time Series",
       "xts",
-      "Data Analysis",
-      "Cheatsheet"
+      "R programming",
+      "time series analysis"
+    ],
+    "key_concepts": [
+      "Creating and manipulating time series objects in R",
+      "Basic operations on time series data",
+      "Handling missing values and performing calculations on time series data"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a cheatsheet for working with the xts object in R, which is used for time series analysis."
+    "content_preview": "Document: xts Cheat Sheet for Data Science",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Finance"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "R"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "xts",
+      "R programming",
+      "time series analysis"
+    ],
+    "methodologies": [
+      "Time Series Analysis",
+      "Data Manipulation"
+    ],
+    "tools_mentioned": [
+      "xts",
+      "zoo",
+      "POSIXct"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Time Series Analysis",
+      "Data Manipulation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: xts Cheat Sheet for Data Science",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: xts, R programming, time series analysis",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   }
 ]
