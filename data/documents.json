@@ -22073,22 +22073,86 @@
   {
     "id": "687a30547a0b42a1cc390aee55a78a67",
     "filename": "Data Exploration in Python.pdf",
-    "title": "Data Exploration in Python.pdf",
+    "title": "NumPy and Pandas for Data Exploration in Python",
     "authors": [],
     "filepath": "documents/Data Exploration in Python.pdf",
-    "upload_date": "2025-06-03T17:53:39.172077",
+    "upload_date": "2025-06-20T20:21:39.495691",
     "file_size": 2384755,
-    "summary": "This document provides a guide on data exploration using Python, focusing on libraries such as NumPy, Pandas, and Matplotlib for various operations like loading data, converting data types, transposing tables, sorting, creating plots, generating frequency tables, sampling, removing duplicates, grouping variables, recognizing missing values and o...",
+    "summary": "This document provides an overview of NumPy and Pandas, two essential libraries for data exploration and manipulation in Python. It covers various topics such as loading data, data type conversion, data cleaning, and visualization using matplotlib. The document also includes a cheat sheet with code examples for common tasks.",
     "keywords": [
-      "Data Exploration",
-      "Python",
       "NumPy",
+      "Python",
       "Pandas",
-      "Matplotlib"
+      "Matplotlib",
+      "Data Exploration"
+    ],
+    "key_concepts": [
+      "Linear Algebra",
+      "Fourier Transforms",
+      "Data Munging",
+      "Plotting Libraries"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Data Exploration in Python ..."
+    "content_preview": "Document: NumPy and Pandas for Data Exploration in Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science/Analytics"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "NumPy"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "NumPy",
+      "Python",
+      "Pandas"
+    ],
+    "methodologies": [
+      "Data Exploration"
+    ],
+    "tools_mentioned": [
+      "Pandas",
+      "Matplotlib"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Exploration",
+      "Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: NumPy and Pandas for Data Exploration in Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: NumPy, Python, Pandas",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "d8c0722d31b72dee7e3df20d86b9ceee",
