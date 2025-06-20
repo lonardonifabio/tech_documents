@@ -55871,22 +55871,84 @@
   {
     "id": "2e5c467f24fd7569cc1eedb24b62b55e",
     "filename": "NLP_cheatsheet_1711092532.pdf",
-    "title": "NLP CheatSheet",
+    "title": "Natural Language Processing (NLP) Cheat Sheet",
     "authors": [],
     "filepath": "documents/NLP_cheatsheet_1711092532.pdf",
-    "upload_date": "2025-06-03T22:07:06.990548",
+    "upload_date": "2025-06-20T13:01:43.249831",
     "file_size": 108922,
-    "summary": "This document provides a cheatsheet for text preprocessing in Natural Language Processing (NLP). It covers lowercasing, punctuation removal, digit removal, stopword removal, custom stopword removal, short and long word removal, replacing specific words, removing HTML tags, URLs, email addresses, expanding contractions, normalizing Unicode charac...",
+    "summary": "A comprehensive guide to text preprocessing techniques for NLP, including data cleaning, tokenization, and feature extraction. The document covers various steps such as removing punctuation, digits, stopwords, and custom stopwords, replacing specific words, removing HTML tags, URLs, email addresses, and accentuated characters, normalizing Unicode characters, and expanding contractions.",
     "keywords": [
-      "NLP",
+      "Natural Language Processing",
       "Text Preprocessing",
-      "Lowercase",
-      "Punctuation",
-      "Digits"
+      "Tokenization"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Text Cleaning",
+      "Data Preparation",
+      "Text Analysis"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Natural Language Processing (NLP) CheatSheet TextPreprocessing"
+    "content_preview": "Document: Natural Language Processing (NLP) Cheat Sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Natural Language Processing"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "NLP"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Natural Language Processing",
+      "Text Preprocessing",
+      "Tokenization"
+    ],
+    "methodologies": [
+      "TextPreprocessing"
+    ],
+    "tools_mentioned": [
+      "string",
+      "nltk",
+      "BeautifulSoup",
+      "re",
+      "contractions"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Text Preprocessing"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Natural Language Processing (NLP) Cheat Sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Natural Language Processing, Text Preprocessing, Tokenization",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "0951e661a1d67bfca9089b3447fa5a3a",
