@@ -20097,29 +20097,107 @@
   {
     "id": "22f76f04508b3eef3ed84726ec866442",
     "filename": "Cyberattacks_w_AI_1743591284.pdf",
-    "title": "A Framework for Evaluating Emerging Cyberattack Capabilities of AI",
-    "authors": [
-      "Mikel Rodriguez",
-      "Raluca Ada Popa",
-      "Four Flynn",
-      "Lihao Liang",
-      "Allan Dafoe",
-      "Anna Wang"
-    ],
+    "title": "Evaluating Emerging Cyberattack Capabilities of AI",
+    "authors": [],
     "filepath": "documents/Cyberattacks_w_AI_1743591284.pdf",
-    "upload_date": "2025-06-06T03:10:05.414905",
+    "upload_date": "2025-06-20T13:01:36.519836",
     "file_size": 3950770,
-    "summary": "This document proposes a novel approach to evaluate the cyber capabilities of AI systems, examining the end-to-end attack chain and identifying gaps in the evaluation of AI threats. It uses analysis of over 12,000 instances of real-world attempts to use AI in cyberattacks and curates seven cyberattack chain archetypes.",
+    "summary": "A framework for evaluating the ability of AI to enable cyberattacks is proposed, with a focus on identifying gaps in current evaluation efforts and providing guidance for defenders. The authors analyze over 12,000 instances of real-world AI-powered cyberattacks and develop a new benchmark of 50 challenges to assess AI-driven cybersecurity models.",
     "keywords": [
       "AI",
-      "Cybersecurity",
-      "Cyberattacks",
-      "Evaluation",
-      "Framework"
+      "cybersecurity",
+      "cyberattack",
+      "machine learning",
+      "safety evaluations",
+      "scalability",
+      "attack ability",
+      "evaluation execution",
+      "cost differential score"
     ],
-    "category": "AI",
-    "difficulty": "Advanced",
-    "content_preview": "This work proposes a novel approach to AI cyber capability evaluation..."
+    "key_concepts": [
+      "Artificial General Intelligence (AGI)",
+      "Cyber capability evaluation",
+      "Adversary emulation",
+      "Red teaming",
+      "Cyber skills",
+      "Emerging risks and opportunities",
+      "Cyberattack capabilities",
+      "AI model evaluation",
+      "cyber attack economics",
+      "mitigation strategies"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Evaluating Emerging Cyberattack Capabilities of AI",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Cybersecurity"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "cybersecurity",
+      "AI model"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "cybersecurity",
+      "cyberattack"
+    ],
+    "methodologies": [
+      "red teaming",
+      "adversary emulation",
+      "safety evaluations",
+      "evaluation execution",
+      "aggregated cost differential scores"
+    ],
+    "tools_mentioned": [
+      "Google's Threat Intelligence Group",
+      "benchmarks",
+      "CTF-styleExercise",
+      "Knowledge Benchmark",
+      "Uplift Study"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "AI-powered cyberattack simulation",
+      "cybersecurity threat analysis",
+      "AI Cyber Skills Evaluation",
+      "AI model evaluation",
+      "Attack chain analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Evaluating Emerging Cyberattack Capabilities of AI",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: AI, cybersecurity, cyberattack",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "8df95fd526c69399eee97f80b878b75b",
