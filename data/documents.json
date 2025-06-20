@@ -45012,22 +45012,84 @@
   {
     "id": "6cf5ef7992cff79d1e79a06fae5d0d59",
     "filename": "Machine_learning_for_Mental_State_using_EEG_data_1607334357.pdf",
-    "title": "Machine Learning for Mental State Classification using EEG data",
+    "title": "Building an AI that can read your mind",
     "authors": [],
     "filepath": "documents/Machine_learning_for_Mental_State_using_EEG_data_1607334357.pdf",
-    "upload_date": "2025-06-03T22:07:06.452544",
+    "upload_date": "2025-06-19T22:43:55.096153",
     "file_size": 862391,
-    "summary": "This document discusses the potential use of AI in reading brain activity, particularly in human-robot interaction and mental healthcare. It focuses on machine learning for autonomous classification of brain activity using EEG devices, with examples provided.",
+    "summary": "This document discusses recent progress in developing technology that can detect brain activity non-invasively using EEG, with potential applications in human-robot interaction and mental healthcare.",
     "keywords": [
       "AI",
       "Machine Learning",
       "EEG",
-      "Brain Activity",
-      "Human Robot Interaction"
+      "Brain-Computer Interface",
+      "Autonomous Detection"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Mental State Classification",
+      "Human Robot Interaction",
+      "Mental Healthcare",
+      "Non-Invasive Brain Activity Detection"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "AI that can read your mind, this technology is now taking the leap from science fiction to merely science."
+    "content_preview": "Document: Building an AI that can read your mind",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "EEG"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "Machine Learning",
+      "EEG"
+    ],
+    "methodologies": [
+      "machine learning"
+    ],
+    "tools_mentioned": [
+      "electroencephalography (EEG) devices"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Brain-Computer Interface",
+      "Mental Healthcare"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Building an AI that can read your mind",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: AI, Machine Learning, EEG",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "be0d53e29fa27c3fb6d72a56880f4f11",
