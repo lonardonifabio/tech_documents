@@ -65719,22 +65719,92 @@
   {
     "id": "62ccdf3d680390cf0821174b599ad5df",
     "filename": "Part_2_Pattern_Recognition_and_Machine_Learning_1630696123.pdf",
-    "title": "Part_2_Pattern_Recognition_and_Machine_Learning",
+    "title": "Neural Networks",
     "authors": [],
     "filepath": "documents/Part_2_Pattern_Recognition_and_Machine_Learning_1630696123.pdf",
-    "upload_date": "2025-06-04T21:18:54.183034",
+    "upload_date": "2025-06-20T20:21:46.570694",
     "file_size": 6168899,
-    "summary": "This document discusses Neural Networks and their role in addressing the curse of dimensionality in large-scale problems. It introduces Support Vector Machines (SVMs) and Relevance Vector Machine, two methods that adapt basis functions to data. The text also mentions the optimization involved in these methods and the difference between SVM and R...",
+    "summary": "This document discusses neural networks and their applications in regression and classification problems. It highlights the limitations of traditional models due to the curse of dimensionality and introduces support vector machines (SVMs) as an alternative approach. The relevance vector machine is also discussed, which produces probabilistic outputs but requires nonconvex optimization during training.",
     "keywords": [
       "Neural Networks",
       "Support Vector Machines",
       "Relevance Vector Machine",
-      "Basis Functions",
-      "Curse of Dimensionality"
+      "neural networks",
+      "network architecture",
+      "skip-layer connections"
+    ],
+    "key_concepts": [
+      "Adapting basis functions for large-scale problems",
+      "Convex optimization",
+      "Probabilistic outputs",
+      "two-layer network",
+      "feed-forward topology",
+      "sparse network"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Neural Networks In Chapters 3 and 4 we considered models for regression and classiﬁcation that com-"
+    "content_preview": "Document: Neural Networks",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "SVM",
+      "Relevance Vector Machine"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Neural Networks",
+      "Support Vector Machines",
+      "Relevance Vector Machine"
+    ],
+    "methodologies": [
+      "nonlinear optimization",
+      "convex optimization"
+    ],
+    "tools_mentioned": [
+      "basis functions",
+      "parametric models"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Regression",
+      "Classification",
+      "Neural Network Design",
+      "Network Architecture"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Neural Networks",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: Neural Networks, Support Vector Machines, Relevance Vector Machine",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "c76fdd494cb973248fa2aff4dc1db063",
