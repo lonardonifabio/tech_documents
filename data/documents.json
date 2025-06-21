@@ -98217,23 +98217,81 @@
     "id": "d404198c3440bb130fbe2c12a0969e4e",
     "filename": "khouloudch_neural-nets.pdf",
     "title": "Neural Nets Cheat Sheet",
-    "authors": [
-      "khouloudch"
-    ],
+    "authors": [],
     "filepath": "documents/khouloudch_neural-nets.pdf",
-    "upload_date": "2025-06-03T17:21:46.045985",
+    "upload_date": "2025-06-21T06:34:46.765563",
     "file_size": 164699,
-    "summary": "A brief guide on Artificial Neural Networks (ANNs), their structure, learning process, advantages, and a mention of activation functions. The document provides an overview for those interested in understanding ANNs.",
+    "summary": "An Artificial Neural Network (ANN) is an information processing paradigm inspired by biological nervous systems. ANNs are composed of highly interconnected processing elements that work together to solve specific problems. They learn by example and can adapt, self-organize, and operate in real-time.",
     "keywords": [
       "Artificial Neural Network",
-      "ANN",
-      "Neuron",
-      "Learning Process",
-      "Activation Function"
+      "Neural Nets",
+      "Machine Learning"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Information Processing Paradigm",
+      "Biological Nervous Systems",
+      "Pattern Recognition"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "An Artificial Neural Network (ANN) is an inform information processing paradigm..."
+    "content_preview": "Document: Neural Nets Cheat Sheet",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "ANN"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Artificial Neural Network",
+      "Neural Nets",
+      "Machine Learning"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "tools_mentioned": [
+      "Neural Networks"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Pattern Recognition",
+      "Data Classification"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Neural Nets Cheat Sheet",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Artificial Neural Network, Neural Nets, Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "660b965d7ad8929f2501be56f10827b2",
