@@ -15232,22 +15232,87 @@
   {
     "id": "6e725224a1233a94514e5b897f1905d2",
     "filename": "Arpit_Sharma_follow_for_more_updates_1635584389.pdf",
-    "title": "Amazon Machine Learning Developer Guide",
+    "title": "Machine Learning Model Size and Evaluation",
     "authors": [],
     "filepath": "documents/Arpit_Sharma_follow_for_more_updates_1635584389.pdf",
-    "upload_date": "2025-06-03T22:07:02.909515",
+    "upload_date": "2025-06-21T12:04:17.199944",
     "file_size": 2239872,
-    "summary": "This document provides an overview of Amazon's Machine Learning service, including key concepts, datasources, ML models, evaluations, and batch prediction. It is intended for developers.",
+    "summary": "A document explaining machine learning model size and evaluation metrics such as AUC, Macro-averaged F1-score, RMSE, and accuracy.",
     "keywords": [
       "Amazon Machine Learning",
       "Developer Guide",
-      "ML Models",
-      "Evaluations",
-      "Batch Prediction"
+      "Copyright",
+      "Machine Learning",
+      "Models",
+      "Regularization",
+      "Evaluations"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Machine Learning",
+      "Datasources",
+      "ML Models",
+      "Pattern storage",
+      "Number of passes",
+      "AUC (Area Under the ROC Curve)",
+      "Macro-averaged F1-score",
+      "RMSE (Root Mean Square Error)"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Amazon's trademarks and trade dress may not be used in connection with any product or service..."
+    "content_preview": "Document: Machine Learning Model Size and Evaluation",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence and Machine Learning",
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Amazon Machine Learning",
+      "Developer Guide",
+      "Copyright"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Predictive Analytics",
+      "Data Analysis",
+      "Model training",
+      "Evaluation of ML models"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning Model Size and Evaluation",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Amazon Machine Learning, Developer Guide, Copyright",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.875
   },
   {
     "id": "3d2e9d95cc7635b92b7c9d7c5fa6162b",
