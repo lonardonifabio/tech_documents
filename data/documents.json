@@ -50356,24 +50356,90 @@
     "id": "e3b3b090800fea0725ba85fedec85424",
     "filename": "ML_CookBook_1742720501.pdf",
     "title": "Machine Learning with Python Cookbook",
-    "authors": [
-      "Kyle Gallatin",
-      "Chris Albon"
-    ],
+    "authors": [],
     "filepath": "documents/ML_CookBook_1742720501.pdf",
-    "upload_date": "2025-06-05T20:14:23.203728",
+    "upload_date": "2025-06-21T06:34:39.958565",
     "file_size": 1842056,
-    "summary": "Practical solutions from preprocessing to deep learning using Python in the second edition. Early release ebooks provide raw and unedited content for advance access.",
+    "summary": "A practical guide to machine learning with Python, covering topics from preprocessing to deep learning. Early release ebooks provide raw content as authors write, allowing readers to take advantage of new technologies before official releases.",
     "keywords": [
       "Machine Learning",
       "Python",
       "Cookbook",
-      "Second Edition",
-      "Early Release"
+      "numpy",
+      "vectorize",
+      "broadcasting"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Deep Learning",
+      "Preprocessing",
+      "Early Release",
+      "shape",
+      "size",
+      "ndim",
+      "array operations"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Machine Learning with Python Cookbook by Kyle Gallatin and Chris Albon"
+    "content_preview": "Document: Machine Learning with Python Cookbook",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Technology",
+      "Data Science/NumPy"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Python",
+      "Cookbook"
+    ],
+    "methodologies": [
+      "Machine Learning"
+    ],
+    "tools_mentioned": [
+      "Cookbook"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Data Science",
+      "Array manipulation",
+      "Element-wise operations"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning with Python Cookbook",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, Python, Cookbook",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "ce605a489398d324a82b8a1abe36e539",
