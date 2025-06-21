@@ -44120,21 +44120,85 @@
   {
     "id": "a938123b71355c6c1471bd2e0ad23167",
     "filename": "Jupyter Notebooks.pdf",
-    "title": "Jupyter Notebooks",
+    "title": "Jupyter Notebook Kernels",
     "authors": [],
     "filepath": "documents/Jupyter Notebooks.pdf",
-    "upload_date": "2025-06-03T17:53:40.985088",
+    "upload_date": "2025-06-20T20:21:43.194693",
     "file_size": 804299,
-    "summary": "Learn about Jupyter Notebooks, their functionality, and how to use them for data science tasks. Topics include saving/loading notebooks, working with different programming languages, and more.",
+    "summary": "This document explains the different kernels available for Jupyter Notebooks, including IPython, IRkernel, IJulia, and how to use them. It also covers various operations such as creating, editing, and managing notebooks.",
     "keywords": [
       "Jupyter Notebook",
-      "Data Science",
-      "Python",
-      "Interactive Learning"
+      "IPython kernel",
+      "Python for Data Science",
+      "DataCamp"
     ],
-    "category": "Data Science",
+    "key_concepts": [
+      "Kernels",
+      "Notebooks",
+      "Programming Languages",
+      "Widgets"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Learn about Jupyter Notebooks, their functionality..."
+    "content_preview": "Document: Jupyter Notebook Kernels",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Education/Training"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Jupyter Notebook",
+      "IPython kernel",
+      "Python for Data Science"
+    ],
+    "methodologies": [
+      "Interactive Learning",
+      "Cheat Sheets"
+    ],
+    "tools_mentioned": [
+      "Jupyter Notebook",
+      "IPython kernel"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Data Science",
+      "Programming"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Jupyter Notebook Kernels",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Jupyter Notebook, IPython kernel, Python for Data Science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "76ce9aed711ebd52db827b1d0aa1de77",
