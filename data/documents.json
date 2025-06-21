@@ -11581,22 +11581,87 @@
     "id": "99b194286b415374c158ef4101ee6a1d",
     "filename": "Adam_Optimizer_From_Scratch_in_Python_1707038891.pdf",
     "title": "Adam Optimizer from Scratch in Python",
-    "authors": [
-      "Cristian Leo"
-    ],
+    "authors": [],
     "filepath": "documents/Adam_Optimizer_From_Scratch_in_Python_1707038891.pdf",
-    "upload_date": "2025-06-03T22:07:02.573512",
+    "upload_date": "2025-06-20T20:21:37.611690",
     "file_size": 3344879,
-    "summary": "This document provides a step-by-step guide on how to implement the Adam Optimizer from scratch in Python. It includes necessary libraries and functions for data loading, model fine-tuning, and filtering warnings.",
+    "summary": "This document provides a step-by-step guide to implementing the Adam optimizer from scratch using Python. It covers the basics of the Adam algorithm and its implementation details, including data loading, model fine-tuning, and warning filters.",
     "keywords": [
       "Adam Optimizer",
       "Python",
       "Machine Learning",
       "Optimization"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Exponential Decay Rates",
+      "Moments Estimation",
+      "Learning Rate",
+      "Optimization Algorithm"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "1 Adam Optimizer from Scratch in Python\nBy Cristian Leo"
+    "content_preview": "Document: Adam Optimizer from Scratch in Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "pandas",
+      "matplotlib",
+      "seaborn",
+      "optuna"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Adam Optimizer",
+      "Python",
+      "Machine Learning"
+    ],
+    "methodologies": [
+      "data loading",
+      "model fine tuning"
+    ],
+    "tools_mentioned": [
+      "tqdm"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Deep Learning",
+      "Optimization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Adam Optimizer from Scratch in Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Adam Optimizer, Python, Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "f3ab24e337cee84fe10f26b7946d7359",
