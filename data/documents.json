@@ -47018,25 +47018,79 @@
   {
     "id": "196e868ebf4d4bf5112f16c4f197b451",
     "filename": "LLM_Cybersecurity_Checklist_1742808183.pdf",
-    "title": "LLM Cybersecurity Checklist",
-    "authors": [
-      "Sandy Dunn",
-      "Team"
-    ],
+    "title": "Artificial Intelligence Security and Privacy",
+    "authors": [],
     "filepath": "documents/LLM_Cybersecurity_Checklist_1742808183.pdf",
-    "upload_date": "2025-06-05T14:25:29.398262",
+    "upload_date": "2025-06-21T06:34:39.188565",
     "file_size": 3167377,
-    "summary": "This document provides a checklist for implementing secure and responsible practices in the use of Large Language Models (LLMs). It includes threat categories, AI security and privacy training, incorporating LLM security with existing practices, fundamental security principles, and more. Note that this is not legal advice.",
+    "summary": "This document provides a checklist for responsible and trustworthy artificial intelligence, covering topics such as security, privacy, and large language model challenges. It is intended for general informational purposes only and does not constitute legal advice.",
     "keywords": [
-      "Large Language Model",
-      "Cybersecurity",
-      "Checklist",
-      "AI Security",
-      "Privacy Training"
+      "Artificial Intelligence",
+      "Security",
+      "Privacy",
+      "Large Language Model"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Responsible and Trustworthy AI",
+      "LLM Threat Categories",
+      "Artificial Intelligence Security and Privacy Training"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document provides a checklist for implementing secure and responsible practices in the use of Large Language Models (LLMs). It includes threat categories, AI security and privacy training, incorporating LLM security with existing practices,"
+    "content_preview": "Document: Artificial Intelligence Security and Privacy",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "LLM"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Artificial Intelligence",
+      "Security",
+      "Privacy"
+    ],
+    "methodologies": [
+      "security training"
+    ],
+    "tools_mentioned": [
+      "existing practices and controls"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Artificial Intelligence Security and Privacy",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Artificial Intelligence, Security, Privacy",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "bf5cac97c8890480117db35ec7f46e04",
