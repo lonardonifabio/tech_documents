@@ -96845,21 +96845,91 @@
   {
     "id": "46c9e8954f6fd97158dc61183e3e53b2",
     "filename": "opencv_cheatsheet_1634555161.pdf",
-    "title": "OpenCV C++ Cheat Sheet",
+    "title": "OpenCV C++ Reference Manual",
     "authors": [],
     "filepath": "documents/opencv_cheatsheet_1634555161.pdf",
-    "upload_date": "2025-06-05T20:14:29.777865",
+    "upload_date": "2025-06-20T20:21:50.982696",
     "file_size": 114213,
-    "summary": "This document provides a quick reference for using the OpenCV library in C++, including creating and manipulating matrices, initializing matrices with constants or specified values, and converting matrices to/from other structures.",
+    "summary": "A comprehensive guide to OpenCV C++ programming, covering various classes, functions, and matrix operations.",
     "keywords": [
       "OpenCV",
       "C++",
-      "Matrix",
-      "Initialization"
+      "Point",
+      "Size",
+      "Vec",
+      "Scalar",
+      "Rect",
+      "Range",
+      "Mat",
+      "Ptr"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "2D points",
+      "3D points",
+      "matrix creation",
+      "matrix allocation",
+      "matrix initialization",
+      "matrix operations",
+      "smart pointers",
+      "image processing"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Create a matrix: Mat image(240, 320, CV 8UC3);"
+    "content_preview": "Document: OpenCV C++ Reference Manual",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Computer Vision"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "C++"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "OpenCV",
+      "C++",
+      "Point"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [
+      "OpenCV"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Image Processing",
+      "Machine Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: OpenCV C++ Reference Manual",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: OpenCV, C++, Point",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "eac5233ed929a48da013844372986a01",
