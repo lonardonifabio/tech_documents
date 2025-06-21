@@ -80477,18 +80477,87 @@
     "title": "Texture Features Extraction",
     "authors": [],
     "filepath": "documents/Texture_Features_Extraction_1705945233.pdf",
-    "upload_date": "2025-06-04T21:18:55.370041",
+    "upload_date": "2025-06-20T20:21:48.932695",
     "file_size": 236810,
-    "summary": "This document discusses the extraction of texture features from an image using HOG (Histogram of Oriented Gradients) descriptor in Python. The code provided reads an image, resizes it, normalizes the pixel values, applies data augmentation by flipping the image horizontally, scales the HOG features, and visualizes the HOG features.",
+    "summary": "This document excerpt demonstrates a step-by-step process for extracting texture features using OpenCV and scikit-learn libraries. The code reads an image, converts it to grayscale, resizes it, normalizes the pixel values, applies data augmentation by flipping the image horizontally, scales the HOG features, and computes the HOG descriptor. The resulting HOG features are then visualized using matplotlib.",
     "keywords": [
-      "Texture Features",
-      "HOG Descriptor",
-      "Image Processing",
-      "Python"
+      "image processing",
+      "computer vision",
+      "data augmentation",
+      "HOG descriptor"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Texture Features Extraction",
+      "Image Resizing",
+      "Data Augmentation Techniques",
+      "Histogram of Oriented Gradients (HOG) Descriptor"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This document discusses the extraction of texture features from an image using HOG (Histogram of Oriented Gradients) descriptor in Python."
+    "content_preview": "Document: Texture Features Extraction",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Computer Vision"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "numpy",
+      "skimage",
+      "cv2",
+      "matplotlib",
+      "scikit-learn"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "image processing",
+      "computer vision",
+      "data augmentation"
+    ],
+    "methodologies": [
+      "data augmentation",
+      "feature extraction"
+    ],
+    "tools_mentioned": [
+      "OpenCV",
+      "Matplotlib",
+      "Scikit-learn"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Image Classification",
+      "Object Detection"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Texture Features Extraction",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: image processing, computer vision, data augmentation",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "a973f9164aac5ec8ad27ab74b394d6bb",
