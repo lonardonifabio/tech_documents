@@ -527,22 +527,87 @@
   {
     "id": "f8f0876600ce63f24e72cc1592cb6e9e",
     "filename": "11_different_Outlier_Detection_techniques_in_Python_1636885711.pdf",
-    "title": "11 Different Outlier Detection Techniques in Python",
+    "title": "Outlier Detection in Python",
     "authors": [],
     "filepath": "documents/11_different_Outlier_Detection_techniques_in_Python_1636885711.pdf",
-    "upload_date": "2025-06-02T17:58:11.435180",
+    "upload_date": "2025-06-20T20:21:35.524689",
     "file_size": 477646,
-    "summary": "This document discusses various methods for outlier detection in Python, their use-cases, and provides examples of machine learning algorithms used for this purpose. It also explains what outliers are, how they occur, and the impact they have on analysis.",
+    "summary": "This document discusses various methods for outlier detection in Python, including simple and machine learning-based approaches. Outliers are data points that are significantly different from the entire dataset, and their presence can skew analytics and training time. The document covers simple methods such as sorting and more advanced techniques like Robust Covariance, One-Class SVM, Isolation Forest, and Local Outlier Factor.",
     "keywords": [
-      "Outlier Detection",
+      "outlier detection",
+      "machine learning",
+      "anomaly detection",
+      "fraud detection"
+    ],
+    "key_concepts": [
+      "What are outliers?",
+      "How do outliers occur in a dataset",
+      "Simple methods to identify outliers",
+      "Robust Covariance",
+      "One-Class SVM",
+      "Isolation Forest",
+      "Local Outlier Factor"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Outlier Detection in Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "outlier detection",
+      "machine learning",
+      "anomaly detection"
+    ],
+    "methodologies": [
+      "machine learning algorithms"
+    ],
+    "tools_mentioned": [
       "Python",
-      "Machine Learning",
+      "SVM",
+      "Isolation Forest",
+      "Local Outlier Factor"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
       "Anomaly Detection",
       "Fraud Detection"
     ],
-    "category": "Machine Learning",
-    "difficulty": "Intermediate",
-    "content_preview": "1 / 1 111 different ways for Outlier Detection in Python"
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Outlier Detection in Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: outlier detection, machine learning, anomaly detection",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "8378f71f48f86e500ec93798bd62bd19",
