@@ -92209,22 +92209,106 @@
   {
     "id": "e8512666158e6c22d5473957ed1ff66f",
     "filename": "_Procedure_in_NLP_1741800251.pdf",
-    "title": "Procedure in NLP",
+    "title": "Natural Language Processing (NLP) Document",
     "authors": [],
     "filepath": "documents/_Procedure_in_NLP_1741800251.pdf",
-    "upload_date": "2025-06-05T20:14:29.191860",
+    "upload_date": "2025-06-20T20:21:50.432695",
     "file_size": 1750972,
-    "summary": "This document outlines a procedure for Natural Language Processing (NLP) tasks, covering steps such as importing libraries, loading data, text preprocessing, tokenization, stemming, POS tagging, lemmatization, feature extraction, and model building. It also explains terms used in NLP like Document, Corpus, Vocabulary, Segmentation, Tokenization,...",
+    "summary": "This document provides a step-by-step guide on how to perform Natural Language Processing (NLP) tasks such as text preprocessing, tokenization, stemming, lemmatization, and feature extraction. It also defines key terms used in NLP.",
     "keywords": [
       "NLP",
-      "Procedure",
+      "NLTK",
+      "spaCy",
+      "Tokenization",
+      "Stemming",
+      "Stop words",
+      "Lemmatization",
+      "NER Tagging",
+      "POS Tagging",
+      "nltk"
+    ],
+    "key_concepts": [
+      "Text Preprocessing",
+      "Feature Extraction",
+      "Document",
+      "Corpus",
+      "Vocabulary",
+      "Segmentation",
+      "Tokenization",
+      "Data Preprocessing",
+      "Model Building",
+      "word tokenization"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Natural Language Processing (NLP) Document",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Natural Language Processing"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "NLTK",
+      "spaCy"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "NLP",
+      "NLTK",
+      "spaCy"
+    ],
+    "methodologies": [
       "Text Preprocessing",
       "Tokenization",
-      "Stemming"
+      "Stemming",
+      "Lemmatization",
+      "string"
     ],
-    "category": "AI",
-    "difficulty": "Intermediate",
-    "content_preview": "Procedure in NLP * 1. Import the General libraries, NLP module like NL TK and SP ACY."
+    "tools_mentioned": [
+      "General libraries",
+      "BOW",
+      "TFIDF",
+      "Word2Vector",
+      "Glove"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Text Analysis",
+      "Document Classification",
+      "Text Preprocessing",
+      "Sentiment Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Natural Language Processing (NLP) Document",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: NLP, NLTK, spaCy",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "cf41bdf80ed844d7e3a72925b218f1ed",
