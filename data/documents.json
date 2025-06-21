@@ -66283,19 +66283,81 @@
     "title": "Optimization with Python",
     "authors": [],
     "filepath": "documents/Optimization_with_Python_1567887157.pdf",
-    "upload_date": "2025-06-03T22:07:07.241550",
+    "upload_date": "2025-06-21T06:34:42.355564",
     "file_size": 1524892,
-    "summary": "Learn how to apply Nobel-prize winning economic theory to the stock market and solve optimization problems using Python. This article demonstrates an application of Linear Programming in economic planning for maximizing profit from a stock market investment portfolio while minimizing risk.",
+    "summary": "This document explains how to apply a Nobel-prize winning economic theory to the stock market and solve the resulting optimization problem using simple Python programming. It discusses linear programming and discrete optimization concepts, and provides an example of maximizing expected profit from a stock market investment portfolio while minimizing risk.",
     "keywords": [
-      "Optimization",
-      "Python",
-      "Stock Market",
-      "Economic Theory",
-      "Linear Programming"
+      "optimization",
+      "python",
+      "stock market",
+      "linear programming",
+      "economics"
     ],
-    "category": "Technology",
+    "key_concepts": [
+      "Maximizing profit while minimizing risk",
+      "Modern Portfolio Theory (MPT)",
+      "Nobel Prize in Economics"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "O Optimization with Python: How to make the most amount of money with the least amount of risk?"
+    "content_preview": "Document: Optimization with Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Finance/Investments"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "optimization",
+      "python",
+      "stock market"
+    ],
+    "methodologies": [
+      "Linear Programming",
+      "Discrete Optimization"
+    ],
+    "tools_mentioned": [
+      "PuLP"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Portfolio Optimization",
+      "Risk Management"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Optimization with Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: optimization, python, stock market",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "af5fe85cc04df56a3b1ac03d978a72eb",
