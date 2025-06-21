@@ -76068,21 +76068,81 @@
   {
     "id": "25e09f5e3603efe4378771ccc072b38f",
     "filename": "SQL_API_with_Python_1639755833.pdf",
-    "title": "SQL API with Python",
+    "title": "SQL API",
     "authors": [],
     "filepath": "documents/SQL_API_with_Python_1639755833.pdf",
-    "upload_date": "2025-06-03T22:07:08.034556",
+    "upload_date": "2025-06-20T20:21:47.829695",
     "file_size": 476829,
-    "summary": "This document explains how to create a SQL API using Python and Flask.",
+    "summary": "This document provides a guide on creating an SQL API using Flask and Python. It includes examples of different SQL operations such as create, insert, update, delete, download, and bluk. The guide also mentions the importance of having a sql.py file that contains functions for each operation.",
     "keywords": [
       "SQL",
-      "API",
       "Python",
-      "Flask"
+      "Flask",
+      "API"
+    ],
+    "key_concepts": [
+      "Database Operations",
+      "SQL Queries",
+      "API Development"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "SQL API using Python We will use Flask for this API"
+    "content_preview": "Document: SQL API",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Flask"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "SQL",
+      "Python",
+      "Flask"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [
+      "SQL API"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Database Management",
+      "Data Retrieval"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: SQL API",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: SQL, Python, Flask",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "1ac42963fa057cddc7dd2448846802ed",
