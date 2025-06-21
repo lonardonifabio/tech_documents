@@ -18088,18 +18088,76 @@
     "title": "Binary Classification Confusion Matrix",
     "authors": [],
     "filepath": "documents/Binary_Classification_Confusion_Matrix_1627285552 (1).pdf",
-    "upload_date": "2025-06-04T21:18:49.977007",
+    "upload_date": "2025-06-21T06:34:34.265566",
     "file_size": 3025361,
-    "summary": "This document discusses a binary classification confusion matrix, its structure, and various measures derived from it, such as Error rate (ERR) and Accuracy (ACC).",
+    "summary": "A confusion matrix of binary classification is a two by two table formed by counting of the number of the four outcomes of a binary classifier. Various measures can be derived from a confusion matrix, including error rate, accuracy, sensitivity, specificity, precision, and false positive rate.",
     "keywords": [
       "binary classification",
       "confusion matrix",
       "error rate",
-      "accuracy"
+      "accuracy",
+      "sensitivity",
+      "specificity",
+      "precision",
+      "false positive rate"
     ],
-    "category": "Machine Learning",
+    "key_concepts": [
+      "Confusion matrix in binary classification",
+      "Measures of performance in binary classification",
+      "Error rates and accuracy in machine learning"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "A confusion matrix of binary classification is a two by two table formed by counting..."
+    "content_preview": "Document: Binary Classification Confusion Matrix",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Machine Learning/AI"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "binary classification",
+      "confusion matrix",
+      "error rate"
+    ],
+    "methodologies": [],
+    "tools_mentioned": [],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Binary Classification"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Binary Classification Confusion Matrix",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: binary classification, confusion matrix, error rate",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.75
   },
   {
     "id": "5d094f4070af73be2af321796b601a25",
