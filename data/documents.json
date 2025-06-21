@@ -70433,22 +70433,85 @@
   {
     "id": "5d6064a8c71a64cabd98d2f762e59855",
     "filename": "Python_Machine_Learning_1674673087.pdf",
-    "title": "Python Machine Learning",
+    "title": "Machine Learning",
     "authors": [],
     "filepath": "documents/Python_Machine_Learning_1674673087.pdf",
-    "upload_date": "2025-06-04T21:18:54.527036",
+    "upload_date": "2025-06-20T20:21:47.097694",
     "file_size": 1571316,
-    "summary": "This document introduces the concept of Machine Learning, focusing on its relationship with artificial intelligence and data analysis. It provides a tutorial for beginners to learn statistics, Python modules, and function creation for predictive modeling. The content also covers the definition and examples of data sets in the context of machine ...",
+    "summary": "Machine Learning is a step into the direction of artificial intelligence (AI). It is a program that analyses data and learns to predict the outcome. This tutorial will cover mathematics, statistics, and Python modules to get answers and make predictions.",
     "keywords": [
-      "Machine Learning",
-      "Python",
-      "Artificial Intelligence",
-      "Statistics",
-      "Data Set"
+      "machine learning",
+      "artificial intelligence",
+      "python modules",
+      "data sets",
+      "statistics"
     ],
-    "category": "Machine Learning",
-    "difficulty": "Beginner",
-    "content_preview": "Machine Learning is making the computer learn from studying data and statistics."
+    "key_concepts": [
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Data Analysis",
+      "Predictive Modeling"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "artificial intelligence",
+      "python modules"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Statistics"
+    ],
+    "tools_mentioned": [
+      "Database",
+      "Array"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Predicting outcomes"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, artificial intelligence, python modules",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "cd32440ba7b89d8ea42ca78da748d634",
