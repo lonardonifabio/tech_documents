@@ -60224,24 +60224,106 @@
   {
     "id": "a67f39c2917f8c26c0d5590386d6bc2d",
     "filename": "Mathematics_of_Machine_Learning__1705307929.pdf",
-    "title": "Mathematics of Machine Learning",
-    "authors": [
-      "Martin Lotz"
-    ],
+    "title": "MATHEMATICS of MACHINE LEARNING",
+    "authors": [],
     "filepath": "documents/Mathematics_of_Machine_Learning__1705307929.pdf",
-    "upload_date": "2025-06-03T22:07:06.703546",
+    "upload_date": "2025-06-21T06:34:41.229564",
     "file_size": 5736773,
-    "summary": "A comprehensive guide to the mathematical foundations of machine learning, covering topics such as probability, statistical learning theory, optimization, and deep learning. Written by Martin Lotz from The University of Warwick.",
+    "summary": "A document about machine learning that covers various topics including probability, statistical learning theory, optimization, and deep learning.",
     "keywords": [
       "Machine Learning",
       "Mathematics",
       "Probability",
-      "Optimization",
-      "Deep Learning"
+      "Statistical Learning Theory",
+      "Deep Learning",
+      "Neural Networks",
+      "loss function",
+      "empirical risk",
+      "optimization problem",
+      "neural networks"
     ],
-    "category": "AI",
-    "difficulty": "Advanced",
-    "content_preview": "MATHEMATICS of MACHINE LEARNING by Martin Lotz"
+    "key_concepts": [
+      "Learning",
+      "Knowledge",
+      "Understanding",
+      "Independence",
+      "Algorithms",
+      "Models",
+      "Computer Systems",
+      "Tasks",
+      "Data Analysis",
+      "mismatch between prediction and actual value"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: MATHEMATICS of MACHINE LEARNING",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence/Machine Learning",
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "R",
+      "Java"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Mathematics",
+      "Probability"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Deep Learning",
+      "Neural Networks",
+      "optimization"
+    ],
+    "tools_mentioned": [
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "neural networks"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Predictive Modeling",
+      "Data Analysis",
+      "Regression",
+      "Classification"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: MATHEMATICS of MACHINE LEARNING",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Machine Learning, Mathematics, Probability",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "f35118416fd4dff2bf670179c678b902",
