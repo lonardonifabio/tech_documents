@@ -44037,21 +44037,84 @@
   {
     "id": "9dea4e33fb75f6601096fe9a8d0ac6b8",
     "filename": "Introduction_to_Machine_Learning_1643833012.pdf",
-    "title": "Introduction to Machine Learning",
+    "title": "Machine Learning",
     "authors": [],
     "filepath": "documents/Introduction_to_Machine_Learning_1643833012.pdf",
-    "upload_date": "2025-06-03T17:53:40.879088",
+    "upload_date": "2025-06-21T06:34:38.895565",
     "file_size": 4343597,
-    "summary": "Learn the fundamentals of machine learning, explore case studies and understand when and how it can be used to solve problems. The document also discusses traditional programming methods for creating a spam filter.",
+    "summary": "This lesson teaches the fundamentals of machine learning and explores case studies using ML. It explains that machine learning enables computers to solve problems by using examples of real-world data, allowing them to automatically learn and improve from experience without explicit programming.",
     "keywords": [
-      "Machine Learning",
-      "Artificial Intelligence",
-      "Data Analysis",
-      "Programming"
+      "machine learning",
+      "artificial intelligence",
+      "data analysis"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Machine Learning process",
+      "Artificial Intelligence",
+      "Data Analysis"
+    ],
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn the fundamentals of machine learning, explore case studies and understand when and how it can be used to solve problems."
+    "content_preview": "Document: Machine Learning",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "machine learning",
+      "artificial intelligence",
+      "data analysis"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Spam Detection",
+      "Predictive Modeling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Machine Learning",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: machine learning, artificial intelligence, data analysis",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "21d92624682b5000bc87e63083767cc0",
