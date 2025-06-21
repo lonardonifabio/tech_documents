@@ -21888,19 +21888,93 @@
     "title": "Computer Vision",
     "authors": [],
     "filepath": "documents/Computer_Vision_1705757711.pdf",
-    "upload_date": "2025-06-03T22:07:03.272518",
+    "upload_date": "2025-06-21T06:34:34.866566",
     "file_size": 11622706,
-    "summary": "This document provides an introduction to Computer Vision, discussing its fundamentals, types of images, application areas, and the challenges it presents. It also covers the typical architecture of a Machine Vision System and delves into topics like Image Acquisition, Human Eye structure, Color, and Digitization.",
+    "summary": "This document provides an overview of computer vision, including its definition, types of images, application areas, and the challenges it poses. It also covers the fundamentals of machine vision, such as image acquisition, structure of the human eye, color perception, digitization, and sampling.",
     "keywords": [
       "Computer Vision",
+      "Machine Learning",
+      "Image Processing",
+      "Eigenfaces",
+      "Kalman-Filter",
+      "Tracking"
+    ],
+    "key_concepts": [
+      "Vision",
+      "Types of Images",
+      "Application Areas",
+      "Perception",
+      "Sensory Information",
+      "3D Scene Representation",
+      "Inference Problem"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Computer Vision",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Computer Vision"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Computer Vision",
+      "Machine Learning",
+      "Image Processing"
+    ],
+    "methodologies": [
+      "method1",
+      "method2",
+      "Kalman-Filter"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2",
+      "Eigenfaces",
+      "Eigenimages"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
       "Machine Vision",
       "Image Processing",
-      "AI",
-      "Cameras"
+      "Object recognition",
+      "Image processing"
     ],
-    "category": "AI",
-    "difficulty": "Intermediate",
-    "content_preview": "Computer Vision Contents 1 Introduction   1.1 What is Vision? ... Computer Vision?  . . . . . . . . . . . . . . . . . . . . . . . . .  4"
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Computer Vision",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Computer Vision, Machine Learning, Image Processing",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "0372811c1a2e339dec889b900b7ef35d",
