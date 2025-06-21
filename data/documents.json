@@ -10711,23 +10711,108 @@
     "id": "c74f4c17d66ebb9bfeef5a1463649633",
     "filename": "A_Practical_Introduction_to_Python_Programming_1626852683.pdf",
     "title": "A Practical Introduction to Python Programming",
-    "authors": [
-      "Brian Heinold"
-    ],
+    "authors": [],
     "filepath": "documents/A_Practical_Introduction_to_Python_Programming_1626852683.pdf",
-    "upload_date": "2025-06-02T17:58:11.961183",
+    "upload_date": "2025-06-20T20:21:37.546690",
     "file_size": 2029548,
-    "summary": "This document provides a practical introduction to Python programming, covering basics such as installing Python, IDLE, writing first programs, variables, and for loops.",
+    "summary": "This document provides a practical introduction to Python programming, covering the basics of installing and using Python, basic syntax, variables, loops, and more.",
     "keywords": [
-      "Python",
-      "Programming",
-      "Introduction",
-      "Basics",
-      "For Loops"
+      "python",
+      "programming",
+      "basics",
+      "strings",
+      "concatenation",
+      "repetition",
+      "indexing",
+      "slices",
+      "looping",
+      "string methods"
+    ],
+    "key_concepts": [
+      "Introduction to Python Programming",
+      "Variables in Python",
+      "For loops in Python",
+      "String manipulation in programming",
+      "Basic string operations",
+      "List basics",
+      "Nested loops in programming",
+      "Exercises for practice",
+      "Basics of dictionaries",
+      "Working with text files"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "A Practical Introduction to Python Programming"
+    "content_preview": "Document: A Practical Introduction to Python Programming",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Education",
+      "Software Development",
+      null,
+      "Computer Science/Education"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Regular expressions",
+      "Math"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "python",
+      "programming",
+      "basics"
+    ],
+    "methodologies": [
+      "practical introduction",
+      "object-oriented programming",
+      "GUI programming"
+    ],
+    "tools_mentioned": [
+      "IDLE",
+      "Python",
+      "Document excerpt",
+      "Tkinter",
+      "Python Imaging Library"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Programming",
+      "Learning",
+      "Data Analysis",
+      "Text Processing",
+      "GUI Programming"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: A Practical Introduction to Python Programming",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: python, programming, basics",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "e66e50dbac5ddcc081e1f8eecf2e260f",
