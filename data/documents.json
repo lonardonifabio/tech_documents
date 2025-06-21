@@ -45137,19 +45137,82 @@
     "title": "Jupyter Notebook Cheat Sheet",
     "authors": [],
     "filepath": "documents/Jupyter_Notebook_quick_tips_1646660015.pdf",
-    "upload_date": "2025-06-04T21:18:52.395023",
+    "upload_date": "2025-06-21T06:34:39.035565",
     "file_size": 346277,
-    "summary": "This document provides a quick reference guide for various magic functions and keyboard shortcuts in Jupyter Notebook, an open-source web application used for data cleaning, transformation, visualization, machine learning, and more.",
+    "summary": "A comprehensive guide to Jupyter Notebook shortcuts, magic functions, and features for data cleaning, transformation, visualization, machine learning, and more. The document explains how to use various commands such as %magic, %automa, %quickref, %pastebin, %debug, %hist, %pdb, %cpaste, %reset, %run, %who, %who_ls, %whos, %xdel, and %time to enhance productivity and debugging in Jupyter Notebooks.",
     "keywords": [
-      "Jupyter Notebook",
-      "Python",
-      "Data Science",
-      "Magic Functions",
-      "Keyboard Shortcuts"
+      "magic functions",
+      "jupyter notebook",
+      "keyboard shortcuts"
     ],
-    "category": "Data Science",
+    "key_concepts": [
+      "comprehensively lists magic functions",
+      "enables calling magic functions without the ‘%’",
+      "launches IPython quick reference"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Jupyter Notebook is an open-source web application that allows you to create and share documents..."
+    "content_preview": "Document: Jupyter Notebook Cheat Sheet",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "magic functions",
+      "jupyter notebook",
+      "keyboard shortcuts"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Data Cleaning",
+      "Numerical Simulation",
+      "Statistical Modeling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Jupyter Notebook Cheat Sheet",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: magic functions, jupyter notebook, keyboard shortcuts",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "deb41fd4ba6dffce616957f83ad5dafb",
