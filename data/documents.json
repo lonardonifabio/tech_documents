@@ -10370,21 +10370,93 @@
   {
     "id": "4c2dc93ae27c1f4aed430dada84ac793",
     "filename": "AUDIT_1744108266.pdf",
-    "title": "AI Policy Audit Checklist",
+    "title": "AI System Operational Requirements",
     "authors": [],
     "filepath": "documents/AUDIT_1744108266.pdf",
-    "upload_date": "2025-06-05T20:14:16.682630",
+    "upload_date": "2025-06-21T06:34:33.235566",
     "file_size": 527562,
-    "summary": "This document outlines a checklist for auditing an organization's AI policy, including checks for the existence of a policy, alignment with other organizational policies, and regular review.",
+    "summary": "The document outlines the essential elements for the ongoing operation of an AI system, including documentation, maintenance, monitoring, and management approval. It also covers technical documentation for different categories of interested parties.",
     "keywords": [
-      "AI",
-      "Policy",
-      "Audit",
-      "Checklist"
+      "AI policy",
+      "management approval",
+      "policy alignment",
+      "policy review",
+      "AI system",
+      "operational requirements",
+      "technical documentation",
+      "event logs"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Development of AI systems",
+      "Alignment with organizational policies",
+      "Review and revision of AI policy",
+      "AI system operation",
+      "documentation management",
+      "event logging",
+      "system maintenance"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Is there a documented AI policy for development or use?"
+    "content_preview": "Document: AI System Operational Requirements",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Information Technology",
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI policy",
+      "management approval",
+      "policy alignment"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "AI Development",
+      "AI Usage",
+      "AI system development",
+      "AI system operation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: AI System Operational Requirements",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: AI policy, management approval, policy alignment",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.875
   },
   {
     "id": "10ede5da50eee646d79a9dd6f1a3ba3e",
