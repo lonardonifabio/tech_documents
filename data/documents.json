@@ -38016,23 +38016,82 @@
     "id": "cd4ba3989c2fc4b70776aa778c0c8280",
     "filename": "Hadoop_and_Spark_Performance_for_the_Enterprise_1631137769.pdf",
     "title": "Hadoop and Spark Performance for the Enterprise",
-    "authors": [
-      "Andy Oram"
-    ],
+    "authors": [],
     "filepath": "documents/Hadoop_and_Spark_Performance_for_the_Enterprise_1631137769.pdf",
-    "upload_date": "2025-06-04T21:18:51.891020",
+    "upload_date": "2025-06-20T20:21:42.240692",
     "file_size": 2240526,
-    "summary": "This document discusses ensuring quality of service in multi-tenant environments for Hadoop and Spark performance optimization in enterprise settings. Locations mentioned: Boston, Farnham, Sebastopol, Tokyo, Beijing.",
+    "summary": "Ensuring Quality of Service in Multi-Tenant Environments: A guide to performance optimization for Hadoop and Spark in enterprise settings.",
     "keywords": [
       "Hadoop",
       "Spark",
-      "Performance",
-      "Multi-Tenant",
-      "Quality of Service"
+      "Quality of Service",
+      "Multi-Tenant Environments",
+      "Enterprise Performance"
+    ],
+    "key_concepts": [
+      "Ensuring Quality of Service in Multi-Tenant Environments",
+      "Performance Optimization for Hadoop and Spark in the Enterprise"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Ensuring Quality of Service in Multi-Tenant Environments Hadoop and Spark Performance for the Enterprise"
+    "content_preview": "Document: Hadoop and Spark Performance for the Enterprise",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Hadoop",
+      "Spark"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Hadoop",
+      "Spark",
+      "Quality of Service"
+    ],
+    "methodologies": [
+      "Multi-Tenant Environment"
+    ],
+    "tools_mentioned": [
+      "O'Reilly Media"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Enterprise Performance Optimization",
+      "Multi-Tenant Environment Management"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Hadoop and Spark Performance for the Enterprise",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Hadoop, Spark, Quality of Service",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "48e17a72602af19a3d8d62f54786cdd5",
