@@ -69717,27 +69717,100 @@
     "id": "a0e7e23a10c9677657e1160e01821790",
     "filename": "Principles_of_Data_Wrangling_1627462564 (1).pdf",
     "title": "Principles of Data Wrangling",
-    "authors": [
-      "Tye Rattenbury",
-      "Joe Hellerstein",
-      "Jeffrey Heer",
-      "Sean Kandel",
-      "Connor Carreras"
-    ],
+    "authors": [],
     "filepath": "documents/Principles_of_Data_Wrangling_1627462564 (1).pdf",
-    "upload_date": "2025-06-04T21:18:54.336035",
+    "upload_date": "2025-06-22T10:50:13.126747",
     "file_size": 2163993,
-    "summary": "This document provides practical techniques for data preparation, focusing on the principles of Data Wrangling. It is authored by Tye Rattenbury, Joe Hellerstein, Jeffrey Heer, Sean Kandel, and Connor Carreras.",
+    "summary": "This document provides practical techniques for data preparation, covering topics such as data cleaning, transformation, and integration. It is written by a team of experts in the field of data science and analytics, including Tye Rattenbury, Joe Hellerstein, Jeffrey Heer, Sean Kandel, and Connor Carreras. The book covers various aspects of data wrangling, including data quality, data governance, and data security. It also includes case studies and examples to illustrate key concepts and techniques. The document is published by O'Reilly Media, Inc. and was first released in April 2017.",
     "keywords": [
-      "Data Wrangling",
+      "data wrangling",
+      "data preparation",
+      "value extraction",
+      "data analysis",
+      "value",
+      "data",
+      "organization",
+      "automated actions",
+      "indirect value"
+    ],
+    "key_concepts": [
+      "Principles of Data Wrangling",
       "Data Preparation",
-      "Practical Techniques",
-      "Tye Rattenbury",
-      "Joe Hellerstein"
+      "Data Wrangling Techniques",
+      "near-term value",
+      "long-term value",
+      "temporal dimension",
+      "direct value",
+      "indirect value",
+      "data-driven decision making"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Principles of Data Wrangling Practical Techniques for Data Preparation"
+    "content_preview": "Document: Principles of Data Wrangling",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Technology",
+      "Data Science/Analytics",
+      "Insurance"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "data wrangling",
+      "data preparation",
+      "value extraction"
+    ],
+    "methodologies": [
+      "method1",
+      "method2"
+    ],
+    "tools_mentioned": [
+      "tool1",
+      "tool2"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Preparation",
+      "Data Wrangling",
+      "Data Analysis",
+      "Data Application",
+      "Risk modeling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Principles of Data Wrangling",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: data wrangling, data preparation, value extraction",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "bcb61ab894566a9711503c98edefec2c",
