@@ -65527,25 +65527,90 @@
   {
     "id": "850fc59c15202700d95a346ed057d14e",
     "filename": "OCR_aumentata_dalla_GenAI_1742554396.pdf",
-    "title": "OCR_aumentata_dalla_GenAI_1742554396.pdf",
-    "authors": [
-      "Giuseppe Santocchi",
-      "Edoardo Croce"
-    ],
+    "title": "Processi di OCR aumentati da GenAI",
+    "authors": [],
     "filepath": "documents/OCR_aumentata_dalla_GenAI_1742554396.pdf",
-    "upload_date": "2025-06-05T14:25:32.173249",
+    "upload_date": "2025-06-22T10:50:12.514755",
     "file_size": 4485326,
-    "summary": "This document discusses enhanced OCR processes using GenAI for text extraction from images, focusing on the role of GenAI in OCR, the challenges addressed, identified technologies such as Paddle OCR, Llama 3.1 8b, Llama 3.3 70b, and MongoDB, comparisons with other OCR approaches, and a step-by-step overview of text extraction.",
+    "summary": "Documento che descrive l'utilizzo di GenAI per migliorare i processi di estrazione del testo da immagini, con un focus sulla tecnologia Paddle OCR e la sua applicazione in diversi contesti.",
     "keywords": [
       "OCR",
       "GenAI",
-      "Text Extraction",
-      "Image Processing",
-      "Paddle OCR"
+      "Machine Learning",
+      "Llama",
+      "AI"
     ],
-    "category": "AI",
+    "key_concepts": [
+      "Automatic Text Extraction",
+      "Artificial Intelligence in OCR",
+      "Image Processing",
+      "Artificial Intelligence for Optical Character Recognition",
+      "Machine Learning for Text Processing",
+      "Natural Language Processing"
+    ],
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Processi di OCR aumentati da GenAI per estrazione di testo da immagini"
+    "content_preview": "Document: Processi di OCR aumentati da GenAI",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Computer Vision",
+      "Intelligence Artificiale"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Paddle OCR",
+      "Tesseract OCR"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "OCR",
+      "GenAI",
+      "Machine Learning"
+    ],
+    "methodologies": [
+      "Deep learning",
+      "Machine learning"
+    ],
+    "tools_mentioned": [
+      "MongoDB"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Image Text Extraction",
+      "Testo estratto",
+      "Rielaborazione testo"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Processi di OCR aumentati da GenAI",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: OCR, GenAI, Machine Learning",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 0.875
   },
   {
     "id": "861de0ffa108b2509bcc764087f3b139",
