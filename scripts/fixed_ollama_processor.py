@@ -61,7 +61,7 @@ class DocumentChunker:
         self.chunk_size = chunk_size
         self.overlap_size = overlap_size
     
-    def chunk_document(self, text: str, max_pages: int = 10) -> List[DocumentChunk]:
+    def chunk_document(self, text: str, max_pages: int = 20) -> List[DocumentChunk]:
         """Create overlapping chunks from document text."""
         chunks = []
         words = text.split()
@@ -403,7 +403,7 @@ class FixedOllamaDocumentProcessor:
         """Ensure the Ollama model is available (backward compatibility)."""
         return self.ollama_client.ensure_model_available()
     
-    def extract_pdf_text(self, filepath: Path, max_pages: int = 10) -> str:
+    def extract_pdf_text(self, filepath: Path, max_pages: int = 20) -> str:
         """Extract text from PDF file with increased page limit."""
         try:
             with open(filepath, 'rb') as file:
@@ -426,7 +426,7 @@ class FixedOllamaDocumentProcessor:
             return self._get_fallback_analysis(filename)
         
         # Step 1: Create chunks with overlap
-        chunks = self.chunker.chunk_document(text, max_pages=10)
+        chunks = self.chunker.chunk_document(text, max_pages=20)
         logger.info(f"Created {len(chunks)} chunks for {filename}")
         
         # Step 2: Analyze each chunk with multi-pass approach
@@ -590,7 +590,7 @@ class FixedOllamaDocumentProcessor:
         logger.info(f"Processing document: {filepath.name}")
         
         # Extract text content (up to 20 pages)
-        text_content = self.extract_pdf_text(filepath, max_pages=10)
+        text_content = self.extract_pdf_text(filepath, max_pages=20)
         
         # Enhanced analysis with multi-chunk and multi-pass
         analysis = self.analyze_document_enhanced(text_content, filepath.name)
