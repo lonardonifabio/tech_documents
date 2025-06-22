@@ -101573,22 +101573,108 @@
     "id": "3de908fc2a9c94a40b8bfc3a224125d8",
     "filename": "pythondatasciencehandbook.pdf",
     "title": "Python Data Science Handbook",
-    "authors": [
-      "Jake VanderPlas"
-    ],
+    "authors": [],
     "filepath": "documents/pythondatasciencehandbook.pdf",
-    "upload_date": "2025-06-03T17:53:44.918159",
+    "upload_date": "2025-06-22T10:50:17.489691",
     "file_size": 22321280,
-    "summary": "A comprehensive guide to essential tools for working with data in Python, written by Jake VanderPlas.",
+    "summary": "A comprehensive guide to working with data using Python, covering essential tools and techniques for data science applications.",
     "keywords": [
       "Python",
       "Data Science",
       "Handbook",
-      "Jake VanderPlas"
+      "Naive Bayes",
+      "Linear Regression",
+      "Support Vector Machines",
+      "Decision Trees",
+      "Random Forests",
+      "Principal Component Analysis",
+      "Manifold Learning"
+    ],
+    "key_concepts": [
+      "Essential Tools for Working with Data",
+      "Classification",
+      "Regression",
+      "Machine Learning Algorithms",
+      "Clustering",
+      "Dimensionality Reduction",
+      "Safari Books Online",
+      "Learning Paths",
+      "interactive tutorials",
+      "curated playlists"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Python Data Science Handbook Essential Tools for Working with Data"
+    "content_preview": "Document: Python Data Science Handbook",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Information Technology",
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "tech1",
+      "tech2"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Python",
+      "Data Science",
+      "Handbook"
+    ],
+    "methodologies": [
+      "Data Science",
+      "method1",
+      "method2",
+      "training",
+      "reference"
+    ],
+    "tools_mentioned": [
+      "PowerEd",
+      "O'Reilly Media tools",
+      "tool1",
+      "tool2",
+      "Safari Books Online"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Machine Learning",
+      "Classification",
+      "Regression",
+      "Training"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Python Data Science Handbook",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Python, Data Science, Handbook",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "184863c289fb0762aa3073157640e8da",
