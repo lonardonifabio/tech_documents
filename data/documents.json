@@ -4107,23 +4107,113 @@
   {
     "id": "98c0427aeac890348efa4746ee1e954b",
     "filename": "AI_Auditing_Checklist_for_AI_Auditing_1742807905.pdf",
-    "title": "AI Auditing Checklist for AI Auditing",
-    "authors": [
-      "Dr. Gemma Galdon Clavelle"
-    ],
+    "title": "AI Auditing Checklist Programme",
+    "authors": [],
     "filepath": "documents/AI_Auditing_Checklist_for_AI_Auditing_1742807905.pdf",
-    "upload_date": "2025-06-06T03:10:02.783900",
+    "upload_date": "2025-06-23T08:29:29.561847",
     "file_size": 477784,
-    "summary": "This document provides a checklist for AI auditing as part of the Support Pool of Experts Programme by Dr. Gemma Galdon Clavelle. The views expressed are not necessarily reflective of the official position of the EDPB, and some content may be redacted or removed due to privacy concerns.",
+    "summary": "This document, titled \"AI Auditing Checklist for AI Auditing,\" is a deliverable within the SUPPORT POOL OF EXPERTS PROGRAMME commissioned by the EDPB (European Data Protection Board). It outlines a checklist designed for conducting AI audits. The primary purpose is to provide a framework for assessing AI systems, aligning with the broader goals of the support programme. The document explicitly states that the views presented are those of the contractors and do not represent the official EDPB stance, and the EDPB does not guarantee the accuracy of the information. Furthermore, it includes disclaimers regarding liability, indicating that neither the EDPB nor any associated parties are responsible for any use derived from the information.  The document’s content is subject to redactions or omissions to safeguard legitimate interests, particularly concerning individual privacy and data protection, as mandated by Regulation (EU) 2018/1725, alongside the commercial interests of relevant parties. The checklist itself is structured around key areas, beginning with an introduction and then delving into the scope of algorithmic auditing and the auditing process. The document’s creation reflects the EDPB’s commitment to supporting expertise and providing resources for evaluating AI systems within the context of data protection regulations. The table of contents indicates a structured approach to the auditing process, suggesting a systematic methodology for assessing AI systems. The overall tone is formal and legally-minded, emphasizing responsibility and the protection of sensitive information. It’s a foundational document within a larger support initiative, designed to assist in the responsible development and deployment of AI technologies.",
     "keywords": [
       "AI Auditing",
-      "Checklist",
-      "Expert Programme",
-      "EDPB"
+      "EDPB",
+      "Regulation (EU) 2018/1725",
+      "algorithmic auditing",
+      "privacy",
+      "integrity",
+      "personal data",
+      "AI component",
+      "digital signature",
+      "version history"
+    ],
+    "key_concepts": [
+      "The EDPB may commission contractors to provide reports and tools on specific topics.",
+      "The views expressed in the deliverables are those of their authors and do not necessarily reflect the official position of the EDPB.",
+      "Some excerpts may be redacted to protect legitimate interests, including privacy and commercial interests.",
+      "AI component lifecycle management",
+      "Data Integrity Verification (digital signature)",
+      "Traceability of AI component evolution",
+      "Data Protection Records of Processing Activities",
+      "Appointment and communication of Data Protection Officer",
+      "Assessment of methodological frameworks for AI components.",
+      "Selection and justification of development models (supervised, unsupervised)."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "SUPPORT POOL OF EXPERTS PROGRAMME AI Auditing Checklist for AI Auditing"
+    "content_preview": "Document: AI Auditing Checklist Programme",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Data Privacy & Compliance",
+      "Data Protection / AI Governance",
+      "Artificial Intelligence, Data Science, Auditing",
+      "Artificial Intelligence / Data Governance / Compliance",
+      "Artificial Intelligence / Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI Auditing",
+      "AI",
+      "AI-based component",
+      "machine learning",
+      "algorithms"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI Auditing",
+      "EDPB",
+      "Regulation (EU) 2018/1725"
+    ],
+    "methodologies": [
+      "algorithmic auditing",
+      "Auditing",
+      "Version Control",
+      "supervised learning",
+      "unsupervised learning"
+    ],
+    "tools_mentioned": [
+      "Digital Signature",
+      "metrics",
+      "algorithms",
+      "unsupervised ML models"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "AI Auditing",
+      "Algorithmic Auditing",
+      "Data Governance",
+      "AI Component Auditing",
+      "AI Component Lifecycle Management"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: AI Auditing Checklist Programme",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: AI Auditing, EDPB, Regulation (EU) 2018/1725",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "63bb6c93a4bfd0516ef93b63f724a4a8",
