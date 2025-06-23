@@ -44,7 +44,7 @@ jobs:
         
     - name: Pull AI model
       run: |
-        ollama pull llama3.2:3b
+        ollama pull mixtral:8x7b
         
     - name: Install Python dependencies
       run: |
