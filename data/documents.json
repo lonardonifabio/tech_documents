@@ -100222,6 +100222,118 @@
     "confidence_score": 1.0
   },
   {
+    "id": "ff716ac41ef0d34a98b4cae6208e90e4",
+    "filename": "_Introduction_to_Bayesian_Statistics_with_R_1750495899.pdf",
+    "title": "STATS 331 Introduction to Bayesian Statistics",
+    "authors": [],
+    "filepath": "documents/_Introduction_to_Bayesian_Statistics_with_R_1750495899.pdf",
+    "upload_date": "2025-06-23T20:19:33.263833",
+    "file_size": 1747852,
+    "summary": "This document is an introduction to Bayesian Statistics, specifically designed for the STATS 331 course. It’s a course notes document, likely intended for students enrolled in the course. The material covers fundamental concepts within Bayesian statistics, including the distinction between Bayesian and classical statistical approaches. The document begins with a prologue outlining the course's structure and assessment methods. It then moves into an introduction to uncertainty and probability, exploring these concepts within the framework of Bayesian thinking. A key component of the document focuses on the 'Bayes' Box' example, which serves as a practical illustration of Bayesian inference. This example systematically demonstrates the application of likelihood, finding likelihood values, and interpreting the results. The core of the document revolves around Bayes' Rule and its application to various scenarios. The 'Bayes' Box' example is revisited, providing a detailed walkthrough of the calculations involved. Furthermore, the document includes a 'Phone Example' to solidify understanding. It also presents important equations related to Bayesian parameter estimation. The document's structure is clearly organized into sections, progressing from foundational concepts to more complex applications. The inclusion of examples and equations aims to provide students with a hands-on understanding of Bayesian statistics. The document's purpose is to equip students with the knowledge and skills necessary to apply Bayesian methods to real-world problems. The use of the 'Bayes' Box' is a deliberate pedagogical choice, designed to make the abstract concepts of Bayesian inference more accessible. The document is a valuable resource for students learning about Bayesian statistics, offering a structured approach to understanding this powerful statistical methodology. It emphasizes the practical application of Bayesian principles, making it a useful tool for both learning and problem-solving.",
+    "keywords": [
+      "Bayesian Statistics",
+      "Likelihood",
+      "Bayes' Rule",
+      "Parameter Estimation",
+      "Bayes' Box",
+      "Linear Regression",
+      "Outliers",
+      "Multiple Linear Regression",
+      "Logistic Regression",
+      "T-Test"
+    ],
+    "key_concepts": [
+      "Introduction to Bayesian Statistics",
+      "Certainty, Uncertainty and Probability",
+      "The Bayes' Box and its components",
+      "Interpretation of Likelihood Values",
+      "Solution to a problem using Bayes' Rule",
+      "Comparison of linear regression models",
+      "Handling outliers in regression",
+      "Statistical tests (T-Test, ANOVA)",
+      "Bayesian inference (Likelihood, Prior)",
+      "Markov Chain Monte Carlo methods"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: STATS 331 Introduction to Bayesian Statistics",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Statistics, Data Science, Education",
+      "Statistics / Data Analysis / Machine Learning",
+      "Data Analysis, Statistics, Decision Making",
+      "Statistics, Data Analysis, Bayesian Inference",
+      "Telecommunications / Probability & Statistics"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Bayesian Statistics",
+      "Probability",
+      "Linear Regression",
+      "Multiple Linear Regression",
+      "Logistic Regression"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Bayesian Statistics",
+      "Likelihood",
+      "Bayes' Rule"
+    ],
+    "methodologies": [
+      "Parameter Estimation",
+      "Likelihood",
+      "Hierarchical Model",
+      "probabilistic reasoning",
+      "likelihood principle"
+    ],
+    "tools_mentioned": [
+      "Likelihood",
+      "For Loops",
+      "Functions",
+      "Who Wants to be a Millionaire",
+      "mathematical calculations"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Bayesian Inference",
+      "Parameter Estimation",
+      "Statistical Modeling",
+      "Regression Analysis",
+      "Statistical Testing (T-tests, ANOVA)"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: STATS 331 Introduction to Bayesian Statistics",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Bayesian Statistics, Likelihood, Bayes' Rule",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
+  },
+  {
     "id": "e8512666158e6c22d5473957ed1ff66f",
     "filename": "_Procedure_in_NLP_1741800251.pdf",
     "title": "Natural Language Processing (NLP) Document",
