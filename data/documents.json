@@ -6833,29 +6833,109 @@
   {
     "id": "3e2160b772fd1bc0abfa0883427958f2",
     "filename": "AI_RMF_1_0_NIST_AI_100_1_Controls_Checklist_1749623602.pdf",
-    "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0) Controls Checklist",
+    "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0) Compliance Controls Checklist",
     "authors": [],
     "filepath": "documents/AI_RMF_1_0_NIST_AI_100_1_Controls_Checklist_1749623602.pdf",
-    "upload_date": "2025-06-14T19:41:01.213053",
+    "upload_date": "2025-06-23T08:29:29.840850",
     "file_size": 1328424,
-    "summary": "This document presents the Artificial Intelligence Risk Management Framework (AI RMF 1.0), a technical preview draft by NIST, which includes a controls checklist for AI compliance. The framework covers areas such as AI RMF review and version control process, core functions implementation and impact management, emergent AI risk identification, and continuous measurement.",
+    "summary": "This document presents the Compliance Controls Checklist for the Artificial Intelligence Risk Management Framework (AI RMF) 1.0, a technical preview draft released by NIST. The AI RMF 1.0 aims to provide a structured approach to managing the risks associated with artificial intelligence systems. The checklist is structured around three core functions: reviewing and controlling the AI RMF versioning process, implementing the core functions of the AI RMF and managing their impact, and identifying emergent AI risks through continuous measurement. The document is currently in a technical preview stage, indicated by the '0.1' version number and 'Compliance Controls Checklist' title. It's hosted on the GRCLibrary platform (https://grclibrary.com) and serves as a foundational resource for organizations seeking to align their AI practices with a risk-based framework. The document's last update was June 9, 2025, suggesting ongoing development and refinement. The checklist format allows for a systematic assessment of an organization's AI risk management capabilities, facilitating compliance and promoting responsible AI development and deployment. The inclusion of continuous measurement highlights the dynamic nature of AI risk, requiring ongoing monitoring and adaptation. The technical preview nature of the document underscores the evolving landscape of AI risk management and the need for organizations to stay informed about the latest developments. The document's purpose is to guide organizations in establishing and maintaining a robust AI risk management program, ultimately contributing to safer and more trustworthy AI systems.  The checklist provides a starting point for organizations to assess their current state and identify areas for improvement.  It is a critical resource for anyone involved in the design, development, deployment, or governance of AI systems, particularly those concerned with mitigating potential risks.",
     "keywords": [
-      "Artificial Intelligence",
-      "Risk Management Framework",
+      "Artificial Intelligence Risk Management Framework",
+      "AI RMF",
       "NIST",
-      "AI Compliance",
-      "Controls Checklist"
+      "Controls Checklist",
+      "GRC Library",
+      "control effectiveness",
+      "versioning system",
+      "review cycle",
+      "feedback integration",
+      "document review"
     ],
     "key_concepts": [
-      "The AI RMF 1.0 is a technical preview draft by NIST that provides a framework for managing risks associated with AI.",
-      "The controls checklist in this document helps organizations ensure compliance with the AI RMF 1.0.",
-      "The framework covers areas such as AI RMF review and version control process, core functions implementation and impact management, emergent AI risk identification, and continuous measurement.",
-      "The document is a valuable resource for organizations looking to implement effective AI risk management strategies.",
-      "The document is subject to updates, with the last update being on 09 June 2025."
+      "Review and Version Control Process of the AI RMF",
+      "Implementation and Impact Management of the AI RMF Core Functions",
+      "Emergent AI Risk Identification and Continuous Measurement",
+      "Effectiveness can be evaluated through review process adherence and tracking progress.",
+      "Formal receipt, review, and disposition of community feedback must be documented and correlated with changes.",
+      "Maintaining versioning system integrity and auditing version control tables are crucial.",
+      "AI Risk Management Framework (RMF)",
+      "Continuous Risk Management",
+      "Iterative Process",
+      "Risk Identification and Measurement throughout the AI system lifecycle"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "This document presents a technical preview draft of the Artificial Intelligence Risk Management Framework (AI RMF 1.0) by NIST, including a controls checklist for AI compliance."
+    "content_preview": "Document: Artificial Intelligence Risk Management Framework (AI RMF 1.0) Compliance Controls Checklist",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Risk Management, Artificial Intelligence",
+      "Risk Management / AI Governance",
+      "Artificial Intelligence / Risk Management"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Artificial Intelligence (AI)",
+      "Risk Management",
+      "AI RMF",
+      "Version Control",
+      "AI"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Artificial Intelligence Risk Management Framework",
+      "AI RMF",
+      "NIST"
+    ],
+    "methodologies": [
+      "Framework Implementation",
+      "Process Adherence",
+      "Feedback Integration",
+      "Risk Management",
+      "Continuous Measurement"
+    ],
+    "tools_mentioned": [
+      "GRC Library",
+      "Version Control Tables"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "AI Risk Assessment",
+      "Risk Identification",
+      "Continuous Monitoring",
+      "Control Effectiveness Assessment",
+      "Risk Management Process Monitoring"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Artificial Intelligence Risk Management Framework (AI RMF 1.0) Compliance Controls Checklist",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: Artificial Intelligence Risk Management Framework, AI RMF, NIST",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "bbb059f62812a972375a1be2064c3472",
