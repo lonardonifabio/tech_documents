@@ -72108,6 +72108,116 @@
     "confidence_score": 0.875
   },
   {
+    "id": "cf7da071b9d399532105460c80d60abf",
+    "filename": "Practical_Guide_to_Logistic_Regression__1750495935.pdf",
+    "title": "Practical Guide to Logistic Regression",
+    "authors": [],
+    "filepath": "documents/Practical_Guide_to_Logistic_Regression__1750495935.pdf",
+    "upload_date": "2025-06-23T20:19:29.350820",
+    "file_size": 4736918,
+    "summary": "This document excerpt details \"Practical Guide to Logistic Regression\", a resource focused on providing a foundational understanding and practical application of the logistic regression model. The guide aims to equip readers with the knowledge to effectively model binary response variables across a diverse range of fields. It emphasizes the model's utility in analyzing data from sectors like medical and health outcomes research, business analytics and data science, ecology, fisheries, astronomy, transportation, insurance, economics, recreation, and sports. The book’s core content centers around constructing, interpreting, and evaluating logistic models, including a detailed explanation of coefficients, odds ratios, and probability predictions with their standard errors.  It provides a step-by-step approach to developing and interpreting both observation and grouped logistic models, alongside explorations of penalized and exact logistic regression techniques.  A significant component involves modeling Bayesian logistic regression, offering a comprehensive approach to this statistical method.  The guide utilizes R statistical software to demonstrate the models, and includes supplementary SAS and Stata code examples for all presented analyses.  The author’s extensive experience in teaching and applying logistic regression is evident throughout, ensuring a practical and accessible learning experience.  Ultimately, the document highlights the model's power in making predictions, classifications, and assessing the relative likelihood of different outcomes based on predictor variables. The book’s focus on real-world data examples, particularly those from health outcomes research, further enhances its practical value and applicability.",
+    "keywords": [
+      "logistic regression",
+      "binary response variable",
+      "R statistical software",
+      "SAS",
+      "Stata",
+      "odds ratios",
+      "probabilities",
+      "model fit",
+      "Bayesian logistic regression",
+      "coefficients"
+    ],
+    "key_concepts": [
+      "The basic logistic regression model and its application to binary data.",
+      "Interpretation of coefficients and odds ratios within a logistic regression model.",
+      "Prediction of probabilities and standard errors based on logistic regression models.",
+      "Evaluation of model fit using various techniques.",
+      "Understanding the basic logistic regression model",
+      "Interpreting coefficients and odds ratios",
+      "Predicting probabilities from logistic models",
+      "Evaluating model fit",
+      "Bayesian modeling approach",
+      "Comparison of Bayesian and frequentist traditions"
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Practical Guide to Logistic Regression",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Healthcare, Business Analytics, Data Science, Statistics",
+      "Data Analysis / Statistics / Healthcare (implied)",
+      "Data Science, Statistics, Healthcare (implied)"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "logistic regression",
+      "R",
+      "SAS",
+      "Stata",
+      "Bayesian logistic regression"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "logistic regression",
+      "binary response variable",
+      "R statistical software"
+    ],
+    "methodologies": [
+      "step-by-step guide",
+      "penalized regression",
+      "exact regression",
+      "model development",
+      "model interpretation"
+    ],
+    "tools_mentioned": [
+      "R statistical software",
+      "SAS codes",
+      "Stata codes",
+      "JAGS code",
+      "PDF"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Predicting binary outcomes",
+      "Classification of data",
+      "Odds ratio analysis",
+      "Model evaluation and interpretation",
+      "Development of logistic models"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Practical Guide to Logistic Regression",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: logistic regression, binary response variable, R statistical software",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
+  },
+  {
     "id": "31856127d2cbd7caeeb9cddf53185e6b",
     "filename": "Practical_Guide_to_SQL_basics_1570568809.pdf",
     "title": "Data Management in Retail Industry",
