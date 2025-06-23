@@ -85410,6 +85410,111 @@
     "confidence_score": 1.0
   },
   {
+    "id": "c0d7594c8e023989be58987305901d6b",
+    "filename": "Statistics_Notes_�_1750495955.pdf",
+    "title": "Introduction to Statistics",
+    "authors": [],
+    "filepath": "documents/Statistics_Notes_�_1750495955.pdf",
+    "upload_date": "2025-06-23T20:19:30.937825",
+    "file_size": 4941548,
+    "summary": "This document provides a foundational introduction to statistics, outlining its core concepts and methodologies. It begins by defining statistics as the science of collecting, organizing, and analyzing data, providing examples such as student height and company revenue. The document then delves into the two primary branches of statistics: descriptive and inferential statistics. Descriptive statistics are focused on summarizing and visualizing data, including measures of central tendency (like mean) and measures of dispersion (like standard deviation). It details various data distributions, such as Bernoulli, Uniform, Binomial, Normal/Gaussian, Exponential, and Poisson distributions.  The document explains how these distributions are used to represent different types of data.  Furthermore, it explains the use of inferential statistics, which utilizes analytical tools on sample data to draw conclusions about a larger population. Key inferential statistics techniques covered include T-tests, Z-tests, Chi-Square tests, ANOVA tests, and hypothesis testing, alongside concepts like p-values and significance values.  A practical example is provided using cricket camp data, illustrating the application of descriptive statistics (calculating the average height of the cricketers) and the use of sample data to answer questions about population comparisons. The document clearly demonstrates how statistical methods are applied to analyze data and draw meaningful conclusions. The example uses a sample of cricket camp data to illustrate the process of calculating the mean and understanding the distribution of heights. The document serves as a basic primer for understanding the fundamental principles of statistical analysis.",
+    "keywords": [
+      "Statistics",
+      "Data",
+      "Descriptive Statistics",
+      "Inferential Statistics",
+      "Mean",
+      "Distribution",
+      "Sample",
+      "Population",
+      "T-test",
+      "Z-test"
+    ],
+    "key_concepts": [
+      "Stats is the science of collecting, organizing and analyzing data.",
+      "Descriptive Statistics consists of organizing summarizing and Visualizing data.",
+      "Inferential statistics are used to make conclusions about the population by using analytical tools on the sample data.",
+      "Population and Sample data are used for statistical analysis.",
+      "Cluster sampling involves dividing a population into subgroups with similar characteristics and randomly selecting entire subgroups.",
+      "Multistage sampling is used when clusters are large and individuals are sampled within each cluster.",
+      "Covariance measures the systematic relationship between two random variables."
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Introduction to Statistics",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Data Analysis / Statistics",
+      "Education / Research"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "statistics",
+      "data analysis",
+      "statistical analysis",
+      "sampling"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Statistics",
+      "Data",
+      "Descriptive Statistics"
+    ],
+    "methodologies": [
+      "descriptive statistics",
+      "inferential statistics",
+      "hypothesis testing",
+      "cluster sampling",
+      "multistage sampling"
+    ],
+    "tools_mentioned": [
+      "T-test",
+      "Z-test",
+      "Chi-Square Test",
+      "ANOVA test",
+      "covariance"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Descriptive Statistics",
+      "Inferential Statistics",
+      "Data Analysis",
+      "Hypothesis Testing",
+      "Student Service Evaluation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Introduction to Statistics",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: Statistics, Data, Descriptive Statistics",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
+  },
+  {
     "id": "eb33748e10dff4426a27a1d61af60b50",
     "filename": "Statistics__1738609758.pdf",
     "title": "Coefficient of Variation",
