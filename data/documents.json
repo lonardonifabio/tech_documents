@@ -36844,6 +36844,116 @@
     "confidence_score": 1.0
   },
   {
+    "id": "921d47fe4a0ac40a6848cad9417960b7",
+    "filename": "Fundamental_multi_agent_AI_system_and_Agentic_RAG_ReAct_1750026297.pdf",
+    "title": "Fundamental Multi-Agent LlamaIndex Framework Webinar",
+    "authors": [],
+    "filepath": "documents/Fundamental_multi_agent_AI_system_and_Agentic_RAG_ReAct_1750026297.pdf",
+    "upload_date": "2025-06-23T13:44:21.935396",
+    "file_size": 770529,
+    "summary": "This document excerpt details a webinar focused on building advanced financial analysis workflows using LlamaIndex, specifically leveraging multi-agent systems and Agentic Retrieval-Augmented Generation (RAG) approaches. The core concept revolves around automating fundamental financial analysis by constructing a system comprised of distinct agents, each responsible for analyzing specific financial metrics – including fundamental analysis, profitability, liquidity, and supervisor analysis.  Each agent is meticulously designed with a defined goal, a tailored prompt, a specific tool for data gathering and evaluation (utilizing predefined thresholds and updating the system state), and a clear handoff mechanism to the next agent in the workflow. The webinar showcases the use of Large Language Models (LLMs) such as GPT-4 variants and Claude Sonnet, utilizing function calling to integrate with the agents.  A key component is the demonstration of an Agentic RAG system, exemplified by the creation of a ReAct agent designed to interact with financial reports like 10K filings. This agent employs the ReAct paradigm, intelligently determining when to utilize tools for context retrieval and dynamic querying.  The system utilizes two query engines, one for Apple’s 2024 financials and another for Nvidia’s, each linked to its respective document index.  The agent leverages OpenAI’s GPT-4o-mini, with tool-calling enabled via the QueryEngine Tool, facilitating dynamic retrieval before reasoning.  The webinar demonstrates the agent's ability to answer complex financial comparison questions, such as comparing revenue figures for 2024 versus 2023, and comparing Apple’s and Nvidia’s revenues. The overall aim is to provide attendees with the knowledge and techniques to build robust and adaptable financial analysis systems using LlamaIndex’s capabilities. The document highlights the practical application of LLMs and agentic architectures for automating and enhancing financial data understanding.",
+    "keywords": [
+      "LlamaIndex",
+      "AgentWorkFlow",
+      "ReAct Agent",
+      "RAG",
+      "GPT-4",
+      "Claude Sonnet",
+      "financial analysis",
+      "financial reports",
+      "query engines",
+      "profitability ratios"
+    ],
+    "key_concepts": [
+      "Multi-Agent System",
+      "Agentic RAG System",
+      "Function Calling",
+      "Retrieval + Reasoning",
+      "ReAct Paradigm",
+      "ProfitabilityAgent collects profitability ratios and generates comments based on thresholds.",
+      "LiquidityAgent collects liquidity ratios and generates comments based on thresholds.",
+      "Hand-off between agents to process financial data and generate commentary.",
+      "Liquidity issues due to low current and quick ratios",
+      "High financial leverage indicated by elevated debt-to-equity ratio"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Fundamental Multi-Agent LlamaIndex Framework Webinar",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Financial Services / Fintech",
+      "Financial Services",
+      "Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "LlamaIndex",
+      "GPT-4",
+      "Claude Sonnet",
+      "OpenAI GPT-4o-mini",
+      "FundamentalAgent"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "LlamaIndex",
+      "AgentWorkFlow",
+      "ReAct Agent"
+    ],
+    "methodologies": [
+      "Agentic RAG",
+      "ReAct",
+      "ratio collection",
+      "threshold-based commenting",
+      "financial analysis"
+    ],
+    "tools_mentioned": [
+      "QueryEngine Tool",
+      "Retrieval + Reasoning",
+      "get_profitability_ratios",
+      "get_liquidity_ratios",
+      "liquidity ratios"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Automated Fundamental Financial Analysis",
+      "Agentic Retrieval-Augmented Generation (RAG) for Financial Reports",
+      "Financial Question Answering",
+      "Profitability Analysis",
+      "Liquidity Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Fundamental Multi-Agent LlamaIndex Framework Webinar",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: LlamaIndex, AgentWorkFlow, ReAct Agent",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
+  },
+  {
     "id": "7356925064482a8a19e35881a0879f27",
     "filename": "Fundamentals_of_Data_Analysis_1610184409.pdf",
     "title": "Data Mining and Analysis",
