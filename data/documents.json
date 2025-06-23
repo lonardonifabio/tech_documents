@@ -25725,22 +25725,107 @@
   {
     "id": "e924d2b29ef7f84dee5220f624cbee15",
     "filename": "Data_Science_Day_1_1699782593.pdf",
-    "title": "Data Science Day 1 - Interview Questions (30 days of Preparation)",
+    "title": "Data Science Interview Questions (30 days of Interview Preparation)",
     "authors": [],
     "filepath": "documents/Data_Science_Day_1_1699782593.pdf",
-    "upload_date": "2025-06-03T22:07:03.935523",
+    "upload_date": "2025-06-23T08:29:33.306891",
     "file_size": 968567,
-    "summary": "This document provides a detailed explanation of the differences between AI, Data Science, ML, and DL, as well as an overview of Machine Learning classifications. It is part of a 30-day preparation guide for interviews in the field of Data Science.",
+    "summary": "This document excerpt provides a foundational overview of key concepts frequently tested in data science interviews, specifically focusing on the distinctions between Artificial Intelligence (AI), Machine Learning (ML), Deep Learning (DL), and Data Science. It begins by defining AI as a computational field that aims to solve human problems, evolving from purely mathematical exercises to mimicking human capabilities. AI is further categorized into General AI (encompassing tasks like planning, decision-making, and social transactions) and Applied AI (such as autonomous vehicles and algorithmic trading). Machine Learning (ML) is presented as a form of AI where computers learn from data without explicit programming, enabling adaptive and scalable solutions, exemplified by navigation apps and recommendation systems. ML is then broken down into three main types: Supervised Learning, Unsupervised Learning, and Reinforcement Learning. Finally, the document introduces Data Science, highlighting its multidisciplinary nature, utilizing tools and techniques from AI, ML, and other fields to manage and analyze large datasets. The overarching goal of data science mirrors that of machine learning – to derive insights and value from data. The document serves as a concise introduction to these core concepts, likely intended for preparation for data science interviews.",
     "keywords": [
-      "AI",
-      "Data Science",
+      "Artificial Intelligence",
       "Machine Learning",
-      "Interview Questions",
-      "INEURON.AI"
+      "Data Science",
+      "AI",
+      "ML",
+      "DL",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning",
+      "Big Data"
+    ],
+    "key_concepts": [
+      "AI is purely math and scientific exercise, evolving into computational problem-solving.",
+      "Machine Learning allows computers to learn without explicit programming, adapting based on data.",
+      "Data Science utilizes tools and techniques from AI, ML, and other fields to handle large datasets and derive insights.",
+      "R-squared measures the proportion of variance explained by a linear model.",
+      "A high R-squared value indicates a good model fit, but can be inflated by adding irrelevant variables.",
+      "The Adjusted R-square provides a better measure of model fit by penalizing the inclusion of unnecessary variables.",
+      "Mean Squared Error quantifies the average squared difference between observed and predicted values."
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Data Science Interview Questions (30 days of Preparation)"
+    "content_preview": "Document: Data Science Interview Questions (30 days of Interview Preparation)",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Artificial Intelligence, Data Science, Technology",
+      "Data Science, Statistics, Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "Navigation Apps",
+      "Recommendation Engines"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Data Science"
+    ],
+    "methodologies": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning",
+      "regression"
+    ],
+    "tools_mentioned": [
+      "Algorithms",
+      "Data Science Tools",
+      "R-squared",
+      "Mean Square Error",
+      "Adjusted R-Square"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Machine Learning Applications",
+      "Data Analysis and Prediction",
+      "Automated Decision Making",
+      "Model Evaluation",
+      "Regression Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data Science Interview Questions (30 days of Interview Preparation)",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Artificial Intelligence, Machine Learning, Data Science",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "39c3388ec87f591ef279e91f0cae43bc",
