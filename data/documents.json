@@ -49418,6 +49418,118 @@
     "confidence_score": 1.0
   },
   {
+    "id": "0e94a281e2c8875ee7e1ac00232933f2",
+    "filename": "LLM_memory_Google_Meta_Cornell_1750055868.pdf",
+    "title": "How much do language models memorize?",
+    "authors": [],
+    "filepath": "documents/LLM_memory_Google_Meta_Cornell_1750055868.pdf",
+    "upload_date": "2025-06-23T13:44:23.767407",
+    "file_size": 3941348,
+    "summary": "This research paper, published on arXiv in June 2025 (arXiv:2505.24832v2 [cs.CL]), investigates the extent to which modern language models ‘memorize’ information from their training datasets. The authors propose a novel method to quantify this memorization, separating it into two distinct components: unintended memorization, representing the model's direct knowledge of the specific dataset, and generalization, which reflects the model's understanding of the underlying data generation process.  The core contribution is a framework for calculating total memorization, providing an estimate of model capacity.  The study utilizes a large-scale experiment training hundreds of transformer language models, ranging in size from 500K to 1.5B parameters, across datasets of increasing size.  The researchers observed a clear relationship between model size, data size, and memorization. Initially, models exhibited increasing memorization as their capacity filled. However, beyond a certain point, ‘grokking’ – a process where models begin to generalize – occurred, leading to a decrease in unintended memorization.  The findings suggest that models in the GPT family have an approximate capacity of 3.6 bits-per-parameter.  The research also explores scaling laws relating model capacity and data size to membership inference, a critical area for understanding and mitigating potential privacy risks associated with language models. The study's methodology and results offer valuable insights into the limitations and capabilities of current language models, particularly concerning their reliance on memorization rather than genuine understanding. The authors' approach provides a more nuanced way to assess model capacity and highlights the importance of controlling for generalization to prevent unintended data leakage.  The research is significant for advancing the field of AI safety and responsible model development.",
+    "keywords": [
+      "language models",
+      "memorization",
+      "capacity",
+      "scaling laws",
+      "transformer language models",
+      "membership inference",
+      "data size",
+      "entropy",
+      "Kolmogorov Complexity",
+      "dataset"
+    ],
+    "key_concepts": [
+      "Models memorize information from datasets (unintended memorization).",
+      "Generalization refers to a model's understanding of the data generation process.",
+      "Model capacity is estimated by isolating memorization and measuring its relationship to data size.",
+      "Grokking is a phenomenon where memorization plateaus and generalization begins.",
+      "Super-additivity of Unintended Memorization",
+      "Entropy-based notion of information",
+      "Single underlying model",
+      "Dataset level measurement",
+      "Unintended memorization of models",
+      "Deduplication practices"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: How much do language models memorize?",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence, Machine Learning",
+      "Machine Learning, Artificial Intelligence",
+      "Artificial Intelligence, Natural Language Processing",
+      "Artificial Intelligence, Machine Learning, Natural Language Processing",
+      "Artificial Intelligence, Machine Learning, Data Compression"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "transformer language models",
+      "GPT family",
+      "entropy",
+      "Kolmogorov Complexity",
+      "pre-training"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "language models",
+      "memorization",
+      "capacity"
+    ],
+    "methodologies": [
+      "scaling laws",
+      "memorization measurement",
+      "entropy-based",
+      "summation",
+      "greedy decoding"
+    ],
+    "tools_mentioned": [
+      "uniform random data",
+      "model",
+      "dataset",
+      "reference model",
+      "arXiv"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Model Capacity Estimation",
+      "Memorization Analysis",
+      "Membership Inference",
+      "Unintended Memorization Measurement",
+      "Model Capacity Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: How much do language models memorize?",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: language models, memorization, capacity",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
+  },
+  {
     "id": "4b9351b8518c28d11340a3cccf0b32cd",
     "filename": "LLM_risks_1749247611.pdf",
     "title": "Privacy and Data Protection Risks in Large Language Models (LLMs)",
