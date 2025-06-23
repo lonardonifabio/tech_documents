@@ -78031,6 +78031,118 @@
     "confidence_score": 1.0
   },
   {
+    "id": "78c5b886d4dacfa9737cf9c9593429af",
+    "filename": "Quantitative_Economics_1750402665.pdf",
+    "title": "Quantitative Economics with Python",
+    "authors": [],
+    "filepath": "documents/Quantitative_Economics_1750402665.pdf",
+    "upload_date": "2025-06-23T20:19:30.039822",
+    "file_size": 3383543,
+    "summary": "This document, \"Quantitative Economics with Python,\" is a textbook focused on applying quantitative methods to economic analysis using the Python programming language. It's structured around several key areas, beginning with foundational economic tools and models. The initial sections (I & II) delve into core economic concepts and models, utilizing Python for implementation and analysis. Specifically, it covers the money multiplier effect, the Keynesian multiplier, and the application of geometric series to economic problems.  A significant portion of the book is dedicated to modeling the COVID-19 pandemic using the SIR model, demonstrating how mathematical models can be used to understand and potentially predict the spread of infectious diseases. The SIR model is implemented and analyzed, and various experiments are conducted to explore different scenarios.  The book then transitions to a chapter on linear algebra, recognizing its importance in economic modeling. The content suggests a practical approach, aiming to equip readers with the skills to translate economic theories into executable code. The book's structure indicates a progression from basic economic principles to more complex modeling techniques, with a strong emphasis on the use of Python for data analysis and simulation. The inclusion of the COVID-19 model highlights the relevance of quantitative methods to contemporary economic challenges. The document provides a detailed outline of the book's contents, including sections on key formulas, examples, and experimental design, suggesting a comprehensive learning experience for those interested in applying quantitative techniques to economics.",
+    "keywords": [
+      "Quantitative Economics",
+      "Python",
+      "Geometric Series",
+      "Keynesian Multiplier",
+      "Linear Algebra",
+      "SIR Model",
+      "COVID 19",
+      "Fractional Reserve Banking",
+      "Interest Rates",
+      "Present Values"
+    ],
+    "key_concepts": [
+      "The Money Multiplier in Fractional Reserve Banking",
+      "The Keynesian Multiplier",
+      "Interest Rates and Present Values",
+      "The SIR Model for modeling COVID 19",
+      "Linear Algebra concepts",
+      "The document discusses various decomposition techniques, including PolarDecomposition and DMD.",
+      "PCA is related to SVD and utilizes eigenvalues and eigenvectors.",
+      "The document explores methods for using fewer modes in decomposition.",
+      "The Administrator’s Problem",
+      "Usage"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Quantitative Economics with Python",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Economics, Finance, Data Science",
+      "Data Science / Statistics / Machine Learning",
+      "Statistics / Data Analysis / Mathematics",
+      "Survey Design / Research / Optimization",
+      "Statistics, Probability, Stochastic Processes"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Linear Algebra",
+      "PCA",
+      "SVD",
+      "DMD"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Quantitative Economics",
+      "Python",
+      "Geometric Series"
+    ],
+    "methodologies": [
+      "Quantitative Economics",
+      "Modeling",
+      "PolarDecomposition",
+      "multivariate analysis",
+      "survey design"
+    ],
+    "tools_mentioned": [
+      "SIR Model",
+      "Python",
+      "Cholesky Factor",
+      "algorithm",
+      "Geometric Series"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Modeling economic phenomena",
+      "Epidemiological modeling (SIR model)",
+      "Financial modeling",
+      "Dimensionality Reduction",
+      "Principal Component Analysis (PCA)"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Quantitative Economics with Python",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Quantitative Economics, Python, Geometric Series",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
+  },
+  {
     "id": "9cd33c0e9c248957c8b56016ea34fcc3",
     "filename": "Quick_Start_Guide_to_LLMs_by_Sinan_Ozdemir_1717416083.pdf",
     "title": "Quick START Guide to Large Language Models",
