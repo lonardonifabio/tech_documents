@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 class IncrementalOllamaProcessor(FixedOllamaDocumentProcessor):
     """Enhanced processor for incremental processing with Git commits"""
     
-    def __init__(self, model_name: str = "mixtral:8x7b"):
+    def __init__(self, model_name: str = "gemma3:4b"):
         super().__init__(model_name)
         self.processed_count = 0
         
@@ -192,7 +192,7 @@ def main():
     import sys
     
     # Allow custom model name via environment variable or argument
-    model_name = os.getenv('OLLAMA_MODEL', 'mixtral:8x7b')
+    model_name = os.getenv('OLLAMA_MODEL', 'gemma3:4b')
     if len(sys.argv) > 1 and not sys.argv[1].startswith('--'):
         model_name = sys.argv[1]
     
