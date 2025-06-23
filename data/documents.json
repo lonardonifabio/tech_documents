@@ -82029,31 +82029,112 @@
   {
     "id": "76cd81dd670fcdeca92dcc5bad88ce67",
     "filename": "Statistics_1706087247.pdf",
-    "title": "Statistics Programming with Python",
-    "authors": [
-      "Skipper Seabold"
-    ],
+    "title": "Statistics Programming",
+    "authors": [],
     "filepath": "documents/Statistics_1706087247.pdf",
-    "upload_date": "2025-06-14T22:31:44.251627",
+    "upload_date": "2025-06-23T08:29:41.426983",
     "file_size": 11517737,
-    "summary": "This comprehensive introduction offers a modern approach to data analysis using Python. It's ideal for practitioners wanting to enhance their technical skills and learn about the tools available in a modern programming language. The book covers exploratory data analysis, distributions, rules of probability, visualization, regression, time series analysis, survival analysis, and analytic methods.",
+    "summary": "This document excerpt is an introduction to the book \"Statistics Programming\", which focuses on using Python for data analysis and statistical computation. The book is targeted towards practitioners who already possess programming skills and want to leverage them for understanding and analyzing data through the lens of probability and statistics. It presents a concise and practical introduction to the Python data analysis stack, emphasizing computational methods over purely mathematical approaches. The core of the book revolves around a single, comprehensive case study, guiding readers through the entire process of exploratory data analysis – from data collection and initial statistical calculations to pattern identification and hypothesis testing.  Readers will gain proficiency in utilizing a wide range of tools and concepts, including distributions, rules of probability, visualization techniques, and various statistical methods.  Crucially, the book promotes a hands-on learning experience, encouraging readers to develop their coding skills while conducting experiments and simulations to solidify their understanding of complex statistical concepts.  The excerpt highlights the inclusion of new chapters dedicated to advanced topics such as regression analysis, time series analysis, survival analysis, and analytic methods, broadening the scope of the book's coverage.  Ultimately, \"Statistics Programming\" aims to equip readers with the ability to transform raw data into actionable knowledge by combining programming skills with statistical principles. The book's approach is designed to make statistical concepts more accessible and understandable through practical application and coding exercises.",
     "keywords": [
+      "statistics",
+      "programming",
       "Python",
-      "Data Analysis",
-      "Statistics",
-      "Programming",
-      "Modern Statistics"
+      "data analysis",
+      "probability",
+      "simulation",
+      "regression",
+      "time series analysis",
+      "survival analysis",
+      "Linear Model"
     ],
     "key_concepts": [
-      "Learn the entire process of exploratory data analysis using Python.",
-      "Understand probability and statistics by writing and testing code.",
-      "Run experiments to test statistical behavior, such as generating samples from several distributions.",
-      "Use simulations to understand concepts that are hard to grasp mathematically.",
-      "New chapters on regression, time series analysis, survival analysis, and analytic methods enrich the discoveries."
+      "This book provides a comprehensive introduction to Python data analysis.",
+      "The book focuses on computationally performing statistical analysis rather than relying solely on mathematical formulas.",
+      "The book uses a single case study to guide the reader through the entire process of exploratory data analysis, including data collection, statistical analysis, and hypothesis testing.",
+      "Key concepts include distributions, rules of probability, visualization, and statistical modeling.",
+      "Testing a Linear Model",
+      "Weighted Resampling",
+      "Estimating Parameters",
+      "Importing and Cleaning",
+      "Plotting",
+      "Survival Curves"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Learn Python data analysis with this comprehensive introduction."
+    "content_preview": "Document: Statistics Programming",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Analysis & Software Development",
+      "Data Science, Statistics, Analytics",
+      "Software Development / Technical Documentation"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Linear Model",
+      "Multiple Regression",
+      "Logistic Regression",
+      "Time Series Analysis"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "statistics",
+      "programming",
+      "Python"
+    ],
+    "methodologies": [
+      "statistical analysis",
+      "simulation",
+      "exploratory data analysis",
+      "hypothesis testing",
+      "Weighted Resampling"
+    ],
+    "tools_mentioned": [
+      "regression",
+      "time series analysis",
+      "survival analysis",
+      "visualization",
+      "StatsModels"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Exploratory Data Analysis",
+      "Statistical Modeling",
+      "Simulation",
+      "Regression Analysis",
+      "Time Series Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Statistics Programming",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: statistics, programming, Python",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "231a172e868d79d16cd396bc003e6269",
