@@ -10531,24 +10531,113 @@
   {
     "id": "ea2490e040c8872865a2cd336d5d2b11",
     "filename": "AN_INTRODUCTION_TO_Data_Science_1567266143.pdf",
-    "title": "AN_INTRODUCTION_TO_Data_Science",
-    "authors": [
-      "Jeffrey Stanton",
-      "Robert W. De Graaf"
-    ],
+    "title": "Data ScienceVERSION 3: AN INTRODUCTION TO",
+    "authors": [],
     "filepath": "documents/AN_INTRODUCTION_TO_Data_Science_1567266143.pdf",
-    "upload_date": "2025-06-03T22:07:02.424511",
+    "upload_date": "2025-06-23T08:29:30.593859",
     "file_size": 24326051,
-    "summary": "This is a book on Data Science, developed for Syracuse University's Certificate of Data Science program. It covers various aspects of data science including collection, preparation, analysis, visualization, management, and preservation.",
+    "summary": "This document excerpt is the preface and introduction to the third edition of \"Data Science: An Introduction.\" The book, authored by Jeffrey Stanton with contributions from Robert W. De Graaf, was developed for Syracuse University’s Certificate of Data Science program at the School of Information Studies. It outlines the core focus of the book, which centers around the multifaceted process of data science, encompassing activities such as data collection, preparation, analysis, visualization, management, and preservation. The preface highlights the book’s distribution under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 license, granting users the freedom to copy, distribute, and adapt the work, provided they maintain attribution to the authors and adhere to the license terms. Specifically, commercial use is prohibited.  The excerpt also provides contact information for the author, Jeffrey Stanton (jmstanto@syr.edu), for reporting errors or omissions.  Furthermore, it directs readers to a website (http://jsresearch.net/wiki/projects/teachdatascience) where a PDF version of the book and associated code examples are available.  A special acknowledgment is given to Ashish Verma for his assistance in revising Chapter 10. The book’s development reflects the growing importance of data science as a distinct field of work, emphasizing the need for a comprehensive understanding of its various components. The document clearly establishes the book's purpose and licensing details, setting the stage for the subsequent content.",
     "keywords": [
       "Data Science",
-      "Book",
-      "Syracuse University",
-      "Certification"
+      "analysis",
+      "visualization",
+      "management",
+      "preservation",
+      "Creative Commons",
+      "attribution",
+      "non-commercial",
+      "license",
+      "data"
+    ],
+    "key_concepts": [
+      "Data Science refers to an emerging area of work concerned with the collection, preparation, analysis, visualization, management, and preservation of data.",
+      "The book is distributed under a Creative Commons license, requiring attribution and prohibiting commercial use.",
+      "The book was developed for the Certiﬁcate of Data Science program at Syracuse University’s School of Information Studies.",
+      "Data transformation and summarization",
+      "Effective data communication through visualization",
+      "Understanding data limitations and ethical considerations",
+      "Conversion between binary, hexadecimal, and decimal numbers",
+      "Representation of text using bytes",
+      "Bytes as a collection of bits",
+      "Hexadecimal number translation"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "This book is distributed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 license..."
+    "content_preview": "Document: Data ScienceVERSION 3: AN INTRODUCTION TO",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Science Education / Higher Education",
+      "Data Science / Analytics",
+      "Data Science, Computer Science, Information Technology",
+      "Agriculture / Horticulture"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "data science",
+      "visualization",
+      "management",
+      "preservation",
+      "data analysis"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Data Science",
+      "analysis",
+      "visualization"
+    ],
+    "methodologies": [
+      "collection",
+      "preparation",
+      "analysis",
+      "summarization",
+      "inference"
+    ],
+    "tools_mentioned": [
+      "PDF",
+      "bar chart",
+      "online tutorial",
+      "smudgepots",
+      "temperature sensors"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Analysis",
+      "Data Visualization",
+      "Data Management",
+      "Data Preservation",
+      "Data Transformation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Data ScienceVERSION 3: AN INTRODUCTION TO",
+      "Q: What category? A: Data Science",
+      "Q: Key concepts? A: Data Science, analysis, visualization",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "12369a54e5706edc42ab4e582640a8b1",
