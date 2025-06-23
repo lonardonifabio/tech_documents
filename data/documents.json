@@ -14695,24 +14695,113 @@
     "id": "0d91a02a31534a55110c312b15024a8c",
     "filename": "Anomaly_Detection_in_Blockchain_Networks__1639903287.pdf",
     "title": "Anomaly Detection in Blockchain Networks: A Comprehensive Survey",
-    "authors": [
-      "Muneeb Ul Hassan",
-      "Mubashir Husain Rehmani",
-      "Jinjun Chen"
-    ],
+    "authors": [],
     "filepath": "documents/Anomaly_Detection_in_Blockchain_Networks__1639903287.pdf",
-    "upload_date": "2025-06-03T17:53:38.333067",
+    "upload_date": "2025-06-23T08:29:31.156866",
     "file_size": 2025247,
-    "summary": "This document provides an in-depth survey on the integration of anomaly detection models in blockchain technology to ensure security. It discusses how these models can aid in detecting and predicting network anomalies to protect against unexpected attacks.",
+    "summary": "This document is a comprehensive survey exploring the application of anomaly detection models within blockchain networks. It addresses the growing concern that despite the inherent security features of blockchain technology – including immutability, verifiability, and decentralization – these guarantees are not always sufficient to protect against modern threats. The document highlights that blockchain networks remain vulnerable to various security, privacy, and reliability issues.  The core argument is that proactive identification of anomalous behavior is crucial for safeguarding blockchain networks.  Anomaly detection models are presented as a key solution, autonomously monitoring and predicting anomalies to mitigate unexpected attacks and bolster network resilience. The survey delves into the integration of these models, emphasizing their role in ensuring the continued security and stability of blockchain systems.  The article's focus is on providing a detailed overview of how anomaly detection can be effectively incorporated into blockchain technology, recognizing the need for continuous monitoring and adaptation in the face of evolving security challenges.  It suggests that by detecting deviations from normal network behavior, these models can significantly improve the overall robustness and trustworthiness of blockchain applications. The survey likely covers various anomaly detection techniques and their suitability for different blockchain network architectures and use cases.  The document's aim is to consolidate existing research and provide a valuable resource for researchers and practitioners interested in this rapidly developing field.",
     "keywords": [
-      "Blockchain",
-      "Anomaly Detection",
-      "Security",
-      "Survey"
+      "blockchain",
+      "anomaly detection",
+      "security",
+      "privacy",
+      "reliability",
+      "ICT",
+      "P2 architecture",
+      "network",
+      "attacks",
+      "survey"
+    ],
+    "key_concepts": [
+      "Blockchain technology has gained significant attention due to its integration with ICT.",
+      "Anomaly detection models are crucial for protecting blockchain networks from security issues.",
+      "Blockchain networks can still be vulnerable despite strong security guarantees.",
+      "Security of blockchain systems and associated attacks.",
+      "Comprehensive surveys and taxonomies of blockchain security vulnerabilities.",
+      "Anomaly detection techniques applied to blockchain data using data mining.",
+      "Incentive layer revolves around financial incentives in the network to motivate participants.",
+      "Maintaining motivation of participants is a major challenge in decentralized blockchain networks, solved by incentive models.",
+      "Smart contracts bring programmable functionalities to blockchain networks.",
+      "Penalties and deposits are also part of the incentive layer, linked to financial aspects."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "arXiv:2112.06089v1  [cs.CR]  11 Dec 20211 Anomaly Detection in Blockchain Networks..."
+    "content_preview": "Document: Anomaly Detection in Blockchain Networks: A Comprehensive Survey",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Blockchain Technology",
+      "Blockchain Security",
+      "Cryptocurrency & Blockchain Analytics",
+      "Blockchain Technology, Cybersecurity, Data Analysis",
+      "Blockchain Security & Cryptocurrency"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "blockchain",
+      "ICT",
+      "data mining",
+      "smart contracts",
+      "elliptic curve cryptography"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "blockchain",
+      "anomaly detection",
+      "security"
+    ],
+    "methodologies": [
+      "anomaly detection",
+      "survey",
+      "reward mechanisms",
+      "penalty models",
+      "phishing attack detection"
+    ],
+    "tools_mentioned": [
+      "digital wallets",
+      "KNN",
+      "Python",
+      "N/S",
+      "user graphs"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Anomaly Detection",
+      "Security Enhancement",
+      "Network Protection",
+      "Blockchain Security Assessment",
+      "Anomaly Detection in Blockchain"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Anomaly Detection in Blockchain Networks: A Comprehensive Survey",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: blockchain, anomaly detection, security",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
   },
   {
     "id": "e8585bcebd8757e3a65162cb083463e9",
