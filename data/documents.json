@@ -32300,6 +32300,111 @@
     "confidence_score": 1.0
   },
   {
+    "id": "49a554b9876a76db950d7a822137f09f",
+    "filename": "EDPS_Federated_Learning__1750150678.pdf",
+    "title": "Reuse of European Commission Documents - AI and Privacy Enhancing Technologies",
+    "authors": [],
+    "filepath": "documents/EDPS_Federated_Learning__1750150678.pdf",
+    "upload_date": "2025-06-23T20:19:23.382798",
+    "file_size": 1635505,
+    "summary": "This document, originating from the Publications Office of the European Union, outlines the reuse policy for European Commission documents, specifically referencing Commission Decision 2011/833/EU. It establishes that the document can be reused under a Creative Commons Attribution 4.0 International (CC BY 4.0) license, provided appropriate credit is given and any modifications are clearly indicated. The core focus of the document is on Artificial Intelligence (AI) and Privacy Enhancing Technologies, exploring the application of these technologies.  A significant portion is dedicated to Federated Learning, a key area of AI research and development. The document provides a detailed examination of Federated Learning, defining the concept and categorizing different models. It specifically differentiates between horizontal and vertical classifications of Federated Learning models. The content is structured around a clear progression, beginning with an Executive Summary and then delving into the technical aspects of Federated Learning. The document’s relevance stems from the increasing interest in Federated Learning as a method for training AI models without directly accessing sensitive data, thereby addressing privacy concerns. The inclusion of ISBN, ISSN, and DOI (10.2804/5357101 QT-01-24-000-EN-N) indicates a formally published and accessible resource, likely intended for researchers, policymakers, and anyone interested in the intersection of AI, data privacy, and distributed learning. The document’s focus on both the theoretical understanding and practical classification of Federated Learning models positions it as a valuable resource for those seeking to understand and utilize this technology effectively. The European Union's commitment to promoting innovation in AI, coupled with its emphasis on data protection, is clearly reflected in this publication.",
+    "keywords": [
+      "European Union",
+      "Commission Decision 2011/833/EU",
+      "Creative Commons Attribution 4.0 International",
+      "CC BY 4.0",
+      "PDF",
+      "ISBN",
+      "ISSN",
+      "doi",
+      "Machine Learning",
+      "Predictive Model"
+    ],
+    "key_concepts": [
+      "The reuse policy of European Commission documents is governed by Commission Decision 2011/833/EU.",
+      "Reuse of this document is authorized under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.",
+      "Federated learning is a key concept explored in this document, defined as 'What is Federated learning?'",
+      "Centralized Learning Process: Originally, the data and learning process were centralized on a single machine.",
+      "Federated Learning with Central Server Coordination: A system where a central server coordinates training across multiple client devices.",
+      "Distributed Data and Processing: Cloud services are optimized for distributing data and processing across multiple machines.",
+      "Federated Learning (FL) involves sharing gradients and weights between devices to create a global model.",
+      "The risk of personal data processing from FL depends on whether gradients and weights can be used to reconstruct training data.",
+      "Data reconstruction from exchanged information in FL is complex and often unsuccessful."
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Reuse of European Commission Documents - AI and Privacy Enhancing Technologies",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Government / Public Sector / EU Policy",
+      "Artificial Intelligence",
+      "Artificial Intelligence, Machine Learning, Data Privacy"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "Federated learning",
+      "Machine Learning",
+      "Federated Learning"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "European Union",
+      "Commission Decision 2011/833/EU",
+      "Creative Commons Attribution 4.0 International"
+    ],
+    "methodologies": [
+      "Creative Commons Attribution 4.0 International",
+      "Centralized Learning",
+      "Distributed Learning",
+      "Data Reconstruction"
+    ],
+    "tools_mentioned": [
+      "PDF",
+      "Cloud Services",
+      "Central Server"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Data Sharing",
+      "Privacy Enhancing Technologies",
+      "AI Research",
+      "Federated Learning",
+      "Predictive Modeling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Reuse of European Commission Documents - AI and Privacy Enhancing Technologies",
+      "Q: What category? A: Machine Learning",
+      "Q: Key concepts? A: European Union, Commission Decision 2011/833/EU, Creative Commons Attribution 4.0 International",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
+  },
+  {
     "id": "5d73f23cd5b955316ea6fcceeb2001ec",
     "filename": "EPRS_Defence_and_AI_1746168606.pdf",
     "title": "Artificial intelligence in modern warfare",
