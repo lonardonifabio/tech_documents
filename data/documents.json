@@ -12890,6 +12890,118 @@
     "confidence_score": 1.0
   },
   {
+    "id": "84619f0381326a0c3e72b7239aa40bab",
+    "filename": "Agent_VS_agent_1750090145.pdf",
+    "title": "The Automated but Risky Game: Modeling Agent-to-Agent Negotiations and Transactions in Consumer Markets",
+    "authors": [],
+    "filepath": "documents/Agent_VS_agent_1750090145.pdf",
+    "upload_date": "2025-06-23T13:44:17.942371",
+    "file_size": 3424840,
+    "summary": "This research paper explores the potential and risks of utilizing AI agents to automate negotiations and transactions within consumer markets. The study investigates a future scenario where both consumers and merchants employ AI agents to handle these processes. The core questions addressed are: 1) How do different Large Language Model (LLM) agents perform when negotiating on behalf of users, and 2) What are the potential risks associated with fully automating negotiations and deal-making using AI agents in consumer settings? The authors designed an experimental framework to evaluate the capabilities and performance of various LLM agents across real-world negotiation and transaction scenarios. Their analysis revealed a significant imbalance in deal-making outcomes, with different AI agents exhibiting substantial variations in their ability to secure favorable deals for their respective users. Critically, the research identified a concerning trend: LLMs can display behavioral anomalies that pose a substantial risk of financial loss for both consumers and merchants when integrated into real-world decision-making processes. The study highlights the need for careful consideration and mitigation strategies when deploying AI agents in sensitive areas like consumer transactions. The research suggests that the interaction between AI agents in consumer markets is inherently unbalanced, creating opportunities for exploitation and potential harm. Further investigation is needed to understand and address the behavioral characteristics of LLMs and their impact on financial outcomes. The paper contributes to the growing body of work on agent-based modeling and the ethical considerations surrounding the use of AI in commercial contexts. The findings underscore the importance of robust oversight and risk management protocols to ensure responsible innovation in this rapidly evolving field. The experimental framework provides a valuable tool for assessing the performance and potential vulnerabilities of AI agents in complex negotiation environments.",
+    "keywords": [
+      "AI agents",
+      "LLM agents",
+      "negotiations",
+      "transactions",
+      "consumer markets",
+      "deal-making",
+      "risk",
+      "behavioral anomaly",
+      "price",
+      "retail price"
+    ],
+    "key_concepts": [
+      "Agent-to-Agent Negotiations: The study focuses on negotiations between AI agents.",
+      "Automated Transactions: The research explores automating transactions using AI agents.",
+      "Imbalanced Game: The concept of an inherently imbalanced game due to varying agent performance.",
+      "Rejection of negotiations when a limit is reached.",
+      "Recording the final transaction price based on the last proposed price.",
+      "Construction of a real-world product dataset with retail prices and key features.",
+      "Estimation of wholesale costs using GPT-4o based on market conditions.",
+      "Design of agents with specific background, goal, and constraints to mimic real business negotiation settings.",
+      "Fully automated, agent-based negotiation systems are prone to various anomalies stemming from unstable decision-making and imperfect instruction following of their base LLMs.",
+      "Buyer overpays by 2.09% due to model imbalance."
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: The Automated but Risky Game: Modeling Agent-to-Agent Negotiations and Transactions in Consumer Markets",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence, Consumer Markets, Finance",
+      "e-commerce, retail, supply chain management",
+      "Artificial Intelligence, Negotiation Systems, E-commerce",
+      "Artificial Intelligence, Finance, Retail",
+      "Retail/E-commerce"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "LLM agents",
+      "AI agents",
+      "GPT-4o",
+      "LLMs",
+      "Agent-based negotiation systems"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI agents",
+      "LLM agents",
+      "negotiations"
+    ],
+    "methodologies": [
+      "Experimental framework",
+      "Agent-to-agent negotiations",
+      "agent-based modeling",
+      "negotiation simulation",
+      "Anomaly detection"
+    ],
+    "tools_mentioned": [
+      "LLM agents",
+      "retail price",
+      "wholesale cost",
+      "DeepSeek-R1",
+      "GPT-3.5"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Agent-to-Agent Negotiation",
+      "Automated Transactions",
+      "Product Search",
+      "automated negotiation",
+      "price optimization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: The Automated but Risky Game: Modeling Agent-to-Agent Negotiations and Transactions in Consumer Markets",
+      "Q: What category? A: Technology",
+      "Q: Key concepts? A: AI agents, LLM agents, negotiations",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
+  },
+  {
     "id": "449e9a419f84b3920f89ac18771b4c3a",
     "filename": "Agentic_AI_1748125599.pdf",
     "title": "Agentic AI - The New Frontier in GenAI",
