@@ -4724,43 +4724,44 @@
   {
     "id": "2a0b5b78eff0a4559fc7faffb6b83179",
     "filename": "AI_Explainability_in_Practice_1742453217.pdf",
-    "title": "AI Explainability in Practice",
+    "title": "AI Explainability in Practice Participant Workbook",
     "authors": [],
     "filepath": "documents/AI_Explainability_in_Practice_1742453217.pdf",
-    "upload_date": "2025-06-15T23:06:39.643736",
+    "upload_date": "2025-06-24T22:17:58.319364",
     "file_size": 8527231,
-    "summary": "Participant Workbook for AI Ethics and Governance workshops.",
+    "summary": "This document is the participant workbook for the \"AI Explainability in Practice\" programme, a training initiative focused on practical applications of AI ethics and governance. It’s designed to support participants engaging in workshops related to explainable AI (XAI). The workbook serves as a guide for facilitators, providing annotated materials to deliver the accompanying activities. The content is authored by a team of contributors including David Leslie, Cami Rincón, Morgan Briggs, Antonella Maia Perini, Smera Jayadeva, Ann Borda, SJ Bennett, Christopher Burr, Mhairi Aitken, Sabeehah Mahomed, Janis Wong, Madeleine Waller, and Claudia Fischer. The project’s development benefited significantly from the support of researchers within The Alan Turing Institute’s Ethics Theme, alongside the contributions of Public Policy Programme Co-Directors Helen Margetts and Cosmina Dorobantu.  A key individual in the workbook’s creation was Conor Rigby, who provided extensive feedback throughout the design process.  Visual elements were created by Johnny Lighthands, while Alex Krook and John Gilbert offered valuable input to ensure the workbook’s completion. The document highlights the collaborative nature of the project, emphasizing the contributions of numerous individuals and organizations, including the Digital Office for Scottish Local Government and the residents of Camden Council. The overall purpose is to equip participants with the knowledge and tools to address the ethical considerations surrounding AI explainability, likely through practical exercises and discussions. It represents a structured approach to learning about and applying XAI principles within a governance context.",
     "keywords": [
       "AI Explainability",
-      "Ethics",
+      "AI Ethics",
       "Governance",
+      "Public Policy Programme",
+      "Alan Turing Institute",
       "Workshop",
       "Workbook",
-      "AI",
-      "Explainability",
-      "Transparency",
-      "Accountability",
-      "Context"
+      "Explanations",
+      "AI Systems",
+      "Transparency"
     ],
     "key_concepts": [
-      "Facilitator Workbook Annotated to support facilitators in delivering the accompanying activities.",
-      "Acknowledgements for contributors and supporters of the project.",
-      "Importance of AI Explainability in Practice Programme.",
-      "Maxims of AI Explainability",
-      "Process-Based and Outcome-Based Explanations",
-      "Rationale Explanation",
-      "Responsibility Explanation",
-      "Data Explanation",
-      "Fairness Explanation",
-      "Safety Explanation"
+      "Facilitator Workbook support for workshops",
+      "Collaboration between researchers and partners",
+      "Contribution of design and feedback from Conor Rigby",
+      "Illustrations created by Johnny Lighthands",
+      "Evaluating AI explanations to meet their purpose.",
+      "Maxims of AI Explainability (Transparency, Accountability, Consider Context, Reflect on Impacts).",
+      "Building appropriately explainable AI systems.",
+      "Child-Centred AI",
+      "AI Explainability Maxims (Transparency)",
+      "Fair and Safe AI Systems for Children"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Document: AI Explainability in Practice",
+    "content_preview": "Document: AI Explainability in Practice Participant Workbook",
     "target_audience": "Professionals in ai field",
     "industry": [
-      "Public Policy",
-      "AI/ML"
+      "Public Policy, Research, AI Ethics",
+      "Artificial Intelligence",
+      "Artificial Intelligence, Data Privacy, Child Development"
     ],
     "business_functions": [
       "Research and Development",
@@ -4769,6 +4770,8 @@
     "companies": [],
     "technologies": [
       "AI",
+      "Ethics",
+      "Explainability",
       "ML"
     ],
     "processes": [
@@ -4777,17 +4780,18 @@
     ],
     "technical_terms": [
       "AI Explainability",
-      "Ethics",
+      "AI Ethics",
       "Governance"
     ],
     "methodologies": [
+      "Explainability",
       "Process-Based",
       "Outcome-Based",
-      "Child-Centred AI"
+      "explainability"
     ],
     "tools_mentioned": [
-      "AI Explainability",
-      "Facilitator Workbook Annotated"
+      "illustrations",
+      "ICO's Age Appropriate Design Code"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
@@ -4796,11 +4800,11 @@
       "Understand ai concepts"
     ],
     "use_cases": [
-      "AI Ethics",
-      "Governance",
-      "explanation building",
-      "capacity-building workshops",
-      "Explainable AI"
+      "AI Explainability",
+      "AI Ethics Governance",
+      "Building AI Systems",
+      "Capacity Building",
+      "Child-Centred AI Design"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -4814,11 +4818,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: AI Explainability in Practice",
-      "Q: What category? A: AI",
-      "Q: Key concepts? A: AI Explainability, Ethics, Governance",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Facilitator Workbook support for workshops, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights AI, Ethics, Explainability as transformative technologies in the context of Public Policy, Research, AI Ethics, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including AI Explainability, AI Ethics Governance, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in AI Explainability, AI Ethics, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to facilitator workbook support for workshops, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
