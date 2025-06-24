@@ -518,13 +518,68 @@ class FixedOllamaDocumentProcessor:
     
     def _generate_qa(self, analysis: Dict) -> List[str]:
         """Generate Q&A based on analysis."""
-        return [
-            f"Q: What is the main focus? A: {analysis.get('title', 'Document analysis')}",
-            f"Q: What category? A: {analysis.get('category', 'Technology')}",
-            f"Q: Key concepts? A: {', '.join(analysis.get('keywords', [])[:3])}",
-            f"Q: Target audience? A: {analysis.get('target_audience', 'Professionals')}",
-            f"Q: Main benefit? A: Enhanced understanding of the subject matter"
-        ]
+        # Extract relevant information from analysis
+        title = analysis.get('title', 'Document analysis')
+        category = analysis.get('category', 'Technology')
+        keywords = analysis.get('keywords', [])
+        key_concepts = analysis.get('key_concepts', [])
+        technical_details = analysis.get('technical_details', {})
+        business_context = analysis.get('business_context', {})
+        use_cases = analysis.get('use_cases', [])
+        challenges = analysis.get('challenges_addressed', [])
+        
+        # Generate answers based on the new question framework
+        qa_pairs = []
+        
+        # 🔍 1. What specific problem does this document aim to solve or highlight, and why does it matter now?
+        problem_focus = f"This document addresses challenges in {category.lower()}"
+        if challenges:
+            problem_focus = f"This document tackles {', '.join(challenges[:2])}"
+        elif key_concepts:
+            problem_focus = f"This document explores {key_concepts[0] if key_concepts else 'key industry challenges'}"
+        
+        qa_pairs.append(f"🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: {problem_focus}, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.")
+        
+        # 💡 2. Which AI or data science methods or technologies are presented as game-changers, and in what context?
+        technologies = technical_details.get('technologies', []) or keywords[:2]
+        methodologies = technical_details.get('methodologies', [])
+        game_changers = technologies + methodologies
+        
+        if game_changers:
+            tech_answer = f"The document highlights {', '.join(game_changers[:3])} as transformative technologies"
+        else:
+            tech_answer = f"The document presents {category.lower()} innovations"
+        
+        context = business_context.get('industry', ['technology sector'])[0] if business_context.get('industry') else 'technology sector'
+        qa_pairs.append(f"💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: {tech_answer} in the context of {context}, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.")
+        
+        # 🧭 3. How can the insights or use cases from this document be applied to real-world scenarios or decisions?
+        if use_cases:
+            application_answer = f"The insights can be applied through {', '.join(use_cases[:2])}"
+        elif business_context.get('use_cases'):
+            application_answer = f"The document provides practical applications including {', '.join(business_context['use_cases'][:2])}"
+        else:
+            application_answer = f"The insights from this {category.lower()} document can be applied to strategic decision-making and operational improvements"
+        
+        qa_pairs.append(f"🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: {application_answer}, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.")
+        
+        # 🌍 4. What shifts or trends are emerging from the data or case studies, and how should a professional respond?
+        if keywords:
+            trends = f"emerging trends in {', '.join(keywords[:2])}"
+        else:
+            trends = f"significant shifts in {category.lower()}"
+        
+        qa_pairs.append(f"🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals {trends}, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.")
+        
+        # 🔄 5. Which traditional assumptions are challenged or redefined by the findings in this document?
+        if key_concepts:
+            challenged_assumptions = f"traditional approaches to {key_concepts[0].lower() if key_concepts[0] else category.lower()}"
+        else:
+            challenged_assumptions = f"conventional {category.lower()} practices"
+        
+        qa_pairs.append(f"🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges {challenged_assumptions}, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities.")
+        
+        return qa_pairs
     
     def _get_fallback_analysis(self, filename: str) -> Dict:
         """Provide fallback analysis when processing fails."""
