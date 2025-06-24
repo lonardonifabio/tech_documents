@@ -13692,28 +13692,40 @@
     "title": "OWASP Top 10 for LLM Apps & Gen AI Agentic Security Initiative",
     "authors": [],
     "filepath": "documents/Agentic_AI_Threats_1743591360.pdf",
-    "upload_date": "2025-06-16T13:14:24.266088",
+    "upload_date": "2025-06-24T18:45:38.129883",
     "file_size": 2206672,
-    "summary": "This document provides general informational purposes only and does not constitute legal advice. It contains links to third-party websites and is licensed under Creative Commons, CC BY-SA 4.0.",
+    "summary": "This document, Version 1.0 dated February 2025, presents the OWASP Top 10 for Large Language Model (LLM) Applications and Gen AI Agentic Security Initiative. It focuses on identifying and mitigating security risks associated with Generative AI applications, particularly those utilizing agentic AI architectures. The core of the document is based on the established OWASP Top 10 framework, adapted and expanded to address the unique vulnerabilities present in LLM-powered applications.  The initiative is spearheaded by OWASP (Open Web Application Security Project), a non-profit organization dedicated to improving the security of web applications.  The document provides a foundational understanding of the threats targeting LLM applications, including those related to prompt injection, data poisoning, model theft, and denial of service attacks. It outlines specific mitigations and best practices for developers and security professionals.  A key component is the inclusion of a 'Red Teaming Guide' specifically designed for GenAI applications, suggesting a proactive approach to identifying and exploiting vulnerabilities. The document details an Agentic AI Reference Architecture, a conceptual model for understanding how agentic AI systems are designed and deployed, alongside a Threat Model that systematically analyzes potential attack vectors.  The document emphasizes a layered security approach, advocating for controls across the entire application lifecycle – from design and development to deployment and monitoring.  It’s crucial to note that this document is provided for informational purposes only and does not constitute legal advice.  The Creative Commons CC BY-SA 4.0 license grants users the freedom to share, adapt, and build upon the material, provided they adhere to the attribution requirements, ensuring proper credit is given and the license is linked.  The document serves as a valuable resource for anyone involved in the development, deployment, or security assessment of GenAI applications, particularly those leveraging agentic AI.",
     "keywords": [
-      "OWASP",
       "LLM Apps",
       "Gen AI",
-      "Agentic Security",
-      "Threats",
-      "Mitigations"
+      "Agentic AI",
+      "Threat Model",
+      "Red Teaming Guide",
+      "OWASP Top 10",
+      "multi-agent architecture",
+      "agentic patterns",
+      "threat modeling",
+      "agentic AI Patterns"
     ],
     "key_concepts": [
-      "Agentic AI refers to artificial intelligence that can take actions on behalf of a user.",
-      "The OWASP Top 10 for LLM Apps & Gen AI Agentic Security Initiative aims to identify and mitigate threats related to agentic AI.",
-      "Creative Commons license CC BY-SA 4.0 applies to this document, allowing free sharing and adaptation with attribution."
+      "Security Initiative for LLM Applications",
+      "Agentic AI Reference Architecture",
+      "Creative Commons License (CC BY-SA 4.0)",
+      "Reflective Agent: Agents that iteratively evaluate and critique their own outputs to enhance performance.",
+      "Task-Oriented Agent: Agents designed to handle specific tasks with clear objectives.",
+      "Hierarchical Agent: Agents are organized in a hierarchy, managing multi-step workflows or distributed control systems.",
+      "AI-generated memory snapshots for forensic analysis and rollback",
+      "T2 Tool Misuse (manipulation of AI agents through deceptive prompts)",
+      "Agent Hijacking (AI agent ingesting adversarial data and executing unintended actions)",
+      "T3 Privilege Compromise (exploitation of permission weaknesses)"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
     "content_preview": "Document: OWASP Top 10 for LLM Apps & Gen AI Agentic Security Initiative",
     "target_audience": "Professionals in ai field",
     "industry": [
-      "Cybersecurity"
+      "Artificial Intelligence Security",
+      "Artificial Intelligence, Cybersecurity, Threat Modeling"
     ],
     "business_functions": [
       "Research and Development",
@@ -13721,22 +13733,34 @@
     ],
     "companies": [],
     "technologies": [
-      "LLM Apps",
-      "Gen AI"
+      "LLM",
+      "GenAI",
+      "AI",
+      "AI Code Generators",
+      "Automated Customer Service Agents"
     ],
     "processes": [
       "Analysis",
       "Implementation"
     ],
     "technical_terms": [
-      "OWASP",
       "LLM Apps",
-      "Gen AI"
+      "Gen AI",
+      "Agentic AI"
     ],
     "methodologies": [
-      "Red Teaming"
+      "Red Teaming",
+      "Agentic Patterns",
+      "Iterative Evaluation",
+      "Hierarchical Management",
+      "anomaly detection"
     ],
-    "tools_mentioned": [],
+    "tools_mentioned": [
+      "OWASP Top 10",
+      "Codex",
+      "AI tools",
+      "execution logs"
+    ],
     "prerequisites": [
       "Basic understanding of the subject matter"
     ],
@@ -13744,8 +13768,11 @@
       "Understand ai concepts"
     ],
     "use_cases": [
-      "LLM Apps Security",
-      "Gen AI Agentic Security"
+      "LLM Security",
+      "GenAI Security",
+      "Agent Security",
+      "Red Teaming",
+      "Threat Modeling"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -13759,11 +13786,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: OWASP Top 10 for LLM Apps & Gen AI Agentic Security Initiative",
-      "Q: What category? A: AI",
-      "Q: Key concepts? A: OWASP, LLM Apps, Gen AI",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Security Initiative for LLM Applications, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights LLM, GenAI, AI as transformative technologies in the context of Artificial Intelligence Security, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including LLM Security, GenAI Security, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in LLM Apps, Gen AI, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to security initiative for llm applications, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
