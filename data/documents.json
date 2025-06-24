@@ -18470,6 +18470,116 @@
     "confidence_score": 1.0
   },
   {
+    "id": "bb9689550514fbdeca1b12498a040cda",
+    "filename": "BSI_Test_Criteria_for_AI_Systems_in_Finance_1750150701.pdf",
+    "title": "Test Criteria Catalogue for AI Systems in Finance",
+    "authors": [],
+    "filepath": "documents/BSI_Test_Criteria_for_AI_Systems_in_Finance_1750150701.pdf",
+    "upload_date": "2025-06-23T20:19:20.608788",
+    "file_size": 2637708,
+    "summary": "This document excerpt details the creation and purpose of the \"Test Criteria Catalogue for AI Systems in Finance,\" a publication developed collaboratively by d-fine GmbH, TÜV Informationstechnik GmbH, and Fraunhofer AISEC, on behalf of the Federal Office for Information Security (BSI). The catalogue’s primary goal is to provide a framework for evaluating the trustworthiness of AI systems within the financial sector. The development process involved significant contributions from numerous individuals who participated in interviews, discussions, questionnaires, and workshops, highlighting the importance of diverse perspectives in ensuring robust evaluation criteria.  The document emphasizes the international relevance of trustworthy AI, particularly in light of the EU AI Act, which aims to establish a harmonized regulatory approach across member states and globally.  The decision to publish in English was strategic, intended to maximize accessibility and foster collaboration among a diverse international audience, including researchers, industry professionals, and policymakers.  The collaborative nature of the project underscores the complexity of assessing AI systems, requiring expertise from various domains. The document’s creation reflects a proactive approach to addressing the challenges and opportunities presented by AI in finance, aligning with broader efforts to promote responsible AI development and deployment.  The involvement of reputable organizations like BSI, d-fine, TÜV Informationstechnik, and Fraunhofer AISEC lends credibility to the catalogue and its intended application.  Ultimately, the publication serves as a valuable resource for anyone seeking to understand and implement best practices for evaluating AI systems within the financial industry, contributing to a more secure and trustworthy future for AI in this sector.",
+    "keywords": [
+      "AI Systems",
+      "Finance",
+      "AI Act",
+      "Trustworthy AI",
+      "Technical",
+      "Regulatory",
+      "Academic",
+      "AI",
+      "GenAI",
+      "ML"
+    ],
+    "key_concepts": [
+      "Evaluation Catalogue for AI Systems in Finance",
+      "Collaboration between d-fine GmbH, TÜV Informationstechnik GmbH, and Fraunhofer AISEC",
+      "International relevance of trustworthy AI in the financial sector",
+      "Periodic review of the internal AI policy",
+      "Establishment of AI management system and regular audits",
+      "Attacks with GenAI",
+      "Compliance of the AI service with general cloud computing compliance criteria",
+      "Human oversight",
+      "AI application evaluation criteria",
+      "assignment of criteria to EU AI Act requirements"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Test Criteria Catalogue for AI Systems in Finance",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Finance, Artificial Intelligence",
+      "Information Technology / Artificial Intelligence",
+      "Artificial Intelligence, Regulatory Compliance",
+      "Artificial Intelligence, Software Development, Risk Management"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "EU AI Act",
+      "ML",
+      "GenAI",
+      "Cloud Computing"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI Systems",
+      "Finance",
+      "AI Act"
+    ],
+    "methodologies": [
+      "evaluation",
+      "interviews",
+      "discussions",
+      "workshops",
+      "collaboration"
+    ],
+    "tools_mentioned": [
+      "Catalogue",
+      "Firewalls",
+      "Security Updates",
+      "Questionnaire"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "AI System Evaluation",
+      "Trustworthy AI Assessment",
+      "AI Act Compliance",
+      "AI Policy Review",
+      "AI Management System Implementation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "Q: What is the main focus? A: Test Criteria Catalogue for AI Systems in Finance",
+      "Q: What category? A: AI",
+      "Q: Key concepts? A: AI Systems, Finance, AI Act",
+      "Q: Target audience? A: Professionals",
+      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+    ],
+    "confidence_score": 1.0
+  },
+  {
     "id": "dabe6dd739ac8416d016059148014d50",
     "filename": "BT_1741096106.pdf",
     "title": "Early Detection and Prediction of Brain Stroke Severity using Unet with Multihead Attention Mechanism",
