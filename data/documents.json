@@ -7787,39 +7787,44 @@
   {
     "id": "1bc8726e00d5c4077816ed257dd407a7",
     "filename": "AI_Safety_in_Practice_1742807946.pdf",
-    "title": "AI Safety in Practice",
+    "title": "AI Safety in Practice Participant Workbook",
     "authors": [],
     "filepath": "documents/AI_Safety_in_Practice_1742807946.pdf",
-    "upload_date": "2025-06-16T14:15:22.391000",
+    "upload_date": "2025-06-24T22:17:58.656362",
     "file_size": 3912435,
-    "summary": "This document is a participant workbook for AI safety in practice, intended to be used in preparation for and during workshops. It was written by a team of researchers from The Alan Turing Institute, with acknowledgments to various partners and collaborators.",
+    "summary": "This document is the Participant Workbook for the 'AI Safety in Practice' programme, designed to prepare and support participants during workshops. It’s an annotated workbook intended for use by individuals engaging with the program's activities. The workbook was created by a team of contributors including David Leslie, Cami Rincón, Morgan Briggs, Antonella Maia Perini, Smera Jayadeva, Ann Borda, SJ Bennett, Christopher Burr, and Claudia Fischer. The project benefited significantly from the support of researchers within the Ethics Theme of the Public Policy Programme at The Alan Turing Institute, particularly its Co-Directors Helen Margetts and Cosmina Dorobantu. Conor Rigby played a crucial role in the workbook's design and provided extensive feedback throughout its development.  Illustrations were created by Johnny Lighthands, and Alex Krook and John Gilbert offered valuable input to finalize the document.  The workbook’s creation was also supported by the Digital Office for Scottish Local Government, The National Institute for Health and Care Excellence (NICE), and individuals like Carolyn Ashurst, Kamalaruban Parameswaran, and Ruth Drysdale. The overall aim of the 'AI Safety in Practice' program, and consequently this workbook, appears to be focused on practical application and engagement with ethical considerations surrounding AI safety, likely within a research and policy context. The document’s structure suggests a modular approach, with activities designed to facilitate participant learning and discussion.",
     "keywords": [
       "AI Safety",
-      "Ethics",
+      "AI Ethics",
       "Governance",
-      "AI",
-      "Safety",
-      "Reliability",
-      "Security",
-      "Robustness",
-      "Receiver Operating Characteristics (ROC)",
-      "Performance"
+      "Public Policy Programme",
+      "Alan Turing Institute",
+      "Workshop",
+      "Illustrations",
+      "Design",
+      "ROC",
+      "AI safety"
     ],
     "key_concepts": [
-      "Programme for AI Ethics and Governance",
-      "Participant Workbook for AI Safety",
-      "Facilitator Workbook for AI Safety",
-      "A technically safe and sustainable AI system is accurate and performant, reliable, secure, and robust.",
-      "AI safety of the model focuses on ensuring that algorithms, architectures, and parameters within an AI system are both technically sustainable and safe.",
-      "AI safety of the system ensures that safety goals are met considering the broader context in which the model operates."
+      "This workbook is intended for participants to engage with in preparation for and during workshops.",
+      "The creation of this workbook relies on the support of various partners and collaborators.",
+      "The project has benefited from the contributions of researchers and co-directors.",
+      "Conor Rigby led the design of the workbook with significant feedback.",
+      "Technically safe and sustainable AI system (accurate, performant, reliable, secure, robust)",
+      "AI safety of the model (algorithms, architectures, parameters)",
+      "AI safety of the system (broader context, environment, users, systems)",
+      "Four Quadrants (TP, TN, FP, FN)",
+      "Error Trade-offs (Type 1-Type 2)",
+      "Minimising Type 1 Errors"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Document: AI Safety in Practice",
+    "content_preview": "Document: AI Safety in Practice Participant Workbook",
     "target_audience": "Professionals in ai field",
     "industry": [
-      "Public Policy",
-      "AI/Technology"
+      "Public Policy, Research, AI Ethics",
+      "Artificial Intelligence / Technology",
+      "Healthcare / Medical AI"
     ],
     "business_functions": [
       "Research and Development",
@@ -7828,7 +7833,10 @@
     "companies": [],
     "technologies": [
       "AI",
-      "ROC"
+      "algorithms",
+      "architectures",
+      "parameters",
+      "Machine Learning"
     ],
     "processes": [
       "Analysis",
@@ -7836,15 +7844,19 @@
     ],
     "technical_terms": [
       "AI Safety",
-      "Ethics",
+      "AI Ethics",
       "Governance"
     ],
     "methodologies": [
-      "Safety Self-Assessment",
-      "Risk Management"
+      "Ethics and Governance",
+      "risk management",
+      "safety self-assessment",
+      "Error Trade-off Analysis",
+      "Risk Assessment"
     ],
     "tools_mentioned": [
-      "illustrations"
+      "Illustration",
+      "Model"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
@@ -7853,10 +7865,11 @@
       "Understand ai concepts"
     ],
     "use_cases": [
-      "AI Ethics",
-      "Governance",
-      "AI safety",
-      "Risk management"
+      "AI Safety Training",
+      "Ethical Governance of AI",
+      "AI Model Safety",
+      "System-Level Safety",
+      "Medical Diagnosis"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -7870,11 +7883,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: AI Safety in Practice",
-      "Q: What category? A: AI",
-      "Q: Key concepts? A: AI Safety, Ethics, Governance",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores This workbook is intended for participants to engage with in preparation for and during workshops., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights AI, algorithms, architectures as transformative technologies in the context of Public Policy, Research, AI Ethics, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including AI Safety Training, Ethical Governance of AI, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in AI Safety, AI Ethics, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to this workbook is intended for participants to engage with in preparation for and during workshops., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
