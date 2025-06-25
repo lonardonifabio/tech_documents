@@ -96466,38 +96466,31 @@
   {
     "id": "f71aac83ad36a622a0dad754aac79249",
     "filename": "Top_Google_Questions_Part_1_1652423188.pdf",
-    "title": "Top Google Questions – Part 1",
+    "title": "Singly Linked List Operations and Algorithms",
     "authors": [],
     "filepath": "documents/Top_Google_Questions_Part_1_1652423188.pdf",
-    "upload_date": "2025-06-16T22:24:26.698337",
+    "upload_date": "2025-06-25T08:33:21.723248",
     "file_size": 10716910,
-    "summary": "A list of top Google questions, including problems such as Two Sum, Longest Substring Without Repeating Characters, Median of Two Sorted Arrays, and many others. These problems cover various topics like arrays, strings, linked lists, trees, and more.",
+    "summary": "This document excerpt presents code snippets and descriptions related to various operations and algorithms involving singly linked lists. It includes implementations for `contains`, `startsWith`, and `commonPrefix` functions, likely designed for a Trie or similar data structure.  Furthermore, the excerpt details solutions for two distinct problems: 1) Removing the nth node from the end of a singly linked list, providing a C++ implementation with a pointer-based approach and memory allocation using `new ListNode`. The solution utilizes a two-pointer technique (slow and fast) to efficiently locate the nth node from the end. 2) Merging k sorted linked lists, mirroring the logic of merge sort. The document also includes a description of the complexity analysis for the merge k sorted lists problem, suggesting an efficient solution. The code snippets are presented with comments and explanations, indicating a focus on practical implementation and algorithm understanding. The document showcases common data structure operations and algorithms, likely intended for educational or reference purposes. The inclusion of memory allocation using `new ListNode` highlights the importance of managing memory when working with linked lists. The document's content covers fundamental linked list operations and algorithms, providing a solid foundation for further exploration in data structures and algorithms.",
     "keywords": [
-      "Google",
-      "Algorithms",
-      "Data Structures",
-      "Arrays",
-      "Strings",
-      "Linked Lists",
-      "Trees",
-      "Graphs"
+      "linked list",
+      "merge k sorted lists",
+      "swap nodes in pairs",
+      "complexity analysis",
+      "singly linked list"
     ],
     "key_concepts": [
-      "Two Sum problem",
-      "Longest Substring Without Repeating Characters",
-      "Median of Two Sorted Arrays",
-      "Dynamic Programming",
-      "Greedy Algorithms",
-      "Divide and Conquer",
-      "Recursion",
-      "Backtracking"
+      "Merging sorted linked lists",
+      "Removing nth node from end of list",
+      "Swapping nodes in pairs"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Top Google Questions – Part 1",
+    "content_preview": "Document: Singly Linked List Operations and Algorithms",
     "target_audience": "Professionals in data science field",
     "industry": [
-      "Software Development"
+      "Software Development / Algorithm & Data Structures",
+      "Software Development / Data Structures & Algorithms"
     ],
     "business_functions": [
       "Research and Development",
@@ -96505,27 +96498,33 @@
     ],
     "companies": [],
     "technologies": [
-      "Java",
-      "Python",
-      "C++"
+      "Arrays",
+      "Strings",
+      "Trees",
+      "Linked Lists",
+      "Binary Search"
     ],
     "processes": [
       "Analysis",
       "Implementation"
     ],
     "technical_terms": [
-      "Google",
-      "Algorithms",
-      "Data Structures"
+      "linked list",
+      "merge k sorted lists",
+      "swap nodes in pairs"
     ],
     "methodologies": [
-      "Dynamic Programming",
-      "Greedy Algorithm",
-      "Divide and Conquer"
+      "Divide and Conquer",
+      "Recursion",
+      "Greedy Algorithms",
+      "Backtracking",
+      "merge sort"
     ],
     "tools_mentioned": [
-      "LeetCode",
-      "GeeksforGeeks"
+      "Binary Search Trees",
+      "Hash Tables",
+      "Recursion",
+      "C++"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
@@ -96534,9 +96533,11 @@
       "Understand data science concepts"
     ],
     "use_cases": [
-      "Problem-solving",
-      "Algorithm design",
-      "Data structure implementation"
+      "Algorithm Optimization",
+      "Data Structure Implementation",
+      "Coding Challenge Preparation",
+      "System Design Interview Practice",
+      "Linked List Manipulation"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -96550,13 +96551,13 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: Top Google Questions – Part 1",
-      "Q: What category? A: Data Science",
-      "Q: Key concepts? A: Google, Algorithms, Data Structures",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Merging sorted linked lists, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Arrays, Strings, Trees as transformative technologies in the context of Software Development / Algorithm & Data Structures, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Algorithm Optimization, Data Structure Implementation, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in linked list, merge k sorted lists, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to merging sorted linked lists, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
-    "confidence_score": 1.0
+    "confidence_score": 0.875
   },
   {
     "id": "6f321874c27b71395074431ceb0046ce",
