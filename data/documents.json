@@ -5125,38 +5125,35 @@
   {
     "id": "d335c5dd433e4d7a893604bb167059a4",
     "filename": "AI_Governance_Map_1740426701.pdf",
-    "title": "Master Control Set for AI",
+    "title": "AI Governance Framework & Controls",
     "authors": [],
     "filepath": "documents/AI_Governance_Map_1740426701.pdf",
-    "upload_date": "2025-06-16T14:15:22.119996",
+    "upload_date": "2025-06-25T05:23:39.497713",
     "file_size": 3140896,
-    "summary": "This document outlines a comprehensive framework for Master Controls, mapping the most important AI control sources into one real-world, practical framework. It covers various aspects of AI governance, including executive commitment and accountability, risk management, regulatory compliance, data quality, security, human oversight, privacy, and internal assessment and audit.",
+    "summary": "This document outlines a comprehensive framework for governing Artificial Intelligence (AI) systems, drawing upon multiple standards and regulatory considerations. It focuses on establishing robust controls across various domains to ensure responsible AI development and deployment. The framework is built around a set of Master Controls categorized under several key areas, including Executive Commitment & Accountability (GL-1), Roles & Responsibilities (GL-2), Strategic Alignment (GL-3), and Risk Management (RM-1 through RM-4).  Furthermore, it incorporates elements of regulatory compliance (RO-1 through RO-4), data governance (LC-1 through LC-5), security governance (SE-1 through SE-6), human oversight (RS-1 through RS-5), and privacy considerations (PR-1 through PR-4). The document emphasizes a layered approach, combining internal assessments and audits (AA-1, AA-2, AA-3) with independent certification to validate safety and security.  System performance monitoring (OM-1) is also included. The core purpose is to provide a practical, real-world framework for organizations to manage the risks and complexities associated with AI, aligning with standards like SOC2, ISO27701, NIST RMF, ISO42001, and ISO27001EU. The document suggests a proactive approach to AI governance, prioritizing ethical considerations, data quality, security, and regulatory adherence. It’s designed to be a starting point for organizations seeking to establish a formalized AI governance program. The framework’s modular structure allows for customization based on specific organizational needs and risk profiles. The document’s focus on explainability, fairness, and bias management reflects the growing importance of these aspects in responsible AI development.  The inclusion of multiple control sources indicates a desire to integrate best practices from diverse domains.",
     "keywords": [
       "AI",
-      "SOC2",
-      "ISO27701",
-      "NIST",
-      "RMF",
-      "ISO42001",
-      "ISO27001",
-      "EU AI Act"
+      "Governance",
+      "Security",
+      "Risk Management",
+      "Data Quality",
+      "Compliance",
+      "Certification",
+      "Privacy"
     ],
     "key_concepts": [
-      "Master Control Set for AI Governance",
-      "Mapping the 6 most important AI control sources into one framework",
-      "Risk Management Framework and Governance",
-      "Regulatory Compliance Framework",
-      "Data Quality and Governance",
-      "Security Governance, Architecture and Engineering",
-      "Human Oversight and Intervention",
-      "Privacy by Design and Governance"
+      "Mapping AI controls into a practical framework",
+      "Executive Commitment and Accountability for AI",
+      "Roles, Responsibilities, and Resources related to AI",
+      "Strategic Alignment and Objectives for AI systems",
+      "Risk Management Framework and Governance for AI"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Master Control Set for AI",
+    "content_preview": "Document: AI Governance Framework & Controls",
     "target_audience": "Professionals in ai field",
     "industry": [
-      "AI Governance"
+      "Artificial Intelligence (AI) Governance & Risk Management"
     ],
     "business_functions": [
       "Research and Development",
@@ -5165,8 +5162,7 @@
     "companies": [],
     "technologies": [
       "AI",
-      "ISO27701",
-      "NIST RMF"
+      "Data Governance"
     ],
     "processes": [
       "Analysis",
@@ -5174,13 +5170,12 @@
     ],
     "technical_terms": [
       "AI",
-      "SOC2",
-      "ISO27701"
+      "Governance",
+      "Security"
     ],
     "methodologies": [
-      "SOC2",
-      "ISO42001",
-      "ISO27001"
+      "Risk Management Framework",
+      "Privacy by Design"
     ],
     "tools_mentioned": [],
     "prerequisites": [
@@ -5190,9 +5185,10 @@
       "Understand ai concepts"
     ],
     "use_cases": [
-      "Master Controls Mapping",
-      "Risk Management Framework and Governance",
-      "Regulatory Compliance Framework"
+      "AI Risk Management",
+      "Regulatory Compliance for AI",
+      "Data Governance for AI Systems",
+      "AI System Validation and Certification"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -5206,11 +5202,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: Master Control Set for AI",
-      "Q: What category? A: AI",
-      "Q: Key concepts? A: AI, SOC2, ISO27701",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Mapping AI controls into a practical framework, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights AI, Data Governance, Risk Management Framework as transformative technologies in the context of Artificial Intelligence (AI) Governance & Risk Management, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including AI Risk Management, Regulatory Compliance for AI, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in AI, Governance, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to mapping ai controls into a practical framework, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
