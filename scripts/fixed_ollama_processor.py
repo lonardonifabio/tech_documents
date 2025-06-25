@@ -36,6 +36,7 @@ class DocumentChunk:
 class AnalysisResult:
     """Structured result from document analysis."""
     title: str = ""
+    authors: List[str] = None
     summary: str = ""
     category: str = ""
     keywords: List[str] = None
@@ -190,7 +191,7 @@ class MultiPassAnalyzer:
             "basic_info": """
 Analyze this document excerpt and extract basic information.
 Respond with valid JSON only:
-{{"title": "document title or main topic", "summary": "summarize the document with at least 600 characters", "category": "document category (AI, Machine Learning, Data Science, Analytics, Business, Technology, Research)"}}
+{{"title": "document title or main topic", "authors": ["author1", "author2"], "summary": "summarize the document with at least 600 characters", "category": "document category (AI, Machine Learning, Data Science, Analytics, Business, Technology, Research)"}}
 
 Document excerpt:
 {content}
@@ -232,6 +233,7 @@ Document excerpt:
         basic_info = self._analyze_pass(chunk.content, "basic_info")
         if basic_info:
             result.title = basic_info.get("title", "")
+            result.authors = basic_info.get("authors", [])
             result.summary = basic_info.get("summary", "")
             result.category = basic_info.get("category", "")
         
@@ -352,6 +354,16 @@ class ResultAggregator:
         for key in all_business:
             if isinstance(all_business[key], list):
                 all_business[key] = list(dict.fromkeys(all_business[key]))[:5]
+
+        # Aggregate and deduplicate complexity_level (if present)
+        complexity_levels = [
+            v for r in chunk_results for k, v in r.technical_details.items()
+            if k == "complexity_level" and isinstance(v, str) and v
+        ]
+        if complexity_levels:
+            from collections import Counter
+            mode_level, _ = Counter(complexity_levels).most_common(1)[0]
+            all_technical["complexity_level"] = mode_level
         
         return {
             "title": best_result.title,
@@ -463,7 +475,7 @@ class FixedOllamaDocumentProcessor:
         # Add traditional fields for compatibility
         analysis.update({
             "difficulty": "Intermediate",
-            "authors": [],
+            "authors": analysis.get("authors", []),
             "content_preview": f"Document: {analysis['title']}",
             "target_audience": f"Professionals in {analysis['category'].lower()} field",
             "industry": analysis.get("business_context", {}).get("industry", ["Technology"]),
