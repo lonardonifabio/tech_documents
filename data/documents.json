@@ -67748,11 +67748,13 @@
     "id": "0dcdf87955db841fed64d2e024acc401",
     "filename": "NLP_Q_A_1606289505.pdf",
     "title": "Top 100 NLP Questions",
-    "authors": [],
+    "authors": [
+      "Steve Nouri"
+    ],
     "filepath": "documents/NLP_Q_A_1606289505.pdf",
-    "upload_date": "2025-06-24T18:45:46.663918",
+    "upload_date": "2025-06-27T22:32:55.289591",
     "file_size": 257038,
-    "summary": "This document excerpt presents a series of questions and answers focused on fundamental concepts within Natural Language Processing (NLP). The questions cover key techniques and methodologies used in the field. Specifically, the excerpt addresses keyword normalization, vector distance computation, features of text corpora, and the creation of document term matrices.  The first question delves into keyword normalization, correctly identifying lemmatization as the technique for converting words to their base form, providing examples like 'are playing' becoming 'play' and 'eating' becoming 'eat'. The second question examines methods for calculating the distance between word vectors, correctly stating that both cosine similarity and Euclidean distance are applicable. Cosine similarity is explained as measuring the cosine angle between vectors, with a closer angle indicating greater similarity. The third question explores features that can be extracted from a text corpus, correctly identifying count of words, vector notation, part-of-speech tagging, and basic dependency grammar as all viable features. Finally, the document touches upon the creation of a document term matrix, a common step in machine learning for NLP tasks, particularly when dealing with large datasets like 20,000 documents. The excerpt serves as a concise review of core NLP concepts, offering a quick reference for individuals learning or working in the field. It highlights the importance of techniques like lemmatization, cosine similarity, and document term matrices, which are frequently employed in various NLP applications. The questions and answers provide a practical understanding of how these concepts are applied in real-world scenarios. The document is a valuable resource for anyone seeking a foundational understanding of NLP.",
+    "summary": "This document presents a collection of 100 NLP questions, likely intended for learning or assessment purposes. The questions cover fundamental concepts and techniques within Natural Language Processing. Question 1 focuses on keyword normalization, specifically highlighting lemmatization as the appropriate method for converting words to their base form. It contrasts this with other techniques like Soundex and Cosine Similarity, explaining their distinct functions. Question 2 delves into calculating distances between word vectors, correctly identifying both Cosine Similarity and Euclidean Distance as viable options. The explanation clarifies that Cosine Similarity measures the cosine angle between vectors, indicating similarity, while Euclidean Distance provides a direct numerical measure of difference. Question 3 explores features within a text corpus, correctly stating that all options – word counts, vector notation, Part-of-Speech tagging, and basic dependency grammar – can be utilized. Finally, the document addresses a practical scenario: a document term matrix created for a machine learning model with 20,000 documents. The question probes for techniques to reduce this matrix, implicitly suggesting dimensionality reduction methods. The document serves as a concise review of core NLP concepts and techniques, providing answers and explanations for each question. It's a valuable resource for individuals studying or working in the field of Natural Language Processing. The questions are designed to test understanding of key concepts like lemmatization, vector distance calculations, and features within a text corpus.",
     "keywords": [
       "NLP",
       "keyword normalization",
@@ -67761,26 +67763,26 @@
       "Euclidean distance",
       "word vectors",
       "document term matrix",
-      "Machine learning",
+      "text corpus",
       "GPT",
       "BERT"
     ],
     "key_concepts": [
       "Keyword normalization converts keywords to their base form.",
-      "Lemmatization is a technique for keyword normalization.",
-      "Cosine Similarity measures the angle between word vectors.",
-      "Euclidean distance calculates the distance between word vectors.",
-      "A document term matrix represents a text corpus.",
-      "Bidirectional language models",
-      "Unidirectional language models",
-      "Left to right and right to left concatenation",
-      "Sentiment Analysis",
-      "Language Translation"
+      "Cosine similarity measures the cosine angle between word vectors.",
+      "Document term matrix represents the frequency of terms in a document.",
+      "Bidirectional Language Models",
+      "Unidirectional Language Models",
+      "Word Embeddings",
+      "Left to Right and Right to Left Concatenation",
+      "Attention Scores",
+      "Weighted Average of Word Representations",
+      "Fully-Connected Network"
     ],
-    "category": "Technology",
+    "category": "AI",
     "difficulty": "Intermediate",
     "content_preview": "Document: Top 100 NLP Questions",
-    "target_audience": "Professionals in technology field",
+    "target_audience": "Professionals in ai field",
     "industry": [
       "Natural Language Processing (NLP)"
     ],
@@ -67822,7 +67824,7 @@
       "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand technology concepts"
+      "Understand ai concepts"
     ],
     "use_cases": [
       "Text Analysis",
