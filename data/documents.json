@@ -109291,9 +109291,9 @@
     "title": "Securing AI Key Risks, Threats, and Countermeasures for Enterprise Resilience",
     "authors": [],
     "filepath": "documents/securing-ai.pdf",
-    "upload_date": "2025-06-24T18:45:52.260938",
+    "upload_date": "2025-06-27T22:33:00.899647",
     "file_size": 2015004,
-    "summary": "This document, prepared exclusively for OrganizationName in December 2024, provides a foundational overview of securing Artificial Intelligence (AI) systems within an enterprise environment. It addresses the unique challenges and critical importance of AI security, focusing on mitigating risks and bolstering overall enterprise resilience. The core of the document centers around understanding the specific threats posed by AI, highlighting the growing talent gap in this specialized field. It begins by establishing why AI security is distinct, emphasizing the rapid pace of innovation and the resulting vulnerabilities. The document then delves into defining responsibility for AI security across the enterprise, outlining the roles and responsibilities of various stakeholders. A key section details how AI security engineers contribute to strengthening the broader security foundation, providing practical insights into the technical aspects of safeguarding AI systems.  It explores the diverse landscape of AI security threats, moving beyond traditional cybersecurity concerns to address the specific vulnerabilities inherent in AI models and their data.  The document emphasizes that a proactive and comprehensive AI security strategy is essential, advocating for a collaborative approach where everyone – from engineers to leadership – plays a role.  Furthermore, it includes an appendix dedicated to mobilizing resources and advancing AI security initiatives.  The document implicitly acknowledges the increasing difficulty in finding skilled professionals who possess the combined expertise needed to address the complexities of AI security, a challenge exacerbated by the rapid advancements in the field.  Ultimately, this document serves as a starting point for organizations seeking to develop and implement a robust AI security strategy, recognizing that a layered approach is crucial for protecting critical systems and ensuring business continuity in an increasingly AI-driven world. The document’s purpose is to provide a framework for understanding and managing the risks associated with AI, promoting a culture of security awareness and responsible AI development and deployment.",
+    "summary": "This document, prepared exclusively for OrganizationName in December 2024, focuses on securing Artificial Intelligence (AI) within an enterprise environment, specifically addressing key risks, threats, and the countermeasures necessary to bolster overall enterprise resilience. The core argument centers around the unique challenges posed by AI security and the critical importance of proactively mitigating these risks. The document begins by establishing the context, highlighting the increasing reliance on critical systems and the emergence of singular risks associated with AI deployments. It then delves into the reasons why AI security is distinct, emphasizing the rapid pace of innovation and the resulting talent gaps within the field.  A key section explores the question of responsibility for AI security within the enterprise, suggesting that a multi-faceted approach is required.  The document outlines how AI security engineers contribute to strengthening the overall security foundation, likely through techniques like threat modeling, vulnerability assessment, and access control.  It details the various threats that AI systems face, potentially including adversarial attacks, data poisoning, model theft, and bias amplification.  A significant portion is dedicated to providing a practical guide for getting started with an AI security strategy, likely including recommendations for risk assessment, policy development, and technology selection.  The document stresses that everyone within the organization has a role to play in ensuring the security of AI systems, promoting a culture of awareness and responsibility. Finally, the document includes an appendix detailing resources for advancing AI security initiatives, and provides endnotes for further reading and reference. The document's purpose is to equip organizations with the knowledge and strategies needed to navigate the complex landscape of AI security and protect their assets from emerging threats. It's a foundational guide for establishing a robust AI security posture, acknowledging the critical need for skilled professionals and a proactive, holistic approach.",
     "keywords": [
       "AI security",
       "enterprise resilience",
@@ -109311,10 +109311,10 @@
       "AI security is unique and critical due to the rapid pace of innovation.",
       "Responsibility for AI security within the enterprise is distributed.",
       "Multi-layered security strategy for AI systems",
-      "Continuous monitoring of AI systems to detect suspicious behavior",
-      "Adaptive defenses tailored to evolving AI threats",
+      "Continuous monitoring and adaptive defenses in AI security",
       "Unique challenges posed by AI systems requiring specialized expertise",
-      "AI security lapses and glitches with potential reputational and financial consequences",
+      "AI security engineering augmenting the security lifecycle",
+      "AI security lapses and glitches including TrojanPuzzle attacks and data leaks",
       "Organizations are increasingly integrating third-party GenAI models.",
       "Thorough risk assessment of third-party models is crucial due to sensitivity."
     ],
@@ -109371,8 +109371,8 @@
       "AI Risk Management",
       "Cybersecurity Strategy Development",
       "Enterprise Resilience",
-      "AI Security Assessment",
-      "Threat Detection in AI Systems"
+      "AI System Security",
+      "Threat Detection"
     ],
     "benefits_mentioned": [
       "Improved understanding",
