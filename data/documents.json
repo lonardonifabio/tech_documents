@@ -102136,28 +102136,32 @@
   {
     "id": "6bed8f211506113ac276999d8a08fd29",
     "filename": "_AutoML_Book_1655047477.pdf",
-    "title": "The Springer Series on Challenges in Machine Learning",
-    "authors": [],
+    "title": "Automated Machine Learning Methods, Systems, Challenges",
+    "authors": [
+      "Frank Hutter",
+      "Lars Kotthoff",
+      "Joaquin Vanschoren"
+    ],
     "filepath": "documents/_AutoML_Book_1655047477.pdf",
-    "upload_date": "2025-06-24T18:45:51.353935",
+    "upload_date": "2025-06-27T22:32:59.994637",
     "file_size": 6796761,
-    "summary": "This document excerpt details the ‘Springer Series on Challenges in Machine Learning,’ a series of books focused on providing a comprehensive toolkit for learning and applying Automated Machine Learning (AutoML) methods. The series, edited by Frank Hutter, Lars Kotthoff, and Joaquin Vanschoren, addresses the significant challenges within the field of machine learning. Each book within the series is designed to be a valuable resource for both engineers and scientists, offering a combination of theoretical analyses, practical tutorials, and detailed descriptions of datasets.  A key component of the series is its integration with the websites of machine learning challenge competitions, creating a holistic learning experience. The books cover a wide range of topics related to AutoML, including the methodologies, systems, and associated difficulties.  The series aims to equip readers with the knowledge and tools necessary to tackle complex machine learning problems.  The books are structured to facilitate learning, incorporating tutorial material and data/software pointers.  The inclusion of challenge competition websites further enhances the practical value of the series, allowing users to engage directly with real-world problems and solutions.  The series represents a significant contribution to the field, providing a structured and accessible approach to understanding and implementing AutoML techniques. The provided information also includes details about the book's editors, affiliations, ISBNs, and a DOI, indicating its official publication and accessibility.  The series' open access nature further promotes wider dissemination and accessibility of knowledge within the machine learning community.  The book's metadata, including the editors' names, affiliations, and publication details, underscores its professional standing and availability.",
+    "summary": "This book, part of the Springer Series on Challenges in Machine Learning, focuses on Automated Machine Learning (AutoML) methods, systems, and the associated challenges. It serves as a comprehensive teaching toolkit for engineers and scientists, providing a complete resource centered around successful machine learning competitions. The book's content includes analyses of the challenges encountered in these competitions, detailed tutorial material, descriptions of the datasets used, and links to relevant data and software.  It’s designed to be a valuable learning tool, offering a structured approach to understanding and applying AutoML techniques. The series itself is a collection of papers presented within the context of these competitions, aiming to foster innovation and progress in the field of automated machine learning. The book's structure and content are geared towards practical application, making it suitable for both academic study and professional development.  The inclusion of competition analyses and datasets ensures that readers gain insights into real-world challenges and how AutoML methods can be effectively deployed.  The Springer Series on Challenges in Machine Learning provides a valuable platform for sharing knowledge and promoting collaboration within the machine learning community.  The book’s open access availability further enhances its accessibility and impact.  The provided DOI and ISBN details confirm its official publication and accessibility through Springer’s online platform.",
     "keywords": [
       "Machine Learning",
       "Automated Machine Learning",
       "Challenges in Machine Learning",
       "Springer Series",
-      "Competitions",
       "Datasets",
       "Software",
       "AutoML",
       "Neural Networks",
-      "Machine Learning Pipelines"
+      "Machine Learning Pipelines",
+      "Tree-based Machine Learning"
     ],
     "key_concepts": [
       "A complete teaching toolkit for machine learning challenges.",
       "Analysis of challenges and tutorial material within the series.",
-      "Valuable resource for engineers and scientists involved in machine learning competitions.",
+      "Resource for engineers and scientists involved in machine learning.",
       "Automatically tuned neural networks winning against human experts.",
       "Automatically constructing and optimizing machine learning pipelines.",
       "Fully automated reports with data analysis, predictive models, and performance comparisons.",
@@ -102167,7 +102171,7 @@
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Document: The Springer Series on Challenges in Machine Learning",
+    "content_preview": "Document: Automated Machine Learning Methods, Systems, Challenges",
     "target_audience": "Professionals in machine learning field",
     "industry": [
       "Machine Learning",
