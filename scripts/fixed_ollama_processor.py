@@ -367,6 +367,7 @@ class ResultAggregator:
         
         return {
             "title": best_result.title,
+            "authors": best_result.authors or [],
             "summary": best_result.summary,
             "category": best_result.category,
             "keywords": unique_keywords,
@@ -454,6 +455,15 @@ class FixedOllamaDocumentProcessor:
         # Step 4: Validate and enhance final result
         return self._validate_and_enhance_analysis(final_analysis, filename)
     
+    def _map_complexity_to_difficulty(self, complexity_level: str) -> str:
+        """Map complexity level to difficulty."""
+        complexity_mapping = {
+            "basic": "Basic",
+            "intermediate": "Intermediate", 
+            "advanced": "Advanced"
+        }
+        return complexity_mapping.get(complexity_level.lower(), "Intermediate")
+    
     def _validate_and_enhance_analysis(self, analysis: Dict, filename: str) -> Dict:
         """Validate and enhance the aggregated analysis."""
         # Ensure required fields exist
@@ -472,9 +482,13 @@ class FixedOllamaDocumentProcessor:
         if not analysis.get("keywords"):
             analysis["keywords"] = self._extract_keywords_from_filename(filename)
         
+        # Map complexity level to difficulty
+        complexity_level = analysis.get("technical_details", {}).get("complexity_level", "intermediate")
+        difficulty = self._map_complexity_to_difficulty(complexity_level)
+        
         # Add traditional fields for compatibility
         analysis.update({
-            "difficulty": "Intermediate",
+            "difficulty": difficulty,
             "authors": analysis.get("authors", []),
             "content_preview": f"Document: {analysis['title']}",
             "target_audience": f"Professionals in {analysis['category'].lower()} field",
@@ -599,13 +613,22 @@ class FixedOllamaDocumentProcessor:
         category = self._infer_category_from_filename(filename)
         keywords = self._extract_keywords_from_filename(filename)
         
+        # Infer complexity from filename patterns
+        filename_lower = filename.lower()
+        if any(word in filename_lower for word in ['basic', 'intro', 'beginner', 'fundamentals']):
+            complexity_level = "basic"
+        elif any(word in filename_lower for word in ['advanced', 'expert', 'deep', 'comprehensive']):
+            complexity_level = "advanced"
+        else:
+            complexity_level = "intermediate"
+        
         return {
             "title": clean_title,
             "summary": f"This document provides comprehensive coverage of {clean_title.lower()} concepts and applications.",
             "category": category,
             "keywords": keywords,
             "key_concepts": [f"Core concepts in {category.lower()}"],
-            "technical_details": {"complexity_level": "intermediate"},
+            "technical_details": {"complexity_level": complexity_level},
             "business_context": {"industry": ["Technology"]},
             "confidence_score": 0.5
         }
