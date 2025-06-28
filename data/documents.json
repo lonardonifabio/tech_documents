@@ -13817,11 +13817,13 @@
     "id": "9b7680e2c62c3fd4a9403bc70a8fa023",
     "filename": "Agentic_AI_Threats_1743591360.pdf",
     "title": "OWASP Top 10 for LLM Apps & Gen AI Agentic Security Initiative",
-    "authors": [],
+    "authors": [
+      "OWASP"
+    ],
     "filepath": "documents/Agentic_AI_Threats_1743591360.pdf",
-    "upload_date": "2025-06-24T18:45:38.129883",
+    "upload_date": "2025-06-27T22:32:46.698506",
     "file_size": 2206672,
-    "summary": "This document, Version 1.0 dated February 2025, presents the OWASP Top 10 for Large Language Model (LLM) Applications and Gen AI Agentic Security Initiative. It focuses on identifying and mitigating security risks associated with Generative AI applications, particularly those utilizing agentic AI architectures. The core of the document is based on the established OWASP Top 10 framework, adapted and expanded to address the unique vulnerabilities present in LLM-powered applications.  The initiative is spearheaded by OWASP (Open Web Application Security Project), a non-profit organization dedicated to improving the security of web applications.  The document provides a foundational understanding of the threats targeting LLM applications, including those related to prompt injection, data poisoning, model theft, and denial of service attacks. It outlines specific mitigations and best practices for developers and security professionals.  A key component is the inclusion of a 'Red Teaming Guide' specifically designed for GenAI applications, suggesting a proactive approach to identifying and exploiting vulnerabilities. The document details an Agentic AI Reference Architecture, a conceptual model for understanding how agentic AI systems are designed and deployed, alongside a Threat Model that systematically analyzes potential attack vectors.  The document emphasizes a layered security approach, advocating for controls across the entire application lifecycle – from design and development to deployment and monitoring.  It’s crucial to note that this document is provided for informational purposes only and does not constitute legal advice.  The Creative Commons CC BY-SA 4.0 license grants users the freedom to share, adapt, and build upon the material, provided they adhere to the attribution requirements, ensuring proper credit is given and the license is linked.  The document serves as a valuable resource for anyone involved in the development, deployment, or security assessment of GenAI applications, particularly those leveraging agentic AI.",
+    "summary": "This document, Version 1.0 released in February 2025, presents the OWASP Top 10 for Large Language Model (LLM) Applications and Gen AI Agentic Security Initiative. It focuses on identifying and mitigating security threats specifically targeting applications built around Generative AI and Agentic AI systems. The document serves as a foundational resource for developers, security professionals, and anyone involved in the design, development, and deployment of Gen AI applications. It outlines key vulnerabilities and provides guidance on how to address them. The core of the document is based on the established OWASP Top 10 framework, adapted to the unique risks associated with LLMs and Agentic AI.  Specifically, it addresses threats related to prompt injection, data poisoning, model theft, and other vulnerabilities inherent in these rapidly evolving technologies.  The document includes a Red Teaming Guide, further emphasizing the importance of proactive security testing.  It's crucial to understand that this document is for informational purposes only and does not constitute legal advice. The licensing terms are Creative Commons, CC BY-SA 4.0, which allows for sharing and adaptation of the material, provided appropriate attribution is given and any derivative works are also licensed under the same terms. The document is structured with an introduction, sections dedicated to AI Agents, a reference architecture for Agentic AI, a threat model, and a Red Teaming Guide. The inclusion of these elements highlights a comprehensive approach to securing Gen AI applications.  The document's purpose is to raise awareness and provide actionable insights to bolster the security posture of LLM-based systems.  The use of the OWASP Top 10 framework ensures a widely recognized and respected approach to vulnerability management.  The document's ongoing relevance is tied to the continued development and adoption of Gen AI technologies, making it a valuable resource for the security community.",
     "keywords": [
       "LLM Apps",
       "Gen AI",
@@ -13838,13 +13840,13 @@
       "Security Initiative for LLM Applications",
       "Agentic AI Reference Architecture",
       "Creative Commons License (CC BY-SA 4.0)",
+      "Attribution and ShareAlike requirements",
       "Reflective Agent: Agents that iteratively evaluate and critique their own outputs to enhance performance.",
       "Task-Oriented Agent: Agents designed to handle specific tasks with clear objectives.",
       "Hierarchical Agent: Agents are organized in a hierarchy, managing multi-step workflows or distributed control systems.",
-      "AI-generated memory snapshots for forensic analysis and rollback",
-      "T2 Tool Misuse (manipulation of AI agents through deceptive prompts)",
-      "Agent Hijacking (AI agent ingesting adversarial data and executing unintended actions)",
-      "T3 Privilege Compromise (exploitation of permission weaknesses)"
+      "AI agent hijacking: where an AI agent ingests adversarial manipulated data and subsequently executes unintended actions.",
+      "Tool Misuse: attackers manipulating AI agents to abuse their integrated tools.",
+      "Privilege Compromise: attackers exploit weaknesses in permission management to perform unauthorized actions."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
@@ -13863,8 +13865,8 @@
       "LLM",
       "GenAI",
       "AI",
-      "AI Code Generators",
-      "Automated Customer Service Agents"
+      "AI code generators",
+      "automated customer service agents"
     ],
     "processes": [
       "Analysis",
@@ -13877,10 +13879,10 @@
     ],
     "methodologies": [
       "Red Teaming",
-      "Agentic Patterns",
-      "Iterative Evaluation",
-      "Hierarchical Management",
-      "anomaly detection"
+      "agentic patterns",
+      "reflective agent",
+      "task-oriented agent",
+      "hierarchical agent"
     ],
     "tools_mentioned": [
       "OWASP Top 10",
