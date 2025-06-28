@@ -391,11 +391,13 @@
     "id": "6bbdf560f7d380e2548a155c83b0b798",
     "filename": "10_Minutes_to_Pandas_1642524382.pdf",
     "title": "10 Minutes to pandas — pandas 0.17.1 documentation",
-    "authors": [],
+    "authors": [
+      "pandas developers"
+    ],
     "filepath": "documents/10_Minutes_to_Pandas_1642524382.pdf",
-    "upload_date": "2025-06-24T22:17:57.406368",
+    "upload_date": "2025-06-28T06:30:24.531429",
     "file_size": 561924,
-    "summary": "This document excerpt provides a concise introduction to the pandas library, specifically geared towards new users. It focuses on fundamental concepts and demonstrates basic operations for creating and manipulating data structures within pandas. The excerpt begins by illustrating how to import pandas, numpy, and matplotlib libraries, a standard practice in data analysis workflows. It then guides the user through creating a pandas Series, showcasing the creation of a Series from a list of values, including handling missing data (NaN).  The document then demonstrates the creation of a DataFrame, starting with a NumPy array and a datetime index, followed by labeled columns.  A key example shows how to generate a DatetimeIndex using `pd.date_range`.  The creation of a DataFrame from a dictionary is also illustrated, highlighting the ability to specify data types for each column (e.g., float64, datetime64[ns], float32, int32, and object). The document emphasizes the flexibility of pandas in handling various data types and structures. The example demonstrates the use of `np.random.randn` to generate random data for the DataFrame, providing a practical demonstration of data generation.  The inclusion of `df2.dtypes` shows how to inspect the data types of the columns within the DataFrame. The excerpt serves as a quick primer for beginners, offering a hands-on approach to understanding the core functionalities of pandas. It's a valuable resource for those just starting to explore data analysis with this popular Python library. The document's focus on practical examples and clear explanations makes it an effective learning tool.",
+    "summary": "This document excerpt provides a concise introduction to the pandas library, specifically designed for new users. It covers fundamental concepts and demonstrates basic operations, including creating Series and DataFrames. The tutorial focuses on practical examples, illustrating how to import pandas, create Series from lists (including handling NaN values), and construct DataFrames using NumPy arrays and datetime indices.  It showcases the creation of a DataFrame with a custom datetime index and labeled columns.  The excerpt demonstrates how to specify data types within a DataFrame, and provides a short example of creating a DataFrame from a dictionary. The document is a quick guide, aiming to familiarize users with the core functionalities of pandas. The example includes creating a DataFrame with random numbers, a datetime index, and labeled columns ('A', 'B', 'C', 'D'). It also shows how to inspect the data types of the columns. The document is part of the pandas 0.17.1 documentation and is intended as a starting point for learning pandas.",
     "keywords": [
       "pandas",
       "Series",
@@ -404,9 +406,9 @@
       "matplotlib",
       "datetime",
       "dtypes",
-      "index",
-      "columns",
-      "mean"
+      "object",
+      "mean",
+      "apply"
     ],
     "key_concepts": [
       "Creating a Series from a list of values.",
@@ -426,7 +428,7 @@
     "target_audience": "Professionals in data science field",
     "industry": [
       "Data Analysis / Data Science",
-      "Data Analysis / Data Science / Financial Analysis"
+      "Data Analysis / Business Intelligence"
     ],
     "business_functions": [
       "Research and Development",
