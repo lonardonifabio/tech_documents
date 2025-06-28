@@ -1794,42 +1794,45 @@
     "id": "27e24070ee4fc6f5279689fcc6c100f0",
     "filename": "250_AWS_Interview_Questions_with_Answers_1667830964.pdf",
     "title": "Top 250+ AWS Interview Questions",
-    "authors": [],
+    "authors": [
+      "Unknown"
+    ],
     "filepath": "documents/250_AWS_Interview_Questions_with_Answers_1667830964.pdf",
-    "upload_date": "2025-06-24T22:17:57.849366",
+    "upload_date": "2025-06-28T06:30:24.974427",
     "file_size": 589004,
-    "summary": "This document excerpt presents a collection of frequently asked interview questions related to Amazon Web Services (AWS). It covers fundamental concepts and services, providing a concise overview for individuals preparing for AWS-related roles. The questions primarily focus on core AWS services like EC2, S3, EBS, and Route53. Specifically, it defines AWS as a platform offering on-demand resources for hosting web services, storage, and networking via a pay-as-you-go model.  It details the components of AWS, including EC2 (Elastic Compute Cloud), S3 (Simple Storage Service), Route53, EBS (Elastic Block Store), and Cloudwatch.  The document explains key-pairs as secure login information for instances, utilizing both public and private keys for connection.  It further clarifies the functionality of S3, emphasizing its ability to store vast amounts of data globally with a pay-as-you-go pricing structure.  Regarding pricing models for EC2 instances, the document outlines several options: on-demand, reserved, spot, scheduled, and dedicated.  Finally, it distinguishes between two types of volumes for EC2 instances – instance store volumes and EBS (Elastic Block Stores), highlighting that EBS volumes ensure data persistence even when instances are stopped. The document serves as a quick reference guide for understanding basic AWS concepts and services, likely intended for interview preparation or introductory learning. The information is presented in a question-and-answer format, making it easy to grasp the core ideas. The document's scope is limited to introductory AWS topics, suitable for beginners or those seeking a foundational understanding.",
+    "summary": "This document presents a collection of frequently asked interview questions related to Amazon Web Services (AWS). It covers fundamental concepts and services, providing a concise overview for individuals preparing for AWS-related interviews. The questions delve into core AWS services like EC2, S3, Route53, EBS, and Cloudwatch. Specifically, it explains what AWS stands for, detailing its on-demand resource provision and pay-as-you-go pricing model.  The document breaks down the components of AWS, highlighting EC2 (Elastic Compute Cloud) and S3 (Simple Storage Service) as key services. It clarifies the concept of key-pairs, explaining their role as secure login information for instances, utilizing both public and private keys.  Furthermore, it elaborates on S3's functionality as a storage service accessible globally with a pay-as-you-go pricing structure. The document also explores the diverse pricing models available for EC2 instances, including on-demand, reserved, spot, scheduled, and dedicated options.  Finally, it distinguishes between instance store volumes and EBS (Elastic Block Stores), emphasizing the persistence of EBS volumes even when instances are stopped. The document serves as a valuable resource for those seeking to understand the basics of AWS and prepare for technical interviews focused on this cloud computing platform. It provides definitions, explanations, and key features of various AWS services, making it a useful study guide for aspiring cloud professionals. The information is presented in a question-and-answer format, making it easy to grasp the concepts quickly.",
     "keywords": [
       "AWS",
       "EC2",
       "S3",
       "EBS",
       "Key-pairs",
-      "Pricing Models",
-      "Volumes",
-      "security groups",
-      "AMI",
-      "load balancer"
+      "pricing",
+      "volumes",
+      "instances",
+      "virtual machines",
+      "storage"
     ],
     "key_concepts": [
-      "AWS stands for Amazon Web Services, a platform offering on-demand resources.",
-      "EC2 (Elastic Compute Cloud) is a component of AWS used for virtual machines.",
-      "S3 (Simple Storage Service) is a storage service for storing data.",
-      "EBS (Elastic Block Stores) are persistent volumes attached to EC2 instances.",
-      "Key-pairs are secure login information for instances, consisting of public and private keys.",
-      "Different pricing models for EC2 instances include on-demand, reserved, spot, scheduled, and dedicated.",
+      "AWS stands for Amazon Web Services, a platform providing on-demand resources for hosting web services.",
+      "EC2 is Elastic Compute Cloud, a service for running virtual machines.",
+      "S3 is Simple Storage Service, a storage service for storing data.",
+      "Key-pairs are secure login information for instances using public and private keys.",
+      "Pricing models for EC2 instances include on-demand, reserved, spot, scheduled, and dedicated.",
+      "EBS volumes are persistent volumes attached to instances, preserving data even when instances are stopped.",
       "Security groups act as firewalls controlling instance traffic.",
       "Shared AMIs are AMIs created and made available for use by others.",
       "Application Load Balancer uses dynamic port mapping and multiple listeners.",
       "Classic Load Balancer uses one port one listener."
     ],
-    "category": "Technology",
+    "category": "AI",
     "difficulty": "Intermediate",
     "content_preview": "Document: Top 250+ AWS Interview Questions",
-    "target_audience": "Professionals in technology field",
+    "target_audience": "Professionals in ai field",
     "industry": [
       "Cloud Computing",
-      "Cloud Computing / AWS"
+      "Cloud Computing / AWS",
+      "Cloud Computing / AWS Services"
     ],
     "business_functions": [
       "Research and Development",
@@ -1854,23 +1857,23 @@
     ],
     "methodologies": [
       "Pay-as-you-go",
-      "Infrastructure as Code (implied by subnet management and AMI usage)",
-      "IAM Roles",
-      "SDK Usage",
+      "Infrastructure as Code",
+      "Network Configuration",
+      "Security Best Practices",
       "Pay-per-use"
     ],
     "tools_mentioned": [
       "Key-pairs",
-      "Elastic IP",
       "NAT Gateway",
-      "Application Load Balancer",
-      "Classic Load Balancer"
+      "AWS Organizations",
+      "DynamoDB SDK",
+      "CloudWatch Alarm"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand technology concepts"
+      "Understand ai concepts"
     ],
     "use_cases": [
       "Web Hosting",
@@ -1891,11 +1894,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores AWS stands for Amazon Web Services, a platform offering on-demand resources., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores AWS stands for Amazon Web Services, a platform providing on-demand resources for hosting web services., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
       "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights AWS, EC2, S3 as transformative technologies in the context of Cloud Computing, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
       "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Web Hosting, Data Storage, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
       "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in AWS, EC2, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
-      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to aws stands for amazon web services, a platform offering on-demand resources., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to aws stands for amazon web services, a platform providing on-demand resources for hosting web services., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
