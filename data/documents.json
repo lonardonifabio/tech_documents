@@ -67178,11 +67178,13 @@
     "id": "63f28fafcd2b3e1c0dd0787c307b36c7",
     "filename": "MongoDB_with_Python_1639905443.pdf",
     "title": "MongoDb with Python - Logging Class and MongoDB Interaction",
-    "authors": [],
+    "authors": [
+      "Arjun P Anwar"
+    ],
     "filepath": "documents/MongoDB_with_Python_1639905443.pdf",
-    "upload_date": "2025-06-25T08:33:17.671188",
+    "upload_date": "2025-06-28T12:27:11.303839",
     "file_size": 58923,
-    "summary": "This document excerpt presents a Python-based guide for interacting with MongoDB, focusing on implementing a custom logging class for recording operations. The core of the excerpt details the creation of an `App_Logger` class, designed to save log entries to a file. This class utilizes the `datetime` module to capture timestamps and includes a `log` function that writes log messages, along with their timestamp and log type (e.g., 'info', 'error', 'warning'), to the specified log file. The log file is opened in append mode ('a+') to ensure that new entries are added to the end of the file.  The code also demonstrates the use of `pymongo` for MongoDB interaction and provides a basic `mongodb` class, suggesting a framework for performing MongoDB operations.  The class includes a placeholder for the 'con' parameter, indicating a connection string or configuration. The document showcases a practical approach to logging and provides a starting point for building more complex MongoDB applications in Python. The code includes comments explaining the purpose of each section and the parameters of the functions, making it suitable for learning and experimentation. The use of custom logging enhances traceability and debugging capabilities within the application. The document's focus on OOPs concepts like reusability is also highlighted.",
+    "summary": "This document excerpt presents a Python-based guide for interacting with MongoDB, focusing on implementing a custom logging class for recording operations. The core of the document details the creation of an `App_Logger` class, designed to save log entries to a file. This class utilizes the `datetime` module to capture timestamps and includes a `log` function that appends log messages (with timestamp, log type, and message) to the specified log file. The logging class is designed to handle different log types (info, error, warning, etc.).  The excerpt also demonstrates the use of the `App_Logger` class with an example of logging messages.  Furthermore, the document introduces a `mongodb` class, showcasing how to interact with MongoDB using `pymongo` and `pandas`. This class provides a framework for performing various MongoDB tasks. The code includes imports for `pymongo` and `pandas`, suggesting the intention to potentially use pandas for data manipulation within the MongoDB context. The document's purpose is to provide a practical guide for developers seeking to integrate MongoDB with Python, emphasizing robust logging practices and a structured approach to MongoDB operations. The inclusion of both the logging class and the `mongodb` class suggests a comprehensive approach to building a MongoDB application with Python.",
     "keywords": [
       "MongoDB",
       "Python",
@@ -67228,7 +67230,7 @@
     ],
     "tools_mentioned": [
       "logfile.log",
-      "pymongo",
+      "datetime",
       "pandas"
     ],
     "prerequisites": [
