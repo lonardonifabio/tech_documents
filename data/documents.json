@@ -32872,11 +32872,33 @@
     "id": "aea97acf7b3e960ad623a3001b8e5ce4",
     "filename": "Draft_Critical_AI_Security_Guidelines_v1_1_1743591220.pdf",
     "title": "Critical AI Security Guidelines",
-    "authors": [],
+    "authors": [
+      "Ahmed Abugharbia",
+      "Sarthak Agrawal",
+      "Brett Arion",
+      "Matt Bromiley",
+      "Ron F. Del Rosario",
+      "Mick Douglas",
+      "David Hoelzer",
+      "Ken Huang",
+      "Bhavin P. Kapadia",
+      "Rob Lee",
+      "Seth Misenar",
+      "Helen Oakley",
+      "Jorge Orchilles",
+      "Jason Ross",
+      "Rakshith Shetty",
+      "Jim Simpson",
+      "Jochen Staengler",
+      "Rob Van Der Veer",
+      "Jason Vest",
+      "Eoin Wickens",
+      "Sounil Yu"
+    ],
     "filepath": "documents/Draft_Critical_AI_Security_Guidelines_v1_1_1743591220.pdf",
-    "upload_date": "2025-06-25T05:23:44.316708",
+    "upload_date": "2025-06-28T12:27:06.350795",
     "file_size": 1140238,
-    "summary": "This document, ‘Critical AI Security Guidelines,’ v1.1, presents a foundational framework for securing artificial intelligence (AI) implementations. Developed collaboratively by a diverse group of experts including SANS Institute, Fortinet, U.S. Congress, Binary Defense, Prophet Security, SAP, InfoSec Innovations, Occulumen, DistributedApps.ai, Stablecoins, HiddenLayer, BSI, and Palo Alto Networks, the guidelines address the burgeoning need for security controls within the rapidly evolving AI landscape. The core focus is on Generative AI, outlining key security considerations across several critical areas. Specifically, the document details recommendations for Access Controls, ensuring appropriate restrictions and permissions are in place to manage AI system access. Data Protection is a central theme, emphasizing the importance of safeguarding sensitive data utilized by AI models, including techniques for data masking, encryption, and anonymization. Deployment Strategies are examined, focusing on secure configurations and infrastructure choices for AI systems. Inference Security is addressed, recognizing the unique vulnerabilities associated with AI model outputs and the need for monitoring and validation. Monitoring is highlighted as a crucial element for detecting anomalous behavior and potential threats. Finally, Governance, Risk, and Compliance (GRC) are discussed, advocating for a structured approach to managing AI-related risks and ensuring adherence to relevant regulations and standards. The document’s initial aim was to establish technical security considerations, but it acknowledges the dynamic nature of the AI field and reflects an evolution of recommendations. The collaborative effort underscores the complexity of securing AI systems and the need for a multi-faceted approach involving security professionals, industry experts, and regulatory bodies. The document serves as a starting point for organizations seeking to implement AI solutions while mitigating potential security risks. It’s a living document, intended to be updated and refined as the AI security landscape continues to develop.",
+    "summary": "This document, \"Critical AI Security Guidelines, v1.1,\" presents a comprehensive overview of security considerations for implementing and utilizing artificial intelligence (AI), particularly focusing on Generative AI.  Developed by a collective of experts from organizations including Fortinet, U.S. Congress, Binary Defense, Prophet Security, SAP, InfoSec Innovations, Occulumen, DistributedApps.ai, Stablecoins, SANS, Context Security Consulting, Verizon, OWASP AI, Palo Alto Networks, HiddenLayer, BSI, and Software Improvement Group, the guidelines address key areas vital for securing AI systems. The core focus is on establishing technical security controls within an AI environment. The document meticulously examines critical categories such as Access Controls, Data Protection, Deployment Strategies, Inference Security, and Monitoring. Furthermore, it emphasizes the importance of Governance, Risk, and Compliance (GRC) frameworks.  The initial aim was to identify fundamental security considerations, but the recommendations have expanded to reflect the rapidly evolving landscape of AI security. The document highlights the need for proactive security measures to mitigate potential risks associated with AI systems, acknowledging the increasing reliance on AI across various industries and the critical role of robust security protocols. The collaborative effort of these diverse contributors underscores the urgency and complexity of securing AI technologies. The guidelines are intended to provide a foundational understanding and practical recommendations for organizations seeking to responsibly develop and deploy AI solutions.",
     "keywords": [
       "AI Security",
       "Generative AI",
@@ -32896,9 +32918,9 @@
       "Models can be compromised through malicious packages.",
       "Pickle file attacks allow for the injection of malicious code into model deployments.",
       "Architectural backdoors can be intentionally created within models to trigger specific behaviors.",
-      "Continuous monitoring of AI systems for issues and misuse.",
-      "Importance of logging prompts and outputs for sensitive AI workloads.",
-      "Regular testing and tuning of LLM applications and models to ensure alignment and trustworthiness."
+      "Regulatory adherence to ensure ethical and compliant AI usage",
+      "Continuous monitoring of AI systems for issues and misuse",
+      "Importance of logging prompts and outputs for sensitive workloads to demonstrate AI behavior"
     ],
     "category": "AI",
     "difficulty": "Intermediate",
@@ -32949,7 +32971,7 @@
       "Understand ai concepts"
     ],
     "use_cases": [
-      "AI Security Implementation",
+      "AI Security",
       "Generative AI Security",
       "Data Protection in AI",
       "AI Governance and Compliance",
@@ -32969,7 +32991,7 @@
     "questions_and_answers": [
       "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Ensuring security-focused controls for AI implementations is paramount., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
       "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights AI, Generative AI, Inference as transformative technologies in the context of Artificial Intelligence, Cybersecurity, Information Technology, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
-      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including AI Security Implementation, Generative AI Security, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including AI Security, Generative AI Security, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
       "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in AI Security, Generative AI, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
       "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to ensuring security-focused controls for ai implementations is paramount., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
