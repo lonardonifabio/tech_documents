@@ -2508,12 +2508,15 @@
   {
     "id": "05e6d66ff7508555123136d0849c658b",
     "filename": "9_1_1738485397.pdf",
-    "title": "EU AI Act: Reporting Serious Incidents",
-    "authors": [],
+    "title": "EU AI Act Expert Series – Reporting Serious Incidents",
+    "authors": [
+      "Dr. Benedikt Kohn",
+      "Taylor Wessing"
+    ],
     "filepath": "documents/9_1_1738485397.pdf",
-    "upload_date": "2025-06-24T22:17:57.966365",
+    "upload_date": "2025-06-27T22:32:44.949488",
     "file_size": 457065,
-    "summary": "This document excerpt focuses on the reporting obligations for ‘serious incidents’ related to AI systems under the EU AI Act. It defines a ‘serious incident’ as any event involving an AI system that results in harm to individuals or infrastructure due to malfunction, error, or misuse. Examples provided include accidents stemming from autonomous vehicle failures and disruptions caused by AI-driven systems. The document outlines the initial reporting process, requiring providers to submit an initial report upon identifying a serious incident, even if incomplete, as a notification to competent authorities. Subsequently, a complete report detailing the incident's comprehensive details is mandated.  Crucially, it emphasizes the need to protect sensitive data related to incidents and AI systems collected during the investigation, safeguarding the integrity of ongoing investigations and maintaining trust in the reporting process. The excerpt highlights the importance of timely reporting as stipulated in Article 73 of the EU AI Act. The document serves as a foundational guide for understanding the requirements for reporting serious incidents and underscores the legal framework surrounding AI safety and accountability within the European Union. It’s a key resource for anyone involved in developing, deploying, or utilizing AI systems under the purview of the EU AI Act, emphasizing the need for proactive incident management and data protection.",
+    "summary": "This document excerpt from the EU AI Act Expert Series focuses on the critical process of reporting ‘serious incidents’ related to AI systems. It defines a ‘serious incident’ as any event involving AI systems that results in harm to individuals or infrastructure due to malfunction, error, or misuse. Examples provided include accidents stemming from autonomous vehicle failures and disruptions caused by AI-driven systems. The document outlines the reporting obligations for AI system providers under the EU AI Act, emphasizing the need for prompt initial reports followed by comprehensive subsequent reports detailing the incident.  Crucially, it highlights the importance of maintaining confidentiality regarding sensitive data collected during the investigation to ensure the integrity of the process and maintain trust. The excerpt specifically addresses the requirements for submitting initial reports as a notification to competent authorities, acknowledging that these reports may be incomplete.  It underscores the continuous obligation for providers to furnish complete reports, incorporating detailed information about the incident. The document references Article 73 of the EU AI Act as the legal basis for defining and addressing serious incidents, indicating a formal regulatory framework. The core message is the proactive and diligent approach required by AI system providers to mitigate risks and comply with the evolving standards set by the EU AI Act.  The document’s purpose is to guide providers on how to respond effectively to potential harms caused by AI systems, promoting responsible AI development and deployment.",
     "keywords": [
       "EU AI Act",
       "Serious Incident",
@@ -2528,11 +2531,11 @@
     "key_concepts": [
       "Reporting of serious incidents under the EU AI Act.",
       "Definition of a ‘Serious Incident’ as causing harm to individuals or infrastructure due to malfunction, error, or misuse.",
-      "Requirement for providers to promptly submit initial and subsequent reports following the identification of a serious incident."
+      "Requirement for providers to promptly submit initial and subsequent reports of serious incidents to competent authorities."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Document: EU AI Act: Reporting Serious Incidents",
+    "content_preview": "Document: EU AI Act Expert Series – Reporting Serious Incidents",
     "target_audience": "Professionals in technology field",
     "industry": [
       "Artificial Intelligence (AI)"
