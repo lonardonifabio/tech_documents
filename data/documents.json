@@ -66480,11 +66480,13 @@
     "id": "609d563df5f74fedb34fc4921240b68e",
     "filename": "Microsoft_Responsible_AI_Impact_Assessment_Template_1749995135.pdf",
     "title": "Microsoft Responsible AI Standar d v2 – Introduction",
-    "authors": [],
+    "authors": [
+      "Microsoft"
+    ],
     "filepath": "documents/Microsoft_Responsible_AI_Impact_Assessment_Template_1749995135.pdf",
-    "upload_date": "2025-06-25T08:33:17.488186",
+    "upload_date": "2025-06-28T12:27:11.119838",
     "file_size": 588881,
-    "summary": "This document excerpt introduces the Microsoft Responsible AI Impact Assessment Template, released externally as a product of a multi-year effort to establish a process for evaluating the potential impact of AI systems on people, organizations, and society. The template aims to facilitate a discussion and contribute to the development of better norms and practices surrounding AI development. It’s designed to be used by teams to assess the impact of their AI systems, focusing on the broader societal implications. The template includes sections for system information, lifecycle stage, and a system description, encouraging a thorough evaluation. Specifically, it prompts users to detail the system's purpose, intended releases, and the individuals who will review the assessment. The document emphasizes the importance of clear communication and context-setting to ensure reviewers understand the system's functionality and potential risks. The release of this template is intended to foster collaboration and feedback, highlighting Microsoft's commitment to responsible AI development. The document provides a link to a questions page for feedback: https://aka.ms/ResponsibleA IQuestions. The core purpose is to guide teams through a structured process for proactively identifying and mitigating potential negative impacts of their AI systems, promoting ethical and responsible innovation.",
+    "summary": "This document excerpt introduces the Microsoft Responsible AI Impact Assessment Template, released externally as a product of a multi-year effort to establish a process for evaluating the potential impact of AI systems on people, organizations, and society. The template aims to facilitate a discussion and contribute to the development of better norms and practices surrounding AI development. It’s designed to be used by teams to assess the societal and ethical implications of their AI systems. The template includes sections for system information, lifecycle stage details, and a system description. Specifically, it prompts users to provide details about the system's name, team, revision history, planned releases, and a plain-language explanation of the system's purpose. The document emphasizes the importance of engaging reviewers and invites feedback on the approach through a provided link: https://aka.ms/ResponsibleA IQuestions. The core purpose is to proactively identify and mitigate potential negative impacts, ensuring responsible AI development. The template’s release represents Microsoft’s commitment to transparency and collaboration in shaping the future of AI. The document highlights the need for a structured approach to impact assessment, encouraging teams to thoroughly consider the broader consequences of their AI systems. It’s a foundational document for utilizing the Responsible AI Impact Assessment Template, providing context and guidance for its application.",
     "keywords": [
       "Responsible AI",
       "Impact Assessment",
@@ -66508,7 +66510,7 @@
       "Controlled research environment"
     ],
     "category": "AI",
-    "difficulty": "Intermediate",
+    "difficulty": "Basic",
     "content_preview": "Document: Microsoft Responsible AI Standar d v2 – Introduction",
     "target_audience": "Professionals in ai field",
     "industry": [
