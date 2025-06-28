@@ -2680,11 +2680,13 @@
     "id": "247305aa825bf12279e76c963588f818",
     "filename": "AIGP_Study_Notes_1749710021.pdf",
     "title": "ARTIFICIAL INTELLIGENCE GOVERNANCE PROFESSIONAL - AIGP Study Notes",
-    "authors": [],
+    "authors": [
+      "Caiky Avellar"
+    ],
     "filepath": "documents/AIGP_Study_Notes_1749710021.pdf",
-    "upload_date": "2025-06-24T22:17:58.019365",
+    "upload_date": "2025-06-28T06:30:25.143426",
     "file_size": 3609198,
-    "summary": "This document excerpt presents study notes focused on the role of an Artificial Intelligence Governance Professional (AIGP). The core of the notes centers around understanding the foundational concepts of AI governance, beginning with a detailed explanation of Artificial Intelligence (AI) itself. It defines AI as a broad term encompassing designed systems utilizing computational techniques to automate tasks, specifically highlighting machine learning – where systems learn from data and adapt. The document emphasizes AI's connection to computer science and its potential for automated decision-making. A key element of the notes is the exploration of the historical context of AI, referencing Alan Turing's seminal work, \"Computing Machinery and Intelligence.\" Turing's concept of the \"Turing Test,\" introduced through the \"Imitation Game,\" is discussed, illustrating the initial challenge of determining machine intelligence through human-like conversation. The notes delve into the significance of this test and its relevance to the broader field of AI. The document’s purpose is clearly to provide a foundational understanding of AI governance principles, likely intended for individuals pursuing or working in the AIGP role. The use of the IAPP Glossary definition further strengthens the document's credibility and provides a formal definition of AI for reference. The study notes likely aim to equip readers with the knowledge necessary to navigate the complexities of AI governance, considering its technological advancements and ethical implications. The translation and use of DeepL Pro suggests a professional and polished resource.",
+    "summary": "This document, titled 'ARTIFICIAL INTELLIGENCE GOVERNANCE PROFESSIONAL - AIGP Study Notes', provides foundational information regarding AI governance. It begins by defining Artificial Intelligence (AI) according to the IAPP Glossary, emphasizing that AI is a broad term referring to designed systems utilizing computational techniques to perform or automate tasks.  Specifically, it highlights machine learning, where systems learn from data and adapt, and the broader field of computer science dedicated to simulating intelligent behavior. The notes delve into the historical context of AI, referencing Alan Turing's seminal work, \"Computing Machinery and Intelligence,\" and his proposed \"Turing Test.\" This test, originally conceived as the \"Imitation Game,\" assesses a machine's ability to convincingly mimic human conversation, a key indicator of intelligence. The document's core focus is on establishing a foundational understanding of AI governance, likely intended for professionals preparing for or working within the field. The excerpt details the definition of AI, its reliance on computational techniques, and the historical development of the concept of intelligent machines, setting the stage for a deeper exploration of the ethical and regulatory considerations surrounding AI development and deployment. The document's purpose is clearly educational, providing a concise overview of the fundamental concepts underpinning AI governance. It’s a study guide, likely used to prepare individuals for roles within the AI governance domain.",
     "keywords": [
       "Artificial Intelligence",
       "AI",
@@ -2703,14 +2705,14 @@
       "The Turing Test assesses a machine's ability to mimic human conversation.",
       "Machine learning involves AI systems learning from data and adapting to new information.",
       "Supervised Learning involves training systems with labeled data to find correlations between inputs and outputs.",
-      "Unsupervised Learning involves systems identifying patterns and groupings in data without developer labeling.",
-      "The system learns through examples and labeled data to identify patterns and characteristics.",
+      "Unsupervised Learning involves systems identifying patterns and groupings in unlabeled data.",
+      "The system learns through examples provided by a developer, associating inputs with corresponding outputs.",
       "Photorealistic rendering of a cat in a professional kitchen setting.",
       "Use of lighting and color grading to create a specific atmosphere.",
       "Generative AI models (DALL-E, ElevenLabs, GPT 4o) and their capabilities."
     ],
     "category": "AI",
-    "difficulty": "Intermediate",
+    "difficulty": "Basic",
     "content_preview": "Document: ARTIFICIAL INTELLIGENCE GOVERNANCE PROFESSIONAL - AIGP Study Notes",
     "target_audience": "Professionals in ai field",
     "industry": [
