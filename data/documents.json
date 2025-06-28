@@ -5156,18 +5156,20 @@
     "title": "AI Governance Framework & Controls",
     "authors": [],
     "filepath": "documents/AI_Governance_Map_1740426701.pdf",
-    "upload_date": "2025-06-25T05:23:39.497713",
+    "upload_date": "2025-06-28T12:27:01.463752",
     "file_size": 3140896,
-    "summary": "This document outlines a comprehensive framework for governing Artificial Intelligence (AI) systems, drawing upon multiple standards and regulatory considerations. It focuses on establishing robust controls across various domains to ensure responsible AI development and deployment. The framework is built around a set of Master Controls categorized under several key areas, including Executive Commitment & Accountability (GL-1), Roles & Responsibilities (GL-2), Strategic Alignment (GL-3), and Risk Management (RM-1 through RM-4).  Furthermore, it incorporates elements of regulatory compliance (RO-1 through RO-4), data governance (LC-1 through LC-5), security governance (SE-1 through SE-6), human oversight (RS-1 through RS-5), and privacy considerations (PR-1 through PR-4). The document emphasizes a layered approach, combining internal assessments and audits (AA-1, AA-2, AA-3) with independent certification to validate safety and security.  System performance monitoring (OM-1) is also included. The core purpose is to provide a practical, real-world framework for organizations to manage the risks and complexities associated with AI, aligning with standards like SOC2, ISO27701, NIST RMF, ISO42001, and ISO27001EU. The document suggests a proactive approach to AI governance, prioritizing ethical considerations, data quality, security, and regulatory adherence. It’s designed to be a starting point for organizations seeking to establish a formalized AI governance program. The framework’s modular structure allows for customization based on specific organizational needs and risk profiles. The document’s focus on explainability, fairness, and bias management reflects the growing importance of these aspects in responsible AI development.  The inclusion of multiple control sources indicates a desire to integrate best practices from diverse domains.",
+    "summary": "This document outlines a comprehensive framework for AI governance, drawing upon multiple standards and regulatory requirements. It focuses on establishing robust controls across various domains to manage the risks associated with AI systems. The framework leverages key control sources including the Risk Management Framework (RMF), ISO 27701, ISO 27001, and incorporates elements of AI governance best practices.  The core of the framework is structured around a master control set, mapping six critical control sources into a practical, real-world implementation.  It addresses key areas such as executive commitment, roles and responsibilities, strategic alignment, risk management, regulatory compliance, data governance, system development lifecycle, security, privacy, and ongoing monitoring. Specifically, it covers aspects like data quality, system development, security architecture, identity and access management, software security, data security, network security, physical security, human oversight, safety, robustness, explainability, fairness, bias management, privacy by design, personal data management, privacy compliance, and privacy-enhancing technologies. The framework emphasizes both internal assessment and independent certification to ensure ongoing validation of safety and security.  The document suggests a layered approach to governance, incorporating both proactive controls and continuous monitoring to mitigate risks and maintain compliance.  The inclusion of standards like ISO 27701 and ISO 27001 indicates a strong focus on data privacy and information security within the AI context.  Ultimately, the goal is to provide a practical guide for organizations seeking to deploy AI responsibly and ethically, aligning with relevant regulatory requirements and industry best practices. The document's structure suggests a modular approach, allowing organizations to tailor the framework to their specific needs and risk profiles.",
     "keywords": [
       "AI",
       "Governance",
       "Security",
       "Risk Management",
-      "Data Quality",
       "Compliance",
-      "Certification",
-      "Privacy"
+      "Data Quality",
+      "System Development",
+      "Change Management",
+      "Audit",
+      "Certification"
     ],
     "key_concepts": [
       "Mapping AI controls into a practical framework",
