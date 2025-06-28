@@ -75176,11 +75176,13 @@
     "id": "a16787535a0f0d68dfe7852c0394e770",
     "filename": "Probability_Stats_for_Data_Science_1634194227.pdf",
     "title": "Probability and Statistics for Data Science",
-    "authors": [],
+    "authors": [
+      "Carlos Fernandez-Granda"
+    ],
     "filepath": "documents/Probability_Stats_for_Data_Science_1634194227.pdf",
-    "upload_date": "2025-06-24T22:18:09.247313",
+    "upload_date": "2025-06-28T06:30:36.419381",
     "file_size": 5271166,
-    "summary": "This document excerpt represents the preface and table of contents for a course titled \"Probability and Statistics for Data Science.\" Developed at the Center for Data Science in NYU, the course aims to provide a foundational understanding of probability and statistics, starting from first principles. The material covers core concepts including probability spaces, conditional probability, independence, and random variables. Specifically, it delves into discrete and continuous random variables, conditioning on events, and functions of random variables. The course structure is divided into two main sections: Basic Probability Theory and Random Variables. The preface acknowledges contributions from teaching assistants (Levent Sagun, Vlad Kobzar) and students, and credits the National Science Foundation (NSF award DMS-1616340) for supporting the development of these notes. The table of contents outlines the specific topics covered within each section, indicating a detailed exploration of statistical concepts relevant to data science applications. The document serves as an introductory guide to the subject matter, likely intended for students enrolled in the course. It highlights a rigorous approach to learning probability and statistics, emphasizing a solid theoretical base. The inclusion of the NSF grant suggests a research-oriented course with a focus on developing statistical skills for data science.",
+    "summary": "This document excerpt presents the preface and table of contents for 'Probability and Statistics for Data Science' notes developed for a course at the Center for Data Science in NYU. The primary goal of the course, and consequently these notes, is to provide a foundational understanding of probability and statistics, starting from first principles. The document outlines the key topics covered, including basic probability theory, encompassing concepts like probability spaces, conditional probability, and independence. It then delves into random variables, differentiating between discrete and continuous types, and explores related concepts such as conditioning on events and functions of random variables. The course materials are supported by the National Science Foundation under award DMS-1616340. The excerpt serves as an introduction to the course's structure and core themes, indicating a focus on building a solid statistical foundation for data science applications. The document's structure suggests a detailed exploration of probabilistic modeling and its application within the data science domain.  The inclusion of foundational concepts highlights the importance of rigorous statistical understanding for effective data analysis and interpretation. The notes are designed to provide a comprehensive overview, making them suitable for students and practitioners seeking to establish a strong base in probability and statistics within the context of data science.",
     "keywords": [
       "Probability",
       "Statistics",
@@ -75195,12 +75197,12 @@
     ],
     "key_concepts": [
       "Fundamental concepts in probability and statistics from first principles",
-      "Probability spaces",
-      "Conditional probability",
-      "Independence of events",
-      "Random variables",
-      "Discrete and continuous random variables",
-      "Functions of random variables",
+      "Probability spaces - the mathematical framework for defining probabilities",
+      "Conditional probability - the probability of an event given that another event has occurred",
+      "Independence - events that do not influence each other's probabilities",
+      "Random Variables - variables whose values are numerical outcomes of a random phenomenon",
+      "Discrete random variables - variables that can only take on a finite number of values or countable values",
+      "Continuous random variables - variables that can take on any value within a given range",
       "The document discusses various statistical concepts including error analysis and consistency.",
       "Confidence intervals are defined and likely explained within the context of statistical inference.",
       "Nonparametric and parametric model estimation techniques are presented, highlighting differences in their approaches."
@@ -75212,9 +75214,9 @@
     "industry": [
       "Data Science",
       "Statistics / Data Science / Mathematics",
-      "Statistics, Mathematics, Finance (related to risk assessment)",
+      "Statistics, Mathematics, Finance",
       "Political Science / Statistics / Data Analysis",
-      "Probability & Statistics, Data Science"
+      "Probability & Statistics, Data Modeling"
     ],
     "business_functions": [
       "Research and Development",
@@ -75282,7 +75284,7 @@
       "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Probability, Statistics, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
       "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to fundamental concepts in probability and statistics from first principles, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
-    "confidence_score": 0.95
+    "confidence_score": 1.0
   },
   {
     "id": "02453f2ebbcc8963d926f94e5aec8d32",
