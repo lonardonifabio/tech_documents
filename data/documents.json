@@ -108821,11 +108821,13 @@
     "id": "4be2290270e6de9005d3f7a351d0caa3",
     "filename": "pycaret_1648896054.pdf",
     "title": "Simplifying Machine Learning with PyCaret",
-    "authors": [],
+    "authors": [
+      "Giannis Tolios"
+    ],
     "filepath": "documents/pycaret_1648896054.pdf",
-    "upload_date": "2025-06-24T22:18:13.761292",
+    "upload_date": "2025-06-27T22:33:00.788646",
     "file_size": 3064458,
-    "summary": "This document excerpt details a book titled \"Simplifying Machine Learning with PyCaret,\" a low-code approach designed for both beginners and experienced users in the field of machine learning. The book, authored by Giannis Tolios, is available for purchase on Leanpub. Leanpub's Lean Publishing process is central to the book's creation, emphasizing iterative development and reader feedback to refine the content and ensure it meets the needs of the target audience. The book's core focus is on utilizing the PyCaret library, which aims to streamline the machine learning workflow. The excerpt outlines the book's structure, beginning with a preface, an author biography, and an introduction to the book itself. It then delves into the intended audience, prerequisites for using the book, and the software requirements. A key section focuses on installing PyCaret and utilizing JupyterLab for interactive development. Finally, it provides information about the book's Github repository. The excerpt provides a foundational overview of the book's content and methodology, highlighting its commitment to a practical and accessible approach to machine learning using PyCaret. The Lean Publishing philosophy ensures a responsive and adaptable learning experience, catering to diverse skill levels and promoting continuous improvement based on user feedback. The document serves as a concise introduction to the book's purpose and structure, setting the stage for a detailed exploration of machine learning concepts and the PyCaret library.",
+    "summary": "This document excerpt details a book titled \"Simplifying Machine Learning with PyCaret,\" a low-code approach designed for both beginners and experienced users in the field of machine learning. The book, authored by Giannis Tolios, is available for purchase through Leanpub. It utilizes the PyCaret library, which aims to streamline the machine learning workflow. The excerpt outlines the book's structure, including a preface, author biography, a brief introduction to the book's target audience, and essential prerequisites for using the material. It also covers the software requirements and provides instructions on installing PyCaret and utilizing JupyterLab. Furthermore, it includes a foundational section on machine learning, defining what machine learning is. The Leanpub publishing process, emphasizing iterative feedback and rapid development, is highlighted as the framework behind the book's creation. The document serves as a promotional overview for the book, showcasing its accessibility and practical approach to learning machine learning with PyCaret. The Leanpub platform is presented as a tool for authors and publishers to efficiently create and distribute their work, focusing on reader engagement and continuous improvement. The book's core philosophy centers around simplifying complex concepts and providing a hands-on learning experience. The inclusion of JupyterLab suggests an interactive learning environment, allowing users to experiment with code and visualizations. The document's purpose is to attract potential readers by highlighting the book's low-code approach and its suitability for individuals with varying levels of experience.",
     "keywords": [
       "Machine Learning",
       "PyCaret",
@@ -108850,14 +108852,14 @@
       "Saving the Model",
       "Deploying a Machine Learning Model"
     ],
-    "category": "Technology",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
     "content_preview": "Document: Simplifying Machine Learning with PyCaret",
-    "target_audience": "Professionals in technology field",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
       "Machine Learning",
       "Insurance",
-      "Data Science, Technology, Automotive (implied)"
+      "Data Science, Artificial Intelligence, Automotive"
     ],
     "business_functions": [
       "Research and Development",
@@ -108896,7 +108898,7 @@
       "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand technology concepts"
+      "Understand machine learning concepts"
     ],
     "use_cases": [
       "Data Analysis",
