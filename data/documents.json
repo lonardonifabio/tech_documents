@@ -110396,41 +110396,46 @@
   {
     "id": "8180e9bac611ba3365e342d9b7ac0722",
     "filename": "spaCy_Advanced_NLP_in_Python_1627300147.pdf",
-    "title": "spaCy Cheat Sheet",
-    "authors": [],
+    "title": "spaCy Cheat Sheet for Data Science",
+    "authors": [
+      "spaCy",
+      "DataCamp"
+    ],
     "filepath": "documents/spaCy_Advanced_NLP_in_Python_1627300147.pdf",
-    "upload_date": "2025-06-17T05:39:17.454778",
+    "upload_date": "2025-06-28T18:58:08.145815",
     "file_size": 2519193,
-    "summary": "This document provides a cheat sheet for using spaCy, a natural language processing library for Python. It covers loading models, tokenization, part-of-speech tagging, named entity recognition, and visualization. The document includes code examples and explanations of various spaCy functions and features.",
+    "summary": "This document excerpt provides a concise cheat sheet for using spaCy, a popular Python library for Natural Language Processing (NLP). It guides users through the initial setup, including downloading the `en_core_web_sm` model using `python -m spacy download en_core_web_sm`. The excerpt demonstrates basic spaCy operations, such as loading the model with `spacy.load()`, processing text with `nlp(text)`, and extracting named entities using `doc[index:index+span_length]`. It highlights the use of `Span` objects for identifying specific phrases and their labels (e.g., 'GPE' for geopolitical entities like 'New York'). The document also showcases how to access token-level part-of-speech tags (`token.pos_`) and tags (`token.tag_`). Furthermore, it illustrates how to visualize spaCy's output using `displacy`, which can be rendered in Jupyter notebooks or served as a web server for browser visualization.  The excerpt emphasizes the importance of using larger spaCy models (ending in 'md' or 'lg', such as `en_core_web_lg`) for more sophisticated analysis.  The document provides a quick reference for beginners to get started with spaCy and its core functionalities, focusing on entity recognition, part-of-speech tagging, and visualization. It's a practical guide for data scientists and researchers working with text data.",
     "keywords": [
       "spaCy",
-      "Python",
-      "Data Science",
-      "Natural Language Processing",
-      "NLP",
-      "Tokenization",
-      "Spacy",
-      "Matcher",
-      "Pattern"
+      "en_core_web_sm",
+      "en_core_web_lg",
+      "python",
+      "nlp",
+      "spacy.load",
+      "doc",
+      "span",
+      "token.pos_",
+      "token.tag_"
     ],
     "key_concepts": [
-      "Loading spaCy models",
-      "Part-of-speech tagging",
-      "Named Entity Recognition (NER)",
-      "Dependency parsing",
-      "Word vectors and embeddings",
+      "Named Entity Recognition (NER) - GPE (Geopolitical Entity)",
       "Part-of-Speech (POS) Tagging",
       "Dependency Parsing",
-      "Semantic Role Labeling (SRL)",
-      "Text Preprocessing"
+      "Tokenization",
+      "Visualization with displacy",
+      "Model loading",
+      "Word Vectors",
+      "Named Entity Recognition (NER) - identifying entities like locations (GPE: New York)",
+      "Tokenization - splitting text into individual tokens.",
+      "Attribute Extraction - assigning attributes (e.g., 'CI T IES') to tokens/spans."
     ],
-    "category": "Data Science",
+    "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Document: spaCy Cheat Sheet",
-    "target_audience": "Professionals in data science field",
+    "content_preview": "Document: spaCy Cheat Sheet for Data Science",
+    "target_audience": "Professionals in technology field",
     "industry": [
-      "Data Science",
-      "relevant industry"
+      "Natural Language Processing (NLP), Data Science",
+      "Natural Language Processing (NLP)"
     ],
     "business_functions": [
       "Research and Development",
@@ -110439,8 +110444,9 @@
     "companies": [],
     "technologies": [
       "spaCy",
-      "Python",
-      "NLTK"
+      "Jupyter Notebook",
+      "NLP",
+      "Matcher"
     ],
     "processes": [
       "Analysis",
@@ -110448,27 +110454,36 @@
     ],
     "technical_terms": [
       "spaCy",
-      "Python",
-      "Data Science"
+      "en_core_web_sm",
+      "en_core_web_lg"
     ],
     "methodologies": [
-      "pattern matching",
-      "tokenization"
+      "Named Entity Recognition",
+      "Part-of-Speech Tagging",
+      "Dependency Parsing",
+      "Word Vectors",
+      "Pattern Matching"
     ],
     "tools_mentioned": [
-      "spacy download",
-      "spacy validate",
-      "displacy.render",
-      "displacy.serve",
-      "NLTK library"
+      "en_core_web_sm",
+      "en_core_web_lg",
+      "Jupyter Notebook",
+      "displacy",
+      "npl"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand data science concepts"
+      "Understand technology concepts"
     ],
-    "use_cases": [],
+    "use_cases": [
+      "Named Entity Recognition (NER)",
+      "Part-of-Speech Tagging",
+      "Text Visualization",
+      "Dependency Parsing",
+      "Text Analysis"
+    ],
     "benefits_mentioned": [
       "Improved understanding",
       "Practical insights"
@@ -110481,11 +110496,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: spaCy Cheat Sheet",
-      "Q: What category? A: Data Science",
-      "Q: Key concepts? A: spaCy, Python, Data Science",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Named Entity Recognition (NER) - GPE (Geopolitical Entity), which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights spaCy, Jupyter Notebook, NLP as transformative technologies in the context of Natural Language Processing (NLP), Data Science, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Named Entity Recognition (NER), Part-of-Speech Tagging, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in spaCy, en_core_web_sm, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to named entity recognition (ner) - gpe (geopolitical entity), presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
