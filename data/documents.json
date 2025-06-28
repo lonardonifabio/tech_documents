@@ -106247,12 +106247,15 @@
   {
     "id": "afe3766aaa1a67c462c8c627e6e63b63",
     "filename": "javascript_cheatsheet_2019_lenguajejs_com_1623050131.pdf",
-    "title": "JavaScript Array Methods and Properties",
-    "authors": [],
+    "title": "JavaScript Prototype Methods Documentation (Array)",
+    "authors": [
+      "Unknown",
+      "JavaScript Engine Developers"
+    ],
     "filepath": "documents/javascript_cheatsheet_2019_lenguajejs_com_1623050131.pdf",
-    "upload_date": "2025-06-24T22:18:13.580293",
+    "upload_date": "2025-06-28T06:30:40.727362",
     "file_size": 193291,
-    "summary": "This document excerpt details various array methods and properties commonly found in JavaScript, primarily focusing on methods used for manipulating and transforming arrays. It extensively covers methods like `map`, `filter`, `reduce`, `forEach`, `find`, `findIndex`, `every`, `some`, and `isNaN`.  The document also outlines fundamental array properties such as `entries`, `keys`, and `values`, which are used for iterating through arrays.  Crucially, it delves into numeric properties including `Number`, `POSITIVE_INFINITY`, `NEGATIVE_INFINITY`, `MAX_VALUE`, `MIN_VALUE`, and `NaN`, alongside their associated methods like `getUTC*`, `setUTC*`, `toExponential`, `toFixed`, `toPrecision`, `parseInt`, and `parseFloat`.  The inclusion of `getUTC*` and `setUTC*` suggests a focus on handling time and timezone data within arrays.  The document also highlights the use of character sets and alternation (`[abc]`) within some methods, hinting at potential string manipulation capabilities.  Furthermore, it includes checks for finiteness (`isFinite`), integer values (`isInteger`), and NaN values (`isNaN`), demonstrating a comprehensive approach to array data validation and handling. The use of `entries()`, `keys()`, and `values()` indicates a focus on iterating through array elements, likely for data processing or transformation. The document's terminology and notation (e.g., `x*`, `cb(e,i,a)`, `arg`) suggests it's likely a technical reference or a snippet from a more extensive documentation set related to JavaScript array manipulation and data handling. The inclusion of `radix` in `parseInt` and `parseFloat` indicates support for different number systems. The document provides a detailed overview of the core functionalities for working with arrays in JavaScript, covering both data manipulation and numerical operations.",
+    "summary": "This document excerpt presents a technical reference for JavaScript prototype methods, specifically focusing on those associated with the Array object. It details various methods used for manipulating arrays, including grouping, iteration, filtering, mapping, reducing, and testing. The document covers methods like `every()`, `filter()`, `find()`, `findIndex()`, `forEach()`, `map()`, `reduce()`, `reduceRight()`, `some()`, `parseInt()`, `parseFloat()`, `charAt()`, and numerous related functions.  It outlines the purpose of each method, including their arguments (e.g., `cb(e,i,a)` for callback functions, `dec` for decimal places, `ind` for index, `radix` for the number system).  The document also defines key properties like `EPSILON`, `MAX_VALUE`, `MIN_VALUE`, `NaN`, `POSITIVE_INFINITY`, `NEGATIVE_INFINITY`, and their associated behaviors.  Furthermore, it highlights the `getUTC*()` and `setUTC*()` methods for handling time and timezone information, along with the `isFinite()` and `isInteger()` methods for validating numeric values. The excerpt is a snippet from a larger documentation set, likely intended for developers working with JavaScript and the Array object's built-in methods. The notation used (e.g., `x*`, `n`) suggests a technical documentation format, possibly generated automatically from the JavaScript engine's source code. The inclusion of `getUTC*()` and `setUTC*()` indicates a focus on handling time zones and potentially internationalization within the JavaScript environment. The document's structure and terminology are typical of technical documentation for programming languages and their associated APIs. It serves as a quick reference for developers needing to understand and utilize these array methods.",
     "keywords": [
       "assertionsquantifiers",
       "grouping",
@@ -106269,17 +106272,17 @@
       "Capture groups in assertions quantifiers",
       "Grouping methods for organizing expressions",
       "Callbacks for executing code within loops and functions",
-      "Properties related to numbers (getUTC*, setUTC*, MAX_VALUE, MIN_VALUE, NaN, EPSILON)",
-      "String manipulation methods (charAt)",
-      "Type conversion methods (parseInt, parseFloat)",
+      "Properties related to numbers (e.g., toExponential, toFixed, toPrecision, MAX_VALUE, MIN_VALUE, NaN, EPSILON, isFinite, isInteger, isNaN)",
+      "String manipulation methods (e.g., charAt)",
       "Dynamic Imports",
       "Event Handling (e.onDragEnter, e.onDragLeave, etc.)",
       "CSS Media Queries (matchMedia)",
-      "Window Properties (innerWidth, innerHeight, etc.)"
+      "Window Properties (innerWidth, innerHeight, etc.)",
+      "Browser Global Objects (window, navigator, document)"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Document: JavaScript Array Methods and Properties",
+    "content_preview": "Document: JavaScript Prototype Methods Documentation (Array)",
     "target_audience": "Professionals in technology field",
     "industry": [
       "Software Development / Data Analysis / JavaScript Libraries",
@@ -106313,9 +106316,8 @@
     ],
     "tools_mentioned": [
       "Regular Expression Engine",
-      "Array Methods",
       "Node.js (implied by file.js)",
-      "Browser APIs (e.g., window, navigator, document, performance)"
+      "Browser APIs (e.g., window, navigator, DOM)"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
@@ -106324,10 +106326,10 @@
       "Understand technology concepts"
     ],
     "use_cases": [
-      "Array Manipulation",
       "Data Transformation",
-      "Testing and Validation",
+      "Array Manipulation",
       "String Processing",
+      "Numerical Calculations",
       "DOM Event Handling"
     ],
     "benefits_mentioned": [
@@ -106344,7 +106346,7 @@
     "questions_and_answers": [
       "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Capture groups in assertions quantifiers, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
       "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights JavaScript, Regular Expressions, JSON as transformative technologies in the context of Software Development / Data Analysis / JavaScript Libraries, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
-      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Array Manipulation, Data Transformation, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Data Transformation, Array Manipulation, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
       "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in assertionsquantifiers, grouping, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
       "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to capture groups in assertions quantifiers, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
