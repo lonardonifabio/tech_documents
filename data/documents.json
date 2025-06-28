@@ -10637,12 +10637,12 @@
   {
     "id": "ee9f2f6c7d0045e03512222fb42d3e82",
     "filename": "AI_project_1604680572.pdf",
-    "title": "Building Perfect AI Projects: Addressing Limitations",
+    "title": "Building Perfect AI-Based Projects: Addressing Limitations",
     "authors": [],
     "filepath": "documents/AI_project_1604680572.pdf",
-    "upload_date": "2025-06-24T18:45:37.724881",
+    "upload_date": "2025-06-27T22:32:46.279501",
     "file_size": 2495096,
-    "summary": "This document excerpt focuses on the key challenges and considerations involved in developing robust and effective AI-based applications. It highlights that despite significant advancements in artificial intelligence, several limitations persist within the technology. The primary concerns outlined are bias, cost, and time constraints.  Bias is a significant issue, stemming from the data used to train AI systems, which can inadvertently reflect existing societal biases or historical inequities, even when seemingly neutral variables are excluded. The document specifically mentions the potential for bias arising from framing the problem, data collection, and data preparation processes.  Furthermore, the document emphasizes the substantial financial costs associated with AI development, citing the estimated $4.6 million training cost of GPT-3 and a projected $2.6 billion cost for a model mirroring the human brain. These costs relate to both energy consumption and hardware requirements. Finally, the excerpt acknowledges hardware limitations, particularly concerning computational resources, as a factor hindering AI development progress. The document implicitly suggests that overcoming these limitations – bias, cost, and time – is crucial for building ‘perfect’ AI applications. It’s a call to action for developers to be aware of and proactively address these challenges during the design and implementation phases of AI projects. The document’s tone is informative and cautionary, urging a careful and strategic approach to AI development.",
+    "summary": "This document excerpt focuses on the challenges and limitations currently present within Artificial Intelligence (AI) technology. It highlights that despite significant advancements, AI systems are susceptible to bias, primarily stemming from biased training data reflecting historical or social inequities. The document details how bias can arise during problem framing, data collection, and data preparation. A key concern raised is the substantial cost associated with AI development, citing the $4.6 million training cost of GPT-3 and a projected $2.6 billion cost for a human-brain-like model. Furthermore, the excerpt emphasizes hardware limitations, specifically limited computational resources, which impact the feasibility of training complex AI models. The document implicitly advocates for a strategic approach to AI project development, urging developers to proactively address these limitations to build truly effective and unbiased AI applications. The core message is that achieving 'perfect' AI requires careful consideration of bias, cost, and hardware constraints. It’s a foundational piece likely intended for those starting to explore AI project development, emphasizing the need for a realistic understanding of the technological hurdles involved.",
     "keywords": [
       "AI",
       "algorithms",
@@ -10654,13 +10654,13 @@
       "hardware"
     ],
     "key_concepts": [
-      "AI limitations and the need to overcome them",
-      "Bias in AI systems due to biased training data",
-      "The high cost of training large AI models (e.g., GPT-3)"
+      "AI systems learn from biased training data.",
+      "AI bias can arise from various stages of development (framing, data collection, data preparation).",
+      "Training AI models is extremely costly, potentially reaching millions or billions of dollars."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Building Perfect AI Projects: Addressing Limitations",
+    "content_preview": "Document: Building Perfect AI-Based Projects: Addressing Limitations",
     "target_audience": "Professionals in ai field",
     "industry": [
       "Artificial Intelligence"
@@ -10717,11 +10717,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores AI limitations and the need to overcome them, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores AI systems learn from biased training data., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
       "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights artificial intelligence, machine learning, algorithms as transformative technologies in the context of Artificial Intelligence, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
       "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including AI Application Development, Bias Detection and Mitigation, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
       "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in AI, algorithms, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
-      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to ai limitations and the need to overcome them, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to ai systems learn from biased training data., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
