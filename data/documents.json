@@ -53598,12 +53598,14 @@
   {
     "id": "a7b7ca43b590fc3e931da0de593c7e44",
     "filename": "Linear_Regression_1567266618.pdf",
-    "title": "Linear Regression - Andrew Ng's CS 60050 Slides",
-    "authors": [],
+    "title": "Linear Regression",
+    "authors": [
+      "Andrew Ng"
+    ],
     "filepath": "documents/Linear_Regression_1567266618.pdf",
-    "upload_date": "2025-06-24T22:18:05.846329",
+    "upload_date": "2025-06-27T22:32:52.912568",
     "file_size": 2628008,
-    "summary": "This document excerpt outlines the core concepts of linear regression, drawing heavily from course materials developed by Andrew Ng (CS 60050). It presents a foundational introduction to the problem of predicting house prices based on living area, framing it as a supervised learning task. The central focus is on understanding how to learn a function, denoted as h(x), that accurately predicts the target variable (y) given the input features (x). The document clearly defines key terms such as 'hypothesis function,' 'parameters' (θi), 'features,' and 'target variables.' It emphasizes the assumption of a linear relationship between the input and output variables, a cornerstone of univariate linear regression.  The document details the process of learning the parameters (θ) through fitting a straight line to the training data. It explains that the values of the parameters determine the equation of the line. Specifically, it highlights θ0 as the zero condition and θ1 as the gradient. The concept of a training set is introduced, where the goal is to learn a function that can predict the prices of houses of other sizes in the city, as a function of their living area. The document also briefly touches upon multivariate linear regression, suggesting an extension of the concept. The use of indices (i) to represent training examples and the definition of a single training example (xi, yj) are provided. The document serves as a concise introduction to the fundamental principles of linear regression, providing a clear explanation of the underlying mathematical and conceptual elements. It's a simplified overview suitable for beginners learning about this widely used regression technique. The document's focus on fitting a straight line to the data and learning the parameters to define that line makes it a clear and accessible explanation of the core ideas.",
+    "summary": "This document excerpt provides an introduction to linear regression, focusing on using a dataset of living area and house prices to learn a predictive model. It establishes linear regression as an example of supervised learning, specifically a regression problem when the target variable (house price) is continuous. The core concept revolves around learning a hypothesis function, denoted as h(x), which maps input features (living area - x) to a predicted output (y). The document details the representation of this function using parameters (θ), including θ0 (the zero condition) and θ1 (the gradient). It emphasizes the use of a training set to determine the optimal values for these parameters, aiming to fit a straight line to the data. The excerpt explains the relationship between the parameters and the equation of the line. It also briefly touches upon the concept of multivariate linear regression, suggesting that the principles extend to scenarios with multiple input variables. The document highlights the importance of the training set in determining the parameters of the model, ultimately leading to a predictive model for house prices based on living area. The use of 'x' and 'y' variables are defined as input and output variables, respectively, and the concept of a single training example (ith training example) is introduced. The document serves as a foundational explanation of linear regression, suitable for introductory learning.",
     "keywords": [
       "Linear Regression",
       "Machine Learning",
@@ -53612,18 +53614,19 @@
       "Parameters",
       "Training Set",
       "Living Area",
-      "Price"
+      "Price",
+      "Features",
+      "Target Variables"
     ],
     "key_concepts": [
       "Univariate linear regression: Assuming y is a linear function of x.",
       "Regression problem: When the target variable is continuous.",
-      "θi are parameters: The values that define the hypothesis function.",
-      "θ0 is zero condition: A specific parameter value.",
-      "h(x) is a good predictor: The goal of learning the hypothesis function."
+      "θi are parameters: θ0 is zero condition, θ1 is gradient, θ: vector of all parameters.",
+      "Fitting a straight line to the data in the training set to predict y."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Linear Regression - Andrew Ng's CS 60050 Slides",
+    "content_preview": "Document: Linear Regression",
     "target_audience": "Professionals in machine learning field",
     "industry": [
       "Real Estate / Data Science / Machine Learning"
