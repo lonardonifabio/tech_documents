@@ -31573,9 +31573,9 @@
     "title": "Introduction to Deep Learning",
     "authors": [],
     "filepath": "documents/Deep_learning_1718550571.pdf",
-    "upload_date": "2025-06-25T08:33:12.532113",
+    "upload_date": "2025-06-28T12:27:06.117793",
     "file_size": 15159441,
-    "summary": "This course provides a foundational understanding of deep learning, targeting individuals seeking to enter the field of AI and specifically deep learning engineering. The course emphasizes practical skills, equipping learners with the knowledge to build, train, and apply fully connected deep neural networks. It delves into the core concepts of deep learning, explaining how it works beyond superficial descriptions, focusing on the underlying principles and key parameters within neural network architectures. Specifically, the course covers major technology trends driving deep learning, the application of neural networks, and the mechanics of a single neuron, relating it to linear regression and perceptrons. Learners will gain the ability to understand and implement efficient vectorized neural networks. The course aims to bridge the gap between theoretical knowledge and practical application, enabling participants to address basic interview questions and ultimately apply deep learning to their own projects. It's designed for those wanting to develop a strong base in deep learning, preparing them for roles as deep learning engineers and providing the skills needed to tackle real-world AI challenges. The course material includes explanations of key concepts like weighted sums, thresholds, and the relationship between neural networks and linear regression, offering a solid foundation for further study and development in this rapidly evolving field. The course's focus on practical implementation and understanding the core mechanics of neural networks distinguishes it from introductory courses that may only provide a surface-level overview.",
+    "summary": "This course provides a foundational understanding of deep learning, targeting individuals seeking to enter the field of artificial intelligence and specifically, deep learning engineering. The course emphasizes practical application and aims to equip learners with the skills necessary to build and deploy AI systems. It begins with explaining the core concepts of neural networks, starting with the basics of a single neuron and its relationship to linear regression and perceptrons. Learners will gain an understanding of how weighted sums and thresholds are used to predict outputs. The course covers key trends driving the rise of deep learning, its applications, and the architecture of neural networks, including the importance of parameters.  Specifically, the course will enable participants to build, train, and apply fully connected deep neural networks.  A core focus is on understanding the 'how' of deep learning, moving beyond superficial explanations.  Upon completion, students will be prepared to answer basic interview questions related to deep learning and will have the ability to apply deep learning techniques to their own projects. The course bridges the gap between theoretical knowledge and practical implementation, making it suitable for those transitioning into AI careers or seeking to expand their skillset in this rapidly evolving field. The course's emphasis on vectorized neural networks and efficient implementation further enhances its value for aspiring deep learning engineers.",
     "keywords": [
       "deep learning",
       "neural networks",
@@ -31593,12 +31593,12 @@
       "Building and training neural networks",
       "Understanding neural network architecture and parameters",
       "Linear regression and perceptrons",
-      "Vectorization: Utilizing NumPy's vectorized operations to replace explicit loops, leading to performance improvements.",
-      "Broadcasting: NumPy's mechanism for performing operations on arrays with different shapes by automatically expanding the smaller arrays.",
-      "SIMD (Single Instruction, Multiple Data): A technique that allows a single instruction to operate on multiple data points simultaneously, often utilized with GPU acceleration.",
-      "Logistic Regression Implementation: Demonstrating the process of implementing Logistic Regression using both a for loop and a vectorized approach.",
+      "Vectorization: Utilizing NumPy's vectorized operations to avoid explicit for loops for improved performance.",
+      "Broadcasting: NumPy's automatic shape adjustment mechanism for operations on matrices with different shapes.",
+      "SIMD (Single Instruction, Multiple Data): Parallel execution of operations on multiple data points simultaneously, often leveraging GPU acceleration.",
+      "Logistic Regression Implementation:  Demonstrates the process of implementing Logistic Regression using both a for loop and a vectorized approach.",
       "Symmetry breaking problem",
-      "Weight saturation"
+      "Activation function saturation"
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
@@ -31619,7 +31619,7 @@
       "neural networks",
       "perceptron",
       "linear regression",
-      "vectorized neural networks"
+      "NumPy"
     ],
     "processes": [
       "Analysis",
@@ -31632,7 +31632,7 @@
     ],
     "methodologies": [
       "training",
-      "application",
+      "vectorized",
       "Vectorization",
       "Broadcasting",
       "gradient descent"
