@@ -109916,11 +109916,13 @@
     "id": "2740b833c82e84d6b2723caf56861dbe",
     "filename": "sql cheat sheet.pdf",
     "title": "SQL Query Examples and Concepts",
-    "authors": [],
+    "authors": [
+      "AI Assistant"
+    ],
     "filepath": "documents/sql cheat sheet.pdf",
-    "upload_date": "2025-06-24T18:45:52.288938",
+    "upload_date": "2025-06-27T22:33:00.926647",
     "file_size": 230259,
-    "summary": "This document excerpt presents a collection of SQL query examples illustrating fundamental SQL operations and concepts. It covers various join types including INNER JOIN, LEFT JOIN, FULL OUTER JOIN, and CROSS JOIN, demonstrating how to combine data from multiple tables. The excerpt also details the use of WHERE clauses for filtering data based on conditions, including pattern matching with LIKE and IN operators. Furthermore, it showcases aggregate functions (GROUP BY and aggregate) for summarizing data, along with the DISTINCT keyword for retrieving unique values. The document also highlights the use of UNION, INTERSECT, and MINUS for combining and subtracting result sets. Finally, it demonstrates sorting results using ORDER BY and selecting all rows and columns from a table using SELECT *.\n\nThe examples provided cover essential SQL syntax and techniques, providing a foundational understanding of how to retrieve, filter, and manipulate data within a relational database. The inclusion of different join types emphasizes the importance of selecting the appropriate join strategy based on the desired outcome. The use of pattern matching and list operators further expands the capabilities of SQL for data extraction and filtering. The document serves as a concise reference for beginners learning SQL or as a reminder of key concepts for experienced users.",
+    "summary": "This document excerpt presents a collection of common SQL query examples and concepts. It covers various types of joins (INNER, LEFT, FULL OUTER, CROSS), including their syntax and purpose.  The examples demonstrate how to perform joins between tables (t1 and t2), utilizing `JOIN`, `LEFT JOIN`, `FULL OUTER JOIN`, and `CROSS JOIN` clauses.  It also illustrates the use of `UNION`, `INTERSECT`, and `MINUS` operators for combining and subtracting result sets.  Furthermore, the excerpt showcases fundamental SQL operations such as `SELECT *`, `SELECT c1, c2`, `WHERE` clause with pattern matching (using `%` and `_`), `WHERE` clause with `IN` operator, and `ORDER BY` clause for sorting results. The examples highlight the use of aggregate functions and the `HAVING` clause for filtering groups.  The document provides a concise overview of essential SQL syntax and techniques, suitable for beginners learning SQL or for reviewing common query patterns. The examples cover a wide range of SQL operations, including filtering, sorting, aggregation, and set operations, making it a valuable resource for understanding and writing SQL queries.  The inclusion of pattern matching and list filtering further expands the scope of the examples, demonstrating how to handle more complex data selection scenarios.  The document's focus on fundamental SQL concepts makes it a solid starting point for anyone embarking on a SQL learning journey.",
     "keywords": [
       "SELECT",
       "FROM",
@@ -109940,9 +109942,7 @@
       "Filtering data with WHERE clause",
       "Grouping data with GROUP BY and HAVING clause",
       "Sorting data with ORDER BY clause",
-      "Distinct values with DISTINCT keyword",
-      "Pattern matching with LIKE",
-      "List comparison with IN"
+      "Distinct values using DISTINCT keyword"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
@@ -109974,10 +109974,10 @@
     ],
     "methodologies": [
       "Querying",
-      "Filtering",
-      "Aggregation",
-      "Sorting",
-      "Combining Queries"
+      "Data Filtering",
+      "Data Aggregation",
+      "Data Joining",
+      "Data Sorting"
     ],
     "tools_mentioned": [
       "SQL Database"
