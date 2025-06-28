@@ -78029,11 +78029,13 @@
     "id": "0ccd8773cea193be91a28b2b30236beb",
     "filename": "Python_HandBook_1630510953.pdf",
     "title": "Introduction to Python",
-    "authors": [],
+    "authors": [
+      "Flavio"
+    ],
     "filepath": "documents/Python_HandBook_1630510953.pdf",
-    "upload_date": "2025-06-24T22:18:09.479312",
+    "upload_date": "2025-06-27T22:32:56.513602",
     "file_size": 7700958,
-    "summary": "This document excerpt is an introduction to the \"Python Handbook\" book, which aims to provide a concise and effective overview of the Python programming language. The book utilizes the 80/20 rule, suggesting that learners can achieve a solid understanding of Python's core concepts within a relatively short timeframe. It emphasizes a focused approach, prioritizing the fundamental aspects of the language and avoiding an exhaustive treatment of all Python-related topics. The author, Flavio, is a web development tutorial creator who publishes daily content on his website, flaviocopes.com, and can be found on Twitter @flaviocopes. The excerpt highlights Python's rapidly increasing popularity and its significance in the computing world. It sets the stage for a practical guide to learning the basics of Python, focusing on core concepts like data types, operators, control flow, and data structures such as lists, tuples, dictionaries, and sets. The book's structure includes chapters on fundamental programming concepts, object-oriented programming, and the use of external libraries and tools like pip and virtual environments. The excerpt serves as a welcoming introduction to the book's philosophy and scope, promising a streamlined learning experience for beginners. It also provides contact information for the author, encouraging readers to engage with his work and community.",
+    "summary": "This document excerpt is an introduction to the \"Python Handbook\", a book focused on providing a well-rounded overview of the core concepts of the Python programming language. The book follows the 80/20 rule, aiming to cover 80% of the essential topics within 20% of the time, prioritizing simplification of complex areas. Flavio, the author, is a web development tutorial creator who publishes daily content on his website, flaviocopes.com, and can be reached on Twitter @flaviocopes. The excerpt highlights Python's rapid growth in popularity and the book's intention to teach the fundamental basics of Python. It outlines key topics such as data types, operators, control statements, lists, tuples, dictionaries, sets, functions, objects, loops, classes, modules, the Python Standard Library, and debugging. The book emphasizes a practical approach to learning, focusing on core concepts and utilizing tools like pip for installing third-party packages and virtual environments. The excerpt serves as a welcoming introduction to the book and its author, setting the stage for a comprehensive exploration of Python programming. It also touches upon advanced concepts like lambda functions, recursion, nested functions, closures, decorators, docstrings, introspection, annotations, exceptions, and the with statement, indicating a progressive learning path.",
     "keywords": [
       "Python",
       "Programming",
@@ -78053,7 +78055,7 @@
       "Learning the basics of Python."
     ],
     "category": "Technology",
-    "difficulty": "Intermediate",
+    "difficulty": "Basic",
     "content_preview": "Document: Introduction to Python",
     "target_audience": "Professionals in technology field",
     "industry": [
