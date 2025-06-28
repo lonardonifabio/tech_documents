@@ -80167,11 +80167,13 @@
     "id": "0a654bc72c21b353e67065d68bc91959",
     "filename": "Python_for_Machine_Learning_Visualization_1735238818.pdf",
     "title": "Python for Machine Learning Visualization - Heart Disease Dataset",
-    "authors": [],
+    "authors": [
+      "Syed Afroz Ali"
+    ],
     "filepath": "documents/Python_for_Machine_Learning_Visualization_1735238818.pdf",
-    "upload_date": "2025-06-24T22:18:09.791311",
+    "upload_date": "2025-06-28T06:30:36.955378",
     "file_size": 10604223,
-    "summary": "This document excerpt presents a Kaggle notebook created by Syed Afroz Ali (Kaggle Grand Master) focused on visualizing data related to heart disease using Python and machine learning techniques. The notebook, titled 'Python for Machine Learning Visualization Part 01', provides a practical guide on how to analyze and visualize a dataset, specifically the UCI Heart Disease dataset. The code demonstrates the use of Python libraries such as pandas, numpy, seaborn, plotly.express, and plotly.graph_objects for data manipulation, analysis, and visualization.  The notebook begins by loading the 'heart_disease_uci.csv' dataset into a pandas DataFrame. It then performs data cleaning by removing missing values (NaN) using `df.dropna()`. The code then displays the first two rows of the DataFrame using `df.head(2)` and prints the number of records and columns.  A key part of the notebook involves identifying the most frequent chest pain types ('cp') using `df['cp'].value_counts().nlargest(4).index`, which are 'asymptomatic', 'non-anginal', 'atypical angina', and 'typical angina'.  The code then generates a scatter plot using seaborn, visualizing the relationship between age and cholesterol levels, but only for records where the chest pain type falls within the top 4 categories.  The scatter plot is colored based on the chest pain type, allowing for a visual comparison of these variables. The code utilizes plotly.express and plotly.graph_objects for creating interactive visualizations.  The notebook provides a foundational example of how to use Python for data exploration and visualization in the context of machine learning, specifically targeting the analysis of a heart disease dataset. The use of interactive plotting libraries like Plotly enhances the user's ability to explore the data and gain insights.",
+    "summary": "This Kaggle notebook, authored by Syed Afroz Ali (a Kaggle Grand Master), focuses on visualizing data related to heart disease using Python and the UCI Heart Disease dataset. The notebook provides a practical demonstration of data visualization techniques within the context of machine learning. It begins by loading the 'heart_disease_uci.csv' dataset using pandas. The code then performs data cleaning by removing missing values (NaNs) using `df.dropna()`.  The notebook showcases the first two rows of the dataset using `df.head(2)`. It calculates the frequency of different chest pain types ('cp') using `value_counts()` and displays the top 4 most frequent categories.  A scatter plot is generated using seaborn, visualizing the relationship between 'age' and 'cholesterol' ('chol') for patients categorized by these top 4 chest pain types. The plot uses color-coding based on the 'cp' column, allowing for visual comparison of cholesterol levels across different pain types. The code utilizes various Python libraries including pandas, numpy, seaborn, plotly.express, plotly.graph_objects, and plotly.figure_factory.  Specific configurations like setting the display precision to 2 decimal places are also included. The notebook serves as a tutorial on applying data visualization techniques to a machine learning dataset, demonstrating how to explore and understand the data through visual representations. The code is designed to be easily adaptable for further analysis and experimentation.",
     "keywords": [
       "data visualization",
       "Kaggle",
@@ -80192,8 +80194,8 @@
       "Creating pie charts using Plotly's graph_objects library.",
       "Filtering a DataFrame based on column values (e.g., 'cp' column).",
       "Using column names as labels and values in pie charts.",
-      "Updating layout parameters for charts (font family, color, title sizes).",
-      "Specifying subplot titles for different chart segments."
+      "Specifying subplot titles for different data categories.",
+      "Updating layout parameters like font family and size."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
@@ -80248,7 +80250,7 @@
       "Machine Learning Model Development",
       "Predictive Analytics",
       "Patient Data Analysis",
-      "Diagnostic Analysis"
+      "Diagnostic Support"
     ],
     "benefits_mentioned": [
       "Improved understanding",
