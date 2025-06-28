@@ -79766,11 +79766,13 @@
     "id": "a5a498b11fb49789a8f652e92aa91a0b",
     "filename": "Python_for_Everybody_1633415756.pdf",
     "title": "Python for Everybody Exploring Data Using Python 3",
-    "authors": [],
+    "authors": [
+      "Dr. Charles R. Severance"
+    ],
     "filepath": "documents/Python_for_Everybody_1633415756.pdf",
-    "upload_date": "2025-06-24T22:18:09.681311",
+    "upload_date": "2025-06-28T06:30:36.846379",
     "file_size": 2379674,
-    "summary": "This document excerpt details the contents and origins of the book \"Python for Everybody: Exploring Data Using Python 3\" by Dr. Charles R. Severance. The book is designed to teach individuals lifelong data handling skills using Python, focusing on exploring data rather than complex algorithms and abstractions. It’s a comprehensive guide intended for beginners. The book’s development stemmed from Dr. Severance’s experience teaching SI502 - Networked Programming at the University of Michigan, where he recognized a need for a Python textbook specifically geared towards data exploration.  A key element of the book’s creation involves ‘remixing’ content from Allen B. Downey’s \"Think Python: How to Think Like a Computer Scientist.\"  The initial version of the book was created in December 2009, and it represents the first complete Python 3.0 version.  The book utilizes a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License, allowing for redistribution and adaptation under specific conditions.  The excerpt highlights the book's core purpose: to equip readers with practical data handling skills using Python, a skill set intended to be valuable throughout a person's career.  The book’s development reflects a pedagogical approach focused on immediate, applicable skills rather than theoretical understanding.  The inclusion of the ‘Copyright Details’ section indicates a formal licensing agreement and clarifies the author’s stance on commercial and non-commercial uses of the material, further solidifying the book's commitment to open access and educational purposes. The document also provides a timeline of the book's creation, starting with the initial Python 3.0 rough conversion in 2015 and culminating in the 2016 release.",
+    "summary": "This document excerpt details the book \"Python for Everybody Exploring Data Using Python 3\", authored by Dr. Charles R. Severance. The book is designed to teach individuals lifelong data handling skills using Python, focusing on exploring data rather than solely on understanding algorithms and abstractions. It’s a complete version of Python 3.0 and builds upon the earlier \"Think Python\" book by Allen B. Downey, Jeﬀ Elkner, and others. The core concept is \"remixing\" existing material, specifically \"Think Python\", to create a resource for teaching data handling skills.  The book was initially developed for the SI502 - Networked Programming course at the University of Michigan, with the aim of equipping students with practical, long-term data management capabilities.  The book utilizes a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License, and a detailed appendix addresses copyright considerations and clarifies commercial versus non-commercial uses of the material.  The excerpt highlights the book's approach to fostering a continuous learning mindset, particularly relevant in academic environments where 'publish or perish' pressures are prevalent.  It emphasizes a hands-on, data-centric approach to learning Python, making it accessible to individuals without a prior deep understanding of computer science fundamentals. The book's development reflects a deliberate strategy to provide a practical, immediately applicable skill set, rather than theoretical knowledge alone. The excerpt underscores the importance of adapting educational materials to meet specific learning objectives and student needs, demonstrating a flexible and responsive approach to textbook creation.",
     "keywords": [
       "Python",
       "Data",
@@ -79796,7 +79798,7 @@
       "Math functions perform mathematical operations."
     ],
     "category": "Data Science",
-    "difficulty": "Intermediate",
+    "difficulty": "Basic",
     "content_preview": "Document: Python for Everybody Exploring Data Using Python 3",
     "target_audience": "Professionals in data science field",
     "industry": [
@@ -79815,8 +79817,8 @@
       "Python",
       "conditional execution",
       "functions",
-      "random numbers",
-      "lists"
+      "exception handling",
+      "random numbers"
     ],
     "processes": [
       "Analysis",
@@ -79830,9 +79832,9 @@
     "methodologies": [
       "Data Exploration",
       "try-except",
-      "debugging",
       "looping",
-      "parsing"
+      "parsing",
+      "Object-Oriented Programming"
     ],
     "tools_mentioned": [
       "built-in functions",
@@ -79850,7 +79852,7 @@
     "use_cases": [
       "Data Exploration",
       "Lifelong Learning",
-      "Teaching Programming",
+      "Programming Education",
       "Conditional Logic Implementation",
       "Error Handling"
     ],
