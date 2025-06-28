@@ -96791,11 +96791,14 @@
     "id": "f71aac83ad36a622a0dad754aac79249",
     "filename": "Top_Google_Questions_Part_1_1652423188.pdf",
     "title": "Singly Linked List Operations and Algorithms",
-    "authors": [],
+    "authors": [
+      "Unknown",
+      "Unknown"
+    ],
     "filepath": "documents/Top_Google_Questions_Part_1_1652423188.pdf",
-    "upload_date": "2025-06-25T08:33:21.723248",
+    "upload_date": "2025-06-28T12:27:15.384876",
     "file_size": 10716910,
-    "summary": "This document excerpt presents code snippets and descriptions related to various operations and algorithms involving singly linked lists. It includes implementations for `contains`, `startsWith`, and `commonPrefix` functions, likely designed for a Trie or similar data structure.  Furthermore, the excerpt details solutions for two distinct problems: 1) Removing the nth node from the end of a singly linked list, providing a C++ implementation with a pointer-based approach and memory allocation using `new ListNode`. The solution utilizes a two-pointer technique (slow and fast) to efficiently locate the nth node from the end. 2) Merging k sorted linked lists, mirroring the logic of merge sort. The document also includes a description of the complexity analysis for the merge k sorted lists problem, suggesting an efficient solution. The code snippets are presented with comments and explanations, indicating a focus on practical implementation and algorithm understanding. The document showcases common data structure operations and algorithms, likely intended for educational or reference purposes. The inclusion of memory allocation using `new ListNode` highlights the importance of managing memory when working with linked lists. The document's content covers fundamental linked list operations and algorithms, providing a solid foundation for further exploration in data structures and algorithms.",
+    "summary": "This document excerpt presents code snippets and descriptions related to various operations and algorithms involving singly linked lists. It includes implementations for functions like `contains`, `startsWith`, and `commonPrefix`, likely designed for a Trie or similar data structure.  Crucially, it also contains detailed code solutions for two distinct linked list problems: 1) Removing the nth node from the end of a singly linked list, and 2) Merging k sorted linked lists. The 'removeNthFromEnd' solution utilizes a two-pointer approach, demonstrating a common strategy for this type of problem. The 'Merge k Sorted Lists' solution mimics the merge sort algorithm, highlighting its efficiency and complexity. The code includes a clear explanation of the algorithm's purpose and its complexity analysis, indicating it's an O(N) solution where N is the total number of nodes across all k lists. The document also provides a basic definition of a singly linked list, including the structure of a `ListNode` object with `val` and `next` pointers. The overall focus is on practical implementations and algorithmic analysis related to linked list manipulation, showcasing common techniques and problem-solving approaches. The inclusion of the 'Merge k Sorted Lists' solution further emphasizes the importance of sorting algorithms in the context of linked lists.",
     "keywords": [
       "linked list",
       "merge k sorted lists",
@@ -96814,7 +96817,7 @@
     "target_audience": "Professionals in data science field",
     "industry": [
       "Software Development / Algorithm & Data Structures",
-      "Software Development / Data Structures & Algorithms"
+      "Software Development / Data Structures / Algorithms"
     ],
     "business_functions": [
       "Research and Development",
