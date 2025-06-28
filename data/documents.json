@@ -39843,28 +39843,47 @@
   {
     "id": "907cffc5dd3386c8c5f5e31e38fcc20b",
     "filename": "GUIA_DE_AGENTES_uba_derecho_1745136533.pdf",
-    "title": "Artificial Intelligence Agents and Agentic Workflows: The New Frontier of Automation",
-    "authors": [],
+    "title": "Artificial intelligence agents and agentic workflows: The new frontier of automation",
+    "authors": [
+      "Juan Gustavo Corvalán",
+      "Enzo María Le Fevre Cervini",
+      "Mariana Sánchez Caparrós"
+    ],
     "filepath": "documents/GUIA_DE_AGENTES_uba_derecho_1745136533.pdf",
-    "upload_date": "2025-06-17T09:28:55.502136",
+    "upload_date": "2025-06-28T18:57:57.979751",
     "file_size": 8195146,
-    "summary": "A practical guide to understanding what artificial intelligence agents and agentic workflows are, how they work, and when to use them. This document provides an overview of the concept of agentic AI and agentic workflows, including their applications and limitations.",
+    "summary": "This practical guide, published in 2025, delves into the concepts of artificial intelligence agents and agentic workflows, presenting them as a new frontier of automation. The book provides a foundational understanding of what these agents and workflows are, detailing their operational mechanisms and outlining suitable scenarios for their application. It’s a comprehensive resource aimed at those seeking to grasp the potential of AI agents and how they can be integrated into various processes. The publication originates from the Artificial Intelligence Laboratory of the UBA Faculty of Law in Buenos Aires, Argentina, and is available as a digital book in PDF format, offering both download and online access.  The content is governed by an open access license (Attribution-ShareAlike 3.0 IGO), emphasizing user agreement to the terms of use established by UBA IALAB. The book’s focus is on providing a clear and accessible introduction to this evolving field of automation, recognizing the significance of AI agents in shaping future workflows. The document includes disclaimers regarding the legal status of countries and territories, clarifying that UBA IALAB does not express opinions on these matters.  The availability of the publication is linked to the IALAB website, further solidifying its accessibility and promoting its use within the research and development community. The book’s structure is designed to facilitate a step-by-step understanding, making it a valuable tool for both novices and those seeking to expand their knowledge of agentic AI.",
     "keywords": [
-      "Artificial intelligence",
-      "Agentic workflows",
-      "Automation"
+      "artificial intelligence",
+      "agents",
+      "agentic workflows",
+      "automation",
+      "UBA IALAB",
+      "open access",
+      "CC-BY-SA 3.0 IGO",
+      "AI agent",
+      "Anthropic",
+      "OpenAI"
     ],
     "key_concepts": [
-      "Agentic AI",
-      "Agentic workflows",
-      "Automation"
+      "Understanding artificial intelligence agents and agentic workflows.",
+      "The practical application of AI agents and workflows.",
+      "Legal considerations regarding the publication's content and its relation to various jurisdictions.",
+      "Local execution of AI agents",
+      "Agentic AI systems – autonomous operation and task execution",
+      "Evolution of conversational agents to fully agentic AI systems",
+      "Generative AI's impact on task complexity and efficiency",
+      "The role of language models in content generation and quality improvement",
+      "Human-machine collaboration in the workplace, particularly regarding tasks requiring critical thinking and creativity"
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Artificial Intelligence Agents and Agentic Workflows: The New Frontier of Automation",
+    "content_preview": "Document: Artificial intelligence agents and agentic workflows: The new frontier of automation",
     "target_audience": "Professionals in technology field",
     "industry": [
-      "Artificial Intelligence"
+      "Artificial Intelligence, Automation, Law",
+      "Financial Technology (FinTech) / Artificial Intelligence",
+      "Artificial Intelligence, Technology, Business Process Optimization"
     ],
     "business_functions": [
       "Research and Development",
@@ -39872,25 +39891,33 @@
     ],
     "companies": [],
     "technologies": [
-      "tech1",
-      "tech2"
+      "Artificial Intelligence",
+      "AI Agents",
+      "Agentic Workflows",
+      "Anthropic",
+      "OpenAI"
     ],
     "processes": [
       "Analysis",
       "Implementation"
     ],
     "technical_terms": [
-      "Artificial intelligence",
-      "Agentic workflows",
-      "Automation"
+      "artificial intelligence",
+      "agents",
+      "agentic workflows"
     ],
     "methodologies": [
-      "method1",
-      "method2"
+      "Automation",
+      "conversational agents",
+      "agentic AI",
+      "optimization",
+      "transformation"
     ],
     "tools_mentioned": [
-      "tool1",
-      "tool2"
+      "PDF Digital File",
+      "Digital Book",
+      "web access",
+      "C"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
@@ -39899,7 +39926,11 @@
       "Understand technology concepts"
     ],
     "use_cases": [
-      "Automation"
+      "Automation of workflows",
+      "AI agent implementation",
+      "AI-powered computer management",
+      "Web-based task execution by AI agents",
+      "Process automation"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -39913,11 +39944,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: Artificial Intelligence Agents and Agentic Workflows: The New Frontier of Automation",
-      "Q: What category? A: Technology",
-      "Q: Key concepts? A: Artificial intelligence, Agentic workflows, Automation",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Understanding artificial intelligence agents and agentic workflows., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Artificial Intelligence, AI Agents, Agentic Workflows as transformative technologies in the context of Artificial Intelligence, Automation, Law, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Automation of workflows, AI agent implementation, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in artificial intelligence, agents, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to understanding artificial intelligence agents and agentic workflows., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
