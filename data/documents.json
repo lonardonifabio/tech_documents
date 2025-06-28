@@ -36171,79 +36171,94 @@
   {
     "id": "affd723df69e5863a4fd9bf4cc3f1ae1",
     "filename": "Excel_Formulas_Cheat_Sheet_1642235838.pdf",
-    "title": "Excel Formulas Cheat Sheet",
-    "authors": [],
+    "title": "Excel Database Functions Cheat Sheet",
+    "authors": [
+      "Unknown"
+    ],
     "filepath": "documents/Excel_Formulas_Cheat_Sheet_1642235838.pdf",
-    "upload_date": "2025-06-17T09:28:55.181131",
+    "upload_date": "2025-06-28T18:57:57.643749",
     "file_size": 237571,
-    "summary": "This document provides an overview of various database functions available in Excel, including average, count, maximum, minimum, standard deviation, product, and sum calculations. It also covers date and time functions such as serial number conversion, day conversion, and days 360 calculation.",
+    "summary": "This document excerpt presents a cheat sheet detailing various Excel database functions available within the Excel environment. It primarily focuses on functions designed for working with data stored in databases, offering a concise overview of their functionalities. The document categorizes these functions into two main groups: Database Functions and Date and Time Functions.  The Database Functions section lists functions like DAVERAGE, DCOUNT, DCOUNTA, DGET, DMAX, DMIN, DSTDEV, DPRODUCT, DSTDEVP, DSUM, and DVAR, each described with its purpose – calculating averages, counting numeric cells, extracting records based on criteria, finding maximum and minimum values, estimating standard deviation (both sample and population), multiplying values, calculating standard deviation, and summing values within a database.  Each function's description highlights its core operation within the context of database manipulation. The Date and Time Functions section includes functions such as DATE, DATEVALUE, DAY, and DAYS360, which are used for handling dates and times within Excel. DATE converts text to a serial number, DATEVALUE converts a date string to a serial number, DAY converts a serial number to the day of the month, and DAYS360 calculates the number of days between two dates using the 360-day rule. The document serves as a quick reference guide for users needing to perform common database operations and date calculations within Excel. It's a foundational resource for anyone working with data stored in Excel databases. The excerpt provides a brief but informative overview of these essential functions, enabling users to efficiently analyze and manipulate their data.",
     "keywords": [
+      "Excel Formulas",
+      "Database Functions",
+      "Date and Time Functions",
       "DAVERAGE",
       "DCOUNT",
       "DCOUNTA",
       "DGET",
       "DMAX",
       "DMIN",
-      "DSTDEV",
-      "DPRODUCT",
-      "DSTDEVP",
-      "DSUM"
+      "DSTDEV"
     ],
     "key_concepts": [
-      "Database Functions in Excel",
-      "Excel Formulas Cheat Sheet",
-      "Statistical Functions",
-      "Date and Time Functions",
-      "Treasury bill yield calculation",
-      "Depreciation methods",
-      "Internal rate of return and net present value calculations",
-      "A sentence expressing a concept of statistical functions",
-      "A sentence expressing a concept of data analysis",
-      "A sentence expressing a concept of mathematical concepts"
+      "Calculating the average of database entries using DAVERAGE.",
+      "Counting numeric cells in a database using DCOUNT.",
+      "Counting non-blank cells in a database using DCOUNTA.",
+      "Extracting a single record from a database based on criteria using DGET.",
+      "Finding the maximum value from selected database entries using DMAX.",
+      "Finding the minimum value from selected database entries using DMIN.",
+      "Estimating standard deviation based on a sample using DSTDEV.",
+      "Multiplying values in a field of records using DPRODUCT.",
+      "Calculating standard deviation based on the entire population using DSTDEVP.",
+      "Adding numbers in a field column of records using DSUM."
     ],
-    "category": "Technology",
+    "category": "Data Science",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Excel Formulas Cheat Sheet",
-    "target_audience": "Professionals in technology field",
+    "content_preview": "Document: Excel Database Functions Cheat Sheet",
+    "target_audience": "Professionals in data science field",
     "industry": [
+      "Data Analysis / Database Management",
       "Finance",
-      "Finance and Analytics"
+      "Statistics / Data Analysis / Mathematical Modeling"
     ],
     "business_functions": [
       "Research and Development",
       "Strategy"
     ],
     "companies": [],
-    "technologies": [],
+    "technologies": [
+      "Excel",
+      "Database",
+      "XIRR",
+      "XNPV",
+      "YIELD"
+    ],
     "processes": [
       "Analysis",
       "Implementation"
     ],
     "technical_terms": [
-      "DAVERAGE",
-      "DCOUNT",
-      "DCOUNTA"
+      "Excel Formulas",
+      "Database Functions",
+      "Date and Time Functions"
     ],
-    "methodologies": [],
+    "methodologies": [
+      "Data Analysis",
+      "Data Extraction",
+      "Statistical Analysis",
+      "declining balance method",
+      "statistical analysis"
+    ],
     "tools_mentioned": [
-      "Excel",
-      "VDB",
-      "XIRR",
-      "XNPV",
-      "YIELD"
+      "Excel Formulas",
+      "CELL",
+      "ERROR.TYPE",
+      "LINEST",
+      "NORMDIST"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand technology concepts"
+      "Understand data science concepts"
     ],
     "use_cases": [
-      "Database Management",
+      "Data Aggregation",
+      "Data Extraction",
       "Data Analysis",
-      "Financial Analysis",
-      "Risk Management",
-      "Predictive Modeling"
+      "Date and Time Manipulation",
+      "Yield Calculation"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -36257,13 +36272,13 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: Excel Formulas Cheat Sheet",
-      "Q: What category? A: Technology",
-      "Q: Key concepts? A: DAVERAGE, DCOUNT, DCOUNTA",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Calculating the average of database entries using DAVERAGE., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Excel, Database, XIRR as transformative technologies in the context of Data Analysis / Database Management, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Data Aggregation, Data Extraction, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Excel Formulas, Database Functions, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to calculating the average of database entries using daverage., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
-    "confidence_score": 0.9166666666666666
+    "confidence_score": 1.0
   },
   {
     "id": "3ab74018481b202a7048be51cf718d28",
