@@ -221,10 +221,6 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
         window.open(linkedInUrl, '_blank', 'width=600,height=600');
       }
       
-      // Show success message
-      setTimeout(() => {
-        alert(`✅ LinkedIn sharing opened!\n\n🎨 The post will now show a custom preview image generated specifically for this document.\n\n📝 The post content is pre-filled with document details and hashtags.`);
-      }, 500);
       
     } catch (error) {
       console.error('LinkedIn sharing failed:', error);
