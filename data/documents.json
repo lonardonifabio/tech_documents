@@ -25555,11 +25555,14 @@
     "id": "13beb634d7ee460d1f00527d19ef4398",
     "filename": "DS_Deepfakes_Cheap_FakesFinal.pdf",
     "title": "Deepfakes and Cheap Fakes: The Manipulation of Audio and Visual Evidence",
-    "authors": [],
+    "authors": [
+      "Britt Paris",
+      "Joan Donovan"
+    ],
     "filepath": "documents/DS_Deepfakes_Cheap_FakesFinal.pdf",
-    "upload_date": "2025-06-25T05:23:42.520710",
+    "upload_date": "2025-06-28T12:27:04.550779",
     "file_size": 3357157,
-    "summary": "This report, published under Data & Society’s Media Manipulation research initiative, delves into the rapidly evolving landscape of ‘deepfakes’ and ‘cheap fakes’ – specifically, the manipulation of audio and visual evidence. The core argument centers around whether these technologies represent a genuine ‘information apocalypse’ or simply a re-emergence of historical struggles for power utilizing new tools. The document begins with an executive summary outlining the key concerns. It then introduces the concept of ‘cheap fakes,’ defining them as AI-manipulated face swap videos, and categorizes them within a spectrum of manipulation techniques.  A significant portion of the report examines the proliferation of these techniques on social media, highlighting instances like ‘Photoshopping’ and the use of ‘lookalikes.’ The report also addresses the strategic use of ‘recontextualizing’ – speeding up or slowing down footage to alter perceptions.  The document specifically addresses the emergence of ‘deepfakes,’ noting the first widely-known examples appeared in November 2017. It explores the techniques involved, including virtual performances, face swapping, and lip-synching alongside voice synthesis.  The authors pose critical questions about whether these technologies signal an end to evidence as we know it, arguing that while the tools are new, the underlying struggle for power is not. The report emphasizes the importance of understanding the historical context of manipulation and how it’s being applied in the digital age.  Britt Paris, an assistant professor of Library and Information Science at Rutgers University, and Joan Donovan, director of the Technology and Social Change Research Project at Harvard Kennedy School, co-authored the report. The Data & Society initiative provides further context and resources, including focus areas, researchers, and funders, accessible through their website. The document’s central thesis is that the rise of deepfakes is not a novel phenomenon but rather a contemporary iteration of a long-standing human tendency to manipulate information for strategic advantage.",
+    "summary": "This report examines the growing threat of 'deepfakes' and 'cheap fakes' – manipulated audio and visual evidence – and their impact on information and trust. It explores the evolution of these techniques, starting with early examples of AI-manipulated face swap videos appearing in November 2017. The document highlights how these technologies, increasingly accessible and affordable, are being used to create convincing forgeries, posing a significant challenge to the veracity of evidence. It delves into the 'cheap fakes' spectrum, encompassing various methods like photoshopping and lookalikes, alongside more sophisticated deepfake techniques involving face swapping and voice synthesis. The report argues that while the technology is new, the underlying struggle for power and manipulation is not, simply manifesting in a new digital landscape. The document raises critical questions about whether deepfakes represent an 'information apocalypse' and the potential end of evidence as we understand it. It emphasizes the need to understand the nuances of contemporary AV manipulation and the historical context of power dynamics surrounding information control. The research is conducted under Data & Society’s Media Manipulation research initiative, focusing on the implications of these technologies for society and the future of truth. The report’s findings contribute to a broader understanding of the challenges posed by manipulated media and the importance of critical thinking and verification in the digital age. The authors, Britt Paris and Joan Donovan, bring expertise from Rutgers University and Harvard Kennedy School respectively, adding depth to the analysis.",
     "keywords": [
       "deepfakes",
       "cheap fakes",
@@ -25580,9 +25583,9 @@
       "The risk of technical and legal solutions reinforcing existing power structures.",
       "The need to consider social, cultural, and historical context when addressing issues like deepfakes.",
       "The potential for AI to be used for detection and authentication.",
-      "The perception of video and photography as objective evidence is a historically constructed concept.",
+      "The perception of video and photography as objective evidence is a historically constructed belief.",
       "The relationship between media and truth is inherently unstable and influenced by cultural and political factors.",
-      "AI's potential to disrupt information consumption and create a significant setback in how we understand news."
+      "AI's potential to significantly alter how we consume information and perceive reality."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
@@ -25603,7 +25606,7 @@
       "face swap",
       "voice synthesis",
       "lip-synching",
-      "artificial intelligence"
+      "Blockchain"
     ],
     "processes": [
       "Analysis",
@@ -25617,13 +25620,14 @@
     "methodologies": [
       "manipulation",
       "recontextualizing",
-      "social constructionism",
-      "historical analysis",
-      "critical analysis of media"
+      "Fact-Checking",
+      "Social Construction of Technology",
+      "historical analysis"
     ],
     "tools_mentioned": [
       "deepfakes",
-      "deepfake detection AI",
+      "AI Detection Algorithms",
+      "Blockchain Technology",
       "visual evidence"
     ],
     "prerequisites": [
