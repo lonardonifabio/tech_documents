@@ -7812,11 +7812,21 @@
     "id": "1bc8726e00d5c4077816ed257dd407a7",
     "filename": "AI_Safety_in_Practice_1742807946.pdf",
     "title": "AI Safety in Practice Participant Workbook",
-    "authors": [],
+    "authors": [
+      "David Leslie",
+      "Cami Rincón",
+      "Morgan Briggs",
+      "Antonella Maia Perini",
+      "Smera Jayadeva",
+      "Ann Borda",
+      "SJ Bennett",
+      "Christopher Burr",
+      "Claudia Fischer"
+    ],
     "filepath": "documents/AI_Safety_in_Practice_1742807946.pdf",
-    "upload_date": "2025-06-24T22:17:58.656362",
+    "upload_date": "2025-06-28T06:30:25.781424",
     "file_size": 3912435,
-    "summary": "This document is the Participant Workbook for the 'AI Safety in Practice' programme, designed to prepare and support participants during workshops. It’s an annotated workbook intended for use by individuals engaging with the program's activities. The workbook was created by a team of contributors including David Leslie, Cami Rincón, Morgan Briggs, Antonella Maia Perini, Smera Jayadeva, Ann Borda, SJ Bennett, Christopher Burr, and Claudia Fischer. The project benefited significantly from the support of researchers within the Ethics Theme of the Public Policy Programme at The Alan Turing Institute, particularly its Co-Directors Helen Margetts and Cosmina Dorobantu. Conor Rigby played a crucial role in the workbook's design and provided extensive feedback throughout its development.  Illustrations were created by Johnny Lighthands, and Alex Krook and John Gilbert offered valuable input to finalize the document.  The workbook’s creation was also supported by the Digital Office for Scottish Local Government, The National Institute for Health and Care Excellence (NICE), and individuals like Carolyn Ashurst, Kamalaruban Parameswaran, and Ruth Drysdale. The overall aim of the 'AI Safety in Practice' program, and consequently this workbook, appears to be focused on practical application and engagement with ethical considerations surrounding AI safety, likely within a research and policy context. The document’s structure suggests a modular approach, with activities designed to facilitate participant learning and discussion.",
+    "summary": "This document is the Participant Workbook for the 'AI Safety in Practice' programme, designed to support participants engaging in workshops related to AI ethics and governance. It serves as a practical guide, facilitating active involvement and understanding of key concepts. The workbook was collaboratively created by a team of researchers, including David Leslie, Cami Rincón, and Morgan Briggs, alongside contributions from numerous individuals within the Public Policy Programme at The Alan Turing Institute. Specifically, Conor Rigby led the design and provided invaluable feedback throughout the iterative development process.  Illustrations were created by Johnny Lighthands, while Alex Krook and John Gilbert offered crucial insights that aided in the finalization of the workbook. The document’s creation benefited significantly from the support of the Digital Office for Scottish Local Government, the National Institute for Health and Care Excellence (NICE), and the expertise of Carolyn Ashurst, Kamalaruban Parameswaran, and Ruth Drysdale. The workbook represents a tangible output of a multi-faceted research project focused on applying ethical considerations within the rapidly evolving field of AI safety, reflecting the collaborative nature of the Public Policy Programme at The Alan Turing Institute. It’s intended to be a resource for practical application and discussion, rather than a standalone theoretical text.",
     "keywords": [
       "AI Safety",
       "AI Ethics",
@@ -7836,7 +7846,7 @@
       "Conor Rigby led the design of the workbook with significant feedback.",
       "Technically safe and sustainable AI system (accurate, performant, reliable, secure, robust)",
       "AI safety of the model (algorithms, architectures, parameters)",
-      "AI safety of the system (broader context, environment, users, systems)",
+      "AI safety of the system (broader context, environment, users, other systems)",
       "Four Quadrants (TP, TN, FP, FN)",
       "Error Trade-offs (Type 1-Type 2)",
       "Minimising Type 1 Errors"
@@ -7891,9 +7901,9 @@
     "use_cases": [
       "AI Safety Training",
       "Ethical Governance of AI",
+      "Workshop Facilitation",
       "AI Model Safety",
-      "System-Level Safety",
-      "Medical Diagnosis"
+      "System-Level Safety"
     ],
     "benefits_mentioned": [
       "Improved understanding",
