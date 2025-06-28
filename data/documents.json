@@ -55551,40 +55551,42 @@
     "id": "4abb95e7ab24e670e11066ea94312b87",
     "filename": "ML_CheatSheet_1637007275.pdf",
     "title": "Machine Learning Cheatsheet",
-    "authors": [],
+    "authors": [
+      "Rémi Canard"
+    ],
     "filepath": "documents/ML_CheatSheet_1637007275.pdf",
-    "upload_date": "2025-06-17T09:28:57.880175",
+    "upload_date": "2025-06-28T18:58:00.386766",
     "file_size": 1309589,
-    "summary": "A summary of machine learning algorithms, their descriptions, advantages, and use cases. The document provides an overview of linear and nonlinear algorithms, supervised and unsupervised learning methods, and the bias-variance trade-off.",
+    "summary": "This document presents a concise cheatsheet for machine learning algorithms, drawing inspiration from resources like MachineLearningMastery, ML Pros & Cons of HackingNote, and The Probability Cheatsheet of W. Chen. It provides a foundational overview of key concepts and algorithms, categorized primarily by their approach – parametric (linear) versus non-parametric (nonlinear). The core distinction lies in the assumptions made about the target function 'f' mapping input variables 'X' to output variable 'Y' with an associated error 'e'. Linear algorithms simplify this mapping to a known linear combination, focusing on learning coefficients, while non-parametric algorithms offer greater flexibility and power by learning any functional form directly from the training data. The cheatsheet highlights the importance of the bias-variance trade-off, a central concept in supervised learning. Bias represents the simplifying assumptions made to facilitate learning, while variance reflects the model's sensitivity to changes in the training data. The document emphasizes that supervised learning methods predict 'Y' from 'X' using labeled data, whereas unsupervised learning aims to uncover the inherent structure of unlabeled data.  The cheatsheet serves as a quick reference for understanding the fundamental differences between these approaches and the core concepts driving model selection and performance evaluation. It's a valuable tool for anyone seeking a rapid introduction to the landscape of machine learning algorithms and their associated trade-offs. The document's design is inspired by established cheatsheets, aiming for clarity and conciseness.",
     "keywords": [
       "Machine Learning",
       "Algorithms",
-      "Linear Regression",
-      "Nonlinear Regression",
       "Supervised Learning",
       "Unsupervised Learning",
-      "Bias-Variance Trade-off",
-      "kernel",
-      "support vectors",
-      "linear algebra"
+      "Bias-Variance",
+      "Linear",
+      "Nonlinear",
+      "Parametric",
+      "Nonparametric",
+      "linear kernel"
     ],
     "key_concepts": [
-      "Definition of Machine Learning",
-      "Types of Algorithms (Parametric and Nonparametric)",
-      "Supervised vs Unsupervised Learning",
-      "Bias and Variance in Supervised Learning",
-      "Concept of Support Vectors",
-      "Hyperplane Learning",
-      "Kernel Methods",
-      "Ensemble Algorithms",
-      "Bagging and Random Forest"
+      "Target Function: f that maps input variables X to output variable Y",
+      "Bias-Variance Trade-off: Relationship between bias and variance in model performance",
+      "Linear Algorithms: Simplify mapping to a linear combination",
+      "Nonlinear Algorithms: Learn any functional form from training data",
+      "Support Vector Machines (SVM) utilize kernels to map data into a higher-dimensional space to enable nonlinear separation.",
+      "Hyperplane learning involves finding the optimal hyperplane that maximizes the margin between classes.",
+      "Ensemble methods combine multiple models to improve predictive performance, with bagging reducing variance by creating multiple subsamples.",
+      "Bagging uses Bootstrap Aggregation, creating random subsamples with replacement and averaging predictions."
     ],
     "category": "Machine Learning",
-    "difficulty": "Intermediate",
+    "difficulty": "Basic",
     "content_preview": "Document: Machine Learning Cheatsheet",
     "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Artificial Intelligence/Machine Learning"
+      "Data Science, Machine Learning",
+      "Machine Learning, Data Science"
     ],
     "business_functions": [
       "Research and Development",
@@ -55592,10 +55594,10 @@
     ],
     "companies": [],
     "technologies": [
-      "math",
-      "linear kernel",
-      "polynomial kernel",
-      "radial kernel"
+      "machine learning",
+      "SVM",
+      "CART",
+      "Random Forest"
     ],
     "processes": [
       "Analysis",
@@ -55604,19 +55606,19 @@
     "technical_terms": [
       "Machine Learning",
       "Algorithms",
-      "Linear Regression"
+      "Supervised Learning"
     ],
     "methodologies": [
-      "parametric",
-      "non-parametric",
-      "hyperplane learning",
-      "bootstrap aggregation"
+      "supervised learning",
+      "unsupervised learning",
+      "Bagging",
+      "Bootstrap Aggregation",
+      "Ensemble Methods"
     ],
     "tools_mentioned": [
-      "linear",
-      "nonlinear",
-      "linear algebra",
-      "categorical feature transformation"
+      "Linear Kernel",
+      "Radial Kernel",
+      "Polynomial Kernel"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
@@ -55625,10 +55627,11 @@
       "Understand machine learning concepts"
     ],
     "use_cases": [
+      "Algorithm Selection",
+      "Model Building",
       "Predictive Modeling",
-      "Data Analysis",
-      "Face detection from images",
-      "Target Audience Classification from tweets"
+      "Face detection",
+      "Target Audience Classification"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -55642,11 +55645,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: Machine Learning Cheatsheet",
-      "Q: What category? A: Machine Learning",
-      "Q: Key concepts? A: Machine Learning, Algorithms, Linear Regression",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Target Function: f that maps input variables X to output variable Y, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights machine learning, SVM, CART as transformative technologies in the context of Data Science, Machine Learning, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Algorithm Selection, Model Building, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Machine Learning, Algorithms, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to target function: f that maps input variables x to output variable y, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
