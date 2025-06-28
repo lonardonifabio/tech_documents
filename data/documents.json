@@ -44369,11 +44369,13 @@
     "id": "5c0b27729b47c2533f5325d3adebcd86",
     "filename": "How_to_avoid_machine_learning_pitfalls_1630357004.pdf",
     "title": "How to Avoid Machine Learning Pitfalls: A Guide for Academic Researchers",
-    "authors": [],
+    "authors": [
+      "Michael A. Lones"
+    ],
     "filepath": "documents/How_to_avoid_machine_learning_pitfalls_1630357004.pdf",
-    "upload_date": "2025-06-24T18:45:42.901903",
+    "upload_date": "2025-06-27T22:32:51.539555",
     "file_size": 244082,
-    "summary": "This document provides a practical guide for academic researchers, particularly students and junior researchers, navigating the complexities of machine learning (ML). It addresses common pitfalls and mistakes frequently encountered during the ML research process, emphasizing the importance of rigorous methodology and valid conclusions. The guide outlines five key stages: 1) what to do before model building, 2) how to reliably build models, 3) how to robustly evaluate models, 4) how to compare models fairly, and 5) how to report results.  The core focus is on ensuring research integrity and replicability, a critical concern within academic settings. It specifically targets the unique challenges faced by researchers, such as the need for thorough model comparisons and the pressure to produce publishable results. The author, an academic with experience supervising ML research students, draws upon personal lessons learned, highlighting the importance of validating findings and avoiding common errors. The guide assumes a basic understanding of ML techniques, making it accessible to newcomers. While primarily designed for academic researchers, the principles and advice presented can also be valuable for anyone starting their journey in the field of machine learning. The document stresses the need for careful planning, systematic model building, and objective evaluation, advocating for a disciplined approach to ensure the credibility and impact of ML research. It’s a resource aimed at fostering responsible and effective ML practices within the academic community, promoting transparency and accountability in research outcomes. The guide's emphasis on comparison and reporting is crucial for establishing the validity of findings and contributing meaningfully to the broader field of machine learning. It’s a valuable tool for ensuring that ML research is conducted with a strong foundation in methodological rigor.",
+    "summary": "This document provides a concise guide specifically tailored for academic researchers seeking to avoid common pitfalls when utilizing machine learning techniques. Primarily aimed at research students and newcomers to the field, it outlines key considerations across five stages of the machine learning process: pre-model building, reliable model construction, robust model evaluation, fair model comparison, and appropriate result reporting. The guide emphasizes the importance of rigorous comparisons and valid conclusions, reflecting the scholarly concerns prevalent in academic research. It’s grounded in the author’s experience as an academic researcher and supervisor of students engaged in ML research. The document addresses issues such as ensuring reproducibility, validating model performance, and presenting findings in a manner suitable for publication. While focused on the academic context, the lessons are broadly applicable to anyone starting their journey in machine learning. The guide assumes a basic understanding of ML techniques, offering practical advice for navigating the complexities of model development and evaluation, ultimately promoting more reliable and impactful research outcomes. It stresses the need for careful consideration of model selection, validation strategies, and the interpretation of results, aligning with the demands of scholarly publishing and the pursuit of scientific rigor within the field of machine learning.",
     "keywords": [
       "machine learning",
       "academic research",
@@ -44393,10 +44395,10 @@
       "Class imbalance refers to situations where some classes have significantly fewer samples than others.",
       "Complex ML models (e.g., deep neural networks) can overfit small datasets.",
       "Collaboration with domain experts is crucial for problem definition, feature selection, and model appropriateness.",
-      "Independence of test set is crucial for accurate evaluation.",
-      "Using a validation set prevents overlearning and ensures a representative measure of model generality.",
-      "Early stopping based on validation set performance allows for optimal model training and avoids overfitting.",
-      "Composite models are created by combining the strengths of different models."
+      "Independence of test set: The test set should be independent from the training data to accurately assess model generality.",
+      "Overlearning: A model can overlearn specific characteristics of the training data, leading to poor generalization.",
+      "Validation set usage: Using a separate validation set is crucial for evaluating model performance and preventing overlearning.",
+      "Early stopping: A technique to halt training based on performance on the validation set."
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
@@ -44404,7 +44406,7 @@
     "target_audience": "Professionals in machine learning field",
     "industry": [
       "Artificial Intelligence / Machine Learning Research",
-      "Artificial Intelligence / Machine Learning / Data Science",
+      "Data Science, Machine Learning, Artificial Intelligence",
       "Machine Learning / Artificial Intelligence",
       "Artificial Intelligence, Machine Learning",
       "Machine Learning, Data Science, Clinical Research"
@@ -44451,8 +44453,8 @@
       "Model Evaluation",
       "Model Comparison",
       "Research Methodology",
-      "Class Imbalance Detection",
-      "Model Selection"
+      "Class Imbalance Detection and Mitigation",
+      "Model Selection for Limited Data"
     ],
     "benefits_mentioned": [
       "Improved understanding",
