@@ -108373,12 +108373,12 @@
   {
     "id": "370d5ef6250c1b616acf730412648fe5",
     "filename": "pcos_1741962006.pdf",
-    "title": "PCOS Detection Using Multi -Scale Retinex Enhanced Ultrasound Images with a Deep Learning Approach",
+    "title": "PCOS Detection Using Multi -Scale Retinex Enhanced Ultrasound Images: A Deep Learning Approach with ImpalaCNN Algorithm",
     "authors": [],
     "filepath": "documents/pcos_1741962006.pdf",
-    "upload_date": "2025-06-24T22:18:13.714293",
+    "upload_date": "2025-06-28T06:30:40.859361",
     "file_size": 718124,
-    "summary": "This document excerpt presents a Python code snippet designed for detecting Polycystic Ovary Syndrome (PCOS) using deep learning techniques applied to ultrasound images. The code utilizes the ImpalaCNN algorithm and focuses on a multi-scale retinex enhanced ultrasound approach. The primary goal is to create a dataset from enhanced ultrasound images, categorized as either 'infected' or 'notinfected'. The code initializes the necessary libraries (NumPy, Pandas, and os) and defines a base path for the dataset, which is hosted on Kaggle. It then iterates through the 'infected' and 'notinfected' categories within the dataset, constructing lists of image paths and corresponding labels.  A Pandas DataFrame is created to store these image paths and labels, providing a structured representation of the dataset. The code demonstrates the initial steps involved in preparing the data for a deep learning model. The DataFrame is then displayed using `df.head()` and `df.tail()` to show the first and last few rows, allowing a quick inspection of the dataset's structure and content. The dataset is organized into two categories, 'infected' and 'notinfected', likely representing images with and without PCOS, respectively. The use of multi-scale retinex enhancement suggests an attempt to improve image quality and highlight relevant features for PCOS detection. The code's focus on Kaggle indicates a collaborative environment for data sharing and model development. The use of ImpalaCNN suggests a specific deep learning architecture is being employed, likely optimized for image analysis.",
+    "summary": "This document excerpt presents a Python code snippet for processing data related to the detection of Polycystic Ovary Syndrome (PCOS) using ultrasound images. The code leverages the Kaggle environment and utilizes the Pandas library for data manipulation. Specifically, it iterates through image folders categorized as 'infected' and 'notinfected', extracting image paths and their corresponding labels. The code constructs a Pandas DataFrame named 'df' to store these image paths and labels. The DataFrame is initialized with two columns: 'image_path' and 'label'. The code demonstrates the initial and final rows of the DataFrame, showcasing the structure of the dataset. The dataset consists of images from the 'augmented -enhanced -pcos' directory, categorized into 'infected' and 'notinfected' classes. The purpose of this code is to provide a foundation for building a deep learning model for PCOS detection using ultrasound images, potentially employing the ImpalaCNN algorithm. The code serves as a starting point for data loading and preparation within a Kaggle notebook environment. The use of Pandas facilitates efficient data handling and organization, enabling further analysis and model development.",
     "keywords": [
       "PCOS",
       "Ultrasound",
@@ -108392,11 +108392,12 @@
       "Detection of PCOS using image analysis.",
       "Utilizing a deep learning approach for image processing.",
       "Employing a multi-scale Retinex enhanced ultrasound technique.",
-      "Creating a Pandas DataFrame to store image paths and labels."
+      "Creation of a Pandas DataFrame to store image paths and labels.",
+      "Categorization of images into 'infected' and 'notinfected' classes."
     ],
     "category": "Technology",
     "difficulty": "Intermediate",
-    "content_preview": "Document: PCOS Detection Using Multi -Scale Retinex Enhanced Ultrasound Images with a Deep Learning Approach",
+    "content_preview": "Document: PCOS Detection Using Multi -Scale Retinex Enhanced Ultrasound Images: A Deep Learning Approach with ImpalaCNN Algorithm",
     "target_audience": "Professionals in technology field",
     "industry": [
       "Healthcare / Medical Imaging"
