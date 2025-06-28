@@ -104885,11 +104885,13 @@
     "id": "bdb1f8ca1c5b38eca88d999aaf208428",
     "filename": "data_mining_1621924369.pdf",
     "title": "A Programmer’s Guide to Data Mining: The Ancient Art of the Numerati",
-    "authors": [],
+    "authors": [
+      "Ron Zacharski"
+    ],
     "filepath": "documents/data_mining_1621924369.pdf",
-    "upload_date": "2025-06-25T05:23:54.373691",
+    "upload_date": "2025-06-28T06:30:40.460363",
     "file_size": 11068839,
-    "summary": "This book, \"A Programmer’s Guide to Data Mining: The Ancient Art of the Numerati,\" authored by Ron Zacharski, aims to demystify the field of data mining. The core premise is to challenge the perception that data mining, exemplified by systems like Pandora and Amazon’s recommendations, requires highly complex mathematical knowledge or specialized expertise – often associated with ‘rocket scientists.’ Zacharski intends to reveal the underlying, relatively simple principles that drive these systems. The book’s approach emphasizes a ‘Beginner’s Mind,’ encouraging readers to approach data mining without preconceived notions of its inherent complexity. It suggests that while sophisticated algorithms are undoubtedly developed by organizations like Google and the National Security Agency, the majority of data mining techniques are based on accessible and understandable concepts. The book’s structure is designed to strip away the perceived mystique surrounding data mining, presenting it as a more approachable and less intimidating discipline.  The author credits his wife and son for their support, and acknowledges the contributions of photographers who provided images under a Creative Commons license. The book likely targets programmers and individuals with a technical background who are interested in learning the fundamentals of data mining without needing advanced mathematical training. It’s a practical guide focused on the core methodologies rather than the theoretical underpinnings. The inclusion of the Japanese character ‘Shoshin’ (Beginner’s Mind) further reinforces this approach, advocating for an open and inquisitive mindset when exploring data mining techniques.",
+    "summary": "This book, \"A Programmer’s Guide to Data Mining: The Ancient Art of the Numerati,\" authored by Ron Zacharski, aims to demystify the process of data mining, often perceived as incredibly complex and requiring advanced mathematical knowledge. Zacharski challenges the common assumption that systems like Pandora and Amazon’s recommendations rely on sophisticated algorithms developed by experts with PhDs. Instead, he argues that data mining primarily utilizes accessible and straightforward principles. The book’s core objective is to reveal the rudimentary methods behind these systems, dispelling the notion of them being solely the domain of highly specialized individuals.  It introduces the concept of ‘Beginner’s Mind’ (Shoshin) – approaching data mining with an open and inquisitive perspective. The author intends to show that the underlying techniques are not overly complicated, and that many of the systems we interact with daily are built upon relatively simple methods. The book is presented with a Creative Commons Attribution Noncommercial 3.0 license, and includes attribution information for photographs available on the website.  It suggests that while sophisticated algorithms are undoubtedly developed by organizations like Google and the National Security Agency, the majority of data mining relies on easily grasped concepts.  The book is geared towards programmers and those interested in understanding the fundamentals of data mining, rather than requiring a deep mathematical background. It's a guide designed to make the field approachable and understandable.",
     "keywords": [
       "data mining",
       "algorithms",
@@ -104905,14 +104907,14 @@
     "key_concepts": [
       "The book aims to demystify data mining and show simple methods.",
       "Data mining relies on easy-to-understand principles.",
-      "Beginner's Mind (Shoshin) – approaching problems with an open and eager perspective.",
+      "Beginner's Mind (Shoshin) – approaching problems with an open and eager mind.",
       "The use of data mining to personalize political messaging.",
       "Government surveillance through data collection and analysis.",
       "The expansion of government power through legislation like the USA Patriot Act.",
       "The increasing role of private companies in collecting and analyzing personal data.",
       "Data mining as a guide for programmers",
-      "The Numerati: a group generating large amounts of digital data",
-      "Tracking individual behavior through data collection (e.g., subway usage, purchases)"
+      "The Numerati – a group generating large amounts of digital data",
+      "Tracking individual behavior through data collection (e.g., subway usage, purchases, check-ins)"
     ],
     "category": "Data Science",
     "difficulty": "Intermediate",
@@ -104948,13 +104950,14 @@
       "rudimentary methods",
       "open mind",
       "data mining techniques",
-      "Data Mining",
-      "Data Analysis"
+      "Data Analysis",
+      "Pattern Recognition"
     ],
     "tools_mentioned": [
       "Seisint",
       "Gowalla",
-      "Amazon"
+      "Amazon",
+      "SQL"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
