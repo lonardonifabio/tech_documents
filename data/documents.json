@@ -57293,12 +57293,15 @@
   {
     "id": "bc0c0d2027c05b8dabc6623fe47ec890",
     "filename": "Machine_Learning_Algorithms__1739096211.pdf",
-    "title": "Introduction to Linear Regression, Logistic Regression, and Decision Trees",
-    "authors": [],
+    "title": "Linear Regression, Logistic Regression, and Decision Trees Tutorial",
+    "authors": [
+      "Algorithm",
+      "Tutor Academy"
+    ],
     "filepath": "documents/Machine_Learning_Algorithms__1739096211.pdf",
-    "upload_date": "2025-06-24T22:18:06.623325",
+    "upload_date": "2025-06-28T06:30:33.800392",
     "file_size": 23252824,
-    "summary": "This document excerpt provides a concise introduction to three fundamental machine learning algorithms: Linear Regression, Logistic Regression, and Decision Trees. It begins by explaining Linear Regression, a supervised learning algorithm used for predicting continuous values. The core concept is illustrated with a house price prediction example, where the algorithm learns a linear relationship between house size and price. The document details how the algorithm generates an equation (e.g., Price = 100 * Size + 50,000) that can be used to predict the price of new houses.  It emphasizes the use of historical data to train the model.  Next, it introduces Logistic Regression, which is used for classification problems, specifically in this case, classifying emails as either spam or not spam. The explanation highlights how the model analyzes email content to determine the probability of it being spam and then classifies the email based on a predefined threshold.  Finally, the document briefly introduces Decision Trees, describing them as a series of questions used to make decisions.  The excerpt focuses on providing a basic understanding of each algorithm's purpose and application, using simple examples to illustrate the concepts. The document is clearly geared towards beginners and provides a foundational understanding of these core machine learning techniques. It's a tutorial-like introduction, suitable for someone new to the field. The examples are designed to be easily grasped, making the concepts accessible. The document's structure is well-organized, presenting each algorithm with an explanation, an example, and a key takeaway.",
+    "summary": "This document excerpt presents a brief introduction to three fundamental regression algorithms: Linear Regression, Logistic Regression, and Decision Trees. It begins by explaining Linear Regression, illustrating its application in predicting house prices based on size. The explanation details how a regression line is derived and used to predict the price of new houses.  The excerpt then moves on to Logistic Regression, demonstrating its use in classifying emails as spam or not spam based on their content. It explains how the model calculates the probability of an email being spam and uses a threshold to make the classification. Finally, the document introduces Decision Trees, describing them as a series of questions used to make decisions. The excerpt highlights the iterative nature of decision trees and their application in various scenarios. The overall tone is introductory, aimed at providing a basic understanding of these algorithms and their applications. The document focuses on the core concepts and provides simple examples to illustrate each algorithm's functionality. It's a concise overview suitable for beginners exploring these machine learning techniques. The examples provided are designed to be easily understandable, making the concepts accessible to those with limited prior knowledge.",
     "keywords": [
       "machine learning",
       "linear regression",
@@ -57318,10 +57321,10 @@
     ],
     "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Introduction to Linear Regression, Logistic Regression, and Decision Trees",
+    "content_preview": "Document: Linear Regression, Logistic Regression, and Decision Trees Tutorial",
     "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Education Technology"
+      "Education Technology, Data Science"
     ],
     "business_functions": [
       "Research and Development",
@@ -57359,7 +57362,7 @@
     "use_cases": [
       "Predictive Modeling",
       "Classification",
-      "Data Analysis"
+      "Decision Making"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -57374,7 +57377,7 @@
     ],
     "questions_and_answers": [
       "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Linear regression uses a straight line to predict a value based on input data., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
-      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Machine learning, Linear Regression, Logistic Regression as transformative technologies in the context of Education Technology, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Machine learning, Linear Regression, Logistic Regression as transformative technologies in the context of Education Technology, Data Science, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
       "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Predictive Modeling, Classification, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
       "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in machine learning, linear regression, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
       "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to linear regression uses a straight line to predict a value based on input data., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
