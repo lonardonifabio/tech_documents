@@ -36954,11 +36954,13 @@
     "id": "f10d49397dd735be45961f3d36634e90",
     "filename": "Foundational_artificial_intelligence_risk_assessment__1743182439.pdf",
     "title": "Queensland Government Enterprise Architecture FAIRA Framework",
-    "authors": [],
+    "authors": [
+      "Queensland Government"
+    ],
     "filepath": "documents/Foundational_artificial_intelligence_risk_assessment__1743182439.pdf",
-    "upload_date": "2025-06-24T18:45:42.106900",
+    "upload_date": "2025-06-27T22:32:50.716547",
     "file_size": 739295,
-    "summary": "This document outlines the ‘FAIRA Framework,’ a final version 1.0.0, released in September 2024, developed by the Queensland Government. The framework is an artificial intelligence risk assessment tool designed to integrate into the government’s enterprise architecture. It’s structured into three key parts: Part A focuses on components analysis, Part B on values assessment, and Part C on controls for AI risks. The primary goal of the FAIRA Framework is to support AI governance, compliance, and business processes within the Queensland Government. Specifically, it aims to facilitate risk identification and analysis, ultimately leading to the implementation of appropriate controls and risk mitigations. The framework’s completion will also contribute to skills development, training uplift, and effective communication with stakeholders, ensuring alignment with strategic values.  The document provides clear instructions for its use, emphasizing the importance of referencing the AI governance policy and guideline, as well as the National Framework for the Assurance of AI in Government (NFAAIG) 2024.  Crucially, the framework is intended to be populated by a multidisciplinary team, including technical experts, policy specialists, subject matter experts, operational personnel, and accountable officers.  The process involves collaborative workshops to thoroughly address identified risks. The framework’s completion is a critical step in managing the risks associated with AI adoption within the Queensland Government, aligning with broader national efforts to ensure responsible AI implementation. The document highlights the need for a comprehensive approach, considering not just technical aspects but also policy, governance, and stakeholder engagement.  The finalization process requires careful consideration and input from a diverse range of perspectives to ensure a robust and effective risk assessment.",
+    "summary": "This document outlines the FAIRA (Framework for Artificial Intelligence Risk Assessment) framework developed by the Queensland Government as part of its Enterprise Architecture. The framework is designed to provide a structured approach to assessing and mitigating risks associated with the implementation of Artificial Intelligence (AI) within government operations. It consists of three key parts: Part A focuses on components analysis, Part B on values assessment, and Part C on controls for AI risks. The framework’s completion is intended to support AI governance, compliance, business processes, risk identification and analysis, controls and risk mitigations, skills development, communication, and strategic alignment.  The document emphasizes the importance of a collaborative approach, requiring input from a diverse team of experts including technical, policy, subject domain, operational, and accountable officers.  It specifically directs users to familiarize themselves with the Queensland Government’s AI governance policy and guideline, and to consult the National Framework for the Assurance of AI in Government (NFAAIG) 2024 for further context.  The framework’s execution involves conducting collaborative workshops to address identified risks and potentially engaging additional experts as needed. The framework's purpose is to ensure responsible and effective AI adoption, aligning with strategic values and minimizing potential negative impacts. The document highlights the need for a thorough and considered approach to AI risk management, reflecting the complexities and potential consequences of this technology.",
     "keywords": [
       "artificial intelligence",
       "risk assessment",
@@ -36977,7 +36979,7 @@
       "Identification and analysis of AI risks, followed by the implementation of controls and mitigations.",
       "Automated systems perform administrative decisions without human intervention.",
       "AI solutions can convert decisions into actions through programmed tasks and rule application.",
-      "The benefits of AI solutions include improved stakeholder wellbeing, autonomy, and justice, alongside increased productivity."
+      "The benefits of AI solutions include improved stakeholder wellbeing, autonomy, and justice, alongside increased productivity and reduced task fatigue."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
