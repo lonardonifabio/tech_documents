@@ -59414,11 +59414,13 @@
     "id": "8ac9fea5f6134f0e7232c1917f2aeda2",
     "filename": "Machine_Learning_Methods_For_Malware_Detection__1609679024.pdf",
     "title": "Machine Learning Methods for Malware Detection",
-    "authors": [],
+    "authors": [
+      "Kaspersky"
+    ],
     "filepath": "documents/Machine_Learning_Methods_For_Malware_Detection__1609679024.pdf",
-    "upload_date": "2025-06-24T22:18:06.848324",
+    "upload_date": "2025-06-28T06:30:34.022391",
     "file_size": 498023,
-    "summary": "This document excerpt details Kaspersky's approach to utilizing machine learning techniques for advanced malware detection. It outlines a comprehensive strategy centered around leveraging machine learning to bolster cybersecurity defenses. The core of the document focuses on the methodologies employed, primarily revolving around unsupervised, supervised, and deep learning approaches. Specifically, it highlights the critical requirements for successful implementation, including the necessity of large, representative datasets and the importance of interpretable models to minimize false positive rates. The document emphasizes the need for algorithms that can adapt quickly to evolving malware tactics.  Kaspersky's strategy involves analyzing malware at both pre-execution and post-execution phases. Pre-execution analysis focuses on characteristics of the file without execution, such as file format, code descriptions, binary data statistics, and text strings, often supplemented by code emulation. Post-execution analysis examines the malware's behavior after it has been executed.  Key techniques include similarity hashing, decision tree ensembles, and deep learning models. The document also discusses practical considerations like clustering incoming data streams and knowledge distillation for efficient model updates. The overall aim is to proactively detect new malware variants and respond effectively to ongoing threats. The document showcases Kaspersky's commitment to continuous adaptation and innovation in the fight against malicious software. It’s a technical overview of a sophisticated cybersecurity solution.",
+    "summary": "This document, originating from Kaspersky, presents a summary of their extensive experience utilizing machine learning techniques to develop advanced malware protection solutions. The paper focuses on leveraging machine learning for cybersecurity, detailing various approaches and considerations. It begins with fundamental concepts, outlining both unsupervised and supervised learning methodologies, alongside the introduction of deep learning as a key component. A critical aspect highlighted is the necessity of large, representative datasets for training models, alongside the importance of model interpretability to minimize false positive rates. The document emphasizes the need for algorithms that can adapt quickly to evolving malware tactics. Specifically, it details techniques such as similarity hashing for pre-execution detection, combined with decision trees ensemble, and deep learning for both pre- and post-execution behavior analysis. The paper also explores applications like clustering incoming data streams and knowledge distillation for efficient model updates. The document underscores the dynamic nature of malware threats and the need for adaptive security solutions. It covers techniques for detecting new malware before execution, as well as analyzing malware behavior after it has already run on a system. The core focus is on utilizing machine learning to proactively identify and mitigate emerging threats, emphasizing the importance of data quality, model interpretability, and adaptability in the face of constantly evolving malware strategies. The document provides a high-level overview of Kaspersky's approach to machine learning-based malware detection, showcasing their efforts to combat sophisticated cyberattacks.",
     "keywords": [
       "Machine Learning",
       "Malware Detection",
@@ -59460,7 +59462,7 @@
       "deep learning",
       "code emulation",
       "clustering",
-      "antimalware"
+      "similarity hashing"
     ],
     "processes": [
       "Analysis",
@@ -59472,15 +59474,15 @@
       "Deep Learning"
     ],
     "methodologies": [
-      "supervised learning",
       "unsupervised learning",
-      "similarity hashing",
-      "ensemble",
-      "retraining"
+      "supervised learning",
+      "distillation",
+      "retraining",
+      "data collection"
     ],
     "tools_mentioned": [
-      "decision trees",
-      "hash mapping",
+      "decision trees ensemble",
+      "similarity hashing",
       "model",
       "multilayer neural network",
       "bipartite graph"
