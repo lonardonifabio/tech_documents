@@ -45811,11 +45811,19 @@
     "id": "62c81dcbea7d26acd8c782cb584c8345",
     "filename": "ISO_42005_1750489275.pdf",
     "title": "ISO/IEC FDIS 42005 – Impact Assessments of AI Systems A Guide to Implementation EU AI Act May 2025",
-    "authors": [],
+    "authors": [
+      "Sean Musch",
+      "Michael Borrelli",
+      "Charles Kerrigan",
+      "Martin Ebers",
+      "Nadir Ali",
+      "Donald John Musch",
+      "Michael Charles Borrelli"
+    ],
     "filepath": "documents/ISO_42005_1750489275.pdf",
-    "upload_date": "2025-06-24T18:45:43.101904",
+    "upload_date": "2025-06-27T22:32:51.740557",
     "file_size": 1415955,
-    "summary": "This document, published by AI & Partners, provides a guide to the implementation of ISO/IEC FDIS 42005, which focuses on impact assessments of AI systems. It’s specifically designed in conjunction with the EU AI Act, slated for May 2025. The report aims to address key questions surrounding the standard, including its primary purpose and the identification of its main stakeholders.  AI & Partners, a non-profit organization, is dedicated to defending and extending the digital rights of users globally who are considered at risk due to AI systems. Their approach combines technical support, policy engagement, advocacy, professional services, regulatory interventions, and participation in industry groups like AI Commons. The core of their work revolves around ensuring responsible AI development and deployment, particularly concerning human rights.  The document’s preparation involved Sean Musch, Michael Borrelli, Charles Kerrigan, and Martin Ebers, with Nadir Ali serving as a Global AI & FinTech Advisor.  It’s structured to guide users through understanding the standard’s objectives and the relevant parties involved. The report likely delves into the practical application of ISO 42005, offering insights into how organizations can comply with the standard and mitigate potential risks associated with AI systems.  The inclusion of the EU AI Act highlights the document’s relevance in the current regulatory landscape, emphasizing the need for robust impact assessments to ensure alignment with evolving legal frameworks.  The organization’s website, https://www.ai-and-partners.com/, provides further information and contact details for Michael Charles Borrelli, the Director (m.borrelli@ai-and-partners.com).  The document represents a valuable resource for anyone seeking to understand and implement ISO/IEC FDIS 42005, particularly within the context of responsible AI governance and the broader discussion surrounding AI regulation.",
+    "summary": "This document, titled \"ISO/IEC FDIS 42005 – Impact Assessments of AI Systems A Guide to Implementation EU AI Act May 2025\", is a publication by AI & Partners, focusing on the implementation and impact assessments related to ISO/IEC FDIS 42005. The report aims to provide guidance on understanding and utilizing this standard, particularly in the context of the EU AI Act. AI & Partners, a non-profit organization, is dedicated to defending and extending the digital rights of users globally who are at risk due to artificial intelligence. Their approach combines technical support, policy engagement, advocacy, professional services, regulatory interventions, and participation in industry groups like AI Commons. The document outlines key questions surrounding ISO 42005, including its primary purpose, the identification of stakeholders, and a deeper dive into its application. It’s a practical guide designed to assist organizations and individuals in navigating the complexities of AI impact assessments, aligning with the broader mission of AI & Partners to ensure responsible AI development and deployment. The report’s content is structured around addressing fundamental questions about the standard, offering insights into its relevance within the evolving landscape of AI regulation and ethical considerations.  The organization’s contact information and website are provided for further inquiries and engagement. The document's core objective is to facilitate a better understanding and effective utilization of ISO 42005, contributing to a more rights-respecting and accountable artificial intelligence ecosystem.  It represents a valuable resource for anyone involved in assessing the potential impacts of AI systems, particularly in light of the EU AI Act.",
     "keywords": [
       "ISO/IEC FDIS 42005",
       "AI Systems",
@@ -45832,14 +45840,14 @@
       "ISO/IEC FDIS 42005 is a guide to implementing AI systems and conducting impact assessments.",
       "AI & Partners defends and extends the digital rights of users at risk globally.",
       "The report focuses on key questions regarding ISO 42005, including its purpose and stakeholders.",
-      "AI systems responsible development",
+      "AI systems development and use",
       "risk identification and mitigation",
-      "stakeholder trust and engagement",
-      "regulatory compliance",
-      "documentation of AI impact assessment process"
+      "trust building among stakeholders",
+      "documentation of assessment process",
+      "continuous improvement and transparency"
     ],
     "category": "Technology",
-    "difficulty": "Intermediate",
+    "difficulty": "Basic",
     "content_preview": "Document: ISO/IEC FDIS 42005 – Impact Assessments of AI Systems A Guide to Implementation EU AI Act May 2025",
     "target_audience": "Professionals in technology field",
     "industry": [
@@ -45884,7 +45892,7 @@
       "Regulatory Compliance",
       "Digital Rights Advocacy",
       "AI Risk Assessment",
-      "Bias Detection"
+      "Bias Detection and Mitigation"
     ],
     "benefits_mentioned": [
       "Improved understanding",
