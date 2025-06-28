@@ -14494,11 +14494,13 @@
     "id": "b44f3f61b436c13cf30ae13f9e52e3dc",
     "filename": "AlexNet_1711185522.pdf",
     "title": "AlexNet Implementation (Keras)",
-    "authors": [],
+    "authors": [
+      "Unknown"
+    ],
     "filepath": "documents/AlexNet_1711185522.pdf",
-    "upload_date": "2025-06-24T22:17:59.812357",
+    "upload_date": "2025-06-28T06:30:26.953419",
     "file_size": 228203,
-    "summary": "This document excerpt presents a Keras implementation of the AlexNet convolutional neural network architecture. It details the initial steps involved in creating the model, starting with the import of necessary Keras libraries including Sequential, Convolution2D, MaxPooling2D, Flatten, Dense, Dropout, and BatchNormalization layers. The code initializes a Sequential model and defines two convolutional layers with ReLU activation functions. The first convolutional layer uses 96 filters, a kernel size of 11, strides of 4, and padding 'valid'. The second convolutional layer uses 256 filters, a kernel size of 11, strides of 1, and padding 'valid'.  The excerpt also includes error messages related to CUDA and cuDNN factory registration attempts, indicating potential issues with CUDA or cuDNN libraries during the model's setup. These errors suggest that the environment might not have the necessary CUDA or cuDNN libraries correctly installed or configured, which could prevent the model from running smoothly. The code also incorporates BatchNormalization layers after the convolutional steps, which are commonly used in CNN architectures to improve training stability and performance. The document focuses on the core building blocks of the AlexNet model, providing a foundational implementation for further customization or experimentation. The inclusion of error messages highlights a potential setup problem that needs to be addressed before the model can be fully functional.",
+    "summary": "This document excerpt presents a Keras implementation of the AlexNet convolutional neural network architecture. It details the step-by-step construction of the model, starting with the import of necessary Keras libraries including Sequential, Convolution2D, MaxPooling2D, Flatten, Dense, Dropout, and BatchNormalization layers. The implementation begins by creating a Sequential model and then adding convolutional layers with ReLU activation functions. The first convolutional layer uses 96 filters, a kernel size of 11, stride 4, and 'valid' padding.  Following this, a MaxPooling2D layer with a pool size of (2, 2) and stride 2 is added.  A BatchNormalization layer is then included.  The second convolutional layer utilizes 256 filters, a kernel size of 11, stride 1, and 'valid' padding.  Finally, another MaxPooling2D layer with a pool size of (2, 2) and stride 2 is added. The excerpt focuses on the core building blocks of the AlexNet architecture within the Keras framework, providing a foundational example for understanding and replicating the model. The log entries at the beginning indicate potential issues with CUDA factory registration, which might require troubleshooting during the execution of the code. The document is a snippet of code and does not include the complete implementation or training details. It serves as a starting point for building an AlexNet model using Keras.",
     "keywords": [
       "alexnet",
       "keras",
@@ -14526,7 +14528,7 @@
     "content_preview": "Document: AlexNet Implementation (Keras)",
     "target_audience": "Professionals in technology field",
     "industry": [
-      "Artificial Intelligence / Machine Learning / Computer Vision"
+      "Artificial Intelligence / Machine Learning"
     ],
     "business_functions": [
       "Research and Development",
@@ -14564,7 +14566,7 @@
     ],
     "use_cases": [
       "Image Classification",
-      "Deep Learning Model Implementation"
+      "Computer Vision"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -14579,8 +14581,8 @@
     ],
     "questions_and_answers": [
       "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores CNN architecture, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
-      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Keras, CNN, Sequential as transformative technologies in the context of Artificial Intelligence / Machine Learning / Computer Vision, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
-      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Image Classification, Deep Learning Model Implementation, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Keras, CNN, Sequential as transformative technologies in the context of Artificial Intelligence / Machine Learning, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Image Classification, Computer Vision, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
       "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in alexnet, keras, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
       "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to cnn architecture, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
