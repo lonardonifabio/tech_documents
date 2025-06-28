@@ -1,5 +1,23 @@
 import type { APIRoute } from 'astro';
 
+export async function getStaticPaths() {
+  // Load documents data to generate static paths for all documents
+  try {
+    const fs = await import('fs/promises');
+    const path = await import('path');
+    const documentsPath = path.resolve(process.cwd(), 'data/documents.json');
+    const data = await fs.readFile(documentsPath, 'utf-8');
+    const documents = JSON.parse(data);
+    
+    return documents.map((doc: any) => ({
+      params: { id: doc.id }
+    }));
+  } catch (error) {
+    console.warn('Could not load documents for preview static paths:', error);
+    return [];
+  }
+}
+
 export const GET: APIRoute = async ({ params }) => {
   const { id } = params;
   
