@@ -72000,9 +72000,9 @@
     "title": "optimizers-comparison-in-dl",
     "authors": [],
     "filepath": "documents/Optimizers_Comparison_1709383473.pdf",
-    "upload_date": "2025-06-25T08:33:18.467200",
+    "upload_date": "2025-06-28T12:27:12.106846",
     "file_size": 103522,
-    "summary": "This document excerpt details the initial steps involved in a project focused on comparing optimizers within a Deep Learning (DL) context, likely using TensorFlow and Keras. The excerpt primarily serves as a code snippet demonstrating the data loading and preprocessing stages for a MNIST dataset. It begins with importing necessary libraries including TensorFlow, Keras, and the MNIST dataset. The code then proceeds to load the MNIST dataset from Google Cloud Storage, downloading the `mnist.npz` file containing the training and testing data.  Following the data download, the code performs data reshaping, converting the data types to float32, and normalizing the pixel values to the range [0, 1] by dividing by 255.  The data is also converted to one-hot encoded labels using `tf.keras.utils.to_categorical`. The presence of multiple error messages related to CUDA factory registration suggests potential issues with CUDA setup or driver compatibility during the TensorFlow installation or execution. These errors are common when TensorFlow relies on CUDA for GPU acceleration and there are conflicts or missing dependencies. The document's purpose is to illustrate the foundational steps in a DL project, specifically data preparation and model setup, and highlights potential challenges related to GPU environment configuration. The focus is on the initial data loading and preprocessing, setting the stage for later optimizer comparison experiments. The document is a fragment of a larger project, likely a notebook or script, demonstrating the initial data handling and preparation steps.",
+    "summary": "This document excerpt details the initial steps involved in a project focused on comparing optimizers within a Deep Learning (DL) context, likely using TensorFlow. The excerpt primarily outlines the data loading and preprocessing stages for a MNIST dataset. It begins with importing necessary TensorFlow libraries, including `tensorflow`, `keras`, and `mnist`. The code demonstrates the loading of the MNIST dataset from Google Cloud Storage, which includes the download process and subsequent data reshaping. Specifically, the data is reshaped to a 28x28x1 format, and then converted to float32 data type, normalizing the pixel values to the range [0, 1] by dividing by 255.  The code also converts the labels to one-hot encoded format using `tf.keras.utils.to_categorical`. The presence of multiple error messages related to CUDA factory registration suggests potential issues with TensorFlow's CUDA support, which are common during installation or when using specific hardware configurations. These errors indicate that TensorFlow is attempting to register CUDA factories even when they are already registered, potentially causing conflicts or preventing proper GPU utilization. The document serves as a foundational setup for a project exploring different optimization algorithms, such as Adam, SGD, or RMSprop, within the TensorFlow framework, using the MNIST dataset as a benchmark.",
     "keywords": [
       "tensorflow",
       "keras",
@@ -72017,12 +72017,12 @@
       "Importing TensorFlow and Keras libraries",
       "Loading MNIST dataset",
       "Data reshaping and normalization",
-      "Building and configuring an optimizer"
+      "Building an optimizer for a neural network"
     ],
-    "category": "AI",
+    "category": "Technology",
     "difficulty": "Intermediate",
     "content_preview": "Document: optimizers-comparison-in-dl",
-    "target_audience": "Professionals in ai field",
+    "target_audience": "Professionals in technology field",
     "industry": [
       "Artificial Intelligence / Machine Learning"
     ],
@@ -72056,7 +72056,7 @@
       "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand ai concepts"
+      "Understand technology concepts"
     ],
     "use_cases": [
       "Image Classification",
