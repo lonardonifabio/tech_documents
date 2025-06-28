@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { LinkedInSharingService } from '../services/linkedin-sharing-service';
 
 interface Document {
   id: string;
@@ -174,38 +175,66 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
     return post;
   };
 
-  // Share on LinkedIn with mobile-optimized approach
+  // Enhanced LinkedIn sharing - single button solution
   const shareOnLinkedIn = async () => {
     if (typeof window === 'undefined') return; // Guard against SSR
     
-    const title = doc.title || doc.filename;
-    // Use the document URL with proper Open Graph meta tags
-    const documentUrl = `https://lonardonifabio.github.io/tech_documents/document/${doc.id}`;
-    const postContent = generateLinkedInPost(doc);
-    
-    // Check if we're on mobile and Web Share API is available
-    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    
-    if (isMobile && navigator.share) {
-      // Use native mobile sharing
-      try {
-        await navigator.share({
-          title: title,
-          text: postContent,
-          url: documentUrl
-        });
-      } catch (error) {
-        // Fallback to LinkedIn direct sharing if native sharing fails
-        console.log('Native sharing failed, falling back to LinkedIn direct sharing');
-        const encodedContent = encodeURIComponent(postContent);
-        const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(documentUrl)}&text=${encodedContent}`;
-        window.open(linkedInUrl, '_blank');
+    try {
+      // Create enhanced post content
+      const title = doc.title || doc.filename;
+      const documentUrl = `https://lonardonifabio.github.io/tech_documents/document/${doc.id}`;
+      
+      let post = `🚀 Sharing an insightful AI/Data Science resource!\n\n`;
+      post += `📄 **${title}**\n\n`;
+      
+      if (doc.summary) {
+        const summary = doc.summary.length > 200 ? doc.summary.substring(0, 197) + '...' : doc.summary;
+        post += `📝 ${summary}\n\n`;
       }
-    } else {
-      // Desktop: use LinkedIn direct sharing
+      
+      if (doc.key_concepts && doc.key_concepts.length > 0) {
+        post += `💡 Key concepts: ${doc.key_concepts.slice(0, 2).join(', ')}\n\n`;
+      }
+      
+      post += `🎯 Category: ${doc.category} | Level: ${doc.difficulty}\n\n`;
+      post += `🤖 Explore with AI: ${documentUrl}\n\n`;
+      post += `📚 Discover 1100+ AI & Data Science Documents:\n`;
+      post += `🌐 https://lonardonifabio.github.io/tech_documents/\n\n`;
+      
+      // Add hashtags
+      const keywords = doc.keywords.slice(0, 5);
+      keywords.forEach(keyword => {
+        post += `#${keyword.replace(/\s+/g, '')} `;
+      });
+      post += '#ArtificialIntelligence #DataScience #MachineLearning';
+      
+      // Open LinkedIn sharing with the document URL (which now has custom preview in meta tags)
+      const encodedContent = encodeURIComponent(post);
+      const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(documentUrl)}&text=${encodedContent}`;
+      
+      // Check if mobile
+      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      
+      if (isMobile) {
+        window.open(linkedInUrl, '_blank');
+      } else {
+        window.open(linkedInUrl, '_blank', 'width=600,height=600');
+      }
+      
+      // Show success message
+      setTimeout(() => {
+        alert(`✅ LinkedIn sharing opened!\n\n🎨 The post will now show a custom preview image generated specifically for this document.\n\n📝 The post content is pre-filled with document details and hashtags.`);
+      }, 500);
+      
+    } catch (error) {
+      console.error('LinkedIn sharing failed:', error);
+      // Simple fallback
+      const title = doc.title || doc.filename;
+      const documentUrl = `https://lonardonifabio.github.io/tech_documents/document/${doc.id}`;
+      const postContent = generateLinkedInPost(doc);
       const encodedContent = encodeURIComponent(postContent);
       const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(documentUrl)}&text=${encodedContent}`;
-      window.open(linkedInUrl, '_blank', 'width=600,height=600');
+      window.open(linkedInUrl, '_blank');
     }
   };
 
@@ -708,13 +737,14 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
               <button
                 onClick={shareOnLinkedIn}
                 className="w-full bg-linkedin text-white px-4 py-2 rounded-lg hover:bg-linkedin-dark transition-colors duration-200 text-center text-sm font-medium flex items-center justify-center gap-2"
-                title="Share on LinkedIn"
+                title="Share on LinkedIn with document preview"
               >
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                 </svg>
                 📤 Share on LinkedIn
               </button>
+              
               <a
                 href={`https://raw.githubusercontent.com/lonardonifabio/tech_documents/main/${doc.filepath}`}
                 target="_blank"
