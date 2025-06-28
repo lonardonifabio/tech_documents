@@ -40044,12 +40044,14 @@
   {
     "id": "05beafdf25d2dde1a463bfb019b66a31",
     "filename": "GenAI_Data_Security_1743591705.pdf",
-    "title": "OWASP Top 10 for LLMs - LLM and Gen AI Data Security Best Practices Guide 1.0",
-    "authors": [],
+    "title": "OWASP and LLM/Generative AI Security",
+    "authors": [
+      "OWASP"
+    ],
     "filepath": "documents/GenAI_Data_Security_1743591705.pdf",
-    "upload_date": "2025-06-25T08:33:13.495127",
+    "upload_date": "2025-06-28T12:27:07.090802",
     "file_size": 2213736,
-    "summary": "This document, titled 'OWASP Top 10 for LLMs - LLM and Gen AI Data Security Best Practices Guide 1.0', provides a foundational resource focused on securing Large Language Models (LLMs) and Generative AI (Gen AI) systems. It’s a guide created by the Open Web Application Security Project (OWASP), a non-profit organization dedicated to improving the security of software. The primary goal is to offer practical best practices for organizations deploying and utilizing LLMs and Gen AI, addressing the unique security challenges associated with these rapidly evolving technologies. The document emphasizes a proactive approach to security, encouraging users to understand the potential risks and implement appropriate safeguards. It’s crucial to note that this guide is intended for informational purposes only and does not constitute legal advice. The core of the document centers around the OWASP Top 10, a widely recognized framework for web application security, adapted and applied to the specific vulnerabilities and risks present in LLMs and Gen AI.  The guide outlines ten critical areas of concern, including data security, model security, prompt injection, and responsible AI development.  It provides recommendations for mitigating these risks, covering aspects such as data governance, access control, model monitoring, and user authentication.  The license for this document is Creative Commons, CC BY-SA 4.0, which grants users the freedom to share, adapt, and build upon the material, provided they adhere to the attribution and share-alike terms. This means that anyone who uses or modifies the guide must give credit to OWASP, provide a link to the license, and if they make changes, distribute their contributions under the same license. The document begins with acknowledgements and an audience section, followed by an introduction that sets the stage for the subsequent best practices. The table of contents indicates a structured approach to presenting the information, likely detailing the ten OWASP Top 10 recommendations for LLM and Gen AI data security.",
+    "summary": "This document excerpt focuses on the extensive resources and frameworks provided by the Open Web Application Security Project (OWASP) to address the unique security challenges posed by Large Language Models (LLMs) and Generative AI. It highlights the broader OWASP LLM and Generative AI Security Project, which offers comprehensive guidance on mitigating risks and establishing secure development practices. The excerpt emphasizes the value of OWASP's existing projects, such as the Application Security Verification Standard (ASVS), Testing Guide, Web Security Testing Guide (WSTG), Cheat Sheet Series, Threat Modeling Project, and Threat Dragon tool, which are directly applicable to LLM-based systems.  Specifically, the ASVS provides a framework for verifying the security of applications integrating LLMs, while the Testing Guide and WSTG offer methodologies for testing. The Cheat Sheet Series provides concise guidance on specific security techniques, and the Threat Modeling Project, combined with the Threat Dragon tool, enables effective threat analysis.  Crucially, the document stresses the importance of supply chain security, recommending the use of OWASP Dependency-Check and Dependency-Track to manage dependencies.  Beyond technical security, the excerpt advocates for a holistic approach, suggesting the application of the OWASP Software Assurance Maturity Model (SAMM) to develop robust software security programs and the OWASP DevSecOps Maturity Model (DSOMM) to integrate security into operational aspects of LLM infrastructure and data management.  The overall message is that OWASP's established projects and tools provide a valuable and transferable foundation for securing LLM deployments, alongside broader considerations for data privacy, ethical implications, and responsible AI development.",
     "keywords": [
       "OWASP",
       "Creative Commons",
@@ -40066,20 +40068,20 @@
       "This document is for general informational purposes only.",
       "License and Usage terms are defined under CC BY-SA 4.0.",
       "ShareAlike license requires derivative works to be distributed under the same license.",
-      "Mitigating risks associated with LLMs and Generative AI.",
-      "Establishing secure development and deployment practices for AI systems.",
-      "Framework for verifying the security of applications integrating LLMs.",
-      "Threat analysis methodologies for LLM deployments.",
+      "Establishing secure development and deployment practices for LLMs.",
+      "Addressing data privacy and ethical implications related to AI development.",
+      "Verifying the security of applications integrating LLMs using the OWASP Application Security Veriﬁcation Standard (ASVS).",
+      "Threat analysis for LLM deployments using tools like Threat Dragon.",
       "Managing supply chain security for LLM dependencies.",
-      "Integrating security into operational aspects of LLM infrastructure and data management."
+      "Integrating security into operational aspects of LLM infrastructure and data management through DevSecOps."
     ],
     "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Document: OWASP Top 10 for LLMs - LLM and Gen AI Data Security Best Practices Guide 1.0",
+    "content_preview": "Document: OWASP and LLM/Generative AI Security",
     "target_audience": "Professionals in ai field",
     "industry": [
       "Cybersecurity, Artificial Intelligence",
-      "Software Development, Artificial Intelligence, Cybersecurity"
+      "Software Development, Artificial Intelligence"
     ],
     "business_functions": [
       "Research and Development",
@@ -40121,8 +40123,8 @@
       "Data Security Best Practices",
       "LLM Security",
       "Gen AI Security",
-      "LLM Security Assessment",
-      "Threat Modeling"
+      "AI Security and Privacy",
+      "Threat Analysis"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -40142,7 +40144,7 @@
       "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in OWASP, Creative Commons, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
       "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to this document is for general informational purposes only., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
-    "confidence_score": 1.0
+    "confidence_score": 0.875
   },
   {
     "id": "39437670da63e268465908a8c5e21f3b",
