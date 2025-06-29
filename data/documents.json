@@ -30454,38 +30454,46 @@
   {
     "id": "b3b5ff2e3127d8fca306ada10479e885",
     "filename": "Deep_Learning_Book_1639728531.pdf",
-    "title": "Deep Learning",
-    "authors": [],
+    "title": "Deep Learning: A Visual Introduction",
+    "authors": [
+      "Unknown (likely the author's personal experience)"
+    ],
     "filepath": "documents/Deep_Learning_Book_1639728531.pdf",
-    "upload_date": "2025-06-17T12:16:31.536922",
+    "upload_date": "2025-06-29T15:44:55.668772",
     "file_size": 5540276,
-    "summary": "Deep learning is the algorithm powering the current renaissance of artificial intelligence (AI). Its progress is not showing signs of slowing down. A McKinsey report estimates that by 2030, AI will potentially deliver $13 trillion to the global economy, or 16% of the world's current GDP. This opens up exciting career opportunities in the coming decade. However, deep learning can be daunting to learn. With the abundance of learning resources in recent years has emerged another problem - formation overload. This book aims to compress this knowledge and make the subject approachable. By the end of this book, you will be able to build a visual intuition about deep learning and neural networks.",
+    "summary": "This book provides a visual introduction to deep learning, aiming to demystify the complex field and make it accessible to both beginners and those with some existing knowledge. It highlights the significant potential of deep learning, estimating a $13 trillion contribution to the global economy by 2030, driven by the current renaissance of artificial intelligence. The book addresses the challenge of information overload within the numerous learning resources available and focuses on building a visual intuition for deep learning and neural networks. The author's background includes experience in machine learning for prosthetics, a Master's degree in neurotechnology, and data analytics within the telecommunications industry, serving clients across more than 15 countries. The book is targeted towards individuals new to deep learning or machine learning, as well as those seeking to deepen their understanding. It emphasizes a practical approach, enabling readers to build a strong visual understanding of the core concepts.",
     "keywords": [
-      "Artificial Intelligence",
-      "Machine Learning",
-      "Deep Learning",
+      "deep learning",
+      "artificial intelligence",
+      "machine learning",
+      "neural networks",
+      "AI",
+      "prospects",
+      "data analytics",
       "prediction",
-      "decision-making",
-      "uncertainty",
-      "experience",
-      "language translation",
-      "business experience"
+      "decision",
+      "uncertainty"
     ],
     "key_concepts": [
-      "Artificial Intelligence (AI)",
-      "Machine Learning (ML)",
-      "Deep Learning (DL)",
-      "The role of prediction in decision-making under uncertainty",
-      "How experience affects prediction accuracy",
-      "Examples of prediction in language translation and business experience"
+      "Deep learning is a powerful algorithm driving the current AI renaissance.",
+      "AI is projected to deliver significant economic value by 2030.",
+      "Information overload is a challenge in learning about deep learning.",
+      "The book aims to provide a visual intuition for deep learning and neural networks.",
+      "Prediction is a key ingredient in decision-making under uncertainty.",
+      "Predictions vary based on the level of certainty.",
+      "Experience significantly impacts the accuracy of predictions and subsequent decisions.",
+      "Pattern recognition based on experience leads to better predictions.",
+      "Deep learning has revived the push towards Artificial Intelligence due to advancements in algorithms, data, and computational power.",
+      "Algorithms and data are crucial for extracting valuable information from large volumes of new data."
     ],
-    "category": "Data Science",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
-    "content_preview": "Document: Deep Learning",
-    "target_audience": "Professionals in data science field",
+    "content_preview": "Document: Deep Learning: A Visual Introduction",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Artificial Intelligence",
-      "Business"
+      "Artificial Intelligence, Machine Learning, Neurotechnology",
+      "Business Analytics / Decision Making / Risk Management",
+      "Artificial Intelligence / Machine Learning / Data Science"
     ],
     "business_functions": [
       "Research and Development",
@@ -30493,34 +30501,45 @@
     ],
     "companies": [],
     "technologies": [
-      "tech1"
+      "deep learning",
+      "machine learning",
+      "artificial intelligence",
+      "neural networks",
+      "prediction"
     ],
     "processes": [
       "Analysis",
       "Implementation"
     ],
     "technical_terms": [
-      "Artificial Intelligence",
-      "Machine Learning",
-      "Deep Learning"
+      "deep learning",
+      "artificial intelligence",
+      "machine learning"
     ],
     "methodologies": [
-      "method1"
+      "visual intuition",
+      "experience-based decision making",
+      "pattern recognition",
+      "algorithms",
+      "data-driven approach"
     ],
     "tools_mentioned": [
-      "tool1"
+      "language translation",
+      "graphics processing units",
+      "central processing unit"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand data science concepts"
+      "Understand machine learning concepts"
     ],
     "use_cases": [
-      "Machine Learning",
-      "Neural Networks",
-      "Language Translation",
-      "Customer Experience Analysis"
+      "Deep Learning Applications",
+      "Prosthetics Development",
+      "Data Analytics in Telecommunications",
+      "Churn Prediction",
+      "Customer Behavior Prediction"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -30534,11 +30553,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: Deep Learning",
-      "Q: What category? A: Data Science",
-      "Q: Key concepts? A: Artificial Intelligence, Machine Learning, Deep Learning",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Deep learning is a powerful algorithm driving the current AI renaissance., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights deep learning, machine learning, artificial intelligence as transformative technologies in the context of Artificial Intelligence, Machine Learning, Neurotechnology, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Deep Learning Applications, Prosthetics Development, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in deep learning, artificial intelligence, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to deep learning is a powerful algorithm driving the current ai renaissance., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
