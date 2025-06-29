@@ -50401,28 +50401,41 @@
   {
     "id": "deb41fd4ba6dffce616957f83ad5dafb",
     "filename": "KYAI_1737936090.pdf",
-    "title": "EU AI Act",
-    "authors": [],
+    "title": "EU AI Act KYAI Action Plan",
+    "authors": [
+      "EU AI Act",
+      "AI & Partners"
+    ],
     "filepath": "documents/KYAI_1737936090.pdf",
-    "upload_date": "2025-06-17T12:16:34.276923",
+    "upload_date": "2025-06-29T10:14:41.967337",
     "file_size": 2594844,
-    "summary": "The EU AI Act codifies ethics guidelines for trustworthy AI, outlining risk classification and guidance for dealing with AI firms. The Know Your AI System (KYAI) Action Plan provides insights into the AI risk landscape.",
+    "summary": "This document, the ‘EU AI Act KYAI Action Plan,’ provides guidance for navigating the requirements of the EU AI Act, specifically focusing on the ‘Know Your AI System’ (KYAI) process. It’s designed to assist enterprises in understanding and implementing strategies related to AI systems that pose a risk to individuals’ health, safety, and fundamental rights. The plan outlines a risk classification process, detailing the different risk categories applicable to AI systems as defined within the context of the EU AI Act.  The document emphasizes the complex and evolving nature of AI systems and their potential impact on society. It details the steps to take after risk classification, identifying the parties involved in this process.  The KYAI Action Plan is presented as a non-exhaustive guide, acknowledging the broad scope of the EU AI Act and the need for enterprises to proactively manage the risks associated with their AI systems. The plan includes sections on the KYAI process, regulatory guidance, and Q&A, offering practical insights for compliance.  The core objective is to empower organizations to effectively address the challenges and opportunities presented by the EU AI Act, ensuring responsible development and deployment of AI technologies. The document’s structure, with slides detailing various aspects of the process, suggests a presentation or training material designed to educate stakeholders on the requirements and best practices.",
     "keywords": [
       "EU AI Act",
       "KYAI Action Plan",
-      "Artificial Intelligence",
-      "Risk Classification"
+      "AI Systems",
+      "Risk Classification",
+      "Risk Level",
+      "AI Firms",
+      "authorised representative",
+      "importer",
+      "distributor",
+      "AI systems"
     ],
     "key_concepts": [
       "Trustworthy AI",
-      "AI System Lifecycle",
       "Risk Pyramid",
-      "Parties involved in AI"
+      "AI System Lifecycle",
+      "Risk Level Explanations",
+      "Post-Risk Classification",
+      "Definition of an authorised representative supplying AI systems and related components.",
+      "Prohibition of AI systems classified as unacceptable risk within the EU.",
+      "Reference to the European Data Protection Supervisor for AI systems used by Union institutions."
     ],
-    "category": "Technology",
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Document: EU AI Act",
-    "target_audience": "Professionals in technology field",
+    "content_preview": "Document: EU AI Act KYAI Action Plan",
+    "target_audience": "Professionals in ai field",
     "industry": [
       "Artificial Intelligence"
     ],
@@ -50432,7 +50445,11 @@
     ],
     "companies": [],
     "technologies": [
-      "AI"
+      "AI",
+      "model training",
+      "model retraining",
+      "model testing",
+      "model evaluation"
     ],
     "processes": [
       "Analysis",
@@ -50441,24 +50458,25 @@
     "technical_terms": [
       "EU AI Act",
       "KYAI Action Plan",
-      "Artificial Intelligence"
+      "AI Systems"
     ],
     "methodologies": [
-      "KYAI"
+      "Risk Classification",
+      "legal compliance"
     ],
-    "tools_mentioned": [
-      "EU AI Act",
-      "KYAI Action Plan"
-    ],
+    "tools_mentioned": [],
     "prerequisites": [
       "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand technology concepts"
+      "Understand ai concepts"
     ],
     "use_cases": [
-      "AI System Lifecycle",
-      "Risk Classification"
+      "AI System Risk Classification",
+      "AI Compliance",
+      "Model Training",
+      "Model Retraining",
+      "Model Testing"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -50472,11 +50490,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: EU AI Act",
-      "Q: What category? A: Technology",
-      "Q: Key concepts? A: EU AI Act, KYAI Action Plan, Artificial Intelligence",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Trustworthy AI, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights AI, model training, model retraining as transformative technologies in the context of Artificial Intelligence, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including AI System Risk Classification, AI Compliance, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in EU AI Act, KYAI Action Plan, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to trustworthy ai, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
