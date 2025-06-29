@@ -65961,29 +65961,36 @@
     "id": "f0d459ea224d863a4619bcb90b5f25ae",
     "filename": "Mathematics_of_Algorithms_Cheatsheet_1567887099.pdf",
     "title": "Algorithms for Supervised- and Unsupervised Learning",
-    "authors": [],
+    "authors": [
+      "Unknown"
+    ],
     "filepath": "documents/Mathematics_of_Algorithms_Cheatsheet_1567887099.pdf",
-    "upload_date": "2025-06-17T12:16:36.442923",
+    "upload_date": "2025-06-29T15:45:00.696859",
     "file_size": 248045,
-    "summary": "This document provides an overview of various algorithms used in supervised and unsupervised learning, including k-nearest neighbor, naive Bayes, and Gaussian likelihood. It explains the model objective, training, regularization, complexity, and online learning capabilities of each algorithm.",
+    "summary": "This document provides a concise overview of several fundamental algorithms used in supervised and unsupervised learning. It focuses on the core aspects of each algorithm, including model objective, training process, regularization techniques, and computational complexity. The document begins with a description of k-Nearest Neighbors (k-NN), a popular supervised learning algorithm. In k-NN, a new data point is classified based on the label of the nearest k training instances, utilizing Euclidean distance to determine proximity. The algorithm acts as a regularizer, smoothing the decision boundary as the value of 'k' increases.  A key characteristic of k-NN is its ability to naturally identify non-linear boundaries. The document then moves on to Naive Bayes, a probabilistic classifier that leverages Bayes' rule to estimate conditional probabilities.  Naive Bayes assumes feature independence, hence the name 'Naive.' The model learns p(Ck|x) by modeling p(x|Ck) and p(Ck).  The algorithm maximizes the product of p(Ck|x) and p(x|Ck).  It employs multivariate likelihoods (Gaussian and Multinomial) for estimating probabilities. The Gaussian likelihood uses the multivariate likelihood p(x|Ck)=￿D i=1logp(xi|Ck) and the Multinomial likelihood uses word counts. The document highlights the computational complexity of k-NN, noting that it requires storing all training instances and their features in memory, leading to a complexity of O(NM).  The document serves as a quick reference guide for understanding the basics of these algorithms, emphasizing their core principles and key considerations. It's a simplified explanation suitable for introductory learning or as a starting point for further exploration.",
     "keywords": [
+      "algorithm",
+      "supervised learning",
+      "unsupervised learning",
       "k-nearest neighbour",
+      "Euclidean distance",
+      "regularisation",
+      "likelihood",
       "Bayes' rule",
-      "Naive Bayes",
-      "Multivariate likelihood",
-      "Multinomial likelihood"
+      "multinomial likelihood",
+      "Gaussian likelihood"
     ],
     "key_concepts": [
-      "K-Nearest Neighbour Algorithm",
-      "Naive Bayes Classification",
-      "Multivariate Likelihood",
-      "Multinomial Likelihood",
-      "Gaussian Likelihood"
+      "Classification based on nearest neighbors",
+      "Model learning conditional probabilities (p(Ck|x) and p(Ck))",
+      "Independent feature assumption (Naive Bayes)",
+      "Optimization of model parameters using likelihood functions",
+      "Cross-validation for parameter tuning (k)"
     ],
-    "category": "Data Science",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
     "content_preview": "Document: Algorithms for Supervised- and Unsupervised Learning",
-    "target_audience": "Professionals in data science field",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
       "Machine Learning"
     ],
@@ -65993,35 +66000,37 @@
     ],
     "companies": [],
     "technologies": [
-      "Python",
-      "R"
+      "k-nearest neighbour",
+      "Naive Bayes",
+      "Gaussian likelihood"
     ],
     "processes": [
       "Analysis",
       "Implementation"
     ],
     "technical_terms": [
-      "k-nearest neighbour",
-      "Bayes' rule",
-      "Naive Bayes"
+      "algorithm",
+      "supervised learning",
+      "unsupervised learning"
     ],
     "methodologies": [
-      "Supervised Learning",
-      "Unsupervised Learning"
+      "supervised learning",
+      "Bayes' rule",
+      "likelihood estimation"
     ],
     "tools_mentioned": [
-      "Scikit-learn",
-      "TensorFlow"
+      "Euclidean distance",
+      "MLE"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand data science concepts"
+      "Understand machine learning concepts"
     ],
     "use_cases": [
-      "Supervised Learning",
-      "Unsupervised Learning"
+      "Classification",
+      "Pattern Recognition"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -66035,11 +66044,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: Algorithms for Supervised- and Unsupervised Learning",
-      "Q: What category? A: Data Science",
-      "Q: Key concepts? A: k-nearest neighbour, Bayes' rule, Naive Bayes",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Classification based on nearest neighbors, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights k-nearest neighbour, Naive Bayes, Gaussian likelihood as transformative technologies in the context of Machine Learning, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Classification, Pattern Recognition, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in algorithm, supervised learning, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to classification based on nearest neighbors, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
