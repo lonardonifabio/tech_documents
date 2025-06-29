@@ -97229,36 +97229,45 @@
     "id": "9e66d10d8d2e53c07bf57a68969a6541",
     "filename": "Top_10_ML_Algorithm.pdf",
     "title": "Top 10 Machine Learning Algorithms",
-    "authors": [],
+    "authors": [
+      "DeZyre"
+    ],
     "filepath": "documents/Top_10_ML_Algorithm.pdf",
-    "upload_date": "2025-06-17T12:16:40.691923",
+    "upload_date": "2025-06-29T10:14:48.695400",
     "file_size": 3767043,
-    "summary": "This document provides an overview of the top machine learning algorithms, including Naéve Bayes Classifier, K Means Clustering Algorithm, and Support Vector Machine Algorithm. It discusses the importance of machine learning in data science and its applications, such as Netflix's recommendation algorithm. The document also highlights the need for beginners to understand the basics of machine learning.",
+    "summary": "This document provides a list of the top 10 machine learning algorithms that every engineer should know. It highlights the increasing prevalence of machine learning due to the growth of big data and accessible programming tools like Python and R. The document emphasizes the automated and self-modifying nature of machine learning algorithms, which continuously improve with data, exemplified by Netflix’s recommendation system. It discusses the development of specialized algorithms to tackle complex real-world data problems and offers a brief overview for beginners. The rapid advancement of machine learning is projected to impact 25% of global jobs within the next decade. The core of the document focuses on supervised machine learning algorithms and their application in various industries, particularly in data science and personalized recommendations. The document serves as a foundational introduction to the field, outlining key algorithms and their significance in the current technological landscape. It underscores the importance of continuous learning and adaptation within the field of machine learning.",
     "keywords": [
       "Machine Learning",
       "Algorithms",
-      "Data Science",
-      "linear regression",
-      "machine learning",
-      "predictor",
-      "explanatory variables"
+      "Data Scientists",
+      "Big Data",
+      "Python",
+      "R",
+      "Predictions",
+      "Supervised Machine Learning",
+      "Linear Regression",
+      "Independent Variables"
     ],
     "key_concepts": [
-      "Artificial Neural Networks",
+      "Naïve Bayes Classifier",
+      "K Means Clustering",
       "Support Vector Machine",
+      "Apriori Algorithm",
+      "Linear Regression",
+      "Logistic Regression",
+      "Artificial Neural Networks",
+      "Random Forests",
       "Decision Trees",
-      "dependent variable",
-      "independent variable",
-      "sales forecasting",
-      "risk assessment"
+      "Nearest Neighbours"
     ],
-    "category": "Data Science",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
     "content_preview": "Document: Top 10 Machine Learning Algorithms",
-    "target_audience": "Professionals in data science field",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Artificial Intelligence/Machine Learning",
-      "Business"
+      "Data Science, Technology",
+      "Finance, Insurance, Retail",
+      "Machine Learning / Data Science"
     ],
     "business_functions": [
       "Research and Development",
@@ -97266,8 +97275,11 @@
     ],
     "companies": [],
     "technologies": [
-      "Python",
-      "R"
+      "Naive Bayes",
+      "K Means Clustering",
+      "Support Vector Machine",
+      "Apriori",
+      "Linear Regression"
     ],
     "processes": [
       "Analysis",
@@ -97276,26 +97288,29 @@
     "technical_terms": [
       "Machine Learning",
       "Algorithms",
-      "Data Science"
+      "Data Scientists"
     ],
     "methodologies": [
-      "Machine Learning",
-      "Data Science",
-      "Linear Regression"
+      "Supervised Machine Learning",
+      "Statistical Analysis",
+      "Trend Analysis",
+      "parallel growth"
     ],
     "tools_mentioned": [
-      "Netflix's recommendation algorithm",
-      "Kaggle"
+      "Python",
+      "R",
+      "Data Science Libraries"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand data science concepts"
+      "Understand machine learning concepts"
     ],
     "use_cases": [
-      "Data Analysis",
+      "Recommendation Systems",
       "Predictive Modeling",
+      "Data Analysis",
       "Sales Forecasting",
       "Risk Assessment"
     ],
@@ -97311,11 +97326,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: Top 10 Machine Learning Algorithms",
-      "Q: What category? A: Data Science",
-      "Q: Key concepts? A: Machine Learning, Algorithms, Data Science",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Naïve Bayes Classifier, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Naive Bayes, K Means Clustering, Support Vector Machine as transformative technologies in the context of Data Science, Technology, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Recommendation Systems, Predictive Modeling, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Machine Learning, Algorithms, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to naïve bayes classifier, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
