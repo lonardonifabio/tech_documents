@@ -58627,43 +58627,47 @@
     "id": "f490c8062166d9ef7aeb56fba80e7514",
     "filename": "Machine_Learning_Cheat_Sheet_1629957157.pdf",
     "title": "Machine Learning Cheat Sheet",
-    "authors": [],
+    "authors": [
+      "soulmachine"
+    ],
     "filepath": "documents/Machine_Learning_Cheat_Sheet_1629957157.pdf",
-    "upload_date": "2025-06-17T12:16:35.620923",
+    "upload_date": "2025-06-29T10:14:43.327350",
     "file_size": 2130186,
-    "summary": "A condensed version of machine learning manual, providing classical equations and diagrams on machine learning to help quickly recall knowledge and ideas. The cheat sheet aims to standardize symbol usage and include intermediary steps in mathematical proofs.",
+    "summary": "This document is a concise 'cheat sheet' designed to provide a readily accessible reference for fundamental equations, diagrams, and techniques within the field of machine learning. It’s a condensed version of a more extensive machine learning manual, targeting users who need quick recall of core concepts. The primary goal is to simplify the often-complex world of mathematical formulas and derivations commonly found in machine learning textbooks. A key focus of the cheat sheet is addressing the confusion frequently encountered when dealing with mathematical notation. Specifically, it tackles the issue of ambiguous symbols, such as 'X,' which can represent a set, a random variable, or a matrix – a source of significant confusion for learners. To mitigate this, the cheat sheet implements a standardized approach to symbol usage, clearly defining each symbol's meaning. Furthermore, it addresses a common problem in machine learning literature: the omission of intermediate steps in mathematical proofs. Many textbooks streamline explanations by skipping these steps, which can leave readers struggling to grasp the underlying logic. This cheat sheet consciously retains crucial intermediary steps, ensuring that readers can follow the derivation process and fully understand the formulas. The document is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license, promoting sharing and adaptation of the content. The aim is to provide a practical tool for machine learning practitioners and students seeking a clear and accessible overview of essential mathematical concepts. It’s a valuable resource for quickly referencing key equations and diagrams, facilitating a deeper understanding of machine learning principles. The document's structure includes a 'Notation' section, indicating a systematic approach to the presentation of mathematical terms.",
     "keywords": [
       "machine learning",
-      "classical equations",
+      "equations",
       "diagrams",
-      "tricks",
-      "Bayesian statistics",
+      "symbols",
+      "random variable",
+      "matrix",
+      "cheat sheet",
       "Wishart distribution",
       "MVN",
-      "Sensor fusion",
-      "mixture models",
-      "Gaussians"
+      "Bayesian statistics"
     ],
     "key_concepts": [
-      "Machine Learning Cheat Sheet",
-      "Classical Equations in Machine Learning",
-      "Standardized Symbols",
-      "Intermediary Steps in Mathematical Proofs",
-      "Posterior distribution of parameters",
-      "MAP estimation",
-      "Credible intervals",
+      "This cheat sheet is a condensed version of machine learning manual.",
+      "Mathematical formulas use quite a lot of confusing symbols.",
+      "The cheat sheet tries to standardize the usage of symbols.",
+      "The cheat sheet tries to keep important intermediary steps as where as possible.",
+      "Inferring the parameters of an MVN",
+      "Posterior distribution of m and S*",
+      "Sensor fusion with unknown precisions",
       "Bayesian model selection",
-      "Priors and Bayes factors",
-      "Mixture of Gaussians"
+      "Marginal likelihood (evidence)",
+      "Uninformative priors"
     ],
-    "category": "Data Science",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
     "content_preview": "Document: Machine Learning Cheat Sheet",
-    "target_audience": "Professionals in data science field",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Education/Research",
-      "Statistics and Machine Learning",
-      "Machine Learning"
+      "Artificial Intelligence, Machine Learning",
+      "Statistics, Data Science, Signal Processing, Sensor Technology",
+      "Statistics, Machine Learning, Data Science",
+      "Data Science / Machine Learning / Statistics",
+      "Machine Learning, Artificial Intelligence"
     ],
     "business_functions": [
       "Research and Development",
@@ -58671,8 +58675,11 @@
     ],
     "companies": [],
     "technologies": [
-      "tech1",
-      "tech2"
+      "machine learning",
+      "Bayesian statistics",
+      "MVN (Multivariate Normal)",
+      "Wishart distribution",
+      "mixture models"
     ],
     "processes": [
       "Analysis",
@@ -58680,35 +58687,35 @@
     ],
     "technical_terms": [
       "machine learning",
-      "classical equations",
+      "equations",
       "diagrams"
     ],
     "methodologies": [
-      "method1",
-      "method2",
-      "Bayesian statistics",
-      "GMMs",
-      "K-means"
+      "mathematical proofs",
+      "MAP estimation",
+      "Bayes factors",
+      "Bayes decision theory",
+      "empirical Bayes"
     ],
     "tools_mentioned": [
-      "tool1",
-      "tool2",
-      "EM algorithm",
-      "Gradient descent",
-      "Lagrange duality"
+      "uninformative priors",
+      "robust priors",
+      "conjugate priors",
+      "MAP estimate",
+      "DFP"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand data science concepts"
+      "Understand machine learning concepts"
     ],
     "use_cases": [
-      "Machine Learning",
-      "Study Aid",
-      "Bayesian statistics",
+      "Knowledge Recall",
+      "Educational Material",
+      "Reference Guide",
       "Sensor fusion",
-      "Clustering"
+      "Bayesian model selection"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -58722,11 +58729,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: Machine Learning Cheat Sheet",
-      "Q: What category? A: Data Science",
-      "Q: Key concepts? A: machine learning, classical equations, diagrams",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores This cheat sheet is a condensed version of machine learning manual., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights machine learning, Bayesian statistics, MVN (Multivariate Normal) as transformative technologies in the context of Artificial Intelligence, Machine Learning, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Knowledge Recall, Educational Material, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in machine learning, equations, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to this cheat sheet is a condensed version of machine learning manual., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
