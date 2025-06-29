@@ -102817,34 +102817,46 @@
   {
     "id": "e9c8674dcf7f623a2b0a8edecd69f5b2",
     "filename": "_ 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐬 !_1741200192.pdf",
-    "title": "Basic Python Programs",
-    "authors": [],
+    "title": "140+ Basic Python Programs",
+    "authors": [
+      "Piush Kumar Sharma"
+    ],
     "filepath": "documents/_ 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐬 !_1741200192.pdf",
-    "upload_date": "2025-06-17T12:16:41.359923",
+    "upload_date": "2025-06-29T10:14:49.474408",
     "file_size": 4646138,
-    "summary": "A collection of basic Python programs for practicing and preparing for interviews, including arithmetic operations, geometric calculations, and user input.",
+    "summary": "This document provides a collection of 140+ basic Python programs designed to help users prepare for technical interviews. The excerpt focuses on a single program demonstrating fundamental Python concepts, including printing a greeting, performing arithmetic operations (addition and division), and calculating the area of a triangle. The program utilizes `input()` to gather numerical values from the user, employing `float()` to convert these inputs into floating-point numbers. It demonstrates basic arithmetic operations, division with error handling for division by zero, and the calculation of a triangle's area using the formula (base * height) / 2. The program includes comments to explain each step, making it suitable for beginners learning Python. The program uses Jupyter Notebook for execution. The program demonstrates the use of f-strings for formatted output. The program includes error handling for division by zero. The program is designed to be a learning resource for preparing for technical interviews.",
     "keywords": [
-      "python",
-      "programming",
-      "interview",
-      "armstrong number",
-      "fibonacci sequence",
-      "python program"
+      "Python",
+      "Jupyter Notebook",
+      "arithmetical operations",
+      "addition",
+      "division",
+      "triangle",
+      "area",
+      "input",
+      "float",
+      "error"
     ],
     "key_concepts": [
-      "Basic Python Programs",
-      "Arithmetical Operations",
-      "Geometry (Triangle Area)",
+      "Basic Python program creation",
+      "Performing arithmetic operations (addition and division)",
+      "Calculating the area of a triangle",
+      "User input and data type conversion (float)",
+      "Handling division by zero errors",
       "Armstrong Number: A number that is equal to the sum of its own digits, each raised to a power equal to the number of digits in the number.",
-      "Fibonacci Sequence: A series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1."
+      "Fibonacci sequence: A sequence where each term is the sum of the two preceding ones.",
+      "Multiplication Table: A table showing the multiples of a given number.",
+      "Input and Output: Taking input from the user and displaying the results.",
+      "Arithmetic operations (addition, subtraction, multiplication, division)"
     ],
-    "category": "Data Science",
-    "difficulty": "Intermediate",
-    "content_preview": "Document: Basic Python Programs",
-    "target_audience": "Professionals in data science field",
+    "category": "Technology",
+    "difficulty": "Basic",
+    "content_preview": "Document: 140+ Basic Python Programs",
+    "target_audience": "Professionals in technology field",
     "industry": [
-      "Education",
-      "Computer Science"
+      "Software Development / Education / Training",
+      "Software Development, Education",
+      "Software Development / Education / Mathematics"
     ],
     "business_functions": [
       "Research and Development",
@@ -102859,15 +102871,16 @@
       "Implementation"
     ],
     "technical_terms": [
-      "python",
-      "programming",
-      "interview"
+      "Python",
+      "Jupyter Notebook",
+      "arithmetical operations"
     ],
     "methodologies": [
-      "procedural programming",
-      "input/output operations",
-      "Iterative",
-      "Recursive"
+      "interactive programming",
+      "input/output",
+      "arithmetic operations",
+      "iteration",
+      "algorithm development"
     ],
     "tools_mentioned": [
       "Jupyter Notebook"
@@ -102876,13 +102889,14 @@
       "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand data science concepts"
+      "Understand technology concepts"
     ],
     "use_cases": [
-      "Programming tutorials",
-      "Interview preparation",
-      "Armstrong Number Detection",
-      "Fibonacci Sequence Generation"
+      "Python Tutorial",
+      "Coding Practice",
+      "Interview Preparation",
+      "Number Calculation",
+      "Armstrong Number Check"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -102896,11 +102910,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: Basic Python Programs",
-      "Q: What category? A: Data Science",
-      "Q: Key concepts? A: python, programming, interview",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Basic Python program creation, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Python, interactive programming, input/output as transformative technologies in the context of Software Development / Education / Training, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Python Tutorial, Coding Practice, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Python, Jupyter Notebook, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to basic python program creation, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
