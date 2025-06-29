@@ -7535,28 +7535,42 @@
   {
     "id": "4715d52a0b0d3b503f6b0a4c69a61392",
     "filename": "AI_Risk_Index_Included_Frameworks_1741716793.pdf",
-    "title": "AI Risk Frameworks",
-    "authors": [],
+    "title": "AI Risk Frameworks MIT AI Risk Repository",
+    "authors": [
+      "Critch & Russell",
+      "Various (Multiple Authors)"
+    ],
     "filepath": "documents/AI_Risk_Index_Included_Frameworks_1741716793.pdf",
-    "upload_date": "2025-06-17T12:16:27.737922",
+    "upload_date": "2025-06-29T10:14:35.163273",
     "file_size": 9058997,
-    "summary": "The MIT AI Risk Repository presents a database and two taxonomies of AI risks compiled through a systematic search of existing frameworks, taxonomies, and classifications. This slide deck provides a holistic view of how AI risks are currently conceptualised, highlighting common themes and gaps in understanding.",
+    "summary": "The MIT AI Risk Repository, updated as of January 2025, presents a comprehensive overview of existing frameworks for understanding and categorizing AI risks. This slide deck synthesizes information from 43 documents, primarily focusing on taxonomies and classifications of AI risks developed by researchers and industry experts. The repository was created through a systematic search for relevant literature, prioritizing documents that offer structured approaches to risk assessment. Specifically, the selection criteria included a focus on presenting a taxonomy, coverage of risks across diverse locations and industries, the proposition of an original framework, and a peer-reviewed status (journal papers, preprints, conference papers, or industry reports). The slide deck serves as a valuable resource for researchers, policymakers, and anyone seeking to understand the current landscape of AI risk frameworks. It highlights the variety of ways in which risks are conceptualized and categorized, identifying common themes and gaps in our knowledge. The document emphasizes the need for a holistic understanding of AI risks, providing a starting point for further investigation and collaboration. The included document, 'TASRA: a Taxonomy and Analysis of Societal-Scale Risks from AI' by Critch & Russell, 2023, is a key component of this repository, offering a detailed examination of societal-scale AI risks. The repository’s goal is to facilitate a more informed and coordinated approach to managing the potential challenges posed by rapidly advancing artificial intelligence. The slide deck is designed to be a dynamic resource, allowing users to bookmark relevant frameworks for future reference and contributing to a growing body of knowledge on this critical topic.",
     "keywords": [
       "AI Risk Frameworks",
-      "Taxonomies",
-      "Academia",
-      "Industry"
+      "AI Risks",
+      "Taxonomy",
+      "Classiﬁcation",
+      "Frameworks",
+      "Artificial Intelligence",
+      "Risk Implications",
+      "Literature Review",
+      "Artificial General Intelligence",
+      "Ethics"
     ],
     "key_concepts": [
-      "Concept of AI risks",
-      "Common themes in AI risk frameworks",
-      "Gaps in understanding of AI risks"
+      "The AI Risk Repository is a database and two taxonomies of AI risks.",
+      "AI risk frameworks aim to synthesize knowledge on AI risks across academia and industry, and identify common themes and gaps in our understanding of AI risks.",
+      "The selection criteria for documents included in the slide deck focused on structured taxonomies, multi-location/industry coverage, and original frameworks.",
+      "The risks associated with Artificial General Intelligence",
+      "Managing the ethical and risk implications of rapid advances in artificial intelligence",
+      "Social impacts of artificial intelligence",
+      "Sociotechnical Harms of Algorithmic Systems"
     ],
-    "category": "Technology",
+    "category": "AI",
     "difficulty": "Intermediate",
-    "content_preview": "Document: AI Risk Frameworks",
-    "target_audience": "Professionals in technology field",
+    "content_preview": "Document: AI Risk Frameworks MIT AI Risk Repository",
+    "target_audience": "Professionals in ai field",
     "industry": [
+      "Artificial Intelligence, Technology, Risk Management",
       "Artificial Intelligence"
     ],
     "business_functions": [
@@ -7564,30 +7578,42 @@
       "Strategy"
     ],
     "companies": [],
-    "technologies": [],
+    "technologies": [
+      "AI",
+      "artificial intelligence",
+      "Artificial General Intelligence",
+      "Artificial Intelligence",
+      "Algorithmic Systems"
+    ],
     "processes": [
       "Analysis",
       "Implementation"
     ],
     "technical_terms": [
       "AI Risk Frameworks",
-      "Taxonomies",
-      "Academia"
+      "AI Risks",
+      "Taxonomy"
     ],
     "methodologies": [
+      "systematic search",
       "taxonomy",
-      "analysis"
+      "classiﬁcation",
+      "Systematic Review",
+      "Literature Review"
     ],
     "tools_mentioned": [],
     "prerequisites": [
       "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand technology concepts"
+      "Understand ai concepts"
     ],
     "use_cases": [
-      "Risk Management",
-      "Framework Development"
+      "Risk Assessment",
+      "Framework Development",
+      "AI Taxonomy",
+      "Automation",
+      "Algorithmic Decision Making"
     ],
     "benefits_mentioned": [
       "Improved understanding",
@@ -7601,11 +7627,11 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: AI Risk Frameworks",
-      "Q: What category? A: Technology",
-      "Q: Key concepts? A: AI Risk Frameworks, Taxonomies, Academia",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores The AI Risk Repository is a database and two taxonomies of AI risks., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights AI, artificial intelligence, Artificial General Intelligence as transformative technologies in the context of Artificial Intelligence, Technology, Risk Management, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Risk Assessment, Framework Development, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in AI Risk Frameworks, AI Risks, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to the ai risk repository is a database and two taxonomies of ai risks., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
     "confidence_score": 1.0
   },
