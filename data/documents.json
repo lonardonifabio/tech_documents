@@ -110477,42 +110477,44 @@
     "id": "9815c9c327347ef01d994c78534ea95a",
     "filename": "python_PySpark_cheatSheet.pdf",
     "title": "PySpark RDD Cheat Sheet",
-    "authors": [],
+    "authors": [
+      "Unknown"
+    ],
     "filepath": "documents/python_PySpark_cheatSheet.pdf",
-    "upload_date": "2025-06-17T12:16:42.167923",
+    "upload_date": "2025-06-29T10:14:50.355417",
     "file_size": 1770506,
-    "summary": "A comprehensive guide to PySpark RDD (Resilient Distributed Dataset) operations, including initialization, data transformation, and statistical analysis.",
+    "summary": "This document excerpt presents a concise cheat sheet focused on PySpark RDD (Resilient Distributed Datasets) operations. It outlines key functionalities for initializing a SparkContext, retrieving RDD information, applying various functions to manipulate data within the RDD, and performing common statistical calculations. The cheat sheet covers essential operations such as initializing a SparkContext, retrieving RDD instance details like the number of partitions and instance count, selecting data based on keys and values, reshaping data, performing mathematical operations, sorting data, and partitioning it across the cluster. It also details how to save and stop the SparkContext. Furthermore, the document provides instructions on iterating through RDDs, loading data, and utilizing functions like `collectAsMap` to retrieve data in a specific format.  The cheat sheet includes examples of using methods like `count()`, `countByKey()`, `countByValue()`, `max()`, `min()`, `mean()`, `stddev()`, `variance()`, and `histogram()` to calculate statistics such as the total count, mean, standard deviation, variance, and create histograms.  The document also demonstrates how to check if an RDD is empty and provides a summary of the RDD's statistics, including count, mean, standard deviation, maximum, and minimum values. The examples are written in Python and utilize the `pyspark` library. The document is a quick reference guide for users working with PySpark RDDs, offering a streamlined approach to common data manipulation and analysis tasks.",
     "keywords": [
       "PySpark",
       "RDD",
-      "Data Science",
-      "Python",
       "SparkContext",
-      "Data Analysis",
+      "DataCamp",
+      "Statistics",
+      "HistoGram",
+      "Stats",
       "Spark",
-      "partitioning",
-      "coalescing",
-      "saving"
+      "partition",
+      "coalesce"
     ],
     "key_concepts": [
-      "Data Processing",
-      "Data Transformation",
-      "Data Visualization",
-      "Machine Learning",
-      "Resilient Distributed Datasets (RDDs)",
-      "Spark Core API",
-      "Data partitioning and coalescing",
-      "Data saving and loading",
-      "Random sampling",
-      "Data filtering and selection"
+      "Initializing SparkContext",
+      "Retrieving RDD Information",
+      "Applying Functions to RDDs",
+      "Selecting Data from RDDs",
+      "Reshaping Data in RDDs",
+      "Mathematical Operations on RDDs",
+      "Sorting RDDs",
+      "Repartitioning RDDs",
+      "Saving RDDs",
+      "Stopping SparkContext"
     ],
-    "category": "Data Science",
+    "category": "Machine Learning",
     "difficulty": "Intermediate",
     "content_preview": "Document: PySpark RDD Cheat Sheet",
-    "target_audience": "Professionals in data science field",
+    "target_audience": "Professionals in machine learning field",
     "industry": [
-      "Data Science",
-      "Data Science and Machine Learning"
+      "Data Science, Big Data Technologies",
+      "Big Data Processing / Data Engineering"
     ],
     "business_functions": [
       "Research and Development",
@@ -110520,7 +110522,10 @@
     ],
     "companies": [],
     "technologies": [
-      "Python"
+      "PySpark",
+      "RDD",
+      "Spark",
+      "Hadoop"
     ],
     "processes": [
       "Analysis",
@@ -110529,22 +110534,32 @@
     "technical_terms": [
       "PySpark",
       "RDD",
-      "Data Science"
+      "SparkContext"
     ],
     "methodologies": [
-      "PySpark RDD",
-      "Online learning"
+      "Data Science",
+      "Online Learning",
+      "RDD operations",
+      "Filtering",
+      "Key-Value RDDs"
     ],
     "tools_mentioned": [
-      "SparkContext"
+      "SparkContext",
+      "Spark Submit",
+      "Hadoop HDFS"
     ],
     "prerequisites": [
       "Basic understanding of the subject matter"
     ],
     "learning_objectives": [
-      "Understand data science concepts"
+      "Understand machine learning concepts"
     ],
-    "use_cases": [],
+    "use_cases": [
+      "RDD Operations",
+      "Data Analysis",
+      "Statistical Calculations",
+      "Data Transformation"
+    ],
     "benefits_mentioned": [
       "Improved understanding",
       "Practical insights"
@@ -110557,13 +110572,13 @@
       "Follow systematic approaches"
     ],
     "questions_and_answers": [
-      "Q: What is the main focus? A: PySpark RDD Cheat Sheet",
-      "Q: What category? A: Data Science",
-      "Q: Key concepts? A: PySpark, RDD, Data Science",
-      "Q: Target audience? A: Professionals",
-      "Q: Main benefit? A: Enhanced understanding of the subject matter"
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Initializing SparkContext, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights PySpark, RDD, Spark as transformative technologies in the context of Data Science, Big Data Technologies, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including RDD Operations, Data Analysis, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in PySpark, RDD, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to initializing sparkcontext, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
     ],
-    "confidence_score": 0.875
+    "confidence_score": 1.0
   },
   {
     "id": "23f9c72e2117d5fecc1f35bfc9eacf39",
