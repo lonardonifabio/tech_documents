@@ -49,7 +49,9 @@ jobs:
             ghostscript \
             libreoffice \
             poppler-utils \
-            ffmpeg
+            ffmpeg \
+            libmagic1 \
+            libmagic-dev
       
       - name: Configure ImageMagick policy
         run: |

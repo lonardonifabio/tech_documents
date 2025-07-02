@@ -29,8 +29,8 @@ def setup_preview_generator():
         return PreviewManager, UnavailablePreviewType
     except ImportError as e:
         logger.error(f"Failed to import preview-generator: {e}")
-        logger.info("Installing preview-generator...")
-        os.system("pip install preview-generator[all]")
+        logger.info("Installing preview-generator with basic dependencies...")
+        os.system("pip install preview-generator")
         try:
             from preview_generator.manager import PreviewManager
             from preview_generator.exception import UnavailablePreviewType
