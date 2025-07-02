@@ -51,7 +51,8 @@ jobs:
             poppler-utils \
             ffmpeg \
             libmagic1 \
-            libmagic-dev
+            libmagic-dev \
+            exiftool
       
       - name: Configure ImageMagick policy
         run: |
@@ -73,7 +74,7 @@ jobs:
       - name: Generate document previews
         run: |
           echo "🖼️ Generating document previews..."
-          python scripts/generate_previews.py
+          python scripts/generate_previews_simple.py
         working-directory: ${{ env.BUILD_PATH }}
         
       - name: Build with Astro
