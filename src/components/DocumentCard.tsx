@@ -241,13 +241,6 @@ const DocumentCard: React.FC<DocumentCardProps> = ({ doc, autoOpen = false }) =>
                 >
                   Download
                 </a>
-                <button
-                  onClick={() => shareOnLinkedIn(doc)}
-                  className="bg-linkedin text-white px-3 py-1 rounded-full text-xs font-medium hover:bg-linkedin-dark transition-colors duration-200"
-                  title="Share on LinkedIn"
-                >
-                  Share
-                </button>
               </div>
             </div>
           </div>

@@ -72,11 +72,11 @@ export class LinkedInSharingService {
     post += `📄 **${title}**\n\n`;
     
     // Add enhanced summary with key insights
-    if (doc.summary) {
-      const summary = doc.summary.length > 200 ? 
-        doc.summary.substring(0, 197) + '...' : doc.summary;
-      post += `📝 **Summary:**\n${summary}\n\n`;
-    }
+    //if (doc.summary) {
+    //  const summary = doc.summary.length > 200 ? 
+    //    doc.summary.substring(0, 197) + '...' : doc.summary;
+    //  post += `📝 **Summary:**\n${summary}\n\n`;
+    //}
 
     // Add key concepts if available
     if (doc.key_concepts && doc.key_concepts.length > 0) {
@@ -88,21 +88,21 @@ export class LinkedInSharingService {
     }
 
     // Add target audience if available
-    if (doc.target_audience) {
-      post += `🎯 **Target Audience:** ${doc.target_audience}\n\n`;
-    }
+    //if (doc.target_audience) {
+    //  post += `🎯 **Target Audience:** ${doc.target_audience}\n\n`;
+    //}
 
     // Add use cases if available
-    if (doc.use_cases && doc.use_cases.length > 0) {
-      post += `💼 **Use Cases:**\n`;
-      doc.use_cases.slice(0, 2).forEach((useCase: string) => {
-        post += `• ${useCase}\n`;
-      });
-      post += `\n`;
-    }
+    //if (doc.use_cases && doc.use_cases.length > 0) {
+    //  post += `💼 **Use Cases:**\n`;
+    //  doc.use_cases.slice(0, 2).forEach((useCase: string) => {
+    //    post += `• ${useCase}\n`;
+    //  });
+    //  post += `\n`;
+    //}
 
     // Add category and difficulty
-    post += `📊 **Category:** ${doc.category} | **Level:** ${doc.difficulty}\n\n`;
+    //post += `📊 **Category:** ${doc.category} | **Level:** ${doc.difficulty}\n\n`;
 
     // Add call to action
     post += `🤖 Explore with AI assistance: ${documentUrl}\n\n`;

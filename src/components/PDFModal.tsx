@@ -187,16 +187,16 @@ const PDFModal: React.FC<PDFModalProps> = ({ doc, isOpen, onClose }) => {
       let post = `🚀 Sharing an insightful AI/Data Science resource!\n\n`;
       post += `📄 **${title}**\n\n`;
       
-      if (doc.summary) {
-        const summary = doc.summary.length > 200 ? doc.summary.substring(0, 197) + '...' : doc.summary;
-        post += `📝 ${summary}\n\n`;
-      }
+      //if (doc.summary) {
+      //  const summary = doc.summary.length > 200 ? doc.summary.substring(0, 197) + '...' : doc.summary;
+      //  post += `📝 ${summary}\n\n`;
+      //}
       
       if (doc.key_concepts && doc.key_concepts.length > 0) {
         post += `💡 Key concepts: ${doc.key_concepts.slice(0, 2).join(', ')}\n\n`;
       }
       
-      post += `🎯 Category: ${doc.category} | Level: ${doc.difficulty}\n\n`;
+      //post += `🎯 Category: ${doc.category} | Level: ${doc.difficulty}\n\n`;
       post += `🤖 Explore with AI: ${documentUrl}\n\n`;
       post += `📚 Discover 1100+ AI & Data Science Documents:\n`;
       post += `🌐 https://lonardonifabio.github.io/tech_documents/\n\n`;
