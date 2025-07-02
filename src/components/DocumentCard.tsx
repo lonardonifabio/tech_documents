@@ -26,8 +26,14 @@ const DocumentCard: React.FC<DocumentCardProps> = ({ doc, autoOpen = false }) =>
   const [showFullSummary, setShowFullSummary] = useState(false);
   const [showPDFModal, setShowPDFModal] = useState(autoOpen);
 
-  // Generate document preview with category-based styling
-  const getDocumentPreview = (doc: Document) => {
+  // Get document preview URL with fallback
+  const getDocumentPreviewUrl = (doc: Document) => {
+    const baseUrl = import.meta.env.DEV ? '' : '/tech_documents';
+    return `${baseUrl}/preview/${doc.id}.jpg`;
+  };
+
+  // Generate fallback preview styling for error cases
+  const getFallbackPreview = (doc: Document) => {
     const categoryStyles = {
       'AI': {
         gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
@@ -86,9 +92,28 @@ const DocumentCard: React.FC<DocumentCardProps> = ({ doc, autoOpen = false }) =>
     return `${mb} MB`;
   };
 
+  // Share document on LinkedIn
+  const shareOnLinkedIn = (doc: Document) => {
+    const baseUrl = 'https://lonardonifabio.github.io/tech_documents';
+    const documentUrl = `${baseUrl}/?doc=${doc.id}`;
+    const title = encodeURIComponent(doc.title || doc.filename);
+    const summary = encodeURIComponent(
+      doc.summary.length > 200 
+        ? doc.summary.substring(0, 197) + '...' 
+        : doc.summary
+    );
+    
+    // LinkedIn sharing URL
+    const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(documentUrl)}&title=${title}&summary=${summary}`;
+    
+    // Open LinkedIn sharing dialog
+    window.open(linkedInUrl, 'linkedin-share', 'width=600,height=400,scrollbars=yes,resizable=yes');
+  };
+
   const displaySummary = showFullSummary ? doc.summary : truncateSummary(doc.summary);
   const displayTitle = doc.title || doc.filename;
-  const previewStyle = getDocumentPreview(doc);
+  const previewUrl = getDocumentPreviewUrl(doc);
+  const fallbackStyle = getFallbackPreview(doc);
 
   return (
     <>
@@ -96,18 +121,42 @@ const DocumentCard: React.FC<DocumentCardProps> = ({ doc, autoOpen = false }) =>
         {/* Document preview */}
         <div className="h-32 w-full relative overflow-hidden">
           <div 
-            className="document-preview cursor-pointer h-full"
-            style={{ background: previewStyle.background }}
+            className="cursor-pointer h-full relative"
             onClick={() => setShowPDFModal(true)}
             title="Click to preview PDF"
           >
-            <div className="relative z-10 text-center">
-              <div className="text-3xl mb-1">{previewStyle.icon}</div>
-              <div className="text-xs font-medium opacity-90">
-                {truncateText(displayTitle, 20)}
-              </div>
-              <div className="text-xs opacity-70 mt-1">
-                Click to preview
+            {/* Generated preview image */}
+            <img
+              src={previewUrl}
+              alt={`Preview of ${displayTitle}`}
+              className="w-full h-full object-cover"
+              onError={(e) => {
+                // Fallback to gradient background if image fails to load
+                const target = e.target as HTMLImageElement;
+                target.style.display = 'none';
+                const fallbackDiv = target.nextElementSibling as HTMLElement;
+                if (fallbackDiv) {
+                  fallbackDiv.style.display = 'flex';
+                }
+              }}
+            />
+            
+            {/* Fallback gradient preview (hidden by default) */}
+            <div 
+              className="document-preview absolute inset-0 flex items-center justify-center"
+              style={{ 
+                background: fallbackStyle.background,
+                display: 'none'
+              }}
+            >
+              <div className="relative z-10 text-center">
+                <div className="text-3xl mb-1">{fallbackStyle.icon}</div>
+                <div className="text-xs font-medium opacity-90">
+                  {truncateText(displayTitle, 20)}
+                </div>
+                <div className="text-xs opacity-70 mt-1">
+                  Click to preview
+                </div>
               </div>
             </div>
           </div>
@@ -192,6 +241,13 @@ const DocumentCard: React.FC<DocumentCardProps> = ({ doc, autoOpen = false }) =>
                 >
                   Download
                 </a>
+                <button
+                  onClick={() => shareOnLinkedIn(doc)}
+                  className="bg-linkedin text-white px-3 py-1 rounded-full text-xs font-medium hover:bg-linkedin-dark transition-colors duration-200"
+                  title="Share on LinkedIn"
+                >
+                  Share
+                </button>
               </div>
             </div>
           </div>

@@ -116,6 +116,24 @@ const imageUrl = "https://www.fabiolonardoni.it/AIdatasciencelibrary_cover.JPG";
               ogType.content = 'article';
             }
             
+            // Update Open Graph image to use document-specific preview
+            const ogImage = document.querySelector('meta[property="og:image"]');
+            const ogImageSecure = document.querySelector('meta[property="og:image:secure_url"]');
+            const previewImageUrl = `${baseUrl}/preview/${docId}.jpg`;
+            
+            if (ogImage) {
+              ogImage.content = previewImageUrl;
+            }
+            if (ogImageSecure) {
+              ogImageSecure.content = previewImageUrl;
+            }
+            
+            // Update image alt text
+            const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
+            if (ogImageAlt) {
+              ogImageAlt.content = `Preview of ${doc.title || doc.filename} - AI & Data Science Document`;
+            }
+            
             // Update article-specific meta tags
             let articleSection = document.querySelector('meta[property="article:section"]');
             if (!articleSection) {

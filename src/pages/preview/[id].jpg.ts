@@ -26,9 +26,27 @@ export const GET: APIRoute = async ({ params }) => {
   }
 
   try {
-    // Load documents data
+    // First, try to serve the generated preview image
     const fs = await import('fs/promises');
     const path = await import('path');
+    
+    // Check for generated preview in public/previews/
+    const previewPath = path.resolve(process.cwd(), 'public', 'previews', `${id}.jpg`);
+    
+    try {
+      const imageBuffer = await fs.readFile(previewPath);
+      return new Response(imageBuffer, {
+        status: 200,
+        headers: {
+          'Content-Type': 'image/jpeg',
+          'Cache-Control': 'public, max-age=86400', // Cache for 24 hours
+        },
+      });
+    } catch (previewError) {
+      console.log(`Generated preview not found for ${id}, falling back to SVG generation`);
+    }
+
+    // Fallback: Load documents data and generate SVG
     const documentsPath = path.resolve(process.cwd(), 'data/documents.json');
     const data = await fs.readFile(documentsPath, 'utf-8');
     const documents = JSON.parse(data);
@@ -39,7 +57,7 @@ export const GET: APIRoute = async ({ params }) => {
       return new Response('Document not found', { status: 404 });
     }
 
-    // Generate a simple SVG preview instead of using Canvas
+    // Generate a simple SVG preview as fallback
     const svg = generateSVGPreview(doc);
     
     return new Response(svg, {
@@ -50,9 +68,9 @@ export const GET: APIRoute = async ({ params }) => {
       },
     });
   } catch (error) {
-    console.error('Error generating preview:', error);
+    console.error('Error serving preview:', error);
     
-    // Fallback to redirect to default image
+    // Ultimate fallback to redirect to default image
     return new Response(null, {
       status: 302,
       headers: {

@@ -40,10 +40,38 @@ jobs:
         run: npm ci
         working-directory: ${{ env.BUILD_PATH }}
         
-      - name: Ensure data files exist
+      - name: Install system dependencies for preview generation
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libmagickwand-dev \
+            imagemagick \
+            ghostscript \
+            libreoffice \
+            poppler-utils \
+            ffmpeg
+      
+      - name: Configure ImageMagick policy
+        run: |
+          sudo sed -i 's/rights="none" pattern="PDF"/rights="read|write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/rights="none" pattern="PS"/rights="read|write" pattern="PS"/' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/rights="none" pattern="EPS"/rights="read|write" pattern="EPS"/' /etc/ImageMagick-6/policy.xml
+      
+      - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+        working-directory: ${{ env.BUILD_PATH }}
+      
+      - name: Ensure data files exist
+        run: |
           python scripts/ensure_data.py
+        working-directory: ${{ env.BUILD_PATH }}
+      
+      - name: Generate document previews
+        run: |
+          echo "🖼️ Generating document previews..."
+          python scripts/generate_previews.py
         working-directory: ${{ env.BUILD_PATH }}
         
       - name: Build with Astro

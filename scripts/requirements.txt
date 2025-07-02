@@ -6,3 +6,6 @@ requests==2.31.0
 pypdf
 PyMuPDF==1.23.14
 Pillow==10.1.0
+preview-generator==0.30
+python-magic-bin==0.4.14
+wand==0.6.13
