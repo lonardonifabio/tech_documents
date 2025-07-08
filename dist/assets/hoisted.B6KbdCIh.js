@@ -1,0 +1,1 @@
+"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("/tech_documents/sw.js").then(e=>{console.log("SW registered: ",e)}).catch(e=>{console.log("SW registration failed: ",e)})});window.dataLayer=window.dataLayer||[];function a(){dataLayer.push(arguments)}a("js",new Date);a("config","G-G7VY771Q53");
