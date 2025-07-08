@@ -1,0 +1,58 @@
+
+    <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <style>
+          .doc-bg { fill: #ffffff; }
+          .doc-border { fill: none; stroke: #e5e7eb; stroke-width: 2; }
+          .doc-shadow { fill: #f3f4f6; }
+          .title-text { font-family: 'Times New Roman', serif; font-size: 16px; font-weight: bold; fill: #1f2937; }
+          .author-text { font-family: 'Times New Roman', serif; font-size: 12px; fill: #6b7280; }
+          .content-text { font-family: 'Times New Roman', serif; font-size: 10px; fill: #374151; }
+          .header-line { stroke: #d1d5db; stroke-width: 1; }
+        </style>
+      </defs>
+      
+      <!-- Document shadow -->
+      <rect x="4" y="4" width="396" height="296" rx="4" class="doc-shadow" />
+      
+      <!-- Document background -->
+      <rect x="0" y="0" width="396" height="296" rx="4" class="doc-bg" />
+      <rect x="0" y="0" width="396" height="296" rx="4" class="doc-border" />
+      
+      <!-- Document header area -->
+      <rect x="20" y="20" width="356" height="60" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1" rx="2" />
+      
+      <!-- Title -->
+      <text x="25" y="40" class="title-text">
+        <tspan x="25" dy="0">Medical Image Classification usi...</tspan>
+      </text>
+      
+      <!-- Authors -->
+      
+      
+      <!-- Header line -->
+      <line x1="20" y1="90" x2="376" y2="90" class="header-line" />
+      
+      <!-- Content lines (simulating text) -->
+      <text x="25" y="110" class="content-text">
+        <tspan x="25" dy="0">This document excerpt presents a Python sc...</tspan>
+        <tspan x="25" dy="15">ript designed for medical image classificatio...</tspan>
+        <tspan x="25" dy="15">n, specifically focusing on fetal head abnorm...</tspan>
+        <tspan x="25" dy="15">alities. The code utilizes libraries like Num...</tspan>
+      </text>
+      
+      <!-- Simulated text lines -->
+      <line x1="25" y1="180" x2="360" y2="180" stroke="#e5e7eb" stroke-width="1" />
+      <line x1="25" y1="195" x2="340" y2="195" stroke="#e5e7eb" stroke-width="1" />
+      <line x1="25" y1="210" x2="355" y2="210" stroke="#e5e7eb" stroke-width="1" />
+      <line x1="25" y1="225" x2="345" y2="225" stroke="#e5e7eb" stroke-width="1" />
+      <line x1="25" y1="240" x2="365" y2="240" stroke="#e5e7eb" stroke-width="1" />
+      
+      <!-- Category badge -->
+      <rect x="320" y="10" width="70" height="20" rx="10" fill="#3b82f6" />
+      <text x="355" y="23" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Technology</text>
+      
+      <!-- Page number -->
+      <text x="375" y="290" font-family="Arial" font-size="8" text-anchor="middle" fill="#9ca3af">1</text>
+    </svg>
+  
