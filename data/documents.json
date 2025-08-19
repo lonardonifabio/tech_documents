@@ -61502,6 +61502,112 @@
     ]
   },
   {
+    "id": "853f714e21bc4f5ddcf3288b5c567c91",
+    "filename": "GPAI_P_1755601435.pdf",
+    "title": "Guidelines on Scope of Obligations for GPAI Models",
+    "authors": [
+      "European Commission"
+    ],
+    "filepath": "documents/GPAI_P_1755601435.pdf",
+    "upload_date": "2025-08-19T13:33:24.760902",
+    "file_size": 1940625,
+    "summary": "This document, released by the European Commission, outlines guidelines concerning the scope of obligations associated with General Purpose AI (GPAI) models. Specifically, it addresses the classification and notification requirements for these models. The core focus is on defining what constitutes a general-purpose AI model and subsequently assessing the potential systemic risk associated with such models. The guidelines establish criteria for determining when a model is considered a general-purpose AI model, emphasizing the importance of understanding the entire lifecycle of these models – from development to deployment. A key element is the classification process, which aims to identify models posing systemic risk. This classification triggers specific notification requirements, demanding transparency and accountability from developers and deployers. The document meticulously details the classification criteria, including factors related to the model's capabilities, potential impact, and the context of its use. It’s a crucial step in the European Union’s efforts to regulate AI, promoting responsible innovation and mitigating potential harms. The guidelines are designed to foster trust and confidence in AI systems while ensuring alignment with broader societal values. The document’s structure is designed to provide a clear framework for understanding and complying with the evolving regulatory landscape for GPAI models. It’s a foundational piece for anyone involved in the development, deployment, or use of these powerful technologies within the EU. The document’s emphasis on lifecycle management underscores the need for continuous monitoring and adaptation as AI models evolve. The notification process is central to the regulatory approach, requiring proactive disclosure of information to facilitate oversight and risk assessment. This framework is intended to balance innovation with safeguards, ultimately contributing to a safer and more trustworthy AI ecosystem. The document’s release in August 2025 indicates a forward-looking approach, anticipating future developments in the field of AI.",
+    "keywords": [
+      "GPAI Models",
+      "General-purpose AI Models",
+      "Systemic Risk",
+      "Notification",
+      "European Commission",
+      "general-purpose AI model",
+      "AI Act",
+      "systemic risk",
+      "self-supervision",
+      "large amount of data"
+    ],
+    "key_concepts": [
+      "Guidelines on Scope of Obligations for GPAI Models",
+      "Lifecycle of a general-purpose AI model",
+      "Classification of general-purpose AI models with systemic risk",
+      "The definition of a ‘general-purpose AI model’ as outlined in the AI Act.",
+      "The lifecycle of a general-purpose AI model and its associated obligations.",
+      "The concept of ‘systemic risk’ triggering stricter obligations for providers.",
+      "A model is defined as general-purpose if trained with >10²³ FLOP and capable of diverse tasks like language, text-to-image, and text-to-video.",
+      "The distinction between general-purpose and narrow-task AI models is crucial, particularly concerning regulatory compliance under the AI Act.",
+      "Systemic risk assessment and mitigation are expected for providers of general-purpose AI models.",
+      "Cumulative compute usage over training lifecycle"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Guidelines on Scope of Obligations for GPAI Models",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence",
+      "Artificial Intelligence (AI)"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI Models",
+      "GPAI Models",
+      "AI",
+      "self-supervision",
+      "text-to-image"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "GPAI Models",
+      "General-purpose AI Models",
+      "Systemic Risk"
+    ],
+    "methodologies": [
+      "Classification",
+      "large amount of data",
+      "training",
+      "estimation",
+      "approximation"
+    ],
+    "tools_mentioned": [
+      "FLOP"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "AI Model Classification",
+      "AI Model Risk Assessment",
+      "AI Model Governance",
+      "AI Model Development",
+      "Regulatory Compliance"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Guidelines on Scope of Obligations for GPAI Models, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights AI Models, GPAI Models, AI as transformative technologies in the context of Artificial Intelligence, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including AI Model Classification, AI Model Risk Assessment, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in GPAI Models, General-purpose AI Models, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to guidelines on scope of obligations for gpai models, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "907cffc5dd3386c8c5f5e31e38fcc20b",
     "filename": "GUIA_DE_AGENTES_uba_derecho_1745136533.pdf",
     "title": "Artificial intelligence agents and agentic workflows: The new frontier of automation",
