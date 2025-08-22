@@ -78361,6 +78361,113 @@
     "confidence_score": 1.0
   },
   {
+    "id": "b8d9072985fa641936c16a4cfe13dde5",
+    "filename": "LLM_based_Systems_with_Zero_Trust_1755774419.pdf",
+    "title": "Design Principles for LLM-based Systems with Zero Trust Foundation for Secure Agentic Systems",
+    "authors": [
+      "Federal Office for Information Security (BSI)",
+      "Agence nationale de la sécurité des systèmes d‘information (SSI)"
+    ],
+    "filepath": "documents/LLM_based_Systems_with_Zero_Trust_1755774419.pdf",
+    "upload_date": "2025-08-22T12:12:54.244005",
+    "file_size": 753212,
+    "summary": "This document outlines design principles for Large Language Model (LLM)-based systems, specifically focusing on establishing a robust security foundation utilizing a Zero Trust approach for Secure Agentic Systems.  It’s a collaborative effort between the Federal Office for Information Security (BSI) in Germany and the Agence nationale de la sécurité des systèmes d‘information (SSI) in France. The core objective is to provide a framework for developing and deploying LLM systems that minimize risk and maximize security. The document emphasizes a layered security strategy, starting with fundamental controls and progressing to more sophisticated techniques. Key areas of focus include authentication and authorization mechanisms to verify the identity of users and systems accessing the LLM, alongside granular control over input and output data to prevent malicious prompts or compromised responses.  Sandboxing is presented as a critical technique for isolating LLM processes and limiting the potential impact of vulnerabilities. The document’s intent is to guide organizations in building LLM systems that are resilient against threats, ensuring data integrity, and maintaining operational control.  It’s likely intended for security professionals, system architects, and developers involved in the design, implementation, and operation of LLM-based applications. The inclusion of both BSI and SSI suggests a cross-border collaboration, potentially reflecting the global nature of LLM development and deployment challenges. The document’s last update date of August 2025 indicates it’s a forward-looking guide, anticipating future developments and security considerations within the LLM landscape.  The structure, with an introduction and subsequent sections detailing specific design principles, suggests a detailed and practical approach to securing LLM systems.  The document’s focus on Zero Trust principles underscores the importance of assuming that no user or device is inherently trustworthy, requiring continuous verification and authorization.",
+    "keywords": [
+      "LLM",
+      "Secure Systems",
+      "Zero Trust",
+      "Authentication",
+      "Authorization",
+      "Input Restrictions",
+      "Sandboxing",
+      "RAG",
+      "Indirect Prompt Injections",
+      "Security Risks"
+    ],
+    "key_concepts": [
+      "Design Principles for LLM-based Systems",
+      "Secure Agentic Systems",
+      "Federal Office for Information Security (BSI)",
+      "Agence nationale de la sécurité des systèmes d‘information",
+      "Secure LLM Systems",
+      "LLM systems handling sensitive information from various sources introduces security risks.",
+      "RAG integration can be exploited through insufficient authorization, leading to unauthorized database queries.",
+      "Privilege escalation via extensions allows unauthorized data modification and manipulation.",
+      "Deleting sensitive information for each session",
+      "Separating environments (development, testing, production) to reduce risk"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Design Principles for LLM-based Systems with Zero Trust Foundation for Secure Agentic Systems",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Information Security, Artificial Intelligence",
+      "Artificial Intelligence / LLM Security"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "LLM",
+      "RAG",
+      "Indirect Prompt Injections",
+      "LLMs"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "LLM",
+      "Secure Systems",
+      "Zero Trust"
+    ],
+    "methodologies": [
+      "Zero Trust",
+      "Sandboxing",
+      "Risk Assessment",
+      "Authorization Management",
+      "Continuous observation and logging"
+    ],
+    "tools_mentioned": [
+      "Database",
+      "Token limits"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Secure LLM Systems",
+      "Authentication and Authorization",
+      "Input/Output Restriction Management",
+      "Sandboxing",
+      "Retrieval-Augmented Generation (RAG)"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Design Principles for LLM-based Systems, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights LLM, RAG, Indirect Prompt Injections as transformative technologies in the context of Information Security, Artificial Intelligence, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Secure LLM Systems, Authentication and Authorization, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in LLM, Secure Systems, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to design principles for llm-based systems, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "8486c4a2490bcf72a2d651894d346eeb",
     "filename": "LLM_from_Scratch_1740948185.pdf",
     "title": "Large Language Models from Scratch",
