@@ -152436,6 +152436,118 @@
     "confidence_score": 1.0
   },
   {
+    "id": "9fec347145c9eed089cad2e1e59e25a7",
+    "filename": "gpt_oss_120b_20b_model_1756068889.pdf",
+    "title": "gpt-oss-120b & gpt-oss-20b Model Card",
+    "authors": [
+      "OpenAI"
+    ],
+    "filepath": "documents/gpt_oss_120b_20b_model_1756068889.pdf",
+    "upload_date": "2025-09-13T22:02:45.292771",
+    "file_size": 3040366,
+    "summary": "This document, a Model Card for the gpt-oss-120b and gpt-oss-20b models, released by OpenAI on August 5, 2025, details the architecture, training, and evaluation methodologies employed for these large language models. The document outlines a comprehensive approach to understanding the models' capabilities and limitations. Specifically, it covers aspects such as quantization, the underlying model architecture, the tokenizer used, and the pretraining process, including post-training efforts focused on reasoning and tool use. The training incorporated a 'Harmony Chat Format' and 'Variable Effort Reasoning Training' techniques, alongside 'Agentic Tool Use' strategies. Evaluation metrics include assessing reasoning abilities, factuality, and performance across various tools. The document also addresses safety testing and mitigation strategies, highlighting observed challenges and evaluations related to disallowed content.  The evaluation framework includes detailed analysis of reasoning, factuality, tool use performance, health performance, and multilingual capabilities.  The document represents a critical resource for researchers and developers seeking to understand and utilize these open-source large language models, providing insights into their strengths, weaknesses, and potential applications.  It's a technical document intended for a knowledgeable audience familiar with large language model development and evaluation.",
+    "keywords": [
+      "gpt-oss-120b",
+      "gpt-oss-20b",
+      "quantization",
+      "architecture",
+      "tokenizer",
+      "pretrained",
+      "safety testing",
+      "tool use",
+      "evaluations",
+      "MoE"
+    ],
+    "key_concepts": [
+      "Model architecture and data",
+      "Training and evaluations of large language models",
+      "Post-training techniques for reasoning and tool use in models",
+      "Reducing memory footprint through quantization",
+      "Mixture-of-Experts (MoE) architecture with expert selection",
+      "Banded window and fully dense attention patterns",
+      "Performance evaluation of large language models across various benchmarks.",
+      "Comparison of GPT-OSS models (120b and 20b) based on accuracy scores.",
+      "Assessment of reasoning abilities of language models using different benchmarks (AIME, GPQA).",
+      "Chain of Thought (CoT) monitorability"
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: gpt-oss-120b & gpt-oss-20b Model Card",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence",
+      "Artificial Intelligence / Machine Learning / Deep Learning",
+      "Artificial Intelligence, Natural Language Processing",
+      "Artificial Intelligence / Large Language Models"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "GPT-OSS",
+      "Model",
+      "MoE (Mixture of Experts)",
+      "MXFP4",
+      "SwiGLU"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "gpt-oss-120b",
+      "gpt-oss-20b",
+      "quantization"
+    ],
+    "methodologies": [
+      "Quantization",
+      "Variable Effort Reasoning Training",
+      "Agentic Tool Use",
+      "Post-training",
+      "Root Mean Square Normalization"
+    ],
+    "tools_mentioned": [
+      "GPU (80GB)",
+      "Linear Router Projection",
+      "AIME",
+      "GPQA",
+      "data evaluation"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Reasoning",
+      "Tool Use",
+      "Multilingual Performance",
+      "Model Optimization",
+      "Large Language Model Training"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Model architecture and data, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights GPT-OSS, Model, MoE (Mixture of Experts) as transformative technologies in the context of Artificial Intelligence, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Reasoning, Tool Use, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in gpt-oss-120b, gpt-oss-20b, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to model architecture and data, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "0ade4f6bb34e0254e2bac8d11269070f",
     "filename": "how_Artificial_intelligence_will_change_the_future__1635143277.pdf",
     "title": "How Artificial Intelligence Will Change the Future of the World",
