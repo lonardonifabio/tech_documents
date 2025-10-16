@@ -6679,6 +6679,114 @@
     ]
   },
   {
+    "id": "e3d280f9891045729623ccb292b04136",
+    "filename": "AI_1759664006.pdf",
+    "title": "AI/ML CheatSheet",
+    "authors": [],
+    "filepath": "documents/AI_1759664006.pdf",
+    "upload_date": "2025-10-16T16:02:45.628634",
+    "file_size": 4549695,
+    "summary": "This document serves as a comprehensive cheat sheet for individuals seeking a foundational understanding of Artificial Intelligence (AI) and Machine Learning (ML). It begins with an introductory overview, defining AI and ML, differentiating between Narrow AI and General AI, and outlining the core concepts within ML, including supervised, unsupervised, and reinforcement learning. Key terminology such as Model, Feature, Target, and Algorithm are clearly defined. The document then delves into the mathematical underpinnings of ML/AI, covering Linear Algebra (vectors, matrices, tensors, eigenvalues, eigenvectors), Probability and Statistics (mean, variance, standard deviation, Bayes Theorem, probability distributions), and Calculus (derivatives, gradients, gradient descent).  A significant portion is dedicated to Data Preprocessing, detailing techniques for cleaning data (handling missing values and outliers), normalizing and standardizing data, encoding categorical variables (one-hot encoding, label encoding), and feature scaling (min-max, z-score). Furthermore, it explores feature engineering methods like polynomial features and binning, alongside strategies for addressing imbalanced datasets using techniques like SMOTE, undersampling, and oversampling. The cheat sheet then systematically introduces various Supervised Learning Algorithms, starting with Linear Regression (simple and multiple), Gradient Descent and the Normal Equation, and Regularization methods (L1, L2). It also covers Logistic Regression, including binary and multiclass classification, the sigmoid function, and cost functions. Finally, it introduces K-Nearest Neighbors (KNN) with distance metrics (Euclidean, Manhattan) and the importance of selecting the optimal 'K'.  The document concludes with an overview of Support Vector Machines (SVMs), explaining concepts like hyperplanes, margins, and the use of kernel functions. This cheat sheet provides a concise and practical guide for those new to AI and ML, offering a quick reference to essential concepts and algorithms. It's designed to be a valuable resource for students, researchers, and professionals seeking a rapid introduction to the field.",
+    "keywords": [
+      "AI",
+      "ML",
+      "Deep Learning",
+      "Linear Algebra",
+      "Probability and Statistics",
+      "Calculus",
+      "Data Preprocessing",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning"
+    ],
+    "key_concepts": [
+      "Artificial Intelligence (AI) is the broad concept of creating intelligent machines.",
+      "Machine Learning (ML) is a subset of AI focused on algorithms that learn from data.",
+      "Linear Algebra is fundamental for understanding and implementing ML algorithms.",
+      "Probability and Statistics are crucial for analyzing and interpreting data in ML.",
+      "Data Preprocessing involves cleaning, transforming, and preparing data for ML models.",
+      "Supervised Learning uses labeled data to train models for prediction.",
+      "Min-Max Scaling scales features to a range of 0 to 1.",
+      "Z-score Scaling (Standardization) is used for models assuming normality.",
+      "Feature engineering involves creating new features or modifying existing ones.",
+      "Class imbalance occurs when one class dominates in a classification problem."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: AI/ML CheatSheet",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Data Science, Artificial Intelligence",
+      "Data Science / Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "ML",
+      "DL",
+      "KNN",
+      "SVM"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "ML",
+      "Deep Learning"
+    ],
+    "methodologies": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning",
+      "Min-Max Scaling",
+      "Z-score Scaling"
+    ],
+    "tools_mentioned": [
+      "Gradient Descent",
+      "Min-Max",
+      "Z-score",
+      "SMOTE",
+      "Undersampling"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Predictive Modeling",
+      "Classification",
+      "Regression",
+      "Anomaly Detection",
+      "Model Performance Optimization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Artificial Intelligence (AI) is the broad concept of creating intelligent machines., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights AI, ML, DL as transformative technologies in the context of Data Science, Artificial Intelligence, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Predictive Modeling, Classification, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in AI, ML, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to artificial intelligence (ai) is the broad concept of creating intelligent machines., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "ac101ca11abad73f41a7957e778023db",
     "filename": "AI_2027_1743789839.pdf",
     "title": "AI 2027: Predicting the Impact of Superintelligence",
