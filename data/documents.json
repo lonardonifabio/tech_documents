@@ -22857,6 +22857,103 @@
     ]
   },
   {
+    "id": "291b02fcab62f442e8b098cd87192b2c",
+    "filename": "Advance_Seaborn_1757935538.pdf",
+    "title": "Advance Seaborn (Prudhvi Vardhan Notes) - Jupyter Notebook",
+    "authors": [
+      "Prudhvi Vardhan"
+    ],
+    "filepath": "documents/Advance_Seaborn_1757935538.pdf",
+    "upload_date": "2025-10-16T16:02:46.769640",
+    "file_size": 3222125,
+    "summary": "This Jupyter Notebook document, titled 'Advance Seaborn (Prudhvi Vardhan Notes)', focuses on demonstrating various categorical and numerical plots using the Seaborn library in Python. The notebook begins by outlining different types of categorical plots, including stripplots, swarmplots, and categorical distribution plots. It then introduces plot types like boxplots, violinplots, and categorical estimate plots (barplots, pointplots, and countplots), highlighting the 'catplot' function for figure-level customization. The document demonstrates the use of Seaborn's `load_dataset` function to load the 'tips' and 'iris' datasets.  It showcases how to create scatter plots using `sns.scatterplot` with 'total_bill' and 'tip' as variables for the 'tips' dataset.  The notebook also illustrates the creation of simple plots using the 'iris' dataset.  Specifically, it shows how to generate a stripplot and a scatter plot. The document provides a practical introduction to Seaborn's capabilities for visualizing data, particularly focusing on categorical and numerical data analysis. The use of `plt.style.use('ggplot')` is also noted, indicating an attempt to apply a specific visual style. The notebook's structure suggests a tutorial or demonstration of Seaborn's features.",
+    "keywords": [
+      "Seaborn",
+      "Jupyter Notebook",
+      "Categorical Plots",
+      "Scatter Plot",
+      "Strip Plot",
+      "Swarmplot",
+      "Distribution Plots",
+      "Boxplot",
+      "Violinplot",
+      "Barplot"
+    ],
+    "key_concepts": [
+      "Categorical plots are used to visualize categorical data.",
+      "Seaborn is a Python data visualization library.",
+      "The code demonstrates how to create scatter plots using Seaborn, specifying variables for x and y axes.",
+      "The code loads and samples datasets ('tips' and 'iris') for visualization.",
+      "The code uses `plt.style.use('ggplot')` to set a specific style for the plots."
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Advance Seaborn (Prudhvi Vardhan Notes) - Jupyter Notebook",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Data Analysis / Business Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Seaborn",
+      "Matplotlib",
+      "Jupyter Notebook"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Seaborn",
+      "Jupyter Notebook",
+      "Categorical Plots"
+    ],
+    "methodologies": [
+      "Data Visualization",
+      "Statistical Plotting"
+    ],
+    "tools_mentioned": [
+      "Jupyter Notebook",
+      "Seaborn",
+      "Matplotlib",
+      "Pandas (implicit through datasets)"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Data Visualization",
+      "Exploratory Data Analysis",
+      "Categorical Data Analysis",
+      "Numerical Data Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Categorical plots are used to visualize categorical data., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Seaborn, Matplotlib, Jupyter Notebook as transformative technologies in the context of Data Analysis / Business Intelligence, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Data Visualization, Exploratory Data Analysis, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Seaborn, Jupyter Notebook, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to categorical plots are used to visualize categorical data., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "09a53d2b6d139f6b5db29bd27a852592",
     "filename": "Advanced_Machine_Learning_with_Python_1711635576.pdf",
     "title": "Advanced Machine Learning with Python",
