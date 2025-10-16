@@ -7020,6 +7020,112 @@
     ]
   },
   {
+    "id": "b2989571472740d62e281de95f3e49e7",
+    "filename": "AI_1759733486.pdf",
+    "title": "Getting Started with AI Agent Systems",
+    "authors": [
+      "Unknown"
+    ],
+    "filepath": "documents/AI_1759733486.pdf",
+    "upload_date": "2025-10-16T23:01:02.920315",
+    "file_size": 1395226,
+    "summary": "This tutorial provides a practical guide for beginners looking to build AI agent systems, addressing the overwhelming number of available frameworks. It advocates for a foundational approach, recommending starting with direct LLM API calls to understand the underlying mechanics before relying on framework abstractions. The tutorial focuses on building a single-agent system from scratch in Python, emphasizing a step-by-step implementation of core components: Large Language Model (LLM) with instructions, memory (conversation history), and tools (external function calls). The core concept revolves around utilizing LLMs like Anthropic’s Claude 4 Sonnet, OpenAI’s GPT-4o, or Google’s Gemini 2.5 Pro. The tutorial breaks down the agent architecture into manageable parts, starting with a single-agent implementation and progressing to more complex agentic workflows and multi-agent systems. The implementation utilizes the Anthropic API with Claude 4 Sonnet, but the code is designed to be adaptable to other LLM APIs. The primary goal is to provide a clear understanding of how AI agents function, enabling users to confidently build and customize their own agent systems. The tutorial prioritizes hands-on learning and a deep understanding of the fundamental building blocks of AI agent design.",
+    "keywords": [
+      "AI agent systems",
+      "LLM APIs",
+      "CrewAI",
+      "LangGraph",
+      "OpenAI Agents SDK",
+      "Anthropic",
+      "Claude 4 Sonnet",
+      "GPT-4o",
+      "Gemini 2.5 Pro",
+      "Python"
+    ],
+    "key_concepts": [
+      "Direct LLM API calls for understanding fundamentals",
+      "Implementing AI agents from scratch",
+      "Core components of an AI agent (LLM, Memory, Tools)",
+      "Large Language Models (LLMs) with tool use capabilities",
+      "Agents using tools in a loop for multi-turn interactions.",
+      "Agent pausing to execute a tool with specified parameters.",
+      "Agent waiting for user to execute a tool and return the result."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Getting Started with AI Agent Systems",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence, Software Development",
+      "Artificial Intelligence, Large Language Models"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "CrewAI",
+      "LangGraph",
+      "OpenAI Agents SDK",
+      "Anthropic API",
+      "Claude 4 Sonnet"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI agent systems",
+      "LLM APIs",
+      "CrewAI"
+    ],
+    "methodologies": [
+      "Direct LLM API Calls",
+      "Step-by-Step Implementation",
+      "Looping",
+      "Decision Making"
+    ],
+    "tools_mentioned": [
+      "Anthropic API",
+      "OpenAI API",
+      "Google API",
+      "Tools",
+      "LLMs"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "AI Agent Development",
+      "LLM Integration",
+      "Agentic Workflows",
+      "Agent-Tool Interaction",
+      "Multi-Turn Conversations"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Direct LLM API calls for understanding fundamentals, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights CrewAI, LangGraph, OpenAI Agents SDK as transformative technologies in the context of Artificial Intelligence, Software Development, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including AI Agent Development, LLM Integration, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in AI agent systems, LLM APIs, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to direct llm api calls for understanding fundamentals, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "24c51e94d302e672c3485bd47e5aecf3",
     "filename": "AI_1759903486.pdf",
     "title": "SOVEREIGN AI IN DEFENCE: Strategic Autonomy and Collaborative Opportunity",
