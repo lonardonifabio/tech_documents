@@ -43791,6 +43791,119 @@
     ]
   },
   {
+    "id": "f9388a4a8102189f8734295e8abe37e7",
+    "filename": "DPIA_EduGenAI_1758140900.pdf",
+    "title": "DPIA on EduGenAI",
+    "authors": [
+      "Sjoera Nas",
+      "Jacob Gursky"
+    ],
+    "filepath": "documents/DPIA_EduGenAI_1758140900.pdf",
+    "upload_date": "2025-10-16T16:02:48.326648",
+    "file_size": 5423058,
+    "summary": "This document presents a Data Protection Impact Assessment (DPIA) specifically focused on the EduGenAI system. EduGenAI is an AI-powered web application designed to provide users with secure and privacy-conscious access to various generative AI tools. Functioning as a privacy proxy, it bridges the gap between users and different generative AI services, including both locally hosted large language models and cloud-based providers. A key feature of EduGenAI is its ability to offer multimodal access, allowing users to seamlessly switch between different AI systems during a prompt dialogue. Furthermore, the system incorporates a robust filtering mechanism to mask personal data, safeguarding user privacy and the rights of individuals mentioned within the prompts. The application’s architecture includes access to one or more search engines, enabling users to ‘update’ the generated information. The DPIA highlights the importance of mitigating potential privacy risks associated with the use of generative AI, particularly concerning data protection and compliance with relevant regulations. The document details the steps taken to assess and address these risks, emphasizing the system's design choices and implemented safeguards. The report’s evolution reflects a collaborative process involving SURF, with multiple revisions and refinements based on feedback and final checks. The final public version represents a polished and reformatted document, suitable for distribution and review. The core objective of the DPIA is to ensure that EduGenAI operates in a manner that respects data protection principles and minimizes the potential for harm to individuals.",
+    "keywords": [
+      "DPIA",
+      "EduGenAI",
+      "AI-system",
+      "generative AI",
+      "privacy proxy",
+      "personal data",
+      "filter",
+      "large language models",
+      "cloud providers",
+      "data masking filter"
+    ],
+    "key_concepts": [
+      "Data Protection Impact Assessment (DPIA)",
+      "Privacy-friendly AI system",
+      "Masking personal data",
+      "Retrieval Augmented Generation",
+      "Disable data masking filter for specific tasks",
+      "Prevent processing of sensitive personal data in RAG-documents for research",
+      "Develop a content filter respecting European Human Rights",
+      "Retrieval Augmented Generation (RAG)",
+      "Personae (permanent grounding and sharing)",
+      "EU data sovereignty"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: DPIA on EduGenAI",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence, Data Privacy, Web Applications",
+      "Education / Research / AI",
+      "Education Technology / Artificial Intelligence",
+      "Data Protection, Artificial Intelligence, Education Technology"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI-system",
+      "large language models",
+      "generative AI-systems",
+      "web application",
+      "search engines"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "DPIA",
+      "EduGenAI",
+      "AI-system"
+    ],
+    "methodologies": [
+      "Data Protection Impact Assessment (DPIA)",
+      "policy development",
+      "research-based development",
+      "Data Masking",
+      "Data Sovereignty"
+    ],
+    "tools_mentioned": [
+      "privacy proxy",
+      "filter",
+      "Presidio filter",
+      "masking filter",
+      "Llama (Meta)"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Providing access to generative AI tools",
+      "Privacy proxy for AI interactions",
+      "Masking personal data in AI prompts",
+      "Retrieval augmented generation",
+      "RAG (Retrieval-Augmented Generation) implementation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Data Protection Impact Assessment (DPIA), which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights AI-system, large language models, generative AI-systems as transformative technologies in the context of Artificial Intelligence, Data Privacy, Web Applications, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Providing access to generative AI tools, Privacy proxy for AI interactions, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in DPIA, EduGenAI, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to data protection impact assessment (dpia), presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "8f2a585e3d2cb7f208fea5c59c4184c5",
     "filename": "DS_1613979660.pdf",
     "title": "Data Preprocessing Techniques in Machine Learning",
