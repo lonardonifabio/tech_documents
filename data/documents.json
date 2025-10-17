@@ -6798,6 +6798,114 @@
     ]
   },
   {
+    "id": "cc3424742d52384e0856ca9aac149a42",
+    "filename": "AI_1757917882.pdf",
+    "title": "Detecting the Unknown: A Guide to Threat Hunting v2.0",
+    "authors": [
+      "National Cyber Security Strategy Team",
+      "Cabinet Office"
+    ],
+    "filepath": "documents/AI_1757917882.pdf",
+    "upload_date": "2025-10-16T23:01:02.614314",
+    "file_size": 2419476,
+    "summary": "This document, \"Detecting the Unknown: A Guide to Threat Hunting v2.0,\" outlines the importance of proactive threat hunting within UK government departments. It references the National Cyber Security Strategy 2016-2021, which aims for the UK to be secure and resilient against cyber threats. The strategy emphasizes the need for departments to move beyond simply meeting the Minimum Cyber Security Standard (MCSS) established in June 2018. Instead, it advocates for investing in the development and mobilization of Threat Hunting capabilities – a proactive, iterative, and human-centric approach to identifying cyber threats that have bypassed traditional security controls. Threat Hunting is defined as Incident Response without the Incident, focusing on internal threats. The document stresses that establishing a robust Threat Hunting function will enhance a department’s security posture, allowing for earlier detection of malicious activity and minimizing the potential damage from cyberattacks. Key enablers for a successful Threat Hunting capability include Cyber Threat Intelligence, relevant data from across the IT estate, and appropriate investment in skilled personnel. The overall goal is to improve resilience and reduce risk by actively seeking out and neutralizing threats before they can cause significant harm. The document highlights the strategic alignment between Threat Hunting and the broader National Cyber Security Strategy.",
+    "keywords": [
+      "Threat Hunting",
+      "Cyber Security",
+      "Incident Response",
+      "Cyber Threat Intelligence",
+      "Risk Reduction",
+      "Attack",
+      "SIEM",
+      "Vulnerability Management",
+      "CTI",
+      "Hypothesis"
+    ],
+    "key_concepts": [
+      "Threat Hunting is a proactive, iterative, and human-centric approach to identifying cyber threats.",
+      "Departments should invest in developing Threat Hunting capabilities to improve security posture and reduce risk.",
+      "Threat Hunting aims to identify malicious activity early in an attack to minimize damage.",
+      "Proactive Security vs. Reactive Monitoring",
+      "Threat Hunting Process: Hypothesis Generation and Testing",
+      "Iteration of Threat Hunting: Testing and Remediation",
+      "Threat Hunting: The process of proactively searching for threats within an organization's systems.",
+      "CIA Triad: A foundational model for security – Confidentiality, Integrity, and Availability.",
+      "Cognitive Bias: Systematic patterns of deviation from norm or rationality in judgment, impacting decision-making.",
+      "DFIR Skills: Digital Forensic and Incident Response skills, including endpoint forensics, network forensics, and malware analysis for complex investigations."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Detecting the Unknown: A Guide to Threat Hunting v2.0",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Cybersecurity"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "cyber threat intelligence",
+      "incident response",
+      "SIEM",
+      "CTI",
+      "Digital Forensic and Incident Response (DFIR)"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Threat Hunting",
+      "Cyber Security",
+      "Incident Response"
+    ],
+    "methodologies": [
+      "proactive threat hunting",
+      "iterative threat hunting",
+      "human-centric threat hunting",
+      "Threat Hunting",
+      "Incident Response"
+    ],
+    "tools_mentioned": [
+      "data from across the estate",
+      "SIEM detection rule",
+      "Diamond Model of Intrusion Analysis"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Threat Hunting",
+      "Incident Response",
+      "Security Incident Response",
+      "Vulnerability Management",
+      "SIEM Detection Rule Creation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Threat Hunting is a proactive, iterative, and human-centric approach to identifying cyber threats., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights cyber threat intelligence, incident response, SIEM as transformative technologies in the context of Cybersecurity, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Threat Hunting, Incident Response, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Threat Hunting, Cyber Security, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to threat hunting is a proactive, iterative, and human-centric approach to identifying cyber threats., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "f8ef907c935b1eb472afe1f144794e45",
     "filename": "AI_1758921964.pdf",
     "title": "Cyber Resilience Act versus EU AI Act A Mapping Exercise",
