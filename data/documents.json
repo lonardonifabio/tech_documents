@@ -56152,6 +56152,115 @@
     ]
   },
   {
+    "id": "1fd4f8aca4fbd239f54ee093131c2b5a",
+    "filename": "EDA_of_Netflix_Movies_1757918722.pdf",
+    "title": "Exploratory Data Analysis of Netflix Movies Dataset",
+    "authors": [
+      "Unknown"
+    ],
+    "filepath": "documents/EDA_of_Netflix_Movies_1757918722.pdf",
+    "upload_date": "2025-10-16T23:01:06.726328",
+    "file_size": 1364607,
+    "summary": "This document excerpt details an exploratory data analysis (EDA) project focused on a Netflix movie dataset sourced from Kaggle. The dataset comprises 16 years of records, offering granular information on movies including title, director, release year, genre, duration, country of production, and ratings. The primary objective of the analysis is to uncover key patterns and insights within the data, specifically examining the popularity, ratings, and financial success of movies across various categories. The analysis delves into genres, countries, languages, and directors to determine which categories drive audience engagement and box office performance.  Furthermore, the project utilizes global metrics like ratings, popularity, budget, and revenue to identify overarching trends and correlations. The analysis leverages Python libraries such as NumPy, Pandas, Matplotlib, and Seaborn for data manipulation, visualization, and statistical exploration. The initial data structure is examined, showcasing columns like show_id, title, director, cast, country, date_added, and release_year. The project aims to provide a comprehensive understanding of Netflix's movie portfolio and the factors influencing its success, ultimately contributing to insights into audience preferences and market trends. The use of a Kaggle dataset suggests a common practice in data science education and research, providing a readily available and diverse dataset for analysis.",
+    "keywords": [
+      "Netflix Movies Dataset",
+      "Kaggle",
+      "Exploratory Data Analysis (EDA)",
+      "Genres",
+      "Countries",
+      "Languages",
+      "Directors",
+      "Ratings",
+      "Popularity",
+      "Budget"
+    ],
+    "key_concepts": [
+      "Identification of key patterns and insights from Netflix movie data.",
+      "Analysis of movie genres, countries, languages, and directors to determine popularity and success.",
+      "Examination of global metrics (ratings, popularity, budget, revenue) to understand overall movie performance.",
+      "Genre-wise analysis",
+      "Grouping by genres",
+      "Calculating metrics (number_of_movies, avg_rating, etc.)",
+      "Sorting by metrics",
+      "Top 10 genre ranking",
+      "Visualization of genre popularity using bar plots"
+    ],
+    "category": "Data Science",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Exploratory Data Analysis of Netflix Movies Dataset",
+    "target_audience": "Professionals in data science field",
+    "industry": [
+      "Entertainment / Media / Streaming Services",
+      "Entertainment (Streaming Services)"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Netflix Movies Dataset",
+      "Kaggle",
+      "Exploratory Data Analysis (EDA)"
+    ],
+    "methodologies": [
+      "Exploratory Data Analysis (EDA)",
+      "Data Analysis",
+      "data aggregation",
+      "data visualization",
+      "grouping"
+    ],
+    "tools_mentioned": [
+      "CSV",
+      "Pandas DataFrame",
+      "Matplotlib",
+      "Seaborn",
+      "sns.barplot"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand data science concepts"
+    ],
+    "use_cases": [
+      "Market Analysis",
+      "Genre Analysis",
+      "Performance Analysis",
+      "Trend Identification",
+      "Content Recommendation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Identification of key patterns and insights from Netflix movie data., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Python, Pandas, NumPy as transformative technologies in the context of Entertainment / Media / Streaming Services, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Market Analysis, Genre Analysis, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Netflix Movies Dataset, Kaggle, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to identification of key patterns and insights from netflix movie data., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "feb3d2cad0d6375d0e2c1b828642038e",
     "filename": "EDEH_XAI_report_1747897301.pdf",
     "title": "Understanding AI Technical Approaches",
