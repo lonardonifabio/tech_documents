@@ -52352,6 +52352,120 @@
     "confidence_score": 0.5
   },
   {
+    "id": "003ee9f83969f0567fbdf5bbf900c2dc",
+    "filename": "Deep_Learning_101_1760528399.pdf",
+    "title": "DeepLearning101",
+    "authors": [
+      "NguyễnVũHưng",
+      "VuHungNguyen"
+    ],
+    "filepath": "documents/Deep_Learning_101_1760528399.pdf",
+    "upload_date": "2025-10-16T23:01:06.224326",
+    "file_size": 4514065,
+    "summary": "DeepLearning101 is a comprehensive guide to deep learning theory and practice, authored by NguyễnVũHưng and VuHungNguyen. Published on October 15th, 2025, and licensed under the Creative Commons Attribution 4.0 International (CCBY4.0) license, this book aims to bridge the gap between basic and advanced deep learning resources. It's designed for students, researchers, and practitioners seeking a solid foundation in this transformative field. The author initially created the book as study notes for themselves, recognizing a lack of resources that adequately catered to their background. The book provides a ‘compressed’ version of existing deep learning books, focusing on the most important concepts and mathematical formulas in a structured and coherent manner. It assumes a fair understanding of mathematics, algorithms, and programming, with supplemental learning provided throughout the book. The early chapters cover mathematical foundations, and examples are used to reinforce concepts.  The target audience includes individuals with a technical background looking to gain a comprehensive understanding of deep learning principles. The book's structure is intended to be accessible while still providing the necessary depth for serious learners.  The license allows for redistribution and adaptation of the work, provided appropriate attribution is given to the original authors.  The book’s creation reflects a desire to offer a focused and practical resource for those navigating the complexities of deep learning.",
+    "keywords": [
+      "DeepLearning",
+      "mathematics",
+      "algorithms",
+      "programming",
+      "deep learning",
+      "theoretical foundations",
+      "practical application",
+      "MatrixAddition",
+      "ScalarMultiplication",
+      "MatrixTranspose"
+    ],
+    "key_concepts": [
+      "A comprehensive guide to deep learning theory and practice.",
+      "Designed for students, researchers, and practitioners.",
+      "Assumes a fair understanding of mathematics, algorithms, and programming.",
+      "Distilled essential knowledge for a solid foundation in modern deep learning.",
+      "Matrix operations are fundamental in linear algebra.",
+      "The transpose of a matrix is a key transformation.",
+      "Matrix multiplication is a core operation with specific rules.",
+      "The Hadamard product (element-wise product) is a specialized matrix operation.",
+      "Matrix-vector products are important for various calculations.",
+      "The dot product is a crucial operation for calculating the similarity between vectors."
+    ],
+    "category": "Machine Learning",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: DeepLearning101",
+    "target_audience": "Professionals in machine learning field",
+    "industry": [
+      "Artificial Intelligence / Machine Learning",
+      "Mathematics / Data Science / Computational Science",
+      "Data Science / Statistics / Machine Learning",
+      "Mathematics, Computer Science, Engineering (specifically optimization)",
+      "Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "deep learning",
+      "matrices",
+      "linear algebra",
+      "Probability and Information Theory",
+      "Bayes' Rule"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "DeepLearning",
+      "mathematics",
+      "algorithms"
+    ],
+    "methodologies": [
+      "structured learning",
+      "compressed learning",
+      "solving linear systems",
+      "Statistical Analysis",
+      "Mathematical Modeling"
+    ],
+    "tools_mentioned": [
+      "none",
+      "Mathematical Modeling",
+      "Taylor series",
+      "linear output",
+      "sigmoid output"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand machine learning concepts"
+    ],
+    "use_cases": [
+      "Deep Learning Education",
+      "Technical Training",
+      "Matrix Addition",
+      "Matrix Transpose",
+      "Matrix Multiplication"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores A comprehensive guide to deep learning theory and practice., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights deep learning, matrices, linear algebra as transformative technologies in the context of Artificial Intelligence / Machine Learning, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Deep Learning Education, Technical Training, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in DeepLearning, mathematics, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to a comprehensive guide to deep learning theory and practice., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "b54ffee60976796b7d5b9c8c5296a5a6",
     "filename": "Deep_Learning_1620714510.pdf",
     "title": "DiveintoDeepLearning Release0.14.4",
