@@ -74646,6 +74646,121 @@
     ]
   },
   {
+    "id": "d76770cd421a202325af46ceb53a3cdf",
+    "filename": "GPAI_P_1766829430.pdf",
+    "title": "Providers of General - Purpose AI Models : A Breakdown",
+    "authors": [
+      "Sean Musch",
+      "Michael Borrelli",
+      "Charles Kerrigan",
+      "Alisar Mustafa",
+      "Eevamaija Virtanen",
+      "Tulsi Soni",
+      "Diane Tea EU"
+    ],
+    "filepath": "documents/GPAI_P_1766829430.pdf",
+    "upload_date": "2026-02-23T21:01:05.189275",
+    "file_size": 6593118,
+    "summary": "This document, titled \"Providers of General - Purpose AI Models : A Breakdown\", analyzes the rapid expansion of generative AI models between January 2023 and April 2025, focusing on trends across text, image, and audio modalities. The report highlights a dramatic increase in the number of models, particularly in text-to-text systems, which surged from six to 616, fueled by foundation model scaling, open-weight releases, and the democratization of fine-tuning. Text-to-image models saw a significant rise from seven to 187, reflecting the maturing diffusion model ecosystem and commercial applications in creative and marketing fields. Audio-to-text systems experienced more modest growth, indicating a functional maturity in transcription and speech-to-text technologies. Notably, text-to-audio models emerged later, suggesting the initial stages of growth as generative speech, music, and multimodal interfaces gain prominence. The document emphasizes that this proliferation of models presents both significant opportunities and a degree of fragmentation within the AI landscape. The analysis is presented by the OECD.AI team and anticipates publication in December 2025, reflecting the accelerating pace of innovation in generative AI. The report's core argument centers on the unprecedented acceleration in language-based AI innovation and the evolving competitive dynamics across different AI modalities. It provides a snapshot of the AI landscape as of October 2025, offering valuable insights into the trajectory of generative AI development.",
+    "keywords": [
+      "AI Act",
+      "Generative AI",
+      "Text Models",
+      "Image Systems",
+      "Audio Applications",
+      "Foundation Model Scaling",
+      "Open-weight releases",
+      "Fine-tuning",
+      "Text-to-text",
+      "Diffusion Models"
+    ],
+    "key_concepts": [
+      "Dramatic expansion of generative AI models between 2023 and 2025 across all modalities.",
+      "Acceleration in language-based AI innovation driven by scaling and democratization of fine-tuning.",
+      "Maturing diffusion model ecosystem and commercial diversification of text-to-image models.",
+      "New GPAI model providers are subject to systemic risk assessment if modifications exceed certain FLOP thresholds.",
+      "Transitional provisions exist to assist new GPAI model providers in complying with the AI Act, including adapting deadlines and obligations.",
+      "Signing the Code of Practice can provide enhanced trust and potentially reduce regulatory scrutiny for GPAI providers.",
+      "Exemptions for open-source models are granted to promote transparency and innovation while ensuring systemic risk models are regulated.",
+      "The amount of computation (measured in floating point operations) is a key metric for classifying systemic risk under the EU AI Act.",
+      "A model is presumed to have high-impact capabilities if cumulative training compute exceeds 10²⁵ floating point operations, acting as a proxy for capabilities and potential impact."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Providers of General - Purpose AI Models : A Breakdown",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence",
+      "Artificial Intelligence, Regulatory Compliance"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Generative AI",
+      "Diffusion Models",
+      "Foundation Models",
+      "Speech Recognition",
+      "Transcription"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI Act",
+      "Generative AI",
+      "Text Models"
+    ],
+    "methodologies": [
+      "Fine-tuning",
+      "Model Scaling",
+      "Open-weight releases",
+      "transitional provisions",
+      "pragmatic enforcement"
+    ],
+    "tools_mentioned": [
+      "Text-to-Text Systems",
+      "Text-to-Image Models",
+      "Audio-to-Text Systems",
+      "Text-to-Audio Models",
+      "Code of Practice"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Text-to-text generation",
+      "Text-to-image generation",
+      "Audio-to-text transcription",
+      "Text-to-audio generation",
+      "Generative speech and music"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Dramatic expansion of generative AI models between 2023 and 2025 across all modalities., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Generative AI, Diffusion Models, Foundation Models as transformative technologies in the context of Artificial Intelligence, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Text-to-text generation, Text-to-image generation, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in AI Act, Generative AI, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to dramatic expansion of generative ai models between 2023 and 2025 across all modalities., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "2974b92c270f8cb649fdda584c9468ee",
     "filename": "GPAI_T_1756281265.pdf",
     "title": "Template on Public Summary of Training Content for GPAI Models",
