@@ -31199,6 +31199,98 @@
     ]
   },
   {
+    "id": "bdc3ca58648d7efa5ed91711d2af300e",
+    "filename": "Alzheimer__1764685566.pdf",
+    "title": "MobileNet++ for Alzheimer’s MRI Classification",
+    "authors": [
+      "Unknown"
+    ],
+    "filepath": "documents/Alzheimer__1764685566.pdf",
+    "upload_date": "2026-02-23T21:00:54.040002",
+    "file_size": 635669,
+    "summary": "This document presents a methodology for classifying Alzheimer’s MRI data using a hybrid CNN-Transformer model named MobileNet++. The core of the approach involves leveraging a dataset of augmented Alzheimer’s MRI images, specifically focusing on four diagnostic categories: 'MildDemented', 'ModerateDemented', 'NonDemented', and 'VeryMildDemented'. The code snippet demonstrates the process of extracting image paths and corresponding labels from the dataset, which is stored within a Kaggle environment.  The script initializes a base path for the dataset, defines the categories of images, and then iterates through each category and its associated image files.  For each image, it constructs the full file path and appends it to the `image_paths` list, along with the corresponding label, which is added to the `labels` list.  A Pandas DataFrame is then created to organize these image paths and labels, providing a structured representation of the dataset. The `df.head()` and `df.tail()` sections display the first and last few rows of the DataFrame, showcasing the initial and final images with their assigned labels. The code utilizes libraries such as NumPy, Pandas, and os for data manipulation and file system operations. The impressive result highlighted in the excerpt is a test accuracy of 98.85% achieved in just 5 epochs, indicating the effectiveness of the MobileNet++ model on this specific task. The use of augmentation suggests an effort to improve model robustness and generalization. The code is designed for use within the Kaggle environment, facilitating easy access to the dataset and execution of the classification pipeline. The document's purpose is to illustrate a practical application of a CNN-Transformer hybrid model for medical image analysis, specifically in the context of Alzheimer’s disease diagnosis.",
+    "keywords": [
+      "MobileNet++",
+      "CNN",
+      "Transformer",
+      "Alzheimer’s MRI",
+      "classification",
+      "epochs",
+      "numpy",
+      "pandas",
+      "os",
+      "dataframe"
+    ],
+    "key_concepts": [
+      "Hybrid CNN-Transformer model for improved accuracy.",
+      "High test accuracy (98.85%) achieved in 5 epochs for Alzheimer’s MRI classification.",
+      "Data loading and preprocessing using pandas and os modules to create a dataframe from image paths and labels."
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: MobileNet++ for Alzheimer’s MRI Classification",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Healthcare / Medical Imaging"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "CNN",
+      "Transformer",
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "MobileNet++",
+      "CNN",
+      "Transformer"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Image Classification"
+    ],
+    "tools_mentioned": [
+      "Pandas",
+      "Numpy",
+      "Os"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Alzheimer's Disease Diagnosis",
+      "Medical Image Classification"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Hybrid CNN-Transformer model for improved accuracy., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights CNN, Transformer, Python as transformative technologies in the context of Healthcare / Medical Imaging, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Alzheimer's Disease Diagnosis, Medical Image Classification, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in MobileNet++, CNN, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to hybrid cnn-transformer model for improved accuracy., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "6752162e219af20fa9307fbcb227c123",
     "filename": "Americas-AI-Action-Plan.pdf",
     "title": "America’s AI Action Plan",
