@@ -108750,6 +108750,117 @@
     "confidence_score": 1.0
   },
   {
+    "id": "d8950cf6f0702a8ba219c0eb7bf08528",
+    "filename": "Mapping_the_AI_Governance_Landscape_1765966096.pdf",
+    "title": "LLM Classification of Legal and Governance Documents - AI Risk Taxonomy",
+    "authors": [
+      "MIT (airisk)",
+      "Unknown"
+    ],
+    "filepath": "documents/Mapping_the_AI_Governance_Landscape_1765966096.pdf",
+    "upload_date": "2026-02-23T21:01:12.538447",
+    "file_size": 773260,
+    "summary": "This document details a research project conducted by MIT's airisk team investigating the application of Large Language Models (LLMs) for classifying legal and governance documents related to AI risks. The core of the study involved evaluating the performance of several LLMs – Claude Sonnet 4.5, Claude Opus 4.1, and GPT-5 – alongside human reviewers, specifically focusing on documents sourced from the ETO AGORA archive. The team initially tested a comparative approach across six documents, assessing the agreement between LLM classifications and human consensus. Subsequently, they scaled up their analysis, utilizing Claude Sonnet 4.5 to classify over 950 governance documents based on a defined taxonomy encompassing AI risks, mitigation strategies, and associated governance concepts. The findings revealed a strong performance from Claude Sonnet 4.5 and Claude Opus 4.1, demonstrating comparable or superior agreement with human reviewers when classifying the initial six documents.  Notably, the most frequently identified risk domains were Governance failure, AI system security vulnerabilities & attacks, and Lack of transparency or interpretability, aligning with a significant portion of the ETO AGORA dataset. Conversely, areas like AI Welfare and Rights, Multi-agent risks, and Economic and cultural devaluation of human effort received comparatively less attention.  Sectoral analysis highlighted Public Administration (excluding National Security), Scientific R&D, and National Security as the most heavily covered areas, while sectors such as Accommodation, Food, and Other Services, Arts, Entertainment, and Recreation, and Real Estate and Rental and Leasing were significantly underrepresented in the classification efforts. The research team is currently seeking feedback and expressions of interest in further collaboration. This project represents an early exploration into leveraging LLMs for automated risk assessment and governance within the rapidly evolving landscape of AI regulation and oversight. The methodology employed and the resulting insights offer a valuable starting point for developing more robust and comprehensive AI risk taxonomies and classification systems. Further research is needed to refine the LLM models and expand the scope of the analysis to include a broader range of sectors and risk categories.",
+    "keywords": [
+      "LLMs",
+      "AI Governance",
+      "Claude Sonnet 4.5",
+      "GPT-5",
+      "Governance Documents",
+      "AI Risks",
+      "Mitigations",
+      "Taxonomies",
+      "AGORA Dataset",
+      "Jurisdictional imbalance"
+    ],
+    "key_concepts": [
+      "Using LLMs to categorize legal and governance documents",
+      "Comparison of LLM performance with human reviewers in classifying documents",
+      "Identification of key AI risk subdomains (Governance failure, AI system security vulnerabilities, Lack of transparency) and sectors (Public Administration, Scientific R&D, National Security)",
+      "The AGORA dataset provides a foundation for mapping AI governance, but has limitations regarding scope and generalizability.",
+      "The dataset's heavy U.S. weighting leads to an overrepresentation of U.S. governance trends, limiting its global applicability.",
+      "Language constraints due to the dataset's reliance on English prevent comprehensive testing of LLM interpretation of governance texts in other languages, highlighting the need for multilingual support.",
+      "A staged self-governance regime for frontier AI development, incorporating detection and monitoring strategies.",
+      "Establishment of a CalCompute Consortium to design a state-backed public cloud computing resource for responsible AI development.",
+      "Whistleblower protections prohibiting retaliation against individuals disclosing critical AI risks, alongside internal reporting channels and employee notification requirements."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: LLM Classification of Legal and Governance Documents - AI Risk Taxonomy",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence, Legal Tech, Governance, Risk Management",
+      "Artificial Intelligence Governance, Legal Tech",
+      "Artificial Intelligence, Government Regulation, Cloud Computing"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "LLMs",
+      "Claude Sonnet 4.5",
+      "GPT-5",
+      "Generative AI",
+      "AI"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "LLMs",
+      "AI Governance",
+      "Claude Sonnet 4.5"
+    ],
+    "methodologies": [
+      "Classification",
+      "Comparative Analysis",
+      "Taxonomy-based Classification",
+      "Data Analysis",
+      "Translation (including third-party)"
+    ],
+    "tools_mentioned": [
+      "Claude Sonnet 4.5",
+      "Claude Opus 4.1",
+      "GPT-5",
+      "AGORA Dataset",
+      "China Law Translate"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "LLM-based document classification",
+      "Taxonomy development for AI risks and governance",
+      "Automated governance document review",
+      "AI Governance Analysis",
+      "LLM Interpretation of Policy Language"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Using LLMs to categorize legal and governance documents, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights LLMs, Claude Sonnet 4.5, GPT-5 as transformative technologies in the context of Artificial Intelligence, Legal Tech, Governance, Risk Management, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including LLM-based document classification, Taxonomy development for AI risks and governance, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in LLMs, AI Governance, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to using llms to categorize legal and governance documents, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "887a5d8dd3391191ef8c1339455e18d5",
     "filename": "Mass_Adoption_Of_AI_1582463070.pdf",
     "title": "Transforming Paradigms A Global AI in Financial Services Survey",
