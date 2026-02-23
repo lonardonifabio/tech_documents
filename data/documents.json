@@ -97568,6 +97568,117 @@
     ]
   },
   {
+    "id": "0211df57a68571dcb53092d54bae988e",
+    "filename": "MIT_AI_Risk_Initiative_Mapping_the_AI_Governance_Landscape_1760958056.pdf",
+    "title": "LLM Classification of Legal and Governance Documents - AI Risk Taxonomy",
+    "authors": [
+      "MIT (airisk)",
+      "Unknown"
+    ],
+    "filepath": "documents/MIT_AI_Risk_Initiative_Mapping_the_AI_Governance_Landscape_1760958056.pdf",
+    "upload_date": "2026-02-23T21:01:11.436421",
+    "file_size": 773708,
+    "summary": "This document details a research project conducted by MIT's airisk team investigating the application of Large Language Models (LLMs) for classifying legal and governance documents related to AI risks. The core of the study involved evaluating the performance of several LLMs – Claude Sonnet 4.5, Claude Opus 4.1, and GPT-5 – alongside human reviewers, specifically focusing on documents sourced from the ETO AGORA archive.  The team initially tested a comparative approach across six documents, assessing the agreement between LLM classifications and human consensus.  Subsequently, they scaled up their analysis significantly, utilizing Claude Sonnet 4.5 to classify over 950 governance documents, categorizing them according to a diverse set of taxonomies encompassing AI risks, mitigation strategies, and associated governance frameworks. The research centered on identifying prevalent and underrepresented risk domains within the analyzed documents.  Key findings revealed that Claude Sonnet 4.5, Claude Opus 4.1, and GPT-5 demonstrated comparable or superior agreement with human consensus compared to independent human classifications for the initial six documents.  Specifically, the most frequently addressed risk subdomains were identified as Governance failure, AI system security vulnerabilities & attacks, and Lack of transparency or interpretability. Conversely, areas like AI Welfare and Rights, Multi-agent risks, and Economic and cultural devaluation of human effort received comparatively less attention.  The study also highlighted sector-specific variations in coverage, with Public Administration (excluding National Security), Scientific R&D, and National Security exhibiting the highest levels of documentation, while sectors such as Accommodation, Food, and Other Services, Arts, Entertainment, and Recreation, and Real Estate and Rental and Leasing were significantly underrepresented.  The research team is currently seeking feedback and expressions of interest in further collaboration. The project’s ultimate goal is to establish a robust and scalable method for automatically classifying and understanding the complex landscape of AI governance risks, potentially informing policy development and risk mitigation strategies. The use of LLMs offers a promising avenue for efficiently processing and analyzing the growing volume of information related to AI governance.",
+    "keywords": [
+      "LLMs",
+      "AI Governance",
+      "Claude Sonnet 4.5",
+      "GPT-5",
+      "Governance Documents",
+      "AI Risks",
+      "Mitigations",
+      "Taxonomies",
+      "AGORA Dataset",
+      "Jurisdictional imbalance"
+    ],
+    "key_concepts": [
+      "Using LLMs to categorize legal and governance documents",
+      "Comparison of LLM performance versus human reviewers in classifying documents",
+      "Identification of key AI risk subdomains (Governance failure, AI system security vulnerabilities & attacks, Lack of transparency or interpretability)",
+      "The AGORA dataset provides a foundation for mapping AI governance, but has limitations regarding scope and generalizability.",
+      "The dataset's heavy U.S. weighting leads to an overrepresentation of U.S. governance trends, limiting its global applicability.",
+      "Language constraints due to the dataset's reliance on English prevent comprehensive testing of LLM interpretation of governance texts in other languages, highlighting the need for multilingual support.",
+      "A staged self-governance regime for frontier AI development.",
+      "Establishing governance measures for frontier AI development through a CalCompute Consortium.",
+      "A policy governing municipal use of AI, incorporating principles of effectiveness, transparency, equity, and accountability."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: LLM Classification of Legal and Governance Documents - AI Risk Taxonomy",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence, Legal Tech, Governance, Risk Management",
+      "Artificial Intelligence Governance, Legal Tech",
+      "Artificial Intelligence, Government Regulation, Cloud Computing"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "LLMs",
+      "Claude Sonnet 4.5",
+      "GPT-5",
+      "Generative AI",
+      "AI"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "LLMs",
+      "AI Governance",
+      "Claude Sonnet 4.5"
+    ],
+    "methodologies": [
+      "Classification",
+      "Comparative Analysis",
+      "Taxonomy-based Classification",
+      "Data Analysis",
+      "Translation (including third-party)"
+    ],
+    "tools_mentioned": [
+      "Claude Sonnet 4.5",
+      "Claude Opus 4.1",
+      "GPT-5",
+      "AGORA Dataset",
+      "China Law Translate"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "LLM-based document classification",
+      "Taxonomy development for AI risks and governance",
+      "Automated governance document review",
+      "AI Governance Analysis",
+      "LLM Interpretation of Policy"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Using LLMs to categorize legal and governance documents, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights LLMs, Claude Sonnet 4.5, GPT-5 as transformative technologies in the context of Artificial Intelligence, Legal Tech, Governance, Risk Management, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including LLM-based document classification, Taxonomy development for AI risks and governance, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in LLMs, AI Governance, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to using llms to categorize legal and governance documents, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "7b376ec61848271291ea4f86b53d514e",
     "filename": "MIT_AI_Risk_Mitigations_Database_1754858730.pdf",
     "title": "AI Risk Mitigation Database and Taxonomy Development",
