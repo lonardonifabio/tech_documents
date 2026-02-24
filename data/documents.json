@@ -18148,6 +18148,112 @@
     ]
   },
   {
+    "id": "30895e6f76e941c1b575717a3504c4e8",
+    "filename": "AI_Mitigations_Taxonomy_Included_Frameworks_1767740648.pdf",
+    "title": "AI Mitigations Repository - Slide Deck",
+    "authors": [
+      "Schuett",
+      "Campos",
+      "U"
+    ],
+    "filepath": "documents/AI_Mitigations_Taxonomy_Included_Frameworks_1767740648.pdf",
+    "upload_date": "2026-02-24T15:44:45.949522",
+    "file_size": 2514643,
+    "summary": "This slide deck provides an overview of the AI Mitigations Repository, a database and taxonomy of AI risk mitigations. The repository was created through a systematic search of existing frameworks and classifications of AI risks, encompassing both academic and industry perspectives. The core purpose of the repository and this slide deck is to synthesize knowledge on AI risks, identify common themes and gaps in understanding, and offer a holistic view of how AI risk mitigations are currently conceptualized. Specifically, it presents frameworks derived from 13 documents, including a survey of expert opinion on AGI safety and governance (Document 1), a framework bridging AI practices and risk management (Document 6), and emerging processes for frontier AI safety (Document 11). The selection criteria for these documents prioritized their focus on structured taxonomies of AI risk mitigations, their coverage across industry sectors, and the proposition of original frameworks. The slide deck is intended to be a resource for understanding the diverse ways in which AI risk mitigations have been categorized, allowing users to bookmark relevant frameworks for future reference. The document highlights the need for a comprehensive understanding of AI risk mitigations to address the challenges posed by increasingly sophisticated AI systems. The repository and this slide deck represent a valuable contribution to the growing body of research and practice in the field of AI risk management, aiming to facilitate collaboration and knowledge sharing among researchers, practitioners, and policymakers. The slide deck serves as an introductory tool, directing users to the full research report and the interactive repository for deeper exploration.",
+    "keywords": [
+      "AI risk mitigations",
+      "taxonomy",
+      "frameworks",
+      "AGI safety",
+      "risk management",
+      "Artificial Intelligence",
+      "Generative AI",
+      "NIST AI 600-1",
+      "California SB 1047",
+      "Frontier AI"
+    ],
+    "key_concepts": [
+      "The AI Mitigations Repository is a database and taxonomy of AI risk mitigations.",
+      "The frameworks aim to synthesize knowledge on AI risks across academia and industry, and identify common themes and gaps.",
+      "The slide deck provides a holistic view of how AI risk mitigations are currently conceptualised and allows for bookmarking relevant frameworks.",
+      "California's SB 1047 mandates specific requirements for frontier AI developers, including shutdown capabilities and safety protocols.",
+      "The bill prohibits the deployment of AI models posing unreasonable critical harm risk and establishes incident reporting and whistleblower protections.",
+      "A Board of Frontier Models has been created to update regulations, and computing cluster operators must assess customer training intentions, alongside a CalCompute consortium for safe AI research."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: AI Mitigations Repository - Slide Deck",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence, Risk Management, Technology Consulting",
+      "Artificial Intelligence, Technology, Government Regulation"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "AGI",
+      "Artificial Intelligence",
+      "Generative AI",
+      "Computing Cluster"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI risk mitigations",
+      "taxonomy",
+      "frameworks"
+    ],
+    "methodologies": [
+      "taxonomy",
+      "classiﬁcation",
+      "systematic search",
+      "Risk Management",
+      "Incident Reporting"
+    ],
+    "tools_mentioned": [
+      "website",
+      "research report",
+      "Public Cloud Computing"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "AI Risk Mitigation Framework Development",
+      "AI Risk Taxonomy Development",
+      "Knowledge Synthesis on AI Risks",
+      "AI Risk Management",
+      "AI Safety Protocols"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores The AI Mitigations Repository is a database and taxonomy of AI risk mitigations., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights AI, AGI, Artificial Intelligence as transformative technologies in the context of Artificial Intelligence, Risk Management, Technology Consulting, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including AI Risk Mitigation Framework Development, AI Risk Taxonomy Development, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in AI risk mitigations, taxonomy, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to the ai mitigations repository is a database and taxonomy of ai risk mitigations., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "4cea72e04c8d97c244e25b2cf14a1c2c",
     "filename": "AI_NIST_Report_1743720199.pdf",
     "title": "NIST Trustworthy and Responsible AI NIST AI 100-2e2025 Adversarial Machine Learning A Taxonomy and Terminology of Attacks and Mitigations",
