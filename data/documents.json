@@ -172055,6 +172055,117 @@
     "confidence_score": 1.0
   },
   {
+    "id": "7c3f9056adf1c8f7f7802dcfecf54012",
+    "filename": "WHO_EVALUATES_AI_S_SOCIAL_IMPACTS__1766861632.pdf",
+    "title": "AI Model Evaluations and Reporting",
+    "authors": [],
+    "filepath": "documents/WHO_EVALUATES_AI_S_SOCIAL_IMPACTS__1766861632.pdf",
+    "upload_date": "2026-02-24T15:45:17.033608",
+    "file_size": 1292739,
+    "summary": "This document explores the evolving landscape of AI model evaluations and the associated reporting practices surrounding them. The research investigates a substantial dataset of 186 AI models, complemented by post-release reporting data sourced from 183 sources including websites and GitHub repositories. A key focus is on comparing first-party and third-party reporting, disaggregating results based on critical factors such as social impact categories, model openness (open vs. closed), sector of origin (academia, government, industry, non-profit), geographic region, and publication/release date. The analysis highlights the increasing importance of AI evaluations throughout the model lifecycle, influencing development, deployment, policy decisions, and practitioner choices.  The document emphasizes that evaluation, defined as systematic assessment of model behavior in context, and benchmarks – standardized datasets, tasks, and metrics – are crucial for comparability. However, it critically points out a significant gap in evaluation rigor, noting that current practices often lack scientific methodology, transparency, and reproducibility. This deficiency results in insufficient information for further use and disparate methods across leaderboards. The research draws upon existing literature (Hardy et al., 2025; Biderman et al., 2024; Reuel-Lamparth et al., 2024; Summerfield et al., 2025; Chouldechova et al., 2024; Delobelle et al., 2024) to underscore the need for improved evaluation standards. Furthermore, the document defines and utilizes the term \"foundation model,\" referring to pre-trained generative AI models (language-only or multimodal) lacking a specific application context. The research implicitly advocates for a more standardized and scientifically rigorous approach to AI model evaluation to ensure reliable comparisons and informed decision-making within the rapidly evolving field of artificial intelligence. The study's findings contribute to a growing body of work addressing the challenges of assessing and understanding the performance and impact of increasingly complex AI models.",
+    "keywords": [
+      "foundation models",
+      "social impact assessments",
+      "evaluations",
+      "AI governance",
+      "bias",
+      "fairness",
+      "privacy",
+      "environmental costs",
+      "labor practices",
+      "AI models"
+    ],
+    "key_concepts": [
+      "Foundation models are increasingly central to high-stakes AI systems, and governance frameworks now depend on evaluations to assess their risks and capabilities.",
+      "Social impact assessments covering bias, fairness, privacy, environmental costs, and labor practices remain uneven across the AI ecosystem.",
+      "A comprehensive analysis of both first-party and third-party social impact evaluation reporting across a wide range of model developers was conducted.",
+      "Systematic assessment of model behavior in context constitutes evaluation.",
+      "Benchmarks are standardized datasets, tasks, and metrics for comparable model evaluations.",
+      "Evaluation practice often lacks scientific rigor, requiring systematic, transparent, and reproducible methodology.",
+      "Developers' motivations for conducting and reporting social impact evaluations.",
+      "Barriers preventing developers from conducting social impact evaluations.",
+      "Organizational and structural factors shaping evaluation and reporting practices.",
+      "Average scores and counts for social impact evaluations by provider geographic region are visualized using rectangle size and color to represent reporting detail levels."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: AI Model Evaluations and Reporting",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence",
+      "Artificial Intelligence / Foundation Models",
+      "Social Impact Measurement & Evaluation, Non-profit Sector, Research",
+      "Artificial Intelligence, Natural Language Processing",
+      "Artificial Intelligence / Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "foundation models",
+      "AI systems",
+      "AI",
+      "Generative AI",
+      "Language Models"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "foundation models",
+      "social impact assessments",
+      "evaluations"
+    ],
+    "methodologies": [
+      "evaluation",
+      "analysis",
+      "interviews",
+      "Systematic Assessment",
+      "Benchmarking"
+    ],
+    "tools_mentioned": [
+      "release reports",
+      "post-release evaluation sources",
+      "Github",
+      "Websites",
+      "App. 8.10.3"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "AI Model Evaluation",
+      "Risk Assessment of AI Systems",
+      "Social Impact Assessment of AI",
+      "AI Model Benchmarking",
+      "AI Model Monitoring"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Foundation models are increasingly central to high-stakes AI systems, and governance frameworks now depend on evaluations to assess their risks and capabilities., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights foundation models, AI systems, AI as transformative technologies in the context of Artificial Intelligence, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including AI Model Evaluation, Risk Assessment of AI Systems, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in foundation models, social impact assessments, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to foundation models are increasingly central to high-stakes ai systems, and governance frameworks now depend on evaluations to assess their risks and capabilities., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "7d244b4b00bd3732f764767b466f2fad",
     "filename": "WHO_EVALUATES_AI_S_SOCIAL_IMPACTS__1768719560.pdf",
     "title": "AI Model Evaluations and Reporting",
