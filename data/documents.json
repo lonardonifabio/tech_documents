@@ -9933,6 +9933,109 @@
     ]
   },
   {
+    "id": "09cccea58facb5395f65edd8eae2f3c8",
+    "filename": "AI_1763902456.pdf",
+    "title": "Runtime Delegation and Agentic AI Security",
+    "authors": [
+      "Unknown"
+    ],
+    "filepath": "documents/AI_1763902456.pdf",
+    "upload_date": "2026-02-24T08:35:20.845583",
+    "file_size": 2016210,
+    "summary": "This document outlines a framework for enhancing the security of agentic AI systems, specifically addressing the expanding adversarial surface introduced by runtime delegation. The core of the proposed approach centers around four key principles designed to ensure robust and adaptable security within a multi-agent environment. Firstly, **Observability** mandates the capture of all agent activity – including delegations, tool invocations, memory changes, and coordination events – in structured, queryable telemetry. This enables real-time oversight and facilitates post-event analysis, crucial for detecting and responding to potential threats. Secondly, **Bounded Autonomy** enforces strict operational boundaries for agents, limiting their actions to defined scopes based on role, context, and delegated authority. Crucially, these boundaries can be dynamically adjusted or revoked, preventing uncontrolled behavior and mitigating risks associated with unchecked delegation. Thirdly, **Ephemeral Identity** utilizes short-lived credentials and privileges tied to specific runtime contexts, automatically expiring and revoking upon expiry. This drastically reduces persistence and limits the potential for lateral movement in case of compromise. Finally, **Preserve Coordination Trust** focuses on securing inter-agent communication and shared memory through authentication, signing, and resistance to manipulation, disruption, or replay. Continuous monitoring of coordination pathways for behavioral drift and trust degradation further strengthens the system's resilience. The document frames agents as 'digital employees,' highlighting the relevance of these security practices to traditional operational security. The framework's design is applicable across various agentic AI deployments, emphasizing a proactive approach to security that adapts to the dynamic nature of these systems. The document implicitly suggests a need for continuous monitoring and adaptation to maintain security posture, given the inherent volatility of runtime delegation and the potential for evolving threats. The principles presented are designed to create a layered defense, combining technical controls with operational practices to safeguard agentic AI systems.",
+    "keywords": [
+      "Agentic AI",
+      "Secure Adoption",
+      "Secure By Design",
+      "SIG",
+      "ISACA",
+      "Innovation",
+      "runtime delegation",
+      "adversarial surface",
+      "agentic AI",
+      "telemetry"
+    ],
+    "key_concepts": [
+      "This initiative focuses on the secure adoption and use of Agentic AI.",
+      "The SIG Stream 01 and 02 are involved in the development of best practices.",
+      "The initiative is run under the auspices of ISACA Leadership Team.",
+      "Runtime delegation expands the adversarial surface in both depth and volatility, requiring robust security measures.",
+      "The framework utilizes core principles like observability, bounded autonomy, ephemeral identity, and preserved coordination trust to ensure secure agentic AI deployments.",
+      "Agents can be viewed as digital employees, and security practices mirror those used for traditional digital employees, emphasizing controlled access and continuous monitoring."
+    ],
+    "category": "AI",
+    "difficulty": "Basic",
+    "content_preview": "Document: Runtime Delegation and Agentic AI Security",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Information Technology, Cybersecurity, Artificial Intelligence",
+      "Artificial Intelligence Security"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "Agentic AI",
+      "Telemetry",
+      "Distributed Systems"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Agentic AI",
+      "Secure Adoption",
+      "Secure By Design"
+    ],
+    "methodologies": [
+      "Secure By Design",
+      "Runtime Delegation",
+      "Bounded Autonomy",
+      "Ephemeral Identity",
+      "Trust Management"
+    ],
+    "tools_mentioned": [
+      "Queryable Telemetry",
+      "Authentication",
+      "Signatures"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Secure AI Adoption",
+      "Agentic AI Security",
+      "Best Practices for AI Security",
+      "Secure Agentic AI Deployment",
+      "Runtime Delegation Management"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores This initiative focuses on the secure adoption and use of Agentic AI., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights AI, Agentic AI, Telemetry as transformative technologies in the context of Information Technology, Cybersecurity, Artificial Intelligence, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Secure AI Adoption, Agentic AI Security, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Agentic AI, Secure Adoption, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to this initiative focuses on the secure adoption and use of agentic ai., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "b23bd8c76e2bfbd7e23d706eee5cde86",
     "filename": "AI_1768430124.pdf",
     "title": "European Commission : Draft Guidance Article 73 AI Act - Incident Reporting (High -Risk AI Systems)",
