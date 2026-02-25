@@ -186272,6 +186272,117 @@
     "confidence_score": 1.0
   },
   {
+    "id": "b2035c4bd5ba5e8b86c5a51b0ef8179a",
+    "filename": "applied-ai-enterprise-java-ebook.pdf",
+    "title": "Applied AI for Enterprise Java Development",
+    "authors": [
+      "Alex Soto Bueno",
+      "Markus Eisele",
+      "Natale Vinto"
+    ],
+    "filepath": "documents/applied-ai-enterprise-java-ebook.pdf",
+    "upload_date": "2026-02-25T12:09:06.128583",
+    "file_size": 27238819,
+    "summary": "This book, \"Applied AI for Enterprise Java Development,\" provides a practical guide for Java enterprise developers and architects seeking to integrate artificial intelligence, specifically generative AI and Large Language Models (LLMs), into their applications. It addresses the critical need for incorporating AI to maintain a competitive advantage in the modern software development landscape. The book emphasizes a straightforward approach, avoiding unnecessary complexity and focusing on leveraging Java's robust enterprise capabilities alongside the dynamism of AI technologies. Readers will learn to craft AI-driven applications using Java's open-source frameworks, implement field-tested AI patterns suitable for production environments, and integrate leading open-source AI models.  A key focus is on navigating the Java framework landscape with AI-centric agility and confidence. The authors, including Java Champion Alex Soto Bueno, aim to demystify GenAI's impact on software development and equip developers with the skills to build and deploy sophisticated AI-powered enterprise solutions. The book’s core value lies in bridging the gap between Java’s established enterprise world and the rapidly evolving field of AI, offering a roadmap for elevating enterprise software with intelligent integrations. It provides actionable insights and practical techniques, ensuring that developers can confidently utilize AI to enhance their applications and maintain a cutting-edge skillset. The book’s content is geared towards developers who want to understand how to apply AI in a real-world Java enterprise setting, moving beyond theoretical concepts to tangible implementation strategies.",
+    "keywords": [
+      "AI",
+      "Generative AI",
+      "LLMs",
+      "Machine Learning",
+      "Java",
+      "Enterprise",
+      "Java Development",
+      "Open Source",
+      "AI Integration",
+      "Software Development"
+    ],
+    "key_concepts": [
+      "As a Java enterprise developer or architect, embracing AI is critical for maintaining a competitive edge.",
+      "This guide focuses on integrating generative AI into Java enterprise ecosystems.",
+      "The book aims to combine Java's robustness with AI's dynamism to elevate enterprise software with savvy AI integrations.",
+      "JVM-Based Applications",
+      "Local Inferencing Methods",
+      "REST API",
+      "Inference Model Deployment",
+      "Inference API Architecture",
+      "Fraud Inference API",
+      "Unified APIs"
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Applied AI for Enterprise Java Development",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Software Development, Artificial Intelligence",
+      "Artificial Intelligence, Software Development, Cloud Computing"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Generative AI",
+      "LLMs",
+      "Machine Learning",
+      "Java",
+      "OpenAI"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "Generative AI",
+      "LLMs"
+    ],
+    "methodologies": [
+      "AI-driven applications",
+      "AI patterns",
+      "REST API Integration",
+      "Model Inferencing"
+    ],
+    "tools_mentioned": [
+      "open source frameworks",
+      "open source AI models",
+      "DJL",
+      "WebClient",
+      "gRPC Client"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "AI-powered Java application development",
+      "Integrating Generative AI into Java Enterprise Systems",
+      "Leveraging LLMs and Machine Learning in Java",
+      "Model Inference",
+      "API Integration"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores As a Java enterprise developer or architect, embracing AI is critical for maintaining a competitive edge., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Generative AI, LLMs, Machine Learning as transformative technologies in the context of Software Development, Artificial Intelligence, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including AI-powered Java application development, Integrating Generative AI into Java Enterprise Systems, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in AI, Generative AI, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to as a java enterprise developer or architect, embracing ai is critical for maintaining a competitive edge., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "2a3ce02c973d3c9fad3103025e374855",
     "filename": "aws-caf-for-ai.pdf",
     "title": "AWS Cloud Adoption Framework for Artificial Intelligence, Machine Learning, and Generative AI",
