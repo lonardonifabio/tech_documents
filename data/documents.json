@@ -10679,6 +10679,116 @@
     ]
   },
   {
+    "id": "c666de223ba6569bdc4d81fcd900a328",
+    "filename": "AI_1762527357.pdf",
+    "title": "Generative AI for Health in Low & Middle Income Countries",
+    "authors": [],
+    "filepath": "documents/AI_1762527357.pdf",
+    "upload_date": "2026-02-25T07:34:19.909402",
+    "file_size": 19528638,
+    "summary": "This document explores the application of Generative AI (GenAI), specifically Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) techniques, within Low- and Middle-Income Countries (LMICs). It provides a framework to guide the responsible and effective use of these technologies to address healthcare challenges. The report begins with key definitions, clarifying terms like LMICs, GenAI, LLMs, Human-in-the-loop (HITL), and RAG, highlighting their relevance to the context. A survey analysis is presented, followed by a robust framework outlining key principles and risks associated with GenAI implementation in healthcare settings. The document then delves into several case studies demonstrating successful GenAI deployments, including Jacaranda Health's PROMPTs, Viamo's Ask Viamo Anything (AVA) and Girl Effect's AVA, Audere's Self-Care From Anywhere, and Noora Health's initiatives. These case studies showcase diverse applications, from behavioral change interventions to personalized health support. The report concludes with key recommendations for stakeholders and acknowledges the research team and participating individuals involved in the study.  The appendix contains additional references and supporting materials. The core focus is on leveraging GenAI to improve healthcare outcomes in resource-constrained environments, emphasizing the importance of responsible development and deployment, considering factors like data access, ethical considerations, and the need for human oversight through HITL and RAG approaches. The document underscores the potential of LLMs and RAG to enhance the accuracy and relevance of AI-driven solutions within the healthcare sector of LMICs, offering a practical guide for implementation and future research.",
+    "keywords": [
+      "Generative AI",
+      "LMICs",
+      "Large Language Model",
+      "LLM",
+      "RAG",
+      "Tokens",
+      "GenAI",
+      "Health-related behavior change (HBC)",
+      "Large Language Models (LLMs)",
+      "Digital Health"
+    ],
+    "key_concepts": [
+      "Generative AI for Health applications in Low & Middle Income Countries (LMICs) is explored.",
+      "Key definitions such as LMICs, GenAI, LLM, and RAG are provided, along with explanations of their technical aspects.",
+      "The document outlines a framework and recommendations for utilizing Generative AI in healthcare contexts, incorporating Human-in-the-Loop approaches and Retrieval-Augmented Generation.",
+      "Well-designed HBC interventions can empower individuals to make informed decisions to improve health.",
+      "Ill-considered interventions risk exacerbating existing disparities stemming from lack of supporting infrastructure.",
+      "LLMs have been shown to perform significantly better than previous AI approaches in specific task areas, requiring domain-specific use cases.",
+      "Health Systems Strengthening (HSS)",
+      "Disease Prediction & Risk Modelling",
+      "Health-related behavior change",
+      "The importance of cross-organizational collaboration and knowledge sharing to mitigate risks and avoid repeating mistakes."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Generative AI for Health in Low & Middle Income Countries",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Healthcare Technology",
+      "Healthcare / Digital Health",
+      "Healthcare",
+      "Artificial Intelligence, Digital Health, International Development"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Generative AI",
+      "Large language model",
+      "Retrieval-Augmented Generation",
+      "GenAI",
+      "LLMs"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Generative AI",
+      "LMICs",
+      "Large Language Model"
+    ],
+    "methodologies": [
+      "Human-in-the-loop",
+      "Scoping Analysis",
+      "Framework Development",
+      "Quantitative Survey",
+      "Qualitative Interviews"
+    ],
+    "tools_mentioned": [
+      "World Bank Atlas method",
+      "Table 1",
+      "Diagnostic & triage tools",
+      "Remote care",
+      "metrics"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Behavioral Change Interventions",
+      "AI-powered Chatbots for Health Information",
+      "Remote Patient Monitoring",
+      "Health-related behavior change (HBC)",
+      "Generative AI applications in healthcare"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Generative AI for Health applications in Low & Middle Income Countries (LMICs) is explored., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Generative AI, Large language model, Retrieval-Augmented Generation as transformative technologies in the context of Healthcare Technology, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Behavioral Change Interventions, AI-powered Chatbots for Health Information, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Generative AI, LMICs, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to generative ai for health applications in low & middle income countries (lmics) is explored., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "8a5f63bb199aa9853814f4d66e9ce31f",
     "filename": "AI_1763901965.pdf",
     "title": "AI Regulation: Global Guide",
