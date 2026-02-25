@@ -90763,6 +90763,119 @@
     "confidence_score": 1.0
   },
   {
+    "id": "1bf4d7d5f2fa635c24b529f70473b339",
+    "filename": "How_AI_could_change_industry_risk_landscapes_1762760093.pdf",
+    "title": "Tech-tonic shifts: How AI could change industry risk landscapes",
+    "authors": [
+      "Swiss Re Institute"
+    ],
+    "filepath": "documents/How_AI_could_change_industry_risk_landscapes_1762760093.pdf",
+    "upload_date": "2026-02-25T12:08:43.936650",
+    "file_size": 1696057,
+    "summary": "This report, published by the Swiss Re Institute in May 2024, investigates the evolving risk landscape associated with the increasing adoption of artificial intelligence (AI) across various industries. The study employs a novel approach, combining text analysis of recent AI incidents, historical loss data, and forward-looking patent applications to generate risk ratings for both short- and medium-term durations. The core methodology focuses on establishing frequency and severity weightings for different sectors, providing a nuanced understanding of potential AI-related risks.  The analysis reveals that the technology sector currently presents the highest risk profile, understandably due to its central role in AI development. However, the report anticipates a comparatively lower risk probability in the energy and utilities sectors, although incidents within these sectors are projected to carry significant severity, particularly as AI is integrated into smart grids, increasing the frequency of potential events.  A key area of immediate concern identified is the media and communications sector, which faces short-term exposure to intellectual property risks stemming from the emergence of generative AI and the ongoing legal debates surrounding the use of copyrighted materials in training large language models (LLMs).  The study’s findings suggest a shift in risk distribution as AI becomes more prevalent, with healthcare and pharmaceuticals emerging as prominent risk areas due to the sector's reliance on data and the potential for AI-driven innovations.  The research utilizes a comprehensive data set, including incident analysis and patent data, to provide a robust and forward-looking assessment of AI risk.  The report concludes with implications for insurers, highlighting the need for proactive risk management strategies in the face of this rapidly changing technological landscape.  The appendix details the data sources and methodology employed, further strengthening the credibility of the Institute’s findings.  Ultimately, this document serves as a critical analysis for understanding and mitigating the emerging risks posed by AI across a range of industries, particularly for those involved in insurance and risk assessment.",
+    "keywords": [
+      "AI",
+      "Risk",
+      "Industries",
+      "Loss Data",
+      "Patent Applications",
+      "Generative AI",
+      "LLMs",
+      "healthcare",
+      "automation",
+      "risk"
+    ],
+    "key_concepts": [
+      "Swiss Re Institute analysis of AI risk across industries using text analysis, loss data, and patent applications to generate risk ratings.",
+      "Concentration of risk in the technology sector due to AI development, with potential for increased frequency and severity in energy and utilities, particularly regarding smart grids.",
+      "Short-term exposure to intellectual property risk in media and communications related to the use of copyrighted materials for training LLMs.",
+      "AI can enhance healthcare delivery, including diagnostics and development.",
+      "Automation, particularly self-driving cars, will drive mobility and transport.",
+      "AI-powered smart grid technologies are crucial for the net zero transition and energy/utilities.",
+      "The use of male mice in scientific experiments raises concerns for women's health.",
+      "Sex differences in mental health conditions (depression) are prevalent.",
+      "The evaluation of medical AI devices and the potential for gender bias in AI healthcare monitoring systems.",
+      "Autonomous vehicles demonstrate significantly reduced property damage claims compared to human drivers."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Tech-tonic shifts: How AI could change industry risk landscapes",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Insurance, Technology, Energy, Utilities, Media & Communications, Healthcare & Pharmaceuticals",
+      "Financial & insurance services, Healthcare & pharma, Energy & utilities, IT services",
+      "Healthcare & Pharmaceuticals",
+      "Autonomous Vehicles / Automotive / Insurance",
+      "Insurance, Artificial Intelligence, Cybersecurity"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI",
+      "LLMs",
+      "Generative AI",
+      "Smart Grids",
+      "Smart Grid"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI",
+      "Risk",
+      "Industries"
+    ],
+    "methodologies": [
+      "Text Analysis",
+      "Loss Data Analysis",
+      "Patent Applications",
+      "Risk Modelling",
+      "Bias Detection"
+    ],
+    "tools_mentioned": [
+      "Large Language Models",
+      "Self-Driving Cars",
+      "ChatGPT",
+      "FDA approvals",
+      "Coders"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "AI risk modeling",
+      "Risk assessment of AI deployment",
+      "Predicting AI-related incidents",
+      "Analyzing patent applications for AI risk",
+      "AI diagnostics"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Swiss Re Institute analysis of AI risk across industries using text analysis, loss data, and patent applications to generate risk ratings., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights AI, LLMs, Generative AI as transformative technologies in the context of Insurance, Technology, Energy, Utilities, Media & Communications, Healthcare & Pharmaceuticals, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including AI risk modeling, Risk assessment of AI deployment, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in AI, Risk, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to swiss re institute analysis of ai risk across industries using text analysis, loss data, and patent applications to generate risk ratings., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "c1c12d1a314160ae67b531f5a106440a",
     "filename": "How_Anthropic_built_their_multi_agent_research_system_1753100480.pdf",
     "title": "Engineering at Anthropic: How we built our multi-agent research system",
