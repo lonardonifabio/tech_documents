@@ -157305,6 +157305,108 @@
     "confidence_score": 0.5
   },
   {
+    "id": "fd4f273305b7efa12f901d62b2577283",
+    "filename": "Stone_1767658599.pdf",
+    "title": "Probability-Aware Patch Selection for Kidney Stone Detection (CT scans)",
+    "authors": [],
+    "filepath": "documents/Stone_1767658599.pdf",
+    "upload_date": "2026-02-25T07:34:47.664512",
+    "file_size": 721448,
+    "summary": "This document excerpt details a Python script designed to process a dataset of axial CT imaging scans for the purpose of kidney stone detection. The script utilizes the `numpy`, `pandas`, and `os` libraries to navigate and extract image files from a Kaggle dataset named \"Axial CT Imaging Dataset for AI -Powered Kidney Stone Detection A Resource for Deep Learning Research.\" Specifically, the code iterates through directories within the dataset, identifying PNG, JPG, and JPEG image files and appending their paths and corresponding labels (indicating the presence or absence of kidney stones) to lists. These lists are then used to construct a Pandas DataFrame, which is displayed with the first and last few rows, showcasing the structure of the dataset. The DataFrame contains two columns: 'image_path' storing the file paths of the CT images, and 'label' indicating whether the image contains a kidney stone or not. The script also provides information about the dataset's shape (2000 rows, 2 columns) and confirms that there are no duplicate rows in the DataFrame. The code snippet demonstrates a basic data loading and preprocessing pipeline commonly used in deep learning research for medical image analysis, particularly for tasks like building models to detect kidney stones from CT scans. The focus is on utilizing probability-aware patch selection, suggesting a strategy where the model considers the likelihood of a stone being present within smaller image patches to improve detection accuracy. The dataset itself is a valuable resource for researchers exploring AI-powered solutions for kidney stone detection using deep learning techniques.",
+    "keywords": [
+      "probability",
+      "patch selection",
+      "kidney stone detection",
+      "CT scans",
+      "numpy",
+      "pandas",
+      "os",
+      "image processing",
+      "deep learning",
+      "AI"
+    ],
+    "key_concepts": [
+      "The document focuses on probability-aware patch selection for detecting kidney stones from CT scans.",
+      "A dataset of axial CT imaging for kidney stone detection is being created, utilizing image files in PNG, JPG, and JPEG formats.",
+      "A Pandas DataFrame is constructed to store image paths and corresponding labels (Stone or Non-Stone) for the dataset.",
+      "Training and validation accuracy metrics (T_Acc, V_Acc) are used to evaluate the model's performance.",
+      "The model utilizes a Swin 7x7 Grid architecture for optimal patch selection.",
+      "Data augmentation techniques (random horizontal/vertical flip, random rotation) are applied to increase the dataset size and improve model robustness.",
+      "A custom Dataset class (KidneyStoneDataset) is defined to handle image loading and label retrieval, along with transformations."
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Probability-Aware Patch Selection for Kidney Stone Detection (CT scans)",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Healthcare / Medical Imaging"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Python",
+      "Deep Learning",
+      "PyTorch",
+      "ViT",
+      "Swin Transformer"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "probability",
+      "patch selection",
+      "kidney stone detection"
+    ],
+    "methodologies": [
+      "Data Extraction",
+      "Data Analysis",
+      "Image Processing",
+      "Supervised Learning",
+      "Data Augmentation"
+    ],
+    "tools_mentioned": [
+      "NumPy",
+      "Pandas",
+      "Scikit-learn",
+      "Kaggle",
+      "torch"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Kidney Stone Detection",
+      "AI-Powered Medical Image Analysis",
+      "Medical Image Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores The document focuses on probability-aware patch selection for detecting kidney stones from CT scans., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Python, Deep Learning, PyTorch as transformative technologies in the context of Healthcare / Medical Imaging, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Kidney Stone Detection, AI-Powered Medical Image Analysis, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in probability, patch selection, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to the document focuses on probability-aware patch selection for detecting kidney stones from ct scans., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "8a07237dd49a180f3c5d554d51a7a905",
     "filename": "SuperIntelligence_Strategy_Expert_and_Standard_versions_1746617586.pdf",
     "title": "Superintelligence Strategy: Expert Version",
