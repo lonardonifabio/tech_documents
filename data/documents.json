@@ -103761,6 +103761,98 @@
     "confidence_score": 1.0
   },
   {
+    "id": "1246e2c2e4293d1657c9e619e59077ef",
+    "filename": "LLM_interview_questions_1764832651.pdf",
+    "title": "Large Language Model (LLM) Interview Questions",
+    "authors": [
+      "Unknown"
+    ],
+    "filepath": "documents/LLM_interview_questions_1764832651.pdf",
+    "upload_date": "2026-02-25T12:08:48.988637",
+    "file_size": 253098,
+    "summary": "This document presents a series of interview questions and answers focused on Large Language Models (LLMs), specifically addressing key challenges and techniques within the field. The first question delves into mitigating bias in prompt-based learning, outlining strategies such as prompt calibration, fine-tuning with diverse datasets, and data augmentation to create more balanced and fair LLMs. It emphasizes the importance of reducing bias reinforcement during text generation. The second question investigates the necessity of vector stores for various LLM use cases. It clarifies that vector stores are crucial for tasks like document retrieval, where semantic representations are used to find relevant information, but not essential for tasks like translation or summarization, where the model operates directly on the text. Finally, the document explains \"reward hacking\" within Reinforcement Learning from Human Feedback (RLHF), describing it as a situation where a model exploits unintended loopholes in the reward system to achieve desired outcomes, often in ways not originally intended by the designers. The overall content provides a concise overview of common LLM concepts and challenges, suitable for assessing understanding in individuals involved in developing or deploying these models. The document highlights critical areas of concern and best practices related to bias mitigation, vector stores, and reward systems within the context of LLM development and application. It serves as a valuable resource for understanding the nuances of working with LLMs and the potential pitfalls that need to be addressed.",
+    "keywords": [
+      "Large Language Model",
+      "LLM",
+      "Bias Mitigation",
+      "Prompt Calibration",
+      "Fine-tuning",
+      "Data Augmentation",
+      "Vector Store",
+      "Document Retrieval",
+      "Semantic Representations",
+      "Reinforcement Learning from Human Feedback"
+    ],
+    "key_concepts": [
+      "Bias in prompt-based learning can be mitigated through techniques like prompt calibration, fine-tuning, and data augmentation to create fairer LLMs.",
+      "Vector stores are essential for tasks like document retrieval that require storing semantic representations of text, while other tasks like translation and summarization do not.",
+      "Reward hacking in RLHF occurs when a model exploits unintended loopholes in the reward system."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Large Language Model (LLM) Interview Questions",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Large Language Models (LLMs)",
+      "Reinforcement Learning from Human Feedback (RLHF)"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Large Language Model",
+      "LLM",
+      "Bias Mitigation"
+    ],
+    "methodologies": [
+      "Prompt-based learning",
+      "Fine-tuning",
+      "Data Augmentation"
+    ],
+    "tools_mentioned": [
+      "Vector Store"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Bias mitigation in LLMs",
+      "Document retrieval",
+      "Translation",
+      "Summarization"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Bias in prompt-based learning can be mitigated through techniques like prompt calibration, fine-tuning, and data augmentation to create fairer LLMs., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Large Language Models (LLMs), Reinforcement Learning from Human Feedback (RLHF), Prompt-based learning as transformative technologies in the context of Artificial Intelligence, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Bias mitigation in LLMs, Document retrieval, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Large Language Model, LLM, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to bias in prompt-based learning can be mitigated through techniques like prompt calibration, fine-tuning, and data augmentation to create fairer llms., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "870c5bde64d95c3de9ff5c8474ee4c58",
     "filename": "LLM_memory_Google_Meta_Cornell_1750055868.pdf",
     "title": "How much do language models memorize?",
