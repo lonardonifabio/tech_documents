@@ -165066,6 +165066,120 @@
     ]
   },
   {
+    "id": "d6ef795871d0010d6ad9511d9f8b4469",
+    "filename": "The_AI_Risk_Catalogue_1764868806.pdf",
+    "title": "The AI Model Risk Catalog: What Developers and Researchers Miss About Real-World AI Harms",
+    "authors": [
+      "Pooja S. B. Rao",
+      "Sanja ˇS´cepanovi ´c",
+      "Dinesh Babu Jayagopi",
+      "Mauro Cherubini",
+      "Daniele Quercia"
+    ],
+    "filepath": "documents/The_AI_Risk_Catalogue_1764868806.pdf",
+    "upload_date": "2026-02-25T12:08:59.256593",
+    "file_size": 1150802,
+    "summary": "This research paper, \"The AI Model Risk Catalog,\" investigates the reporting of risks associated with AI models, specifically focusing on the discrepancies between how developers and researchers approach this critical area. The authors analyzed a substantial dataset of approximately 460,000 AI model cards sourced from Hugging Face, identifying around 3,000 unique risk mentions to construct the AI Model Risk Catalog.  They compared these identified risks with those documented in the MIT Risk Repository and real-world AI incident data. The study reveals a significant gap in understanding, with developers primarily concentrating on technical risks such as bias and safety concerns within the models themselves, while researchers tended to prioritize broader social impacts.  A key finding is the consistent underreporting of risks related to fraud and manipulation – harms that frequently arise from the human-AI interaction and systemic vulnerabilities.  The research highlights a critical need for more comprehensive and structured risk reporting frameworks.  Specifically, the authors argue that developers need to proactively consider human-interaction and systemic risks during the initial design stages of AI systems, moving beyond solely focusing on model-specific technical issues. The analysis underscores the importance of a holistic approach to AI risk assessment, recognizing that the potential for harm extends beyond the model's internal workings to encompass the broader societal and operational contexts in which it is deployed. The paper advocates for a shift in perspective, urging a greater emphasis on understanding how AI systems are used and potentially misused by individuals and organizations.  The availability of the catalog and accompanying appendix at https://social-dynamics.net/ai- risks/catalog further facilitates access to this valuable resource and encourages wider adoption of the proposed risk reporting methodology.  This work contributes significantly to the growing body of research on AI safety and ethics, providing actionable insights for developers, researchers, and policymakers alike.",
+    "keywords": [
+      "AI Model Risk Catalog",
+      "AI Model Cards",
+      "Hugging Face",
+      "Bias",
+      "Safety",
+      "Fraud",
+      "Manipulation",
+      "Human-interaction",
+      "Systemic Risks",
+      "Risk Reporting"
+    ],
+    "key_concepts": [
+      "Developers focus on technical risks like bias and safety when reporting AI model risks.",
+      "Researchers emphasize broader social impacts of AI risks.",
+      "There is a lack of attention to fraud and manipulation as common harms related to human-AI interaction.",
+      "The need for clearer, structured risk reporting to address human-interaction and systemic risks early in the design process.",
+      "The document describes a method for building an AI Model Risk Catalog based on model cards.",
+      "The process involves extracting risk-related sections from model cards using regular expressions and classifying them into taxonomies.",
+      "The study leverages a dataset of 765,973 model repositories downloaded from HuggingFace, focusing on model cards with risk-related sections.",
+      "Risk associated with large language models due to mistakes and misuse.",
+      "Granularity of risk assessments varying from general to capability-specific, including issues with data, languages, and classification labels.",
+      "Interdisciplinary nature of AI risks spanning code generation, image synthesis, and ethical considerations, requiring systemic and interconnected solutions."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: The AI Model Risk Catalog: What Developers and Researchers Miss About Real-World AI Harms",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence",
+      "Artificial Intelligence (AI)"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "AI Model",
+      "Hugging Face",
+      "LLMs",
+      "HuggingFace",
+      "large language models"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "AI Model Risk Catalog",
+      "AI Model Cards",
+      "Hugging Face"
+    ],
+    "methodologies": [
+      "Risk Analysis",
+      "Comparative Analysis",
+      "Risk Identification",
+      "Data Extraction",
+      "Taxonomy Classification"
+    ],
+    "tools_mentioned": [
+      "AI Incident Database",
+      "MIT Risk Repository",
+      "HF Hub API",
+      "Regular Expressions",
+      "jpeg artifacts"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "AI Model Development",
+      "Risk Assessment",
+      "AI Safety",
+      "Model Risk Cataloging",
+      "AI Incident Analysis"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Developers focus on technical risks like bias and safety when reporting AI model risks., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights AI Model, Hugging Face, LLMs as transformative technologies in the context of Artificial Intelligence, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including AI Model Development, Risk Assessment, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in AI Model Risk Catalog, AI Model Cards, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to developers focus on technical risks like bias and safety when reporting ai model risks., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "0588e6c67cbdbdda7c2f9557072d9675",
     "filename": "The_AI_Risk_and_Reliability_Benchmark_from_MLCommons_1744881724.pdf",
     "title": "Fine-Tuning Dataset and Evaluation Quality Assessment",
