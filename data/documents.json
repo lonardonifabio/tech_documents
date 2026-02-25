@@ -181624,6 +181624,116 @@
     "confidence_score": 0.5
   },
   {
+    "id": "8c8482f0c4eff417b20b93265613d09c",
+    "filename": "_𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴_1761375705.pdf",
+    "title": "Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+    "authors": [
+      "Aurélien Géron"
+    ],
+    "filepath": "documents/_𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴_1761375705.pdf",
+    "upload_date": "2026-02-25T00:23:25.237589",
+    "file_size": 19881697,
+    "summary": "This book, \"Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow,\" is the second edition of a comprehensive guide focused on practical machine learning techniques. Authored by Aurélien Géron, it provides readers with the concepts, tools, and techniques necessary to build intelligent systems using popular Python libraries like Scikit-Learn, Keras, and TensorFlow. The book emphasizes a hands-on approach, guiding users through real-world examples and projects. It covers a wide range of machine learning algorithms, including linear regression, logistic regression, support vector machines, decision trees, random forests, and neural networks.  Furthermore, it delves into deep learning with Keras and TensorFlow, enabling readers to build and train complex neural networks. The book is structured to progressively introduce concepts, starting with fundamental machine learning ideas and gradually moving towards more advanced topics.  It includes detailed explanations, code examples, and exercises to reinforce learning. The second edition incorporates revisions and updates based on feedback and advancements in the field, ensuring that the content remains relevant and up-to-date.  The book is geared towards both beginners and experienced practitioners looking to solidify their understanding and skills in machine learning.  It's a valuable resource for anyone seeking to apply machine learning to solve practical problems. The book's focus on practical implementation and the use of industry-standard tools makes it a highly sought-after resource for aspiring data scientists and machine learning engineers. The inclusion of multiple revisions and a detailed revision history highlights the ongoing commitment to providing a robust and current learning experience.  The book's emphasis on hands-on learning and the use of popular libraries like Scikit-Learn, Keras, and TensorFlow makes it a cornerstone resource for anyone entering the field of machine learning.",
+    "keywords": [
+      "Machine Learning",
+      "Scikit-Learn",
+      "Keras",
+      "TensorFlow",
+      "Aurélien Géron",
+      "Tensors",
+      "Variables",
+      "Custom Models",
+      "Data API",
+      "TFRecord"
+    ],
+    "key_concepts": [
+      "Hands-on approach to Machine Learning",
+      "Building Intelligent Systems using various tools and techniques",
+      "Second Edition of a book on Machine Learning",
+      "TensorFlow utilizes Tensors and Operations for computation.",
+      "Variables are fundamental data structures in TensorFlow.",
+      "Customizing models involves defining custom loss functions, activation functions, and training algorithms.",
+      "Code examples are provided in Jupyter notebooks for full implementation.",
+      "Python prompts (>>> and ...) are used to distinguish code from outputs in code examples.",
+      "Permission is granted for using code examples in programs and documentation, unless significant portions are reproduced or a CD-ROM is created."
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Technology",
+      "Artificial Intelligence",
+      "Software Development / Education"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Scikit-Learn",
+      "Keras",
+      "TensorFlow",
+      "NumPy",
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Machine Learning",
+      "Scikit-Learn",
+      "Keras"
+    ],
+    "methodologies": [
+      "Machine Learning",
+      "Custom Training Algorithms",
+      "Autodiff",
+      "Graph Computation",
+      "Code Examples"
+    ],
+    "tools_mentioned": [
+      "N/A",
+      "tf.keras",
+      "Data API",
+      "Dataset",
+      "TFRecord"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Data Science",
+      "Machine Learning Model Development",
+      "Data Preprocessing for Machine Learning"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Hands-on approach to Machine Learning, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Scikit-Learn, Keras, TensorFlow as transformative technologies in the context of Technology, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Machine Learning, Artificial Intelligence, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Machine Learning, Scikit-Learn, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to hands-on approach to machine learning, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "37407411a4fe949421dd1fff97930f84",
     "filename": "agentic-ai-the-new-frontier-in-genai-an-executive-playbook.pdf",
     "title": "Agentic AI – the new frontier in GenAI An executive playbook",
