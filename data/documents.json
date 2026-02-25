@@ -55566,6 +55566,123 @@
     ]
   },
   {
+    "id": "84a1d716ba70552689077a9eecc94231",
+    "filename": "Cybersecurity_Framework_Profile_for_AI__1768428681.pdf",
+    "title": "Cyber AI Profile: Cybersecurity Framework Profile for Artificial Intelligence",
+    "authors": [
+      "Katerina Megas",
+      "Barbara Cuthill",
+      "Marissa Dotter",
+      "Michael Garris",
+      "Ishika Khemani",
+      "Bronwyn Patrick",
+      "Noah Schiro",
+      "Julie Nethery Snyder",
+      "Mohammad Zarei"
+    ],
+    "filepath": "documents/Cybersecurity_Framework_Profile_for_AI__1768428681.pdf",
+    "upload_date": "2026-02-25T12:08:36.133661",
+    "file_size": 2860536,
+    "summary": "This document, NIST Internal Report NIST IR 8596 iprd, presents an Initial Preliminary Draft of the ‘Cyber AI Profile,’ a Cybersecurity Framework Profile specifically tailored for Artificial Intelligence (AI). Developed by the National Institute of Standards and Technology (NIST), in collaboration with the Applied Cybersecurity Division of the Information Technology Laboratory, the National Cybersecurity Center of Excellence at MITRE, and the U.S. Department of Commerce, the report aims to provide a structured approach to understanding and managing the cybersecurity risks associated with AI systems. The document details a framework for integrating AI considerations into existing cybersecurity practices, focusing on the unique challenges posed by AI’s capabilities and vulnerabilities. It outlines key areas of concern, including bias in algorithms, adversarial attacks, data privacy, and the potential for AI systems to be used maliciously. The ‘Cyber AI Profile’ is intended to be a living document, continuously updated and refined as AI technology evolves and new threats emerge. The initial draft serves as a foundational resource for organizations seeking to proactively address cybersecurity risks within their AI deployments. The report includes a list of equipment and software used in the experimental procedure to ensure the accuracy and reproducibility of the research.  The document's purpose is to facilitate a more robust and secure integration of AI into critical infrastructure and systems.  It highlights the need for a specialized cybersecurity approach that acknowledges the distinct characteristics of AI, moving beyond traditional security models. The work was conducted by a team of experts from various NIST divisions and partner organizations, including former employee Mohammad Zarei. The document is available for free download via the provided DOI.  The draft was finalized in December 2025, reflecting the ongoing efforts to establish standards and best practices in the rapidly developing field of AI cybersecurity.  The inclusion of specific equipment and instruments underscores the practical, experimental nature of the research underpinning the ‘Cyber AI Profile’.",
+    "keywords": [
+      "Cybersecurity Framework",
+      "Artificial Intelligence (AI)",
+      "NIST",
+      "Cyber AI Profile",
+      "IR 8596",
+      "iprd",
+      "National Cybersecurity Center of Excellence",
+      "MITRE",
+      "AI",
+      "Cyber Defense"
+    ],
+    "key_concepts": [
+      "This publication is a Cybersecurity Framework Profile for Artificial Intelligence (Cyber AI Profile).",
+      "The document is an Initial Preliminary Draft (NIST IR 8596 iprd).",
+      "The work was conducted by various teams including the Applied Cybersecurity Division and the National Cybersecurity Center of Excellence.",
+      "Conducting AI-Enabled Cyber Defense (Defend)",
+      "Thwarting AI-Enabled Cyber Attacks (Thwart)",
+      "Cyber AI Profile",
+      "Heuristic search and planning algorithms like A* search.",
+      "Reinforcement learning with human feedback (RLHF) for training AI systems.",
+      "NIST’s AI Risk Management Framework (RMF) defining AI systems as engineered systems generating outputs influencing environments.",
+      "Translating risk to business language for executive decision-making."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Cyber AI Profile: Cybersecurity Framework Profile for Artificial Intelligence",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Cybersecurity"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Artificial Intelligence",
+      "Cybersecurity",
+      "AI",
+      "Reinforcement Learning",
+      "Fuzzy Logic"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Cybersecurity Framework",
+      "Artificial Intelligence (AI)",
+      "NIST"
+    ],
+    "methodologies": [
+      "Framework Development",
+      "Defense",
+      "Attack Mitigation",
+      "Heuristic Search",
+      "Ensemble Methods"
+    ],
+    "tools_mentioned": [
+      "Software",
+      "Instruments",
+      "Materials",
+      "Cyber AI Profile",
+      "A* Search"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Cybersecurity Framework Development",
+      "AI Cybersecurity",
+      "AI-Enabled Cyber Defense",
+      "Thwarting AI-Enabled Cyber Attacks",
+      "AI-powered predictions"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores This publication is a Cybersecurity Framework Profile for Artificial Intelligence (Cyber AI Profile)., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Artificial Intelligence, Cybersecurity, AI as transformative technologies in the context of Cybersecurity, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Cybersecurity Framework Development, AI Cybersecurity, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Cybersecurity Framework, Artificial Intelligence (AI), suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to this publication is a cybersecurity framework profile for artificial intelligence (cyber ai profile)., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "79d3b7536703d6cc32dc17aba5493c2d",
     "filename": "DA_ME_1753546239.pdf",
     "title": "Data Act versus EU AI Act: A Mapping Exercise",
