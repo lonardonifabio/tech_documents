@@ -27901,6 +27901,112 @@
     ]
   },
   {
+    "id": "2ac6a010efc3df758d601939e4bf4c53",
+    "filename": "ARTIFICIAL_INTELLIGENCE_WITH_PYTHON_1761026306.pdf",
+    "title": "Artificial Intelligence with Python",
+    "authors": [
+      "Skill Foundry"
+    ],
+    "filepath": "documents/ARTIFICIAL_INTELLIGENCE_WITH_PYTHON_1761026306.pdf",
+    "upload_date": "2026-02-25T00:22:52.678512",
+    "file_size": 1698460,
+    "summary": "This comprehensive guide, \"Artificial Intelligence with Python,\" provides a foundational understanding of AI concepts and techniques, utilizing the popular Python programming language. The course begins with setting up a suitable AI development environment, emphasizing the core principles of machine learning and its role as the driving force behind AI systems. A significant portion of the material is dedicated to supervised learning, exploring regression and classification models in detail, equipping learners with the ability to build predictive models.  The document then delves into unsupervised learning, focusing on discovering hidden patterns within data without predefined labels, a crucial aspect of many AI applications.  A fundamental understanding of neural networks is presented, explaining the building blocks of artificial brains and how they are utilized in AI.  Practical application is reinforced through a hands-on project: constructing a neural network specifically designed to classify handwritten digits, offering a tangible learning experience.  The course further expands into deep learning, particularly focusing on Convolutional Neural Networks (CNNs) for image classification, providing a detailed explanation of this powerful technique.  Advanced learners are introduced to transfer learning, a strategy that leverages pre-trained models to accelerate and improve image classification performance.  Recognizing the importance of language in AI, the document introduces Natural Language Processing (NLP) basics with Python, demonstrating how to apply NLP techniques to real-world problems.  A specific example is provided through spam detection using machine learning, illustrating the practical application of these concepts.  The course continues with deep learning for text classification, integrating NLP techniques for more sophisticated text analysis.  Finally, the document explores computer vision basics and image classification, bridging the gap between image processing and AI.  The concluding section examines the application of AI for automation, covering tasks such as file management, web scraping, and email processing, showcasing the versatility of AI in streamlining various workflows.  Throughout the course, Python is consistently highlighted as the primary tool for implementing these AI techniques, making it ideal for aspiring data scientists and AI developers.  The document aims to provide a solid foundation for further exploration and development in the field of artificial intelligence.",
+    "keywords": [
+      "Artificial Intelligence",
+      "Python",
+      "Machine Learning",
+      "Neural Networks",
+      "Deep Learning",
+      "Image Classification",
+      "Natural Language Processing",
+      "CNNs",
+      "Transfer Learning",
+      "Spam Detection"
+    ],
+    "key_concepts": [
+      "Understanding Machine Learning — The Heart of AI",
+      "Supervised Learning Deep Dive — Regression and Classification Models",
+      "Deep Learning for Image Classification — CNNs Explained",
+      "Neural Networks Fundamentals — Building Brains for AI",
+      "Data is used to train and test machine learning models.",
+      "Overfitting occurs when a model learns too much from training data, leading to poor performance on new data.",
+      "Underfitting occurs when a model fails to capture patterns from the data.",
+      "Features are input variables used for prediction.",
+      "Labels represent the correct outputs for training and testing."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Artificial Intelligence with Python",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence",
+      "Artificial Intelligence / Machine Learning"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Neural Networks",
+      "Deep Learning",
+      "Natural Language Processing"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Artificial Intelligence",
+      "Python",
+      "Machine Learning"
+    ],
+    "methodologies": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Transfer Learning",
+      "Training/Testing"
+    ],
+    "tools_mentioned": [
+      "Python",
+      "scikit-learn",
+      "numpy"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Image Classification",
+      "Natural Language Processing",
+      "Spam Detection",
+      "Automation",
+      "Predictive Modeling"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Understanding Machine Learning — The Heart of AI, which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Artificial Intelligence, Machine Learning, Neural Networks as transformative technologies in the context of Artificial Intelligence, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Image Classification, Natural Language Processing, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Artificial Intelligence, Python, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to understanding machine learning — the heart of ai, presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "12369a54e5706edc42ab4e582640a8b1",
     "filename": "AR_Game_Development__1658991285.pdf",
     "title": "AR Game Development for Beginners",
