@@ -169880,6 +169880,120 @@
     "confidence_score": 1.0
   },
   {
+    "id": "fe63185e9a58b5c5e93aea4d57e42752",
+    "filename": "The_Definitive_Guide_2nd_Edition_1767978502.pdf",
+    "title": "CockroachDB: The Definitive Guide",
+    "authors": [
+      "Guy Harrison",
+      "Jesse Seldess",
+      "Ben Darnell",
+      "Rob Reid"
+    ],
+    "filepath": "documents/The_Definitive_Guide_2nd_Edition_1767978502.pdf",
+    "upload_date": "2026-02-25T22:24:26.434722",
+    "file_size": 11236622,
+    "summary": "This comprehensive guide, now in its second edition, delves into CockroachDB, a distributed SQL database designed for scaling applications to handle massive workloads. The book begins with a historical overview of database evolution, starting with pre-relational databases and the rise of the relational model, highlighting the limitations of traditional RDBMS systems in the context of the internet and the emergence of NoSQL databases. It then explores the key drivers behind the creation of CockroachDB, emphasizing its design goals centered around resilience, scalability, and data consistency. The core of the book focuses on CockroachDB's architecture, detailing the cluster architecture, the software stack, and the underlying SQL layer.  A significant portion is dedicated to explaining how CockroachDB translates SQL queries into operations within its key-value store, illustrating the internal representation of tables and column families, and the use of indexes for efficient data retrieval. The guide provides real-world examples of CockroachDB's adoption by prominent companies like Netflix, Devsisters, DoorDash, Bose, Form3, Hard Rock Digital, Spreedly, and Route, showcasing its capabilities in diverse applications.  The book aims to equip readers with a deep understanding of CockroachDB's architecture and operational considerations, making it a valuable resource for developers and database administrators seeking to build highly scalable and resilient applications.  The second edition incorporates updates and refinements based on the latest CockroachDB releases, ensuring readers have access to the most current information.  It covers topics such as transactions, the SQL language, and the NoSQL movement, providing a holistic view of the database landscape and CockroachDB's position within it.  The book's structure is designed to progressively build understanding, starting with foundational concepts and moving towards more advanced topics related to distributed data management.",
+    "keywords": [
+      "CockroachDB",
+      "Distributed Data",
+      "SQL",
+      "NoSQL",
+      "Transactions",
+      "Relational Model",
+      "Encryption Keys",
+      "Authentication",
+      "Authorization",
+      "Access Control"
+    ],
+    "key_concepts": [
+      "CockroachDB is a distributed SQL database designed for scalability and resilience.",
+      "The document explores the history of databases, from relational to NoSQL, and the emergence of distributed SQL databases like CockroachDB.",
+      "CockroachDB's architecture utilizes a cluster, SQL layer, and a key-value store to manage data, with features like indexes for efficient querying.",
+      "416Customer-Managed Encryption Keys: A system for managing encryption keys.",
+      "418Authentication Mechanisms: Different methods for verifying user identities.",
+      "424Authorization: Controlling user access to resources and data.",
+      "Fine-Grained Access Control with Views: Precise control over data access through views.",
+      "427Logging and Auditing: Recording and tracking system events for security and troubleshooting.",
+      "433Monitoring: Observing system performance and identifying potential issues.",
+      "Workload Optimization: Strategies for improving the efficiency of database workloads."
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: CockroachDB: The Definitive Guide",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Database Management Systems",
+      "Database Management Systems (DMS) / Cloud Database Services",
+      "Database Management, Cloud Computing, DevOps"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "CockroachDB",
+      "SQL",
+      "NoSQL",
+      "Encryption",
+      "Authentication"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "CockroachDB",
+      "Distributed Data",
+      "SQL"
+    ],
+    "methodologies": [
+      "Distributed Systems",
+      "Fine-Grained Access Control",
+      "Monitoring",
+      "Log Configuration",
+      "Cluster Management"
+    ],
+    "tools_mentioned": [
+      "KV Store",
+      "Prometheus",
+      "Datadog",
+      "Fluentd",
+      "CockroachDB Cloud"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Distributed Data Management",
+      "Scalable Database Solutions",
+      "Cloud Database Solutions",
+      "Cluster Management",
+      "Monitoring and Alerting"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores CockroachDB is a distributed SQL database designed for scalability and resilience., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights CockroachDB, SQL, NoSQL as transformative technologies in the context of Database Management Systems, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Distributed Data Management, Scalable Database Solutions, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in CockroachDB, Distributed Data, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to cockroachdb is a distributed sql database designed for scalability and resilience., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "6b47a887d37513bec5a65e3156a9e937",
     "filename": "The_Direction_of_AI_Innovation_in_the_UK_1745872022.pdf",
     "title": "The Direction of AI Innovation in the UK: Insights from a New Database and a Roadmap for Reform",
