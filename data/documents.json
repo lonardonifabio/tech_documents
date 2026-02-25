@@ -139427,6 +139427,92 @@
     ]
   },
   {
+    "id": "1565e547c562431a8f25881994013928",
+    "filename": "Prompt_Engineering__1767829019.pdf",
+    "title": "Prompt Engineering for LLMs: The Art and Science of Building Large Language Model–Based Applications",
+    "authors": [
+      "John Berryman",
+      "Albert Ziegler"
+    ],
+    "filepath": "documents/Prompt_Engineering__1767829019.pdf",
+    "upload_date": "2026-02-25T07:34:44.056497",
+    "file_size": 2596398,
+    "summary": "This book, \"Prompt Engineering for LLMs,\" authored by John Berryman and Albert Ziegler, delves into the critical skill of prompt engineering for large language models (LLMs). It addresses the burgeoning impact of LLMs, which are transforming industries by automating tasks and tackling complex problems, and highlights the need for specialized expertise to effectively utilize these models. The book provides a comprehensive guide, blending both the theoretical foundations and practical techniques required to master prompt engineering. John Berryman, founder of Arcturus Labs and a former GitHub Copilot engineer, brings his experience in LLM-based application development and search expertise, having authored \"Relevant Search\" (Manning). Albert Ziegler, Head of AI at XBOW and a founding engineer for GitHub Copilot, contributes his deep understanding of model interaction and prompt engineering systems, particularly in the context of the first successful industry-scale LLM product. The core focus is on understanding how to communicate effectively with AI, translating ideas into a format suitable for LLMs. Readers will gain insights into LLM architecture and learn the methodologies for crafting prompts that elicit desired responses. The book emphasizes the importance of both the philosophical underpinnings and the practical techniques involved in prompt engineering, equipping individuals with the knowledge and confidence to develop the next generation of LLM-powered applications. It's designed for those seeking to leverage the full potential of LLMs, moving beyond simply using them to understand how to truly control and shape their output. The book aims to bridge the gap between the rapidly evolving technology of LLMs and the practical skills needed to build successful applications. It’s a valuable resource for anyone involved in developing or deploying LLM-based solutions, covering topics from model architecture to prompt design and optimization.",
+    "keywords": [
+      "LLMs",
+      "Prompt Engineering",
+      "Large Language Models",
+      "GitHub Copilot",
+      "AI Cybersecurity",
+      "XBOW"
+    ],
+    "key_concepts": [
+      "Prompt engineering is the key to unlocking the true potential of LLMs.",
+      "Large language models (LLMs) are revolutionizing various domains by automating tasks and solving complex problems.",
+      "Building LLM-based applications requires new skills in prompt engineering and understanding LLM architecture."
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Prompt Engineering for LLMs: The Art and Science of Building Large Language Model–Based Applications",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence, Software Development, Cybersecurity"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Large Language Models (LLMs)",
+      "GitHub Copilot"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "LLMs",
+      "Prompt Engineering",
+      "Large Language Models"
+    ],
+    "methodologies": [
+      "Prompt Engineering"
+    ],
+    "tools_mentioned": [
+      "Relevant Search (Manning)"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "LLM Application Development",
+      "Prompt Engineering",
+      "AI-powered Cybersecurity"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Prompt engineering is the key to unlocking the true potential of LLMs., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Large Language Models (LLMs), GitHub Copilot, Prompt Engineering as transformative technologies in the context of Artificial Intelligence, Software Development, Cybersecurity, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including LLM Application Development, Prompt Engineering, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in LLMs, Prompt Engineering, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to prompt engineering is the key to unlocking the true potential of llms., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "0985657dfa082f27d516344a4fe291b5",
     "filename": "Prompt_Injection_in_AI_Browsers_1762555867.pdf",
     "title": "Prompt Injection in AI: Browsers - What fails, what works, and a 90-day plan to secure your AI-enabled workforce",
