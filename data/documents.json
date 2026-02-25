@@ -191280,6 +191280,118 @@
     "confidence_score": 1.0
   },
   {
+    "id": "de0a18051081d3cd594c49d73e8d92a2",
+    "filename": "paper.pdf",
+    "title": "Foundation Model Transparency Index Results",
+    "authors": [
+      "Unknown"
+    ],
+    "filepath": "documents/paper.pdf",
+    "upload_date": "2026-02-25T07:34:56.924549",
+    "file_size": 2002441,
+    "summary": "This document presents the findings of the 2023 Foundation Model Transparency Index, assessing the transparency practices of leading AI development companies. The overall results reveal a concerning lack of transparency, with an average score of only 37 out of 100, highlighting that most companies struggle to provide sufficient detail about their model development processes. A significant degree of heterogeneity exists, as 82 out of 100 indicators were evaluated by at least one company, indicating varying levels of scrutiny and disclosure. The study observed a downward trend in scores from 2024 to 2025, with Amazon, Anthropic, Google, Meta, Mistral, and OpenAI experiencing declines, while AI21 Labs saw a substantial drop. Notably, despite some companies like AI21 Labs disclosing substantial information in 2024 (including training compute, energy usage, and carbon emissions), this disclosure ceased in 2025. Developers were categorized into three groups: four companies (Meta, Hugging Face, OpenAI, Stability AI) consistently scored above the mean, three (Google, Anthropic, Cohere) around the mean, and three (AI21 Labs, Inflection, Amazon) significantly below. The document emphasizes that nearly all companies exhibited opacity regarding critical aspects such as training data, data labor, computational costs, risk mitigation strategies, feedback mechanisms, and the potential downstream impacts of their models. The findings underscore the need for greater transparency in the AI industry to foster accountability, trust, and responsible development. The index's publication garnered media attention, as evidenced by reports by Roose (2023) and Hao (2023), and was integrated into further research and analysis. The analysis suggests a critical gap in the industry's commitment to open and transparent practices, particularly concerning the significant resources and potential impacts associated with foundation model development.",
+    "keywords": [
+      "Foundation Models",
+      "Transparency Index",
+      "Data Acquisition",
+      "Training Data",
+      "Model Evaluation",
+      "Alibaba",
+      "DeepSeek",
+      "xAI",
+      "IBM",
+      "transparency"
+    ],
+    "key_concepts": [
+      "The 2025 Foundation Model Transparency Index aims to quantify the transparency of foundation model developers.",
+      "Transparency practices of foundation model developers are evolving as these companies become increasingly consequential.",
+      "There has been a deterioration in transparency scores, with the average score falling from 58 to 40 between 2024 and 2025.",
+      "Low levels of transparency across AI companies, as evidenced by average scores of 37/100.",
+      "Significant heterogeneity in scoring among AI developers, with clusters based on transparency levels.",
+      "Changes in scores from 2024 to 2025, highlighting varying levels of disclosure by companies like Amazon, Anthropic, Google, Meta, Mistral, and OpenAI.",
+      "Synthetic data sources for model generation",
+      "Data processing methods and their purpose",
+      "Compute usage for model training and research & development",
+      "Identification of top distribution channels based on usage data."
+    ],
+    "category": "AI",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Foundation Model Transparency Index Results",
+    "target_audience": "Professionals in ai field",
+    "industry": [
+      "Artificial Intelligence",
+      "Artificial Intelligence / Machine Learning",
+      "Artificial Intelligence, Finance, Governance, Risk Management",
+      "Artificial Intelligence, Information Retrieval, E-commerce (specifically Alibaba and Mistral)"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Foundation Models",
+      "AI",
+      "OpenAI",
+      "Anthropic",
+      "Google"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Foundation Models",
+      "Transparency Index",
+      "Data Acquisition"
+    ],
+    "methodologies": [
+      "Data Acquisition",
+      "Monitoring",
+      "Evaluation",
+      "Transparency Index",
+      "Data Analysis"
+    ],
+    "tools_mentioned": [
+      "Alibaba",
+      "DeepSeek",
+      "xAI",
+      "IBM",
+      "FLOPs (Floating Point Operations per Second)"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand ai concepts"
+    ],
+    "use_cases": [
+      "Model Transparency Assessment",
+      "Risk Assessment of AI Models",
+      "Data Acquisition Analysis",
+      "Risk Assessment",
+      "Sustainability Reporting"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores The 2025 Foundation Model Transparency Index aims to quantify the transparency of foundation model developers., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Foundation Models, AI, OpenAI as transformative technologies in the context of Artificial Intelligence, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Model Transparency Assessment, Risk Assessment of AI Models, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Foundation Models, Transparency Index, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to the 2025 foundation model transparency index aims to quantify the transparency of foundation model developers., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "2e3715c023135e648c7517f91e98abe2",
     "filename": "part_2_The_Quest_for_Artificial_Intelligence_1636701463.pdf",
     "title": "The Quest for Artificial Intelligence: A History of Ideas and Achievements",
