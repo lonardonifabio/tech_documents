@@ -97099,6 +97099,111 @@
     "confidence_score": 1.0
   },
   {
+    "id": "72a9bf699f425c4efd5c8dfbb8ca97fc",
+    "filename": "IIT_1764003389.pdf",
+    "title": "Road Safety Classification using Multimodal Deep Learning Resnet-50 and DenseNet-121 Models",
+    "authors": [
+      "IIT Bhubaneswar"
+    ],
+    "filepath": "documents/IIT_1764003389.pdf",
+    "upload_date": "2026-02-25T22:24:12.379809",
+    "file_size": 648361,
+    "summary": "This document outlines a research project conducted by IIT Bhubaneswar focused on road safety classification utilizing deep learning models. The core of the project involves developing and implementing ResNet-50 and DenseNet-121 models to analyze multimodal data related to road safety incidents. The data used in this study is derived from a dataset containing images captured at various locations, alongside associated metadata such as time of day, human activity, luminosity, terrain, presence of buildings, mechanical activity, nearby vegetation, and a safety rating. The dataset, named 'data_clean.csv', is structured with nine columns: 'Name', 'Time', 'Human_Activity', 'Luminosity', 'Terrain', 'Presence_of_building', 'Mechanical_Activity', 'Nearby_vegetation', and 'Safety'. The code snippet provided demonstrates the initial steps of the project, including importing necessary libraries (NumPy and Pandas) and loading the cleaned CSV dataset using Pandas. The dataset contains 912 rows and 9 columns, with no duplicate rows or missing values. The project aims to leverage the combined information from these modalities to accurately classify road safety conditions, potentially leading to improved safety measures and risk assessment strategies. The use of ResNet-50 and DenseNet-121 suggests a convolutional neural network approach, likely for image analysis, combined with other features to create a robust classification system. Further analysis and model training would be required to fully realize the project's goals.",
+    "keywords": [
+      "Road Safety",
+      "Multimodal Deep Learning",
+      "Resnet-50",
+      "DenseNet-121",
+      "Data Analysis",
+      "Classification",
+      "IIT Bhubaneswar",
+      "Validation Accuracy",
+      "Confusion Matrix",
+      "Classification Report"
+    ],
+    "key_concepts": [
+      "The study utilizes multimodal deep learning models (Resnet-50 and DenseNet-121) for road safety classification.",
+      "The dataset includes features like Time, Human_Activity, Luminosity, Terrain, Presence_of_building, Mechanical_Activity, Nearby_vegetation, and Safety.",
+      "The data is cleaned and analyzed using pandas and numpy, with checks for duplicates and missing values.",
+      "The document analyzes the validation accuracy of a classification model, achieving a final accuracy of 93.75%.",
+      "A confusion matrix is generated to visualize the classification results, with labels for 'Safe', 'Risky', and 'Dangerous'.",
+      "The classification report provides detailed metrics like precision, recall, F1-score, and support for each class, along with macro and weighted averages."
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Road Safety Classification using Multimodal Deep Learning Resnet-50 and DenseNet-121 Models",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Transportation / Road Safety",
+      "Machine Learning / Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "Deep Learning",
+      "ResNet",
+      "DenseNet",
+      "Multimodal",
+      "Python"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Road Safety",
+      "Multimodal Deep Learning",
+      "Resnet-50"
+    ],
+    "methodologies": [
+      "Classification",
+      "Machine Learning",
+      "Confusion Matrix Analysis",
+      "Model Training"
+    ],
+    "tools_mentioned": [
+      "Pandas",
+      "NumPy",
+      "CSV",
+      "Matplotlib",
+      "Seaborn"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Road Safety Classification",
+      "Multimodal Data Analysis",
+      "Deep Learning for Safety",
+      "Classification",
+      "Model Evaluation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores The study utilizes multimodal deep learning models (Resnet-50 and DenseNet-121) for road safety classification., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights Deep Learning, ResNet, DenseNet as transformative technologies in the context of Transportation / Road Safety, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Road Safety Classification, Multimodal Data Analysis, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Road Safety, Multimodal Deep Learning, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to the study utilizes multimodal deep learning models (resnet-50 and densenet-121) for road safety classification., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "44bec3d6504751ffaffb67997d92b814",
     "filename": "IMY_GDPR_when_using_GenAI_1740652631.pdf",
     "title": "GDPR when using by generative AI",
