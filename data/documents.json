@@ -195305,6 +195305,101 @@
     ]
   },
   {
+    "id": "a0719b0a53251dfaa5ee3545f90368d4",
+    "filename": "file_44509461-8A37-4370-9E08-C48BF4BCDD0A.pdf",
+    "title": "Run LLMs Locally with Ollama",
+    "authors": [
+      "Naresh Edagotti"
+    ],
+    "filepath": "documents/file_44509461-8A37-4370-9E08-C48BF4BCDD0A.pdf",
+    "upload_date": "2026-02-25T22:24:33.150739",
+    "file_size": 2719790,
+    "summary": "Ollama is a lightweight and extensible framework designed to enable users to run large language models (LLMs) directly on their local machines, eliminating the need for cloud dependencies and associated API costs. This approach prioritizes complete data privacy and offline capabilities, making it ideal for privacy-sensitive projects and prototyping. The framework supports a variety of popular LLMs, including Mistral, Llama, and CodeLlama, and offers seamless integration with popular LLM frameworks such as LangChain, LlamaIndex, and Haystack. Key features include building RAG (Retrieval-Augmented Generation) applications, creating AI agents, and prototyping without incurring API expenses.  The installation process is straightforward, offering commands for Linux, macOS, and Windows.  Specifically, the Linux installation involves downloading and executing the installation script via `curl`.  The framework's architecture allows for efficient context management, memory management within chatbots, and the ability to handle multi-step reasoning tasks, leading to benefits like chatbots with memory and document Q&A systems.  Furthermore, Ollama is optimized for document indexing and provides built-in RAG capabilities, facilitating easy data ingestion and efficient context management. The integration with LangChain provides access to chains, agents, and tools, specifically tailored for RAG applications. The document highlights the ease of use and the benefits of running LLMs locally, offering a powerful alternative to cloud-based solutions. The focus on offline capabilities and data privacy makes Ollama a compelling option for developers and researchers working with sensitive data or requiring independent operation.",
+    "keywords": [
+      "LLMs",
+      "Ollama",
+      "LangChain",
+      "LlamaIndex",
+      "RAG",
+      "Local AI",
+      "Privacy",
+      "CodeLlama"
+    ],
+    "key_concepts": [
+      "Local LLM execution without cloud dependencies or API costs.",
+      "Framework integration for seamless LLM development (LangChain, LlamaIndex, Haystack).",
+      "RAG (Retrieval-Augmented Generation) applications and AI agents."
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Run LLMs Locally with Ollama",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Artificial Intelligence, Software Development, NLP"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "LLMs",
+      "LangChain",
+      "LlamaIndex",
+      "Haystack",
+      "HTTP requests"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "LLMs",
+      "Ollama",
+      "LangChain"
+    ],
+    "methodologies": [
+      "RAG (Retrieval-Augmented Generation)",
+      "Prototyping"
+    ],
+    "tools_mentioned": [
+      "Ollama",
+      "curl",
+      "sh"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "RAG applications",
+      "Creating AI agents",
+      "Chatbots with memory",
+      "Document Q&A systems",
+      "Multi-step reasoning tasks"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores Local LLM execution without cloud dependencies or API costs., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights LLMs, LangChain, LlamaIndex as transformative technologies in the context of Artificial Intelligence, Software Development, NLP, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including RAG applications, Creating AI agents, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in LLMs, Ollama, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to local llm execution without cloud dependencies or api costs., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "71bc90c5bf0ffee59a100e990935c1d4",
     "filename": "file_4B9AF826-4C90-4C7B-B00B-848E0789F025.pdf",
     "title": "Confronto tra standard ISO dedicati all’Etica dell’IA",
