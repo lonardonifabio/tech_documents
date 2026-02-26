@@ -193378,6 +193378,113 @@
     "confidence_score": 1.0
   },
   {
+    "id": "701133319881b0a7dea49652c0b7041d",
+    "filename": "chest_x_ray_1761079697.pdf",
+    "title": "Chest X-Ray Classification using GLCM, Wavelet Transforms, and CLAHE",
+    "authors": [],
+    "filepath": "documents/chest_x_ray_1761079697.pdf",
+    "upload_date": "2026-02-25T22:24:32.930632",
+    "file_size": 958198,
+    "summary": "This document excerpt presents a Python code snippet designed for classifying chest X-ray images into 'NORMAL' and 'PNEUMONIA' categories. The code utilizes the pandas library to create a DataFrame, which stores the paths to the X-ray images and their corresponding labels. The script iterates through a directory structure containing X-ray images, extracting image files with extensions '.png', '.jpg', and '.jpeg'.  It then constructs a DataFrame named 'df' where each row represents an X-ray image and its associated label. The DataFrame's 'image_path' column contains the full path to each image, while the 'label' column indicates whether the image represents a normal chest X-ray or a case of pneumonia. The code includes a demonstration of the DataFrame's head and tail, showcasing the first and last few rows of the dataset. The DataFrame's shape is (5216, 2), indicating that it contains 5216 rows and 2 columns: 'image_path' and 'label'. The columns are named 'image_path' and 'label' respectively, both of type 'object'. The code also provides information about the DataFrame's data type and range, confirming the presence of both image paths and labels. The use of `warnings.filterwarnings('ignore')` suggests that the code is designed to avoid displaying warnings during execution, likely to streamline the process. The code is likely part of a larger project focused on applying image processing techniques like GLCM (Gray-Level Co-occurrence Matrix), Wavelet Transforms, and CLAHE (Contrast Limited Adaptive Histogram Equalization) to improve the accuracy of chest X-ray classification. The dataset itself is sourced from Kaggle's 'chest x-ray images normal and pneumonia' competition, providing a valuable resource for machine learning tasks related to medical image analysis.",
+    "keywords": [
+      "Chest X-Ray",
+      "GLCM",
+      "Wavelet Transforms",
+      "CLAHE",
+      "Pandas",
+      "numpy",
+      "image classification",
+      "data frame",
+      "labels",
+      "sklearn"
+    ],
+    "key_concepts": [
+      "The code uses libraries like numpy and pandas for data manipulation.",
+      "The code iterates through a directory structure containing chest X-ray images.",
+      "The images are labeled as either 'NORMAL' or 'PNEUMONIA'.",
+      "A Pandas DataFrame is created to store the image paths and their corresponding labels.",
+      "Data splitting using train_test_split for model evaluation.",
+      "Label encoding using LabelEncoder to convert categorical labels into numerical values.",
+      "Building a sequential Keras model with dense layers and a sigmoid activation function for binary classification.",
+      "Using Adam optimizer with a learning rate of 0.001 for training the model.",
+      "Evaluating model performance using confusion matrix and classification report.",
+      "Monitoring training accuracy and validation accuracy using history object."
+    ],
+    "category": "Technology",
+    "difficulty": "Intermediate",
+    "content_preview": "Document: Chest X-Ray Classification using GLCM, Wavelet Transforms, and CLAHE",
+    "target_audience": "Professionals in technology field",
+    "industry": [
+      "Healthcare / Medical Imaging",
+      "Machine Learning / Data Science"
+    ],
+    "business_functions": [
+      "Research and Development",
+      "Strategy"
+    ],
+    "companies": [],
+    "technologies": [
+      "GLCM",
+      "Wavelet Transforms",
+      "CLAHE",
+      "Image Processing",
+      "scikit-learn"
+    ],
+    "processes": [
+      "Analysis",
+      "Implementation"
+    ],
+    "technical_terms": [
+      "Chest X-Ray",
+      "GLCM",
+      "Wavelet Transforms"
+    ],
+    "methodologies": [
+      "Dataframe Creation",
+      "Directory Traversal",
+      "File Filtering",
+      "Train-Test Split",
+      "Label Encoding"
+    ],
+    "tools_mentioned": [
+      "Numpy",
+      "Pandas",
+      "OS",
+      "Warnings",
+      "Python"
+    ],
+    "prerequisites": [
+      "Basic understanding of the subject matter"
+    ],
+    "learning_objectives": [
+      "Understand technology concepts"
+    ],
+    "use_cases": [
+      "Medical Image Classification",
+      "Disease Diagnosis",
+      "Binary Classification",
+      "Model Training and Evaluation"
+    ],
+    "benefits_mentioned": [
+      "Improved understanding",
+      "Practical insights"
+    ],
+    "challenges_addressed": [
+      "Knowledge gaps",
+      "Implementation challenges"
+    ],
+    "best_practices": [
+      "Follow systematic approaches"
+    ],
+    "questions_and_answers": [
+      "🔍 Q: What specific problem does this document aim to solve or highlight, and why does it matter now? A: This document explores The code uses libraries like numpy and pandas for data manipulation., which is critical in today's rapidly evolving technological landscape where organizations need practical guidance to stay competitive.",
+      "💡 Q: Which AI or data science methods or technologies are presented as game-changers, and in what context? A: The document highlights GLCM, Wavelet Transforms, CLAHE as transformative technologies in the context of Healthcare / Medical Imaging, demonstrating their potential to revolutionize traditional approaches and create new opportunities for innovation.",
+      "🧭 Q: How can the insights or use cases from this document be applied to real-world scenarios or decisions? A: The document provides practical applications including Medical Image Classification, Disease Diagnosis, enabling professionals to translate theoretical knowledge into actionable strategies that drive measurable business outcomes.",
+      "🌍 Q: What shifts or trends are emerging from the data or case studies, and how should a professional respond? A: The document reveals emerging trends in Chest X-Ray, GLCM, suggesting professionals should adapt by developing new competencies, embracing continuous learning, and positioning themselves at the forefront of industry transformation.",
+      "🔄 Q: Which traditional assumptions are challenged or redefined by the findings in this document? A: The document challenges traditional approaches to the code uses libraries like numpy and pandas for data manipulation., presenting evidence that conventional wisdom may be outdated and advocating for more innovative, data-driven approaches that better align with current market realities."
+    ]
+  },
+  {
     "id": "00c466ad4a315f48835c6a615016cd97",
     "filename": "choosing-a-good-chart-09.pdf",
     "title": "Chart Suggestions - A Thought-Starter",
